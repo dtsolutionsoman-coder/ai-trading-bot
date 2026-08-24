@@ -122,6 +122,11 @@ class LiveRunner:
                 getattr(self.strategy, "decisions", None), list
             ):
                 self.strategy.decisions = decisions
+            bar_index = raw.get("llm_bar_index")
+            if isinstance(bar_index, int) and isinstance(
+                getattr(self.strategy, "_bar_index", None), int
+            ):
+                self.strategy._bar_index = bar_index
             usage = raw.get("llm_usage")
             client = getattr(self.strategy, "client", None)
             if isinstance(usage, dict) and isinstance(
@@ -153,6 +158,12 @@ class LiveRunner:
         decisions = getattr(self.strategy, "decisions", None)
         if isinstance(decisions, list):
             payload["decisions"] = decisions[-500:]
+        # decision cadence counters are per-process; persist them so
+        # every-N-bars logic survives CI restarts (1 bar per run)
+        for attr, key in (("_bar_index", "llm_bar_index"),):
+            value = getattr(self.strategy, attr, None)
+            if isinstance(value, int):
+                payload[key] = value
         client = getattr(self.strategy, "client", None)
         usage = getattr(client, "usage", None)
         if isinstance(usage, dict):

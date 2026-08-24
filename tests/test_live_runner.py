@@ -128,6 +128,40 @@ def test_corrupt_state_recovered_not_fatal(tmp_path):
     assert len(corrupt_copies) == 1               # evidence preserved for debug
 
 
+def test_bar_index_survives_restarts_so_cadence_holds(tmp_path):
+    # heartbeat processes 1 bar per run: without persistence the counter
+    # resets and every-N-bars decisions never fire again
+    from bot.strategies.llm_analyst import LLMAnalystStrategy
+    from bot.core.risk import RiskConfig
+
+    bars = generate_sample_bars(62, seed=6)
+    # snapshots[i] = bars[:56+i]; each simulated CI run bootstraps on
+    # snapshot i and its cycle-fetch sees exactly one new bar
+    snapshots = [bars[: 56 + i] for i in range(7)]
+
+    def fresh_runner(i):
+        llm = FakeClient('{"action":"hold","conviction":0.1,"reason":"x"}')
+        strat = LLMAnalystStrategy(client=llm, every=4, lookback=20)
+        config = LiveConfig(symbol="BTC", interval="1h", poll_seconds=0.0,
+                            risk=RiskConfig(),
+                            state_path=tmp_path / "live_state.json")
+        portfolio = Portfolio(10_000.0)
+        venue = PaperVenue(portfolio, fee_bps=10.0, slippage_bps=5.0)
+        return LiveRunner(FakeDataClient(snapshots[i:]), venue, strat,
+                          config, log=lambda *_: None), llm
+
+    total_calls = 0
+    for i in range(5):  # five separate "CI runs", one new bar each
+        runner, llm = fresh_runner(i)
+        runner.load_state()
+        runner.bootstrap()
+        runner.run_one_cycle()
+        total_calls += llm.calls
+
+    # cumulative bar 4 fires a decision; bar 5 does not — exactly one call
+    assert total_calls == 1
+
+
 def test_decisions_and_usage_persist_across_restart(tmp_path):
     bars = generate_sample_bars(60, seed=4)
     next_bar = generate_sample_bars(61, seed=4)[-1]
