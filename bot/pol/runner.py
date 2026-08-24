@@ -118,10 +118,31 @@ class PolPaperRunner:
         path = self.config.state_path
         if not path.exists():
             return False
-        raw = json.loads(path.read_text(encoding="utf-8"))
-        load_portfolio_state(self.portfolio, raw["portfolio"])
-        self.decisions = raw.get("decisions", {})
-        return True
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+            load_portfolio_state(self.portfolio, raw["portfolio"])
+            self.decisions = raw.get("decisions", {})
+            if isinstance(getattr(self.llm, "usage", None), dict) and isinstance(
+                raw.get("llm_usage"), dict
+            ):
+                self.llm.usage.update(raw["llm_usage"])
+            return True
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError,
+                OSError) as exc:
+            import time as _time
+
+            backup = path.with_name(
+                path.name + f".corrupt-{int(_time.time())}"
+            )
+            try:
+                path.rename(backup)
+            except OSError:
+                pass
+            self.log(
+                f"state file unreadable ({exc}); moved to {backup.name}, "
+                f"starting fresh"
+            )
+            return False
 
     def save_state(self) -> None:
         path = self.config.state_path

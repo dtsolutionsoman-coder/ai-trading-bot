@@ -21,6 +21,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 20 # a hung run must not wedge the concurrency queue
     steps:
       - uses: actions/checkout@v4
 
@@ -64,11 +65,13 @@ jobs:
         run: python -m bot.pol.run --once
 
       - name: export market-data history
+        if: always() # commit whatever state exists even if a bot step failed
         run: |
           python -m bot.data.transfer --export output/market_data.db output/market_data.jsonl
           python -m bot.data.transfer --export output/market_data_mainnet.db output/market_data_mainnet.jsonl
 
       - name: commit state
+        if: always()
         run: |
           git config user.name "aitb-bot"
           git config user.email "actions@github.com"

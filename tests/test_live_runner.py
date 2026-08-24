@@ -112,6 +112,22 @@ def test_run_stops_at_max_bars(tmp_path):
     assert runner.bars_processed == 2
 
 
+def test_corrupt_state_recovered_not_fatal(tmp_path):
+    bars = generate_sample_bars(60, seed=8)
+    runner, _llm = make_runner(tmp_path, [bars],
+                               '{"action":"hold","conviction":0.0,"reason":"x"}')
+    cfg = runner.config
+    cfg.state_path.write_text('{"portfolio": {"cash": 12', encoding="utf-8")  # torn JSON
+
+    fresh, _llm2 = make_runner(tmp_path, [bars],
+                               '{"action":"hold","conviction":0.0,"reason":"x"}')
+    fresh.config.state_path = cfg.state_path  # same file
+    assert fresh.load_state() is False            # starts fresh, no crash
+    assert fresh.portfolio.equity({}) == 10_000.0
+    corrupt_copies = list(cfg.state_path.parent.glob("*.corrupt-*"))
+    assert len(corrupt_copies) == 1               # evidence preserved for debug
+
+
 def test_decisions_and_usage_persist_across_restart(tmp_path):
     bars = generate_sample_bars(60, seed=4)
     next_bar = generate_sample_bars(61, seed=4)[-1]

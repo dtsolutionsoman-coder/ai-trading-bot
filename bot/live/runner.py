@@ -71,57 +71,76 @@ class LiveRunner:
         return self.config.state_path.exists()
 
     def load_state(self) -> bool:
-        """Restore portfolio + progress. Returns False if no state exists."""
+        """Restore portfolio + progress. Returns False if no state exists.
+
+        A corrupt/torn state file is renamed .corrupt-<ts> and the book
+        starts fresh — one bad file must never crash the runner forever.
+        """
         path = self.config.state_path
         if not path.exists():
             return False
-        raw = json.loads(path.read_text(encoding="utf-8"))
-
-        # mutate in place: the venue may hold a reference to this portfolio
-        p = self.portfolio
-        p.starting_cash = float(raw["starting_cash"])
-        p.cash = float(raw["cash"])
-        p.positions = {
-            sym: Position(
-                symbol=sym,
-                qty=float(p_["qty"]),
-                avg_price=float(p_["avg_price"]),
-                realized_pnl=float(p_["realized_pnl"]),
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+            # mutate in place: the venue may hold a reference to this portfolio
+            p = self.portfolio
+            p.starting_cash = float(raw["starting_cash"])
+            p.cash = float(raw["cash"])
+            p.positions = {
+                sym: Position(
+                    symbol=sym,
+                    qty=float(p_["qty"]),
+                    avg_price=float(p_["avg_price"]),
+                    realized_pnl=float(p_["realized_pnl"]),
+                )
+                for sym, p_ in raw.get("positions", {}).items()
+            }
+            p.fills = [
+                Fill(
+                    ts=datetime.fromisoformat(f["ts"]),
+                    symbol=self.config.symbol,
+                    side=Side(f["side"]),
+                    qty=float(f["qty"]),
+                    price=float(f["price"]),
+                    fee=float(f["fee"]),
+                    realized=float(f["realized"]),
+                    reason=f.get("reason", ""),
+                )
+                for f in raw.get("recent_fills", [])
+            ]
+            p.equity_curve = [
+                (datetime.fromisoformat(ts), float(eq))
+                for ts, eq in raw.get("equity_curve", [])
+            ]
+            self.last_bar_ts = (
+                datetime.fromisoformat(raw["last_bar_ts"])
+                if raw.get("last_bar_ts") else None
             )
-            for sym, p_ in raw.get("positions", {}).items()
-        }
-        p.fills = [
-            Fill(
-                ts=datetime.fromisoformat(f["ts"]),
-                symbol=self.config.symbol,
-                side=Side(f["side"]),
-                qty=float(f["qty"]),
-                price=float(f["price"]),
-                fee=float(f["fee"]),
-                realized=float(f["realized"]),
-                reason=f.get("reason", ""),
-            )
-            for f in raw.get("recent_fills", [])
-        ]
-        p.equity_curve = [
-            (datetime.fromisoformat(ts), float(eq))
-            for ts, eq in raw.get("equity_curve", [])
-        ]
-        self.last_bar_ts = (
-            datetime.fromisoformat(raw["last_bar_ts"]) if raw.get("last_bar_ts") else None
-        )
-        self.bars_processed = int(raw.get("bars_processed", 0))
+            self.bars_processed = int(raw.get("bars_processed", 0))
 
-        decisions = raw.get("decisions")
-        if isinstance(decisions, list) and isinstance(
-            getattr(self.strategy, "decisions", None), list
-        ):
-            self.strategy.decisions = decisions
-        usage = raw.get("llm_usage")
-        client = getattr(self.strategy, "client", None)
-        if isinstance(usage, dict) and isinstance(getattr(client, "usage", None), dict):
-            client.usage.update(usage)
-        return True
+            decisions = raw.get("decisions")
+            if isinstance(decisions, list) and isinstance(
+                getattr(self.strategy, "decisions", None), list
+            ):
+                self.strategy.decisions = decisions
+            usage = raw.get("llm_usage")
+            client = getattr(self.strategy, "client", None)
+            if isinstance(usage, dict) and isinstance(
+                getattr(client, "usage", None), dict
+            ):
+                client.usage.update(usage)
+            return True
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError,
+                OSError) as exc:
+            backup = path.with_name(path.name + f".corrupt-{int(time.time())}")
+            try:
+                path.rename(backup)
+            except OSError:
+                pass
+            self.log(
+                f"state file unreadable ({exc}); moved to {backup.name}, "
+                f"starting fresh"
+            )
+            return False
 
     def save_state(self) -> None:
         path = self.config.state_path
