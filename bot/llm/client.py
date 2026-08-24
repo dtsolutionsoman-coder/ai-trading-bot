@@ -75,6 +75,8 @@ class LLMClient:
         # trip when a bot evaluates several markets in one cycle
         self.min_request_interval = max(float(min_request_interval), 0.0)
         self._last_request_at = 0.0
+        # running usage meter (per client instance) for cost transparency
+        self.usage = {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0}
 
     @classmethod
     def from_env(cls) -> "LLMClient":
@@ -163,6 +165,17 @@ class LLMClient:
             raise last_error or LLMError("LLM request failed")
 
         try:
-            return body["choices"][0]["message"]["content"]
+            content = body["choices"][0]["message"]["content"]
         except (KeyError, IndexError, TypeError) as exc:
             raise LLMError(f"unexpected LLM response shape: {body!r:.300}") from exc
+
+        usage = body.get("usage") or {}
+        try:
+            self.usage["calls"] += 1
+            self.usage["prompt_tokens"] += int(usage.get("prompt_tokens", 0))
+            self.usage["completion_tokens"] += int(
+                usage.get("completion_tokens", 0)
+            )
+        except (TypeError, ValueError):
+            pass
+        return content

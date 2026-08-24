@@ -111,6 +111,16 @@ class LiveRunner:
             datetime.fromisoformat(raw["last_bar_ts"]) if raw.get("last_bar_ts") else None
         )
         self.bars_processed = int(raw.get("bars_processed", 0))
+
+        decisions = raw.get("decisions")
+        if isinstance(decisions, list) and isinstance(
+            getattr(self.strategy, "decisions", None), list
+        ):
+            self.strategy.decisions = decisions
+        usage = raw.get("llm_usage")
+        client = getattr(self.strategy, "client", None)
+        if isinstance(usage, dict) and isinstance(getattr(client, "usage", None), dict):
+            client.usage.update(usage)
         return True
 
     def save_state(self) -> None:
@@ -120,7 +130,15 @@ class LiveRunner:
             "saved_at": datetime.now().isoformat(timespec="seconds"),
             "symbol": self.config.symbol,
             "interval": self.config.interval,
-            "starting_cash": self.portfolio.starting_cash,
+        }
+        decisions = getattr(self.strategy, "decisions", None)
+        if isinstance(decisions, list):
+            payload["decisions"] = decisions[-500:]
+        client = getattr(self.strategy, "client", None)
+        usage = getattr(client, "usage", None)
+        if isinstance(usage, dict):
+            payload["llm_usage"] = dict(usage)
+        payload.update({
             "cash": self.portfolio.cash,
             "positions": {
                 sym: {
@@ -148,7 +166,8 @@ class LiveRunner:
             ],
             "last_bar_ts": self.last_bar_ts.isoformat() if self.last_bar_ts else None,
             "bars_processed": self.bars_processed,
-        }
+            "starting_cash": self.portfolio.starting_cash,
+        })
         path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
     # ----- trading pipeline --------------------------------------------------

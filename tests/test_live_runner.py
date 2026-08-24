@@ -112,6 +112,25 @@ def test_run_stops_at_max_bars(tmp_path):
     assert runner.bars_processed == 2
 
 
+def test_decisions_and_usage_persist_across_restart(tmp_path):
+    bars = generate_sample_bars(60, seed=4)
+    next_bar = generate_sample_bars(61, seed=4)[-1]
+    runner, llm = make_runner(tmp_path, [bars, bars + [next_bar]],
+                              '{"action":"hold","conviction":0.5,"reason":"calm"}')
+    llm.usage = {"calls": 3, "prompt_tokens": 600, "completion_tokens": 300}
+    runner.bootstrap()
+    runner.run_one_cycle()  # one hold decision gets logged
+    assert runner.strategy.decisions, "decision should have been recorded"
+
+    runner2, llm2 = make_runner(tmp_path, [bars + [next_bar]],
+                                '{"action":"hold","conviction":0.5,"reason":"calm"}')
+    llm2.usage = {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0}
+    assert runner2.load_state() is True
+    assert runner2.strategy.decisions == runner.strategy.decisions
+    assert llm2.usage["calls"] == 3
+    assert llm2.usage["prompt_tokens"] == 600
+
+
 def test_reset_ignores_existing_state(tmp_path):
     bars = generate_sample_bars(60, seed=3)
     next_bar = generate_sample_bars(61, seed=3)[-1]

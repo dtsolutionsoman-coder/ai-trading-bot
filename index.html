@@ -59,7 +59,8 @@
 const BOOKS = [
   ["race_sma.json", "Race — SMA control"],
   ["live_llm.json", "Race — GLM AI"],
-  ["live_carry.json", "Race — Funding Carry"],
+  ["live_carry.json", "Race — Carry BTC"],
+  ["live_carrycat.json", "Race — Carry CASHCAT"],
   ["pol_state.json", "Polymarket paper"],
   ["sol_sniper_state.json", "Solana sniper paper"],
 ];
@@ -78,7 +79,21 @@ function normalize(data) {
   const equity = curve.length ? curve[curve.length - 1][1]
                 : (p.cash != null ? p.cash : null);
   return { curve, fills, positions, decisions, starting, equity,
+           usage: data.llm_usage || null,
            saved: data.saved_at || "" };
+}
+
+function evidence(fills) {
+  const closed = fills.filter(f => Math.abs(f.realized || 0) > 1e-9).length;
+  if (closed < 20) return `TOO EARLY (${closed} trades)`;
+  if (closed < 100) return `weak-directional (${closed} trades)`;
+  return `statistical (${closed} trades)`;
+}
+
+function usageCost(u) {
+  if (!u || !u.calls) return null;
+  const usd = (u.prompt_tokens * 1.4 + u.completion_tokens * 4.4) / 1e6;
+  return `${u.calls} calls · ${usd < 0.01 ? "<$0.01" : "$" + usd.toFixed(2)}`;
 }
 
 function render(n) {
@@ -89,10 +104,13 @@ function render(n) {
     ["Return", ret != null ? (100 * ret).toFixed(2) + "%" : "—",
      ret != null && ret >= 0 ? "pos" : "neg"],
     ["Positions", String(open)], ["Fills", String(n.fills.length)],
+    ["Evidence", evidence(n.fills)],
   ];
+  const cost = usageCost(n.usage);
+  if (cost) cards.push(["GLM cost", cost]);
   $("cards").innerHTML = cards.map(([l, v, c]) =>
     `<div class="card ${c || ""}"><div class="label">${l}</div>
-     <div class="value">${v}</div></div>`).join("");
+     <div class="value" style="font-size:15px">${v}</div></div>`).join("");
 
   const curve = n.curve;
   const svg = $("chart");
@@ -131,12 +149,20 @@ function render(n) {
 
   if (n.decisions) {
     $("decisionsbox").style.display = "";
-    const rows = Object.entries(n.decisions).slice(-15).reverse().map(([id, d]) => `<tr>
-      <td>${(d.question || id).slice(0, 55)}</td>
-      <td class="num">${d.probability != null ? d.probability.toFixed(2) : "—"}</td>
-      <td class="num">${d.market_price != null ? d.market_price.toFixed(2) : "—"}</td></tr>`);
-    $("decisions").innerHTML = "<tr><th>Market</th><th class='num'>LLM P</th>"
-      + "<th class='num'>Mkt P</th></tr>" + rows.join("");
+    const isList = Array.isArray(n.decisions);
+    const rows = isList
+      ? n.decisions.slice(-15).reverse().map(d => `<tr>
+          <td>${(d.ts || "").replace("T", " ").slice(5, 16)}</td>
+          <td>${d.action}</td>
+          <td class="num">${Number(d.conviction || 0).toFixed(2)}</td>
+          <td>${(d.reason || "").slice(0, 60)}</td></tr>`)
+      : Object.entries(n.decisions).slice(-15).reverse().map(([id, d]) => `<tr>
+          <td>${(d.question || id).slice(0, 55)}</td>
+          <td class="num">${d.probability != null ? d.probability.toFixed(2) : "—"}</td>
+          <td class="num">${d.market_price != null ? d.market_price.toFixed(2) : "—"}</td></tr>`);
+    $("decisions").innerHTML = isList
+      ? "<tr><th>Time</th><th>Action</th><th class='num'>Conviction</th><th>Reason</th></tr>" + rows.join("")
+      : "<tr><th>Market</th><th class='num'>LLM P</th><th class='num'>Mkt P</th></tr>" + rows.join("");
   }
 }
 

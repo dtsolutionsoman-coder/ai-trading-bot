@@ -33,7 +33,7 @@ jobs:
       - name: collector
         run: |
           python -m bot.data.run --coins BTC,ETH,SOL --once
-          python -m bot.data.run --coins BTC --once --network mainnet --no-funding --db output/market_data_mainnet.db
+          python -m bot.data.run --coins BTC,CASHCAT --once --network mainnet --no-funding --db output/market_data_mainnet.db
 
       - name: race - sma control
         run: python -m bot.live.run --strategy sma_cross --symbol BTC --interval 15m --once --state output/race_sma.json
@@ -48,6 +48,9 @@ jobs:
 
       - name: race - funding carry
         run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carry.json
+
+      - name: race - funding carry CASHCAT (hot funding)
+        run: python -m bot.live.run --strategy funding_carry --symbol CASHCAT --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carrycat.json
 
       - name: polymarket
         env:

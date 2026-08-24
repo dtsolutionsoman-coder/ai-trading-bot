@@ -132,6 +132,8 @@ class PolPaperRunner:
             "portfolio": portfolio_state_dict(self.portfolio),
             "decisions": self.decisions,
         }
+        if isinstance(getattr(self.llm, "usage", None), dict):
+            payload["llm_usage"] = dict(self.llm.usage)
         path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
     # ----- helpers -----------------------------------------------------------

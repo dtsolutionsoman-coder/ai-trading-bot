@@ -157,3 +157,22 @@ def test_chat_paces_requests(monkeypatch):
     c.chat("s", "u")                      # second call: must pace ~8s
     pacing = [s for s in sleeps if 7.0 < s <= 8.0]
     assert pacing, f"expected pacing sleep, got {sleeps}"
+
+
+def test_usage_accumulates_from_responses(monkeypatch):
+    monkeypatch.setattr(_time, "sleep", lambda s: None)
+
+    calls = {"n": 0}
+
+    def fake_open(url, **kwargs):
+        calls["n"] += 1
+        return FakeResponse({
+            "choices": [{"message": {"content": "ok"}}],
+            "usage": {"prompt_tokens": 200, "completion_tokens": 100},
+        })
+
+    monkeypatch.setattr(client_module, "safe_urlopen", fake_open)
+    c = make_client(min_request_interval=0.0)
+    c.chat("s", "u")
+    c.chat("s", "u")
+    assert c.usage == {"calls": 2, "prompt_tokens": 400, "completion_tokens": 200}
