@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-24T20:50:54",
+  "saved_at": "2026-08-24T21:30:14",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 10000.0,
@@ -570,6 +570,10 @@
       [
         "2026-08-24T20:50:11.203609",
         10000.0
+      ],
+      [
+        "2026-08-24T21:29:49.085286",
+        10000.0
       ]
     ]
   },
@@ -678,11 +682,18 @@
       "market_price": 0.145,
       "question": "Will Fulham FC vs. Chelsea FC end in a draw?",
       "ts": "2026-08-24T20:50:11"
+    },
+    "665374": {
+      "probability": 0.1,
+      "reason": "A full-scale U.S. ground invasion of Iran remains unlikely given the enormous costs and post-Iraq/Afghanistan reluctance, though escalation risk from nuclear tensions keeps some probability above zero",
+      "market_price": 0.165,
+      "question": "Will the U.S. invade Iran before 2027?",
+      "ts": "2026-08-24T21:29:49"
     }
   },
   "llm_usage": {
-    "calls": 4,
-    "prompt_tokens": 657,
-    "completion_tokens": 2163
+    "calls": 5,
+    "prompt_tokens": 820,
+    "completion_tokens": 2937
   }
 }
