@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-24T23:15:56",
+  "saved_at": "2026-08-24T23:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -34,7 +34,7 @@
       "reason": "Extreme funding (792% ann.) and perp premium favor keeping the small short to collect funding, but the mild uptrend and RSI 64 argue against adding risk."
     }
   ],
-  "llm_bar_index": 8,
+  "llm_bar_index": 9,
   "llm_usage": {
     "calls": 5,
     "prompt_tokens": 1724,
@@ -219,9 +219,13 @@
     [
       "2026-08-24T23:00:00",
       9990.36
+    ],
+    [
+      "2026-08-24T23:15:00",
+      9990.43
     ]
   ],
-  "last_bar_ts": "2026-08-24T23:00:00",
-  "bars_processed": 40,
+  "last_bar_ts": "2026-08-24T23:15:00",
+  "bars_processed": 41,
   "starting_cash": 10000.0
 }
