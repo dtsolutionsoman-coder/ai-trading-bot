@@ -58,6 +58,47 @@ def test_llm_prompt_flat_has_no_position_keys():
     assert "current_position" not in llm.calls[0]
 
 
+# ---------- interval-aware feature windows ----------
+
+def _features_from_prompt(prompt):
+    import json as _json
+    payload = prompt.split("Market features JSON:\n", 1)[1].split("\n\n", 1)[0]
+    return _json.loads(payload)
+
+
+def test_windows_scale_with_bars_per_hour():
+    s = LLMAnalystStrategy(client=None, every=1, bars_per_hour=4.0)
+    assert s.n_1h == 4 and s.n_6h == 24 and s.n_24h == 96
+    assert s.sma_fast == 48 and s.sma_slow == 192  # true 12h / 48h SMAs
+    assert s.lookback >= 192
+
+    s1h = LLMAnalystStrategy(client=None, every=1)  # 1h bars, default
+    assert s1h.n_24h == 24 and s1h.sma_slow == 48
+
+
+def test_chg_24h_means_24_hours_on_15m_bars():
+    # flat at 100; 96 bars ago price was 105; now 110
+    # -> true 24h change = 110/105-1 = +4.76% (NOT the 6h +10%)
+    closes = [100.0] * 200
+    closes[-97] = 105.0
+    closes[-1] = 110.0
+    bars = [
+        Bar(datetime(2025, 1, 1, 0, i * 15 // 60, (i * 15) % 60),
+            c, c, c, c, 1.0)
+        for i, c in enumerate(closes)
+    ]
+    llm = FakeLLM('{"action":"hold","conviction":0.0,"reason":"x"}')
+    strat = LLMAnalystStrategy(client=llm, every=1, bars_per_hour=4.0)
+    ctx = BarContext(ts=bars[-1].ts, symbol="BTC", bar=bars[-1],
+                     history=bars, portfolio=Portfolio(10_000.0), equity=10_000.0)
+    strat.on_bar(ctx)
+    features = _features_from_prompt(llm.calls[0])
+    assert features["chg_24h_pct"] == pytest.approx(
+        (110.0 / 105.0 - 1) * 100, abs=0.01
+    )
+    assert "sma12h_sma48h_ratio" in features
+
+
 # ---------- funding carry ----------
 
 def test_carry_shorts_extreme_positive_funding():

@@ -22,6 +22,11 @@ from ..venues.hyperliquid import INTERVAL_MS, HyperliquidInfoClient
 from ..venues.paper import PaperVenue
 from .runner import LiveConfig, LiveRunner
 
+_BARS_PER_HOUR = {
+    "1m": 60.0, "5m": 12.0, "15m": 4.0, "1h": 1.0,
+    "4h": 0.25, "1d": 1.0 / 24.0,
+}
+
 
 def build_strategy(name: str) -> Strategy:
     if name == "sma_cross":
@@ -112,6 +117,7 @@ def main(argv: list[str] | None = None) -> int:
             client=LLMClient.from_env(),
             context_provider=context_provider,
             every=args.every,
+            bars_per_hour=_BARS_PER_HOUR.get(args.interval, 1.0),
         )
     elif args.strategy == "funding_carry":
         from ..strategies.funding_carry import FundingCarryStrategy

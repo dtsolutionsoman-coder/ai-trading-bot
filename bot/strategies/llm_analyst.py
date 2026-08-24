@@ -101,19 +101,41 @@ class LLMAnalystStrategy(Strategy):
         self,
         client: LLMClient,
         every: int = 6,
-        lookback: int = 96,
+        lookback: int | None = None,
         allow_short: bool = True,
         position_frac: float = 1.0,
         context_provider: Callable[[str], dict] | None = None,
+        bars_per_hour: float = 1.0,
     ):
         if every < 1:
             raise ValueError("every must be >= 1")
         self.client = client
         self.every = every
-        self.lookback = lookback
         self.allow_short = allow_short
         self.position_frac = position_frac
         self.context_provider = context_provider  # optional richer data feed
+
+        # windows are expressed in HOURS and converted to bars, so feature
+        # names stay truthful on any interval (1h, 15m, 5m, ...)
+        bph = max(float(bars_per_hour), 1.0 / 60.0)
+        self.bars_per_hour = bph
+        self.n_1h = max(1, round(1 * bph))
+        self.n_6h = max(self.n_1h, round(6 * bph))
+        self.n_24h = max(self.n_6h, round(24 * bph))
+        self.sma_fast = max(2, round(12 * bph))   # 12-hour SMA
+        self.sma_slow = max(self.sma_fast + 1, round(48 * bph))  # 48-hour SMA
+        self.vol_window = self.n_24h
+        if lookback is None:
+            lookback = max(96, self.sma_slow, self.n_24h + 1)
+        # a caller-provided short lookback shrinks the windows to fit
+        # (features stay truthful relative to the available history)
+        self.n_24h = min(self.n_24h, max(1, lookback - 1))
+        self.n_6h = min(self.n_6h, self.n_24h)
+        self.n_1h = min(self.n_1h, self.n_6h)
+        self.sma_slow = min(self.sma_slow, max(4, lookback))
+        self.sma_fast = min(self.sma_fast, max(2, self.sma_slow - 1))
+        self.vol_window = self.n_24h
+        self.lookback = lookback
         self._bar_index = 0
         self.decisions: list[dict] = []  # audit log of every parsed decision
 
@@ -126,12 +148,14 @@ class LLMAnalystStrategy(Strategy):
         closes = [b.close for b in hist[-self.lookback :]]
         features = {
             "price": closes[-1],
-            "chg_1h_pct": round(_pct_change(closes, 1) * 100, 3),
-            "chg_6h_pct": round(_pct_change(closes, 6) * 100, 3),
-            "chg_24h_pct": round(_pct_change(closes, 24) * 100, 3),
-            "sma12_sma48_ratio": round(sma(closes, 12) / sma(closes, 48), 4),
-            "rsi14": round(_rsi(closes, 14), 1),
-            "vol_24h_pct": round(_volatility(closes, 24) * 100, 3),
+            "chg_1h_pct": round(_pct_change(closes, self.n_1h) * 100, 3),
+            "chg_6h_pct": round(_pct_change(closes, self.n_6h) * 100, 3),
+            "chg_24h_pct": round(_pct_change(closes, self.n_24h) * 100, 3),
+            "sma12h_sma48h_ratio": round(
+                sma(closes, self.sma_fast) / sma(closes, self.sma_slow), 4
+            ),
+            "rsi14": round(_rsi(closes, 14), 1),  # standard 14-period RSI
+            "vol_24h_pct": round(_volatility(closes, self.vol_window) * 100, 3),
         }
         if self.context_provider is not None:
             try:  # data-layer problems must never stop trading logic
