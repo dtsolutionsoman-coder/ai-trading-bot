@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-24T19:17:04",
+  "saved_at": "2026-08-24T20:50:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 10000.0,
@@ -566,6 +566,10 @@
       [
         "2026-08-24T19:16:42.878985",
         10000.0
+      ],
+      [
+        "2026-08-24T20:50:11.203609",
+        10000.0
       ]
     ]
   },
@@ -667,11 +671,18 @@
       "market_price": 0.075,
       "question": "Will the Iranian regime fall before 2027?",
       "ts": "2026-08-24T19:16:42"
+    },
+    "3505978": {
+      "probability": 0.21,
+      "reason": "Premier League draws typically occur ~24% of the time, well above the market's 14.5%, though fixture/resolution uncertainty justifies some discount.",
+      "market_price": 0.145,
+      "question": "Will Fulham FC vs. Chelsea FC end in a draw?",
+      "ts": "2026-08-24T20:50:11"
     }
   },
   "llm_usage": {
-    "calls": 3,
-    "prompt_tokens": 493,
-    "completion_tokens": 844
+    "calls": 4,
+    "prompt_tokens": 657,
+    "completion_tokens": 2163
   }
 }

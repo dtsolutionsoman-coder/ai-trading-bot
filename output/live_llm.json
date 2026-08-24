@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-24T19:16:37",
+  "saved_at": "2026-08-24T20:50:06",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -14,16 +14,38 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Price action and RSI are neutral while extreme funding and perp premium signal crowded longs, so no edge until price confirms a direction."
+    },
+    {
+      "ts": "2026-08-24T20:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme annualized funding and elevated perp premium signal dangerously crowded longs while 1h/6h momentum turns negative, favoring a small contrarian short."
     }
   ],
   "llm_usage": {
-    "calls": 2,
-    "prompt_tokens": 668,
-    "completion_tokens": 988
+    "calls": 3,
+    "prompt_tokens": 1003,
+    "completion_tokens": 1917
   },
-  "cash": 10000.0,
-  "positions": {},
-  "recent_fills": [],
+  "cash": 12496.25125,
+  "positions": {
+    "BTC": {
+      "qty": -0.03148892219717103,
+      "avg_price": 79353.30350000001,
+      "realized_pnl": 0.0
+    }
+  },
+  "recent_fills": [
+    {
+      "ts": "2026-08-24T20:00:00",
+      "side": "sell",
+      "qty": 0.03148892219717103,
+      "price": 79353.30350000001,
+      "fee": 2.49875,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.30: Extreme annualized funding and elevated perp premium signal dangerously crowded longs while 1h/6h momentum turns negative, favoring a small contrarian short. [downsized to risk cap]"
+    }
+  ],
   "equity_curve": [
     [
       "2026-08-24T13:15:00",
@@ -120,9 +142,33 @@
     [
       "2026-08-24T19:00:00",
       10000.0
+    ],
+    [
+      "2026-08-24T19:15:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T19:30:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T19:45:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T20:00:00",
+      9996.25
+    ],
+    [
+      "2026-08-24T20:15:00",
+      9998.58
+    ],
+    [
+      "2026-08-24T20:30:00",
+      9992.66
     ]
   ],
-  "last_bar_ts": "2026-08-24T19:00:00",
-  "bars_processed": 24,
+  "last_bar_ts": "2026-08-24T20:30:00",
+  "bars_processed": 30,
   "starting_cash": 10000.0
 }
