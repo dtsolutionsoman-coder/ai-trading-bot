@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-24T22:16:02",
+  "saved_at": "2026-08-24T22:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -28,7 +28,7 @@
       "reason": "Extreme funding and perp premium favor keeping the small short for carry, but mildly bullish trend and slight loss cap conviction."
     }
   ],
-  "llm_bar_index": 4,
+  "llm_bar_index": 5,
   "llm_usage": {
     "calls": 4,
     "prompt_tokens": 1363,
@@ -197,9 +197,13 @@
     [
       "2026-08-24T22:00:00",
       9994.36
+    ],
+    [
+      "2026-08-24T22:15:00",
+      9991.78
     ]
   ],
-  "last_bar_ts": "2026-08-24T22:00:00",
-  "bars_processed": 36,
+  "last_bar_ts": "2026-08-24T22:15:00",
+  "bars_processed": 37,
   "starting_cash": 10000.0
 }
