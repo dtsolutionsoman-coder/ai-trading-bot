@@ -1,8 +1,26 @@
 {
-  "saved_at": "2026-08-24T17:04:43",
+  "saved_at": "2026-08-24T19:16:37",
   "symbol": "BTC",
   "interval": "15m",
-  "starting_cash": 10000.0,
+  "decisions": [
+    {
+      "ts": "2026-08-24T17:45:00",
+      "action": "hold",
+      "conviction": 0.2,
+      "reason": "Oversold RSI hints at a bounce but extreme positive funding and perp premium signal crowded longs; conflicting signals warrant staying flat."
+    },
+    {
+      "ts": "2026-08-24T18:45:00",
+      "action": "hold",
+      "conviction": 0.1,
+      "reason": "Price action and RSI are neutral while extreme funding and perp premium signal crowded longs, so no edge until price confirms a direction."
+    }
+  ],
+  "llm_usage": {
+    "calls": 2,
+    "prompt_tokens": 668,
+    "completion_tokens": 988
+  },
   "cash": 10000.0,
   "positions": {},
   "recent_fills": [],
@@ -66,8 +84,45 @@
     [
       "2026-08-24T16:45:00",
       10000.0
+    ],
+    [
+      "2026-08-24T17:00:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T17:15:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T17:30:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T17:45:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T18:00:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T18:15:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T18:30:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T18:45:00",
+      10000.0
+    ],
+    [
+      "2026-08-24T19:00:00",
+      10000.0
     ]
   ],
-  "last_bar_ts": "2026-08-24T16:45:00",
-  "bars_processed": 15
+  "last_bar_ts": "2026-08-24T19:00:00",
+  "bars_processed": 24,
+  "starting_cash": 10000.0
 }

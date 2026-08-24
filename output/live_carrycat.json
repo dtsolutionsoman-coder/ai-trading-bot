@@ -1,0 +1,12 @@
+{
+  "saved_at": "2026-08-24T19:16:42",
+  "symbol": "CASHCAT",
+  "interval": "15m",
+  "cash": 10000.0,
+  "positions": {},
+  "recent_fills": [],
+  "equity_curve": [],
+  "last_bar_ts": "2026-08-24T19:00:00",
+  "bars_processed": 0,
+  "starting_cash": 10000.0
+}

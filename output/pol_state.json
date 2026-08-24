@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-24T17:04:54",
+  "saved_at": "2026-08-24T19:17:04",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 10000.0,
@@ -562,6 +562,10 @@
       [
         "2026-08-24T17:04:47.193174",
         10000.0
+      ],
+      [
+        "2026-08-24T19:16:42.878985",
+        10000.0
       ]
     ]
   },
@@ -642,6 +646,32 @@
       "market_price": 0.305,
       "question": "Will Bologna FC 1909 win on 2026-08-24?",
       "ts": "2026-08-24T17:04:47"
+    },
+    "3507994": {
+      "probability": 0.13,
+      "reason": "No reliable information on Osasuna's opponent or form for this August 2026 fixture, so staying close to the market-implied price.",
+      "market_price": 0.125,
+      "question": "Will CA Osasuna win on 2026-08-24?",
+      "ts": "2026-08-24T19:16:42"
+    },
+    "3505968": {
+      "probability": 0.11,
+      "reason": "No fixture details available for this distant date; the low market price implies a tough matchup, so staying close to market with slight adjustment.",
+      "market_price": 0.105,
+      "question": "Will Fulham FC win on 2026-08-24?",
+      "ts": "2026-08-24T19:16:42"
+    },
+    "663583": {
+      "probability": 0.07,
+      "reason": "The regime has survived wars, sanctions, and repeated uprisings; despite elevated risks from the Israel conflict and Khamenei's succession, regime collapse within ~18 months remains unlikely, consiste",
+      "market_price": 0.075,
+      "question": "Will the Iranian regime fall before 2027?",
+      "ts": "2026-08-24T19:16:42"
     }
+  },
+  "llm_usage": {
+    "calls": 3,
+    "prompt_tokens": 493,
+    "completion_tokens": 844
   }
 }
