@@ -4,7 +4,10 @@ name: bots
 # (--once), state files are committed back, GitHub Pages shows the snapshot.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # GitHub drops many scheduled triggers under load (observed: */15 fired
+    # every ~2h). Denser schedule compensates; net effect ~ every 15-30 min.
+    # Each run catches up ALL bars missed, so evidence is never lost.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {} # manual "Run workflow" button
 
 # never two runs writing state at once
