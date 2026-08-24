@@ -1,7 +1,7 @@
 import json
 from datetime import datetime, timedelta
 
-from bot.report import evidence_strength, summarize
+from bot.report import evidence_strength, funding_accrued, summarize
 
 
 def make_state(fills=None, curve=None, decisions=None, saved="2026-08-25T12:00:00"):
@@ -56,3 +56,26 @@ def test_evidence_strength_thresholds():
     assert "TOO EARLY" in evidence_strength(7)
     assert "WEAK" in evidence_strength(50)
     assert "STATISTICAL" in evidence_strength(150)
+
+
+def test_funding_accrued_uses_quarter_hour_accrual(tmp_path):
+    # dt is 0.25h per snapshot: 1 unit short @100, funding 0.001/h
+    # -> 0.025 per snapshot
+    jsonl = tmp_path / "ctx.jsonl"
+    t0 = datetime(2026, 8, 24, 12, 0)
+    rows = []
+    for k in range(1, 5):  # four 15-min snapshots = one hour total
+        rows.append(json.dumps({"k": "c", "v": [
+            int(t0.timestamp() * 1000) + k * 900_000, "BTC", 100.0, 100.0,
+            0.001, 1.0, 1.0, 0.0]}))
+    jsonl.write_text("\n".join(rows) + "\n", encoding="utf-8")
+    state = {
+        "symbol": "BTC",
+        "portfolio": {"fills": [
+            {"ts": t0.isoformat(), "symbol": "BTC", "side": "sell",
+             "qty": 1.0, "price": 100.0, "fee": 0.0, "realized": 0.0,
+             "reason": "carry"},
+        ]},
+    }
+    # 4 snapshots x (1 * 100 * 0.001 * 0.25) = 0.10 = one full hour of funding
+    assert funding_accrued(state, str(jsonl)) == 0.1

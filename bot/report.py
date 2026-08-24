@@ -91,6 +91,57 @@ def evidence_strength(closed_trades: int) -> str:
     return f"STATISTICAL — {closed_trades} closed trades: this is a real verdict"
 
 
+def funding_accrued(state: dict, context_jsonl: str) -> float | None:
+    """Estimated funding payments a book earned (paper equity MISSES these).
+
+    Reconstructs the signed position over time from fills, walks the funding
+    history, and accrues `-qty x mark x rate x dt` per snapshot (shorts
+    receive positive funding). 15-minute snapshots, hourly rates -> dt=0.25h.
+    """
+    path = Path(context_jsonl)
+    if not path.exists():
+        return None
+    portfolio = state.get("portfolio", state)
+    symbol = state.get("symbol")
+    if not symbol:
+        return None
+    fills = sorted(
+        _fills_from_dicts(portfolio.get("fills", portfolio.get("recent_fills", []))),
+        key=lambda f: f.ts,
+    )
+    if not fills:
+        return 0.0
+
+    events = []  # (ts_ms, qty_delta_signed, price)
+    for f in fills:
+        signed = f.qty if f.side is Side.BUY else -f.qty
+        events.append((f.ts.timestamp() * 1000, signed, f.price))
+
+    accrued = 0.0
+    qty = 0.0
+    i = 0
+    with path.open("r", encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                rec = json.loads(line)
+                if rec.get("k") != "c":
+                    continue
+                v = rec["v"]
+                if v[1] != symbol:
+                    continue
+                ts_ms, _coin, mark = int(v[0]), v[1], float(v[2] or 0.0)
+                funding = float(v[4] or 0.0)
+            except (json.JSONDecodeError, KeyError, IndexError, TypeError,
+                    ValueError):
+                continue
+            while i < len(events) and events[i][0] <= ts_ms:
+                qty += events[i][1]
+                i += 1
+            if qty != 0.0 and mark > 0.0:
+                accrued += -qty * mark * funding * 0.25  # 15min of hourly rate
+    return accrued
+
+
 def main(argv: list[str] | None = None) -> int:
     print("=" * 68)
     print("STATE OF THE RACE — paper evidence so far")
@@ -120,6 +171,11 @@ def main(argv: list[str] | None = None) -> int:
         if s["decisions"]:
             print(f"  avg |edge|    {s['avg_abs_edge']:.3f} "
                   f"(how far GLM dares to disagree)")
+        if "carry" in path:
+            funding = funding_accrued(state, "output/market_data_mainnet.jsonl")
+            if funding is not None:
+                print(f"  funding est.  {funding:+.2f} USD collected "
+                      f"(NOT included in the equity curve above)")
         print(f"  last saved    {s['last_save'] or '?'}")
         print(f"  verdict       {evidence_strength(s['closed_trades'])}")
 
