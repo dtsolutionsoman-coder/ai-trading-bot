@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-24T21:29:46",
+  "saved_at": "2026-08-24T21:45:22",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -22,6 +22,7 @@
       "reason": "Extreme annualized funding and elevated perp premium signal dangerously crowded longs while 1h/6h momentum turns negative, favoring a small contrarian short."
     }
   ],
+  "llm_bar_index": 2,
   "llm_usage": {
     "calls": 3,
     "prompt_tokens": 1003,
@@ -174,9 +175,17 @@
     [
       "2026-08-24T21:00:00",
       9992.19
+    ],
+    [
+      "2026-08-24T21:15:00",
+      9993.32
+    ],
+    [
+      "2026-08-24T21:30:00",
+      9993.86
     ]
   ],
-  "last_bar_ts": "2026-08-24T21:00:00",
-  "bars_processed": 32,
+  "last_bar_ts": "2026-08-24T21:30:00",
+  "bars_processed": 34,
   "starting_cash": 10000.0
 }
