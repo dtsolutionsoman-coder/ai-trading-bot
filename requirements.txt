@@ -1,0 +1,3 @@
+# Core is stdlib-only — nothing to install.
+# Dev/test only:
+pytest>=8

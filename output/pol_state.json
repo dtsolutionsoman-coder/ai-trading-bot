@@ -1,0 +1,480 @@
+{
+  "bot": "polymarket-paper",
+  "saved_at": "2026-08-24T18:50:48",
+  "portfolio": {
+    "starting_cash": 10000.0,
+    "cash": 10000.0,
+    "positions": {},
+    "fills": [],
+    "equity_curve": [
+      [
+        "2026-08-24T15:53:07.548619",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:08:04.387773",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:09:05.104562",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:10:05.341680",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:11:05.565512",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:12:06.172773",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:13:06.473633",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:14:06.614770",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:15:06.759441",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:16:06.998256",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:17:07.639271",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:18:07.780128",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:19:07.931615",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:20:08.096890",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:21:08.250319",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:22:08.918997",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:22:23.593837",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:26:31.056349",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:28:42.520774",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:30:26.640751",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:32:04.297509",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:33:17.614225",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:34:17.870689",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:35:18.002658",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:36:18.181380",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:37:18.353254",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:38:19.024067",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:39:19.197070",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:40:19.360251",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:41:19.541890",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:42:19.729008",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:43:20.419974",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:44:20.588258",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:45:20.764278",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:46:20.922412",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:47:21.082911",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:48:21.721978",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:49:21.934352",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:50:22.114220",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:51:22.300177",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:52:22.471950",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:53:23.105319",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:54:23.271789",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:55:23.437269",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:56:23.606548",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:57:23.761145",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:58:24.409911",
+        10000.0
+      ],
+      [
+        "2026-08-24T17:59:24.572178",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:00:24.770469",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:01:24.929745",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:02:25.085016",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:03:25.735844",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:04:25.902876",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:05:26.068588",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:06:26.260497",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:07:26.438853",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:08:27.106455",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:09:27.281231",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:10:27.451180",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:11:27.609625",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:12:27.775911",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:13:28.542003",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:14:28.718431",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:15:28.881133",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:16:29.065293",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:17:29.265428",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:18:29.966578",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:19:30.138687",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:20:30.294224",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:21:30.457202",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:22:30.654220",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:23:41.203928",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:24:41.355127",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:25:41.513703",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:26:41.685658",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:27:41.856489",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:28:42.455888",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:29:42.630339",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:30:42.792514",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:31:42.970612",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:32:43.131315",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:33:43.792277",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:34:43.952202",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:35:44.142223",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:36:44.364830",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:37:44.532584",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:38:45.242464",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:39:45.420785",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:40:45.595765",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:41:45.789588",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:42:45.989903",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:43:46.708040",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:44:46.855270",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:45:47.024166",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:46:47.188900",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:47:47.346018",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:48:48.039627",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:49:48.250615",
+        10000.0
+      ],
+      [
+        "2026-08-24T18:50:48.464731",
+        10000.0
+      ]
+    ]
+  },
+  "decisions": {
+    "3505990": {
+      "probability": 0.5,
+      "reason": "No reliable information on the fixture, opponent, or team form for a match in August 2026, so staying near the market price.",
+      "market_price": 0.505,
+      "question": "Will Chelsea FC win on 2026-08-24?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "3508012": {
+      "probability": 0.41,
+      "reason": "No specific match details available for this future fixture; staying calibrated near the market price.",
+      "market_price": 0.405,
+      "question": "Will M\u00e1laga CF win on 2026-08-24?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "2252244": {
+      "probability": 0.67,
+      "reason": "Hold is the modal FOMC outcome and by September 2026 the Fed may be near the end of its easing cycle, but genuine uncertainty about the 2025-2026 economic path keeps me close to the market price.",
+      "market_price": 0.675,
+      "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "2252243": {
+      "probability": 0.03,
+      "reason": "Market strongly prices no 25bp cut at the September 2026 meeting, likely reflecting an expected pause or completed cutting cycle; I add only a small premium for surprise risk given my uncertainty abou",
+      "market_price": 0.0125,
+      "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "2910438": {
+      "probability": 0.05,
+      "reason": "Speculative geopolitical scenario with no clear evidence of an active Iranian blockade to end; staying near the low market-implied price given deep uncertainty.",
+      "market_price": 0.0475,
+      "question": "US announces end of Iranian blockade by August 31, 2026?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "601825": {
+      "probability": 0.02,
+      "reason": "Renan Santos is a minor PSOL state deputy with no realistic path to the presidency against major contenders like Lula or Tarc\u00edsio, making the 3.4% market price an overpriced long shot.",
+      "market_price": 0.0335,
+      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+      "ts": "2026-08-24T17:22:23"
+    },
+    "3240746": {
+      "probability": 0.05,
+      "reason": "Market price is very low, likely reflecting that Flight 14's profile or outcome makes a chopsticks ship catch unlikely; staying near the implied probability given uncertainty.",
+      "market_price": 0.046,
+      "question": "Will the chopsticks catch SpaceX Starship Flight Test 14 Starship?",
+      "ts": "2026-08-24T17:26:31"
+    },
+    "1163699": {
+      "probability": 0.17,
+      "reason": "House passage and administration support give it a real path, but Senate disagreements and midterm-year dynamics make 2026 enactment unlikely; market price of ~15% is roughly right, slightly adjusted ",
+      "market_price": 0.145,
+      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "ts": "2026-08-24T17:30:26"
+    },
+    "3700194": {
+      "probability": 0.86,
+      "reason": "Ceasefire has broadly held but a year-plus horizon carries meaningful tail risk of renewed US-Iran hostilities, so slightly below market price.",
+      "market_price": 0.9,
+      "question": "US ceasefire against Iran continues through August 31?",
+      "ts": "2026-08-24T17:32:04"
+    },
+    "2252245": {
+      "probability": 0.29,
+      "reason": "With no information about 2026 conditions, a hike after the recent cutting cycle requires an inflation resurgence; staying near but slightly below the market price.",
+      "market_price": 0.315,
+      "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+      "ts": "2026-08-24T18:22:30"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Trading Bot — Dashboard</title>
+<style>
+  :root { --bg:#0b0e14; --panel:#121722; --line:#1f2735; --text:#dbe4f0;
+          --dim:#7c8aa0; --green:#3ddc84; --red:#ff5c6c; --accent:#5aa2ff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text);
+         font:14px/1.5 "Segoe UI", system-ui, sans-serif; display:flex; min-height:100vh; }
+  #sidebar { width:260px; background:var(--panel); border-right:1px solid var(--line);
+             padding:16px; flex-shrink:0; }
+  #sidebar h1 { font-size:15px; margin-bottom:4px; }
+  #sidebar .sub { color:var(--dim); font-size:12px; margin-bottom:16px; }
+  .bot-btn { display:block; width:100%; text-align:left; background:none; border:1px solid
+             transparent; color:var(--text); padding:8px 10px; border-radius:6px;
+             cursor:pointer; margin-bottom:4px; font:inherit; }
+  .bot-btn:hover { background:var(--line); }
+  .bot-btn.active { border-color:var(--accent); background:var(--line); }
+  .bot-btn .name { display:block; }
+  .bot-btn .meta { color:var(--dim); font-size:11px; }
+  #main { flex:1; padding:20px 24px; max-width:1100px; }
+  #cards { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:16px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+          padding:12px 16px; min-width:150px; }
+  .card .label { color:var(--dim); font-size:11px; text-transform:uppercase;
+                 letter-spacing:.06em; }
+  .card .value { font-size:20px; margin-top:2px; }
+  .pos .value.green { color:var(--green); } .neg .value, .value.neg { color:var(--red); }
+  #chartbox { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+              padding:14px; margin-bottom:16px; }
+  #chartbox h2, section h2 { font-size:13px; color:var(--dim); margin-bottom:8px;
+                             text-transform:uppercase; letter-spacing:.06em; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { color:var(--dim); font-weight:500; }
+  td.num, th.num { text-align:right; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+            padding:14px; margin-bottom:16px; }
+  .empty { color:var(--dim); padding:8px; }
+  .buy { color:var(--green); } .sell { color:var(--red); }
+  #placeholder { color:var(--dim); margin-top:40px; }
+</style>
+</head>
+<body>
+<div id="sidebar">
+  <h1>Trading Bots</h1>
+  <div class="sub">paper trading · auto-refresh 5s</div>
+  <div id="botlist"></div>
+</div>
+<div id="main">
+  <div id="placeholder">select a bot on the left…</div>
+  <div id="content" style="display:none">
+    <div id="cards"></div>
+    <div id="chartbox"><h2>Equity curve</h2><svg id="chart" width="100%"
+        viewBox="0 0 800 240" preserveAspectRatio="none"></svg></div>
+    <section><h2>Open positions</h2><table id="positions"></table></div></section>
+    <section><h2>Recent fills</h2><table id="fills"></table></section>
+    <section id="decisionsbox" style="display:none"><h2>LLM decisions</h2>
+      <table id="decisions"></table></section>
+    <section id="trackedbox" style="display:none"><h2>Sniper watchlist</h2>
+      <table id="tracked"></table></section>
+  </div>
+</div>
+<script>
+let selected = null;
+
+const $ = (id) => document.getElementById(id);
+const fmtUsd = (v) => "$" + Number(v).toLocaleString(undefined,
+  { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const pct = (v) => (v >= 0 ? "+" : "") + (100 * v).toFixed(2) + "%";
+
+function normalize(data) {
+  const portfolio = data.portfolio || data;
+  const curve = portfolio.equity_curve || [];
+  const fills = portfolio.fills || portfolio.recent_fills || data.fills || [];
+  const positions = portfolio.positions || {};
+  const decisions = data.decisions || null;
+  const tracked = data.tracked || null;
+  const metrics = data.metrics || null;
+  const starting = portfolio.starting_cash ||
+    (metrics ? metrics.starting_cash : 0);
+  let equity = null;
+  if (metrics && metrics.final_equity != null) equity = metrics.final_equity;
+  if (curve.length) equity = curve[curve.length - 1][1];
+  return { curve, fills, positions, decisions, tracked, metrics, starting, equity };
+}
+
+function renderCards(n) {
+  const open = Object.values(n.positions).filter(p => p.qty != 0).length;
+  const ret = n.starting ? n.equity / n.starting - 1 : null;
+  const cards = [
+    ["Equity", n.equity != null ? fmtUsd(n.equity) : "—"],
+    ["Return", ret != null ? pct(ret) : "—", ret != null && ret >= 0 ? "pos" : "neg"],
+    ["Open positions", String(open)],
+    ["Fills", String(n.fills.length)],
+  ];
+  $("cards").innerHTML = cards.map(([label, value, cls]) =>
+    `<div class="card ${cls || ""}"><div class="label">${label}</div>
+     <div class="value">${value}</div></div>`).join("");
+}
+
+function renderChart(curve) {
+  const svg = $("chart");
+  if (!curve || curve.length < 2) { svg.innerHTML = ""; return; }
+  const pts = curve.length > 600
+    ? curve.filter((_, i) => i % Math.ceil(curve.length / 600) === 0
+                        || i === curve.length - 1) : curve;
+  const vals = pts.map(p => p[1]);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const span = (max - min) || 1;
+  const W = 800, H = 240, pad = 8;
+  const x = (i) => pad + (W - 2 * pad) * i / (pts.length - 1);
+  const y = (v) => pad + (H - 2 * pad) * (1 - (v - min) / span);
+  const poly = pts.map((p, i) => `${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join(" ");
+  const up = vals[vals.length - 1] >= vals[0];
+  const color = up ? "#3ddc84" : "#ff5c6c";
+  svg.innerHTML = `
+    <line x1="${pad}" y1="${y(max)}" x2="${W - pad}" y2="${y(max)}"
+          stroke="#1f2735" stroke-dasharray="4 4"/>
+    <polyline points="${poly}" fill="none" stroke="${color}" stroke-width="2"/>
+    <text x="${pad + 4}" y="${y(max) + 14}" fill="#7c8aa0" font-size="11">
+      ${fmtUsd(max)}</text>
+    <text x="${pad + 4}" y="${y(min) - 4}" fill="#7c8aa0" font-size="11">
+      ${fmtUsd(min)}</text>`;
+}
+
+function renderPositions(positions) {
+  const rows = Object.entries(positions).filter(([, p]) => p.qty != 0)
+    .map(([sym, p]) => `<tr><td>${sym}</td>
+      <td class="num">${p.qty.toFixed(6)}</td>
+      <td class="num">${Number(p.avg_price).toFixed(4)}</td>
+      <td class="num ${p.realized_pnl >= 0 ? "" : "neg"}">
+      ${fmtUsd(p.realized_pnl)}</td></tr>`);
+  $("positions").innerHTML = rows.length
+    ? "<tr><th>Instrument</th><th class='num'>Qty</th><th class='num'>Avg price</th>"
+      + "<th class='num'>Realized</th></tr>" + rows.join("")
+    : "<tr><td class='empty'>flat — no open positions</td></tr>";
+}
+
+function renderFills(fills) {
+  const rows = fills.slice(-15).reverse().map(f => `<tr>
+    <td>${(f.ts || "").replace("T", " ").slice(0, 19)}</td>
+    <td class="${f.side}">${f.side}</td>
+    <td class="num">${Number(f.qty).toFixed(6)}</td>
+    <td class="num">${Number(f.price).toFixed(4)}</td>
+    <td class="num ${f.realized >= 0 ? "" : "neg"}">${fmtUsd(f.realized || 0)}</td>
+    <td>${(f.reason || "").slice(0, 70)}</td></tr>`);
+  $("fills").innerHTML = rows.length
+    ? "<tr><th>Time</th><th>Side</th><th class='num'>Qty</th><th class='num'>Price</th>"
+      + "<th class='num'>Realized</th><th>Reason</th></tr>" + rows.join("")
+    : "<tr><td class='empty'>no fills yet</td></tr>";
+}
+
+function renderDecisions(decisions) {
+  if (!decisions) { $("decisionsbox").style.display = "none"; return; }
+  $("decisionsbox").style.display = "";
+  const rows = Object.entries(decisions).slice(-20).reverse().map(([id, d]) => `<tr>
+    <td>${(d.question || id).slice(0, 60)}</td>
+    <td class="num">${d.probability != null ? d.probability.toFixed(2) : "—"}</td>
+    <td class="num">${d.market_price != null ? d.market_price.toFixed(2) : "—"}</td>
+    <td>${(d.reason || "").slice(0, 70)}</td></tr>`);
+  $("decisions").innerHTML = rows.length
+    ? "<tr><th>Market</th><th class='num'>LLM P</th><th class='num'>Market P</th>"
+      + "<th>Reason</th></tr>" + rows.join("")
+    : "<tr><td class='empty'>no decisions yet</td></tr>";
+}
+
+function renderTracked(tracked) {
+  if (!tracked) { $("trackedbox").style.display = "none"; return; }
+  $("trackedbox").style.display = "";
+  const rows = Object.entries(tracked).map(([key, t]) => `<tr>
+    <td>${t.symbol || key.slice(0, 10)}</td>
+    <td class="num">${Number(t.entry_price).toPrecision(4)}</td>
+    <td>${(t.opened_at || "").replace("T", " ").slice(0, 19)}</td></tr>`);
+  $("tracked").innerHTML = rows.length
+    ? "<tr><th>Token</th><th class='num'>Entry</th><th>Opened</th></tr>" + rows.join("")
+    : "<tr><td class='empty'>nothing tracked</td></tr>";
+}
+
+async function loadBots() {
+  try {
+    const bots = await (await fetch("/api/bots")).json();
+    $("botlist").innerHTML = bots.map(b =>
+      `<button class="bot-btn ${b.file === selected ? "active" : ""}"
+        onclick="selectBot('${b.file}')">
+        <span class="name">${b.name}</span>
+        <span class="meta">${new Date(b.mtime * 1000).toLocaleString()}
+        · ${(b.size / 1024).toFixed(1)} kB</span></button>`).join("")
+      || "<div class='empty'>no state files yet — run a bot first</div>";
+    if (!selected && bots.length) selectBot(bots[0].file);
+  } catch (e) { /* server restarting */ }
+}
+
+async function selectBot(file) {
+  selected = file;
+  try {
+    const data = await (await fetch("/api/bot?file=" + encodeURIComponent(file))).json();
+    if (data.error) { return; }
+    $("placeholder").style.display = "none";
+    $("content").style.display = "";
+    const n = normalize(data);
+    renderCards(n); renderChart(n.curve); renderPositions(n.positions);
+    renderFills(n.fills); renderDecisions(n.decisions); renderTracked(n.tracked);
+  } catch (e) { /* ignore transient */ }
+}
+
+loadBots();
+setInterval(loadBots, 5000);
+if (selected) setInterval(() => selectBot(selected), 5000);
+</script>
+</body>
+</html>

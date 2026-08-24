@@ -1,0 +1,33 @@
+{
+  "saved_at": "2026-08-24T15:28:16",
+  "symbol": "BTC",
+  "interval": "1m",
+  "starting_cash": 10000.0,
+  "cash": 7496.248750000001,
+  "positions": {
+    "BTC": {
+      "qty": 0.031726290942778464,
+      "avg_price": 78838.3995,
+      "realized_pnl": 0.0
+    }
+  },
+  "recent_fills": [
+    {
+      "ts": "2026-08-24T11:27:00",
+      "side": "buy",
+      "qty": 0.031726290942778464,
+      "price": 78838.3995,
+      "fee": 2.50125,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    }
+  ],
+  "equity_curve": [
+    [
+      "2026-08-24T11:27:00",
+      9996.25
+    ]
+  ],
+  "last_bar_ts": "2026-08-24T11:27:00",
+  "bars_processed": 1
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+config.json
+deploy/env
+deploy/venv/
+data/
+# CI commits bot state + JSONL history; everything else in output/ stays local
+output/*
+!output/*.json
+!output/*.jsonl

@@ -1,0 +1,156 @@
+{
+  "strategy": "sma_cross",
+  "bars_processed": 1000,
+  "metrics": {
+    "starting_cash": 10000.0,
+    "final_equity": 11634.580380062318,
+    "total_return_pct": 16.34580380062318,
+    "annualized_return_pct": 277.183684349059,
+    "sharpe": 10.338268969358055,
+    "max_drawdown_pct": 2.3094573112394814,
+    "n_fills": 15,
+    "n_closed_trades": 5,
+    "win_rate_pct": 60.0,
+    "avg_win": 579.8887016019683,
+    "avg_loss": 78.26155613052269,
+    "profit_factor": 11.11443594288192,
+    "total_fees": 29.509987002316112
+  },
+  "fills": [
+    {
+      "ts": "2025-01-02T23:00:00",
+      "side": "buy",
+      "qty": 0.04814493705916088,
+      "price": 51952.50327,
+      "fee": 2.50125,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-03T04:00:00",
+      "side": "sell",
+      "qty": 0.04814493705916088,
+      "price": 52285.933955,
+      "fee": 2.5173029993429177,
+      "realized": 16.052999342917868,
+      "reason": "sma12/48 death cross"
+    },
+    {
+      "ts": "2025-01-07T08:00:00",
+      "side": "buy",
+      "qty": 0.05065912013008472,
+      "price": 49428.611955,
+      "fee": 2.504009990891687,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-07T12:00:00",
+      "side": "buy",
+      "qty": 0.00035672960772912404,
+      "price": 48944.349944999994,
+      "fee": 0.01745989875643682,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-07T14:00:00",
+      "side": "buy",
+      "qty": 0.0005168805903757595,
+      "price": 48291.803835,
+      "fee": 0.024961096076545168,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-07T15:00:00",
+      "side": "buy",
+      "qty": 0.0007929849421391272,
+      "price": 47320.668509999996,
+      "fee": 0.037524577580387165,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-07T16:00:00",
+      "side": "sell",
+      "qty": 0.05232571527032873,
+      "price": 46712.612010000004,
+      "fee": 2.4442708355685987,
+      "realized": -139.6847277364577,
+      "reason": "stop-loss 5% breach (entry 49382.14)"
+    },
+    {
+      "ts": "2025-01-07T16:00:00",
+      "side": "buy",
+      "qty": 0.05279652052784061,
+      "price": 46759.34799,
+      "fee": 2.4687308760224775,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-07T19:00:00",
+      "side": "sell",
+      "qty": 0.05279652052784061,
+      "price": 46440.418175000006,
+      "fee": 2.4518924914978903,
+      "realized": -16.838384524587696,
+      "reason": "sma12/48 death cross"
+    },
+    {
+      "ts": "2025-01-25T21:00:00",
+      "side": "buy",
+      "qty": 0.12769252510013687,
+      "price": 19283.59698,
+      "fee": 2.4623711913895736,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-26T14:00:00",
+      "side": "buy",
+      "qty": 0.0018138501426980536,
+      "price": 18915.69312,
+      "fee": 0.03431023266494459,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-01-26T22:00:00",
+      "side": "sell",
+      "qty": 0.12950637524283493,
+      "price": 19476.03711,
+      "fee": 2.5222709702110384,
+      "realized": 25.58954615652037,
+      "reason": "sma12/48 death cross"
+    },
+    {
+      "ts": "2025-01-27T00:00:00",
+      "side": "buy",
+      "qty": 0.12419595475473852,
+      "price": 19867.929,
+      "fee": 2.467516411154357,
+      "realized": 0.0,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2025-02-06T17:00:00",
+      "side": "sell",
+      "qty": 0.12419595475473853,
+      "price": 33540.06158,
+      "fee": 4.1655399704608245,
+      "realized": 1698.0235593064665,
+      "reason": "sma12/48 death cross"
+    },
+    {
+      "ts": "2025-02-11T01:00:00",
+      "side": "buy",
+      "qty": 0.11531734963525649,
+      "price": 25066.26687,
+      "fee": 2.890575460698436,
+      "realized": 2.2737367544323206e-13,
+      "reason": "sma12/48 golden cross [downsized to risk cap]"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+name: bots
+
+# Free 24/7 on public repos: every 15 minutes each bot runs one cycle
+# (--once), state files are committed back, GitHub Pages shows the snapshot.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # manual "Run workflow" button
+
+# never two runs writing state at once
+concurrency:
+  group: bots
+  cancel-in-progress: false
+
+permissions:
+  contents: write # to commit state updates
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: restore market-data history
+        run: |
+          python -m bot.data.transfer --restore output/market_data.jsonl output/market_data.db
+          python -m bot.data.transfer --restore output/market_data_mainnet.jsonl output/market_data_mainnet.db
+
+      - name: collector
+        run: |
+          python -m bot.data.run --coins BTC,ETH,SOL --once
+          python -m bot.data.run --coins BTC --once --network mainnet --no-funding --db output/market_data_mainnet.db
+
+      - name: race - sma control
+        run: python -m bot.live.run --strategy sma_cross --symbol BTC --interval 15m --once --state output/race_sma.json
+
+      - name: race - glm ai
+        env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_THINKING: ${{ secrets.LLM_THINKING }}
+        run: python -m bot.live.run --strategy llm_analyst --symbol BTC --interval 15m --every 4 --once --context-db output/market_data.db --state output/live_llm.json
+
+      - name: race - funding carry
+        run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carry.json
+
+      - name: polymarket
+        env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_THINKING: ${{ secrets.LLM_THINKING }}
+        run: python -m bot.pol.run --once
+
+      - name: export market-data history
+        run: |
+          python -m bot.data.transfer --export output/market_data.db output/market_data.jsonl
+          python -m bot.data.transfer --export output/market_data_mainnet.db output/market_data_mainnet.jsonl
+
+      - name: commit state
+        run: |
+          git config user.name "aitb-bot"
+          git config user.email "actions@github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "no state changes this cycle"
+          else
+            git commit -m "state update [skip ci]"
+            git push
+          fi
