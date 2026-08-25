@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T08:30:31",
+  "saved_at": "2026-08-25T08:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -82,7 +82,7 @@
       "reason": "Uptrend (SMA ratio >1, RSI 56) argues against the small short, but extreme funding (1670% ann.) and 147bps perp premium pay the short well, so keep the tiny position rather than add risk."
     }
   ],
-  "llm_bar_index": 45,
+  "llm_bar_index": 46,
   "llm_usage": {
     "calls": 13,
     "prompt_tokens": 4612,
@@ -433,9 +433,13 @@
     [
       "2026-08-25T08:15:00",
       9923.79
+    ],
+    [
+      "2026-08-25T08:30:00",
+      9920.24
     ]
   ],
-  "last_bar_ts": "2026-08-25T08:15:00",
-  "bars_processed": 77,
+  "last_bar_ts": "2026-08-25T08:30:00",
+  "bars_processed": 78,
   "starting_cash": 10000.0
 }
