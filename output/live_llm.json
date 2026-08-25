@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T23:00:34",
+  "saved_at": "2026-08-25T23:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -164,13 +164,19 @@
       "action": "hold",
       "conviction": 0.55,
       "reason": "Profitable short retains tailwind from extreme positive funding and perp premium; 1h bounce is noise, keep exposure."
+    },
+    {
+      "ts": "2026-08-25T23:00:00",
+      "action": "hold",
+      "conviction": 0.55,
+      "reason": "Extreme 624% annualized funding and elevated perp premium signal crowded longs, supporting the profitable short despite mild upward price momentum."
     }
   ],
-  "llm_bar_index": 103,
+  "llm_bar_index": 104,
   "llm_usage": {
-    "calls": 27,
-    "prompt_tokens": 9662,
-    "completion_tokens": 25646
+    "calls": 28,
+    "prompt_tokens": 10023,
+    "completion_tokens": 26440
   },
   "cash": 12408.827467971581,
   "positions": {
@@ -758,9 +764,13 @@
     [
       "2026-08-25T22:45:00",
       9950.43
+    ],
+    [
+      "2026-08-25T23:00:00",
+      9941.85
     ]
   ],
-  "last_bar_ts": "2026-08-25T22:45:00",
-  "bars_processed": 135,
+  "last_bar_ts": "2026-08-25T23:00:00",
+  "bars_processed": 136,
   "starting_cash": 10000.0
 }
