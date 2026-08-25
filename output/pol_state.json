@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T16:19:20",
+  "saved_at": "2026-08-25T16:30:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -931,6 +931,10 @@
       [
         "2026-08-25T16:19:20.529815",
         9968.895522
+      ],
+      [
+        "2026-08-25T16:30:31.029846",
+        9968.895522
       ]
     ]
   },
@@ -1067,11 +1071,18 @@
       "market_price": 0.395,
       "question": "US announces end of Iranian blockade by September 30, 2026?",
       "ts": "2026-08-25T15:30:37"
+    },
+    "561996": {
+      "probability": 0.02,
+      "reason": "Carlson shows no signs of running and faces established politicians in a likely crowded 2028 field, so his odds are slim and roughly in line with the market price.",
+      "market_price": 0.0265,
+      "question": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
+      "ts": "2026-08-25T16:30:31"
     }
   },
   "llm_usage": {
-    "calls": 9,
-    "prompt_tokens": 1490,
-    "completion_tokens": 7442
+    "calls": 10,
+    "prompt_tokens": 1654,
+    "completion_tokens": 7734
   }
 }
