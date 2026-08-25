@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T17:50:00",
+  "saved_at": "2026-08-25T18:00:46",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -959,6 +959,10 @@
       [
         "2026-08-25T17:49:59.795408",
         9969.641791
+      ],
+      [
+        "2026-08-25T18:00:37.115724",
+        9970.38806
       ]
     ]
   },
@@ -1109,11 +1113,18 @@
       "market_price": 0.355,
       "question": "Will Real Betis Balompi\u00e9 win on 2026-08-25?",
       "ts": "2026-08-25T17:45:29"
+    },
+    "3557003": {
+      "probability": 0.47,
+      "reason": "Match is over a year out with unknown opponent and Southampton's league status uncertain; no edge over the market price, so staying near it.",
+      "market_price": 0.475,
+      "question": "Will Southampton FC win on 2026-08-25?",
+      "ts": "2026-08-25T18:00:37"
     }
   },
   "llm_usage": {
-    "calls": 11,
-    "prompt_tokens": 1824,
-    "completion_tokens": 7967
+    "calls": 12,
+    "prompt_tokens": 1989,
+    "completion_tokens": 8333
   }
 }
