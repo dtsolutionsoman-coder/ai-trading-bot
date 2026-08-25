@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T22:15:37",
+  "saved_at": "2026-08-25T22:31:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -166,7 +166,7 @@
       "reason": "Profitable short retains tailwind from extreme positive funding and perp premium; 1h bounce is noise, keep exposure."
     }
   ],
-  "llm_bar_index": 100,
+  "llm_bar_index": 101,
   "llm_usage": {
     "calls": 27,
     "prompt_tokens": 9662,
@@ -746,9 +746,13 @@
     [
       "2026-08-25T22:00:00",
       9974.99
+    ],
+    [
+      "2026-08-25T22:15:00",
+      9980.9
     ]
   ],
-  "last_bar_ts": "2026-08-25T22:00:00",
-  "bars_processed": 132,
+  "last_bar_ts": "2026-08-25T22:15:00",
+  "bars_processed": 133,
   "starting_cash": 10000.0
 }
