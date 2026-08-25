@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T21:02:15",
+  "saved_at": "2026-08-25T21:15:47",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1023,6 +1023,10 @@
       [
         "2026-08-25T21:02:15.394469",
         9965.910448
+      ],
+      [
+        "2026-08-25T21:15:39.524637",
+        9959.940299
       ]
     ]
   },
@@ -1201,11 +1205,18 @@
       "market_price": 0.085,
       "question": "Strait of Hormuz traffic returns to normal by September 30?",
       "ts": "2026-08-25T20:30:35"
+    },
+    "2896071": {
+      "probability": 0.37,
+      "reason": "This hinges on whether Lindsey Graham retires and Norman wins a likely crowded primary; staying near the market price given uncertainty.",
+      "market_price": 0.39,
+      "question": "Will Ralph Norman be the new Republican nominee for Senate in South Carolina?",
+      "ts": "2026-08-25T21:15:39"
     }
   },
   "llm_usage": {
-    "calls": 15,
-    "prompt_tokens": 2486,
-    "completion_tokens": 9670
+    "calls": 16,
+    "prompt_tokens": 2652,
+    "completion_tokens": 10032
   }
 }
