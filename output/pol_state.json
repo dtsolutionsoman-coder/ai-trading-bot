@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T17:30:34",
+  "saved_at": "2026-08-25T17:45:34",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -951,6 +951,10 @@
       [
         "2026-08-25T17:30:34.457894",
         9965.910448
+      ],
+      [
+        "2026-08-25T17:45:29.408697",
+        9971.880597
       ]
     ]
   },
@@ -1094,11 +1098,18 @@
       "market_price": 0.0265,
       "question": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
       "ts": "2026-08-25T16:30:31"
+    },
+    "3535883": {
+      "probability": 0.35,
+      "reason": "No information available about this future fixture's opponent or context; staying close to the market-implied price for a mid-table side.",
+      "market_price": 0.355,
+      "question": "Will Real Betis Balompi\u00e9 win on 2026-08-25?",
+      "ts": "2026-08-25T17:45:29"
     }
   },
   "llm_usage": {
-    "calls": 10,
-    "prompt_tokens": 1654,
-    "completion_tokens": 7734
+    "calls": 11,
+    "prompt_tokens": 1824,
+    "completion_tokens": 7967
   }
 }
