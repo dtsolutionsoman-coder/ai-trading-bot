@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T12:03:13",
+  "saved_at": "2026-08-25T12:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -98,13 +98,19 @@
       "action": "hold",
       "conviction": 0.25,
       "reason": "Small profitable short is supported by extreme funding and perp premium (long crowding), but oversold RSI in an uptrend limits conviction; keep the modest short and collect funding."
+    },
+    {
+      "ts": "2026-08-25T12:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Short retains edge from extreme positive funding and perp premium with negative 1h/6h momentum, but deeply oversold RSI 24 warns of bounce, so keep small short and defend the modest profit."
     }
   ],
-  "llm_bar_index": 59,
+  "llm_bar_index": 60,
   "llm_usage": {
-    "calls": 16,
-    "prompt_tokens": 5696,
-    "completion_tokens": 17978
+    "calls": 17,
+    "prompt_tokens": 6057,
+    "completion_tokens": 18766
   },
   "cash": 12408.827467971581,
   "positions": {
@@ -516,9 +522,13 @@
     [
       "2026-08-25T11:45:00",
       9932.67
+    ],
+    [
+      "2026-08-25T12:00:00",
+      9936.94
     ]
   ],
-  "last_bar_ts": "2026-08-25T11:45:00",
-  "bars_processed": 91,
+  "last_bar_ts": "2026-08-25T12:00:00",
+  "bars_processed": 92,
   "starting_cash": 10000.0
 }
