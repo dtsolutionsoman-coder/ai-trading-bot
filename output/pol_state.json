@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T06:05:54",
+  "saved_at": "2026-08-25T06:18:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 10000.0,
@@ -726,6 +726,10 @@
       [
         "2026-08-25T06:04:54.151202",
         10000.0
+      ],
+      [
+        "2026-08-25T06:16:10.229141",
+        10000.0
       ]
     ]
   },
@@ -841,11 +845,18 @@
       "market_price": 0.165,
       "question": "Will the U.S. invade Iran before 2027?",
       "ts": "2026-08-24T21:29:49"
+    },
+    "701502": {
+      "probability": 0.13,
+      "reason": "Bitcoin's history of 50%+ drawdowns and a potential post-halving-cycle bear market bottom in late 2026 makes a dip to $45k somewhat more likely than the market implies, though institutional flows like",
+      "market_price": 0.085,
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "ts": "2026-08-25T06:16:10"
     }
   },
   "llm_usage": {
-    "calls": 5,
-    "prompt_tokens": 820,
-    "completion_tokens": 2937
+    "calls": 6,
+    "prompt_tokens": 989,
+    "completion_tokens": 4125
   }
 }

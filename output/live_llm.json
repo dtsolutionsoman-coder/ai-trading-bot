@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T06:04:52",
+  "saved_at": "2026-08-25T06:16:07",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -62,20 +62,26 @@
       "action": "buy",
       "conviction": 0.1,
       "reason": "Bullish momentum, SMA ratio, and perp premium invalidate the losing short, so I cut it, but extreme 525% funding and thin volume keep long conviction minimal."
+    },
+    {
+      "ts": "2026-08-25T06:00:00",
+      "action": "sell",
+      "conviction": 0.5,
+      "reason": "Extreme annualized funding (375%) and elevated perp premium signal crowded longs while RSI 46.5 fails to confirm the price pump, making the small long expensive to hold."
     }
   ],
-  "llm_bar_index": 35,
+  "llm_bar_index": 36,
   "llm_usage": {
-    "calls": 10,
-    "prompt_tokens": 3531,
-    "completion_tokens": 10711
+    "calls": 11,
+    "prompt_tokens": 3891,
+    "completion_tokens": 11755
   },
-  "cash": 8928.876553168195,
+  "cash": 12397.92111285753,
   "positions": {
     "BTC": {
-      "qty": 0.012166079592281179,
-      "avg_price": 81635.7975,
-      "realized_pnl": -71.87327598150944
+      "qty": -0.030373030554011728,
+      "avg_price": 81631.164,
+      "realized_pnl": -71.92964751130023
     }
   },
   "recent_fills": [
@@ -96,6 +102,15 @@
       "fee": 3.563810885945858,
       "realized": -71.87327598150944,
       "reason": "LLM buy conv=0.10: Bullish momentum, SMA ratio, and perp premium invalidate the losing short, so I cut it, but extreme 525% funding and thin volume keep long conviction minimal."
+    },
+    {
+      "ts": "2026-08-25T06:00:00",
+      "side": "sell",
+      "qty": 0.042539110146292906,
+      "price": 81631.164,
+      "fee": 3.4725170767661,
+      "realized": -0.05637152979079474,
+      "reason": "LLM sell conv=0.50: Extreme annualized funding (375%) and elevated perp premium signal crowded longs while RSI 46.5 fails to confirm the price pump, making the small long expensive to hold. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -366,9 +381,13 @@
     [
       "2026-08-25T05:45:00",
       9920.14
+    ],
+    [
+      "2026-08-25T06:00:00",
+      9917.29
     ]
   ],
-  "last_bar_ts": "2026-08-25T05:45:00",
-  "bars_processed": 67,
+  "last_bar_ts": "2026-08-25T06:00:00",
+  "bars_processed": 68,
   "starting_cash": 10000.0
 }
