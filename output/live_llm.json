@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T14:29:21",
+  "saved_at": "2026-08-25T14:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -118,7 +118,7 @@
       "reason": "Small profitable short is supported by extreme funding/perp premium (crowded longs) and weak RSI, but mild uptrend structure and thin liquidity argue against adding; defending the existing gain."
     }
   ],
-  "llm_bar_index": 68,
+  "llm_bar_index": 69,
   "llm_usage": {
     "calls": 19,
     "prompt_tokens": 6780,
@@ -570,9 +570,13 @@
     [
       "2026-08-25T14:00:00",
       9944.75
+    ],
+    [
+      "2026-08-25T14:15:00",
+      9937.16
     ]
   ],
-  "last_bar_ts": "2026-08-25T14:00:00",
-  "bars_processed": 100,
+  "last_bar_ts": "2026-08-25T14:15:00",
+  "bars_processed": 101,
   "starting_cash": 10000.0
 }
