@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T09:45:26",
+  "saved_at": "2026-08-25T10:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -88,7 +88,7 @@
       "reason": "Extreme funding (1779% ann.) and 174bps perp premium justify keeping the small short for carry, but the ongoing uptrend (SMA ratio 1.019, RSI 57.7) cautions against adding risk."
     }
   ],
-  "llm_bar_index": 50,
+  "llm_bar_index": 51,
   "llm_usage": {
     "calls": 14,
     "prompt_tokens": 4972,
@@ -459,9 +459,13 @@
     [
       "2026-08-25T09:30:00",
       9922.67
+    ],
+    [
+      "2026-08-25T09:45:00",
+      9925.4
     ]
   ],
-  "last_bar_ts": "2026-08-25T09:30:00",
-  "bars_processed": 82,
+  "last_bar_ts": "2026-08-25T09:45:00",
+  "bars_processed": 83,
   "starting_cash": 10000.0
 }
