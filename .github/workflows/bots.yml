@@ -80,5 +80,17 @@ jobs:
             echo "no state changes this cycle"
           else
             git commit -m "state update [skip ci]"
-            git push
+            # Two trigger sources (cron-job.org heartbeat + GitHub's own */5
+            # scheduler) can slip past the concurrency gate seconds apart and
+            # push near-simultaneously; the loser gets "fetch first" rejected.
+            # Rebase onto the winner (our fresh state wins conflicts) and retry.
+            for attempt in 1 2 3; do
+              if git pull --rebase -X theirs origin main && git push; then
+                exit 0
+              fi
+              echo "push attempt $attempt rejected; rebasing and retrying"
+              sleep 10
+            done
+            echo "::error::could not push state after 3 attempts"
+            exit 1
           fi
