@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T15:15:42",
+  "saved_at": "2026-08-25T15:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -124,7 +124,7 @@
       "reason": "Profitable short benefits from extreme positive funding and 163bps perp premium signaling crowded longs; retain exposure while momentum is mixed."
     }
   ],
-  "llm_bar_index": 72,
+  "llm_bar_index": 73,
   "llm_usage": {
     "calls": 20,
     "prompt_tokens": 7139,
@@ -592,9 +592,13 @@
     [
       "2026-08-25T15:00:00",
       9937.1
+    ],
+    [
+      "2026-08-25T15:15:00",
+      9935.42
     ]
   ],
-  "last_bar_ts": "2026-08-25T15:00:00",
-  "bars_processed": 104,
+  "last_bar_ts": "2026-08-25T15:15:00",
+  "bars_processed": 105,
   "starting_cash": 10000.0
 }

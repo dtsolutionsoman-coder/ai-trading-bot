@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T15:15:44",
+  "saved_at": "2026-08-25T15:30:44",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -911,6 +911,10 @@
       [
         "2026-08-25T15:15:44.070652",
         9969.641791
+      ],
+      [
+        "2026-08-25T15:30:37.320909",
+        9968.895522
       ]
     ]
   },
@@ -1040,11 +1044,18 @@
       "market_price": 0.067,
       "question": "Will Donald Trump publicly insult someone on August 23, 2026?",
       "ts": "2026-08-25T07:00:43"
+    },
+    "3128887": {
+      "probability": 0.39,
+      "reason": "No strong independent signal on this geopolitical outcome; staying calibrated near the market-implied price given genuine uncertainty.",
+      "market_price": 0.395,
+      "question": "US announces end of Iranian blockade by September 30, 2026?",
+      "ts": "2026-08-25T15:30:37"
     }
   },
   "llm_usage": {
-    "calls": 8,
-    "prompt_tokens": 1323,
-    "completion_tokens": 7238
+    "calls": 9,
+    "prompt_tokens": 1490,
+    "completion_tokens": 7442
   }
 }
