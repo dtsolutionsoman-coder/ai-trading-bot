@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T20:15:37",
+  "saved_at": "2026-08-25T20:30:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1007,6 +1007,10 @@
       [
         "2026-08-25T20:15:37.369849",
         10000.0
+      ],
+      [
+        "2026-08-25T20:30:35.041986",
+        10000.0
       ]
     ]
   },
@@ -1178,11 +1182,18 @@
       "market_price": 0.485,
       "question": "Will LASK Linz win on 2026-08-25?",
       "ts": "2026-08-25T19:45:25"
+    },
+    "2774057": {
+      "probability": 0.15,
+      "reason": "Market prices persistent disruption, but the long horizon to Sept 2026 and historical precedent of Hormuz traffic normalizing after de-escalations suggest modest upside to the 8.5% implied price.",
+      "market_price": 0.085,
+      "question": "Strait of Hormuz traffic returns to normal by September 30?",
+      "ts": "2026-08-25T20:30:35"
     }
   },
   "llm_usage": {
-    "calls": 14,
-    "prompt_tokens": 2321,
-    "completion_tokens": 8778
+    "calls": 15,
+    "prompt_tokens": 2486,
+    "completion_tokens": 9670
   }
 }
