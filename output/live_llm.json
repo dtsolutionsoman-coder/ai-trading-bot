@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T07:00:40",
+  "saved_at": "2026-08-25T07:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -68,13 +68,19 @@
       "action": "sell",
       "conviction": 0.5,
       "reason": "Extreme annualized funding (375%) and elevated perp premium signal crowded longs while RSI 46.5 fails to confirm the price pump, making the small long expensive to hold."
+    },
+    {
+      "ts": "2026-08-25T07:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Extreme 692% funding and elevated perp premium reward holding the small short as carry, but the uptrend (SMA ratio >1, +3.76% 24h) argues against adding."
     }
   ],
-  "llm_bar_index": 39,
+  "llm_bar_index": 40,
   "llm_usage": {
-    "calls": 11,
-    "prompt_tokens": 3891,
-    "completion_tokens": 11755
+    "calls": 12,
+    "prompt_tokens": 4251,
+    "completion_tokens": 12516
   },
   "cash": 12397.92111285753,
   "positions": {
@@ -397,9 +403,13 @@
     [
       "2026-08-25T06:45:00",
       9917.6
+    ],
+    [
+      "2026-08-25T07:00:00",
+      9917.26
     ]
   ],
-  "last_bar_ts": "2026-08-25T06:45:00",
-  "bars_processed": 71,
+  "last_bar_ts": "2026-08-25T07:00:00",
+  "bars_processed": 72,
   "starting_cash": 10000.0
 }
