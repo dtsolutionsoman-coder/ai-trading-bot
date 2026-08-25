@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T01:00:35",
+  "saved_at": "2026-08-25T01:16:14",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -38,13 +38,19 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Extreme positive funding (436% ann.) and elevated perp premium justify keeping the small short to collect carry, offsetting the mild uptrend and tiny unrealized loss."
+    },
+    {
+      "ts": "2026-08-25T01:00:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Extreme RSI 85 and 432% annualized funding signal overextended longs, so I'm keeping the small short despite adverse momentum rather than adding risk."
     }
   ],
-  "llm_bar_index": 15,
+  "llm_bar_index": 16,
   "llm_usage": {
-    "calls": 6,
-    "prompt_tokens": 2085,
-    "completion_tokens": 5531
+    "calls": 7,
+    "prompt_tokens": 2447,
+    "completion_tokens": 6839
   },
   "cash": 12496.25125,
   "positions": {
@@ -253,9 +259,13 @@
     [
       "2026-08-25T00:45:00",
       9970.27
+    ],
+    [
+      "2026-08-25T01:00:00",
+      9941.02
     ]
   ],
-  "last_bar_ts": "2026-08-25T00:45:00",
-  "bars_processed": 47,
+  "last_bar_ts": "2026-08-25T01:00:00",
+  "bars_processed": 48,
   "starting_cash": 10000.0
 }
