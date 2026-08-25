@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T22:31:53",
+  "saved_at": "2026-08-25T22:45:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1051,6 +1051,10 @@
       [
         "2026-08-25T22:31:53.090143",
         10000.0
+      ],
+      [
+        "2026-08-25T22:45:26.806538",
+        10000.0
       ]
     ]
   },
@@ -1243,11 +1247,18 @@
       "market_price": 0.395,
       "question": "Strait of Hormuz traffic returns to normal by December 31?",
       "ts": "2026-08-25T21:57:34"
+    },
+    "2896080": {
+      "probability": 0.56,
+      "reason": "Market suggests she is the likely appointee/incumbent, but primary risk in an open SC Senate race keeps true odds slightly below the price.",
+      "market_price": 0.5735,
+      "question": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+      "ts": "2026-08-25T22:45:26"
     }
   },
   "llm_usage": {
-    "calls": 17,
-    "prompt_tokens": 2817,
-    "completion_tokens": 10319
+    "calls": 18,
+    "prompt_tokens": 2986,
+    "completion_tokens": 10890
   }
 }
