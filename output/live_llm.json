@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T01:16:14",
+  "saved_at": "2026-08-25T01:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -46,7 +46,7 @@
       "reason": "Extreme RSI 85 and 432% annualized funding signal overextended longs, so I'm keeping the small short despite adverse momentum rather than adding risk."
     }
   ],
-  "llm_bar_index": 16,
+  "llm_bar_index": 17,
   "llm_usage": {
     "calls": 7,
     "prompt_tokens": 2447,
@@ -263,9 +263,13 @@
     [
       "2026-08-25T01:00:00",
       9941.02
+    ],
+    [
+      "2026-08-25T01:15:00",
+      9934.85
     ]
   ],
-  "last_bar_ts": "2026-08-25T01:00:00",
-  "bars_processed": 48,
+  "last_bar_ts": "2026-08-25T01:15:00",
+  "bars_processed": 49,
   "starting_cash": 10000.0
 }
