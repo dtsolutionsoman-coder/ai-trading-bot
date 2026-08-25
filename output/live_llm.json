@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T18:45:25",
+  "saved_at": "2026-08-25T19:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -142,7 +142,7 @@
       "reason": "Small profitable short benefits from high positive funding carry, but mildly bullish SMA trend and low volatility argue against adding; keeping current exposure."
     }
   ],
-  "llm_bar_index": 86,
+  "llm_bar_index": 87,
   "llm_usage": {
     "calls": 23,
     "prompt_tokens": 8218,
@@ -666,9 +666,13 @@
     [
       "2026-08-25T18:30:00",
       9964.58
+    ],
+    [
+      "2026-08-25T18:45:00",
+      9963.21
     ]
   ],
-  "last_bar_ts": "2026-08-25T18:30:00",
-  "bars_processed": 118,
+  "last_bar_ts": "2026-08-25T18:45:00",
+  "bars_processed": 119,
   "starting_cash": 10000.0
 }
