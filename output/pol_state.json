@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T21:45:28",
+  "saved_at": "2026-08-25T21:57:42",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1035,6 +1035,10 @@
       [
         "2026-08-25T21:45:28.323546",
         9953.223881
+      ],
+      [
+        "2026-08-25T21:57:34.552409",
+        10000.0
       ]
     ]
   },
@@ -1220,11 +1224,18 @@
       "market_price": 0.39,
       "question": "Will Ralph Norman be the new Republican nominee for Senate in South Carolina?",
       "ts": "2026-08-25T21:15:39"
+    },
+    "2176270": {
+      "probability": 0.4,
+      "reason": "High geopolitical uncertainty around Hormuz shipping disruption through 2026; with no strong edge over the market, staying near the implied price.",
+      "market_price": 0.395,
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "ts": "2026-08-25T21:57:34"
     }
   },
   "llm_usage": {
-    "calls": 16,
-    "prompt_tokens": 2652,
-    "completion_tokens": 10032
+    "calls": 17,
+    "prompt_tokens": 2817,
+    "completion_tokens": 10319
   }
 }
