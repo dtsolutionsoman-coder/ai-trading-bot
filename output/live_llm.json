@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T12:30:30",
+  "saved_at": "2026-08-25T12:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -106,7 +106,7 @@
       "reason": "Short retains edge from extreme positive funding and perp premium with negative 1h/6h momentum, but deeply oversold RSI 24 warns of bounce, so keep small short and defend the modest profit."
     }
   ],
-  "llm_bar_index": 61,
+  "llm_bar_index": 62,
   "llm_usage": {
     "calls": 17,
     "prompt_tokens": 6057,
@@ -530,9 +530,13 @@
     [
       "2026-08-25T12:15:00",
       9943.56
+    ],
+    [
+      "2026-08-25T12:30:00",
+      9941.58
     ]
   ],
-  "last_bar_ts": "2026-08-25T12:15:00",
-  "bars_processed": 93,
+  "last_bar_ts": "2026-08-25T12:30:00",
+  "bars_processed": 94,
   "starting_cash": 10000.0
 }
