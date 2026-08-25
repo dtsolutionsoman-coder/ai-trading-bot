@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T17:15:41",
+  "saved_at": "2026-08-25T17:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -136,7 +136,7 @@
       "reason": "Bullish trend (SMA ratio, RSI, 24h momentum) conflicts with extreme funding and perp premium signaling crowded longs; keeping the small profitable short to collect funding rather than adding risk."
     }
   ],
-  "llm_bar_index": 80,
+  "llm_bar_index": 81,
   "llm_usage": {
     "calls": 22,
     "prompt_tokens": 7859,
@@ -636,9 +636,13 @@
     [
       "2026-08-25T17:00:00",
       9937.74
+    ],
+    [
+      "2026-08-25T17:15:00",
+      9991.64
     ]
   ],
-  "last_bar_ts": "2026-08-25T17:00:00",
-  "bars_processed": 112,
+  "last_bar_ts": "2026-08-25T17:15:00",
+  "bars_processed": 113,
   "starting_cash": 10000.0
 }
