@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T21:15:37",
+  "saved_at": "2026-08-25T21:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -160,7 +160,7 @@
       "reason": "Profitable short aligned with 1h/6h downside and extreme positive funding paying the carry, but neutral RSI, flat 24h, and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 96,
+  "llm_bar_index": 97,
   "llm_usage": {
     "calls": 26,
     "prompt_tokens": 9300,
@@ -724,9 +724,13 @@
     [
       "2026-08-25T21:00:00",
       9990.33
+    ],
+    [
+      "2026-08-25T21:15:00",
+      9996.28
     ]
   ],
-  "last_bar_ts": "2026-08-25T21:00:00",
-  "bars_processed": 128,
+  "last_bar_ts": "2026-08-25T21:15:00",
+  "bars_processed": 129,
   "starting_cash": 10000.0
 }
