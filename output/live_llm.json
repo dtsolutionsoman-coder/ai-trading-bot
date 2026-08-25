@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T04:16:19",
+  "saved_at": "2026-08-25T04:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -58,7 +58,7 @@
       "reason": "Extreme positive funding (668% ann.) and overbought RSI favor keeping the small short for mean reversion and funding carry, despite near-term upward momentum."
     }
   ],
-  "llm_bar_index": 28,
+  "llm_bar_index": 29,
   "llm_usage": {
     "calls": 9,
     "prompt_tokens": 3170,
@@ -323,9 +323,13 @@
     [
       "2026-08-25T04:00:00",
       9921.09
+    ],
+    [
+      "2026-08-25T04:15:00",
+      9924.36
     ]
   ],
-  "last_bar_ts": "2026-08-25T04:00:00",
-  "bars_processed": 60,
+  "last_bar_ts": "2026-08-25T04:15:00",
+  "bars_processed": 61,
   "starting_cash": 10000.0
 }
