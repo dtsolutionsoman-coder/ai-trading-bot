@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T19:30:35",
+  "saved_at": "2026-08-25T19:45:29",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -991,6 +991,10 @@
       [
         "2026-08-25T19:30:35.285045",
         9970.38806
+      ],
+      [
+        "2026-08-25T19:45:25.735142",
+        10000.0
       ]
     ]
   },
@@ -1155,11 +1159,18 @@
       "market_price": 0.355,
       "question": "Will Valencia CF win on 2026-08-25?",
       "ts": "2026-08-25T19:15:37"
+    },
+    "3545759": {
+      "probability": 0.48,
+      "reason": "No information available about the opponent or team form for this distant-future match; staying close to the market-implied price.",
+      "market_price": 0.485,
+      "question": "Will LASK Linz win on 2026-08-25?",
+      "ts": "2026-08-25T19:45:25"
     }
   },
   "llm_usage": {
-    "calls": 13,
-    "prompt_tokens": 2154,
-    "completion_tokens": 8574
+    "calls": 14,
+    "prompt_tokens": 2321,
+    "completion_tokens": 8778
   }
 }
