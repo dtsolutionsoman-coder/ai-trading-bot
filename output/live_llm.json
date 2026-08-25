@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T05:16:06",
+  "saved_at": "2026-08-25T05:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -64,7 +64,7 @@
       "reason": "Bullish momentum, SMA ratio, and perp premium invalidate the losing short, so I cut it, but extreme 525% funding and thin volume keep long conviction minimal."
     }
   ],
-  "llm_bar_index": 32,
+  "llm_bar_index": 33,
   "llm_usage": {
     "calls": 10,
     "prompt_tokens": 3531,
@@ -354,9 +354,13 @@
     [
       "2026-08-25T05:00:00",
       9921.57
+    ],
+    [
+      "2026-08-25T05:15:00",
+      9920.07
     ]
   ],
-  "last_bar_ts": "2026-08-25T05:00:00",
-  "bars_processed": 64,
+  "last_bar_ts": "2026-08-25T05:15:00",
+  "bars_processed": 65,
   "starting_cash": 10000.0
 }
