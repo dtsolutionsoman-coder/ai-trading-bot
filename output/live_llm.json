@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T03:31:30",
+  "saved_at": "2026-08-25T03:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -52,7 +52,7 @@
       "reason": "Extreme funding (198% ann.) and near-overbought RSI justify keeping the small short to collect funding, but the uptrend and losing PnL argue against adding risk."
     }
   ],
-  "llm_bar_index": 25,
+  "llm_bar_index": 26,
   "llm_usage": {
     "calls": 8,
     "prompt_tokens": 2808,
@@ -305,9 +305,13 @@
     [
       "2026-08-25T03:15:00",
       9919.61
+    ],
+    [
+      "2026-08-25T03:30:00",
+      9919.61
     ]
   ],
-  "last_bar_ts": "2026-08-25T03:15:00",
-  "bars_processed": 57,
+  "last_bar_ts": "2026-08-25T03:30:00",
+  "bars_processed": 58,
   "starting_cash": 10000.0
 }
