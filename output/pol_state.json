@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T19:00:39",
+  "saved_at": "2026-08-25T19:15:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -979,6 +979,10 @@
       [
         "2026-08-25T19:00:39.484444",
         9978.597015
+      ],
+      [
+        "2026-08-25T19:15:37.561115",
+        10000.0
       ]
     ]
   },
@@ -1136,11 +1140,18 @@
       "market_price": 0.475,
       "question": "Will Southampton FC win on 2026-08-25?",
       "ts": "2026-08-25T18:00:37"
+    },
+    "3535881": {
+      "probability": 0.35,
+      "reason": "No information available about the opponent or match context for this future fixture; staying close to the market-implied price.",
+      "market_price": 0.355,
+      "question": "Will Valencia CF win on 2026-08-25?",
+      "ts": "2026-08-25T19:15:37"
     }
   },
   "llm_usage": {
-    "calls": 12,
-    "prompt_tokens": 1989,
-    "completion_tokens": 8333
+    "calls": 13,
+    "prompt_tokens": 2154,
+    "completion_tokens": 8574
   }
 }
