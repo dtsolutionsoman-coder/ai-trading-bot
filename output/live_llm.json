@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T06:45:26",
+  "saved_at": "2026-08-25T07:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -70,7 +70,7 @@
       "reason": "Extreme annualized funding (375%) and elevated perp premium signal crowded longs while RSI 46.5 fails to confirm the price pump, making the small long expensive to hold."
     }
   ],
-  "llm_bar_index": 38,
+  "llm_bar_index": 39,
   "llm_usage": {
     "calls": 11,
     "prompt_tokens": 3891,
@@ -393,9 +393,13 @@
     [
       "2026-08-25T06:30:00",
       9911.07
+    ],
+    [
+      "2026-08-25T06:45:00",
+      9917.6
     ]
   ],
-  "last_bar_ts": "2026-08-25T06:30:00",
-  "bars_processed": 70,
+  "last_bar_ts": "2026-08-25T06:45:00",
+  "bars_processed": 71,
   "starting_cash": 10000.0
 }

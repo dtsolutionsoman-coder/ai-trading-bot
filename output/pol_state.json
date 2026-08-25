@@ -1,11 +1,28 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-25T06:46:16",
+  "saved_at": "2026-08-25T07:01:11",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 10000.0,
-    "positions": {},
-    "fills": [],
+    "cash": 9898.0,
+    "positions": {
+      "pol:3145210:Y": {
+        "qty": 1492.5373134328358,
+        "avg_price": 0.06834000000000001,
+        "realized_pnl": 0.0
+      }
+    },
+    "fills": [
+      {
+        "ts": "2026-08-25T07:00:43.884531",
+        "symbol": "pol:3145210:Y",
+        "side": "buy",
+        "qty": 1492.5373134328358,
+        "price": 0.06834000000000001,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge +0.333: LLM 0.40 vs market 0.07 \u2014 Will Donald Trump publicly insult someone on Augus"
+      }
+    ],
     "equity_curve": [
       [
         "2026-08-24T15:53:07.548619",
@@ -738,6 +755,10 @@
       [
         "2026-08-25T06:45:28.976952",
         10000.0
+      ],
+      [
+        "2026-08-25T07:00:43.884531",
+        9998.0
       ]
     ]
   },
@@ -860,11 +881,18 @@
       "market_price": 0.085,
       "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "ts": "2026-08-25T06:16:10"
+    },
+    "3145210": {
+      "probability": 0.4,
+      "reason": "Trump's historical base rate of publicly insulting someone on any given day is very high (60%+), making the 6.7% market price likely mispriced, though uncertainty about strict resolution criteria temp",
+      "market_price": 0.067,
+      "question": "Will Donald Trump publicly insult someone on August 23, 2026?",
+      "ts": "2026-08-25T07:00:43"
     }
   },
   "llm_usage": {
-    "calls": 7,
-    "prompt_tokens": 1156,
-    "completion_tokens": 6125
+    "calls": 8,
+    "prompt_tokens": 1323,
+    "completion_tokens": 7238
   }
 }
