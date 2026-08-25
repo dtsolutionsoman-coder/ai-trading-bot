@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-25T00:16:07",
+  "saved_at": "2026-08-25T00:30:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -40,7 +40,7 @@
       "reason": "Extreme positive funding (436% ann.) and elevated perp premium justify keeping the small short to collect carry, offsetting the mild uptrend and tiny unrealized loss."
     }
   ],
-  "llm_bar_index": 12,
+  "llm_bar_index": 13,
   "llm_usage": {
     "calls": 6,
     "prompt_tokens": 2085,
@@ -241,9 +241,13 @@
     [
       "2026-08-25T00:00:00",
       9990.65
+    ],
+    [
+      "2026-08-25T00:15:00",
+      9991.84
     ]
   ],
-  "last_bar_ts": "2026-08-25T00:00:00",
-  "bars_processed": 44,
+  "last_bar_ts": "2026-08-25T00:15:00",
+  "bars_processed": 45,
   "starting_cash": 10000.0
 }
