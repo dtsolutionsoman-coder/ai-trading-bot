@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T15:00:49",
+  "saved_at": "2026-08-26T15:48:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1347,6 +1347,10 @@
       [
         "2026-08-26T15:00:49.121025",
         10000.0
+      ],
+      [
+        "2026-08-26T15:48:31.261282",
+        10000.0
       ]
     ]
   },
@@ -1553,11 +1557,18 @@
       "market_price": 0.765,
       "question": "Will Real Madrid CF win on 2026-08-26?",
       "ts": "2026-08-26T08:45:29"
+    },
+    "3558751": {
+      "probability": 0.07,
+      "reason": "Fixtures for August 2026 are unconfirmed, so the low price likely reflects uncertainty about whether Real Sociedad even plays that day; staying near market price.",
+      "market_price": 0.065,
+      "question": "Will Real Sociedad de F\u00fatbol win on 2026-08-26?",
+      "ts": "2026-08-26T15:48:31"
     }
   },
   "llm_usage": {
-    "calls": 19,
-    "prompt_tokens": 3152,
-    "completion_tokens": 11086
+    "calls": 20,
+    "prompt_tokens": 3323,
+    "completion_tokens": 11480
   }
 }

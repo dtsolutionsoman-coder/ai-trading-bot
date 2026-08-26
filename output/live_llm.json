@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T15:00:46",
+  "saved_at": "2026-08-26T15:48:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -260,19 +260,25 @@
       "action": "hold",
       "conviction": 0.4,
       "reason": "Profitable short supported by extreme positive funding and mild downtrend, but neutral RSI and flat moving averages argue against adding risk."
+    },
+    {
+      "ts": "2026-08-26T15:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Negative 6h/24h momentum, RSI below 50, and extreme positive funding/perp premium signal crowded longs vulnerable to a flush, supporting the profitable short."
     }
   ],
-  "llm_bar_index": 167,
+  "llm_bar_index": 170,
   "llm_usage": {
-    "calls": 43,
-    "prompt_tokens": 15421,
-    "completion_tokens": 38542
+    "calls": 44,
+    "prompt_tokens": 15782,
+    "completion_tokens": 39660
   },
-  "cash": 12454.249170738796,
+  "cash": 12476.68881205162,
   "positions": {
     "BTC": {
-      "qty": -0.031074809144219923,
-      "avg_price": 81602.11922417549,
+      "qty": -0.03135721558929624,
+      "avg_price": 81583.53144545855,
       "realized_pnl": -71.92964751130023
     }
   },
@@ -321,6 +327,15 @@
       "fee": 0.045467169937152434,
       "realized": 0.0,
       "reason": "LLM sell conv=0.45: Extreme positive funding (875% ann) and 94.5bps perp premium signal crowded longs, while 1h/6h momentum fades and OI declines \u2014 adding modestly to the already profitable short. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-08-26T15:00:00",
+      "side": "sell",
+      "qty": 0.000282406445076315,
+      "price": 79538.21100000001,
+      "fee": 0.02246210341623986,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.40: Negative 6h/24h momentum, RSI below 50, and extreme positive funding/perp premium signal crowded longs vulnerable to a flush, supporting the profitable short. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -1119,9 +1134,21 @@
     [
       "2026-08-26T14:45:00",
       9983.34
+    ],
+    [
+      "2026-08-26T15:00:00",
+      9981.34
+    ],
+    [
+      "2026-08-26T15:15:00",
+      9976.83
+    ],
+    [
+      "2026-08-26T15:30:00",
+      9974.41
     ]
   ],
-  "last_bar_ts": "2026-08-26T14:45:00",
-  "bars_processed": 199,
+  "last_bar_ts": "2026-08-26T15:30:00",
+  "bars_processed": 202,
   "starting_cash": 10000.0
 }
