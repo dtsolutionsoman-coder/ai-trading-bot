@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T00:00:41",
+  "saved_at": "2026-08-26T00:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -170,19 +170,25 @@
       "action": "hold",
       "conviction": 0.55,
       "reason": "Extreme 624% annualized funding and elevated perp premium signal crowded longs, supporting the profitable short despite mild upward price momentum."
+    },
+    {
+      "ts": "2026-08-26T00:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Extreme positive funding (875% ann) and 94.5bps perp premium signal crowded longs, while 1h/6h momentum fades and OI declines \u2014 adding modestly to the already profitable short."
     }
   ],
-  "llm_bar_index": 107,
+  "llm_bar_index": 108,
   "llm_usage": {
-    "calls": 28,
-    "prompt_tokens": 10023,
-    "completion_tokens": 26440
+    "calls": 29,
+    "prompt_tokens": 10383,
+    "completion_tokens": 27552
   },
-  "cash": 12408.827467971581,
+  "cash": 12454.249170738796,
   "positions": {
     "BTC": {
-      "qty": -0.030507298946799863,
-      "avg_price": 81629.74752568867,
+      "qty": -0.031074809144219923,
+      "avg_price": 81602.11922417549,
       "realized_pnl": -71.92964751130023
     }
   },
@@ -222,6 +228,15 @@
       "fee": 0.010917272386438146,
       "realized": 0.0,
       "reason": "LLM sell conv=0.30: Extreme funding (2495% ann.) and 229bps perp premium signal dangerously crowded longs while 1h/6h momentum fades and RSI weakens, supporting a modest short despite the intact 24h uptrend. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-08-26T00:00:00",
+      "side": "sell",
+      "qty": 0.0005675101974200597,
+      "price": 80116.92150000001,
+      "fee": 0.045467169937152434,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.45: Extreme positive funding (875% ann) and 94.5bps perp premium signal crowded longs, while 1h/6h momentum fades and OI declines \u2014 adding modestly to the already profitable short. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -780,9 +795,13 @@
     [
       "2026-08-25T23:45:00",
       9961.9
+    ],
+    [
+      "2026-08-26T00:00:00",
+      9963.39
     ]
   ],
-  "last_bar_ts": "2026-08-25T23:45:00",
-  "bars_processed": 139,
+  "last_bar_ts": "2026-08-26T00:00:00",
+  "bars_processed": 140,
   "starting_cash": 10000.0
 }
