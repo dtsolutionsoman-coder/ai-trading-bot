@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T20:15:37",
+  "saved_at": "2026-08-26T20:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -298,7 +298,7 @@
       "reason": "Multi-timeframe downtrend with SMA ratio below 1 and extreme positive funding rewarding shorts, while the existing short is profitable; RSI near 33 limits conviction."
     }
   ],
-  "llm_bar_index": 188,
+  "llm_bar_index": 189,
   "llm_usage": {
     "calls": 49,
     "prompt_tokens": 17583,
@@ -1248,9 +1248,13 @@
     [
       "2026-08-26T20:00:00",
       9986.36
+    ],
+    [
+      "2026-08-26T20:15:00",
+      9989.06
     ]
   ],
-  "last_bar_ts": "2026-08-26T20:00:00",
-  "bars_processed": 220,
+  "last_bar_ts": "2026-08-26T20:15:00",
+  "bars_processed": 221,
   "starting_cash": 10000.0
 }
