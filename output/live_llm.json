@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T06:15:48",
+  "saved_at": "2026-08-26T06:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -214,7 +214,7 @@
       "reason": "Profitable small short supported by extreme positive funding (985% ann) and perp premium, but neutral RSI and mild short-term bounce argue against adding; keep current exposure."
     }
   ],
-  "llm_bar_index": 132,
+  "llm_bar_index": 133,
   "llm_usage": {
     "calls": 35,
     "prompt_tokens": 12541,
@@ -931,9 +931,13 @@
     [
       "2026-08-26T06:00:00",
       9946.42
+    ],
+    [
+      "2026-08-26T06:15:00",
+      9945.8
     ]
   ],
-  "last_bar_ts": "2026-08-26T06:00:00",
-  "bars_processed": 164,
+  "last_bar_ts": "2026-08-26T06:15:00",
+  "bars_processed": 165,
   "starting_cash": 10000.0
 }
