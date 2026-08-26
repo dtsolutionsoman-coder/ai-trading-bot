@@ -215,12 +215,23 @@ function render(n) {
   }
 }
 
+const RAW_BASE = "https://raw.githubusercontent.com/dtsolutionsoman-coder/" +
+  "ai-trading-bot/main/output/";
+// Pages deploys can fail or lag (build-rate limits); raw serves repo truth.
+async function fetchState(file) {
+  try {
+    const r = await fetch(RAW_BASE + file + "?t=" + Date.now(), { cache: "no-store" });
+    if (r.ok) return await r.json();
+  } catch (e) { /* fall through to the Pages copy */ }
+  const r = await fetch("output/" + file, { cache: "no-store" });
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+
 async function load() {
   const buttons = await Promise.all(BOOKS.map(async ([file, name]) => {
     try {
-      const r = await fetch("output/" + file, { cache: "no-store" });
-      if (!r.ok) throw new Error(r.status);
-      return { file, name, data: await r.json(), ok: true };
+      return { file, name, data: await fetchState(file), ok: true };
     } catch (e) { return { file, name, ok: false }; }
   }));
   $("botlist").innerHTML = buttons.map(b =>
@@ -239,8 +250,7 @@ async function load() {
 async function pick(file) {
   selected = file;
   try {
-    const r = await fetch("output/" + file, { cache: "no-store" });
-    render(normalize(await r.json()));
+    render(normalize(await fetchState(file)));
   } catch (e) { /* snapshot mid-commit; next refresh fixes it */ }
   load();
 }
