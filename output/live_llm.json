@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T05:00:36",
+  "saved_at": "2026-08-26T05:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -200,13 +200,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Overbought RSI (73.3), extreme positive funding and 195bps perp premium signal crowded longs, supporting a modest add to the already profitable short despite thin volume."
+    },
+    {
+      "ts": "2026-08-26T05:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme positive funding (850% ann) with elevated perp premium signals crowded longs while 24h momentum and RSI lean bearish; profitable small short warrants adding."
     }
   ],
-  "llm_bar_index": 127,
+  "llm_bar_index": 128,
   "llm_usage": {
-    "calls": 33,
-    "prompt_tokens": 11824,
-    "completion_tokens": 30634
+    "calls": 34,
+    "prompt_tokens": 12182,
+    "completion_tokens": 31447
   },
   "cash": 12454.249170738796,
   "positions": {
@@ -899,9 +905,13 @@
     [
       "2026-08-26T04:45:00",
       9948.63
+    ],
+    [
+      "2026-08-26T05:00:00",
+      9950.37
     ]
   ],
-  "last_bar_ts": "2026-08-26T04:45:00",
-  "bars_processed": 159,
+  "last_bar_ts": "2026-08-26T05:00:00",
+  "bars_processed": 160,
   "starting_cash": 10000.0
 }
