@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T01:30:33",
+  "saved_at": "2026-08-26T01:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -184,7 +184,7 @@
       "reason": "Extreme funding (552% ann.) and perp premium validate keeping the small profitable short, but mild 1h/6h bounce and thin volume argue against adding."
     }
   ],
-  "llm_bar_index": 113,
+  "llm_bar_index": 114,
   "llm_usage": {
     "calls": 30,
     "prompt_tokens": 10744,
@@ -825,9 +825,13 @@
     [
       "2026-08-26T01:15:00",
       9946.67
+    ],
+    [
+      "2026-08-26T01:30:00",
+      9944.12
     ]
   ],
-  "last_bar_ts": "2026-08-26T01:15:00",
-  "bars_processed": 145,
+  "last_bar_ts": "2026-08-26T01:30:00",
+  "bars_processed": 146,
   "starting_cash": 10000.0
 }
