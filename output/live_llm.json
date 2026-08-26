@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T21:30:30",
+  "saved_at": "2026-08-26T21:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -304,7 +304,7 @@
       "reason": "Small profitable short is supported by extreme positive funding carry and a mildly bearish SMA structure, but flat RSI and thin volume argue against adding."
     }
   ],
-  "llm_bar_index": 193,
+  "llm_bar_index": 194,
   "llm_usage": {
     "calls": 50,
     "prompt_tokens": 17944,
@@ -1274,9 +1274,13 @@
     [
       "2026-08-26T21:15:00",
       9983.76
+    ],
+    [
+      "2026-08-26T21:30:00",
+      9987.99
     ]
   ],
-  "last_bar_ts": "2026-08-26T21:15:00",
-  "bars_processed": 225,
+  "last_bar_ts": "2026-08-26T21:30:00",
+  "bars_processed": 226,
   "starting_cash": 10000.0
 }
