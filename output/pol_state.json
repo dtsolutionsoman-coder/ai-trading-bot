@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T19:15:42",
+  "saved_at": "2026-08-26T19:30:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1411,6 +1411,10 @@
       [
         "2026-08-26T19:15:39.354653",
         10000.0
+      ],
+      [
+        "2026-08-26T19:30:32.455175",
+        10000.0
       ]
     ]
   },
@@ -1624,11 +1628,18 @@
       "market_price": 0.065,
       "question": "Will Real Sociedad de F\u00fatbol win on 2026-08-26?",
       "ts": "2026-08-26T15:48:31"
+    },
+    "3566700": {
+      "probability": 0.27,
+      "reason": "No information on Lyon's opponent or form for this future Ligue 1 fixture; the low market price suggests a tough matchup, so staying near the implied probability.",
+      "market_price": 0.265,
+      "question": "Will Olympique Lyonnais win on 2026-08-26?",
+      "ts": "2026-08-26T19:30:32"
     }
   },
   "llm_usage": {
-    "calls": 20,
-    "prompt_tokens": 3323,
-    "completion_tokens": 11480
+    "calls": 21,
+    "prompt_tokens": 3491,
+    "completion_tokens": 11797
   }
 }
