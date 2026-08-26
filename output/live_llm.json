@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T23:30:31",
+  "saved_at": "2026-08-26T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -316,7 +316,7 @@
       "reason": "Mildly bearish momentum, SMA ratio below 1, and elevated positive funding support keeping the small profitable short, but neutral RSI and low volatility cap conviction."
     }
   ],
-  "llm_bar_index": 201,
+  "llm_bar_index": 202,
   "llm_usage": {
     "calls": 52,
     "prompt_tokens": 18664,
@@ -1318,9 +1318,13 @@
     [
       "2026-08-26T23:15:00",
       9981.31
+    ],
+    [
+      "2026-08-26T23:30:00",
+      9973.79
     ]
   ],
-  "last_bar_ts": "2026-08-26T23:15:00",
-  "bars_processed": 233,
+  "last_bar_ts": "2026-08-26T23:30:00",
+  "bars_processed": 234,
   "starting_cash": 10000.0
 }

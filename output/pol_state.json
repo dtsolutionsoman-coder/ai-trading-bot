@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T23:30:36",
+  "saved_at": "2026-08-26T23:45:41",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1479,6 +1479,10 @@
       [
         "2026-08-26T23:30:33.906035",
         10000.0
+      ],
+      [
+        "2026-08-26T23:45:30.530410",
+        10000.0
       ]
     ]
   },
@@ -1720,11 +1724,18 @@
       "market_price": 0.775,
       "question": "Will FC Barcelona win on 2026-08-27?",
       "ts": "2026-08-26T22:00:42"
+    },
+    "601836": {
+      "probability": 0.02,
+      "reason": "Augusto Cury is a writer with no political party structure or electoral base, making his victory in Brazil's 2026 presidential election extremely unlikely, consistent with or below the very low market",
+      "market_price": 0.0125,
+      "question": "Will Augusto Cury win the 2026 Brazilian presidential election?",
+      "ts": "2026-08-26T23:45:30"
     }
   },
   "llm_usage": {
-    "calls": 24,
-    "prompt_tokens": 3988,
-    "completion_tokens": 12802
+    "calls": 25,
+    "prompt_tokens": 4154,
+    "completion_tokens": 13076
   }
 }
