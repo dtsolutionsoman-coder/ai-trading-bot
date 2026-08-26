@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T08:15:51",
+  "saved_at": "2026-08-26T08:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -226,7 +226,7 @@
       "reason": "Mild downside momentum with RSI<50 and crowded longs paying extreme funding while OI rises favors adding to the profitable short."
     }
   ],
-  "llm_bar_index": 140,
+  "llm_bar_index": 141,
   "llm_usage": {
     "calls": 37,
     "prompt_tokens": 13263,
@@ -975,9 +975,13 @@
     [
       "2026-08-26T08:00:00",
       9950.46
+    ],
+    [
+      "2026-08-26T08:15:00",
+      9947.88
     ]
   ],
-  "last_bar_ts": "2026-08-26T08:00:00",
-  "bars_processed": 172,
+  "last_bar_ts": "2026-08-26T08:15:00",
+  "bars_processed": 173,
   "starting_cash": 10000.0
 }
