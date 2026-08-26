@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T22:00:40",
+  "saved_at": "2026-08-26T22:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -302,13 +302,19 @@
       "action": "hold",
       "conviction": 0.4,
       "reason": "Small profitable short is supported by extreme positive funding carry and a mildly bearish SMA structure, but flat RSI and thin volume argue against adding."
+    },
+    {
+      "ts": "2026-08-26T22:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Extreme 349% funding and 57bps perp premium signal crowded longs while RSI near 70 and SMA ratio below 1 favor the profitable short, though modest 1h bounce tempers sizing."
     }
   ],
-  "llm_bar_index": 195,
+  "llm_bar_index": 196,
   "llm_usage": {
-    "calls": 50,
-    "prompt_tokens": 17944,
-    "completion_tokens": 45177
+    "calls": 51,
+    "prompt_tokens": 18305,
+    "completion_tokens": 46158
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1282,9 +1288,13 @@
     [
       "2026-08-26T21:45:00",
       9983.76
+    ],
+    [
+      "2026-08-26T22:00:00",
+      9963.91
     ]
   ],
-  "last_bar_ts": "2026-08-26T21:45:00",
-  "bars_processed": 227,
+  "last_bar_ts": "2026-08-26T22:00:00",
+  "bars_processed": 228,
   "starting_cash": 10000.0
 }
