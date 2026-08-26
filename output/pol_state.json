@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T20:00:42",
+  "saved_at": "2026-08-26T20:15:46",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1423,6 +1423,10 @@
       [
         "2026-08-26T20:00:41.994790",
         10000.0
+      ],
+      [
+        "2026-08-26T20:15:40.279643",
+        10000.0
       ]
     ]
   },
@@ -1643,11 +1647,18 @@
       "market_price": 0.265,
       "question": "Will Olympique Lyonnais win on 2026-08-26?",
       "ts": "2026-08-26T19:30:32"
+    },
+    "3566703": {
+      "probability": 0.79,
+      "reason": "No specific match details available for this future fixture; staying close to the market-implied price which reflects informed odds on Fenerbah\u00e7e as heavy favorite.",
+      "market_price": 0.795,
+      "question": "Will Fenerbah\u00e7e SK win on 2026-08-26?",
+      "ts": "2026-08-26T20:15:40"
     }
   },
   "llm_usage": {
-    "calls": 21,
-    "prompt_tokens": 3491,
-    "completion_tokens": 11797
+    "calls": 22,
+    "prompt_tokens": 3659,
+    "completion_tokens": 12052
   }
 }
