@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T15:48:27",
+  "saved_at": "2026-08-26T16:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -268,7 +268,7 @@
       "reason": "Negative 6h/24h momentum, RSI below 50, and extreme positive funding/perp premium signal crowded longs vulnerable to a flush, supporting the profitable short."
     }
   ],
-  "llm_bar_index": 170,
+  "llm_bar_index": 171,
   "llm_usage": {
     "calls": 44,
     "prompt_tokens": 15782,
@@ -1146,9 +1146,13 @@
     [
       "2026-08-26T15:30:00",
       9974.41
+    ],
+    [
+      "2026-08-26T15:45:00",
+      9975.42
     ]
   ],
-  "last_bar_ts": "2026-08-26T15:30:00",
-  "bars_processed": 202,
+  "last_bar_ts": "2026-08-26T15:45:00",
+  "bars_processed": 203,
   "starting_cash": 10000.0
 }
