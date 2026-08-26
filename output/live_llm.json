@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T19:45:26",
+  "saved_at": "2026-08-26T20:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -292,7 +292,7 @@
       "reason": "Mild downtrend with SMA ratio below 1, RSI under 50, rich perp premium, and extreme positive funding all favor extending the profitable short, though flat 1h action and thin volume cap conviction."
     }
   ],
-  "llm_bar_index": 186,
+  "llm_bar_index": 187,
   "llm_usage": {
     "calls": 48,
     "prompt_tokens": 17224,
@@ -1234,9 +1234,13 @@
     [
       "2026-08-26T19:30:00",
       9981.63
+    ],
+    [
+      "2026-08-26T19:45:00",
+      9985.14
     ]
   ],
-  "last_bar_ts": "2026-08-26T19:30:00",
-  "bars_processed": 218,
+  "last_bar_ts": "2026-08-26T19:45:00",
+  "bars_processed": 219,
   "starting_cash": 10000.0
 }
