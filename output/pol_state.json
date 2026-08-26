@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T08:30:37",
+  "saved_at": "2026-08-26T08:45:36",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1231,6 +1231,10 @@
       [
         "2026-08-26T08:30:37.335946",
         10000.0
+      ],
+      [
+        "2026-08-26T08:45:29.735215",
+        10000.0
       ]
     ]
   },
@@ -1430,11 +1434,18 @@
       "market_price": 0.5735,
       "question": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
       "ts": "2026-08-25T22:45:26"
+    },
+    "3558749": {
+      "probability": 0.75,
+      "reason": "No reliable information about the opponent or context for this future fixture; staying close to the market-implied price with a slight discount for uncertainty.",
+      "market_price": 0.765,
+      "question": "Will Real Madrid CF win on 2026-08-26?",
+      "ts": "2026-08-26T08:45:29"
     }
   },
   "llm_usage": {
-    "calls": 18,
-    "prompt_tokens": 2986,
-    "completion_tokens": 10890
+    "calls": 19,
+    "prompt_tokens": 3152,
+    "completion_tokens": 11086
   }
 }
