@@ -1,14 +1,14 @@
 {
-  "saved_at": "2026-08-26T21:45:30",
+  "saved_at": "2026-08-26T22:00:42",
   "symbol": "CASHCAT",
   "interval": "15m",
-  "llm_bar_index": 194,
-  "cash": 12355.558831966673,
+  "llm_bar_index": 195,
+  "cash": 11475.90659102467,
   "positions": {
     "CASHCAT": {
-      "qty": -13057.513581148558,
-      "avg_price": 0.22936570675558482,
-      "realized_pnl": -620.3207926443762
+      "qty": -9465.961647540376,
+      "avg_price": 0.24251868000000001,
+      "realized_pnl": -795.2341945111406
     }
   },
   "recent_fills": [
@@ -218,6 +218,24 @@
       "fee": 0.0755835265439333,
       "realized": 0.0,
       "reason": "funding carry: +56% ann -> short [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-08-26T21:45:00",
+      "side": "buy",
+      "qty": 13057.513581148558,
+      "price": 0.24276131999999997,
+      "fee": 3.169859232877551,
+      "realized": -174.9134018667644,
+      "reason": "stop-loss 5% breach (entry 0.23)"
+    },
+    {
+      "ts": "2026-08-26T21:45:00",
+      "side": "sell",
+      "qty": 9465.961647540376,
+      "price": 0.24251868000000001,
+      "fee": 2.2956725236921174,
+      "realized": 0.0,
+      "reason": "funding carry: +1728% ann -> short [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -1028,9 +1046,13 @@
     [
       "2026-08-26T21:30:00",
       9480.03
+    ],
+    [
+      "2026-08-26T21:45:00",
+      9179.09
     ]
   ],
-  "last_bar_ts": "2026-08-26T21:30:00",
-  "bars_processed": 202,
+  "last_bar_ts": "2026-08-26T21:45:00",
+  "bars_processed": 203,
   "starting_cash": 10000.0
 }

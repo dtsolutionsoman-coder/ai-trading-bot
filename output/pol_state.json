@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T21:45:33",
+  "saved_at": "2026-08-26T22:00:57",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1451,6 +1451,10 @@
       [
         "2026-08-26T21:45:30.331769",
         10000.0
+      ],
+      [
+        "2026-08-26T22:00:42.671059",
+        10000.0
       ]
     ]
   },
@@ -1685,11 +1689,18 @@
       "market_price": 0.0155,
       "question": "Will Wes Moore win the 2028 Democratic presidential nomination?",
       "ts": "2026-08-26T21:30:32"
+    },
+    "3578043": {
+      "probability": 0.77,
+      "reason": "No information available about the opponent or context for this future match; staying close to the market-implied price which reflects available match details.",
+      "market_price": 0.775,
+      "question": "Will FC Barcelona win on 2026-08-27?",
+      "ts": "2026-08-26T22:00:42"
     }
   },
   "llm_usage": {
-    "calls": 23,
-    "prompt_tokens": 3823,
-    "completion_tokens": 12465
+    "calls": 24,
+    "prompt_tokens": 3988,
+    "completion_tokens": 12802
   }
 }
