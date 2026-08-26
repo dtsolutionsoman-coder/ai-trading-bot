@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-26T21:15:45",
+  "saved_at": "2026-08-26T21:30:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1443,6 +1443,10 @@
       [
         "2026-08-26T21:15:42.622696",
         10000.0
+      ],
+      [
+        "2026-08-26T21:30:32.823917",
+        10000.0
       ]
     ]
   },
@@ -1670,11 +1674,18 @@
       "market_price": 0.795,
       "question": "Will Fenerbah\u00e7e SK win on 2026-08-26?",
       "ts": "2026-08-26T20:15:40"
+    },
+    "559656": {
+      "probability": 0.02,
+      "reason": "Moore is a rising-star governor but faces a crowded 2028 field with stronger-established contenders, so his true odds are only slightly above the market's low price.",
+      "market_price": 0.0155,
+      "question": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "ts": "2026-08-26T21:30:32"
     }
   },
   "llm_usage": {
-    "calls": 22,
-    "prompt_tokens": 3659,
-    "completion_tokens": 12052
+    "calls": 23,
+    "prompt_tokens": 3823,
+    "completion_tokens": 12465
   }
 }
