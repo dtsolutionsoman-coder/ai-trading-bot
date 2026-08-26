@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T18:30:49",
+  "saved_at": "2026-08-26T18:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -286,7 +286,7 @@
       "reason": "Small profitable short aligns with mild downtrend and high positive funding, but neutral RSI and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 181,
+  "llm_bar_index": 182,
   "llm_usage": {
     "calls": 47,
     "prompt_tokens": 16864,
@@ -1208,9 +1208,13 @@
     [
       "2026-08-26T18:15:00",
       9982.38
+    ],
+    [
+      "2026-08-26T18:30:00",
+      9982.76
     ]
   ],
-  "last_bar_ts": "2026-08-26T18:15:00",
-  "bars_processed": 213,
+  "last_bar_ts": "2026-08-26T18:30:00",
+  "bars_processed": 214,
   "starting_cash": 10000.0
 }
