@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T03:34:15",
+  "saved_at": "2026-08-26T03:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -196,7 +196,7 @@
       "reason": "Extreme positive funding (899% ann), 102bps perp premium, and overbought RSI 73.7 signal crowded longs, supporting the small profitable short despite the 6h bounce."
     }
   ],
-  "llm_bar_index": 121,
+  "llm_bar_index": 122,
   "llm_usage": {
     "calls": 32,
     "prompt_tokens": 11464,
@@ -869,9 +869,13 @@
     [
       "2026-08-26T03:15:00",
       9939.99
+    ],
+    [
+      "2026-08-26T03:30:00",
+      9940.2
     ]
   ],
-  "last_bar_ts": "2026-08-26T03:15:00",
-  "bars_processed": 153,
+  "last_bar_ts": "2026-08-26T03:30:00",
+  "bars_processed": 154,
   "starting_cash": 10000.0
 }
