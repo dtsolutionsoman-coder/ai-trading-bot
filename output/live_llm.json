@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-26T13:45:28",
+  "saved_at": "2026-08-26T14:00:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -256,7 +256,7 @@
       "reason": "Declining 6h/24h momentum, RSI below neutral, and extreme positive funding with elevated perp premium signal crowded longs, supporting a modest add to the already profitable short."
     }
   ],
-  "llm_bar_index": 162,
+  "llm_bar_index": 163,
   "llm_usage": {
     "calls": 42,
     "prompt_tokens": 15061,
@@ -1093,9 +1093,13 @@
     [
       "2026-08-26T13:30:00",
       9964.85
+    ],
+    [
+      "2026-08-26T13:45:00",
+      9969.72
     ]
   ],
-  "last_bar_ts": "2026-08-26T13:30:00",
-  "bars_processed": 194,
+  "last_bar_ts": "2026-08-26T13:45:00",
+  "bars_processed": 195,
   "starting_cash": 10000.0
 }
