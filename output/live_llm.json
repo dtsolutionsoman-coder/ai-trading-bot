@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T20:45:26",
+  "saved_at": "2026-08-27T21:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -436,7 +436,7 @@
       "reason": "Profitable small short benefits from extreme positive funding (65% ann.) and soft RSI/OI, but mildly positive 24h trend and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 286,
+  "llm_bar_index": 287,
   "llm_usage": {
     "calls": 72,
     "prompt_tokens": 25847,
@@ -1778,9 +1778,13 @@
     [
       "2026-08-27T20:30:00",
       9961.09
+    ],
+    [
+      "2026-08-27T20:45:00",
+      9960.12
     ]
   ],
-  "last_bar_ts": "2026-08-27T20:30:00",
-  "bars_processed": 318,
+  "last_bar_ts": "2026-08-27T20:45:00",
+  "bars_processed": 319,
   "starting_cash": 10000.0
 }
