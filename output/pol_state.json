@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T17:15:44",
+  "saved_at": "2026-08-27T17:30:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1759,6 +1759,10 @@
       [
         "2026-08-27T17:15:43.508265",
         10000.0
+      ],
+      [
+        "2026-08-27T17:30:33.574851",
+        10000.0
       ]
     ]
   },
@@ -2042,11 +2046,18 @@
       "market_price": 0.435,
       "question": "Will Trabzonspor win on 2026-08-27?",
       "ts": "2026-08-27T17:00:42"
+    },
+    "3300160": {
+      "probability": 0.5,
+      "reason": "No information about the opponent or team form for this future match; staying at the market price.",
+      "market_price": 0.505,
+      "question": "Will RC Celta de Vigo win on 2026-08-16?",
+      "ts": "2026-08-27T17:30:33"
     }
   },
   "llm_usage": {
-    "calls": 30,
-    "prompt_tokens": 4989,
-    "completion_tokens": 15111
+    "calls": 31,
+    "prompt_tokens": 5158,
+    "completion_tokens": 15345
   }
 }
