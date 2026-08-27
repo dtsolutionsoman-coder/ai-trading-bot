@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T07:45:30",
+  "saved_at": "2026-08-27T08:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -364,7 +364,7 @@
       "reason": "Mild downtrend with sub-1 SMA ratio and positive funding supports the existing profitable short, but neutral RSI and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 234,
+  "llm_bar_index": 235,
   "llm_usage": {
     "calls": 60,
     "prompt_tokens": 21534,
@@ -1498,9 +1498,13 @@
     [
       "2026-08-27T07:30:00",
       9987.58
+    ],
+    [
+      "2026-08-27T07:45:00",
+      9989.94
     ]
   ],
-  "last_bar_ts": "2026-08-27T07:30:00",
-  "bars_processed": 266,
+  "last_bar_ts": "2026-08-27T07:45:00",
+  "bars_processed": 267,
   "starting_cash": 10000.0
 }
