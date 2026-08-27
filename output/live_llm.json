@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T23:00:37",
+  "saved_at": "2026-08-27T23:15:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -446,13 +446,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Mixed signals \u2014 mildly bullish momentum offset by elevated funding and falling OI \u2014 so keep the small profitable short with minimal exposure."
+    },
+    {
+      "ts": "2026-08-27T23:00:00",
+      "action": "hold",
+      "conviction": 0.45,
+      "reason": "Profitable short supported by elevated positive funding, near-overbought RSI, falling OI, and weak 6h momentum, though mild 24h uptrend caps conviction."
     }
   ],
-  "llm_bar_index": 295,
+  "llm_bar_index": 296,
   "llm_usage": {
-    "calls": 74,
-    "prompt_tokens": 26566,
-    "completion_tokens": 66495
+    "calls": 75,
+    "prompt_tokens": 26924,
+    "completion_tokens": 67236
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1826,9 +1832,13 @@
     [
       "2026-08-27T22:45:00",
       9951.84
+    ],
+    [
+      "2026-08-27T23:00:00",
+      9955.85
     ]
   ],
-  "last_bar_ts": "2026-08-27T22:45:00",
-  "bars_processed": 327,
+  "last_bar_ts": "2026-08-27T23:00:00",
+  "bars_processed": 328,
   "starting_cash": 10000.0
 }
