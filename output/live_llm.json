@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T23:15:37",
+  "saved_at": "2026-08-27T23:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -454,7 +454,7 @@
       "reason": "Profitable short supported by elevated positive funding, near-overbought RSI, falling OI, and weak 6h momentum, though mild 24h uptrend caps conviction."
     }
   ],
-  "llm_bar_index": 296,
+  "llm_bar_index": 297,
   "llm_usage": {
     "calls": 75,
     "prompt_tokens": 26924,
@@ -1836,9 +1836,13 @@
     [
       "2026-08-27T23:00:00",
       9955.85
+    ],
+    [
+      "2026-08-27T23:15:00",
+      9952.87
     ]
   ],
-  "last_bar_ts": "2026-08-27T23:00:00",
-  "bars_processed": 328,
+  "last_bar_ts": "2026-08-27T23:15:00",
+  "bars_processed": 329,
   "starting_cash": 10000.0
 }
