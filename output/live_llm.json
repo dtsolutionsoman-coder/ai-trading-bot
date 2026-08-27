@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T22:30:32",
+  "saved_at": "2026-08-27T22:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -448,7 +448,7 @@
       "reason": "Mixed signals \u2014 mildly bullish momentum offset by elevated funding and falling OI \u2014 so keep the small profitable short with minimal exposure."
     }
   ],
-  "llm_bar_index": 293,
+  "llm_bar_index": 294,
   "llm_usage": {
     "calls": 74,
     "prompt_tokens": 26566,
@@ -1818,9 +1818,13 @@
     [
       "2026-08-27T22:15:00",
       9955.57
+    ],
+    [
+      "2026-08-27T22:30:00",
+      9953.41
     ]
   ],
-  "last_bar_ts": "2026-08-27T22:15:00",
-  "bars_processed": 325,
+  "last_bar_ts": "2026-08-27T22:30:00",
+  "bars_processed": 326,
   "starting_cash": 10000.0
 }
