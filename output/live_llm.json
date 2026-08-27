@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T03:45:26",
+  "saved_at": "2026-08-27T04:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -340,7 +340,7 @@
       "reason": "Extreme positive funding (278% ann.) plus perp premium signal crowded longs while SMA ratio and 24h trend lean bearish; modestly adding to the profitable small short."
     }
   ],
-  "llm_bar_index": 218,
+  "llm_bar_index": 219,
   "llm_usage": {
     "calls": 56,
     "prompt_tokens": 20096,
@@ -1410,9 +1410,13 @@
     [
       "2026-08-27T03:30:00",
       9988.21
+    ],
+    [
+      "2026-08-27T03:45:00",
+      9988.12
     ]
   ],
-  "last_bar_ts": "2026-08-27T03:30:00",
-  "bars_processed": 250,
+  "last_bar_ts": "2026-08-27T03:45:00",
+  "bars_processed": 251,
   "starting_cash": 10000.0
 }
