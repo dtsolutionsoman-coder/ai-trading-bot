@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T11:45:26",
+  "saved_at": "2026-08-27T12:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -388,7 +388,7 @@
       "reason": "Small profitable short aligned with mild downtrend (SMA ratio <1, negative 24h, falling OI), but short-term bounce and RSI 61 argue against adding; keep exposure and defend the 2.12% gain."
     }
   ],
-  "llm_bar_index": 250,
+  "llm_bar_index": 251,
   "llm_usage": {
     "calls": 64,
     "prompt_tokens": 22974,
@@ -1586,9 +1586,13 @@
     [
       "2026-08-27T11:30:00",
       9972.56
+    ],
+    [
+      "2026-08-27T11:45:00",
+      9974.54
     ]
   ],
-  "last_bar_ts": "2026-08-27T11:30:00",
-  "bars_processed": 282,
+  "last_bar_ts": "2026-08-27T11:45:00",
+  "bars_processed": 283,
   "starting_cash": 10000.0
 }
