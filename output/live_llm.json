@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T10:15:44",
+  "saved_at": "2026-08-27T10:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -382,7 +382,7 @@
       "reason": "Small profitable short retained as elevated funding, sub-1 SMA ratio, and falling OI mildly favor downside, but mixed momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 244,
+  "llm_bar_index": 245,
   "llm_usage": {
     "calls": 63,
     "prompt_tokens": 22614,
@@ -1556,9 +1556,13 @@
     [
       "2026-08-27T10:00:00",
       9965.79
+    ],
+    [
+      "2026-08-27T10:15:00",
+      9976.89
     ]
   ],
-  "last_bar_ts": "2026-08-27T10:00:00",
-  "bars_processed": 276,
+  "last_bar_ts": "2026-08-27T10:15:00",
+  "bars_processed": 277,
   "starting_cash": 10000.0
 }
