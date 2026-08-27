@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T01:15:38",
+  "saved_at": "2026-08-27T01:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -328,7 +328,7 @@
       "reason": "Profitable short stays on: extreme positive funding (64.5% ann.) signals crowded longs, SMA ratio below 1 and negative 24h trend align bearish, while flat RSI and low volatility argue against adding."
     }
   ],
-  "llm_bar_index": 208,
+  "llm_bar_index": 209,
   "llm_usage": {
     "calls": 54,
     "prompt_tokens": 19379,
@@ -1358,9 +1358,13 @@
     [
       "2026-08-27T01:00:00",
       9978.9
+    ],
+    [
+      "2026-08-27T01:15:00",
+      9981.34
     ]
   ],
-  "last_bar_ts": "2026-08-27T01:00:00",
-  "bars_processed": 240,
+  "last_bar_ts": "2026-08-27T01:15:00",
+  "bars_processed": 241,
   "starting_cash": 10000.0
 }

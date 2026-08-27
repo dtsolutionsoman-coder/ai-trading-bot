@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T01:15:41",
+  "saved_at": "2026-08-27T01:30:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1507,6 +1507,10 @@
       [
         "2026-08-27T01:15:41.032369",
         10000.0
+      ],
+      [
+        "2026-08-27T01:30:33.725859",
+        10000.0
       ]
     ]
   },
@@ -1762,11 +1766,18 @@
       "market_price": 0.595,
       "question": "Will Deportivo Toluca FC win on 2026-08-26?",
       "ts": "2026-08-27T00:30:33"
+    },
+    "3564357": {
+      "probability": 0.24,
+      "reason": "No information available about this distant-future fixture, so staying close to the market-implied price which suggests Vasco is the underdog.",
+      "market_price": 0.235,
+      "question": "Will CR Vasco da Gama win on 2026-08-26?",
+      "ts": "2026-08-27T01:30:33"
     }
   },
   "llm_usage": {
-    "calls": 26,
-    "prompt_tokens": 4324,
-    "completion_tokens": 13381
+    "calls": 27,
+    "prompt_tokens": 4492,
+    "completion_tokens": 13601
   }
 }
