@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T00:30:31",
+  "saved_at": "2026-08-27T00:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -322,7 +322,7 @@
       "reason": "Small profitable short benefits from positive funding and a slightly bearish SMA ratio, but improving short-term momentum and RSI 63 argue against adding risk, so maintain reduced exposure."
     }
   ],
-  "llm_bar_index": 205,
+  "llm_bar_index": 206,
   "llm_usage": {
     "calls": 53,
     "prompt_tokens": 19021,
@@ -1340,9 +1340,13 @@
     [
       "2026-08-27T00:15:00",
       9972.72
+    ],
+    [
+      "2026-08-27T00:30:00",
+      9972.97
     ]
   ],
-  "last_bar_ts": "2026-08-27T00:15:00",
-  "bars_processed": 237,
+  "last_bar_ts": "2026-08-27T00:30:00",
+  "bars_processed": 238,
   "starting_cash": 10000.0
 }
