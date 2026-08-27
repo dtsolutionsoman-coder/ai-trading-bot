@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T21:15:39",
+  "saved_at": "2026-08-27T21:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -442,7 +442,7 @@
       "reason": "Small profitable short retains edge from weak RSI and positive funding carry, but mixed momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 288,
+  "llm_bar_index": 289,
   "llm_usage": {
     "calls": 73,
     "prompt_tokens": 26206,
@@ -1792,9 +1792,13 @@
     [
       "2026-08-27T21:00:00",
       9958.36
+    ],
+    [
+      "2026-08-27T21:15:00",
+      9960.77
     ]
   ],
-  "last_bar_ts": "2026-08-27T21:00:00",
-  "bars_processed": 320,
+  "last_bar_ts": "2026-08-27T21:15:00",
+  "bars_processed": 321,
   "starting_cash": 10000.0
 }
