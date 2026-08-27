@@ -14,10 +14,16 @@ from __future__ import annotations
 
 import ipaddress
 import socket
+import time
+import urllib.error
 import urllib.request
 from urllib.parse import urlparse
 
 _ALLOWED_SCHEMES = ("http", "https")
+
+# transient upstream failures worth one more attempt before giving up
+_RETRYABLE_STATUS = frozenset({500, 502, 503, 504})
+_RETRY_DELAYS = (4.0, 10.0)
 
 
 class UnsafeURL(ValueError):
@@ -89,10 +95,14 @@ def safe_urlopen(
     allowed_hosts: tuple[str, ...] | set[str] | None = None,
     data: bytes | None = None,
     headers: dict[str, str] | None = None,
+    retries: int = 0,
 ):
     """Validate then open `url`; redirects are re-validated; optional host allowlist.
 
     Returns the response object from `opener.open(...)` — use as a context manager.
+    `retries` re-attempts transient upstream failures (HTTP 5xx, network and
+    timeout errors) with backoff so a one-cycle API blip does not kill a run;
+    only a persistently failing endpoint still raises. Default 0 = old behavior.
     """
     validate_public_http_url(url)
     if allowed_hosts is not None:
@@ -103,4 +113,15 @@ def safe_urlopen(
 
     opener = urllib.request.build_opener(_ValidatingRedirectHandler())
     request = urllib.request.Request(url, data=data, headers=headers or {})
-    return opener.open(request, timeout=timeout)
+    for attempt in range(retries + 1):
+        if attempt:
+            time.sleep(_RETRY_DELAYS[min(attempt - 1, len(_RETRY_DELAYS) - 1)])
+        try:
+            return opener.open(request, timeout=timeout)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in _RETRYABLE_STATUS or attempt == retries:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == retries:
+                raise
+    raise RuntimeError("unreachable")

@@ -104,6 +104,7 @@ class HyperliquidInfoClient:
                 "User-Agent": "ai-trading-bot/0.1",
             },
             allowed_hosts={self.host},
+            retries=2,
         ) as resp:
             rows = json.loads(resp.read().decode("utf-8"))
 
