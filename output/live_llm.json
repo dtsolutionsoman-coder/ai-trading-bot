@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T14:00:41",
+  "saved_at": "2026-08-27T14:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -398,13 +398,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Small profitable short supported by sub-50 RSI, sub-1 SMA ratio, positive funding carry, and declining OI, but low volatility and a 6h bounce argue against adding risk."
+    },
+    {
+      "ts": "2026-08-27T14:00:00",
+      "action": "hold",
+      "conviction": 0.4,
+      "reason": "Profitable short aligns with extreme positive funding, perp premium, and mild downtrend, but thin volume and low volatility argue for defending gains rather than adding."
     }
   ],
-  "llm_bar_index": 259,
+  "llm_bar_index": 260,
   "llm_usage": {
-    "calls": 66,
-    "prompt_tokens": 23692,
-    "completion_tokens": 60775
+    "calls": 67,
+    "prompt_tokens": 24052,
+    "completion_tokens": 61876
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1634,9 +1640,13 @@
     [
       "2026-08-27T13:45:00",
       9972.28
+    ],
+    [
+      "2026-08-27T14:00:00",
+      9977.24
     ]
   ],
-  "last_bar_ts": "2026-08-27T13:45:00",
-  "bars_processed": 291,
+  "last_bar_ts": "2026-08-27T14:00:00",
+  "bars_processed": 292,
   "starting_cash": 10000.0
 }
