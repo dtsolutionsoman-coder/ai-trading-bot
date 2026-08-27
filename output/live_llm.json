@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T17:30:31",
+  "saved_at": "2026-08-27T17:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -418,7 +418,7 @@
       "reason": "Profitable small short retained: RSI near overbought, falling OI, and elevated funding suggest weak rally, though mild upward price drift warrants only modest conviction."
     }
   ],
-  "llm_bar_index": 273,
+  "llm_bar_index": 274,
   "llm_usage": {
     "calls": 69,
     "prompt_tokens": 24770,
@@ -1708,9 +1708,13 @@
     [
       "2026-08-27T17:15:00",
       9942.02
+    ],
+    [
+      "2026-08-27T17:30:00",
+      9949.23
     ]
   ],
-  "last_bar_ts": "2026-08-27T17:15:00",
-  "bars_processed": 305,
+  "last_bar_ts": "2026-08-27T17:30:00",
+  "bars_processed": 306,
   "starting_cash": 10000.0
 }
