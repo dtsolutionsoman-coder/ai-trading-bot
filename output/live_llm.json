@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T02:00:38",
+  "saved_at": "2026-08-27T02:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -326,13 +326,19 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Profitable short stays on: extreme positive funding (64.5% ann.) signals crowded longs, SMA ratio below 1 and negative 24h trend align bearish, while flat RSI and low volatility argue against adding."
+    },
+    {
+      "ts": "2026-08-27T02:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Overbought RSI (74.8), extreme positive funding (46.9% ann), and perp premium signal crowded longs prone to mean reversion; modestly adding to the already profitable short despite short-term bounce."
     }
   ],
-  "llm_bar_index": 211,
+  "llm_bar_index": 212,
   "llm_usage": {
-    "calls": 54,
-    "prompt_tokens": 19379,
-    "completion_tokens": 48803
+    "calls": 55,
+    "prompt_tokens": 19737,
+    "completion_tokens": 50300
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1370,9 +1376,13 @@
     [
       "2026-08-27T01:45:00",
       9963.97
+    ],
+    [
+      "2026-08-27T02:00:00",
+      9960.43
     ]
   ],
-  "last_bar_ts": "2026-08-27T01:45:00",
-  "bars_processed": 243,
+  "last_bar_ts": "2026-08-27T02:00:00",
+  "bars_processed": 244,
   "starting_cash": 10000.0
 }
