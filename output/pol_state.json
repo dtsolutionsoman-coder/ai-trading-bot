@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T20:00:43",
+  "saved_at": "2026-08-27T20:15:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1803,6 +1803,10 @@
       [
         "2026-08-27T20:00:43.388147",
         10000.0
+      ],
+      [
+        "2026-08-27T20:15:41.609702",
+        10000.0
       ]
     ]
   },
@@ -2093,11 +2097,18 @@
       "market_price": 0.505,
       "question": "Will RC Celta de Vigo win on 2026-08-16?",
       "ts": "2026-08-27T17:30:33"
+    },
+    "3300162": {
+      "probability": 0.86,
+      "reason": "No fixture details available for this future match; staying near the market price with a slight haircut since 0.885 is high for typical football win probabilities.",
+      "market_price": 0.885,
+      "question": "Will CA Osasuna win on 2026-08-16?",
+      "ts": "2026-08-27T20:15:41"
     }
   },
   "llm_usage": {
-    "calls": 31,
-    "prompt_tokens": 5158,
-    "completion_tokens": 15345
+    "calls": 32,
+    "prompt_tokens": 5325,
+    "completion_tokens": 15789
   }
 }
