@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T16:45:27",
+  "saved_at": "2026-08-27T17:00:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1751,6 +1751,10 @@
       [
         "2026-08-27T16:45:26.810374",
         10000.0
+      ],
+      [
+        "2026-08-27T17:00:42.566466",
+        10000.0
       ]
     ]
   },
@@ -2027,11 +2031,18 @@
       "market_price": 0.065,
       "question": "Will Athletic Club win on 2026-08-27?",
       "ts": "2026-08-27T05:15:36"
+    },
+    "3608393": {
+      "probability": 0.43,
+      "reason": "No information available about the future opponent or match context, so staying close to the market-implied price.",
+      "market_price": 0.435,
+      "question": "Will Trabzonspor win on 2026-08-27?",
+      "ts": "2026-08-27T17:00:42"
     }
   },
   "llm_usage": {
-    "calls": 29,
-    "prompt_tokens": 4822,
-    "completion_tokens": 14969
+    "calls": 30,
+    "prompt_tokens": 4989,
+    "completion_tokens": 15111
   }
 }

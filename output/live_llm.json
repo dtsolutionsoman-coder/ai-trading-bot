@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T16:45:25",
+  "saved_at": "2026-08-27T17:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -412,7 +412,7 @@
       "reason": "Elevated funding, falling OI, and overbought RSI favor keeping the small profitable short despite the short-term bounce."
     }
   ],
-  "llm_bar_index": 270,
+  "llm_bar_index": 271,
   "llm_usage": {
     "calls": 68,
     "prompt_tokens": 24411,
@@ -1690,9 +1690,13 @@
     [
       "2026-08-27T16:30:00",
       9946.41
+    ],
+    [
+      "2026-08-27T16:45:00",
+      9951.52
     ]
   ],
-  "last_bar_ts": "2026-08-27T16:30:00",
-  "bars_processed": 302,
+  "last_bar_ts": "2026-08-27T16:45:00",
+  "bars_processed": 303,
   "starting_cash": 10000.0
 }
