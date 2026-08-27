@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T05:00:39",
+  "saved_at": "2026-08-27T05:15:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1567,6 +1567,10 @@
       [
         "2026-08-27T05:00:39.148645",
         10000.0
+      ],
+      [
+        "2026-08-27T05:15:36.557989",
+        10000.0
       ]
     ]
   },
@@ -1836,11 +1840,18 @@
       "market_price": 0.555,
       "question": "Will CF Am\u00e9rica win on 2026-08-26?",
       "ts": "2026-08-27T03:00:41"
+    },
+    "3578045": {
+      "probability": 0.08,
+      "reason": "Fixture existence on that date is uncertain and opponent unknown; staying near the low market price with a slight upward adjustment for Athletic's typical win rate if a match occurs.",
+      "market_price": 0.065,
+      "question": "Will Athletic Club win on 2026-08-27?",
+      "ts": "2026-08-27T05:15:36"
     }
   },
   "llm_usage": {
-    "calls": 28,
-    "prompt_tokens": 4657,
-    "completion_tokens": 13829
+    "calls": 29,
+    "prompt_tokens": 4822,
+    "completion_tokens": 14969
   }
 }
