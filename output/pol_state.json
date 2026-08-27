@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T02:45:29",
+  "saved_at": "2026-08-27T03:00:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1531,6 +1531,10 @@
       [
         "2026-08-27T02:45:28.541561",
         10000.0
+      ],
+      [
+        "2026-08-27T03:00:41.568789",
+        10000.0
       ]
     ]
   },
@@ -1793,11 +1797,18 @@
       "market_price": 0.235,
       "question": "Will CR Vasco da Gama win on 2026-08-26?",
       "ts": "2026-08-27T01:30:33"
+    },
+    "3605841": {
+      "probability": 0.55,
+      "reason": "No specific information about the opponent or context for this future Club Am\u00e9rica match; staying close to the market price given genuine uncertainty.",
+      "market_price": 0.555,
+      "question": "Will CF Am\u00e9rica win on 2026-08-26?",
+      "ts": "2026-08-27T03:00:41"
     }
   },
   "llm_usage": {
-    "calls": 27,
-    "prompt_tokens": 4492,
-    "completion_tokens": 13601
+    "calls": 28,
+    "prompt_tokens": 4657,
+    "completion_tokens": 13829
   }
 }
