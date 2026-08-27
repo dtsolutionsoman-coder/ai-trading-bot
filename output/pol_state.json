@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-27T00:15:43",
+  "saved_at": "2026-08-27T00:30:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1491,6 +1491,10 @@
       [
         "2026-08-27T00:15:42.864930",
         10000.0
+      ],
+      [
+        "2026-08-27T00:30:33.566790",
+        10000.0
       ]
     ]
   },
@@ -1739,11 +1743,18 @@
       "market_price": 0.0125,
       "question": "Will Augusto Cury win the 2026 Brazilian presidential election?",
       "ts": "2026-08-26T23:45:30"
+    },
+    "3605836": {
+      "probability": 0.57,
+      "reason": "No information about the opponent or match context; staying near the market price with a slight downward adjustment for typical favorite overpricing in soccer.",
+      "market_price": 0.595,
+      "question": "Will Deportivo Toluca FC win on 2026-08-26?",
+      "ts": "2026-08-27T00:30:33"
     }
   },
   "llm_usage": {
-    "calls": 25,
-    "prompt_tokens": 4154,
-    "completion_tokens": 13076
+    "calls": 26,
+    "prompt_tokens": 4324,
+    "completion_tokens": 13381
   }
 }
