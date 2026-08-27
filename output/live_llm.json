@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-27T14:15:48",
+  "saved_at": "2026-08-27T14:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -406,7 +406,7 @@
       "reason": "Profitable short aligns with extreme positive funding, perp premium, and mild downtrend, but thin volume and low volatility argue for defending gains rather than adding."
     }
   ],
-  "llm_bar_index": 260,
+  "llm_bar_index": 261,
   "llm_usage": {
     "calls": 67,
     "prompt_tokens": 24052,
@@ -1644,9 +1644,13 @@
     [
       "2026-08-27T14:00:00",
       9977.24
+    ],
+    [
+      "2026-08-27T14:15:00",
+      9966.89
     ]
   ],
-  "last_bar_ts": "2026-08-27T14:00:00",
-  "bars_processed": 292,
+  "last_bar_ts": "2026-08-27T14:15:00",
+  "bars_processed": 293,
   "starting_cash": 10000.0
 }
