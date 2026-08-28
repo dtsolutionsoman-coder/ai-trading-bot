@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T05:30:32",
+  "saved_at": "2026-08-28T05:45:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1951,6 +1951,10 @@
       [
         "2026-08-28T05:30:32.522821",
         10000.0
+      ],
+      [
+        "2026-08-28T05:45:26.964119",
+        10000.0
       ]
     ]
   },
@@ -2269,11 +2273,18 @@
       "market_price": 0.795,
       "question": "Will FC Bayern M\u00fcnchen win on 2026-08-28?",
       "ts": "2026-08-28T04:00:43"
+    },
+    "3595745": {
+      "probability": 0.57,
+      "reason": "Opponent and competition for this August 2026 fixture are unknown, so staying near the market price which likely reflects available matchup information.",
+      "market_price": 0.575,
+      "question": "Will Manchester City FC win on 2026-08-28?",
+      "ts": "2026-08-28T05:45:26"
     }
   },
   "llm_usage": {
-    "calls": 35,
-    "prompt_tokens": 5836,
-    "completion_tokens": 16735
+    "calls": 36,
+    "prompt_tokens": 6002,
+    "completion_tokens": 17065
   }
 }
