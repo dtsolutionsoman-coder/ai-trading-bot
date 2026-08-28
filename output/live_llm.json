@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T20:15:38",
+  "saved_at": "2026-08-28T20:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -580,7 +580,7 @@
       "reason": "6h/24h declines, SMA ratio below 1, and rising OI into falling price signal bearish pressure, so cutting the small losing long."
     }
   ],
-  "llm_bar_index": 380,
+  "llm_bar_index": 381,
   "llm_usage": {
     "calls": 96,
     "prompt_tokens": 34488,
@@ -2316,9 +2316,13 @@
     [
       "2026-08-28T20:00:00",
       10015.23
+    ],
+    [
+      "2026-08-28T20:15:00",
+      9998.12
     ]
   ],
-  "last_bar_ts": "2026-08-28T20:00:00",
-  "bars_processed": 412,
+  "last_bar_ts": "2026-08-28T20:15:00",
+  "bars_processed": 413,
   "starting_cash": 10000.0
 }
