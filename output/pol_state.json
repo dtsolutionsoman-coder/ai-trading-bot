@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T21:45:37",
+  "saved_at": "2026-08-28T21:54:28",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2226,6 +2226,10 @@
       [
         "2026-08-28T21:45:32.925204",
         9998.0
+      ],
+      [
+        "2026-08-28T21:54:18.481430",
+        9998.0
       ]
     ]
   },
@@ -2628,11 +2632,18 @@
       "market_price": 0.0165,
       "question": "Will Jesus Christ return before 2027?",
       "ts": "2026-08-28T21:45:32"
+    },
+    "3257336": {
+      "probability": 0.08,
+      "reason": "Without current price data, staying near the market's 6.6% with a slight upward adjustment for Bitcoin's fat-tailed volatility within a one-month window.",
+      "market_price": 0.066,
+      "question": "Will Bitcoin reach $82,500 in August?",
+      "ts": "2026-08-28T21:54:18"
     }
   },
   "llm_usage": {
-    "calls": 47,
-    "prompt_tokens": 7837,
-    "completion_tokens": 21385
+    "calls": 48,
+    "prompt_tokens": 7999,
+    "completion_tokens": 22136
   }
 }
