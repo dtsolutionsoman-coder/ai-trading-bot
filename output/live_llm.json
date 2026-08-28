@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T21:15:36",
+  "saved_at": "2026-08-28T21:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -586,7 +586,7 @@
       "reason": "Bearish 6h/24h momentum and SMA ratio below 1 with extreme positive funding paying the short outweigh the small adverse RSI bounce; keeping the short open."
     }
   ],
-  "llm_bar_index": 384,
+  "llm_bar_index": 385,
   "llm_usage": {
     "calls": 97,
     "prompt_tokens": 34849,
@@ -2338,9 +2338,13 @@
     [
       "2026-08-28T21:00:00",
       9998.09
+    ],
+    [
+      "2026-08-28T21:15:00",
+      9993.11
     ]
   ],
-  "last_bar_ts": "2026-08-28T21:00:00",
-  "bars_processed": 416,
+  "last_bar_ts": "2026-08-28T21:15:00",
+  "bars_processed": 417,
   "starting_cash": 10000.0
 }
