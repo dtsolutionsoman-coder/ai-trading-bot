@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T01:00:37",
+  "saved_at": "2026-08-28T01:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -458,13 +458,19 @@
       "action": "hold",
       "conviction": 0.25,
       "reason": "Mixed signals with mildly bullish drift and falling OI; keeping small profitable short rather than adding risk."
+    },
+    {
+      "ts": "2026-08-28T01:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "RSI 87 and 102% annualized funding with falling OI signal an overextended, low-volume squeeze, so retain the small short rather than add against short-term momentum."
     }
   ],
-  "llm_bar_index": 303,
+  "llm_bar_index": 304,
   "llm_usage": {
-    "calls": 76,
-    "prompt_tokens": 27282,
-    "completion_tokens": 67967
+    "calls": 77,
+    "prompt_tokens": 27643,
+    "completion_tokens": 68801
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1870,9 +1876,13 @@
     [
       "2026-08-28T00:45:00",
       9929.51
+    ],
+    [
+      "2026-08-28T01:00:00",
+      9907.65
     ]
   ],
-  "last_bar_ts": "2026-08-28T00:45:00",
-  "bars_processed": 335,
+  "last_bar_ts": "2026-08-28T01:00:00",
+  "bars_processed": 336,
   "starting_cash": 10000.0
 }
