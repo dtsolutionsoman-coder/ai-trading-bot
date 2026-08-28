@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T23:27:24",
+  "saved_at": "2026-08-28T23:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -598,7 +598,7 @@
       "reason": "RSI 83.7 with crowded longs paying 10.95% funding into a bearish SMA structure suggests fading this overextended bounce; modestly adding to the small short."
     }
   ],
-  "llm_bar_index": 392,
+  "llm_bar_index": 393,
   "llm_usage": {
     "calls": 99,
     "prompt_tokens": 35564,
@@ -2382,9 +2382,13 @@
     [
       "2026-08-28T23:00:00",
       9974.97
+    ],
+    [
+      "2026-08-28T23:15:00",
+      9988.13
     ]
   ],
-  "last_bar_ts": "2026-08-28T23:00:00",
-  "bars_processed": 424,
+  "last_bar_ts": "2026-08-28T23:15:00",
+  "bars_processed": 425,
   "starting_cash": 10000.0
 }
