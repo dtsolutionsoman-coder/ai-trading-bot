@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T16:30:31",
+  "saved_at": "2026-08-28T16:46:19",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -556,7 +556,7 @@
       "reason": "Profitable short supported by negative momentum and extreme positive funding, but RSI 19.2 bounce risk argues for defending gains rather than adding."
     }
   ],
-  "llm_bar_index": 365,
+  "llm_bar_index": 366,
   "llm_usage": {
     "calls": 92,
     "prompt_tokens": 33050,
@@ -2214,9 +2214,13 @@
     [
       "2026-08-28T16:15:00",
       10046.38
+    ],
+    [
+      "2026-08-28T16:30:00",
+      10037.94
     ]
   ],
-  "last_bar_ts": "2026-08-28T16:15:00",
-  "bars_processed": 397,
+  "last_bar_ts": "2026-08-28T16:30:00",
+  "bars_processed": 398,
   "starting_cash": 10000.0
 }
