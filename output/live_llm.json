@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T06:45:26",
+  "saved_at": "2026-08-28T07:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -496,7 +496,7 @@
       "reason": "Uptrend pressures the small short, but extreme positive funding (~1806% ann.) and 171bps perp premium pay shorts to hold for premium normalization without adding risk."
     }
   ],
-  "llm_bar_index": 326,
+  "llm_bar_index": 327,
   "llm_usage": {
     "calls": 82,
     "prompt_tokens": 29446,
@@ -1998,9 +1998,13 @@
     [
       "2026-08-28T06:30:00",
       9912.55
+    ],
+    [
+      "2026-08-28T06:45:00",
+      9909.76
     ]
   ],
-  "last_bar_ts": "2026-08-28T06:30:00",
-  "bars_processed": 358,
+  "last_bar_ts": "2026-08-28T06:45:00",
+  "bars_processed": 359,
   "starting_cash": 10000.0
 }
