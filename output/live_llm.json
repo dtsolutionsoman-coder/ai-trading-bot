@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T06:00:39",
+  "saved_at": "2026-08-28T06:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -488,13 +488,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Extreme funding (1817% ann.) and 184bps perp premium signal crowded longs that support the small short, but positive 24h momentum and thin volume argue against adding risk."
+    },
+    {
+      "ts": "2026-08-28T06:00:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Uptrend pressures the small short, but extreme positive funding (~1806% ann.) and 171bps perp premium pay shorts to hold for premium normalization without adding risk."
     }
   ],
-  "llm_bar_index": 323,
+  "llm_bar_index": 324,
   "llm_usage": {
-    "calls": 81,
-    "prompt_tokens": 29085,
-    "completion_tokens": 72163
+    "calls": 82,
+    "prompt_tokens": 29446,
+    "completion_tokens": 73240
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1980,9 +1986,13 @@
     [
       "2026-08-28T05:45:00",
       9917.16
+    ],
+    [
+      "2026-08-28T06:00:00",
+      9909.94
     ]
   ],
-  "last_bar_ts": "2026-08-28T05:45:00",
-  "bars_processed": 355,
+  "last_bar_ts": "2026-08-28T06:00:00",
+  "bars_processed": 356,
   "starting_cash": 10000.0
 }
