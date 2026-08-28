@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T20:00:55",
+  "saved_at": "2026-08-28T20:15:45",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -2183,6 +2183,10 @@
       [
         "2026-08-28T20:00:41.158709",
         10000.0
+      ],
+      [
+        "2026-08-28T20:15:40.942049",
+        10000.0
       ]
     ]
   },
@@ -2543,11 +2547,18 @@
       "market_price": 0.955,
       "question": "Will Fortuna Sittard win on 2026-08-28?",
       "ts": "2026-08-28T20:00:41"
+    },
+    "3595722": {
+      "probability": 0.48,
+      "reason": "No reliable information on opponent, venue, or squad form for this future fixture; staying near the market-implied price.",
+      "market_price": 0.485,
+      "question": "Will Lille OSC win on 2026-08-28?",
+      "ts": "2026-08-28T20:15:40"
     }
   },
   "llm_usage": {
-    "calls": 41,
-    "prompt_tokens": 6837,
-    "completion_tokens": 19431
+    "calls": 42,
+    "prompt_tokens": 7003,
+    "completion_tokens": 19667
   }
 }
