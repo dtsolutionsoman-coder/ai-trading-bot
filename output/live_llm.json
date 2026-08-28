@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T08:45:29",
+  "saved_at": "2026-08-28T09:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -508,7 +508,7 @@
       "reason": "Mild uptrend and neutral RSI conflict with extreme funding (2017% ann) and 194bps perp premium signaling crowded longs, so keep the small short that collects funding rather than add risk."
     }
   ],
-  "llm_bar_index": 334,
+  "llm_bar_index": 335,
   "llm_usage": {
     "calls": 84,
     "prompt_tokens": 30167,
@@ -2042,9 +2042,13 @@
     [
       "2026-08-28T08:30:00",
       9919.95
+    ],
+    [
+      "2026-08-28T08:45:00",
+      9927.38
     ]
   ],
-  "last_bar_ts": "2026-08-28T08:30:00",
-  "bars_processed": 366,
+  "last_bar_ts": "2026-08-28T08:45:00",
+  "bars_processed": 367,
   "starting_cash": 10000.0
 }
