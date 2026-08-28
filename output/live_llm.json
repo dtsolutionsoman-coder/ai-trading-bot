@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T05:00:41",
+  "saved_at": "2026-08-28T05:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -482,13 +482,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme positive funding (1698% ann.) and 153bps perp premium signal overcrowded longs, so the small short is worth keeping for the carry despite mild bullish momentum."
+    },
+    {
+      "ts": "2026-08-28T05:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Extreme funding (1817% ann.) and 184bps perp premium signal crowded longs that support the small short, but positive 24h momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 319,
+  "llm_bar_index": 320,
   "llm_usage": {
-    "calls": 80,
-    "prompt_tokens": 28724,
-    "completion_tokens": 71079
+    "calls": 81,
+    "prompt_tokens": 29085,
+    "completion_tokens": 72163
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -1958,9 +1964,13 @@
     [
       "2026-08-28T04:45:00",
       9918.91
+    ],
+    [
+      "2026-08-28T05:00:00",
+      9918.66
     ]
   ],
-  "last_bar_ts": "2026-08-28T04:45:00",
-  "bars_processed": 351,
+  "last_bar_ts": "2026-08-28T05:00:00",
+  "bars_processed": 352,
   "starting_cash": 10000.0
 }
