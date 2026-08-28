@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T16:00:46",
+  "saved_at": "2026-08-28T16:15:45",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -2119,6 +2119,10 @@
       [
         "2026-08-28T16:00:46.360269",
         10000.0
+      ],
+      [
+        "2026-08-28T16:15:41.719608",
+        10000.0
       ]
     ]
   },
@@ -2444,11 +2448,18 @@
       "market_price": 0.575,
       "question": "Will Manchester City FC win on 2026-08-28?",
       "ts": "2026-08-28T05:45:26"
+    },
+    "3595747": {
+      "probability": 0.58,
+      "reason": "Match details beyond my knowledge cutoff; PSG's typical win rate as a moderate favorite aligns with the market price, so staying close to it.",
+      "market_price": 0.585,
+      "question": "Will Paris Saint-Germain FC win on 2026-08-28?",
+      "ts": "2026-08-28T16:15:41"
     }
   },
   "llm_usage": {
-    "calls": 36,
-    "prompt_tokens": 6002,
-    "completion_tokens": 17065
+    "calls": 37,
+    "prompt_tokens": 6171,
+    "completion_tokens": 17262
   }
 }
