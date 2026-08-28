@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T03:45:26",
+  "saved_at": "2026-08-28T04:00:51",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -1923,6 +1923,10 @@
       [
         "2026-08-28T03:45:26.696708",
         10000.0
+      ],
+      [
+        "2026-08-28T04:00:43.733404",
+        10000.0
       ]
     ]
   },
@@ -2234,11 +2238,18 @@
       "market_price": 0.585,
       "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
       "ts": "2026-08-27T23:15:38"
+    },
+    "3595720": {
+      "probability": 0.79,
+      "reason": "No information on opponent or venue; Bayern is typically a strong favorite consistent with the ~80% market price, so staying near market.",
+      "market_price": 0.795,
+      "question": "Will FC Bayern M\u00fcnchen win on 2026-08-28?",
+      "ts": "2026-08-28T04:00:43"
     }
   },
   "llm_usage": {
-    "calls": 34,
-    "prompt_tokens": 5670,
-    "completion_tokens": 16500
+    "calls": 35,
+    "prompt_tokens": 5836,
+    "completion_tokens": 16735
   }
 }
