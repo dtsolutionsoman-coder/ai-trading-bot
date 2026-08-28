@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T21:03:19",
+  "saved_at": "2026-08-28T21:15:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -578,13 +578,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "6h/24h declines, SMA ratio below 1, and rising OI into falling price signal bearish pressure, so cutting the small losing long."
+    },
+    {
+      "ts": "2026-08-28T21:00:00",
+      "action": "hold",
+      "conviction": 0.45,
+      "reason": "Bearish 6h/24h momentum and SMA ratio below 1 with extreme positive funding paying the short outweigh the small adverse RSI bounce; keeping the short open."
     }
   ],
-  "llm_bar_index": 383,
+  "llm_bar_index": 384,
   "llm_usage": {
-    "calls": 96,
-    "prompt_tokens": 34488,
-    "completion_tokens": 84320
+    "calls": 97,
+    "prompt_tokens": 34849,
+    "completion_tokens": 85094
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2328,9 +2334,13 @@
     [
       "2026-08-28T20:45:00",
       9995.09
+    ],
+    [
+      "2026-08-28T21:00:00",
+      9998.09
     ]
   ],
-  "last_bar_ts": "2026-08-28T20:45:00",
-  "bars_processed": 415,
+  "last_bar_ts": "2026-08-28T21:00:00",
+  "bars_processed": 416,
   "starting_cash": 10000.0
 }

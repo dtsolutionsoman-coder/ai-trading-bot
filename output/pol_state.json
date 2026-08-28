@@ -1,13 +1,18 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T21:03:22",
+  "saved_at": "2026-08-28T21:15:52",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9898.0,
+    "cash": 9796.0,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
         "avg_price": 0.06834000000000001,
+        "realized_pnl": 0.0
+      },
+      "pol:1130012:Y": {
+        "qty": 134.2281879194631,
+        "avg_price": 0.7599,
         "realized_pnl": 0.0
       }
     },
@@ -21,6 +26,16 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge +0.333: LLM 0.40 vs market 0.07 \u2014 Will Donald Trump publicly insult someone on Augus"
+      },
+      {
+        "ts": "2026-08-28T21:15:38.221476",
+        "symbol": "pol:1130012:Y",
+        "side": "buy",
+        "qty": 134.2281879194631,
+        "price": 0.7599,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge +0.135: LLM 0.88 vs market 0.74 \u2014 Will United Russia (ER) gain the most seats in the"
       }
     ],
     "equity_curve": [
@@ -2199,6 +2214,10 @@
       [
         "2026-08-28T21:03:21.956759",
         10000.0
+      ],
+      [
+        "2026-08-28T21:15:38.221476",
+        9998.0
       ]
     ]
   },
@@ -2580,11 +2599,25 @@
       "market_price": 0.31,
       "question": "Will Deportivo Alav\u00e9s vs. Villarreal CF end in a draw?",
       "ts": "2026-08-28T20:45:41"
+    },
+    "1130012": {
+      "probability": 0.88,
+      "reason": "United Russia has won every managed Duma election since 2003 and the Kremlin fully controls outcomes; the market discount mainly reflects postponement or party-rebranding risk, which remains modest.",
+      "market_price": 0.745,
+      "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "ts": "2026-08-28T21:15:38"
+    },
+    "3599368": {
+      "probability": 0.73,
+      "reason": "No reliable information about this future fixture or opponent; staying close to the market price with a slight discount for football's high variance.",
+      "market_price": 0.745,
+      "question": "Will Deportivo Alav\u00e9s win on 2026-08-28?",
+      "ts": "2026-08-28T21:15:38"
     }
   },
   "llm_usage": {
-    "calls": 44,
-    "prompt_tokens": 7338,
-    "completion_tokens": 20189
+    "calls": 46,
+    "prompt_tokens": 7676,
+    "completion_tokens": 21081
   }
 }
