@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T13:45:25",
+  "saved_at": "2026-08-28T14:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -538,7 +538,7 @@
       "reason": "Extreme funding (2161% ann) and 218bps perp premium signal overcrowded longs while 1h/6h momentum fades, so modestly adding to the small profitable short despite the mild 24h uptrend."
     }
   ],
-  "llm_bar_index": 354,
+  "llm_bar_index": 355,
   "llm_usage": {
     "calls": 89,
     "prompt_tokens": 31971,
@@ -2152,9 +2152,13 @@
     [
       "2026-08-28T13:30:00",
       9935.59
+    ],
+    [
+      "2026-08-28T13:45:00",
+      9923.43
     ]
   ],
-  "last_bar_ts": "2026-08-28T13:30:00",
-  "bars_processed": 386,
+  "last_bar_ts": "2026-08-28T13:45:00",
+  "bars_processed": 387,
   "starting_cash": 10000.0
 }
