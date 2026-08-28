@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T22:14:20",
+  "saved_at": "2026-08-28T22:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -584,13 +584,19 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Bearish 6h/24h momentum and SMA ratio below 1 with extreme positive funding paying the short outweigh the small adverse RSI bounce; keeping the short open."
+    },
+    {
+      "ts": "2026-08-28T22:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Extreme 271% annualized funding signals overcrowded longs that supports the small short, but recovering 6h momentum and RI 68 warn against adding, so keep minimal exposure."
     }
   ],
-  "llm_bar_index": 387,
+  "llm_bar_index": 388,
   "llm_usage": {
-    "calls": 97,
-    "prompt_tokens": 34849,
-    "completion_tokens": 85094
+    "calls": 98,
+    "prompt_tokens": 35206,
+    "completion_tokens": 86005
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2350,9 +2356,13 @@
     [
       "2026-08-28T21:45:00",
       9997.87
+    ],
+    [
+      "2026-08-28T22:00:00",
+      9998.12
     ]
   ],
-  "last_bar_ts": "2026-08-28T21:45:00",
-  "bars_processed": 419,
+  "last_bar_ts": "2026-08-28T22:00:00",
+  "bars_processed": 420,
   "starting_cash": 10000.0
 }
