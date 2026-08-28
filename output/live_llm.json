@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T22:54:15",
+  "saved_at": "2026-08-28T23:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -592,7 +592,7 @@
       "reason": "Extreme 271% annualized funding signals overcrowded longs that supports the small short, but recovering 6h momentum and RI 68 warn against adding, so keep minimal exposure."
     }
   ],
-  "llm_bar_index": 390,
+  "llm_bar_index": 391,
   "llm_usage": {
     "calls": 98,
     "prompt_tokens": 35206,
@@ -2368,9 +2368,13 @@
     [
       "2026-08-28T22:30:00",
       9987.32
+    ],
+    [
+      "2026-08-28T22:45:00",
+      9988.52
     ]
   ],
-  "last_bar_ts": "2026-08-28T22:30:00",
-  "bars_processed": 422,
+  "last_bar_ts": "2026-08-28T22:45:00",
+  "bars_processed": 423,
   "starting_cash": 10000.0
 }
