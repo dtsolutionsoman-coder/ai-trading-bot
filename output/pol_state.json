@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T19:45:27",
+  "saved_at": "2026-08-28T20:00:55",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -2179,6 +2179,10 @@
       [
         "2026-08-28T19:45:27.118425",
         10000.0
+      ],
+      [
+        "2026-08-28T20:00:41.158709",
+        10000.0
       ]
     ]
   },
@@ -2532,11 +2536,18 @@
       "market_price": 0.0275,
       "question": "Will VfB Stuttgart win on 2026-08-28?",
       "ts": "2026-08-28T19:31:21"
+    },
+    "3604535": {
+      "probability": 0.92,
+      "reason": "No fixture details known for this future date; 0.955 is extremely high for any football match win, so I shade down modestly toward realistic favorite base rates while staying near the market.",
+      "market_price": 0.955,
+      "question": "Will Fortuna Sittard win on 2026-08-28?",
+      "ts": "2026-08-28T20:00:41"
     }
   },
   "llm_usage": {
-    "calls": 40,
-    "prompt_tokens": 6669,
-    "completion_tokens": 18541
+    "calls": 41,
+    "prompt_tokens": 6837,
+    "completion_tokens": 19431
   }
 }

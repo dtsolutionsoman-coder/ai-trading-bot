@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T19:45:25",
+  "saved_at": "2026-08-28T20:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -574,7 +574,7 @@
       "reason": "Deeply oversold RSI (23.4) and flat 1h price argue against selling the small long into weakness, but the 6h/24h downtrend and rising OI caution against adding exposure."
     }
   ],
-  "llm_bar_index": 378,
+  "llm_bar_index": 379,
   "llm_usage": {
     "calls": 95,
     "prompt_tokens": 34128,
@@ -2293,9 +2293,13 @@
     [
       "2026-08-28T19:30:00",
       10022.12
+    ],
+    [
+      "2026-08-28T19:45:00",
+      10020.66
     ]
   ],
-  "last_bar_ts": "2026-08-28T19:30:00",
-  "bars_processed": 410,
+  "last_bar_ts": "2026-08-28T19:45:00",
+  "bars_processed": 411,
   "starting_cash": 10000.0
 }
