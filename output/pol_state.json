@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T18:15:39",
+  "saved_at": "2026-08-28T18:30:40",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -2155,6 +2155,10 @@
       [
         "2026-08-28T18:15:38.639895",
         10000.0
+      ],
+      [
+        "2026-08-28T18:30:35.444345",
+        10000.0
       ]
     ]
   },
@@ -2494,11 +2498,18 @@
       "market_price": 0.495,
       "question": "Will Real Racing Club win on 2026-08-28?",
       "ts": "2026-08-28T17:00:40"
+    },
+    "3593361": {
+      "probability": 0.64,
+      "reason": "No information available about the fixture or opponent this far out; staying close to market price with a slight favorite-longshot shade.",
+      "market_price": 0.655,
+      "question": "Will AC Milan win on 2026-08-28?",
+      "ts": "2026-08-28T18:30:35"
     }
   },
   "llm_usage": {
-    "calls": 38,
-    "prompt_tokens": 6337,
-    "completion_tokens": 17490
+    "calls": 39,
+    "prompt_tokens": 6502,
+    "completion_tokens": 17712
   }
 }
