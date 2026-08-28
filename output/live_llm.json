@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T18:30:33",
+  "saved_at": "2026-08-28T18:45:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -568,7 +568,7 @@
       "reason": "RSI 17.5 is extremely oversold with OI up 9.3% suggesting crowded shorts, so holding the small long for a bounce rather than selling the low despite the 6h downtrend."
     }
   ],
-  "llm_bar_index": 373,
+  "llm_bar_index": 374,
   "llm_usage": {
     "calls": 94,
     "prompt_tokens": 33770,
@@ -2267,9 +2267,13 @@
     [
       "2026-08-28T18:15:00",
       10022.18
+    ],
+    [
+      "2026-08-28T18:30:00",
+      10021.27
     ]
   ],
-  "last_bar_ts": "2026-08-28T18:15:00",
-  "bars_processed": 405,
+  "last_bar_ts": "2026-08-28T18:30:00",
+  "bars_processed": 406,
   "starting_cash": 10000.0
 }
