@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-28T19:15:35",
+  "saved_at": "2026-08-28T19:31:33",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9898.0,
@@ -2171,6 +2171,10 @@
       [
         "2026-08-28T19:15:35.477750",
         10000.0
+      ],
+      [
+        "2026-08-28T19:31:21.113928",
+        10000.0
       ]
     ]
   },
@@ -2517,11 +2521,18 @@
       "market_price": 0.655,
       "question": "Will AC Milan win on 2026-08-28?",
       "ts": "2026-08-28T18:30:35"
+    },
+    "3595737": {
+      "probability": 0.05,
+      "reason": "Fixture schedule for Aug 2026 is unknown to me; market's low price likely reflects uncertainty over whether Stuttgart even plays that day, so I stay near the market with a slight upward adjustment for",
+      "market_price": 0.0275,
+      "question": "Will VfB Stuttgart win on 2026-08-28?",
+      "ts": "2026-08-28T19:31:21"
     }
   },
   "llm_usage": {
-    "calls": 39,
-    "prompt_tokens": 6502,
-    "completion_tokens": 17712
+    "calls": 40,
+    "prompt_tokens": 6669,
+    "completion_tokens": 18541
   }
 }
