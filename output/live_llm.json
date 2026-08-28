@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-28T12:00:40",
+  "saved_at": "2026-08-28T12:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -524,13 +524,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme positive funding and 206bps perp premium justify keeping the small profitable short for carry, but mild uptrend (SMA ratio >1, +2% 24h) and neutral RSI cap conviction."
+    },
+    {
+      "ts": "2026-08-28T12:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme positive funding (2060% ann.) and 189bps perp premium signal overcrowded longs while 1h/6h momentum fades on thin volume; modestly adding to the small profitable short for carry."
     }
   ],
-  "llm_bar_index": 347,
+  "llm_bar_index": 348,
   "llm_usage": {
-    "calls": 87,
-    "prompt_tokens": 31250,
-    "completion_tokens": 76872
+    "calls": 88,
+    "prompt_tokens": 31610,
+    "completion_tokens": 77804
   },
   "cash": 12476.68881205162,
   "positions": {
@@ -2112,9 +2118,13 @@
     [
       "2026-08-28T11:45:00",
       9919.7
+    ],
+    [
+      "2026-08-28T12:00:00",
+      9923.68
     ]
   ],
-  "last_bar_ts": "2026-08-28T11:45:00",
-  "bars_processed": 379,
+  "last_bar_ts": "2026-08-28T12:00:00",
+  "bars_processed": 380,
   "starting_cash": 10000.0
 }
