@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T14:17:47",
+  "saved_at": "2026-08-29T14:24:26",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3066,6 +3066,10 @@
       [
         "2026-08-29T14:17:46.847401",
         10000.0
+      ],
+      [
+        "2026-08-29T14:24:18.723117",
+        10000.0
       ]
     ]
   },
@@ -3566,11 +3570,18 @@
       "market_price": 0.13,
       "question": "Will Bayer 04 Leverkusen win on 2026-08-29?",
       "ts": "2026-08-29T14:11:40"
+    },
+    "3621998": {
+      "probability": 0.74,
+      "reason": "No specific information about the opponent or match context; staying near the market price with a slight discount for typical favorite-longshot bias in soccer.",
+      "market_price": 0.775,
+      "question": "Will RB Leipzig win on 2026-08-29?",
+      "ts": "2026-08-29T14:24:18"
     }
   },
   "llm_usage": {
-    "calls": 61,
-    "prompt_tokens": 10160,
-    "completion_tokens": 27043
+    "calls": 62,
+    "prompt_tokens": 10325,
+    "completion_tokens": 27486
   }
 }
