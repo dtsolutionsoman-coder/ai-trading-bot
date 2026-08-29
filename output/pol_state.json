@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T13:17:44",
+  "saved_at": "2026-08-29T13:24:32",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3014,6 +3014,10 @@
       [
         "2026-08-29T13:17:44.405581",
         10000.0
+      ],
+      [
+        "2026-08-29T13:24:26.291636",
+        10000.0
       ]
     ]
   },
@@ -3486,11 +3490,18 @@
       "market_price": 0.285,
       "question": "Will Liverpool FC vs. Nottingham Forest FC end in a draw?",
       "ts": "2026-08-29T13:11:12"
+    },
+    "3621935": {
+      "probability": 0.44,
+      "reason": "No reliable information on the opponent or Hoffenheim's form for this distant future fixture; staying close to the market price is the calibrated choice.",
+      "market_price": 0.445,
+      "question": "Will TSG 1899 Hoffenheim win on 2026-08-29?",
+      "ts": "2026-08-29T13:24:26"
     }
   },
   "llm_usage": {
-    "calls": 57,
-    "prompt_tokens": 9491,
-    "completion_tokens": 25444
+    "calls": 58,
+    "prompt_tokens": 9661,
+    "completion_tokens": 25700
   }
 }
