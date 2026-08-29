@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T15:50:07",
+  "saved_at": "2026-08-29T15:57:00",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3142,6 +3142,10 @@
       [
         "2026-08-29T15:50:03.489689",
         10000.0
+      ],
+      [
+        "2026-08-29T15:56:30.281867",
+        10000.0
       ]
     ]
   },
@@ -3666,8 +3670,8 @@
     }
   },
   "llm_usage": {
-    "calls": 64,
-    "prompt_tokens": 10664,
-    "completion_tokens": 28089
+    "calls": 65,
+    "prompt_tokens": 10830,
+    "completion_tokens": 30089
   }
 }
