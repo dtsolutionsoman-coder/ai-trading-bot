@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T12:24:21",
+  "saved_at": "2026-08-29T12:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -676,7 +676,7 @@
       "reason": "Bearish trend (24h -4.3%, SMA ratio <1, rising OI) supports the small short, but RSI near oversold and positive funding flag bounce risk, so maintain modest exposure."
     }
   ],
-  "llm_bar_index": 444,
+  "llm_bar_index": 445,
   "llm_usage": {
     "calls": 112,
     "prompt_tokens": 40243,
@@ -2668,9 +2668,13 @@
     [
       "2026-08-29T12:00:00",
       9998.97
+    ],
+    [
+      "2026-08-29T12:15:00",
+      9998.0
     ]
   ],
-  "last_bar_ts": "2026-08-29T12:00:00",
-  "bars_processed": 476,
+  "last_bar_ts": "2026-08-29T12:15:00",
+  "bars_processed": 477,
   "starting_cash": 10000.0
 }
