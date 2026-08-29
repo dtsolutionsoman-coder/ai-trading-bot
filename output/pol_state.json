@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T16:24:01",
+  "saved_at": "2026-08-29T16:30:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3170,6 +3170,10 @@
       [
         "2026-08-29T16:24:01.648921",
         10000.0
+      ],
+      [
+        "2026-08-29T16:30:32.511885",
+        10000.0
       ]
     ]
   },
@@ -3698,11 +3702,18 @@
       "market_price": 0.725,
       "question": "Will BV Borussia 09 Dortmund win on 2026-08-29?",
       "ts": "2026-08-29T16:03:35"
+    },
+    "3621996": {
+      "probability": 0.3,
+      "reason": "No information available about the opponent or match context for this future fixture; staying close to the market-implied price of 0.305.",
+      "market_price": 0.305,
+      "question": "Will Newcastle United FC win on 2026-08-29?",
+      "ts": "2026-08-29T16:30:32"
     }
   },
   "llm_usage": {
-    "calls": 66,
-    "prompt_tokens": 10999,
-    "completion_tokens": 30414
+    "calls": 67,
+    "prompt_tokens": 11164,
+    "completion_tokens": 30688
   }
 }
