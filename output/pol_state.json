@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T17:03:18",
+  "saved_at": "2026-08-29T17:09:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3202,6 +3202,10 @@
       [
         "2026-08-29T17:03:17.951257",
         10000.0
+      ],
+      [
+        "2026-08-29T17:09:49.032294",
+        10000.0
       ]
     ]
   },
@@ -3751,11 +3755,18 @@
       "market_price": 0.265,
       "question": "Will Tottenham Hotspur FC vs. Newcastle United FC end in a draw?",
       "ts": "2026-08-29T16:37:15"
+    },
+    "3618922": {
+      "probability": 0.13,
+      "reason": "Unknown opponent and Monza's likely underdog status in an August 2026 fixture leaves me close to the market price with slight uncertainty.",
+      "market_price": 0.125,
+      "question": "Will AC Monza win on 2026-08-29?",
+      "ts": "2026-08-29T17:09:49"
     }
   },
   "llm_usage": {
-    "calls": 69,
-    "prompt_tokens": 11500,
-    "completion_tokens": 31304
+    "calls": 70,
+    "prompt_tokens": 11665,
+    "completion_tokens": 31749
   }
 }
