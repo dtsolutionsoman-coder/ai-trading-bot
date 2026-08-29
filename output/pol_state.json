@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T14:04:23",
+  "saved_at": "2026-08-29T14:12:02",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3054,6 +3054,10 @@
       [
         "2026-08-29T14:04:23.612472",
         10000.0
+      ],
+      [
+        "2026-08-29T14:11:40.870061",
+        10000.0
       ]
     ]
   },
@@ -3540,11 +3544,25 @@
       "market_price": 0.275,
       "question": "Will AFC Bournemouth vs. Everton FC end in a draw?",
       "ts": "2026-08-29T13:57:52"
+    },
+    "3621946": {
+      "probability": 0.41,
+      "reason": "No information available about Bournemouth's opponent, venue, or squad for this distant fixture, so staying close to the market-implied price.",
+      "market_price": 0.415,
+      "question": "Will AFC Bournemouth win on 2026-08-29?",
+      "ts": "2026-08-29T14:11:40"
+    },
+    "3621982": {
+      "probability": 0.15,
+      "reason": "Unknown opponent and 2026 form make this hard to assess independently; 13% seems low for Leverkusen but plausible if facing a top side away, so staying near market with slight upward adjustment.",
+      "market_price": 0.13,
+      "question": "Will Bayer 04 Leverkusen win on 2026-08-29?",
+      "ts": "2026-08-29T14:11:40"
     }
   },
   "llm_usage": {
-    "calls": 59,
-    "prompt_tokens": 9826,
-    "completion_tokens": 26081
+    "calls": 61,
+    "prompt_tokens": 10160,
+    "completion_tokens": 27043
   }
 }
