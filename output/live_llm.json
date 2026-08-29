@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T11:23:37",
+  "saved_at": "2026-08-29T11:30:03",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -670,7 +670,7 @@
       "reason": "Downtrend intact (24h -4.2%, SMA12h<SMA48h, RSI<50, OI rising into weakness) justifies keeping the small short, but flat 1h/6h momentum and a minor loss on the position argue against adding here."
     }
   ],
-  "llm_bar_index": 440,
+  "llm_bar_index": 441,
   "llm_usage": {
     "calls": 111,
     "prompt_tokens": 39882,
@@ -2646,9 +2646,13 @@
     [
       "2026-08-29T11:00:00",
       9995.09
+    ],
+    [
+      "2026-08-29T11:15:00",
+      9993.44
     ]
   ],
-  "last_bar_ts": "2026-08-29T11:00:00",
-  "bars_processed": 472,
+  "last_bar_ts": "2026-08-29T11:15:00",
+  "bars_processed": 473,
   "starting_cash": 10000.0
 }
