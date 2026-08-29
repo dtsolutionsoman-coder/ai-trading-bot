@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T14:30:57",
+  "saved_at": "2026-08-29T14:37:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3078,6 +3078,10 @@
       [
         "2026-08-29T14:30:57.495157",
         10000.0
+      ],
+      [
+        "2026-08-29T14:37:39.717423",
+        10000.0
       ]
     ]
   },
@@ -3585,11 +3589,18 @@
       "market_price": 0.775,
       "question": "Will RB Leipzig win on 2026-08-29?",
       "ts": "2026-08-29T14:24:18"
+    },
+    "3621975": {
+      "probability": 0.72,
+      "reason": "No information available about the opponent or match context for this future fixture; staying near the market price with a slight discount for football's inherent draw risk.",
+      "market_price": 0.755,
+      "question": "Will SV 07 Elversberg win on 2026-08-29?",
+      "ts": "2026-08-29T14:37:39"
     }
   },
   "llm_usage": {
-    "calls": 62,
-    "prompt_tokens": 10325,
-    "completion_tokens": 27486
+    "calls": 63,
+    "prompt_tokens": 10494,
+    "completion_tokens": 27898
   }
 }
