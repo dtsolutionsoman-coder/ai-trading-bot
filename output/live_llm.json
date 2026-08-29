@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T16:56:34",
+  "saved_at": "2026-08-29T17:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -700,7 +700,7 @@
       "reason": "SMA12h below SMA48h and elevated positive funding support keeping the small short, but 24h upside and neutral RSI argue against adding, so I hold the modest position while the loss stays contained."
     }
   ],
-  "llm_bar_index": 462,
+  "llm_bar_index": 463,
   "llm_usage": {
     "calls": 116,
     "prompt_tokens": 41684,
@@ -2764,9 +2764,13 @@
     [
       "2026-08-29T16:30:00",
       9982.83
+    ],
+    [
+      "2026-08-29T16:45:00",
+      9977.79
     ]
   ],
-  "last_bar_ts": "2026-08-29T16:30:00",
-  "bars_processed": 494,
+  "last_bar_ts": "2026-08-29T16:45:00",
+  "bars_processed": 495,
   "starting_cash": 10000.0
 }
