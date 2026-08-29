@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T00:40:06",
+  "saved_at": "2026-08-29T00:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -604,7 +604,7 @@
       "reason": "Downtrend intact (SMA ratio 0.984, -2.9% 24h) supports the small short, but the 6h bounce and neutral RSI argue against adding; positive funding favors keeping it."
     }
   ],
-  "llm_bar_index": 397,
+  "llm_bar_index": 398,
   "llm_usage": {
     "calls": 100,
     "prompt_tokens": 35924,
@@ -2408,9 +2408,13 @@
     [
       "2026-08-29T00:15:00",
       9989.43
+    ],
+    [
+      "2026-08-29T00:30:00",
+      9989.49
     ]
   ],
-  "last_bar_ts": "2026-08-29T00:15:00",
-  "bars_processed": 429,
+  "last_bar_ts": "2026-08-29T00:30:00",
+  "bars_processed": 430,
   "starting_cash": 10000.0
 }
