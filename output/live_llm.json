@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T04:26:35",
+  "saved_at": "2026-08-29T04:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -628,7 +628,7 @@
       "reason": "Bearish trend intact (SMA ratio 0.976, -3.8% 24h) supports maintaining the small short, but flat 1h/6h momentum and a minor unrealized loss argue against adding exposure."
     }
   ],
-  "llm_bar_index": 412,
+  "llm_bar_index": 413,
   "llm_usage": {
     "calls": 104,
     "prompt_tokens": 37362,
@@ -2492,9 +2492,13 @@
     [
       "2026-08-29T04:00:00",
       9995.34
+    ],
+    [
+      "2026-08-29T04:15:00",
+      9992.66
     ]
   ],
-  "last_bar_ts": "2026-08-29T04:00:00",
-  "bars_processed": 444,
+  "last_bar_ts": "2026-08-29T04:15:00",
+  "bars_processed": 445,
   "starting_cash": 10000.0
 }
