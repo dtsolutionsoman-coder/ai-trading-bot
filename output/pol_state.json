@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T11:49:37",
+  "saved_at": "2026-08-29T11:56:13",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2938,6 +2938,10 @@
       [
         "2026-08-29T11:49:36.841012",
         10000.0
+      ],
+      [
+        "2026-08-29T11:56:02.249712",
+        10000.0
       ]
     ]
   },
@@ -3396,11 +3400,18 @@
       "market_price": 0.495,
       "question": "Will Racing Club de Lens win on 2026-08-29?",
       "ts": "2026-08-29T08:56:19"
+    },
+    "3621926": {
+      "probability": 0.22,
+      "reason": "No information about the opponent or venue for this distant fixture; the market price likely reflects known matchup difficulty, so staying close to it with slight uncertainty adjustment.",
+      "market_price": 0.205,
+      "question": "Will Nottingham Forest FC win on 2026-08-29?",
+      "ts": "2026-08-29T11:56:02"
     }
   },
   "llm_usage": {
-    "calls": 55,
-    "prompt_tokens": 9161,
-    "completion_tokens": 24295
+    "calls": 56,
+    "prompt_tokens": 9326,
+    "completion_tokens": 24851
   }
 }
