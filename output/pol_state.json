@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T13:04:26",
+  "saved_at": "2026-08-29T13:11:22",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3002,6 +3002,10 @@
       [
         "2026-08-29T13:04:25.687657",
         10000.0
+      ],
+      [
+        "2026-08-29T13:11:12.065912",
+        10000.0
       ]
     ]
   },
@@ -3467,11 +3471,18 @@
       "market_price": 0.205,
       "question": "Will Nottingham Forest FC win on 2026-08-29?",
       "ts": "2026-08-29T11:56:02"
+    },
+    "3621922": {
+      "probability": 0.27,
+      "reason": "Draw base rates for a Premier League fixture with a strong favorite like Liverpool sit slightly below the market price, but long lead time and unknown venue details warrant staying close to 0.285.",
+      "market_price": 0.285,
+      "question": "Will Liverpool FC vs. Nottingham Forest FC end in a draw?",
+      "ts": "2026-08-29T13:11:12"
     }
   },
   "llm_usage": {
-    "calls": 56,
-    "prompt_tokens": 9326,
-    "completion_tokens": 24851
+    "calls": 57,
+    "prompt_tokens": 9491,
+    "completion_tokens": 25444
   }
 }
