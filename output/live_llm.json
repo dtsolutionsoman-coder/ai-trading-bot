@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T23:23:55",
+  "saved_at": "2026-08-29T23:30:13",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -742,7 +742,7 @@
       "reason": "Bearish lean from SMA12h below SMA48h, falling open interest, and elevated long funding outweighs tepid low-volume gains; trimming the small long."
     }
   ],
-  "llm_bar_index": 488,
+  "llm_bar_index": 489,
   "llm_usage": {
     "calls": 123,
     "prompt_tokens": 44200,
@@ -2928,9 +2928,13 @@
     [
       "2026-08-29T23:00:00",
       9967.45
+    ],
+    [
+      "2026-08-29T23:15:00",
+      9966.75
     ]
   ],
-  "last_bar_ts": "2026-08-29T23:00:00",
-  "bars_processed": 520,
+  "last_bar_ts": "2026-08-29T23:15:00",
+  "bars_processed": 521,
   "starting_cash": 10000.0
 }
