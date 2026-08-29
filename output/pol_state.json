@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T04:30:38",
+  "saved_at": "2026-08-29T04:33:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2570,6 +2570,10 @@
       [
         "2026-08-29T04:30:38.345200",
         9996.657718
+      ],
+      [
+        "2026-08-29T04:33:32.507925",
+        9996.657718
       ]
     ]
   },
@@ -3000,11 +3004,18 @@
       "market_price": 0.045,
       "question": "Will Club Le\u00f3n FC win on 2026-08-28?",
       "ts": "2026-08-29T03:53:05"
+    },
+    "3621966": {
+      "probability": 0.53,
+      "reason": "Fixture details are unknown this far out; Coventry appears favored per market price, so staying close to it with slight regression toward typical soccer win rates.",
+      "market_price": 0.545,
+      "question": "Will Coventry City FC win on 2026-08-29?",
+      "ts": "2026-08-29T04:33:32"
     }
   },
   "llm_usage": {
-    "calls": 51,
-    "prompt_tokens": 8497,
-    "completion_tokens": 23108
+    "calls": 52,
+    "prompt_tokens": 8664,
+    "completion_tokens": 23325
   }
 }
