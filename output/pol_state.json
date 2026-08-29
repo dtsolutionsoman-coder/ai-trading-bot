@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T16:00:46",
+  "saved_at": "2026-08-29T16:03:42",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3150,6 +3150,10 @@
       [
         "2026-08-29T16:00:46.473634",
         10000.0
+      ],
+      [
+        "2026-08-29T16:03:35.328962",
+        10000.0
       ]
     ]
   },
@@ -3671,11 +3675,18 @@
       "market_price": 0.395,
       "question": "Will Real Betis Balompi\u00e9 win on 2026-08-29?",
       "ts": "2026-08-29T15:50:03"
+    },
+    "3622035": {
+      "probability": 0.7,
+      "reason": "No information on opponent or match context for this future fixture; staying near the market price with a slight downward adjustment for typical bookmaker margin and football's inherent draw risk.",
+      "market_price": 0.725,
+      "question": "Will BV Borussia 09 Dortmund win on 2026-08-29?",
+      "ts": "2026-08-29T16:03:35"
     }
   },
   "llm_usage": {
-    "calls": 65,
-    "prompt_tokens": 10830,
-    "completion_tokens": 30089
+    "calls": 66,
+    "prompt_tokens": 10999,
+    "completion_tokens": 30414
   }
 }
