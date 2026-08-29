@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T16:31:01",
+  "saved_at": "2026-08-29T16:37:28",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3174,6 +3174,10 @@
       [
         "2026-08-29T16:30:54.875661",
         10000.0
+      ],
+      [
+        "2026-08-29T16:37:15.371536",
+        10000.0
       ]
     ]
   },
@@ -3709,11 +3713,25 @@
       "market_price": 0.305,
       "question": "Will Newcastle United FC win on 2026-08-29?",
       "ts": "2026-08-29T16:30:54"
+    },
+    "3618935": {
+      "probability": 0.55,
+      "reason": "No information available about this future fixture beyond the market price, so staying close to the implied probability.",
+      "market_price": 0.555,
+      "question": "Will ACF Fiorentina win on 2026-08-29?",
+      "ts": "2026-08-29T16:37:15"
+    },
+    "3621994": {
+      "probability": 0.26,
+      "reason": "Future Premier League match with no current team information; typical EPL draw rate of ~25-26% aligns closely with the market price.",
+      "market_price": 0.265,
+      "question": "Will Tottenham Hotspur FC vs. Newcastle United FC end in a draw?",
+      "ts": "2026-08-29T16:37:15"
     }
   },
   "llm_usage": {
-    "calls": 67,
-    "prompt_tokens": 11164,
-    "completion_tokens": 30791
+    "calls": 69,
+    "prompt_tokens": 11500,
+    "completion_tokens": 31304
   }
 }
