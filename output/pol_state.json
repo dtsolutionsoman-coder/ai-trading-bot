@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T21:03:08",
+  "saved_at": "2026-08-29T21:10:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3406,6 +3406,10 @@
       [
         "2026-08-29T21:03:07.993010",
         10000.0
+      ],
+      [
+        "2026-08-29T21:10:23.366328",
+        10000.0
       ]
     ]
   },
@@ -3997,11 +4001,25 @@
       "market_price": 0.915,
       "question": "Will Juventus FC win on 2026-08-29?",
       "ts": "2026-08-29T20:23:31"
+    },
+    "3653961": {
+      "probability": 0.52,
+      "reason": "No reliable information about the fixture, opponent, or team form that far ahead; staying close to the market price.",
+      "market_price": 0.525,
+      "question": "Will Chelsea FC win on 2026-08-30?",
+      "ts": "2026-08-29T21:10:23"
+    },
+    "3758940": {
+      "probability": 0.03,
+      "reason": "Full closure of a major maritime chokepoint is a rare tail event; Houthi attacks have disrupted but never closed the strait, so staying near the low market price with slight upside for escalation risk",
+      "market_price": 0.0235,
+      "question": "Bab el-Mandeb Strait effectively closed by September 15?",
+      "ts": "2026-08-29T21:10:23"
     }
   },
   "llm_usage": {
-    "calls": 75,
-    "prompt_tokens": 12499,
-    "completion_tokens": 34080
+    "calls": 77,
+    "prompt_tokens": 12829,
+    "completion_tokens": 34782
   }
 }
