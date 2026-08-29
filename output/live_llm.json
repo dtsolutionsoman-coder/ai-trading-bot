@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T22:23:54",
+  "saved_at": "2026-08-29T22:30:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -736,7 +736,7 @@
       "reason": "Short is losing as 1h/6h/24h momentum turns positive with positive funding; cutting the losing short despite mildly bearish SMA structure."
     }
   ],
-  "llm_bar_index": 484,
+  "llm_bar_index": 485,
   "llm_usage": {
     "calls": 122,
     "prompt_tokens": 43841,
@@ -2897,9 +2897,13 @@
     [
       "2026-08-29T22:00:00",
       9973.92
+    ],
+    [
+      "2026-08-29T22:15:00",
+      9972.65
     ]
   ],
-  "last_bar_ts": "2026-08-29T22:00:00",
-  "bars_processed": 516,
+  "last_bar_ts": "2026-08-29T22:15:00",
+  "bars_processed": 517,
   "starting_cash": 10000.0
 }
