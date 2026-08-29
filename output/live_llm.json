@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T15:23:41",
+  "saved_at": "2026-08-29T15:30:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -694,7 +694,7 @@
       "reason": "Bearish 24h trend and positive funding support retaining the small short, though the intraday bounce and elevated RSI argue against adding."
     }
   ],
-  "llm_bar_index": 456,
+  "llm_bar_index": 457,
   "llm_usage": {
     "calls": 115,
     "prompt_tokens": 41324,
@@ -2734,9 +2734,13 @@
     [
       "2026-08-29T15:00:00",
       9978.85
+    ],
+    [
+      "2026-08-29T15:15:00",
+      9982.18
     ]
   ],
-  "last_bar_ts": "2026-08-29T15:00:00",
-  "bars_processed": 488,
+  "last_bar_ts": "2026-08-29T15:15:00",
+  "bars_processed": 489,
   "starting_cash": 10000.0
 }
