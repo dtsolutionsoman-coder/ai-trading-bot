@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T07:29:10",
+  "saved_at": "2026-08-29T07:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -646,7 +646,7 @@
       "reason": "Downtrend (SMA ratio <1, -3.7% 24h) and extreme positive funding give the small short carry and edge, but the bounce (RSI ~60, positive perp premium) argues against adding to a slightly underwater pos"
     }
   ],
-  "llm_bar_index": 424,
+  "llm_bar_index": 425,
   "llm_usage": {
     "calls": 107,
     "prompt_tokens": 38442,
@@ -2558,9 +2558,13 @@
     [
       "2026-08-29T07:00:00",
       9981.89
+    ],
+    [
+      "2026-08-29T07:15:00",
+      9979.95
     ]
   ],
-  "last_bar_ts": "2026-08-29T07:00:00",
-  "bars_processed": 456,
+  "last_bar_ts": "2026-08-29T07:15:00",
+  "bars_processed": 457,
   "starting_cash": 10000.0
 }
