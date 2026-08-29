@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T20:00:41",
+  "saved_at": "2026-08-29T20:03:11",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3350,6 +3350,10 @@
       [
         "2026-08-29T20:00:41.604573",
         10000.0
+      ],
+      [
+        "2026-08-29T20:02:59.197896",
+        10000.0
       ]
     ]
   },
@@ -3927,11 +3931,18 @@
       "market_price": 0.655,
       "question": "Will Galatasaray SK win on 2026-08-29?",
       "ts": "2026-08-29T19:29:26"
+    },
+    "3625697": {
+      "probability": 0.02,
+      "reason": "Market price suggests Sevilla likely has no winnable fixture on that exact date; without confirmed schedule info, staying near the market price.",
+      "market_price": 0.0115,
+      "question": "Will Sevilla FC win on 2026-08-29?",
+      "ts": "2026-08-29T20:02:59"
     }
   },
   "llm_usage": {
-    "calls": 73,
-    "prompt_tokens": 12169,
-    "completion_tokens": 32532
+    "calls": 74,
+    "prompt_tokens": 12334,
+    "completion_tokens": 33333
   }
 }
