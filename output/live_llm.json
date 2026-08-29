@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T19:29:24",
+  "saved_at": "2026-08-29T19:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -718,7 +718,7 @@
       "reason": "Extreme positive funding (52.9% ann.) and sub-1 SMA ratio favor keeping the small short despite mild upward momentum; mixed signals warrant no size change."
     }
   ],
-  "llm_bar_index": 472,
+  "llm_bar_index": 473,
   "llm_usage": {
     "calls": 119,
     "prompt_tokens": 42764,
@@ -2822,9 +2822,13 @@
     [
       "2026-08-29T19:00:00",
       9977.3
+    ],
+    [
+      "2026-08-29T19:15:00",
+      9975.75
     ]
   ],
-  "last_bar_ts": "2026-08-29T19:00:00",
-  "bars_processed": 504,
+  "last_bar_ts": "2026-08-29T19:15:00",
+  "bars_processed": 505,
   "starting_cash": 10000.0
 }
