@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T20:16:52",
+  "saved_at": "2026-08-29T20:23:44",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3366,6 +3366,10 @@
       [
         "2026-08-29T20:16:51.997455",
         10000.0
+      ],
+      [
+        "2026-08-29T20:23:31.960296",
+        10000.0
       ]
     ]
   },
@@ -3950,11 +3954,18 @@
       "market_price": 0.0115,
       "question": "Will Sevilla FC win on 2026-08-29?",
       "ts": "2026-08-29T20:02:59"
+    },
+    "3618949": {
+      "probability": 0.89,
+      "reason": "No information about the opponent or context; 91.5% is extremely high for a soccer win, so I shade slightly below market while staying close given my uncertainty.",
+      "market_price": 0.915,
+      "question": "Will Juventus FC win on 2026-08-29?",
+      "ts": "2026-08-29T20:23:31"
     }
   },
   "llm_usage": {
-    "calls": 74,
-    "prompt_tokens": 12334,
-    "completion_tokens": 33333
+    "calls": 75,
+    "prompt_tokens": 12499,
+    "completion_tokens": 34080
   }
 }
