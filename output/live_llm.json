@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T09:43:13",
+  "saved_at": "2026-08-29T09:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -658,7 +658,7 @@
       "reason": "Downtrend intact (SMA ratio 0.98, -3.7% 24h) with extreme positive funding and rising OI signaling crowded longs vulnerable to further downside."
     }
   ],
-  "llm_bar_index": 433,
+  "llm_bar_index": 434,
   "llm_usage": {
     "calls": 109,
     "prompt_tokens": 39161,
@@ -2606,9 +2606,13 @@
     [
       "2026-08-29T09:15:00",
       9990.82
+    ],
+    [
+      "2026-08-29T09:30:00",
+      9988.75
     ]
   ],
-  "last_bar_ts": "2026-08-29T09:15:00",
-  "bars_processed": 465,
+  "last_bar_ts": "2026-08-29T09:30:00",
+  "bars_processed": 466,
   "starting_cash": 10000.0
 }
