@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T15:45:29",
+  "saved_at": "2026-08-29T15:50:07",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3138,6 +3138,10 @@
       [
         "2026-08-29T15:45:29.614791",
         10000.0
+      ],
+      [
+        "2026-08-29T15:50:03.489689",
+        10000.0
       ]
     ]
   },
@@ -3652,11 +3656,18 @@
       "market_price": 0.755,
       "question": "Will SV 07 Elversberg win on 2026-08-29?",
       "ts": "2026-08-29T14:37:39"
+    },
+    "3625672": {
+      "probability": 0.4,
+      "reason": "Match is far in the future with unknown opponent and form; no information to deviate from the market-implied price.",
+      "market_price": 0.395,
+      "question": "Will Real Betis Balompi\u00e9 win on 2026-08-29?",
+      "ts": "2026-08-29T15:50:03"
     }
   },
   "llm_usage": {
-    "calls": 63,
-    "prompt_tokens": 10494,
-    "completion_tokens": 27898
+    "calls": 64,
+    "prompt_tokens": 10664,
+    "completion_tokens": 28089
   }
 }
