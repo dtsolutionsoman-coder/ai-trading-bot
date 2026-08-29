@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T23:10:23",
+  "saved_at": "2026-08-29T23:15:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -734,20 +734,26 @@
       "action": "buy",
       "conviction": 0.25,
       "reason": "Short is losing as 1h/6h/24h momentum turns positive with positive funding; cutting the losing short despite mildly bearish SMA structure."
+    },
+    {
+      "ts": "2026-08-29T23:00:00",
+      "action": "sell",
+      "conviction": 0.25,
+      "reason": "Bearish lean from SMA12h below SMA48h, falling open interest, and elevated long funding outweighs tepid low-volume gains; trimming the small long."
     }
   ],
-  "llm_bar_index": 487,
+  "llm_bar_index": 488,
   "llm_usage": {
-    "calls": 122,
-    "prompt_tokens": 43841,
-    "completion_tokens": 109980
+    "calls": 123,
+    "prompt_tokens": 44200,
+    "completion_tokens": 110850
   },
-  "cash": 7478.549741047662,
+  "cash": 12461.185621133533,
   "positions": {
     "BTC": {
-      "qty": 0.03178205281025606,
-      "avg_price": 78554.25749999999,
-      "realized_pnl": -3.2341472695367983
+      "qty": -0.031748299244830636,
+      "avg_price": 78507.7265,
+      "realized_pnl": -4.712997968850446
     }
   },
   "recent_fills": [
@@ -831,6 +837,15 @@
       "fee": 5.036764470626031,
       "realized": -36.28102902383904,
       "reason": "LLM buy conv=0.25: Short is losing as 1h/6h/24h momentum turns positive with positive funding; cutting the losing short despite mildly bearish SMA structure. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-08-29T23:00:00",
+      "side": "sell",
+      "qty": 0.0635303520550867,
+      "price": 78507.7265,
+      "fee": 4.98762350358946,
+      "realized": -1.4788506993136474,
+      "reason": "LLM sell conv=0.25: Bearish lean from SMA12h below SMA48h, falling open interest, and elevated long funding outweighs tepid low-volume gains; trimming the small long. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -2909,9 +2924,13 @@
     [
       "2026-08-29T22:45:00",
       9975.38
+    ],
+    [
+      "2026-08-29T23:00:00",
+      9967.45
     ]
   ],
-  "last_bar_ts": "2026-08-29T22:45:00",
-  "bars_processed": 519,
+  "last_bar_ts": "2026-08-29T23:00:00",
+  "bars_processed": 520,
   "starting_cash": 10000.0
 }

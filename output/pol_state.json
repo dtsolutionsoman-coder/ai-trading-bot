@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T23:10:25",
+  "saved_at": "2026-08-29T23:15:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3506,6 +3506,10 @@
       [
         "2026-08-29T23:10:25.167787",
         10000.0
+      ],
+      [
+        "2026-08-29T23:15:41.712067",
+        10000.0
       ]
     ]
   },
@@ -4111,11 +4115,18 @@
       "market_price": 0.0235,
       "question": "Bab el-Mandeb Strait effectively closed by September 15?",
       "ts": "2026-08-29T21:10:23"
+    },
+    "3810130": {
+      "probability": 0.32,
+      "reason": "Lacking current ETH price data, staying near the market-implied 33% given crypto volatility makes a dip to $2,400 plausible but not likely.",
+      "market_price": 0.33,
+      "question": "Will Ethereum dip to $2,400 in August?",
+      "ts": "2026-08-29T23:15:41"
     }
   },
   "llm_usage": {
-    "calls": 77,
-    "prompt_tokens": 12829,
-    "completion_tokens": 34782
+    "calls": 78,
+    "prompt_tokens": 12991,
+    "completion_tokens": 35060
   }
 }
