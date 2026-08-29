@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T08:15:52",
+  "saved_at": "2026-08-29T08:16:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -647,16 +647,16 @@
     },
     {
       "ts": "2026-08-29T08:00:00",
-      "action": "hold",
-      "conviction": 0.55,
-      "reason": "Extreme 525% funding and perp premium signal crowded longs supporting the small short, but RSI 62 bounce momentum argues against adding to a slightly underwater position."
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Extreme 525% funding and perp premium signal dangerously crowded longs within a 24h downtrend and sub-1 SMA ratio, justifying a modest short add despite the short-term bounce."
     }
   ],
   "llm_bar_index": 428,
   "llm_usage": {
     "calls": 108,
     "prompt_tokens": 38802,
-    "completion_tokens": 95672
+    "completion_tokens": 95633
   },
   "cash": 12520.350976144318,
   "positions": {
