@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T00:13:23",
+  "saved_at": "2026-08-29T00:15:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -596,13 +596,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "RSI 83.7 with crowded longs paying 10.95% funding into a bearish SMA structure suggests fading this overextended bounce; modestly adding to the small short."
+    },
+    {
+      "ts": "2026-08-29T00:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Downtrend intact (SMA ratio 0.984, -2.9% 24h) supports the small short, but the 6h bounce and neutral RSI argue against adding; positive funding favors keeping it."
     }
   ],
-  "llm_bar_index": 395,
+  "llm_bar_index": 396,
   "llm_usage": {
-    "calls": 99,
-    "prompt_tokens": 35564,
-    "completion_tokens": 87021
+    "calls": 100,
+    "prompt_tokens": 35924,
+    "completion_tokens": 87774
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2394,9 +2400,13 @@
     [
       "2026-08-28T23:45:00",
       9994.96
+    ],
+    [
+      "2026-08-29T00:00:00",
+      9990.82
     ]
   ],
-  "last_bar_ts": "2026-08-28T23:45:00",
-  "bars_processed": 427,
+  "last_bar_ts": "2026-08-29T00:00:00",
+  "bars_processed": 428,
   "starting_cash": 10000.0
 }
