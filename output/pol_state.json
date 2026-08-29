@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T19:22:46",
+  "saved_at": "2026-08-29T19:29:31",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3318,6 +3318,10 @@
       [
         "2026-08-29T19:22:46.424893",
         10000.0
+      ],
+      [
+        "2026-08-29T19:29:26.369341",
+        10000.0
       ]
     ]
   },
@@ -3888,11 +3892,18 @@
       "market_price": 0.515,
       "question": "Will Club Atl\u00e9tico de Madrid win on 2026-08-29?",
       "ts": "2026-08-29T18:49:32"
+    },
+    "3636520": {
+      "probability": 0.64,
+      "reason": "No fixture details available for this future date; Galatasaray are typically strong favorites in domestic matches, so staying close to the market-implied price.",
+      "market_price": 0.655,
+      "question": "Will Galatasaray SK win on 2026-08-29?",
+      "ts": "2026-08-29T19:29:26"
     }
   },
   "llm_usage": {
-    "calls": 72,
-    "prompt_tokens": 12001,
-    "completion_tokens": 32255
+    "calls": 73,
+    "prompt_tokens": 12169,
+    "completion_tokens": 32532
   }
 }
