@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T14:11:38",
+  "saved_at": "2026-08-29T14:17:13",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -680,13 +680,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Bearish trend (SMA ratio <1, -3.4% 24h, elevated long funding) supports keeping the small short, but RSI near 35 and rising OI squeeze risk argue against adding."
+    },
+    {
+      "ts": "2026-08-29T14:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Multi-timeframe downtrend with SMA12h below SMA48h, RSI under 50, and positive funding paying the short supports maintaining and modestly adding to short exposure despite small unrealized loss."
     }
   ],
-  "llm_bar_index": 451,
+  "llm_bar_index": 452,
   "llm_usage": {
-    "calls": 113,
-    "prompt_tokens": 40604,
-    "completion_tokens": 100953
+    "calls": 114,
+    "prompt_tokens": 40963,
+    "completion_tokens": 102143
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2702,9 +2708,13 @@
     [
       "2026-08-29T13:45:00",
       9988.33
+    ],
+    [
+      "2026-08-29T14:00:00",
+      9995.09
     ]
   ],
-  "last_bar_ts": "2026-08-29T13:45:00",
-  "bars_processed": 483,
+  "last_bar_ts": "2026-08-29T14:00:00",
+  "bars_processed": 484,
   "starting_cash": 10000.0
 }
