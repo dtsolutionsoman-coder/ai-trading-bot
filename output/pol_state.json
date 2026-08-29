@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T23:45:28",
+  "saved_at": "2026-08-29T23:49:58",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3538,6 +3538,10 @@
       [
         "2026-08-29T23:45:28.074162",
         10000.0
+      ],
+      [
+        "2026-08-29T23:49:44.988789",
+        10000.0
       ]
     ]
   },
@@ -4150,11 +4154,25 @@
       "market_price": 0.33,
       "question": "Will Ethereum dip to $2,400 in August?",
       "ts": "2026-08-29T23:15:41"
+    },
+    "3635576": {
+      "probability": 0.67,
+      "reason": "No information on opponent or form for this distant future match; staying near market price with slight downward shade since popular teams like Inter Miami often carry retail-driven price inflation an",
+      "market_price": 0.705,
+      "question": "Will Inter Miami CF win on 2026-08-29?",
+      "ts": "2026-08-29T23:49:44"
+    },
+    "3635724": {
+      "probability": 0.55,
+      "reason": "No independent information available on this future MLS fixture; staying close to the market-implied price for a likely home favorite.",
+      "market_price": 0.555,
+      "question": "Will Nashville SC win on 2026-08-29?",
+      "ts": "2026-08-29T23:49:44"
     }
   },
   "llm_usage": {
-    "calls": 78,
-    "prompt_tokens": 12991,
-    "completion_tokens": 35060
+    "calls": 80,
+    "prompt_tokens": 13322,
+    "completion_tokens": 35725
   }
 }
