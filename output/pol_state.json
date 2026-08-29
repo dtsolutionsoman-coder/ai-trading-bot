@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T03:46:17",
+  "saved_at": "2026-08-29T03:53:12",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2534,6 +2534,10 @@
       [
         "2026-08-29T03:46:16.797394",
         9996.657718
+      ],
+      [
+        "2026-08-29T03:53:05.401815",
+        9996.657718
       ]
     ]
   },
@@ -2957,11 +2961,18 @@
       "market_price": 0.645,
       "question": "Will Liverpool FC win on 2026-08-29?",
       "ts": "2026-08-29T03:26:11"
+    },
+    "3606517": {
+      "probability": 0.05,
+      "reason": "No reliable information on this distant fixture; the unusually low price suggests a conditional or longshot scenario, so staying near the market.",
+      "market_price": 0.045,
+      "question": "Will Club Le\u00f3n FC win on 2026-08-28?",
+      "ts": "2026-08-29T03:53:05"
     }
   },
   "llm_usage": {
-    "calls": 50,
-    "prompt_tokens": 8331,
-    "completion_tokens": 22739
+    "calls": 51,
+    "prompt_tokens": 8497,
+    "completion_tokens": 23108
   }
 }
