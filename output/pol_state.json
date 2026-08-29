@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T03:19:32",
+  "saved_at": "2026-08-29T03:26:16",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2510,6 +2510,10 @@
       [
         "2026-08-29T03:19:32.343218",
         9996.657718
+      ],
+      [
+        "2026-08-29T03:26:11.852533",
+        9996.657718
       ]
     ]
   },
@@ -2926,11 +2930,18 @@
       "market_price": 0.74,
       "question": "Will CF Cruz Azul win on 2026-08-28?",
       "ts": "2026-08-29T01:45:25"
+    },
+    "3621917": {
+      "probability": 0.64,
+      "reason": "Opponent and form for an August 2026 fixture are unknown, so staying near the market-implied price for a strong club's typical win likelihood.",
+      "market_price": 0.645,
+      "question": "Will Liverpool FC win on 2026-08-29?",
+      "ts": "2026-08-29T03:26:11"
     }
   },
   "llm_usage": {
-    "calls": 49,
-    "prompt_tokens": 8166,
-    "completion_tokens": 22514
+    "calls": 50,
+    "prompt_tokens": 8331,
+    "completion_tokens": 22739
   }
 }
