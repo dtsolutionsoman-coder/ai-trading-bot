@@ -1,8 +1,8 @@
 {
-  "saved_at": "2026-08-29T19:09:28",
+  "saved_at": "2026-08-29T19:15:42",
   "symbol": "BTC",
   "interval": "15m",
-  "llm_bar_index": 471,
+  "llm_bar_index": 472,
   "cash": 10000.0,
   "positions": {},
   "recent_fills": [],
@@ -2014,9 +2014,13 @@
     [
       "2026-08-29T18:45:00",
       10000.0
+    ],
+    [
+      "2026-08-29T19:00:00",
+      10000.0
     ]
   ],
-  "last_bar_ts": "2026-08-29T18:45:00",
-  "bars_processed": 502,
+  "last_bar_ts": "2026-08-29T19:00:00",
+  "bars_processed": 503,
   "starting_cash": 10000.0
 }

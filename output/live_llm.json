@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T19:09:27",
+  "saved_at": "2026-08-29T19:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -710,13 +710,19 @@
       "action": "hold",
       "conviction": 0.25,
       "reason": "Bearish structure (SMA ratio <1, RSI<50, positive funding) offsets positive 6-24h momentum; keeping small short in low-vol chop rather than chasing."
+    },
+    {
+      "ts": "2026-08-29T19:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Extreme positive funding (52.9% ann.) and sub-1 SMA ratio favor keeping the small short despite mild upward momentum; mixed signals warrant no size change."
     }
   ],
-  "llm_bar_index": 471,
+  "llm_bar_index": 472,
   "llm_usage": {
-    "calls": 118,
-    "prompt_tokens": 42406,
-    "completion_tokens": 106210
+    "calls": 119,
+    "prompt_tokens": 42764,
+    "completion_tokens": 107032
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2812,9 +2818,13 @@
     [
       "2026-08-29T18:45:00",
       9977.11
+    ],
+    [
+      "2026-08-29T19:00:00",
+      9977.3
     ]
   ],
-  "last_bar_ts": "2026-08-29T18:45:00",
-  "bars_processed": 503,
+  "last_bar_ts": "2026-08-29T19:00:00",
+  "bars_processed": 504,
   "starting_cash": 10000.0
 }
