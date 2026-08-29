@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T17:29:56",
+  "saved_at": "2026-08-29T17:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -706,7 +706,7 @@
       "reason": "Bounce looks like short covering (falling OI) within a bearish SMA structure with elevated funding; retaining the small short despite minor drawdown."
     }
   ],
-  "llm_bar_index": 464,
+  "llm_bar_index": 465,
   "llm_usage": {
     "calls": 117,
     "prompt_tokens": 42045,
@@ -2778,9 +2778,13 @@
     [
       "2026-08-29T17:00:00",
       9982.22
+    ],
+    [
+      "2026-08-29T17:15:00",
+      9981.44
     ]
   ],
-  "last_bar_ts": "2026-08-29T17:00:00",
-  "bars_processed": 496,
+  "last_bar_ts": "2026-08-29T17:15:00",
+  "bars_processed": 497,
   "starting_cash": 10000.0
 }
