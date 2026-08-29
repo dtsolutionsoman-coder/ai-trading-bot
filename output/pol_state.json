@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T04:46:36",
+  "saved_at": "2026-08-29T04:53:16",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -2586,6 +2586,10 @@
       [
         "2026-08-29T04:46:36.255252",
         9996.657718
+      ],
+      [
+        "2026-08-29T04:53:11.127916",
+        9996.657718
       ]
     ]
   },
@@ -3023,11 +3027,18 @@
       "market_price": 0.545,
       "question": "Will Coventry City FC win on 2026-08-29?",
       "ts": "2026-08-29T04:33:32"
+    },
+    "3621992": {
+      "probability": 0.44,
+      "reason": "Opponent and match context for Aug 2026 are unknown; a typical Spurs win probability (~40-45%) aligns closely with the market price.",
+      "market_price": 0.435,
+      "question": "Will Tottenham Hotspur FC win on 2026-08-29?",
+      "ts": "2026-08-29T04:53:11"
     }
   },
   "llm_usage": {
-    "calls": 52,
-    "prompt_tokens": 8664,
-    "completion_tokens": 23325
+    "calls": 53,
+    "prompt_tokens": 8832,
+    "completion_tokens": 23645
   }
 }
