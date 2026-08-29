@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-29T13:51:31",
+  "saved_at": "2026-08-29T13:57:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3042,6 +3042,10 @@
       [
         "2026-08-29T13:51:30.784596",
         10000.0
+      ],
+      [
+        "2026-08-29T13:57:52.966487",
+        10000.0
       ]
     ]
   },
@@ -3521,11 +3525,18 @@
       "market_price": 0.445,
       "question": "Will TSG 1899 Hoffenheim win on 2026-08-29?",
       "ts": "2026-08-29T13:24:26"
+    },
+    "3621950": {
+      "probability": 0.27,
+      "reason": "Draw probability for a Premier League match typically runs 24-28%; with no team-specific information available, staying near the market price of 0.275 is appropriate.",
+      "market_price": 0.275,
+      "question": "Will AFC Bournemouth vs. Everton FC end in a draw?",
+      "ts": "2026-08-29T13:57:52"
     }
   },
   "llm_usage": {
-    "calls": 58,
-    "prompt_tokens": 9661,
-    "completion_tokens": 25700
+    "calls": 59,
+    "prompt_tokens": 9826,
+    "completion_tokens": 26081
   }
 }
