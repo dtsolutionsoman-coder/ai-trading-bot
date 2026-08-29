@@ -52,6 +52,26 @@ def test_summarize_pol_decisions():
     assert s["avg_abs_edge"] > 0.14
 
 
+def test_summarize_list_decisions_live_books():
+    # live books persist decisions as a LIST of dicts (action/conviction),
+    # pol as a dict of {market: {...probability...}) — both must summarize
+    decisions = [
+        {"action": "buy", "conviction": 0.7, "reason": "funding extreme"},
+        {"action": "hold", "conviction": 0.1},
+        "not-a-dict",
+    ]
+    s = summarize(make_state(decisions=decisions))
+    assert s["decisions"] == 0  # action-style decisions are not Brier rows
+    assert s["total_decisions"] == 2  # but they still count as decisions made
+
+
+def test_summarize_probability_rows_in_list():
+    decisions = [{"action": "hold"}, {"probability": 0.6, "market_price": 0.5}]
+    s = summarize(make_state(decisions=decisions))
+    assert s["decisions"] == 1
+    assert abs(s["avg_abs_edge"] - 0.1) < 1e-9
+
+
 def test_evidence_strength_thresholds():
     assert "TOO EARLY" in evidence_strength(7)
     assert "WEAK" in evidence_strength(50)

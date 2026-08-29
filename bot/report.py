@@ -60,7 +60,16 @@ def summarize(state: dict) -> dict:
         days = max((t1 - t0).total_seconds() / 86_400, 0.0)
 
     decisions = state.get("decisions", {})
-    real_decisions = [d for d in decisions.values() if "probability" in d]
+    # pol stores {market_id: {...}}, live books store a list of decision dicts;
+    # only probability-bearing decisions (pol-style) count toward Brier stats
+    if isinstance(decisions, dict):
+        decision_rows = list(decisions.values())
+    else:
+        decision_rows = list(decisions)
+    real_decisions = [
+        d for d in decision_rows
+        if isinstance(d, dict) and "probability" in d
+    ]
 
     return {
         "days": days,
@@ -71,6 +80,7 @@ def summarize(state: dict) -> dict:
         "win_rate_pct": metrics.get("win_rate_pct", 0.0),
         "profit_factor": metrics.get("profit_factor"),
         "decisions": len(real_decisions),
+        "total_decisions": sum(1 for d in decision_rows if isinstance(d, dict)),
         "avg_abs_edge": (
             sum(abs(d["probability"] - d.get("market_price", 0.0))
                 for d in real_decisions) / len(real_decisions)
@@ -163,7 +173,8 @@ def main(argv: list[str] | None = None) -> int:
         pf_txt = "n/a" if pf is None else f"{pf:.2f}"
         print(f"\n{name}")
         print(f"  evidence      {s['days']:.1f} days, {s['fills']} fills, "
-              f"{s['closed_trades']} closed trades, {s['decisions']} LLM decisions")
+              f"{s['closed_trades']} closed trades, {s['total_decisions']} decisions "
+              f"({s['decisions']} probability-scored)")
         print(f"  return        {s['return_pct']:+.2f}%   "
               f"max drawdown -{s['max_dd_pct']:.2f}%")
         print(f"  win rate      {s['win_rate_pct']:.0f}%   "
