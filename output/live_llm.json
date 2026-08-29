@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T08:29:04",
+  "saved_at": "2026-08-29T08:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -652,7 +652,7 @@
       "reason": "Extreme 525% funding and perp premium signal dangerously crowded longs within a 24h downtrend and sub-1 SMA ratio, justifying a modest short add despite the short-term bounce."
     }
   ],
-  "llm_bar_index": 428,
+  "llm_bar_index": 429,
   "llm_usage": {
     "calls": 108,
     "prompt_tokens": 38802,
@@ -2580,9 +2580,13 @@
     [
       "2026-08-29T08:00:00",
       9979.89
+    ],
+    [
+      "2026-08-29T08:15:00",
+      9977.49
     ]
   ],
-  "last_bar_ts": "2026-08-29T08:00:00",
-  "bars_processed": 460,
+  "last_bar_ts": "2026-08-29T08:15:00",
+  "bars_processed": 461,
   "starting_cash": 10000.0
 }
