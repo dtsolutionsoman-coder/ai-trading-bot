@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T01:13:38",
+  "saved_at": "2026-08-29T01:15:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -602,13 +602,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Downtrend intact (SMA ratio 0.984, -2.9% 24h) supports the small short, but the 6h bounce and neutral RSI argue against adding; positive funding favors keeping it."
+    },
+    {
+      "ts": "2026-08-29T01:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Bearish structure (sma12h<sma48h, -4.3% day) and positive funding still favor the small short; the modest 6h bounce with RSI 66.6 warrants no add, just keep the position."
     }
   ],
-  "llm_bar_index": 399,
+  "llm_bar_index": 400,
   "llm_usage": {
-    "calls": 100,
-    "prompt_tokens": 35924,
-    "completion_tokens": 87774
+    "calls": 101,
+    "prompt_tokens": 36283,
+    "completion_tokens": 88614
   },
   "cash": 12520.350976144318,
   "positions": {
@@ -2416,9 +2422,13 @@
     [
       "2026-08-29T00:45:00",
       9988.94
+    ],
+    [
+      "2026-08-29T01:00:00",
+      9976.33
     ]
   ],
-  "last_bar_ts": "2026-08-29T00:45:00",
-  "bars_processed": 431,
+  "last_bar_ts": "2026-08-29T01:00:00",
+  "bars_processed": 432,
   "starting_cash": 10000.0
 }
