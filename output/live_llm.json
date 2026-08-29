@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T03:39:41",
+  "saved_at": "2026-08-29T03:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -622,7 +622,7 @@
       "reason": "Bearish 24h trend and SMA ratio below 1 support the small short, but neutral RSI and a mild short-term bounce argue against adding; maintain reduced exposure."
     }
   ],
-  "llm_bar_index": 409,
+  "llm_bar_index": 410,
   "llm_usage": {
     "calls": 103,
     "prompt_tokens": 37002,
@@ -2474,9 +2474,13 @@
     [
       "2026-08-29T03:15:00",
       9991.82
+    ],
+    [
+      "2026-08-29T03:30:00",
+      9992.5
     ]
   ],
-  "last_bar_ts": "2026-08-29T03:15:00",
-  "bars_processed": 441,
+  "last_bar_ts": "2026-08-29T03:30:00",
+  "bars_processed": 442,
   "starting_cash": 10000.0
 }
