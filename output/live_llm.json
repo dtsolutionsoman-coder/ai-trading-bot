@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-29T14:24:16",
+  "saved_at": "2026-08-29T14:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -688,7 +688,7 @@
       "reason": "Multi-timeframe downtrend with SMA12h below SMA48h, RSI under 50, and positive funding paying the short supports maintaining and modestly adding to short exposure despite small unrealized loss."
     }
   ],
-  "llm_bar_index": 452,
+  "llm_bar_index": 453,
   "llm_usage": {
     "calls": 114,
     "prompt_tokens": 40963,
@@ -2712,9 +2712,13 @@
     [
       "2026-08-29T14:00:00",
       9995.09
+    ],
+    [
+      "2026-08-29T14:15:00",
+      9990.91
     ]
   ],
-  "last_bar_ts": "2026-08-29T14:00:00",
-  "bars_processed": 484,
+  "last_bar_ts": "2026-08-29T14:15:00",
+  "bars_processed": 485,
   "starting_cash": 10000.0
 }
