@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T20:26:15",
+  "saved_at": "2026-08-30T20:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -868,7 +868,7 @@
       "reason": "Mixed signals \u2014 mildly positive trend and near-oversold RSI offset by weak momentum, low volume, and elevated funding \u2014 so keep the small long but at reduced size."
     }
   ],
-  "llm_bar_index": 572,
+  "llm_bar_index": 573,
   "llm_usage": {
     "calls": 144,
     "prompt_tokens": 51730,
@@ -3399,9 +3399,13 @@
     [
       "2026-08-30T20:00:00",
       9940.4
+    ],
+    [
+      "2026-08-30T20:15:00",
+      9941.22
     ]
   ],
-  "last_bar_ts": "2026-08-30T20:00:00",
-  "bars_processed": 604,
+  "last_bar_ts": "2026-08-30T20:15:00",
+  "bars_processed": 605,
   "starting_cash": 10000.0
 }
