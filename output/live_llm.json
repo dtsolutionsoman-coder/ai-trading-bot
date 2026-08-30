@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T12:24:55",
+  "saved_at": "2026-08-30T12:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -820,7 +820,7 @@
       "reason": "Mildly bullish momentum and RSI 61.5 are offset by elevated funding and falling OI suggesting a weak short-covering bounce, so keeping the small short with its funding tailwind."
     }
   ],
-  "llm_bar_index": 540,
+  "llm_bar_index": 541,
   "llm_usage": {
     "calls": 136,
     "prompt_tokens": 48863,
@@ -3214,9 +3214,13 @@
     [
       "2026-08-30T12:00:00",
       9966.25
+    ],
+    [
+      "2026-08-30T12:15:00",
+      9966.25
     ]
   ],
-  "last_bar_ts": "2026-08-30T12:00:00",
-  "bars_processed": 572,
+  "last_bar_ts": "2026-08-30T12:15:00",
+  "bars_processed": 573,
   "starting_cash": 10000.0
 }
