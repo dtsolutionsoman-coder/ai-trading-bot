@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T19:45:55",
+  "saved_at": "2026-08-30T19:52:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4577,6 +4577,10 @@
       [
         "2026-08-30T19:45:55.587034",
         10000.0
+      ],
+      [
+        "2026-08-30T19:52:45.254389",
+        10000.0
       ]
     ]
   },
@@ -5343,11 +5347,18 @@
       "market_price": 0.425,
       "question": "Will SS Lazio win on 2026-08-30?",
       "ts": "2026-08-30T18:52:44"
+    },
+    "3688221": {
+      "probability": 0.63,
+      "reason": "No information available about the fixture or opponent on this future date; staying calibrated to the market price.",
+      "market_price": 0.635,
+      "question": "Will Arsenal FC win on 2026-08-31?",
+      "ts": "2026-08-30T19:52:45"
     }
   },
   "llm_usage": {
-    "calls": 100,
-    "prompt_tokens": 16653,
-    "completion_tokens": 45898
+    "calls": 101,
+    "prompt_tokens": 16818,
+    "completion_tokens": 46171
   }
 }
