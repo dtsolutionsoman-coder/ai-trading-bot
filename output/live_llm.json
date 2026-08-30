@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T14:57:49",
+  "saved_at": "2026-08-30T15:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -832,7 +832,7 @@
       "reason": "Extreme overbought RSI (85.2), positive funding, and declining OI support keeping the small short despite minor drawdown, but rising momentum across timeframes argues against adding risk."
     }
   ],
-  "llm_bar_index": 550,
+  "llm_bar_index": 551,
   "llm_usage": {
     "calls": 138,
     "prompt_tokens": 49578,
@@ -3266,9 +3266,13 @@
     [
       "2026-08-30T14:30:00",
       9962.53
+    ],
+    [
+      "2026-08-30T14:45:00",
+      9962.18
     ]
   ],
-  "last_bar_ts": "2026-08-30T14:30:00",
-  "bars_processed": 582,
+  "last_bar_ts": "2026-08-30T14:45:00",
+  "bars_processed": 583,
   "starting_cash": 10000.0
 }
