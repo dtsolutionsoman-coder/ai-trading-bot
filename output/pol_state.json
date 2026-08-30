@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T12:18:16",
+  "saved_at": "2026-08-30T12:25:08",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -4174,6 +4174,10 @@
       [
         "2026-08-30T12:18:16.070320",
         10000.0
+      ],
+      [
+        "2026-08-30T12:24:57.521804",
+        10000.0
       ]
     ]
   },
@@ -4870,11 +4874,18 @@
       "market_price": 0.405,
       "question": "Will Sunderland AFC win on 2026-08-30?",
       "ts": "2026-08-30T11:24:25"
+    },
+    "3654003": {
+      "probability": 0.3,
+      "reason": "Opponent unknown for this early-season fixture; Fulham's typical win rate (~30-35%) aligns closely with the market price, so staying near it.",
+      "market_price": 0.295,
+      "question": "Will Fulham FC win on 2026-08-30?",
+      "ts": "2026-08-30T12:24:57"
     }
   },
   "llm_usage": {
-    "calls": 90,
-    "prompt_tokens": 14984,
-    "completion_tokens": 39616
+    "calls": 91,
+    "prompt_tokens": 15150,
+    "completion_tokens": 40253
   }
 }
