@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T03:47:18",
+  "saved_at": "2026-08-30T03:54:06",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3742,6 +3742,10 @@
       [
         "2026-08-30T03:47:17.995502",
         10000.0
+      ],
+      [
+        "2026-08-30T03:53:54.994277",
+        10000.0
       ]
     ]
   },
@@ -4403,11 +4407,18 @@
       "market_price": 0.0285,
       "question": "Will M\u00e1laga CF win on 2026-08-30?",
       "ts": "2026-08-30T03:20:29"
+    },
+    "3656636": {
+      "probability": 0.84,
+      "reason": "Market implies a heavy favorite, but soccer's high draw rate makes 0.885 seem optimistic for a single match, so I shade slightly below price given fixture uncertainty.",
+      "market_price": 0.885,
+      "question": "Will Real Madrid CF win on 2026-08-30?",
+      "ts": "2026-08-30T03:53:54"
     }
   },
   "llm_usage": {
-    "calls": 85,
-    "prompt_tokens": 14156,
-    "completion_tokens": 37682
+    "calls": 86,
+    "prompt_tokens": 14322,
+    "completion_tokens": 38340
   }
 }
