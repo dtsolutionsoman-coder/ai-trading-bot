@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T23:32:13",
+  "saved_at": "2026-08-30T23:38:44",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4773,6 +4773,10 @@
       [
         "2026-08-30T23:32:13.440956",
         10000.0
+      ],
+      [
+        "2026-08-30T23:38:35.128452",
+        10000.0
       ]
     ]
   },
@@ -5567,11 +5571,18 @@
       "market_price": 0.875,
       "question": "Will FC Barcelona win on 2026-08-31?",
       "ts": "2026-08-30T22:39:14"
+    },
+    "2952493": {
+      "probability": 0.95,
+      "reason": "Market strongly prices ceasefire durability, but Israel-Iran tensions carry persistent tail risk of escalation that warrants a slight discount to the implied price.",
+      "market_price": 0.9705,
+      "question": "Israel x Iran ceasefire continues through August 31?",
+      "ts": "2026-08-30T23:38:35"
     }
   },
   "llm_usage": {
-    "calls": 104,
-    "prompt_tokens": 17312,
-    "completion_tokens": 48419
+    "calls": 105,
+    "prompt_tokens": 17474,
+    "completion_tokens": 48978
   }
 }
