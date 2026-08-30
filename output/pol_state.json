@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T09:00:44",
+  "saved_at": "2026-08-30T09:03:35",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -4006,6 +4006,10 @@
       [
         "2026-08-30T09:00:43.827917",
         10000.0
+      ],
+      [
+        "2026-08-30T09:03:29.534203",
+        10000.0
       ]
     ]
   },
@@ -4681,11 +4685,18 @@
       "market_price": 0.375,
       "question": "Will SSC Napoli win on 2026-08-30?",
       "ts": "2026-08-30T07:15:46"
+    },
+    "3653999": {
+      "probability": 0.43,
+      "reason": "No reliable information on opponent or form for this distant fixture; staying near the market-implied price for a mid-table Bundesliga side.",
+      "market_price": 0.435,
+      "question": "Will FC Augsburg win on 2026-08-30?",
+      "ts": "2026-08-30T09:03:29"
     }
   },
   "llm_usage": {
-    "calls": 87,
-    "prompt_tokens": 14487,
-    "completion_tokens": 38607
+    "calls": 88,
+    "prompt_tokens": 14653,
+    "completion_tokens": 38907
   }
 }
