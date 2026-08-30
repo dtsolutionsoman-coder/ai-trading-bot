@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T15:00:42",
+  "saved_at": "2026-08-30T15:05:07",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4329,6 +4329,10 @@
       [
         "2026-08-30T15:00:42.439822",
         10000.0
+      ],
+      [
+        "2026-08-30T15:04:49.837311",
+        10000.0
       ]
     ]
   },
@@ -5039,11 +5043,25 @@
       "market_price": 0.81,
       "question": "Will Leeds United FC vs. Brentford FC end in a draw?",
       "ts": "2026-08-30T14:51:19"
+    },
+    "3653990": {
+      "probability": 0.7,
+      "reason": "No specific information available about this future match; staying calibrated close to the market-implied price.",
+      "market_price": 0.705,
+      "question": "Will Stade Rennais FC 1901 win on 2026-08-30?",
+      "ts": "2026-08-30T15:04:49"
+    },
+    "3669597": {
+      "probability": 0.64,
+      "reason": "No information on opponent or venue for this future Ajax fixture; staying near the market price which likely reflects matchup details.",
+      "market_price": 0.645,
+      "question": "Will AFC Ajax win on 2026-08-30?",
+      "ts": "2026-08-30T15:04:49"
     }
   },
   "llm_usage": {
-    "calls": 92,
-    "prompt_tokens": 15316,
-    "completion_tokens": 42147
+    "calls": 94,
+    "prompt_tokens": 15653,
+    "completion_tokens": 42703
   }
 }
