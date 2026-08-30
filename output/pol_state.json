@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T15:45:28",
+  "saved_at": "2026-08-30T15:52:09",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4369,6 +4369,10 @@
       [
         "2026-08-30T15:45:28.461823",
         10000.0
+      ],
+      [
+        "2026-08-30T15:52:03.819223",
+        10000.0
       ]
     ]
   },
@@ -5107,11 +5111,18 @@
       "market_price": 0.165,
       "question": "Will Manchester United FC vs. Ipswich Town FC end in a draw?",
       "ts": "2026-08-30T15:38:43"
+    },
+    "3649699": {
+      "probability": 0.32,
+      "reason": "No specific fixture details available for this future match; staying close to market price which likely reflects Como as underdog or away side.",
+      "market_price": 0.325,
+      "question": "Will Como 1907 win on 2026-08-30?",
+      "ts": "2026-08-30T15:52:03"
     }
   },
   "llm_usage": {
-    "calls": 96,
-    "prompt_tokens": 15985,
-    "completion_tokens": 43789
+    "calls": 97,
+    "prompt_tokens": 16152,
+    "completion_tokens": 44094
   }
 }
