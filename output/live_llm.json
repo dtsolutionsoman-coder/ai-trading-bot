@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T18:26:22",
+  "saved_at": "2026-08-30T18:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -856,7 +856,7 @@
       "reason": "Mildly positive trend offset by declining OI, elevated funding costs, and very low volatility \u2014 no edge to justify changing the minimal long exposure."
     }
   ],
-  "llm_bar_index": 564,
+  "llm_bar_index": 565,
   "llm_usage": {
     "calls": 142,
     "prompt_tokens": 51012,
@@ -3355,9 +3355,13 @@
     [
       "2026-08-30T18:00:00",
       9941.06
+    ],
+    [
+      "2026-08-30T18:15:00",
+      9941.3
     ]
   ],
-  "last_bar_ts": "2026-08-30T18:00:00",
-  "bars_processed": 596,
+  "last_bar_ts": "2026-08-30T18:15:00",
+  "bars_processed": 597,
   "starting_cash": 10000.0
 }
