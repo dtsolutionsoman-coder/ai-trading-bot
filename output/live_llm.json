@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T12:11:25",
+  "saved_at": "2026-08-30T12:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -812,13 +812,19 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Flat price with mildly bearish lean (SMA ratio <1, RSI 44, falling OI) and positive funding carry supports keeping the small profitable short, but no signal strong enough to add."
+    },
+    {
+      "ts": "2026-08-30T12:00:00",
+      "action": "hold",
+      "conviction": 0.03,
+      "reason": "Mildly bullish momentum and RSI 61.5 are offset by elevated funding and falling OI suggesting a weak short-covering bounce, so keeping the small short with its funding tailwind."
     }
   ],
-  "llm_bar_index": 539,
+  "llm_bar_index": 540,
   "llm_usage": {
-    "calls": 135,
-    "prompt_tokens": 48507,
-    "completion_tokens": 120164
+    "calls": 136,
+    "prompt_tokens": 48863,
+    "completion_tokens": 121564
   },
   "cash": 12461.185621133533,
   "positions": {
@@ -3204,9 +3210,13 @@
     [
       "2026-08-30T11:45:00",
       9970.63
+    ],
+    [
+      "2026-08-30T12:00:00",
+      9966.25
     ]
   ],
-  "last_bar_ts": "2026-08-30T11:45:00",
-  "bars_processed": 571,
+  "last_bar_ts": "2026-08-30T12:00:00",
+  "bars_processed": 572,
   "starting_cash": 10000.0
 }
