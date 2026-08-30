@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T18:00:42",
+  "saved_at": "2026-08-30T18:06:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4485,6 +4485,10 @@
       [
         "2026-08-30T18:00:42.113901",
         10000.0
+      ],
+      [
+        "2026-08-30T18:06:24.704075",
+        10000.0
       ]
     ]
   },
@@ -5230,11 +5234,18 @@
       "market_price": 0.325,
       "question": "Will Como 1907 win on 2026-08-30?",
       "ts": "2026-08-30T15:52:03"
+    },
+    "3636526": {
+      "probability": 0.9,
+      "reason": "A 97% implied probability is unusually high for a single football match where draws and upsets are always possible, so I shade down while respecting the market's apparent information about a likely ex",
+      "market_price": 0.9695,
+      "question": "Will Ey\u00fcpspor win on 2026-08-30?",
+      "ts": "2026-08-30T18:06:24"
     }
   },
   "llm_usage": {
-    "calls": 97,
-    "prompt_tokens": 16152,
-    "completion_tokens": 44094
+    "calls": 98,
+    "prompt_tokens": 16319,
+    "completion_tokens": 45296
   }
 }
