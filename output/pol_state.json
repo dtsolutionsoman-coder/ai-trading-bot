@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T15:15:46",
+  "saved_at": "2026-08-30T15:18:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4341,6 +4341,10 @@
       [
         "2026-08-30T15:15:46.405697",
         10000.0
+      ],
+      [
+        "2026-08-30T15:18:35.604298",
+        10000.0
       ]
     ]
   },
@@ -5065,11 +5069,18 @@
       "market_price": 0.645,
       "question": "Will AFC Ajax win on 2026-08-30?",
       "ts": "2026-08-30T15:04:49"
+    },
+    "3654043": {
+      "probability": 0.7,
+      "reason": "No information on opponent or form for a match this far out; staying near the market price with a slight discount for Manchester United's recent volatility.",
+      "market_price": 0.715,
+      "question": "Will Manchester United FC win on 2026-08-30?",
+      "ts": "2026-08-30T15:18:35"
     }
   },
   "llm_usage": {
-    "calls": 94,
-    "prompt_tokens": 15653,
-    "completion_tokens": 42703
+    "calls": 95,
+    "prompt_tokens": 15819,
+    "completion_tokens": 43099
   }
 }
