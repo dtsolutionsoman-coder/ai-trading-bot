@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T07:23:25",
+  "saved_at": "2026-08-30T07:30:04",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -790,7 +790,7 @@
       "reason": "Directionless low-volatility tape with neutral RSI; keeping the tiny short for positive funding carry and mildly bearish SMA ratio, but no signal strong enough to add risk."
     }
   ],
-  "llm_bar_index": 520,
+  "llm_bar_index": 521,
   "llm_usage": {
     "calls": 131,
     "prompt_tokens": 47072,
@@ -3104,9 +3104,13 @@
     [
       "2026-08-30T07:00:00",
       9968.28
+    ],
+    [
+      "2026-08-30T07:15:00",
+      9968.31
     ]
   ],
-  "last_bar_ts": "2026-08-30T07:00:00",
-  "bars_processed": 552,
+  "last_bar_ts": "2026-08-30T07:15:00",
+  "bars_processed": 553,
   "starting_cash": 10000.0
 }
