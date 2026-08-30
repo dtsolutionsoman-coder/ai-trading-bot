@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T15:31:59",
+  "saved_at": "2026-08-30T15:38:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4357,6 +4357,10 @@
       [
         "2026-08-30T15:31:59.726837",
         10000.0
+      ],
+      [
+        "2026-08-30T15:38:43.417645",
+        10000.0
       ]
     ]
   },
@@ -5088,11 +5092,18 @@
       "market_price": 0.715,
       "question": "Will Manchester United FC win on 2026-08-30?",
       "ts": "2026-08-30T15:18:35"
+    },
+    "3654045": {
+      "probability": 0.19,
+      "reason": "Draw base rates in football (~20-25%) suggest the market price of 16.5% is slightly low even for a lopsided matchup, so I estimate just above market while staying close to it.",
+      "market_price": 0.165,
+      "question": "Will Manchester United FC vs. Ipswich Town FC end in a draw?",
+      "ts": "2026-08-30T15:38:43"
     }
   },
   "llm_usage": {
-    "calls": 95,
-    "prompt_tokens": 15819,
-    "completion_tokens": 43099
+    "calls": 96,
+    "prompt_tokens": 15985,
+    "completion_tokens": 43789
   }
 }
