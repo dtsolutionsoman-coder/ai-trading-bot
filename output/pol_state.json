@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T18:45:57",
+  "saved_at": "2026-08-30T18:52:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4525,6 +4525,10 @@
       [
         "2026-08-30T18:45:57.121916",
         10000.0
+      ],
+      [
+        "2026-08-30T18:52:44.914286",
+        10000.0
       ]
     ]
   },
@@ -5284,11 +5288,18 @@
       "market_price": 0.695,
       "question": "Will FC Internazionale Milano win on 2026-08-30?",
       "ts": "2026-08-30T18:39:20"
+    },
+    "3649722": {
+      "probability": 0.43,
+      "reason": "No specific information available about the opponent or venue for this future fixture; staying close to the market-implied price which likely reflects known match context.",
+      "market_price": 0.425,
+      "question": "Will SS Lazio win on 2026-08-30?",
+      "ts": "2026-08-30T18:52:44"
     }
   },
   "llm_usage": {
-    "calls": 99,
-    "prompt_tokens": 16487,
-    "completion_tokens": 45577
+    "calls": 100,
+    "prompt_tokens": 16653,
+    "completion_tokens": 45898
   }
 }
