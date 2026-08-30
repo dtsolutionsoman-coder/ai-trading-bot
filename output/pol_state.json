@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T00:15:43",
+  "saved_at": "2026-08-30T00:18:28",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3562,6 +3562,10 @@
       [
         "2026-08-30T00:15:42.870876",
         10000.0
+      ],
+      [
+        "2026-08-30T00:18:21.688948",
+        10000.0
       ]
     ]
   },
@@ -4195,11 +4199,18 @@
       "market_price": 0.495,
       "question": "Will CR Vasco da Gama win on 2026-08-29?",
       "ts": "2026-08-30T00:11:41"
+    },
+    "3637367": {
+      "probability": 0.68,
+      "reason": "No reliable information on opponent or context for this future match; 72% is high for soccer where draws are common, so I shade slightly below market while staying close given uncertainty.",
+      "market_price": 0.72,
+      "question": "Will CD Guadalajara win on 2026-08-29?",
+      "ts": "2026-08-30T00:18:21"
     }
   },
   "llm_usage": {
-    "calls": 81,
-    "prompt_tokens": 13491,
-    "completion_tokens": 35958
+    "calls": 82,
+    "prompt_tokens": 13658,
+    "completion_tokens": 36357
   }
 }
