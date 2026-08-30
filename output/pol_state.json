@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T22:00:44",
+  "saved_at": "2026-08-30T22:06:04",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4693,6 +4693,10 @@
       [
         "2026-08-30T22:00:44.226628",
         10000.0
+      ],
+      [
+        "2026-08-30T22:06:00.078794",
+        10000.0
       ]
     ]
   },
@@ -5473,11 +5477,18 @@
       "market_price": 0.0105,
       "question": "US ceasefire against Iran continues through September 15?",
       "ts": "2026-08-30T19:59:18"
+    },
+    "3679448": {
+      "probability": 0.44,
+      "reason": "No specific match details available for this future fixture; staying close to the market-implied price.",
+      "market_price": 0.435,
+      "question": "Will SE Palmeiras win on 2026-08-30?",
+      "ts": "2026-08-30T22:06:00"
     }
   },
   "llm_usage": {
-    "calls": 102,
-    "prompt_tokens": 16980,
-    "completion_tokens": 47638
+    "calls": 103,
+    "prompt_tokens": 17147,
+    "completion_tokens": 47813
   }
 }
