@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T19:52:50",
+  "saved_at": "2026-08-30T19:59:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4581,6 +4581,10 @@
       [
         "2026-08-30T19:52:45.254389",
         10000.0
+      ],
+      [
+        "2026-08-30T19:59:18.855674",
+        10000.0
       ]
     ]
   },
@@ -5354,11 +5358,18 @@
       "market_price": 0.635,
       "question": "Will Arsenal FC win on 2026-08-31?",
       "ts": "2026-08-30T19:52:45"
+    },
+    "3700195": {
+      "probability": 0.02,
+      "reason": "Market prices near-certain ceasefire collapse; with no counter-evidence and resolution likely already determined by renewed hostilities, I stay close to the 1.1% price with a small uncertainty premium",
+      "market_price": 0.0105,
+      "question": "US ceasefire against Iran continues through September 15?",
+      "ts": "2026-08-30T19:59:18"
     }
   },
   "llm_usage": {
-    "calls": 101,
-    "prompt_tokens": 16818,
-    "completion_tokens": 46171
+    "calls": 102,
+    "prompt_tokens": 16980,
+    "completion_tokens": 47638
   }
 }
