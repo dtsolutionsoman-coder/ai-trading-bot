@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T11:17:28",
+  "saved_at": "2026-08-30T11:24:33",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -4122,6 +4122,10 @@
       [
         "2026-08-30T11:17:27.831407",
         10000.0
+      ],
+      [
+        "2026-08-30T11:24:25.548296",
+        10000.0
       ]
     ]
   },
@@ -4811,11 +4815,18 @@
       "market_price": 0.375,
       "question": "Will Brentford FC win on 2026-08-30?",
       "ts": "2026-08-30T10:09:57"
+    },
+    "3653997": {
+      "probability": 0.41,
+      "reason": "Unknown opponent and match details for a future fixture; with no edge over the market, staying near the implied price of 0.405.",
+      "market_price": 0.405,
+      "question": "Will Sunderland AFC win on 2026-08-30?",
+      "ts": "2026-08-30T11:24:25"
     }
   },
   "llm_usage": {
-    "calls": 89,
-    "prompt_tokens": 14819,
-    "completion_tokens": 39152
+    "calls": 90,
+    "prompt_tokens": 14984,
+    "completion_tokens": 39616
   }
 }
