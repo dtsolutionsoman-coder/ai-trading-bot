@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T22:32:43",
+  "saved_at": "2026-08-30T22:39:24",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4721,6 +4721,10 @@
       [
         "2026-08-30T22:32:43.261843",
         10000.0
+      ],
+      [
+        "2026-08-30T22:39:14.093911",
+        10000.0
       ]
     ]
   },
@@ -5508,11 +5512,18 @@
       "market_price": 0.435,
       "question": "Will SE Palmeiras win on 2026-08-30?",
       "ts": "2026-08-30T22:06:00"
+    },
+    "3691284": {
+      "probability": 0.85,
+      "reason": "Single-match soccer wins rarely exceed ~0.85 even for heavy favorites, so I shade the market price slightly down given draw/upset risk against an unknown opponent.",
+      "market_price": 0.875,
+      "question": "Will FC Barcelona win on 2026-08-31?",
+      "ts": "2026-08-30T22:39:14"
     }
   },
   "llm_usage": {
-    "calls": 103,
-    "prompt_tokens": 17147,
-    "completion_tokens": 47813
+    "calls": 104,
+    "prompt_tokens": 17312,
+    "completion_tokens": 48419
   }
 }
