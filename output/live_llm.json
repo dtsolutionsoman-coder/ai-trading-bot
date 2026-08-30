@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T02:26:33",
+  "saved_at": "2026-08-30T02:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -760,7 +760,7 @@
       "reason": "Weak momentum (SMA ratio <1, RSI 39, falling OI) and positive funding mildly support the small profitable short, but flat price action and very low volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 500,
+  "llm_bar_index": 501,
   "llm_usage": {
     "calls": 126,
     "prompt_tokens": 45277,
@@ -2994,9 +2994,13 @@
     [
       "2026-08-30T02:00:00",
       9974.15
+    ],
+    [
+      "2026-08-30T02:15:00",
+      9975.64
     ]
   ],
-  "last_bar_ts": "2026-08-30T02:00:00",
-  "bars_processed": 532,
+  "last_bar_ts": "2026-08-30T02:15:00",
+  "bars_processed": 533,
   "starting_cash": 10000.0
 }
