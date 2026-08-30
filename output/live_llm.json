@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T10:43:44",
+  "saved_at": "2026-08-30T10:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -808,7 +808,7 @@
       "reason": "Mildly bearish momentum supports the small profitable short, but deeply oversold RSI (23.7) and declining open interest warn against adding exposure here."
     }
   ],
-  "llm_bar_index": 533,
+  "llm_bar_index": 534,
   "llm_usage": {
     "calls": 134,
     "prompt_tokens": 48148,
@@ -3174,9 +3174,13 @@
     [
       "2026-08-30T10:15:00",
       9975.29
+    ],
+    [
+      "2026-08-30T10:30:00",
+      9973.07
     ]
   ],
-  "last_bar_ts": "2026-08-30T10:15:00",
-  "bars_processed": 565,
+  "last_bar_ts": "2026-08-30T10:30:00",
+  "bars_processed": 566,
   "starting_cash": 10000.0
 }
