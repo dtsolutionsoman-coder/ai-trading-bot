@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T19:39:09",
+  "saved_at": "2026-08-30T19:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -862,7 +862,7 @@
       "reason": "Mild uptrend (positive momentum, SMA ratio >1, RSI ~57) supports keeping the small long, but declining OI, elevated funding, and thin volume argue against adding; loss is negligible."
     }
   ],
-  "llm_bar_index": 569,
+  "llm_bar_index": 570,
   "llm_usage": {
     "calls": 143,
     "prompt_tokens": 51371,
@@ -3381,9 +3381,13 @@
     [
       "2026-08-30T19:15:00",
       9941.9
+    ],
+    [
+      "2026-08-30T19:30:00",
+      9940.73
     ]
   ],
-  "last_bar_ts": "2026-08-30T19:15:00",
-  "bars_processed": 601,
+  "last_bar_ts": "2026-08-30T19:30:00",
+  "bars_processed": 602,
   "starting_cash": 10000.0
 }
