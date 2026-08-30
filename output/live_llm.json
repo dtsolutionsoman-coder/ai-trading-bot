@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T15:58:36",
+  "saved_at": "2026-08-30T16:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -838,7 +838,7 @@
       "reason": "Ultra-low volatility and neutral price action give no directional edge, while positive funding (~11% ann.) slightly favors keeping the small short despite its minor drawdown."
     }
   ],
-  "llm_bar_index": 554,
+  "llm_bar_index": 555,
   "llm_usage": {
     "calls": 139,
     "prompt_tokens": 49936,
@@ -3288,9 +3288,13 @@
     [
       "2026-08-30T15:30:00",
       9958.98
+    ],
+    [
+      "2026-08-30T15:45:00",
+      9961.2
     ]
   ],
-  "last_bar_ts": "2026-08-30T15:30:00",
-  "bars_processed": 586,
+  "last_bar_ts": "2026-08-30T15:45:00",
+  "bars_processed": 587,
   "starting_cash": 10000.0
 }
