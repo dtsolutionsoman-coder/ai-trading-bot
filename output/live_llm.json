@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T11:10:46",
+  "saved_at": "2026-08-30T11:15:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -806,13 +806,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mildly bearish momentum supports the small profitable short, but deeply oversold RSI (23.7) and declining open interest warn against adding exposure here."
+    },
+    {
+      "ts": "2026-08-30T11:00:00",
+      "action": "hold",
+      "conviction": 0.1,
+      "reason": "Flat price with mildly bearish lean (SMA ratio <1, RSI 44, falling OI) and positive funding carry supports keeping the small profitable short, but no signal strong enough to add."
     }
   ],
-  "llm_bar_index": 535,
+  "llm_bar_index": 536,
   "llm_usage": {
-    "calls": 134,
-    "prompt_tokens": 48148,
-    "completion_tokens": 119385
+    "calls": 135,
+    "prompt_tokens": 48507,
+    "completion_tokens": 120164
   },
   "cash": 12461.185621133533,
   "positions": {
@@ -3182,9 +3188,13 @@
     [
       "2026-08-30T10:45:00",
       9970.6
+    ],
+    [
+      "2026-08-30T11:00:00",
+      9971.64
     ]
   ],
-  "last_bar_ts": "2026-08-30T10:45:00",
-  "bars_processed": 567,
+  "last_bar_ts": "2026-08-30T11:00:00",
+  "bars_processed": 568,
   "starting_cash": 10000.0
 }
