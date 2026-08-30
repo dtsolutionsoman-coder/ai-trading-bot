@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T22:26:01",
+  "saved_at": "2026-08-30T22:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -880,7 +880,7 @@
       "reason": "Mixed signals \u2014 mildly bullish SMA trend offset by weak short-term momentum, soft RSI, and elevated long funding \u2014 justify keeping only the small existing long despite its minor drawdown."
     }
   ],
-  "llm_bar_index": 580,
+  "llm_bar_index": 581,
   "llm_usage": {
     "calls": 146,
     "prompt_tokens": 52448,
@@ -3443,9 +3443,13 @@
     [
       "2026-08-30T22:00:00",
       9939.8
+    ],
+    [
+      "2026-08-30T22:15:00",
+      9936.33
     ]
   ],
-  "last_bar_ts": "2026-08-30T22:00:00",
-  "bars_processed": 612,
+  "last_bar_ts": "2026-08-30T22:15:00",
+  "bars_processed": 613,
   "starting_cash": 10000.0
 }
