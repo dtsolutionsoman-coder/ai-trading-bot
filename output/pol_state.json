@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T07:09:57",
+  "saved_at": "2026-08-30T07:15:52",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3910,6 +3910,10 @@
       [
         "2026-08-30T07:09:57.331603",
         10000.0
+      ],
+      [
+        "2026-08-30T07:15:46.918968",
+        10000.0
       ]
     ]
   },
@@ -4578,11 +4582,18 @@
       "market_price": 0.885,
       "question": "Will Real Madrid CF win on 2026-08-30?",
       "ts": "2026-08-30T03:53:54"
+    },
+    "3649697": {
+      "probability": 0.38,
+      "reason": "No specific information available about this future Serie A fixture; staying close to the market-implied price which likely reflects opponent and venue uncertainty.",
+      "market_price": 0.375,
+      "question": "Will SSC Napoli win on 2026-08-30?",
+      "ts": "2026-08-30T07:15:46"
     }
   },
   "llm_usage": {
-    "calls": 86,
-    "prompt_tokens": 14322,
-    "completion_tokens": 38340
+    "calls": 87,
+    "prompt_tokens": 14487,
+    "completion_tokens": 38607
   }
 }
