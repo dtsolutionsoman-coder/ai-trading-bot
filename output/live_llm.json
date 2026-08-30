@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T05:28:18",
+  "saved_at": "2026-08-30T05:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -778,7 +778,7 @@
       "reason": "Flat, low-volatility market with mildly bearish SMA ratio and positive funding favoring the existing small profitable short; no signal strong enough to resize."
     }
   ],
-  "llm_bar_index": 512,
+  "llm_bar_index": 513,
   "llm_usage": {
     "calls": 129,
     "prompt_tokens": 46351,
@@ -3060,9 +3060,13 @@
     [
       "2026-08-30T05:00:00",
       9971.2
+    ],
+    [
+      "2026-08-30T05:15:00",
+      9972.37
     ]
   ],
-  "last_bar_ts": "2026-08-30T05:00:00",
-  "bars_processed": 544,
+  "last_bar_ts": "2026-08-30T05:15:00",
+  "bars_processed": 545,
   "starting_cash": 10000.0
 }
