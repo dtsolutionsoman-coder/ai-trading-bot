@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T14:45:34",
+  "saved_at": "2026-08-30T14:51:46",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9796.0,
+    "cash": 9694.0,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -13,6 +13,11 @@
       "pol:1130012:Y": {
         "qty": 134.2281879194631,
         "avg_price": 0.7599,
+        "realized_pnl": 0.0
+      },
+      "pol:3654029:N": {
+        "qty": 526.3157894736842,
+        "avg_price": 0.1938,
         "realized_pnl": 0.0
       }
     },
@@ -36,6 +41,16 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge +0.135: LLM 0.88 vs market 0.74 \u2014 Will United Russia (ER) gain the most seats in the"
+      },
+      {
+        "ts": "2026-08-30T14:51:19.267149",
+        "symbol": "pol:3654029:N",
+        "side": "buy",
+        "qty": 526.3157894736842,
+        "price": 0.1938,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.510: LLM 0.30 vs market 0.81 \u2014 Will Leeds United FC vs. Brentford FC end in a dra"
       }
     ],
     "equity_curve": [
@@ -4302,6 +4317,10 @@
       [
         "2026-08-30T14:45:33.969152",
         10000.0
+      ],
+      [
+        "2026-08-30T14:51:19.267149",
+        9998.0
       ]
     ]
   },
@@ -5005,11 +5024,18 @@
       "market_price": 0.295,
       "question": "Will Fulham FC win on 2026-08-30?",
       "ts": "2026-08-30T12:24:57"
+    },
+    "3654029": {
+      "probability": 0.3,
+      "reason": "Football draws occur roughly 25-30% of the time even between evenly matched sides, so the 0.81 market price is almost certainly a low-liquidity anomaly rather than true probability; I shade slightly a",
+      "market_price": 0.81,
+      "question": "Will Leeds United FC vs. Brentford FC end in a draw?",
+      "ts": "2026-08-30T14:51:19"
     }
   },
   "llm_usage": {
-    "calls": 91,
-    "prompt_tokens": 15150,
-    "completion_tokens": 40253
+    "calls": 92,
+    "prompt_tokens": 15316,
+    "completion_tokens": 42147
   }
 }
