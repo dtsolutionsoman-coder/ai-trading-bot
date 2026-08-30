@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T10:03:14",
+  "saved_at": "2026-08-30T10:10:02",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -4058,6 +4058,10 @@
       [
         "2026-08-30T10:03:13.921974",
         10000.0
+      ],
+      [
+        "2026-08-30T10:09:57.294395",
+        10000.0
       ]
     ]
   },
@@ -4740,11 +4744,18 @@
       "market_price": 0.435,
       "question": "Will FC Augsburg win on 2026-08-30?",
       "ts": "2026-08-30T09:03:29"
+    },
+    "3654032": {
+      "probability": 0.37,
+      "reason": "Match is far in the future with unknown opponent and context; no information to justify deviating from the market-implied price.",
+      "market_price": 0.375,
+      "question": "Will Brentford FC win on 2026-08-30?",
+      "ts": "2026-08-30T10:09:57"
     }
   },
   "llm_usage": {
-    "calls": 88,
-    "prompt_tokens": 14653,
-    "completion_tokens": 38907
+    "calls": 89,
+    "prompt_tokens": 14819,
+    "completion_tokens": 39152
   }
 }
