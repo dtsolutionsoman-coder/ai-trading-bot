@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T13:44:13",
+  "saved_at": "2026-08-30T13:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -826,7 +826,7 @@
       "reason": "Elevated funding and falling OI mildly support the small short, but neutral trend and thin volume argue against adding risk to a slightly underwater position."
     }
   ],
-  "llm_bar_index": 545,
+  "llm_bar_index": 546,
   "llm_usage": {
     "calls": 137,
     "prompt_tokens": 49221,
@@ -3240,9 +3240,13 @@
     [
       "2026-08-30T13:15:00",
       9964.31
+    ],
+    [
+      "2026-08-30T13:30:00",
+      9962.59
     ]
   ],
-  "last_bar_ts": "2026-08-30T13:15:00",
-  "bars_processed": 577,
+  "last_bar_ts": "2026-08-30T13:30:00",
+  "bars_processed": 578,
   "starting_cash": 10000.0
 }
