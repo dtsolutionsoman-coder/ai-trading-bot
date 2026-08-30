@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T14:10:56",
+  "saved_at": "2026-08-30T14:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -824,13 +824,19 @@
       "action": "hold",
       "conviction": 0.08,
       "reason": "Elevated funding and falling OI mildly support the small short, but neutral trend and thin volume argue against adding risk to a slightly underwater position."
+    },
+    {
+      "ts": "2026-08-30T14:00:00",
+      "action": "hold",
+      "conviction": 0.5,
+      "reason": "Extreme overbought RSI (85.2), positive funding, and declining OI support keeping the small short despite minor drawdown, but rising momentum across timeframes argues against adding risk."
     }
   ],
-  "llm_bar_index": 547,
+  "llm_bar_index": 548,
   "llm_usage": {
-    "calls": 137,
-    "prompt_tokens": 49221,
-    "completion_tokens": 122561
+    "calls": 138,
+    "prompt_tokens": 49578,
+    "completion_tokens": 123800
   },
   "cash": 12461.185621133533,
   "positions": {
@@ -3248,9 +3254,13 @@
     [
       "2026-08-30T13:45:00",
       9959.55
+    ],
+    [
+      "2026-08-30T14:00:00",
+      9957.93
     ]
   ],
-  "last_bar_ts": "2026-08-30T13:45:00",
-  "bars_processed": 579,
+  "last_bar_ts": "2026-08-30T14:00:00",
+  "bars_processed": 580,
   "starting_cash": 10000.0
 }
