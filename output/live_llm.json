@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T04:54:45",
+  "saved_at": "2026-08-30T05:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -772,7 +772,7 @@
       "reason": "Neutral flat tape with mild bearish lean (SMA ratio below 1, declining OI, positive funding) justifies keeping the small profitable short, but no strength to add."
     }
   ],
-  "llm_bar_index": 510,
+  "llm_bar_index": 511,
   "llm_usage": {
     "calls": 128,
     "prompt_tokens": 45994,
@@ -3046,9 +3046,13 @@
     [
       "2026-08-30T04:30:00",
       9972.15
+    ],
+    [
+      "2026-08-30T04:45:00",
+      9971.74
     ]
   ],
-  "last_bar_ts": "2026-08-30T04:30:00",
-  "bars_processed": 542,
+  "last_bar_ts": "2026-08-30T04:45:00",
+  "bars_processed": 543,
   "starting_cash": 10000.0
 }
