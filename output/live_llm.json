@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T03:53:53",
+  "saved_at": "2026-08-30T04:00:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -766,7 +766,7 @@
       "reason": "Mild downtrend (SMA ratio <1, RSI 41.5, falling OI) supports keeping the small profitable short, but low volatility and volume argue against adding."
     }
   ],
-  "llm_bar_index": 506,
+  "llm_bar_index": 507,
   "llm_usage": {
     "calls": 127,
     "prompt_tokens": 45635,
@@ -3024,9 +3024,13 @@
     [
       "2026-08-30T03:30:00",
       9968.59
+    ],
+    [
+      "2026-08-30T03:45:00",
+      9968.72
     ]
   ],
-  "last_bar_ts": "2026-08-30T03:30:00",
-  "bars_processed": 538,
+  "last_bar_ts": "2026-08-30T03:45:00",
+  "bars_processed": 539,
   "starting_cash": 10000.0
 }
