@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T01:30:34",
+  "saved_at": "2026-08-30T01:33:10",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3622,6 +3622,10 @@
       [
         "2026-08-30T01:30:34.356790",
         10000.0
+      ],
+      [
+        "2026-08-30T01:33:03.705771",
+        10000.0
       ]
     ]
   },
@@ -4269,11 +4273,18 @@
       "market_price": 0.535,
       "question": "Will CF Am\u00e9rica win on 2026-08-29?",
       "ts": "2026-08-30T01:05:49"
+    },
+    "3635769": {
+      "probability": 0.48,
+      "reason": "No specific matchup details available for this future MLS fixture; staying near the market price with a slight discount for typical soccer draw risk.",
+      "market_price": 0.495,
+      "question": "Will Colorado Rapids SC win on 2026-08-29?",
+      "ts": "2026-08-30T01:33:03"
     }
   },
   "llm_usage": {
-    "calls": 83,
-    "prompt_tokens": 13823,
-    "completion_tokens": 36771
+    "calls": 84,
+    "prompt_tokens": 13989,
+    "completion_tokens": 37115
   }
 }
