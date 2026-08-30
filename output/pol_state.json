@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T01:00:41",
+  "saved_at": "2026-08-30T01:05:57",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9796.0,
@@ -3598,6 +3598,10 @@
       [
         "2026-08-30T01:00:41.003343",
         10000.0
+      ],
+      [
+        "2026-08-30T01:05:49.659379",
+        10000.0
       ]
     ]
   },
@@ -4238,11 +4242,18 @@
       "market_price": 0.72,
       "question": "Will CD Guadalajara win on 2026-08-29?",
       "ts": "2026-08-30T00:18:21"
+    },
+    "3637374": {
+      "probability": 0.53,
+      "reason": "Unknown opponent and venue for this future Liga MX fixture; Club Am\u00e9rica is historically strong but without match details, staying close to the market price is the calibrated choice.",
+      "market_price": 0.535,
+      "question": "Will CF Am\u00e9rica win on 2026-08-29?",
+      "ts": "2026-08-30T01:05:49"
     }
   },
   "llm_usage": {
-    "calls": 82,
-    "prompt_tokens": 13658,
-    "completion_tokens": 36357
+    "calls": 83,
+    "prompt_tokens": 13823,
+    "completion_tokens": 36771
   }
 }
