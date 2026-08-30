@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T17:13:03",
+  "saved_at": "2026-08-30T17:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -842,13 +842,19 @@
       "action": "buy",
       "conviction": 0.1,
       "reason": "Mild uptrend across 1h/6h/24h with SMA ratio above 1 invalidates the small losing short, so I cut it but stay near flat given near-overbought RSI and thin volume."
+    },
+    {
+      "ts": "2026-08-30T17:00:00",
+      "action": "hold",
+      "conviction": 0.1,
+      "reason": "Mild uptrend and neutral RSI are offset by elevated funding and declining open interest, so keeping only minimal long exposure."
     }
   ],
-  "llm_bar_index": 559,
+  "llm_bar_index": 560,
   "llm_usage": {
-    "calls": 140,
-    "prompt_tokens": 50295,
-    "completion_tokens": 126339
+    "calls": 141,
+    "prompt_tokens": 50653,
+    "completion_tokens": 127070
   },
   "cash": 8949.301066536931,
   "positions": {
@@ -3323,9 +3329,13 @@
     [
       "2026-08-30T16:45:00",
       9946.18
+    ],
+    [
+      "2026-08-30T17:00:00",
+      9944.43
     ]
   ],
-  "last_bar_ts": "2026-08-30T16:45:00",
-  "bars_processed": 591,
+  "last_bar_ts": "2026-08-30T17:00:00",
+  "bars_processed": 592,
   "starting_cash": 10000.0
 }
