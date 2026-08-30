@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-30T18:32:50",
+  "saved_at": "2026-08-30T18:39:25",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4513,6 +4513,10 @@
       [
         "2026-08-30T18:32:50.323077",
         10000.0
+      ],
+      [
+        "2026-08-30T18:39:20.282393",
+        10000.0
       ]
     ]
   },
@@ -5265,11 +5269,18 @@
       "market_price": 0.9695,
       "question": "Will Ey\u00fcpspor win on 2026-08-30?",
       "ts": "2026-08-30T18:06:24"
+    },
+    "3649711": {
+      "probability": 0.68,
+      "reason": "Match is beyond knowledge cutoff with unknown opponent and form; staying close to market price with slight regression for favorite-longshot bias in soccer.",
+      "market_price": 0.695,
+      "question": "Will FC Internazionale Milano win on 2026-08-30?",
+      "ts": "2026-08-30T18:39:20"
     }
   },
   "llm_usage": {
-    "calls": 98,
-    "prompt_tokens": 16319,
-    "completion_tokens": 45296
+    "calls": 99,
+    "prompt_tokens": 16487,
+    "completion_tokens": 45577
   }
 }
