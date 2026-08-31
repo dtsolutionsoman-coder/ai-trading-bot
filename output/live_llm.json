@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T03:43:16",
+  "saved_at": "2026-08-31T03:45:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -910,7 +910,7 @@
       "reason": "Negative 6h/24h momentum plus extreme positive funding and perp premium reward holding a short; existing small short is already profitable."
     }
   ],
-  "llm_bar_index": 601,
+  "llm_bar_index": 602,
   "llm_usage": {
     "calls": 151,
     "prompt_tokens": 54238,
@@ -3566,9 +3566,13 @@
     [
       "2026-08-31T03:15:00",
       9923.59
+    ],
+    [
+      "2026-08-31T03:30:00",
+      9921.02
     ]
   ],
-  "last_bar_ts": "2026-08-31T03:15:00",
-  "bars_processed": 633,
+  "last_bar_ts": "2026-08-31T03:30:00",
+  "bars_processed": 634,
   "starting_cash": 10000.0
 }
