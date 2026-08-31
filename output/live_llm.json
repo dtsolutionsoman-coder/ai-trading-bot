@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-30T23:58:43",
+  "saved_at": "2026-08-31T00:00:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -886,7 +886,7 @@
       "reason": "Flat low-volatility tape with mixed signals (mildly positive trend structure vs weak RSI and elevated funding); keep the small long but no reason to add risk."
     }
   ],
-  "llm_bar_index": 586,
+  "llm_bar_index": 587,
   "llm_usage": {
     "calls": 147,
     "prompt_tokens": 52807,
@@ -3473,9 +3473,13 @@
     [
       "2026-08-30T23:30:00",
       9925.2
+    ],
+    [
+      "2026-08-30T23:45:00",
+      9927.71
     ]
   ],
-  "last_bar_ts": "2026-08-30T23:30:00",
-  "bars_processed": 618,
+  "last_bar_ts": "2026-08-30T23:45:00",
+  "bars_processed": 619,
   "starting_cash": 10000.0
 }
