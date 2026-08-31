@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T08:27:44",
+  "saved_at": "2026-08-31T08:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -940,7 +940,7 @@
       "reason": "Extreme 348% annualized funding and elevated perp premium justify keeping the small short despite mild upward price drift; funding carry should offset the modest unrealized loss."
     }
   ],
-  "llm_bar_index": 620,
+  "llm_bar_index": 621,
   "llm_usage": {
     "calls": 156,
     "prompt_tokens": 56035,
@@ -3672,9 +3672,13 @@
     [
       "2026-08-31T08:00:00",
       9900.11
+    ],
+    [
+      "2026-08-31T08:15:00",
+      9900.27
     ]
   ],
-  "last_bar_ts": "2026-08-31T08:00:00",
-  "bars_processed": 652,
+  "last_bar_ts": "2026-08-31T08:15:00",
+  "bars_processed": 653,
   "starting_cash": 10000.0
 }
