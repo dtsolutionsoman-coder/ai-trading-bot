@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T02:29:27",
+  "saved_at": "2026-08-31T02:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -904,7 +904,7 @@
       "reason": "Negative 6h/24h momentum, RSI below 40, and declining OI mildly favor the downside while the small long sits underwater in an ultra-low-volume tape, so trim the losing exposure."
     }
   ],
-  "llm_bar_index": 596,
+  "llm_bar_index": 597,
   "llm_usage": {
     "calls": 150,
     "prompt_tokens": 53880,
@@ -3540,9 +3540,13 @@
     [
       "2026-08-31T02:00:00",
       9925.31
+    ],
+    [
+      "2026-08-31T02:15:00",
+      9923.4
     ]
   ],
-  "last_bar_ts": "2026-08-31T02:00:00",
-  "bars_processed": 628,
+  "last_bar_ts": "2026-08-31T02:15:00",
+  "bars_processed": 629,
   "starting_cash": 10000.0
 }
