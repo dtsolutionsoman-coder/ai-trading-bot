@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T02:45:35",
+  "saved_at": "2026-08-31T02:49:30",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4929,6 +4929,10 @@
       [
         "2026-08-31T02:45:34.453621",
         10000.0
+      ],
+      [
+        "2026-08-31T02:49:21.783958",
+        10000.0
       ]
     ]
   },
@@ -5737,11 +5741,18 @@
       "market_price": 0.505,
       "question": "Will CF Monterrey win on 2026-08-30?",
       "ts": "2026-08-31T01:35:15"
+    },
+    "3671064": {
+      "probability": 0.7,
+      "reason": "No information available about this future Liga MX fixture; staying close to the market price with slight regression since 71.5% is high for a soccer match.",
+      "market_price": 0.715,
+      "question": "Will Atl\u00e9tico San Luis win on 2026-08-30?",
+      "ts": "2026-08-31T02:49:21"
     }
   },
   "llm_usage": {
-    "calls": 106,
-    "prompt_tokens": 17640,
-    "completion_tokens": 49262
+    "calls": 107,
+    "prompt_tokens": 17807,
+    "completion_tokens": 49626
   }
 }
