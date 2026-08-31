@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T00:40:59",
+  "saved_at": "2026-08-31T00:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -892,7 +892,7 @@
       "reason": "Small long is down modestly but RSI is oversold and the 12h/48h trend ratio holds above 1, so holding minimal exposure rather than chasing the dip or cutting at the lows."
     }
   ],
-  "llm_bar_index": 589,
+  "llm_bar_index": 590,
   "llm_usage": {
     "calls": 148,
     "prompt_tokens": 53165,
@@ -3491,9 +3491,13 @@
     [
       "2026-08-31T00:15:00",
       9930.38
+    ],
+    [
+      "2026-08-31T00:30:00",
+      9932.3
     ]
   ],
-  "last_bar_ts": "2026-08-31T00:15:00",
-  "bars_processed": 621,
+  "last_bar_ts": "2026-08-31T00:30:00",
+  "bars_processed": 622,
   "starting_cash": 10000.0
 }
