@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T10:29:55",
+  "saved_at": "2026-08-31T10:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -952,7 +952,7 @@
       "reason": "Overbought RSI (76.7), extreme 192% funding, perp premium, and falling OI signal crowded longs vulnerable to a pullback; trimming the small long."
     }
   ],
-  "llm_bar_index": 628,
+  "llm_bar_index": 629,
   "llm_usage": {
     "calls": 158,
     "prompt_tokens": 56753,
@@ -3734,9 +3734,13 @@
     [
       "2026-08-31T10:00:00",
       9886.88
+    ],
+    [
+      "2026-08-31T10:15:00",
+      9891.22
     ]
   ],
-  "last_bar_ts": "2026-08-31T10:00:00",
-  "bars_processed": 660,
+  "last_bar_ts": "2026-08-31T10:15:00",
+  "bars_processed": 661,
   "starting_cash": 10000.0
 }
