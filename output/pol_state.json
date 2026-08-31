@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T22:06:05",
+  "saved_at": "2026-08-31T22:13:06",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -5909,6 +5909,10 @@
       [
         "2026-08-31T22:06:04.606337",
         9991.288591
+      ],
+      [
+        "2026-08-31T22:12:50.794965",
+        9991.288591
       ]
     ]
   },
@@ -6745,11 +6749,18 @@
       "market_price": 0.135,
       "question": "Will Aston Villa FC win on 2026-08-31?",
       "ts": "2026-08-31T19:58:09"
+    },
+    "3953844": {
+      "probability": 0.1,
+      "reason": "Without current price context, the market's low implied probability likely reflects Bitcoin trading far from $80K, and a ~10% chance of touching that level in one month is consistent with historical v",
+      "market_price": 0.095,
+      "question": "Will Bitcoin reach $80,000 in August?",
+      "ts": "2026-08-31T22:12:50"
     }
   },
   "llm_usage": {
-    "calls": 111,
-    "prompt_tokens": 18475,
-    "completion_tokens": 54000
+    "calls": 112,
+    "prompt_tokens": 18637,
+    "completion_tokens": 55214
   }
 }
