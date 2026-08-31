@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T10:09:37",
+  "saved_at": "2026-08-31T10:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -944,20 +944,26 @@
       "action": "buy",
       "conviction": 0.2,
       "reason": "Short is bleeding as momentum turns mildly bullish across 1h/6h/24h with RSI near 60; cut the losing short and hold only a small long given weak trend confirmation (SMA ratio <1, falling OI)."
+    },
+    {
+      "ts": "2026-08-31T10:00:00",
+      "action": "sell",
+      "conviction": 0.55,
+      "reason": "Overbought RSI (76.7), extreme 192% funding, perp premium, and falling OI signal crowded longs vulnerable to a pullback; trimming the small long."
     }
   ],
-  "llm_bar_index": 627,
+  "llm_bar_index": 628,
   "llm_usage": {
-    "calls": 157,
-    "prompt_tokens": 56393,
-    "completion_tokens": 143201
+    "calls": 158,
+    "prompt_tokens": 56753,
+    "completion_tokens": 144088
   },
-  "cash": 7909.071082095054,
+  "cash": 12360.267272743167,
   "positions": {
     "BTC": {
-      "qty": 0.025056697094528076,
-      "avg_price": 79018.4895,
-      "realized_pnl": -72.9335371155806
+      "qty": -0.03122967642670984,
+      "avg_price": 79160.40000000001,
+      "realized_pnl": -69.37772870254726
     }
   },
   "recent_fills": [
@@ -1077,6 +1083,15 @@
       "fee": 4.494373501156678,
       "realized": -33.04586364606559,
       "reason": "LLM buy conv=0.20: Short is bleeding as momentum turns mildly bullish across 1h/6h/24h with RSI near 60; cut the losing short and hold only a small long given weak trend confirmation (SMA ratio <1, falling OI)."
+    },
+    {
+      "ts": "2026-08-31T10:00:00",
+      "side": "sell",
+      "qty": 0.056286373521237915,
+      "price": 79160.40000000001,
+      "fee": 4.455651842490602,
+      "realized": 3.555808413033347,
+      "reason": "LLM sell conv=0.55: Overbought RSI (76.7), extreme 192% funding, perp premium, and falling OI signal crowded longs vulnerable to a pullback; trimming the small long. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -3715,9 +3730,13 @@
     [
       "2026-08-31T09:45:00",
       9891.36
+    ],
+    [
+      "2026-08-31T10:00:00",
+      9886.88
     ]
   ],
-  "last_bar_ts": "2026-08-31T09:45:00",
-  "bars_processed": 659,
+  "last_bar_ts": "2026-08-31T10:00:00",
+  "bars_processed": 660,
   "starting_cash": 10000.0
 }
