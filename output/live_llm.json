@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T06:59:42",
+  "saved_at": "2026-08-31T07:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -928,7 +928,7 @@
       "reason": "Flat price action with extreme positive funding (285% ann) rewards holding the small short, but RSI 65 and positive 6h momentum argue against adding to a slightly underwater position."
     }
   ],
-  "llm_bar_index": 614,
+  "llm_bar_index": 615,
   "llm_usage": {
     "calls": 154,
     "prompt_tokens": 55316,
@@ -3636,9 +3636,13 @@
     [
       "2026-08-31T06:30:00",
       9901.16
+    ],
+    [
+      "2026-08-31T06:45:00",
+      9903.01
     ]
   ],
-  "last_bar_ts": "2026-08-31T06:30:00",
-  "bars_processed": 646,
+  "last_bar_ts": "2026-08-31T06:45:00",
+  "bars_processed": 647,
   "starting_cash": 10000.0
 }
