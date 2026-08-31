@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T17:03:13",
+  "saved_at": "2026-08-31T17:10:13",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -5653,6 +5653,10 @@
       [
         "2026-08-31T17:03:12.713364",
         9989.946309
+      ],
+      [
+        "2026-08-31T17:10:05.815137",
+        9989.946309
       ]
     ]
   },
@@ -6468,11 +6472,18 @@
       "market_price": 0.715,
       "question": "Will Atl\u00e9tico San Luis win on 2026-08-30?",
       "ts": "2026-08-31T02:49:21"
+    },
+    "3691276": {
+      "probability": 0.44,
+      "reason": "No specific information available about this future La Liga fixture, so staying close to the market-implied probability for a mid-table side.",
+      "market_price": 0.445,
+      "question": "Will CA Osasuna win on 2026-08-31?",
+      "ts": "2026-08-31T17:10:05"
     }
   },
   "llm_usage": {
-    "calls": 107,
-    "prompt_tokens": 17807,
-    "completion_tokens": 49626
+    "calls": 108,
+    "prompt_tokens": 17974,
+    "completion_tokens": 49908
   }
 }
