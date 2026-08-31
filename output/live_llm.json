@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T17:56:54",
+  "saved_at": "2026-08-31T18:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -994,7 +994,7 @@
       "reason": "Flat, low-volatility market with mixed signals (slightly negative short-term momentum and positive funding favor the small profitable short, but SMA ratio and RSI lean neutral-bullish), so maintain th"
     }
   ],
-  "llm_bar_index": 658,
+  "llm_bar_index": 659,
   "llm_usage": {
     "calls": 165,
     "prompt_tokens": 59264,
@@ -3905,9 +3905,13 @@
     [
       "2026-08-31T17:30:00",
       9892.57
+    ],
+    [
+      "2026-08-31T17:45:00",
+      9891.98
     ]
   ],
-  "last_bar_ts": "2026-08-31T17:30:00",
-  "bars_processed": 690,
+  "last_bar_ts": "2026-08-31T17:45:00",
+  "bars_processed": 691,
   "starting_cash": 10000.0
 }
