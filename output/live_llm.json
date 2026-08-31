@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T11:24:07",
+  "saved_at": "2026-08-31T11:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -958,7 +958,7 @@
       "reason": "Elevated funding (40% ann.) and positive perp premium signal crowded longs that support the small profitable short, but flat trend and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 632,
+  "llm_bar_index": 633,
   "llm_usage": {
     "calls": 159,
     "prompt_tokens": 57112,
@@ -3756,9 +3756,13 @@
     [
       "2026-08-31T11:00:00",
       9892.62
+    ],
+    [
+      "2026-08-31T11:15:00",
+      9892.5
     ]
   ],
-  "last_bar_ts": "2026-08-31T11:00:00",
-  "bars_processed": 664,
+  "last_bar_ts": "2026-08-31T11:15:00",
+  "bars_processed": 665,
   "starting_cash": 10000.0
 }
