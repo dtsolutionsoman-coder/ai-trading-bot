@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T21:25:55",
+  "saved_at": "2026-08-31T21:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1018,7 +1018,7 @@
       "reason": "Extreme positive funding (206% ann.) makes the long position costly to hold despite only mildly bullish, low-volatility price action, so take the small profit off."
     }
   ],
-  "llm_bar_index": 672,
+  "llm_bar_index": 673,
   "llm_usage": {
     "calls": 169,
     "prompt_tokens": 60702,
@@ -4003,9 +4003,13 @@
     [
       "2026-08-31T21:00:00",
       9885.82
+    ],
+    [
+      "2026-08-31T21:15:00",
+      9883.16
     ]
   ],
-  "last_bar_ts": "2026-08-31T21:00:00",
-  "bars_processed": 704,
+  "last_bar_ts": "2026-08-31T21:15:00",
+  "bars_processed": 705,
   "starting_cash": 10000.0
 }
