@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T16:29:29",
+  "saved_at": "2026-08-31T16:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -988,7 +988,7 @@
       "reason": "Mixed signals in very low volatility\u2014slightly negative price action supports the small profitable short, but bullish RSI and positive funding argue against adding risk."
     }
   ],
-  "llm_bar_index": 652,
+  "llm_bar_index": 653,
   "llm_usage": {
     "calls": 164,
     "prompt_tokens": 58904,
@@ -3875,9 +3875,13 @@
     [
       "2026-08-31T16:00:00",
       9899.34
+    ],
+    [
+      "2026-08-31T16:15:00",
+      9898.4
     ]
   ],
-  "last_bar_ts": "2026-08-31T16:00:00",
-  "bars_processed": 684,
+  "last_bar_ts": "2026-08-31T16:15:00",
+  "bars_processed": 685,
   "starting_cash": 10000.0
 }
