@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T19:00:45",
+  "saved_at": "2026-08-31T19:04:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -5753,6 +5753,10 @@
       [
         "2026-08-31T19:00:45.225005",
         9990.61745
+      ],
+      [
+        "2026-08-31T19:04:28.151164",
+        10000.0
       ]
     ]
   },
@@ -6575,11 +6579,18 @@
       "market_price": 0.445,
       "question": "Will CA Osasuna win on 2026-08-31?",
       "ts": "2026-08-31T17:10:05"
+    },
+    "3691287": {
+      "probability": 0.04,
+      "reason": "Fixture and opponent for that Monday date are uncertain; if Rayo does play, win odds are ~30%, so the low price mostly reflects scheduling uncertainty, keeping me near the market.",
+      "market_price": 0.0295,
+      "question": "Will Rayo Vallecano de Madrid win on 2026-08-31?",
+      "ts": "2026-08-31T19:04:28"
     }
   },
   "llm_usage": {
-    "calls": 108,
-    "prompt_tokens": 17974,
-    "completion_tokens": 49908
+    "calls": 109,
+    "prompt_tokens": 18143,
+    "completion_tokens": 51562
   }
 }
