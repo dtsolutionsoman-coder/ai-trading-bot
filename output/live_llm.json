@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T14:41:05",
+  "saved_at": "2026-08-31T14:45:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -976,7 +976,7 @@
       "reason": "Extreme positive funding (464% ann.) and 81bps perp premium favor the existing small profitable short, but near-oversold RSI and flat, low-vol price action argue against adding."
     }
   ],
-  "llm_bar_index": 645,
+  "llm_bar_index": 646,
   "llm_usage": {
     "calls": 162,
     "prompt_tokens": 58184,
@@ -3835,9 +3835,13 @@
     [
       "2026-08-31T14:15:00",
       9905.76
+    ],
+    [
+      "2026-08-31T14:30:00",
+      9899.28
     ]
   ],
-  "last_bar_ts": "2026-08-31T14:15:00",
-  "bars_processed": 677,
+  "last_bar_ts": "2026-08-31T14:30:00",
+  "bars_processed": 678,
   "starting_cash": 10000.0
 }
