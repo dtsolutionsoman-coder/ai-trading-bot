@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T19:51:41",
+  "saved_at": "2026-08-31T19:58:18",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -5797,6 +5797,10 @@
       [
         "2026-08-31T19:51:40.644364",
         9991.288591
+      ],
+      [
+        "2026-08-31T19:58:09.722848",
+        9991.288591
       ]
     ]
   },
@@ -6626,11 +6630,18 @@
       "market_price": 0.0295,
       "question": "Will Rayo Vallecano de Madrid win on 2026-08-31?",
       "ts": "2026-08-31T19:04:28"
+    },
+    "3688206": {
+      "probability": 0.13,
+      "reason": "No fixture information available for August 2026; deferring to market price which likely reflects a tough matchup or uncertainty about whether Villa play that day.",
+      "market_price": 0.135,
+      "question": "Will Aston Villa FC win on 2026-08-31?",
+      "ts": "2026-08-31T19:58:09"
     }
   },
   "llm_usage": {
-    "calls": 109,
-    "prompt_tokens": 18143,
-    "completion_tokens": 51562
+    "calls": 110,
+    "prompt_tokens": 18308,
+    "completion_tokens": 52000
   }
 }
