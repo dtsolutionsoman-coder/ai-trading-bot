@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T07:53:33",
+  "saved_at": "2026-08-31T08:00:06",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -934,7 +934,7 @@
       "reason": "Extreme positive funding (331% ann.) rewards the small short while range-bound, mixed price action (flat 24h, SMA ratio ~1) argues against adding risk."
     }
   ],
-  "llm_bar_index": 618,
+  "llm_bar_index": 619,
   "llm_usage": {
     "calls": 155,
     "prompt_tokens": 55675,
@@ -3658,9 +3658,13 @@
     [
       "2026-08-31T07:30:00",
       9901.19
+    ],
+    [
+      "2026-08-31T07:45:00",
+      9900.52
     ]
   ],
-  "last_bar_ts": "2026-08-31T07:30:00",
-  "bars_processed": 650,
+  "last_bar_ts": "2026-08-31T07:45:00",
+  "bars_processed": 651,
   "starting_cash": 10000.0
 }
