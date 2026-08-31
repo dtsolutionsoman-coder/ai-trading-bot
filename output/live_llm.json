@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T12:12:10",
+  "saved_at": "2026-08-31T12:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -956,13 +956,19 @@
       "action": "hold",
       "conviction": 0.2,
       "reason": "Elevated funding (40% ann.) and positive perp premium signal crowded longs that support the small profitable short, but flat trend and thin volume argue against adding risk."
+    },
+    {
+      "ts": "2026-08-31T12:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Flat price action and neutral RSI give no directional edge, but extreme positive funding and perp premium justify keeping the small profitable short for carry."
     }
   ],
-  "llm_bar_index": 635,
+  "llm_bar_index": 636,
   "llm_usage": {
-    "calls": 159,
-    "prompt_tokens": 57112,
-    "completion_tokens": 145019
+    "calls": 160,
+    "prompt_tokens": 57470,
+    "completion_tokens": 146138
   },
   "cash": 12360.267272743167,
   "positions": {
@@ -3768,9 +3774,13 @@
     [
       "2026-08-31T11:45:00",
       9896.4
+    ],
+    [
+      "2026-08-31T12:00:00",
+      9900.27
     ]
   ],
-  "last_bar_ts": "2026-08-31T11:45:00",
-  "bars_processed": 667,
+  "last_bar_ts": "2026-08-31T12:00:00",
+  "bars_processed": 668,
   "starting_cash": 10000.0
 }
