@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T12:39:24",
+  "saved_at": "2026-08-31T12:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -964,7 +964,7 @@
       "reason": "Flat price action and neutral RSI give no directional edge, but extreme positive funding and perp premium justify keeping the small profitable short for carry."
     }
   ],
-  "llm_bar_index": 637,
+  "llm_bar_index": 638,
   "llm_usage": {
     "calls": 160,
     "prompt_tokens": 57470,
@@ -3782,9 +3782,13 @@
     [
       "2026-08-31T12:15:00",
       9908.55
+    ],
+    [
+      "2026-08-31T12:30:00",
+      9906.99
     ]
   ],
-  "last_bar_ts": "2026-08-31T12:15:00",
-  "bars_processed": 669,
+  "last_bar_ts": "2026-08-31T12:30:00",
+  "bars_processed": 670,
   "starting_cash": 10000.0
 }
