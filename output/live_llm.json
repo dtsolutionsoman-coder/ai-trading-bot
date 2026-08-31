@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T05:57:34",
+  "saved_at": "2026-08-31T06:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -922,7 +922,7 @@
       "reason": "Extreme positive funding (417% ann.) and perp premium reward holding the small short despite mild short-term upward drift and flat 24h trend."
     }
   ],
-  "llm_bar_index": 610,
+  "llm_bar_index": 611,
   "llm_usage": {
     "calls": 153,
     "prompt_tokens": 54956,
@@ -3614,9 +3614,13 @@
     [
       "2026-08-31T05:30:00",
       9899.95
+    ],
+    [
+      "2026-08-31T05:45:00",
+      9900.87
     ]
   ],
-  "last_bar_ts": "2026-08-31T05:30:00",
-  "bars_processed": 642,
+  "last_bar_ts": "2026-08-31T05:45:00",
+  "bars_processed": 643,
   "starting_cash": 10000.0
 }
