@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T18:24:31",
+  "saved_at": "2026-08-31T18:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1000,7 +1000,7 @@
       "reason": "Mildly bullish alignment (positive 1h/6h/24h drift, SMA ratio >1, RSI 62) argues for closing the small short while it holds a slight profit."
     }
   ],
-  "llm_bar_index": 660,
+  "llm_bar_index": 661,
   "llm_usage": {
     "calls": 166,
     "prompt_tokens": 59623,
@@ -3928,9 +3928,13 @@
     [
       "2026-08-31T18:00:00",
       9887.34
+    ],
+    [
+      "2026-08-31T18:15:00",
+      9888.43
     ]
   ],
-  "last_bar_ts": "2026-08-31T18:00:00",
-  "bars_processed": 692,
+  "last_bar_ts": "2026-08-31T18:15:00",
+  "bars_processed": 693,
   "starting_cash": 10000.0
 }
