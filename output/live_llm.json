@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T09:28:58",
+  "saved_at": "2026-08-31T09:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -946,7 +946,7 @@
       "reason": "Short is bleeding as momentum turns mildly bullish across 1h/6h/24h with RSI near 60; cut the losing short and hold only a small long given weak trend confirmation (SMA ratio <1, falling OI)."
     }
   ],
-  "llm_bar_index": 624,
+  "llm_bar_index": 625,
   "llm_usage": {
     "calls": 157,
     "prompt_tokens": 56393,
@@ -3703,9 +3703,13 @@
     [
       "2026-08-31T09:00:00",
       9888.02
+    ],
+    [
+      "2026-08-31T09:15:00",
+      9893.44
     ]
   ],
-  "last_bar_ts": "2026-08-31T09:00:00",
-  "bars_processed": 656,
+  "last_bar_ts": "2026-08-31T09:15:00",
+  "bars_processed": 657,
   "starting_cash": 10000.0
 }
