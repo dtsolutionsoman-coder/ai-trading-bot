@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-08-31T01:30:35",
+  "saved_at": "2026-08-31T01:35:22",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -4869,6 +4869,10 @@
       [
         "2026-08-31T01:30:34.762682",
         10000.0
+      ],
+      [
+        "2026-08-31T01:35:15.734487",
+        10000.0
       ]
     ]
   },
@@ -5670,11 +5674,18 @@
       "market_price": 0.9705,
       "question": "Israel x Iran ceasefire continues through August 31?",
       "ts": "2026-08-30T23:38:35"
+    },
+    "3671062": {
+      "probability": 0.5,
+      "reason": "No information available about the opponent, venue, or team form for this future match, so staying calibrated to the market price.",
+      "market_price": 0.505,
+      "question": "Will CF Monterrey win on 2026-08-30?",
+      "ts": "2026-08-31T01:35:15"
     }
   },
   "llm_usage": {
-    "calls": 105,
-    "prompt_tokens": 17474,
-    "completion_tokens": 48978
+    "calls": 106,
+    "prompt_tokens": 17640,
+    "completion_tokens": 49262
   }
 }
