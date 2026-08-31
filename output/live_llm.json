@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T01:28:35",
+  "saved_at": "2026-08-31T01:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -898,7 +898,7 @@
       "reason": "Mixed signals: bearish short-term momentum and positive funding weigh on the small long, but oversold RSI (29.6) and flat SMA ratio in very low volume suggest holding a reduced exposure rather than ch"
     }
   ],
-  "llm_bar_index": 592,
+  "llm_bar_index": 593,
   "llm_usage": {
     "calls": 149,
     "prompt_tokens": 53523,
@@ -3509,9 +3509,13 @@
     [
       "2026-08-31T01:00:00",
       9926.91
+    ],
+    [
+      "2026-08-31T01:15:00",
+      9928.57
     ]
   ],
-  "last_bar_ts": "2026-08-31T01:00:00",
-  "bars_processed": 624,
+  "last_bar_ts": "2026-08-31T01:15:00",
+  "bars_processed": 625,
   "starting_cash": 10000.0
 }
