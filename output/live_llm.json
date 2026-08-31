@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T20:11:38",
+  "saved_at": "2026-08-31T20:15:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1004,13 +1004,19 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Mild uptrend with small profitable long, but RSI at 70, elevated funding, and thin volume argue against adding exposure."
+    },
+    {
+      "ts": "2026-08-31T20:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Mild uptrend with small profitable long, but elevated RSI (65) and 11% funding rate signal crowded longs, so maintain reduced exposure rather than add."
     }
   ],
-  "llm_bar_index": 667,
+  "llm_bar_index": 668,
   "llm_usage": {
-    "calls": 167,
-    "prompt_tokens": 59984,
-    "completion_tokens": 152780
+    "calls": 168,
+    "prompt_tokens": 60342,
+    "completion_tokens": 153340
   },
   "cash": 8403.346198449959,
   "positions": {
@@ -3962,9 +3968,13 @@
     [
       "2026-08-31T19:45:00",
       9890.57
+    ],
+    [
+      "2026-08-31T20:00:00",
+      9892.79
     ]
   ],
-  "last_bar_ts": "2026-08-31T19:45:00",
-  "bars_processed": 699,
+  "last_bar_ts": "2026-08-31T20:00:00",
+  "bars_processed": 700,
   "starting_cash": 10000.0
 }
