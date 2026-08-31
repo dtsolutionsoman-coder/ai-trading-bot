@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-08-31T21:12:25",
+  "saved_at": "2026-08-31T21:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1010,20 +1010,26 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mild uptrend with small profitable long, but elevated RSI (65) and 11% funding rate signal crowded longs, so maintain reduced exposure rather than add."
+    },
+    {
+      "ts": "2026-08-31T21:00:00",
+      "action": "sell",
+      "conviction": 0.5,
+      "reason": "Extreme positive funding (206% ann.) makes the long position costly to hold despite only mildly bullish, low-volatility price action, so take the small profit off."
     }
   ],
-  "llm_bar_index": 671,
+  "llm_bar_index": 672,
   "llm_usage": {
-    "calls": 168,
-    "prompt_tokens": 60342,
-    "completion_tokens": 153340
+    "calls": 169,
+    "prompt_tokens": 60702,
+    "completion_tokens": 154091
   },
-  "cash": 8403.346198449959,
+  "cash": 12358.754686908447,
   "positions": {
     "BTC": {
-      "qty": 0.01878688290175047,
-      "avg_price": 79030.49549999999,
-      "realized_pnl": -65.41751242822065
+      "qty": -0.031213729657006667,
+      "avg_price": 79186.387,
+      "realized_pnl": -62.48879707234218
     }
   },
   "recent_fills": [
@@ -1170,6 +1176,15 @@
       "fee": 3.9719391294783373,
       "realized": 3.960216274326612,
       "reason": "LLM buy conv=0.15: Mildly bullish alignment (positive 1h/6h/24h drift, SMA ratio >1, RSI 62) argues for closing the small short while it holds a slight profit."
+    },
+    {
+      "ts": "2026-08-31T21:00:00",
+      "side": "sell",
+      "qty": 0.05000061255875714,
+      "price": 79186.387,
+      "fee": 3.959367856314803,
+      "realized": 2.9287153558784667,
+      "reason": "LLM sell conv=0.50: Extreme positive funding (206% ann.) makes the long position costly to hold despite only mildly bullish, low-volatility price action, so take the small profit off. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -3984,9 +3999,13 @@
     [
       "2026-08-31T20:45:00",
       9893.01
+    ],
+    [
+      "2026-08-31T21:00:00",
+      9885.82
     ]
   ],
-  "last_bar_ts": "2026-08-31T20:45:00",
-  "bars_processed": 703,
+  "last_bar_ts": "2026-08-31T21:00:00",
+  "bars_processed": 704,
   "starting_cash": 10000.0
 }
