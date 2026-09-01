@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T14:41:10",
+  "saved_at": "2026-09-01T14:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1120,7 +1120,7 @@
       "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 741,
+  "llm_bar_index": 742,
   "llm_usage": {
     "calls": 186,
     "prompt_tokens": 66808,
@@ -4390,9 +4390,13 @@
     [
       "2026-09-01T14:15:00",
       9885.23
+    ],
+    [
+      "2026-09-01T14:30:00",
+      9884.54
     ]
   ],
-  "last_bar_ts": "2026-09-01T14:15:00",
-  "bars_processed": 773,
+  "last_bar_ts": "2026-09-01T14:30:00",
+  "bars_processed": 774,
   "starting_cash": 10000.0
 }
