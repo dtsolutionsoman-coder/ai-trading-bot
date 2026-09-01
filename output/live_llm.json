@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T12:59:09",
+  "saved_at": "2026-09-01T13:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1108,7 +1108,7 @@
       "reason": "Extreme 248% annualized funding and +40bps perp premium signal crowded longs paying shorts, with sub-50 RSI and negative 6h momentum supporting a modest add to the already profitable short."
     }
   ],
-  "llm_bar_index": 734,
+  "llm_bar_index": 735,
   "llm_usage": {
     "calls": 184,
     "prompt_tokens": 66088,
@@ -4341,9 +4341,13 @@
     [
       "2026-09-01T12:30:00",
       9891.43
+    ],
+    [
+      "2026-09-01T12:45:00",
+      9877.45
     ]
   ],
-  "last_bar_ts": "2026-09-01T12:30:00",
-  "bars_processed": 766,
+  "last_bar_ts": "2026-09-01T12:45:00",
+  "bars_processed": 767,
   "starting_cash": 10000.0
 }
