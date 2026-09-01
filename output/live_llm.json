@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T21:21:28",
+  "saved_at": "2026-09-01T21:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1162,7 +1162,7 @@
       "reason": "Downside momentum, falling OI, and still-crowded long funding outweigh the deeply oversold RSI, so trim the small losing long toward flat rather than short the bottom."
     }
   ],
-  "llm_bar_index": 768,
+  "llm_bar_index": 769,
   "llm_usage": {
     "calls": 193,
     "prompt_tokens": 69329,
@@ -4558,9 +4558,13 @@
     [
       "2026-09-01T21:00:00",
       9923.88
+    ],
+    [
+      "2026-09-01T21:15:00",
+      9925.06
     ]
   ],
-  "last_bar_ts": "2026-09-01T21:00:00",
-  "bars_processed": 800,
+  "last_bar_ts": "2026-09-01T21:15:00",
+  "bars_processed": 801,
   "starting_cash": 10000.0
 }
