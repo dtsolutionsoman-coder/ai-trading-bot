@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T18:21:53",
+  "saved_at": "2026-09-01T18:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1144,7 +1144,7 @@
       "reason": "Extreme funding (1642% ann) and 155bps perp premium signal crowded longs supporting the existing small green short, but flat price, neutral RSI, and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 756,
+  "llm_bar_index": 757,
   "llm_usage": {
     "calls": 190,
     "prompt_tokens": 68252,
@@ -4474,9 +4474,13 @@
     [
       "2026-09-01T18:00:00",
       9889.47
+    ],
+    [
+      "2026-09-01T18:15:00",
+      9894.46
     ]
   ],
-  "last_bar_ts": "2026-09-01T18:00:00",
-  "bars_processed": 788,
+  "last_bar_ts": "2026-09-01T18:15:00",
+  "bars_processed": 789,
   "starting_cash": 10000.0
 }
