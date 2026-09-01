@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T04:44:57",
+  "saved_at": "2026-09-01T04:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1060,7 +1060,7 @@
       "reason": "Small short retains massive funding carry (565% ann.) against overbought RSI and perp premium, but rising momentum argues against adding; hold and let carry offset the small drawdown."
     }
   ],
-  "llm_bar_index": 701,
+  "llm_bar_index": 702,
   "llm_usage": {
     "calls": 176,
     "prompt_tokens": 63217,
@@ -4161,9 +4161,13 @@
     [
       "2026-09-01T04:15:00",
       9880.92
+    ],
+    [
+      "2026-09-01T04:30:00",
+      9881.23
     ]
   ],
-  "last_bar_ts": "2026-09-01T04:15:00",
-  "bars_processed": 733,
+  "last_bar_ts": "2026-09-01T04:30:00",
+  "bars_processed": 734,
   "starting_cash": 10000.0
 }
