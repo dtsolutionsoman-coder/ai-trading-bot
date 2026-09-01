@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T14:15:44",
+  "saved_at": "2026-09-01T14:16:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1116,15 +1116,15 @@
     {
       "ts": "2026-09-01T14:00:00",
       "action": "hold",
-      "conviction": 0.25,
-      "reason": "Extreme funding (768% ann) and elevated perp premium favor keeping the small profitable short, but flat price action and neutral RSI argue against adding risk."
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
   "llm_bar_index": 740,
   "llm_usage": {
     "calls": 186,
     "prompt_tokens": 66808,
-    "completion_tokens": 173090
+    "completion_tokens": 173973
   },
   "cash": 12371.920357745948,
   "positions": {
