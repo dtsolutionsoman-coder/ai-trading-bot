@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T06:44:46",
+  "saved_at": "2026-09-01T06:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1072,7 +1072,7 @@
       "reason": "Extreme funding (249% ann.) and perp premium make the small short's carry attractive despite a mild uptrend; loss is minor, so defend rather than chase."
     }
   ],
-  "llm_bar_index": 709,
+  "llm_bar_index": 710,
   "llm_usage": {
     "calls": 178,
     "prompt_tokens": 63935,
@@ -4205,9 +4205,13 @@
     [
       "2026-09-01T06:15:00",
       9877.89
+    ],
+    [
+      "2026-09-01T06:30:00",
+      9878.23
     ]
   ],
-  "last_bar_ts": "2026-09-01T06:15:00",
-  "bars_processed": 741,
+  "last_bar_ts": "2026-09-01T06:30:00",
+  "bars_processed": 742,
   "starting_cash": 10000.0
 }
