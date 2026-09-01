@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T03:59:53",
+  "saved_at": "2026-09-01T04:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1054,7 +1054,7 @@
       "reason": "Extreme 639% annualized funding and 76bps perp premium favor keeping the small short to collect funding, but mildly bullish trend (RSI 61.5, SMA ratio >1) argues against adding risk."
     }
   ],
-  "llm_bar_index": 698,
+  "llm_bar_index": 699,
   "llm_usage": {
     "calls": 175,
     "prompt_tokens": 62859,
@@ -4143,9 +4143,13 @@
     [
       "2026-09-01T03:30:00",
       9887.94
+    ],
+    [
+      "2026-09-01T03:45:00",
+      9863.87
     ]
   ],
-  "last_bar_ts": "2026-09-01T03:30:00",
-  "bars_processed": 730,
+  "last_bar_ts": "2026-09-01T03:45:00",
+  "bars_processed": 731,
   "starting_cash": 10000.0
 }
