@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T12:00:47",
+  "saved_at": "2026-09-01T12:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1100,13 +1100,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Bearish momentum keeps the small profitable short intact, but oversold RSI (27) and elevated positive funding risk a squeeze, so no adding."
+    },
+    {
+      "ts": "2026-09-01T12:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme 248% annualized funding and +40bps perp premium signal crowded longs paying shorts, with sub-50 RSI and negative 6h momentum supporting a modest add to the already profitable short."
     }
   ],
-  "llm_bar_index": 731,
+  "llm_bar_index": 732,
   "llm_usage": {
-    "calls": 183,
-    "prompt_tokens": 65728,
-    "completion_tokens": 169542
+    "calls": 184,
+    "prompt_tokens": 66088,
+    "completion_tokens": 171046
   },
   "cash": 12358.754686908447,
   "positions": {
@@ -4323,9 +4329,13 @@
     [
       "2026-09-01T11:45:00",
       9899.83
+    ],
+    [
+      "2026-09-01T12:00:00",
+      9890.84
     ]
   ],
-  "last_bar_ts": "2026-09-01T11:45:00",
-  "bars_processed": 763,
+  "last_bar_ts": "2026-09-01T12:00:00",
+  "bars_processed": 764,
   "starting_cash": 10000.0
 }
