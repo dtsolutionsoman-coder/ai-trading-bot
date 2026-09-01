@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T23:44:33",
+  "saved_at": "2026-09-01T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1174,7 +1174,7 @@
       "reason": "6h/24h downtrend and positive funding carry support the small short, but flat 1h action, neutral RSI, and falling OI argue against adding; keep modest short exposure while defending the small loss."
     }
   ],
-  "llm_bar_index": 777,
+  "llm_bar_index": 778,
   "llm_usage": {
     "calls": 195,
     "prompt_tokens": 70048,
@@ -4606,9 +4606,13 @@
     [
       "2026-09-01T23:15:00",
       9916.16
+    ],
+    [
+      "2026-09-01T23:30:00",
+      9912.03
     ]
   ],
-  "last_bar_ts": "2026-09-01T23:15:00",
-  "bars_processed": 809,
+  "last_bar_ts": "2026-09-01T23:30:00",
+  "bars_processed": 810,
   "starting_cash": 10000.0
 }
