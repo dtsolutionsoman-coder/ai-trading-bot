@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T22:56:40",
+  "saved_at": "2026-09-01T23:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1168,7 +1168,7 @@
       "reason": "Negative 6h/24h trend, elevated long funding, and falling OI support keeping the small short, but the overbought 1h bounce and thin volume argue against adding here."
     }
   ],
-  "llm_bar_index": 774,
+  "llm_bar_index": 775,
   "llm_usage": {
     "calls": 194,
     "prompt_tokens": 69688,
@@ -4588,9 +4588,13 @@
     [
       "2026-09-01T22:30:00",
       9919.06
+    ],
+    [
+      "2026-09-01T22:45:00",
+      9916.8
     ]
   ],
-  "last_bar_ts": "2026-09-01T22:30:00",
-  "bars_processed": 806,
+  "last_bar_ts": "2026-09-01T22:45:00",
+  "bars_processed": 807,
   "starting_cash": 10000.0
 }
