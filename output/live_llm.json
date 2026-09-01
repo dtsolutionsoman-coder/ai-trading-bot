@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T09:55:58",
+  "saved_at": "2026-09-01T10:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1090,7 +1090,7 @@
       "reason": "Extreme positive funding and perp premium support keeping the small short for carry, but oversold RSI and thin, low-volatility conditions argue against adding risk."
     }
   ],
-  "llm_bar_index": 722,
+  "llm_bar_index": 723,
   "llm_usage": {
     "calls": 181,
     "prompt_tokens": 65011,
@@ -4275,9 +4275,13 @@
     [
       "2026-09-01T09:30:00",
       9896.15
+    ],
+    [
+      "2026-09-01T09:45:00",
+      9894.43
     ]
   ],
-  "last_bar_ts": "2026-09-01T09:30:00",
-  "bars_processed": 754,
+  "last_bar_ts": "2026-09-01T09:45:00",
+  "bars_processed": 755,
   "starting_cash": 10000.0
 }
