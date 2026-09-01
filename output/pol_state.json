@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-01T20:00:48",
+  "saved_at": "2026-09-01T20:13:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -6721,6 +6721,10 @@
       [
         "2026-09-01T20:00:47.887513",
         10000.0
+      ],
+      [
+        "2026-09-01T20:13:44.213703",
+        10000.0
       ]
     ]
   },
@@ -7599,11 +7603,18 @@
       "market_price": 0.1085,
       "question": "Will Wolverhampton Wanderers FC win on 2026-09-01?",
       "ts": "2026-09-01T19:45:27"
+    },
+    "3713958": {
+      "probability": 0.23,
+      "reason": "Single future fixture with unknown opponent and squad context; no information to justify deviating far from the market's 22.5% price for Bristol City.",
+      "market_price": 0.225,
+      "question": "Will Bristol City FC win on 2026-09-01?",
+      "ts": "2026-09-01T20:13:44"
     }
   },
   "llm_usage": {
-    "calls": 117,
-    "prompt_tokens": 19474,
-    "completion_tokens": 58286
+    "calls": 118,
+    "prompt_tokens": 19639,
+    "completion_tokens": 58607
   }
 }
