@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T20:44:32",
+  "saved_at": "2026-09-01T20:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1156,7 +1156,7 @@
       "reason": "RSI 18.4 with negative perp premium and OI flush signals capitulation, making selling here poor risk/reward, but the 6h/24h downtrend and thin volume argue against adding to the small long."
     }
   ],
-  "llm_bar_index": 765,
+  "llm_bar_index": 766,
   "llm_usage": {
     "calls": 192,
     "prompt_tokens": 68969,
@@ -4531,9 +4531,13 @@
     [
       "2026-09-01T20:15:00",
       9937.52
+    ],
+    [
+      "2026-09-01T20:30:00",
+      9937.1
     ]
   ],
-  "last_bar_ts": "2026-09-01T20:15:00",
-  "bars_processed": 797,
+  "last_bar_ts": "2026-09-01T20:30:00",
+  "bars_processed": 798,
   "starting_cash": 10000.0
 }
