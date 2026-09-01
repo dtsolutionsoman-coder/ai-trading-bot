@@ -24,6 +24,10 @@ _ALLOWED_SCHEMES = ("http", "https")
 # transient upstream failures worth one more attempt before giving up
 _RETRYABLE_STATUS = frozenset({500, 502, 503, 504})
 _RETRY_DELAYS = (4.0, 10.0)
+# CDN-style IP throttling (observed on HL testnet): usually clears within a
+# minute, so a single patient retry beats failing the whole CI cycle
+_CHALLENGE_STATUS = frozenset({403})
+_CHALLENGE_RETRY_DELAY = 60.0
 
 
 class UnsafeURL(ValueError):
@@ -113,12 +117,21 @@ def safe_urlopen(
 
     opener = urllib.request.build_opener(_ValidatingRedirectHandler())
     request = urllib.request.Request(url, data=data, headers=headers or {})
+    challenge_retries_left = 1
     for attempt in range(retries + 1):
         if attempt:
             time.sleep(_RETRY_DELAYS[min(attempt - 1, len(_RETRY_DELAYS) - 1)])
         try:
             return opener.open(request, timeout=timeout)
         except urllib.error.HTTPError as exc:
+            if (
+                exc.code in _CHALLENGE_STATUS
+                and challenge_retries_left
+                and retries >= 1
+            ):
+                challenge_retries_left -= 1
+                time.sleep(_CHALLENGE_RETRY_DELAY)
+                continue
             if exc.code not in _RETRYABLE_STATUS or attempt == retries:
                 raise
         except (urllib.error.URLError, TimeoutError):

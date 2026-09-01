@@ -113,3 +113,25 @@ def test_safe_urlopen_default_keeps_old_behavior(monkeypatch):
     with pytest.raises(urllib.error.HTTPError):
         safe_urlopen("https://8.8.8.8/v1")
     assert fake.calls == 1
+
+
+def test_safe_urlopen_patient_retry_on_403_challenge(monkeypatch):
+    # CDN IP throttles clear in ~a minute; one patient retry should save the cycle
+    sentinel = object()
+    fake = _patched_net(monkeypatch, [_http_error(403), sentinel])
+    assert safe_urlopen("https://8.8.8.8/v1", retries=2) is sentinel
+    assert fake.calls == 2
+
+
+def test_safe_urlopen_403_persists_after_one_challenge_retry(monkeypatch):
+    fake = _patched_net(monkeypatch, [_http_error(403), _http_error(403)])
+    with pytest.raises(urllib.error.HTTPError):
+        safe_urlopen("https://8.8.8.8/v1", retries=2)
+    assert fake.calls == 2
+
+
+def test_safe_urlopen_403_instant_without_retries(monkeypatch):
+    fake = _patched_net(monkeypatch, [_http_error(403)])
+    with pytest.raises(urllib.error.HTTPError):
+        safe_urlopen("https://8.8.8.8/v1")
+    assert fake.calls == 1
