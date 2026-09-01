@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-01T00:00:40",
+  "saved_at": "2026-09-01T00:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1028,13 +1028,19 @@
       "action": "hold",
       "conviction": 0.5,
       "reason": "Extreme 670% annualized funding and elevated perp premium make the small profitable short attractive to keep as carry, while the mild uptrend (SMA ratio >1, positive 24h) argues against adding risk."
+    },
+    {
+      "ts": "2026-09-01T00:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme positive funding (346% ann) and elevated perp premium favor shorts with fading RSI momentum, outweighing the mild uptrend."
     }
   ],
-  "llm_bar_index": 683,
+  "llm_bar_index": 684,
   "llm_usage": {
-    "calls": 171,
-    "prompt_tokens": 61421,
-    "completion_tokens": 156313
+    "calls": 172,
+    "prompt_tokens": 61780,
+    "completion_tokens": 157528
   },
   "cash": 12358.754686908447,
   "positions": {
@@ -4059,9 +4065,13 @@
     [
       "2026-08-31T23:45:00",
       9890.19
+    ],
+    [
+      "2026-09-01T00:00:00",
+      9888.69
     ]
   ],
-  "last_bar_ts": "2026-08-31T23:45:00",
-  "bars_processed": 715,
+  "last_bar_ts": "2026-09-01T00:00:00",
+  "bars_processed": 716,
   "starting_cash": 10000.0
 }
