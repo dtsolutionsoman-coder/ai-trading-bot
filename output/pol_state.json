@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-01T16:45:27",
+  "saved_at": "2026-09-01T16:51:26",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -6597,6 +6597,10 @@
       [
         "2026-09-01T16:45:27.130322",
         10000.0
+      ],
+      [
+        "2026-09-01T16:51:19.894750",
+        10000.0
       ]
     ]
   },
@@ -7447,11 +7451,18 @@
       "market_price": 0.0235,
       "question": "Will Brandon Nakashima win the 2026 Men's US Open?",
       "ts": "2026-09-01T07:43:44"
+    },
+    "3708483": {
+      "probability": 0.6,
+      "reason": "No information available on this future fixture or opponent, so staying near the market price with a slight discount for draw/uncertainty risk.",
+      "market_price": 0.615,
+      "question": "Will Al Hilal Saudi Club win on 2026-09-01?",
+      "ts": "2026-09-01T16:51:19"
     }
   },
   "llm_usage": {
-    "calls": 113,
-    "prompt_tokens": 18804,
-    "completion_tokens": 55746
+    "calls": 114,
+    "prompt_tokens": 18972,
+    "completion_tokens": 56111
   }
 }
