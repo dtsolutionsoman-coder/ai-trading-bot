@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-02T18:30:38",
+  "saved_at": "2026-09-02T18:37:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7529,6 +7529,10 @@
       [
         "2026-09-02T18:30:38.113617",
         10000.0
+      ],
+      [
+        "2026-09-02T18:37:30.190786",
+        10000.0
       ]
     ]
   },
@@ -8456,11 +8460,18 @@
       "market_price": 0.425,
       "question": "Will Udinese Calcio win on 2026-09-02?",
       "ts": "2026-09-02T16:55:13"
+    },
+    "3735713": {
+      "probability": 0.42,
+      "reason": "No information available about this distant future fixture; staying near the market price with a slight adjustment for typical favorite-longshot bias in football match markets.",
+      "market_price": 0.415,
+      "question": "Will Millwall FC win on 2026-09-02?",
+      "ts": "2026-09-02T18:37:30"
     }
   },
   "llm_usage": {
-    "calls": 124,
-    "prompt_tokens": 20639,
-    "completion_tokens": 62316
+    "calls": 125,
+    "prompt_tokens": 20805,
+    "completion_tokens": 62656
   }
 }
