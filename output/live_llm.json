@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T03:43:57",
+  "saved_at": "2026-09-02T03:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1198,7 +1198,7 @@
       "reason": "24h downtrend and sub-1 SMA ratio support the small short, but the 1h/6h bounce and neutral RSI argue against adding, so keep exposure modest and defend against a squeeze."
     }
   ],
-  "llm_bar_index": 793,
+  "llm_bar_index": 794,
   "llm_usage": {
     "calls": 199,
     "prompt_tokens": 71485,
@@ -4694,9 +4694,13 @@
     [
       "2026-09-02T03:15:00",
       9910.02
+    ],
+    [
+      "2026-09-02T03:30:00",
+      9911.85
     ]
   ],
-  "last_bar_ts": "2026-09-02T03:15:00",
-  "bars_processed": 825,
+  "last_bar_ts": "2026-09-02T03:30:00",
+  "bars_processed": 826,
   "starting_cash": 10000.0
 }
