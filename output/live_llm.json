@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T21:57:17",
+  "saved_at": "2026-09-02T22:00:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1306,7 +1306,7 @@
       "reason": "Mixed neutral signals\u2014positive 24h momentum offset by sub-1 SMA ratio, declining OI, and elevated funding\u2014so keep the small existing long with minimal conviction."
     }
   ],
-  "llm_bar_index": 866,
+  "llm_bar_index": 867,
   "llm_usage": {
     "calls": 217,
     "prompt_tokens": 77948,
@@ -5121,9 +5121,13 @@
     [
       "2026-09-02T21:30:00",
       9901.84
+    ],
+    [
+      "2026-09-02T21:45:00",
+      9899.52
     ]
   ],
-  "last_bar_ts": "2026-09-02T21:30:00",
-  "bars_processed": 898,
+  "last_bar_ts": "2026-09-02T21:45:00",
+  "bars_processed": 899,
   "starting_cash": 10000.0
 }
