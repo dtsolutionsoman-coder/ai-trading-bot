@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-02T13:32:15",
+  "saved_at": "2026-09-02T13:45:08",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7345,6 +7345,10 @@
       [
         "2026-09-02T13:32:14.991122",
         10000.0
+      ],
+      [
+        "2026-09-02T13:44:54.162743",
+        10000.0
       ]
     ]
   },
@@ -8251,11 +8255,18 @@
       "market_price": 0.055,
       "question": "US announces end of Iranian blockade by September 14, 2026?",
       "ts": "2026-09-02T13:30:39"
+    },
+    "3903737": {
+      "probability": 0.94,
+      "reason": "No strong evidence to deviate from market; slight discount for Bitcoin's tail risk of a deep drawdown below $76k before the resolution date.",
+      "market_price": 0.955,
+      "question": "Will the price of Bitcoin be above $76,000 on September 2?",
+      "ts": "2026-09-02T13:44:54"
     }
   },
   "llm_usage": {
-    "calls": 121,
-    "prompt_tokens": 20137,
-    "completion_tokens": 61256
+    "calls": 122,
+    "prompt_tokens": 20305,
+    "completion_tokens": 61789
   }
 }
