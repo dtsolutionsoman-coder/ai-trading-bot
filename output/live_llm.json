@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T17:57:17",
+  "saved_at": "2026-09-02T18:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1282,7 +1282,7 @@
       "reason": "Bearish trend (SMA ratio <1, -2.4% 24h, falling OI) supports keeping the small short, but neutral RSI and a 6h bounce argue against adding to the slightly underwater position."
     }
   ],
-  "llm_bar_index": 850,
+  "llm_bar_index": 851,
   "llm_usage": {
     "calls": 213,
     "prompt_tokens": 76512,
@@ -5024,9 +5024,13 @@
     [
       "2026-09-02T17:30:00",
       9903.74
+    ],
+    [
+      "2026-09-02T17:45:00",
+      9898.0
     ]
   ],
-  "last_bar_ts": "2026-09-02T17:30:00",
-  "bars_processed": 882,
+  "last_bar_ts": "2026-09-02T17:45:00",
+  "bars_processed": 883,
   "starting_cash": 10000.0
 }
