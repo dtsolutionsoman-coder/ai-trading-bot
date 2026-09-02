@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T13:03:47",
+  "saved_at": "2026-09-02T13:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1250,13 +1250,19 @@
       "action": "hold",
       "conviction": 0.2,
       "reason": "Bearish 24h trend, declining OI, and extreme 104.9% annualized funding (crowded longs) justify keeping the small short despite the short-term bounce and slightly negative PnL."
+    },
+    {
+      "ts": "2026-09-02T13:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Bearish alignment: negative 6h/24h momentum, SMA12<SMA48, and extreme 85.7% funding with declining OI signals crowded longs unwinding, supporting a modestly larger short despite neutral RSI and thin v"
     }
   ],
-  "llm_bar_index": 831,
+  "llm_bar_index": 832,
   "llm_usage": {
-    "calls": 208,
-    "prompt_tokens": 74719,
-    "completion_tokens": 198511
+    "calls": 209,
+    "prompt_tokens": 75077,
+    "completion_tokens": 199387
   },
   "cash": 12407.56130571097,
   "positions": {
@@ -4918,9 +4924,13 @@
     [
       "2026-09-02T12:45:00",
       9916.43
+    ],
+    [
+      "2026-09-02T13:00:00",
+      9921.39
     ]
   ],
-  "last_bar_ts": "2026-09-02T12:45:00",
-  "bars_processed": 863,
+  "last_bar_ts": "2026-09-02T13:00:00",
+  "bars_processed": 864,
   "starting_cash": 10000.0
 }
