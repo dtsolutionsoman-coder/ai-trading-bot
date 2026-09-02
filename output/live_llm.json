@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T19:39:58",
+  "saved_at": "2026-09-02T19:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1294,7 +1294,7 @@
       "reason": "Mild upward drift with declining OI (short covering) and positive funding undermines the small losing short; flatten rather than press."
     }
   ],
-  "llm_bar_index": 857,
+  "llm_bar_index": 858,
   "llm_usage": {
     "calls": 215,
     "prompt_tokens": 77230,
@@ -5073,9 +5073,13 @@
     [
       "2026-09-02T19:15:00",
       9896.25
+    ],
+    [
+      "2026-09-02T19:30:00",
+      9896.92
     ]
   ],
-  "last_bar_ts": "2026-09-02T19:15:00",
-  "bars_processed": 889,
+  "last_bar_ts": "2026-09-02T19:30:00",
+  "bars_processed": 890,
   "starting_cash": 10000.0
 }
