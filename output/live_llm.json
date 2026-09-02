@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T11:42:51",
+  "saved_at": "2026-09-02T11:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1246,7 +1246,7 @@
       "reason": "Downtrend and extreme positive funding support the small profitable short, but oversold RSI and falling OI warn of a bounce, so maintain without adding."
     }
   ],
-  "llm_bar_index": 825,
+  "llm_bar_index": 826,
   "llm_usage": {
     "calls": 207,
     "prompt_tokens": 74361,
@@ -4888,9 +4888,13 @@
     [
       "2026-09-02T11:15:00",
       9923.71
+    ],
+    [
+      "2026-09-02T11:30:00",
+      9926.35
     ]
   ],
-  "last_bar_ts": "2026-09-02T11:15:00",
-  "bars_processed": 857,
+  "last_bar_ts": "2026-09-02T11:30:00",
+  "bars_processed": 858,
   "starting_cash": 10000.0
 }
