@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T18:56:01",
+  "saved_at": "2026-09-02T19:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1288,7 +1288,7 @@
       "reason": "24h downtrend, SMA12/48 below 1, and crowded long funding outweigh a low-volume intraday bounce, so I'm keeping the small short open despite minor drawdown."
     }
   ],
-  "llm_bar_index": 854,
+  "llm_bar_index": 855,
   "llm_usage": {
     "calls": 214,
     "prompt_tokens": 76871,
@@ -5046,9 +5046,13 @@
     [
       "2026-09-02T18:30:00",
       9901.87
+    ],
+    [
+      "2026-09-02T18:45:00",
+      9896.91
     ]
   ],
-  "last_bar_ts": "2026-09-02T18:30:00",
-  "bars_processed": 886,
+  "last_bar_ts": "2026-09-02T18:45:00",
+  "bars_processed": 887,
   "starting_cash": 10000.0
 }
