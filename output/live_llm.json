@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T20:26:43",
+  "saved_at": "2026-09-02T20:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1300,7 +1300,7 @@
       "reason": "Low-volatility neutral chop with mild bearish lean (SMA ratio <1, OI declining, elevated funding) justifies keeping only the minimal existing long exposure."
     }
   ],
-  "llm_bar_index": 860,
+  "llm_bar_index": 861,
   "llm_usage": {
     "calls": 216,
     "prompt_tokens": 77589,
@@ -5091,9 +5091,13 @@
     [
       "2026-09-02T20:00:00",
       9897.9
+    ],
+    [
+      "2026-09-02T20:15:00",
+      9899.87
     ]
   ],
-  "last_bar_ts": "2026-09-02T20:00:00",
-  "bars_processed": 892,
+  "last_bar_ts": "2026-09-02T20:15:00",
+  "bars_processed": 893,
   "starting_cash": 10000.0
 }
