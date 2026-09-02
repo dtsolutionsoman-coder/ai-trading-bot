@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T22:56:24",
+  "saved_at": "2026-09-02T23:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1312,7 +1312,7 @@
       "reason": "Extreme positive funding, mild downtrend (SMA ratio <1, RSI <50), and low volume make the small losing long costly to hold; cutting exposure."
     }
   ],
-  "llm_bar_index": 870,
+  "llm_bar_index": 871,
   "llm_usage": {
     "calls": 218,
     "prompt_tokens": 78307,
@@ -5152,9 +5152,13 @@
     [
       "2026-09-02T22:30:00",
       9890.8
+    ],
+    [
+      "2026-09-02T22:45:00",
+      9894.36
     ]
   ],
-  "last_bar_ts": "2026-09-02T22:30:00",
-  "bars_processed": 902,
+  "last_bar_ts": "2026-09-02T22:45:00",
+  "bars_processed": 903,
   "starting_cash": 10000.0
 }
