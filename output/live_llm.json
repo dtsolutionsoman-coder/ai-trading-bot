@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T14:49:08",
+  "saved_at": "2026-09-02T15:00:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1264,7 +1264,7 @@
       "reason": "Bearish structure (24h down, SMA ratio <1, falling OI) and crowded long funding support the small short despite a low-volume short-term bounce."
     }
   ],
-  "llm_bar_index": 838,
+  "llm_bar_index": 839,
   "llm_usage": {
     "calls": 210,
     "prompt_tokens": 75434,
@@ -4958,9 +4958,13 @@
     [
       "2026-09-02T14:30:00",
       9904.38
+    ],
+    [
+      "2026-09-02T14:45:00",
+      9910.73
     ]
   ],
-  "last_bar_ts": "2026-09-02T14:30:00",
-  "bars_processed": 870,
+  "last_bar_ts": "2026-09-02T14:45:00",
+  "bars_processed": 871,
   "starting_cash": 10000.0
 }
