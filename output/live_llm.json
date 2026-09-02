@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T01:27:11",
+  "saved_at": "2026-09-02T01:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1186,7 +1186,7 @@
       "reason": "Mild 24h downtrend, sub-1 SMA ratio and elevated positive funding support keeping the small short, but neutral RSI, flat perp premium and shrinking OI give no signal to add risk on a slightly underwat"
     }
   ],
-  "llm_bar_index": 784,
+  "llm_bar_index": 785,
   "llm_usage": {
     "calls": 197,
     "prompt_tokens": 70766,
@@ -4646,9 +4646,13 @@
     [
       "2026-09-02T01:00:00",
       9918.32
+    ],
+    [
+      "2026-09-02T01:15:00",
+      9919.79
     ]
   ],
-  "last_bar_ts": "2026-09-02T01:00:00",
-  "bars_processed": 816,
+  "last_bar_ts": "2026-09-02T01:15:00",
+  "bars_processed": 817,
   "starting_cash": 10000.0
 }
