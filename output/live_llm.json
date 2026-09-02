@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T16:23:49",
+  "saved_at": "2026-09-02T16:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1276,7 +1276,7 @@
       "reason": "Bearish SMA structure and positive funding still favor the small short despite a modest short-term bounce causing minor drawdown."
     }
   ],
-  "llm_bar_index": 844,
+  "llm_bar_index": 845,
   "llm_usage": {
     "calls": 212,
     "prompt_tokens": 76152,
@@ -4994,9 +4994,13 @@
     [
       "2026-09-02T16:00:00",
       9906.41
+    ],
+    [
+      "2026-09-02T16:15:00",
+      9900.39
     ]
   ],
-  "last_bar_ts": "2026-09-02T16:00:00",
-  "bars_processed": 876,
+  "last_bar_ts": "2026-09-02T16:15:00",
+  "bars_processed": 877,
   "starting_cash": 10000.0
 }
