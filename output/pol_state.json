@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-02T05:00:43",
+  "saved_at": "2026-09-02T05:11:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7065,6 +7065,10 @@
       [
         "2026-09-02T05:00:42.752543",
         10000.0
+      ],
+      [
+        "2026-09-02T05:11:38.492869",
+        10000.0
       ]
     ]
   },
@@ -7950,11 +7954,18 @@
       "market_price": 0.225,
       "question": "Will Bristol City FC win on 2026-09-01?",
       "ts": "2026-09-01T20:13:44"
+    },
+    "3746073": {
+      "probability": 0.02,
+      "reason": "Market prices Saudel's Japan landfall at just 1.5%, suggesting the storm has either dissipated, tracked away, or is overwhelmingly forecast to miss Japan; no strong evidence to override this.",
+      "market_price": 0.0145,
+      "question": "Will Tropical Storm Saudel make landfall in Japan?",
+      "ts": "2026-09-02T05:11:38"
     }
   },
   "llm_usage": {
-    "calls": 118,
-    "prompt_tokens": 19639,
-    "completion_tokens": 58607
+    "calls": 119,
+    "prompt_tokens": 19802,
+    "completion_tokens": 59013
   }
 }
