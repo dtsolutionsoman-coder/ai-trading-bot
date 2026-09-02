@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T06:28:53",
+  "saved_at": "2026-09-02T06:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1216,7 +1216,7 @@
       "reason": "Bearish 24h trend, SMA ratio below 1, and falling OI support keeping the small short despite its minor drawdown, while neutral RSI and low volatility argue against adding."
     }
   ],
-  "llm_bar_index": 804,
+  "llm_bar_index": 805,
   "llm_usage": {
     "calls": 202,
     "prompt_tokens": 72564,
@@ -4756,9 +4756,13 @@
     [
       "2026-09-02T06:00:00",
       9914.65
+    ],
+    [
+      "2026-09-02T06:15:00",
+      9914.46
     ]
   ],
-  "last_bar_ts": "2026-09-02T06:00:00",
-  "bars_processed": 836,
+  "last_bar_ts": "2026-09-02T06:15:00",
+  "bars_processed": 837,
   "starting_cash": 10000.0
 }
