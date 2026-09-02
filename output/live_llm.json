@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T23:42:10",
+  "saved_at": "2026-09-02T23:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1318,7 +1318,7 @@
       "reason": "Extreme 53.8% annualized funding and sub-1 SMA ratio justify keeping the small short despite slightly positive price drift and neutral RSI; low volatility means no urgency to add or exit."
     }
   ],
-  "llm_bar_index": 873,
+  "llm_bar_index": 874,
   "llm_usage": {
     "calls": 219,
     "prompt_tokens": 78666,
@@ -5170,9 +5170,13 @@
     [
       "2026-09-02T23:15:00",
       9887.52
+    ],
+    [
+      "2026-09-02T23:30:00",
+      9889.4
     ]
   ],
-  "last_bar_ts": "2026-09-02T23:15:00",
-  "bars_processed": 905,
+  "last_bar_ts": "2026-09-02T23:30:00",
+  "bars_processed": 906,
   "starting_cash": 10000.0
 }
