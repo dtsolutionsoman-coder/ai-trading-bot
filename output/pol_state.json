@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-02T19:47:07",
+  "saved_at": "2026-09-02T19:53:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7585,6 +7585,10 @@
       [
         "2026-09-02T19:47:07.379438",
         10000.0
+      ],
+      [
+        "2026-09-02T19:53:47.937342",
+        10000.0
       ]
     ]
   },
@@ -8519,11 +8523,18 @@
       "market_price": 0.415,
       "question": "Will Millwall FC win on 2026-09-02?",
       "ts": "2026-09-02T18:37:30"
+    },
+    "3951449": {
+      "probability": 0.02,
+      "reason": "OFI appears to be a heavy underdog in this fixture; with no strong contrarian information, staying near the very low market-implied probability while allowing slight upside for upset variance.",
+      "market_price": 0.0125,
+      "question": "Will OFI win on 2026-09-02?",
+      "ts": "2026-09-02T19:53:47"
     }
   },
   "llm_usage": {
-    "calls": 125,
-    "prompt_tokens": 20805,
-    "completion_tokens": 62656
+    "calls": 126,
+    "prompt_tokens": 20970,
+    "completion_tokens": 63158
   }
 }
