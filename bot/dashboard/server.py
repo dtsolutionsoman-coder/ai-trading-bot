@@ -21,15 +21,12 @@ _NAME_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.-]{0,120}\.json$")
 
 _DISPLAY_PREFIXES = [
     ("live_llm", "Live — GLM AI paper"),
-    ("live_carrycat", "Live — Funding Carry CASHCAT"),
     ("live_carry", "Live — Funding Carry paper"),
     ("race_sma", "Race — SMA control (15m)"),
     ("race_", "Race book"),
     ("live_state", "Live — Hyperliquid paper"),
     ("live_test", "Live (test run)"),
     ("pol_state", "Polymarket paper"),
-    ("sol_sniper_state", "Solana sniper paper"),
-    ("sol_copy_state", "Solana copy paper"),
 ]
 
 

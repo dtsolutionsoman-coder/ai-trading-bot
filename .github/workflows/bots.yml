@@ -40,7 +40,7 @@ jobs:
           # failure here must not stop mainnet collection or the mainnet books
           python -m bot.data.run --coins BTC,ETH,SOL --once \
             || echo "::warning::testnet collection failed (HL testnet blocked from this runner)"
-          python -m bot.data.run --coins BTC,CASHCAT --once --network mainnet --no-funding --db output/market_data_mainnet.db
+          python -m bot.data.run --coins BTC --once --network mainnet --no-funding --db output/market_data_mainnet.db
 
       - name: race - sma control
         continue-on-error: true # testnet book: survives short HL testnet blocks; ops_health alarms past 2h
@@ -57,9 +57,6 @@ jobs:
 
       - name: race - funding carry
         run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carry.json
-
-      - name: race - funding carry CASHCAT (hot funding)
-        run: python -m bot.live.run --strategy funding_carry --symbol CASHCAT --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carrycat.json
 
       - name: polymarket
         env:

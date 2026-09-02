@@ -21,7 +21,6 @@ BOOKS = [
     ("output/race_sma.json", "SMA control (15m)"),
     ("output/live_llm.json", "GLM AI (15m)"),
     ("output/live_carry.json", "Funding carry BTC (15m)"),
-    ("output/live_carrycat.json", "Funding carry CASHCAT (15m)"),
     ("output/pol_state.json", "Polymarket"),
 ]
 
