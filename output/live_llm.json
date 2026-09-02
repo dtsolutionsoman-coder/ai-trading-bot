@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T08:22:21",
+  "saved_at": "2026-09-02T08:30:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1228,7 +1228,7 @@
       "reason": "Downtrend intact (SMA12/48<1, RSI 42, OI -7.3%) with positive funding favoring shorts; modestly size up the small short while momentum is only flattening, not reversing."
     }
   ],
-  "llm_bar_index": 812,
+  "llm_bar_index": 813,
   "llm_usage": {
     "calls": 204,
     "prompt_tokens": 73281,
@@ -4809,9 +4809,13 @@
     [
       "2026-09-02T08:00:00",
       9917.2
+    ],
+    [
+      "2026-09-02T08:15:00",
+      9920.02
     ]
   ],
-  "last_bar_ts": "2026-09-02T08:00:00",
-  "bars_processed": 844,
+  "last_bar_ts": "2026-09-02T08:15:00",
+  "bars_processed": 845,
   "starting_cash": 10000.0
 }
