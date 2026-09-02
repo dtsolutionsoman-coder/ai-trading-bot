@@ -36,13 +36,18 @@ jobs:
 
       - name: collector
         run: |
-          python -m bot.data.run --coins BTC,ETH,SOL --once
+          # testnet is periodically CDN-blocked on shared runner IPs; a soft
+          # failure here must not stop mainnet collection or the mainnet books
+          python -m bot.data.run --coins BTC,ETH,SOL --once \
+            || echo "::warning::testnet collection failed (HL testnet blocked from this runner)"
           python -m bot.data.run --coins BTC,CASHCAT --once --network mainnet --no-funding --db output/market_data_mainnet.db
 
       - name: race - sma control
+        continue-on-error: true # testnet book: survives short HL testnet blocks; ops_health alarms past 2h
         run: python -m bot.live.run --strategy sma_cross --symbol BTC --interval 15m --once --state output/race_sma.json
 
       - name: race - glm ai
+        continue-on-error: true # testnet book: see above
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
@@ -94,3 +99,10 @@ jobs:
             echo "::error::could not push state after 3 attempts"
             exit 1
           fi
+
+      - name: health gate
+        if: always()
+        run: python -m bot.ops_health
+        # soft-failed testnet books stay silent only while fresher than 2h;
+        # a persistent outage fails the run here (one alarm per cycle after
+        # the grace window, state already committed above)
