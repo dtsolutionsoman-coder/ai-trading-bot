@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T02:59:43",
+  "saved_at": "2026-09-02T03:00:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1192,7 +1192,7 @@
       "reason": "Mild downtrend, SMA ratio below 1, and positive funding carry support keeping the small short, but flat 1h/6h momentum and falling OI argue against adding risk."
     }
   ],
-  "llm_bar_index": 790,
+  "llm_bar_index": 791,
   "llm_usage": {
     "calls": 198,
     "prompt_tokens": 71125,
@@ -4676,9 +4676,13 @@
     [
       "2026-09-02T02:30:00",
       9918.63
+    ],
+    [
+      "2026-09-02T02:45:00",
+      9917.09
     ]
   ],
-  "last_bar_ts": "2026-09-02T02:30:00",
-  "bars_processed": 822,
+  "last_bar_ts": "2026-09-02T02:45:00",
+  "bars_processed": 823,
   "starting_cash": 10000.0
 }
