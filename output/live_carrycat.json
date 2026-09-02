@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-02T04:45:20",
+  "saved_at": "2026-09-02T04:45:37",
   "symbol": "CASHCAT",
   "interval": "15m",
   "llm_bar_index": 798,
@@ -433,7 +433,7 @@
       "price": 0.270645255,
       "fee": 0.012594753955697476,
       "realized": 0.0,
-      "reason": "funding carry: -55% ann -> long [downsized to risk cap]"
+      "reason": "funding carry: -57% ann -> long [downsized to risk cap]"
     }
   ],
   "equity_curve": [
