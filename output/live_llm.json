@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T18:24:13",
+  "saved_at": "2026-09-03T18:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1432,7 +1432,7 @@
       "reason": "Covering the losing short as momentum, SMA ratio, and RSI all align bullish, but extreme 870% funding and 102bps perp premium froth cap any new long size."
     }
   ],
-  "llm_bar_index": 948,
+  "llm_bar_index": 949,
   "llm_usage": {
     "calls": 238,
     "prompt_tokens": 85506,
@@ -5629,9 +5629,13 @@
     [
       "2026-09-03T18:00:00",
       9727.96
+    ],
+    [
+      "2026-09-03T18:15:00",
+      9728.24
     ]
   ],
-  "last_bar_ts": "2026-09-03T18:00:00",
-  "bars_processed": 980,
+  "last_bar_ts": "2026-09-03T18:15:00",
+  "bars_processed": 981,
   "starting_cash": 10000.0
 }
