@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T16:55:26",
+  "saved_at": "2026-09-03T17:00:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1420,7 +1420,7 @@
       "reason": "Strong uptrend argues against adding to a losing short, but extreme 385% funding, 68bps premium, and RSI 80.6 signal dangerously crowded longs, so keep the small short for its favorable carry and mean"
     }
   ],
-  "llm_bar_index": 942,
+  "llm_bar_index": 943,
   "llm_usage": {
     "calls": 236,
     "prompt_tokens": 84785,
@@ -5584,9 +5584,13 @@
     [
       "2026-09-03T16:30:00",
       9784.92
+    ],
+    [
+      "2026-09-03T16:45:00",
+      9773.86
     ]
   ],
-  "last_bar_ts": "2026-09-03T16:30:00",
-  "bars_processed": 974,
+  "last_bar_ts": "2026-09-03T16:45:00",
+  "bars_processed": 975,
   "starting_cash": 10000.0
 }
