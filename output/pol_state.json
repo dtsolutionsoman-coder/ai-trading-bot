@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T23:33:05",
+  "saved_at": "2026-09-03T23:42:03",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T19:22:56.943066",
-        10000.0
-      ],
       [
         "2026-08-24T19:23:57.572621",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T23:33:05.417141",
         10000.0
+      ],
+      [
+        "2026-09-03T23:41:38.262211",
+        10000.0
       ]
     ]
   },
@@ -9064,11 +9064,18 @@
       "market_price": 0.105,
       "question": "Israel closes its airspace by September 30?",
       "ts": "2026-09-03T22:57:41"
+    },
+    "3865999": {
+      "probability": 0.37,
+      "reason": "ETH's high volatility over a ~13-month horizon makes a touch of $2,000 plausible, but it depends heavily on current price levels; I stay near the market with a slight upward adjustment for crypto draw",
+      "market_price": 0.325,
+      "question": "Will Ethereum dip to $2,000 by December 31, 2026?",
+      "ts": "2026-09-03T23:41:38"
     }
   },
   "llm_usage": {
-    "calls": 136,
-    "prompt_tokens": 22639,
-    "completion_tokens": 69411
+    "calls": 137,
+    "prompt_tokens": 22808,
+    "completion_tokens": 71269
   }
 }
