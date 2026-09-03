@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T05:49:32",
+  "saved_at": "2026-09-03T06:00:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7901,6 +7901,10 @@
       [
         "2026-09-03T05:49:31.997310",
         10000.0
+      ],
+      [
+        "2026-09-03T06:00:41.431456",
+        10000.0
       ]
     ]
   },
@@ -8849,11 +8853,18 @@
       "market_price": 0.425,
       "question": "Will CF Am\u00e9rica win on 2026-09-02?",
       "ts": "2026-09-03T03:30:32"
+    },
+    "3962583": {
+      "probability": 0.02,
+      "reason": "Any official GTA VI content massively exceeds 20M weekly views (Trailer 2 hit ~65M in 24h); tiny residual risk from definitional or non-release ambiguity.",
+      "market_price": 0.013,
+      "question": "Will Grand Theft Auto VI Extended Look get less than 20 million views on week 1?",
+      "ts": "2026-09-03T06:00:41"
     }
   },
   "llm_usage": {
-    "calls": 127,
-    "prompt_tokens": 21135,
-    "completion_tokens": 63577
+    "calls": 128,
+    "prompt_tokens": 21306,
+    "completion_tokens": 64426
   }
 }

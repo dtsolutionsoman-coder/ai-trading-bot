@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T05:49:31",
+  "saved_at": "2026-09-03T06:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1354,7 +1354,7 @@
       "reason": "RSI 85.5 with 1011% annualized funding and 88bps perp premium signals extremely crowded longs, so I'm modestly adding to the short while collecting favorable funding."
     }
   ],
-  "llm_bar_index": 898,
+  "llm_bar_index": 899,
   "llm_usage": {
     "calls": 225,
     "prompt_tokens": 80820,
@@ -5324,9 +5324,13 @@
     [
       "2026-09-03T05:30:00",
       9917.95
+    ],
+    [
+      "2026-09-03T05:45:00",
+      9887.87
     ]
   ],
-  "last_bar_ts": "2026-09-03T05:30:00",
-  "bars_processed": 930,
+  "last_bar_ts": "2026-09-03T05:45:00",
+  "bars_processed": 931,
   "starting_cash": 10000.0
 }
