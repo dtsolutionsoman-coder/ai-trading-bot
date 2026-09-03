@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T11:41:53",
+  "saved_at": "2026-09-03T11:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1390,7 +1390,7 @@
       "reason": "Momentum is bullish (RSI 62, SMA ratio >1, +3.2% 24h) but extreme funding (1057% ann.) and 91bps perp premium signal dangerously crowded longs, so keep the small short to collect carry rather than add"
     }
   ],
-  "llm_bar_index": 921,
+  "llm_bar_index": 922,
   "llm_usage": {
     "calls": 231,
     "prompt_tokens": 82978,
@@ -5470,9 +5470,13 @@
     [
       "2026-09-03T11:15:00",
       9833.43
+    ],
+    [
+      "2026-09-03T11:30:00",
+      9840.84
     ]
   ],
-  "last_bar_ts": "2026-09-03T11:15:00",
-  "bars_processed": 953,
+  "last_bar_ts": "2026-09-03T11:30:00",
+  "bars_processed": 954,
   "starting_cash": 10000.0
 }
