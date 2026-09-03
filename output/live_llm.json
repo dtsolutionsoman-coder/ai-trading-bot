@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T23:41:37",
+  "saved_at": "2026-09-03T23:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1462,7 +1462,7 @@
       "reason": "Bullish 24h trend and SMA ratio conflict with extreme 950% funding and elevated perp premium, so keeping the tiny short near flat."
     }
   ],
-  "llm_bar_index": 969,
+  "llm_bar_index": 970,
   "llm_usage": {
     "calls": 243,
     "prompt_tokens": 87314,
@@ -5752,9 +5752,13 @@
     [
       "2026-09-03T23:15:00",
       9721.5
+    ],
+    [
+      "2026-09-03T23:30:00",
+      9726.07
     ]
   ],
-  "last_bar_ts": "2026-09-03T23:15:00",
-  "bars_processed": 1001,
+  "last_bar_ts": "2026-09-03T23:30:00",
+  "bars_processed": 1002,
   "starting_cash": 10000.0
 }
