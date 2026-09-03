@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T07:26:55",
+  "saved_at": "2026-09-03T07:30:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1366,7 +1366,7 @@
       "reason": "Mildly bullish price momentum is offset by extremely elevated funding and perp premium favoring the existing small, slightly profitable short; keep exposure small amid mixed, low-volatility conditions"
     }
   ],
-  "llm_bar_index": 904,
+  "llm_bar_index": 905,
   "llm_usage": {
     "calls": 227,
     "prompt_tokens": 81538,
@@ -5360,9 +5360,13 @@
     [
       "2026-09-03T07:00:00",
       9885.41
+    ],
+    [
+      "2026-09-03T07:15:00",
+      9874.75
     ]
   ],
-  "last_bar_ts": "2026-09-03T07:00:00",
-  "bars_processed": 936,
+  "last_bar_ts": "2026-09-03T07:15:00",
+  "bars_processed": 937,
   "starting_cash": 10000.0
 }
