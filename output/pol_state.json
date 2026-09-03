@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T15:45:28",
+  "saved_at": "2026-09-03T15:52:21",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T18:02:25.085016",
-        10000.0
-      ],
       [
         "2026-08-24T18:03:25.735844",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T15:45:27.689022",
         10000.0
+      ],
+      [
+        "2026-09-03T15:52:13.945096",
+        10000.0
       ]
     ]
   },
@@ -9036,11 +9036,18 @@
       "market_price": 0.0275,
       "question": "Will the price of Bitcoin be above $82,000 on September 3?",
       "ts": "2026-09-03T15:21:57"
+    },
+    "3755910": {
+      "probability": 0.5,
+      "reason": "No information available about this future fixture's opponent or context, so staying calibrated near the market price of a near coin-flip.",
+      "market_price": 0.505,
+      "question": "Will Lille OSC win on 2026-09-03?",
+      "ts": "2026-09-03T15:52:13"
     }
   },
   "llm_usage": {
-    "calls": 132,
-    "prompt_tokens": 21976,
-    "completion_tokens": 67330
+    "calls": 133,
+    "prompt_tokens": 22142,
+    "completion_tokens": 67614
   }
 }
