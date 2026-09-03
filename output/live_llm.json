@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T19:25:12",
+  "saved_at": "2026-09-03T19:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1438,7 +1438,7 @@
       "reason": "Extreme annualized funding (~941%) and 97bps perp premium signal dangerously overcrowded longs despite bullish momentum, so trimming the small flat-PnL long to avoid costly carry."
     }
   ],
-  "llm_bar_index": 952,
+  "llm_bar_index": 953,
   "llm_usage": {
     "calls": 239,
     "prompt_tokens": 85867,
@@ -5660,9 +5660,13 @@
     [
       "2026-09-03T19:00:00",
       9721.67
+    ],
+    [
+      "2026-09-03T19:15:00",
+      9706.49
     ]
   ],
-  "last_bar_ts": "2026-09-03T19:00:00",
-  "bars_processed": 984,
+  "last_bar_ts": "2026-09-03T19:15:00",
+  "bars_processed": 985,
   "starting_cash": 10000.0
 }
