@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T14:22:41",
+  "saved_at": "2026-09-03T14:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1408,7 +1408,7 @@
       "reason": "Extreme funding (846% ann.) and RSI ~70 signal overheated longs, supporting the existing small short via funding carry, though the uptrend argues against adding risk."
     }
   ],
-  "llm_bar_index": 932,
+  "llm_bar_index": 933,
   "llm_usage": {
     "calls": 234,
     "prompt_tokens": 84061,
@@ -5532,9 +5532,13 @@
     [
       "2026-09-03T14:00:00",
       9811.55
+    ],
+    [
+      "2026-09-03T14:15:00",
+      9815.49
     ]
   ],
-  "last_bar_ts": "2026-09-03T14:00:00",
-  "bars_processed": 964,
+  "last_bar_ts": "2026-09-03T14:15:00",
+  "bars_processed": 965,
   "starting_cash": 10000.0
 }
