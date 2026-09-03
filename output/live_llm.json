@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T06:22:15",
+  "saved_at": "2026-09-03T06:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1360,7 +1360,7 @@
       "reason": "Small profitable short is being paid by extreme 338% annualized funding and rich perp premium while longs stay crowded, but mildly positive price momentum argues against adding; hold the short."
     }
   ],
-  "llm_bar_index": 900,
+  "llm_bar_index": 901,
   "llm_usage": {
     "calls": 226,
     "prompt_tokens": 81180,
@@ -5338,9 +5338,13 @@
     [
       "2026-09-03T06:00:00",
       9886.03
+    ],
+    [
+      "2026-09-03T06:15:00",
+      9878.84
     ]
   ],
-  "last_bar_ts": "2026-09-03T06:00:00",
-  "bars_processed": 932,
+  "last_bar_ts": "2026-09-03T06:15:00",
+  "bars_processed": 933,
   "starting_cash": 10000.0
 }
