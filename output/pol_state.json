@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T15:16:17",
+  "saved_at": "2026-09-03T15:22:16",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T17:57:23.761145",
-        10000.0
-      ],
       [
         "2026-08-24T17:58:24.409911",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T15:16:03.623679",
         10000.0
+      ],
+      [
+        "2026-09-03T15:21:57.651202",
+        10000.0
       ]
     ]
   },
@@ -9029,11 +9029,18 @@
       "market_price": 0.415,
       "question": "Will Carlos Alcaraz win the 2026 Men's US Open?",
       "ts": "2026-09-03T15:16:03"
+    },
+    "3932608": {
+      "probability": 0.04,
+      "reason": "The market's very low price implies Bitcoin is currently trading well below $82,000; I stay near the market with a slight bump for crypto's upside tail volatility.",
+      "market_price": 0.0275,
+      "question": "Will the price of Bitcoin be above $82,000 on September 3?",
+      "ts": "2026-09-03T15:21:57"
     }
   },
   "llm_usage": {
-    "calls": 131,
-    "prompt_tokens": 21808,
-    "completion_tokens": 66230
+    "calls": 132,
+    "prompt_tokens": 21976,
+    "completion_tokens": 67330
   }
 }
