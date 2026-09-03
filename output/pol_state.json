@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T22:51:18",
+  "saved_at": "2026-09-03T22:57:58",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T19:14:55.016332",
-        10000.0
-      ],
       [
         "2026-08-24T19:15:55.170185",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T22:51:18.611600",
         10000.0
+      ],
+      [
+        "2026-09-03T22:57:41.169706",
+        10000.0
       ]
     ]
   },
@@ -9057,11 +9057,18 @@
       "market_price": 0.645,
       "question": "Will VfB Stuttgart win on 2026-09-04?",
       "ts": "2026-09-03T22:29:58"
+    },
+    "3701690": {
+      "probability": 0.12,
+      "reason": "Post-June-2025 Iran ceasefire reduces near-term risk of full airspace closure, but residual escalation tail risk over the long window justifies pricing slightly above market.",
+      "market_price": 0.105,
+      "question": "Israel closes its airspace by September 30?",
+      "ts": "2026-09-03T22:57:41"
     }
   },
   "llm_usage": {
-    "calls": 135,
-    "prompt_tokens": 22479,
-    "completion_tokens": 68390
+    "calls": 136,
+    "prompt_tokens": 22639,
+    "completion_tokens": 69411
   }
 }
