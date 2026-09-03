@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T12:53:55",
+  "saved_at": "2026-09-03T13:00:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1396,7 +1396,7 @@
       "reason": "Uptrend argues against the small short, but extreme 1371% funding and 129bps perp premium signal crowded longs with stalled 1h momentum, so holding the modest short to collect carry while awaiting rev"
     }
   ],
-  "llm_bar_index": 926,
+  "llm_bar_index": 927,
   "llm_usage": {
     "calls": 232,
     "prompt_tokens": 83339,
@@ -5496,9 +5496,13 @@
     [
       "2026-09-03T12:30:00",
       9829.96
+    ],
+    [
+      "2026-09-03T12:45:00",
+      9833.84
     ]
   ],
-  "last_bar_ts": "2026-09-03T12:30:00",
-  "bars_processed": 958,
+  "last_bar_ts": "2026-09-03T12:45:00",
+  "bars_processed": 959,
   "starting_cash": 10000.0
 }
