@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T02:15:52",
+  "saved_at": "2026-09-03T02:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1336,7 +1336,7 @@
       "reason": "Elevated funding (50% ann.) supports the small short and near-term momentum is flat, but mildly bullish RSI and 24h uptick argue against adding risk."
     }
   ],
-  "llm_bar_index": 884,
+  "llm_bar_index": 885,
   "llm_usage": {
     "calls": 222,
     "prompt_tokens": 79743,
@@ -5232,9 +5232,13 @@
     [
       "2026-09-03T02:00:00",
       9885.74
+    ],
+    [
+      "2026-09-03T02:15:00",
+      9881.18
     ]
   ],
-  "last_bar_ts": "2026-09-03T02:00:00",
-  "bars_processed": 916,
+  "last_bar_ts": "2026-09-03T02:15:00",
+  "bars_processed": 917,
   "starting_cash": 10000.0
 }
