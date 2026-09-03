@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T03:16:05",
+  "saved_at": "2026-09-03T03:30:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7853,6 +7853,10 @@
       [
         "2026-09-03T03:16:05.566663",
         10000.0
+      ],
+      [
+        "2026-09-03T03:30:32.635138",
+        10000.0
       ]
     ]
   },
@@ -8794,11 +8798,18 @@
       "market_price": 0.0125,
       "question": "Will OFI win on 2026-09-02?",
       "ts": "2026-09-02T19:53:47"
+    },
+    "3953788": {
+      "probability": 0.43,
+      "reason": "No reliable information on the opponent or venue for this future Liga MX fixture; Am\u00e9rica is typically favored but draws are common, so staying near the market price.",
+      "market_price": 0.425,
+      "question": "Will CF Am\u00e9rica win on 2026-09-02?",
+      "ts": "2026-09-03T03:30:32"
     }
   },
   "llm_usage": {
-    "calls": 126,
-    "prompt_tokens": 20970,
-    "completion_tokens": 63158
+    "calls": 127,
+    "prompt_tokens": 21135,
+    "completion_tokens": 63577
   }
 }

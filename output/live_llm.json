@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T03:16:04",
+  "saved_at": "2026-09-03T03:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1342,7 +1342,7 @@
       "reason": "Short is bleeding as 1h/6h/24h momentum and RSI all point higher; cutting the loser while elevated funding keeps conviction low."
     }
   ],
-  "llm_bar_index": 888,
+  "llm_bar_index": 889,
   "llm_usage": {
     "calls": 223,
     "prompt_tokens": 80102,
@@ -5263,9 +5263,13 @@
     [
       "2026-09-03T03:00:00",
       9859.88
+    ],
+    [
+      "2026-09-03T03:15:00",
+      9864.38
     ]
   ],
-  "last_bar_ts": "2026-09-03T03:00:00",
-  "bars_processed": 920,
+  "last_bar_ts": "2026-09-03T03:15:00",
+  "bars_processed": 921,
   "starting_cash": 10000.0
 }
