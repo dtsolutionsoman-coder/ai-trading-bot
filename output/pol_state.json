@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T06:30:37",
+  "saved_at": "2026-09-03T06:38:20",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -7921,6 +7921,10 @@
       [
         "2026-09-03T06:30:37.035740",
         10000.0
+      ],
+      [
+        "2026-09-03T06:38:02.914200",
+        10000.0
       ]
     ]
   },
@@ -8876,11 +8880,18 @@
       "market_price": 0.013,
       "question": "Will Grand Theft Auto VI Extended Look get less than 20 million views on week 1?",
       "ts": "2026-09-03T06:00:41"
+    },
+    "2772169": {
+      "probability": 0.1,
+      "reason": "Man City remains an elite contender but faces strong competition and long-horizon uncertainty about squad/manager, so the ~9.5% market price appears roughly fair with slight upside.",
+      "market_price": 0.095,
+      "question": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
+      "ts": "2026-09-03T06:38:02"
     }
   },
   "llm_usage": {
-    "calls": 128,
-    "prompt_tokens": 21306,
-    "completion_tokens": 64426
+    "calls": 129,
+    "prompt_tokens": 21473,
+    "completion_tokens": 64853
   }
 }
