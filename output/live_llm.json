@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T08:21:35",
+  "saved_at": "2026-09-03T08:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1372,7 +1372,7 @@
       "reason": "Small profitable short aligned with 1h pullback, but 24h uptrend and mildly bullish SMA ratio warrant keeping exposure minimal."
     }
   ],
-  "llm_bar_index": 908,
+  "llm_bar_index": 909,
   "llm_usage": {
     "calls": 228,
     "prompt_tokens": 81897,
@@ -5382,9 +5382,13 @@
     [
       "2026-09-03T08:00:00",
       9899.62
+    ],
+    [
+      "2026-09-03T08:15:00",
+      9890.49
     ]
   ],
-  "last_bar_ts": "2026-09-03T08:00:00",
-  "bars_processed": 940,
+  "last_bar_ts": "2026-09-03T08:15:00",
+  "bars_processed": 941,
   "starting_cash": 10000.0
 }
