@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T00:31:06",
+  "saved_at": "2026-09-03T00:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1324,7 +1324,7 @@
       "reason": "Weakly bearish signals (SMA ratio <1, RSI 43, elevated long funding) marginally support the existing small short, but they are too muted to justify adding and the tiny loss doesn't warrant cutting yet"
     }
   ],
-  "llm_bar_index": 877,
+  "llm_bar_index": 878,
   "llm_usage": {
     "calls": 220,
     "prompt_tokens": 79025,
@@ -5192,9 +5192,13 @@
     [
       "2026-09-03T00:15:00",
       9891.88
+    ],
+    [
+      "2026-09-03T00:30:00",
+      9895.25
     ]
   ],
-  "last_bar_ts": "2026-09-03T00:15:00",
-  "bars_processed": 909,
+  "last_bar_ts": "2026-09-03T00:30:00",
+  "bars_processed": 910,
   "starting_cash": 10000.0
 }
