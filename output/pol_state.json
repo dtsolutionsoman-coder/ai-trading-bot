@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T16:15:59",
+  "saved_at": "2026-09-03T16:25:26",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T18:07:26.438853",
-        10000.0
-      ],
       [
         "2026-08-24T18:08:27.106455",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T16:15:59.646779",
         10000.0
+      ],
+      [
+        "2026-09-03T16:25:17.996392",
+        10000.0
       ]
     ]
   },
@@ -9043,11 +9043,18 @@
       "market_price": 0.505,
       "question": "Will Lille OSC win on 2026-09-03?",
       "ts": "2026-09-03T15:52:13"
+    },
+    "4054698": {
+      "probability": 0.93,
+      "reason": "Market price implies near-certainty based on apparent roadmap information; I stay close to it with a slight haircut for release-delay risk.",
+      "market_price": 0.948,
+      "question": "Will OpenAI\u2019s Astra model be released by September 3, 2026?",
+      "ts": "2026-09-03T16:25:17"
     }
   },
   "llm_usage": {
-    "calls": 133,
-    "prompt_tokens": 22142,
-    "completion_tokens": 67614
+    "calls": 134,
+    "prompt_tokens": 22312,
+    "completion_tokens": 68014
   }
 }
