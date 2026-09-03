@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T19:05:32",
+  "saved_at": "2026-09-03T19:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1430,20 +1430,26 @@
       "action": "buy",
       "conviction": 0.2,
       "reason": "Covering the losing short as momentum, SMA ratio, and RSI all align bullish, but extreme 870% funding and 102bps perp premium froth cap any new long size."
+    },
+    {
+      "ts": "2026-09-03T19:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme annualized funding (~941%) and 97bps perp premium signal dangerously overcrowded longs despite bullish momentum, so trimming the small flat-PnL long to avoid costly carry."
     }
   ],
-  "llm_bar_index": 951,
+  "llm_bar_index": 952,
   "llm_usage": {
-    "calls": 238,
-    "prompt_tokens": 85506,
-    "completion_tokens": 231657
+    "calls": 239,
+    "prompt_tokens": 85867,
+    "completion_tokens": 232992
   },
-  "cash": 7781.008907540088,
+  "cash": 12153.730819290739,
   "positions": {
     "BTC": {
-      "qty": 0.023458331035118872,
-      "avg_price": 83037.49799999999,
-      "realized_pnl": -179.042265666975
+      "qty": -0.02929909782823112,
+      "avg_price": 82966.496,
+      "realized_pnl": -180.70785408713036
     }
   },
   "recent_fills": [
@@ -1707,6 +1713,15 @@
       "fee": 4.521861815547952,
       "realized": -112.2173542420606,
       "reason": "LLM buy conv=0.20: Covering the losing short as momentum, SMA ratio, and RSI all align bullish, but extreme 870% funding and 102bps perp premium froth cap any new long size."
+    },
+    {
+      "ts": "2026-09-03T19:00:00",
+      "side": "sell",
+      "qty": 0.05275742886334999,
+      "price": 82966.496,
+      "fee": 4.377099010761412,
+      "realized": -1.665588420155359,
+      "reason": "LLM sell conv=0.30: Extreme annualized funding (~941%) and 97bps perp premium signal dangerously overcrowded longs despite bullish momentum, so trimming the small flat-PnL long to avoid costly carry. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -5641,9 +5656,13 @@
     [
       "2026-09-03T18:45:00",
       9732.51
+    ],
+    [
+      "2026-09-03T19:00:00",
+      9721.67
     ]
   ],
-  "last_bar_ts": "2026-09-03T18:45:00",
-  "bars_processed": 983,
+  "last_bar_ts": "2026-09-03T19:00:00",
+  "bars_processed": 984,
   "starting_cash": 10000.0
 }
