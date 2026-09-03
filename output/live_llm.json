@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T15:58:46",
+  "saved_at": "2026-09-03T16:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1414,7 +1414,7 @@
       "reason": "Keeping the small short: RSI 81 and 337% annualized funding signal an overleveraged long squeeze with favorable carry, though strong upward momentum argues against adding."
     }
   ],
-  "llm_bar_index": 938,
+  "llm_bar_index": 939,
   "llm_usage": {
     "calls": 235,
     "prompt_tokens": 84423,
@@ -5562,9 +5562,13 @@
     [
       "2026-09-03T15:30:00",
       9769.61
+    ],
+    [
+      "2026-09-03T15:45:00",
+      9763.94
     ]
   ],
-  "last_bar_ts": "2026-09-03T15:30:00",
-  "bars_processed": 970,
+  "last_bar_ts": "2026-09-03T15:45:00",
+  "bars_processed": 971,
   "starting_cash": 10000.0
 }
