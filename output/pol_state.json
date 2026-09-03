@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-03T22:21:15",
+  "saved_at": "2026-09-03T22:30:05",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T19:08:53.555877",
-        10000.0
-      ],
       [
         "2026-08-24T19:09:53.678937",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-03T22:21:15.026205",
         10000.0
+      ],
+      [
+        "2026-09-03T22:29:58.975116",
+        10000.0
       ]
     ]
   },
@@ -9050,11 +9050,18 @@
       "market_price": 0.948,
       "question": "Will OpenAI\u2019s Astra model be released by September 3, 2026?",
       "ts": "2026-09-03T16:25:17"
+    },
+    "3772656": {
+      "probability": 0.63,
+      "reason": "No specific information about the opponent or match context is available for this future fixture, so staying close to the market-implied probability with a slight adjustment.",
+      "market_price": 0.645,
+      "question": "Will VfB Stuttgart win on 2026-09-04?",
+      "ts": "2026-09-03T22:29:58"
     }
   },
   "llm_usage": {
-    "calls": 134,
-    "prompt_tokens": 22312,
-    "completion_tokens": 68014
+    "calls": 135,
+    "prompt_tokens": 22479,
+    "completion_tokens": 68390
   }
 }
