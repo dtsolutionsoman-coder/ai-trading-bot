@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T04:15:48",
+  "saved_at": "2026-09-03T04:30:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1348,7 +1348,7 @@
       "reason": "RSI near 90 with ~694% annualized funding and an 89bps perp premium signals an overheated, crowded long on thin volume, so take the +1% profit rather than pay the carry."
     }
   ],
-  "llm_bar_index": 892,
+  "llm_bar_index": 893,
   "llm_usage": {
     "calls": 224,
     "prompt_tokens": 80463,
@@ -5294,9 +5294,13 @@
     [
       "2026-09-03T04:00:00",
       9877.99
+    ],
+    [
+      "2026-09-03T04:15:00",
+      9875.97
     ]
   ],
-  "last_bar_ts": "2026-09-03T04:00:00",
-  "bars_processed": 924,
+  "last_bar_ts": "2026-09-03T04:15:00",
+  "bars_processed": 925,
   "starting_cash": 10000.0
 }
