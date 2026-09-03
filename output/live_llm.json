@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-03T09:44:24",
+  "saved_at": "2026-09-03T09:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1378,7 +1378,7 @@
       "reason": "Uptrend across 1h/6h/24h with SMA ratio above 1 argues to cut the losing short, though extreme 124% funding and perp premium cap enthusiasm for a large long."
     }
   ],
-  "llm_bar_index": 913,
+  "llm_bar_index": 914,
   "llm_usage": {
     "calls": 229,
     "prompt_tokens": 82257,
@@ -5417,9 +5417,13 @@
     [
       "2026-09-03T09:15:00",
       9859.84
+    ],
+    [
+      "2026-09-03T09:30:00",
+      9852.41
     ]
   ],
-  "last_bar_ts": "2026-09-03T09:15:00",
-  "bars_processed": 945,
+  "last_bar_ts": "2026-09-03T09:30:00",
+  "bars_processed": 946,
   "starting_cash": 10000.0
 }
