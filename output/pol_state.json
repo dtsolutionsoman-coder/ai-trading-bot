@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T06:45:25",
+  "saved_at": "2026-09-04T06:53:16",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-25T10:45:28.364328",
-        9990.537313
-      ],
       [
         "2026-08-25T11:00:40.881679",
         9989.044776
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T06:45:25.733130",
         10000.0
+      ],
+      [
+        "2026-09-04T06:52:58.010177",
+        10000.0
       ]
     ]
   },
@@ -9092,11 +9092,18 @@
       "market_price": 0.815,
       "question": "Will Anthropic have the best AI model at the end of September 2026?",
       "ts": "2026-09-04T05:30:32"
+    },
+    "4052420": {
+      "probability": 0.81,
+      "reason": "With no reliable information about Bitcoin's September 2026 price beyond my knowledge cutoff, I defer to the market's 81.5% implied probability, which likely reflects that $82,500 is below recent trad",
+      "market_price": 0.815,
+      "question": "Will Bitcoin reach $82,500 in September?",
+      "ts": "2026-09-04T06:52:58"
     }
   },
   "llm_usage": {
-    "calls": 140,
-    "prompt_tokens": 23312,
-    "completion_tokens": 72718
+    "calls": 141,
+    "prompt_tokens": 23474,
+    "completion_tokens": 73453
   }
 }
