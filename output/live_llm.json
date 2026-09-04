@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T19:24:02",
+  "saved_at": "2026-09-04T19:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1582,7 +1582,7 @@
       "reason": "Bearish momentum across 1h/6h/24h with extreme positive funding that pays shorts, so adding modestly to the small profitable short position."
     }
   ],
-  "llm_bar_index": 1048,
+  "llm_bar_index": 1049,
   "llm_usage": {
     "calls": 263,
     "prompt_tokens": 94526,
@@ -6215,9 +6215,13 @@
     [
       "2026-09-04T19:00:00",
       9797.61
+    ],
+    [
+      "2026-09-04T19:15:00",
+      9799.13
     ]
   ],
-  "last_bar_ts": "2026-09-04T19:00:00",
-  "bars_processed": 1080,
+  "last_bar_ts": "2026-09-04T19:15:00",
+  "bars_processed": 1081,
   "starting_cash": 10000.0
 }
