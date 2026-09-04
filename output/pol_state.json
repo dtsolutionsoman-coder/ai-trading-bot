@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T00:00:42",
+  "saved_at": "2026-09-04T00:04:17",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-24T19:27:58.216189",
-        10000.0
-      ],
       [
         "2026-08-24T19:28:58.830087",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T00:00:42.043339",
         10000.0
+      ],
+      [
+        "2026-09-04T00:04:11.598605",
+        10000.0
       ]
     ]
   },
@@ -9071,11 +9071,18 @@
       "market_price": 0.325,
       "question": "Will Ethereum dip to $2,000 by December 31, 2026?",
       "ts": "2026-09-03T23:41:38"
+    },
+    "3775011": {
+      "probability": 0.7,
+      "reason": "No fixture details known for this future match; staying close to market price which is consistent with Real Madrid's typical strong-favorite win rate.",
+      "market_price": 0.705,
+      "question": "Will Real Madrid CF win on 2026-09-04?",
+      "ts": "2026-09-04T00:04:11"
     }
   },
   "llm_usage": {
-    "calls": 137,
-    "prompt_tokens": 22808,
-    "completion_tokens": 71269
+    "calls": 138,
+    "prompt_tokens": 22974,
+    "completion_tokens": 71545
   }
 }
