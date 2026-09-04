@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T06:40:24",
+  "saved_at": "2026-09-04T06:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1504,7 +1504,7 @@
       "reason": "Profitable short retains edge from negative 1h/6h momentum and extreme 293% funding crowding longs, but the 1.04 SMA uptrend and low liquidity argue against adding risk."
     }
   ],
-  "llm_bar_index": 997,
+  "llm_bar_index": 998,
   "llm_usage": {
     "calls": 250,
     "prompt_tokens": 89841,
@@ -5924,9 +5924,13 @@
     [
       "2026-09-04T06:15:00",
       9731.06
+    ],
+    [
+      "2026-09-04T06:30:00",
+      9730.65
     ]
   ],
-  "last_bar_ts": "2026-09-04T06:15:00",
-  "bars_processed": 1029,
+  "last_bar_ts": "2026-09-04T06:30:00",
+  "bars_processed": 1030,
   "starting_cash": 10000.0
 }
