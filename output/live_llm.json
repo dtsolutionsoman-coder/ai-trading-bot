@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T22:57:14",
+  "saved_at": "2026-09-04T23:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1600,7 +1600,7 @@
       "reason": "24h downtrend, extreme positive funding and perp premium favor adding to the profitable short while collecting carry"
     }
   ],
-  "llm_bar_index": 1062,
+  "llm_bar_index": 1063,
   "llm_usage": {
     "calls": 266,
     "prompt_tokens": 95609,
@@ -6289,9 +6289,13 @@
     [
       "2026-09-04T22:30:00",
       9786.89
+    ],
+    [
+      "2026-09-04T22:45:00",
+      9790.39
     ]
   ],
-  "last_bar_ts": "2026-09-04T22:30:00",
-  "bars_processed": 1094,
+  "last_bar_ts": "2026-09-04T22:45:00",
+  "bars_processed": 1095,
   "starting_cash": 10000.0
 }
