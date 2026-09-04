@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T20:23:02",
+  "saved_at": "2026-09-04T20:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1588,7 +1588,7 @@
       "reason": "24h downtrend supports the profitable short, but stabilizing 1h/6h momentum and neutral RSI argue against adding; defending gains."
     }
   ],
-  "llm_bar_index": 1052,
+  "llm_bar_index": 1053,
   "llm_usage": {
     "calls": 264,
     "prompt_tokens": 94887,
@@ -6237,9 +6237,13 @@
     [
       "2026-09-04T20:00:00",
       9797.88
+    ],
+    [
+      "2026-09-04T20:15:00",
+      9795.84
     ]
   ],
-  "last_bar_ts": "2026-09-04T20:00:00",
-  "bars_processed": 1084,
+  "last_bar_ts": "2026-09-04T20:15:00",
+  "bars_processed": 1085,
   "starting_cash": 10000.0
 }
