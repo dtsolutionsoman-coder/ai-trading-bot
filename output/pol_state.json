@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T17:00:37",
+  "saved_at": "2026-09-04T17:03:18",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-26T07:30:34.297558",
-        10000.0
-      ],
       [
         "2026-08-26T07:45:30.021059",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T17:00:37.201223",
         10000.0
+      ],
+      [
+        "2026-09-04T17:02:53.493691",
+        10000.0
       ]
     ]
   },
@@ -9120,11 +9120,18 @@
       "market_price": 0.645,
       "question": "Will Liverpool FC win on 2026-09-04?",
       "ts": "2026-09-04T16:20:35"
+    },
+    "616902": {
+      "probability": 0.91,
+      "reason": "Market is highly confident the Fed holds throughout 2026 given sticky inflation and hawkish guidance, though a full year leaves some tail risk of recession- or disinflation-driven cuts, so I shade sli",
+      "market_price": 0.9285,
+      "question": "Will no Fed rate cuts happen in 2026?",
+      "ts": "2026-09-04T17:02:53"
     }
   },
   "llm_usage": {
-    "calls": 145,
-    "prompt_tokens": 24132,
-    "completion_tokens": 76819
+    "calls": 146,
+    "prompt_tokens": 24295,
+    "completion_tokens": 78089
   }
 }
