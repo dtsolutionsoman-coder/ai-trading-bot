@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T18:02:53",
+  "saved_at": "2026-09-04T18:15:48",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-26T10:00:40.893734",
-        10000.0
-      ],
       [
         "2026-08-26T10:05:30.932697",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T18:02:52.804298",
         10000.0
+      ],
+      [
+        "2026-09-04T18:15:42.007481",
+        10000.0
       ]
     ]
   },
@@ -9134,11 +9134,18 @@
       "market_price": 0.695,
       "question": "Will Olympique Lyonnais win on 2026-09-04?",
       "ts": "2026-09-04T17:25:27"
+    },
+    "3770180": {
+      "probability": 0.56,
+      "reason": "No reliable information about the opponent or match context this far ahead; staying close to market-implied probability.",
+      "market_price": 0.575,
+      "question": "Will Como 1907 win on 2026-09-04?",
+      "ts": "2026-09-04T18:15:42"
     }
   },
   "llm_usage": {
-    "calls": 147,
-    "prompt_tokens": 24463,
-    "completion_tokens": 78792
+    "calls": 148,
+    "prompt_tokens": 24630,
+    "completion_tokens": 79026
   }
 }
