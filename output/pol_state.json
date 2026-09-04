@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T10:16:22",
+  "saved_at": "2026-09-04T10:24:30",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-25T17:45:29.408697",
-        9971.880597
-      ],
       [
         "2026-08-25T17:49:59.795408",
         9969.641791
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T10:16:21.734437",
         10000.0
+      ],
+      [
+        "2026-09-04T10:24:13.584905",
+        10000.0
       ]
     ]
   },
@@ -9106,11 +9106,18 @@
       "market_price": 0.865,
       "question": "Will the price of Bitcoin be above $80,000 on September 4?",
       "ts": "2026-09-04T09:42:19"
+    },
+    "908713": {
+      "probability": 0.65,
+      "reason": "Market prices meaningful hike risk from persistent inflation, but Fed reversals from cutting to hiking within a year are historically uncommon, so I shade slightly below the price given my uncertainty",
+      "market_price": 0.695,
+      "question": "Fed rate hike in 2026?",
+      "ts": "2026-09-04T10:24:13"
     }
   },
   "llm_usage": {
-    "calls": 142,
-    "prompt_tokens": 23642,
-    "completion_tokens": 73807
+    "calls": 143,
+    "prompt_tokens": 23802,
+    "completion_tokens": 74486
   }
 }
