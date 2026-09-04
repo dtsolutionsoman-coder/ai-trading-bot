@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T21:26:48",
+  "saved_at": "2026-09-04T21:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1594,7 +1594,7 @@
       "reason": "Profitable short stays on: extreme positive funding (272% ann.) and perp premium support the bearish stance, but the 1h/6h bounce and RSI 64 warn against adding into short-term strength."
     }
   ],
-  "llm_bar_index": 1056,
+  "llm_bar_index": 1057,
   "llm_usage": {
     "calls": 265,
     "prompt_tokens": 95248,
@@ -6259,9 +6259,13 @@
     [
       "2026-09-04T21:00:00",
       9779.48
+    ],
+    [
+      "2026-09-04T21:15:00",
+      9780.61
     ]
   ],
-  "last_bar_ts": "2026-09-04T21:00:00",
-  "bars_processed": 1088,
+  "last_bar_ts": "2026-09-04T21:15:00",
+  "bars_processed": 1089,
   "starting_cash": 10000.0
 }
