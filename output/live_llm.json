@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T14:25:41",
+  "saved_at": "2026-09-04T14:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1552,7 +1552,7 @@
       "reason": "1h/6h momentum and rich positive funding support the small profitable short, but RSI 17 is extremely oversold and the 12h/48h uptrend stays intact, so not adding here."
     }
   ],
-  "llm_bar_index": 1028,
+  "llm_bar_index": 1029,
   "llm_usage": {
     "calls": 258,
     "prompt_tokens": 92728,
@@ -6096,9 +6096,13 @@
     [
       "2026-09-04T14:00:00",
       9809.48
+    ],
+    [
+      "2026-09-04T14:15:00",
+      9804.58
     ]
   ],
-  "last_bar_ts": "2026-09-04T14:00:00",
-  "bars_processed": 1060,
+  "last_bar_ts": "2026-09-04T14:15:00",
+  "bars_processed": 1061,
   "starting_cash": 10000.0
 }
