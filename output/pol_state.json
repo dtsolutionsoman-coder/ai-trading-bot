@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T17:16:17",
+  "saved_at": "2026-09-04T17:25:40",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-26T07:58:33.502495",
-        10000.0
-      ],
       [
         "2026-08-26T08:00:42.409820",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T17:16:17.734490",
         10000.0
+      ],
+      [
+        "2026-09-04T17:25:27.077347",
+        10000.0
       ]
     ]
   },
@@ -9127,11 +9127,18 @@
       "market_price": 0.9285,
       "question": "Will no Fed rate cuts happen in 2026?",
       "ts": "2026-09-04T17:02:53"
+    },
+    "3772661": {
+      "probability": 0.69,
+      "reason": "Future match with unknown opponent and context (unusual Friday date, Lyon's long-term competitive situation uncertain), so staying near the market-implied price.",
+      "market_price": 0.695,
+      "question": "Will Olympique Lyonnais win on 2026-09-04?",
+      "ts": "2026-09-04T17:25:27"
     }
   },
   "llm_usage": {
-    "calls": 146,
-    "prompt_tokens": 24295,
-    "completion_tokens": 78089
+    "calls": 147,
+    "prompt_tokens": 24463,
+    "completion_tokens": 78792
   }
 }
