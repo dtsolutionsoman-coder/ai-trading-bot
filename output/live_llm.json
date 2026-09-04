@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T15:40:48",
+  "saved_at": "2026-09-04T15:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1558,7 +1558,7 @@
       "reason": "Short-term momentum supports the small profitable short, but RSI 19 extreme oversold and intact medium-term uptrend (SMA ratio 1.02) argue against adding; keep current exposure."
     }
   ],
-  "llm_bar_index": 1033,
+  "llm_bar_index": 1034,
   "llm_usage": {
     "calls": 259,
     "prompt_tokens": 93090,
@@ -6122,9 +6122,13 @@
     [
       "2026-09-04T15:15:00",
       9805.93
+    ],
+    [
+      "2026-09-04T15:30:00",
+      9801.47
     ]
   ],
-  "last_bar_ts": "2026-09-04T15:15:00",
-  "bars_processed": 1065,
+  "last_bar_ts": "2026-09-04T15:30:00",
+  "bars_processed": 1066,
   "starting_cash": 10000.0
 }
