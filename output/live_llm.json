@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T03:21:14",
+  "saved_at": "2026-09-04T03:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1486,7 +1486,7 @@
       "reason": "Extreme 847% funding and fading 6h momentum justify keeping the profitable short, but deeply oversold RSI 23.4 warns against adding exposure here."
     }
   ],
-  "llm_bar_index": 984,
+  "llm_bar_index": 985,
   "llm_usage": {
     "calls": 247,
     "prompt_tokens": 88758,
@@ -5845,9 +5845,13 @@
     [
       "2026-09-04T03:00:00",
       9737.82
+    ],
+    [
+      "2026-09-04T03:15:00",
+      9735.75
     ]
   ],
-  "last_bar_ts": "2026-09-04T03:00:00",
-  "bars_processed": 1016,
+  "last_bar_ts": "2026-09-04T03:15:00",
+  "bars_processed": 1017,
   "starting_cash": 10000.0
 }
