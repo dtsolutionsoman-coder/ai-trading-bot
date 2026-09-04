@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T18:57:47",
+  "saved_at": "2026-09-04T19:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1576,7 +1576,7 @@
       "reason": "Profitable short aligns with negative 6h/24h momentum and positive funding carry, but neutral RSI and a mild 1h bounce argue for defending gains rather than adding risk."
     }
   ],
-  "llm_bar_index": 1046,
+  "llm_bar_index": 1047,
   "llm_usage": {
     "calls": 262,
     "prompt_tokens": 94167,
@@ -6192,9 +6192,13 @@
     [
       "2026-09-04T18:30:00",
       9792.55
+    ],
+    [
+      "2026-09-04T18:45:00",
+      9799.77
     ]
   ],
-  "last_bar_ts": "2026-09-04T18:30:00",
-  "bars_processed": 1078,
+  "last_bar_ts": "2026-09-04T18:45:00",
+  "bars_processed": 1079,
   "starting_cash": 10000.0
 }
