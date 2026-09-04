@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T20:15:50",
+  "saved_at": "2026-09-04T20:23:16",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-26T14:45:32.469006",
-        10000.0
-      ],
       [
         "2026-08-26T15:00:49.121025",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T20:15:50.111395",
         10000.0
+      ],
+      [
+        "2026-09-04T20:23:03.356862",
+        10000.0
       ]
     ]
   },
@@ -9148,11 +9148,18 @@
       "market_price": 0.175,
       "question": "Will Ipswich Town FC win on 2026-09-04?",
       "ts": "2026-09-04T18:19:11"
+    },
+    "3772744": {
+      "probability": 0.84,
+      "reason": "No opponent or competition details known; soccer favorites rarely exceed ~85% win probability due to draw risk, so staying near market price with a slight discount.",
+      "market_price": 0.855,
+      "question": "Will Paris Saint-Germain FC win on 2026-09-04?",
+      "ts": "2026-09-04T20:23:03"
     }
   },
   "llm_usage": {
-    "calls": 149,
-    "prompt_tokens": 24796,
-    "completion_tokens": 79885
+    "calls": 150,
+    "prompt_tokens": 24965,
+    "completion_tokens": 80440
   }
 }
