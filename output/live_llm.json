@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T10:24:12",
+  "saved_at": "2026-09-04T10:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1528,7 +1528,7 @@
       "reason": "Extreme funding and perp premium with stalling 1h/6h momentum justify keeping the small profitable short, though the bullish daily trend caps conviction."
     }
   ],
-  "llm_bar_index": 1012,
+  "llm_bar_index": 1013,
   "llm_usage": {
     "calls": 254,
     "prompt_tokens": 91285,
@@ -6008,9 +6008,13 @@
     [
       "2026-09-04T10:00:00",
       9730.42
+    ],
+    [
+      "2026-09-04T10:15:00",
+      9743.32
     ]
   ],
-  "last_bar_ts": "2026-09-04T10:00:00",
-  "bars_processed": 1044,
+  "last_bar_ts": "2026-09-04T10:15:00",
+  "bars_processed": 1045,
   "starting_cash": 10000.0
 }
