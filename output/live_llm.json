@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T01:59:43",
+  "saved_at": "2026-09-04T02:00:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1474,7 +1474,7 @@
       "reason": "Extreme funding and perp premium plus oversold RSI support keeping the tiny short for a pullback, but the strong 24h uptrend argues against adding risk."
     }
   ],
-  "llm_bar_index": 978,
+  "llm_bar_index": 979,
   "llm_usage": {
     "calls": 245,
     "prompt_tokens": 88035,
@@ -5800,9 +5800,13 @@
     [
       "2026-09-04T01:30:00",
       9731.93
+    ],
+    [
+      "2026-09-04T01:45:00",
+      9734.27
     ]
   ],
-  "last_bar_ts": "2026-09-04T01:30:00",
-  "bars_processed": 1010,
+  "last_bar_ts": "2026-09-04T01:45:00",
+  "bars_processed": 1011,
   "starting_cash": 10000.0
 }
