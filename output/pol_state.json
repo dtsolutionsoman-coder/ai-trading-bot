@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T16:16:14",
+  "saved_at": "2026-09-04T16:20:44",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-26T05:30:32.746230",
-        10000.0
-      ],
       [
         "2026-08-26T05:45:26.552507",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T16:15:40.569294",
         10000.0
+      ],
+      [
+        "2026-09-04T16:20:35.881579",
+        10000.0
       ]
     ]
   },
@@ -9113,11 +9113,18 @@
       "market_price": 0.695,
       "question": "Fed rate hike in 2026?",
       "ts": "2026-09-04T10:24:13"
+    },
+    "3772686": {
+      "probability": 0.64,
+      "reason": "No reliable information about the specific fixture or opponent that far ahead; staying close to the market price which likely reflects opponent and venue details.",
+      "market_price": 0.645,
+      "question": "Will Liverpool FC win on 2026-09-04?",
+      "ts": "2026-09-04T16:20:35"
     }
   },
   "llm_usage": {
-    "calls": 144,
-    "prompt_tokens": 23967,
-    "completion_tokens": 76486
+    "calls": 145,
+    "prompt_tokens": 24132,
+    "completion_tokens": 76819
   }
 }
