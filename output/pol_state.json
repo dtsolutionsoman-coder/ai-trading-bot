@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-04T05:21:29",
+  "saved_at": "2026-09-04T05:30:47",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-25T08:00:40.529883",
-        10006.955224
-      ],
       [
         "2026-08-25T08:15:59.353222",
         10000.985075
@@ -8053,6 +8049,10 @@
       [
         "2026-09-04T05:21:29.454955",
         10000.0
+      ],
+      [
+        "2026-09-04T05:30:32.423646",
+        10000.0
       ]
     ]
   },
@@ -9085,11 +9085,18 @@
       "market_price": 0.56,
       "question": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "ts": "2026-09-04T02:00:35"
+    },
+    "3008494": {
+      "probability": 0.72,
+      "reason": "Anthropic currently leads in key benchmarks, but AI frontier leadership cycles rapidly between well-funded labs over a year-long horizon, so the 81.5% market price seems slightly overconfident.",
+      "market_price": 0.815,
+      "question": "Will Anthropic have the best AI model at the end of September 2026?",
+      "ts": "2026-09-04T05:30:32"
     }
   },
   "llm_usage": {
-    "calls": 139,
-    "prompt_tokens": 23143,
-    "completion_tokens": 72201
+    "calls": 140,
+    "prompt_tokens": 23312,
+    "completion_tokens": 72718
   }
 }
