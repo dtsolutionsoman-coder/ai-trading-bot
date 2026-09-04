@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T02:43:30",
+  "saved_at": "2026-09-04T02:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1480,7 +1480,7 @@
       "reason": "Extreme annualized funding and elevated perp premium signal crowded longs after a low-liquidity 6% pump with fading 6h momentum, so modestly adding to the profitable short while respecting oversold RS"
     }
   ],
-  "llm_bar_index": 981,
+  "llm_bar_index": 982,
   "llm_usage": {
     "calls": 246,
     "prompt_tokens": 88397,
@@ -5827,9 +5827,13 @@
     [
       "2026-09-04T02:15:00",
       9735.63
+    ],
+    [
+      "2026-09-04T02:30:00",
+      9734.99
     ]
   ],
-  "last_bar_ts": "2026-09-04T02:15:00",
-  "bars_processed": 1013,
+  "last_bar_ts": "2026-09-04T02:30:00",
+  "bars_processed": 1014,
   "starting_cash": 10000.0
 }
