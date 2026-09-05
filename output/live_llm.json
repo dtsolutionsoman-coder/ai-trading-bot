@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T14:41:45",
+  "saved_at": "2026-09-05T14:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1696,7 +1696,7 @@
       "reason": "Mild downtrend with SMA12<48 and extreme 254% annualized funding signaling overcrowded longs supports extending the small profitable short."
     }
   ],
-  "llm_bar_index": 1125,
+  "llm_bar_index": 1126,
   "llm_usage": {
     "calls": 282,
     "prompt_tokens": 101375,
@@ -6646,9 +6646,13 @@
     [
       "2026-09-05T14:15:00",
       9806.53
+    ],
+    [
+      "2026-09-05T14:30:00",
+      9811.14
     ]
   ],
-  "last_bar_ts": "2026-09-05T14:15:00",
-  "bars_processed": 1157,
+  "last_bar_ts": "2026-09-05T14:30:00",
+  "bars_processed": 1158,
   "starting_cash": 10000.0
 }
