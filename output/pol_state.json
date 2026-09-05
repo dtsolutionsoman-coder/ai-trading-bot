@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T23:50:32",
+  "saved_at": "2026-09-05T23:56:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T03:30:36.730724",
-        9996.657718
-      ],
       [
         "2026-08-29T03:33:06.698031",
         9996.657718
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T23:50:31.889037",
         10000.0
+      ],
+      [
+        "2026-09-05T23:56:44.726692",
+        10000.0
       ]
     ]
   },
@@ -9323,11 +9323,18 @@
       "market_price": 0.435,
       "question": "Will Orlando City SC win on 2026-09-05?",
       "ts": "2026-09-05T23:43:52"
+    },
+    "3816660": {
+      "probability": 0.4,
+      "reason": "No information available about this distant future fixture, so staying close to the market price.",
+      "market_price": 0.405,
+      "question": "Will Fluminense FC win on 2026-09-05?",
+      "ts": "2026-09-05T23:56:44"
     }
   },
   "llm_usage": {
-    "calls": 176,
-    "prompt_tokens": 29283,
-    "completion_tokens": 100860
+    "calls": 177,
+    "prompt_tokens": 29450,
+    "completion_tokens": 101105
   }
 }
