@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T18:01:01",
+  "saved_at": "2026-09-05T18:15:47",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T22:47:42.261710",
-        9998.0
-      ],
       [
         "2026-08-28T22:54:17.617728",
         9998.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T18:01:01.348096",
         10000.0
+      ],
+      [
+        "2026-09-05T18:15:38.062255",
+        10000.0
       ]
     ]
   },
@@ -9253,11 +9253,18 @@
       "market_price": 0.205,
       "question": "Will FC Internazionale Milano win on 2026-09-05?",
       "ts": "2026-09-05T17:26:17"
+    },
+    "3792016": {
+      "probability": 0.08,
+      "reason": "Early September 2026 likely falls in an international break with no Hull City fixture, and with no schedule confirmation the low market price appears justified; staying close to it.",
+      "market_price": 0.075,
+      "question": "Will Hull City AFC win on 2026-09-05?",
+      "ts": "2026-09-05T18:15:38"
     }
   },
   "llm_usage": {
-    "calls": 166,
-    "prompt_tokens": 27624,
-    "completion_tokens": 96597
+    "calls": 167,
+    "prompt_tokens": 27790,
+    "completion_tokens": 97046
   }
 }
