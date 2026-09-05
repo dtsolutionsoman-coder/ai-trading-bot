@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T20:21:47",
+  "saved_at": "2026-09-05T20:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1732,7 +1732,7 @@
       "reason": "Short is profitable with downtrend and crowded longs (extreme funding), but oversold RSI raises bounce risk, so maintain reduced short exposure."
     }
   ],
-  "llm_bar_index": 1148,
+  "llm_bar_index": 1149,
   "llm_usage": {
     "calls": 288,
     "prompt_tokens": 103529,
@@ -6783,9 +6783,13 @@
     [
       "2026-09-05T20:00:00",
       9806.0
+    ],
+    [
+      "2026-09-05T20:15:00",
+      9805.47
     ]
   ],
-  "last_bar_ts": "2026-09-05T20:00:00",
-  "bars_processed": 1180,
+  "last_bar_ts": "2026-09-05T20:15:00",
+  "bars_processed": 1181,
   "starting_cash": 10000.0
 }
