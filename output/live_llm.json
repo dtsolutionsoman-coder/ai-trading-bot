@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T19:38:53",
+  "saved_at": "2026-09-05T19:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1726,7 +1726,7 @@
       "reason": "Profitable short supported by bearish SMA structure and extreme positive funding, but flat RSI and dead volume argue against adding risk here."
     }
   ],
-  "llm_bar_index": 1145,
+  "llm_bar_index": 1146,
   "llm_usage": {
     "calls": 287,
     "prompt_tokens": 103168,
@@ -6765,9 +6765,13 @@
     [
       "2026-09-05T19:15:00",
       9799.09
+    ],
+    [
+      "2026-09-05T19:30:00",
+      9805.47
     ]
   ],
-  "last_bar_ts": "2026-09-05T19:15:00",
-  "bars_processed": 1177,
+  "last_bar_ts": "2026-09-05T19:30:00",
+  "bars_processed": 1178,
   "starting_cash": 10000.0
 }
