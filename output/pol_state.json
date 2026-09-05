@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T16:30:31",
+  "saved_at": "2026-09-05T16:38:28",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T20:30:34.907658",
-        10000.0
-      ],
       [
         "2026-08-28T20:45:41.083404",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T16:30:31.224342",
         10000.0
+      ],
+      [
+        "2026-09-05T16:38:16.752562",
+        10000.0
       ]
     ]
   },
@@ -9239,11 +9239,18 @@
       "market_price": 0.145,
       "question": "Will Brentford FC win on 2026-09-05?",
       "ts": "2026-09-05T15:55:45"
+    },
+    "3792008": {
+      "probability": 0.78,
+      "reason": "Opponent unknown this far out, but Bayern's base win rate (~75-80%) supports staying near the market price with slight downward shading for fixture uncertainty.",
+      "market_price": 0.825,
+      "question": "Will FC Bayern M\u00fcnchen win on 2026-09-05?",
+      "ts": "2026-09-05T16:38:16"
     }
   },
   "llm_usage": {
-    "calls": 164,
-    "prompt_tokens": 27291,
-    "completion_tokens": 95324
+    "calls": 165,
+    "prompt_tokens": 27457,
+    "completion_tokens": 95968
   }
 }
