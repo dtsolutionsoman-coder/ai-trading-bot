@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T15:55:44",
+  "saved_at": "2026-09-05T16:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1702,7 +1702,7 @@
       "reason": "Bearish MA cross, extreme positive funding and perp premium support holding the profitable short for funding carry, but flat price action and thin liquidity argue against adding."
     }
   ],
-  "llm_bar_index": 1130,
+  "llm_bar_index": 1131,
   "llm_usage": {
     "calls": 283,
     "prompt_tokens": 101733,
@@ -6672,9 +6672,13 @@
     [
       "2026-09-05T15:30:00",
       9804.45
+    ],
+    [
+      "2026-09-05T15:45:00",
+      9803.68
     ]
   ],
-  "last_bar_ts": "2026-09-05T15:30:00",
-  "bars_processed": 1162,
+  "last_bar_ts": "2026-09-05T15:45:00",
+  "bars_processed": 1163,
   "starting_cash": 10000.0
 }
