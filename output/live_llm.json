@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T23:29:39",
+  "saved_at": "2026-09-05T23:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1750,7 +1750,7 @@
       "reason": "Mild bearish trend (SMA12h<48h, negative 6h/24h) with extreme positive funding rewards short carry, so adding modestly to the already profitable short."
     }
   ],
-  "llm_bar_index": 1160,
+  "llm_bar_index": 1161,
   "llm_usage": {
     "calls": 291,
     "prompt_tokens": 104608,
@@ -6858,9 +6858,13 @@
     [
       "2026-09-05T23:00:00",
       9806.67
+    ],
+    [
+      "2026-09-05T23:15:00",
+      9801.64
     ]
   ],
-  "last_bar_ts": "2026-09-05T23:00:00",
-  "bars_processed": 1192,
+  "last_bar_ts": "2026-09-05T23:15:00",
+  "bars_processed": 1193,
   "starting_cash": 10000.0
 }
