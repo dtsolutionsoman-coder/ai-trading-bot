@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T18:30:32",
+  "saved_at": "2026-09-05T18:40:46",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T23:07:35.960237",
-        9998.0
-      ],
       [
         "2026-08-28T23:14:14.405355",
         9998.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T18:30:32.393302",
         10000.0
+      ],
+      [
+        "2026-09-05T18:40:39.454764",
+        10000.0
       ]
     ]
   },
@@ -9281,11 +9281,18 @@
       "market_price": 0.665,
       "question": "Will Villarreal CF win on 2026-09-05?",
       "ts": "2026-09-05T18:28:14"
+    },
+    "3789630": {
+      "probability": 0.56,
+      "reason": "No information available about the opponent or match context for this future fixture; staying close to the market-implied price, with a slight discount for typical home-favorite overpricing.",
+      "market_price": 0.575,
+      "question": "Will AS Roma win on 2026-09-05?",
+      "ts": "2026-09-05T18:40:39"
     }
   },
   "llm_usage": {
-    "calls": 170,
-    "prompt_tokens": 28291,
-    "completion_tokens": 98091
+    "calls": 171,
+    "prompt_tokens": 28456,
+    "completion_tokens": 98384
   }
 }
