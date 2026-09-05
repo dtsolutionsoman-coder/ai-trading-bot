@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T22:34:40",
+  "saved_at": "2026-09-05T22:41:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T02:20:17.232596",
-        9996.657718
-      ],
       [
         "2026-08-29T02:26:50.655777",
         9996.657718
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T22:34:39.622191",
         10000.0
+      ],
+      [
+        "2026-09-05T22:41:19.181226",
+        10000.0
       ]
     ]
   },
@@ -9302,11 +9302,25 @@
       "market_price": 0.435,
       "question": "Will Columbus Crew win on 2026-09-05?",
       "ts": "2026-09-05T21:57:22"
+    },
+    "3816631": {
+      "probability": 0.42,
+      "reason": "Match is beyond knowledge cutoff with no known opponent or context; a ~42% win probability is plausible for S\u00e3o Paulo, so staying near market price.",
+      "market_price": 0.425,
+      "question": "Will S\u00e3o Paulo FC win on 2026-09-05?",
+      "ts": "2026-09-05T22:41:19"
+    },
+    "3832915": {
+      "probability": 0.73,
+      "reason": "Opponent and fixture details for September 2026 are unknown, so staying near the market price while shading slightly toward Barcelona's typical ~60-65% win rate absent matchup information.",
+      "market_price": 0.755,
+      "question": "Will FC Barcelona win on 2026-09-06?",
+      "ts": "2026-09-05T22:41:19"
     }
   },
   "llm_usage": {
-    "calls": 173,
-    "prompt_tokens": 28786,
-    "completion_tokens": 99552
+    "calls": 175,
+    "prompt_tokens": 29117,
+    "completion_tokens": 100671
   }
 }
