@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T21:12:07",
+  "saved_at": "2026-09-05T21:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1730,13 +1730,19 @@
       "action": "hold",
       "conviction": 0.4,
       "reason": "Short is profitable with downtrend and crowded longs (extreme funding), but oversold RSI raises bounce risk, so maintain reduced short exposure."
+    },
+    {
+      "ts": "2026-09-05T21:00:00",
+      "action": "hold",
+      "conviction": 0.55,
+      "reason": "Profitable short stays on: trend still bearish and extreme positive funding pays the short, but oversold RSI and stalled momentum argue against adding."
     }
   ],
-  "llm_bar_index": 1151,
+  "llm_bar_index": 1152,
   "llm_usage": {
-    "calls": 288,
-    "prompt_tokens": 103529,
-    "completion_tokens": 288121
+    "calls": 289,
+    "prompt_tokens": 103887,
+    "completion_tokens": 289260
   },
   "cash": 11761.084777054622,
   "positions": {
@@ -6795,9 +6801,13 @@
     [
       "2026-09-05T20:45:00",
       9804.05
+    ],
+    [
+      "2026-09-05T21:00:00",
+      9805.27
     ]
   ],
-  "last_bar_ts": "2026-09-05T20:45:00",
-  "bars_processed": 1183,
+  "last_bar_ts": "2026-09-05T21:00:00",
+  "bars_processed": 1184,
   "starting_cash": 10000.0
 }
