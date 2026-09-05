@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T13:19:39",
+  "saved_at": "2026-09-05T13:28:35",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T11:45:28.648132",
-        10000.0
-      ],
       [
         "2026-08-28T12:00:42.112494",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T13:19:39.307779",
         10000.0
+      ],
+      [
+        "2026-09-05T13:28:18.288594",
+        10000.0
       ]
     ]
   },
@@ -9197,11 +9197,18 @@
       "market_price": 0.465,
       "question": "Will ACF Fiorentina win on 2026-09-05?",
       "ts": "2026-09-05T12:58:30"
+    },
+    "3792014": {
+      "probability": 0.05,
+      "reason": "September 5, 2026 falls in a FIFA international break window, so Coventry likely has no fixture that day, making a win very unlikely.",
+      "market_price": 0.055,
+      "question": "Will Coventry City FC win on 2026-09-05?",
+      "ts": "2026-09-05T13:28:18"
     }
   },
   "llm_usage": {
-    "calls": 156,
-    "prompt_tokens": 25969,
-    "completion_tokens": 85347
+    "calls": 157,
+    "prompt_tokens": 26136,
+    "completion_tokens": 86410
   }
 }
