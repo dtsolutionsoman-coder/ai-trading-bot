@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T21:50:57",
+  "saved_at": "2026-09-05T21:57:27",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T01:45:25.965758",
-        10000.0
-      ],
       [
         "2026-08-29T01:46:54.346249",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T21:50:56.806033",
         10000.0
+      ],
+      [
+        "2026-09-05T21:57:22.160532",
+        10000.0
       ]
     ]
   },
@@ -9295,11 +9295,18 @@
       "market_price": 0.245,
       "question": "Russia x Ukraine ceasefire agreement by December 31, 2026?",
       "ts": "2026-09-05T20:45:27"
+    },
+    "3809049": {
+      "probability": 0.44,
+      "reason": "No reliable information on opponent, venue, or squad condition for this future MLS fixture; staying near the market-implied price with a slight edge for Columbus's historically strong recent form.",
+      "market_price": 0.435,
+      "question": "Will Columbus Crew win on 2026-09-05?",
+      "ts": "2026-09-05T21:57:22"
     }
   },
   "llm_usage": {
-    "calls": 172,
-    "prompt_tokens": 28621,
-    "completion_tokens": 99314
+    "calls": 173,
+    "prompt_tokens": 28786,
+    "completion_tokens": 99552
   }
 }
