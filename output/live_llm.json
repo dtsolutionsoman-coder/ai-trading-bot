@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T18:15:36",
+  "saved_at": "2026-09-05T18:16:20",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1717,14 +1717,14 @@
       "ts": "2026-09-05T18:00:00",
       "action": "sell",
       "conviction": 0.55,
-      "reason": "Extreme positive funding (252% annualized) plus perp premium and sub-1 SMA ratio favor the existing profitable short, so I add modestly to it."
+      "reason": "Downtrend (SMA ratio <1, 24h negative) plus extreme positive funding and perp premium signal crowded longs, supporting a modest increase to the already profitable short."
     }
   ],
   "llm_bar_index": 1140,
   "llm_usage": {
     "calls": 286,
     "prompt_tokens": 102809,
-    "completion_tokens": 285966
+    "completion_tokens": 286291
   },
   "cash": 12264.502781896752,
   "positions": {

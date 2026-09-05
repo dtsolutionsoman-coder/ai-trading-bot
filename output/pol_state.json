@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T18:15:47",
+  "saved_at": "2026-09-05T18:16:31",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -8051,7 +8051,7 @@
         10000.0
       ],
       [
-        "2026-09-05T18:15:38.062255",
+        "2026-09-05T18:16:21.701448",
         10000.0
       ]
     ]
@@ -9255,16 +9255,16 @@
       "ts": "2026-09-05T17:26:17"
     },
     "3792016": {
-      "probability": 0.08,
-      "reason": "Early September 2026 likely falls in an international break with no Hull City fixture, and with no schedule confirmation the low market price appears justified; staying close to it.",
+      "probability": 0.07,
+      "reason": "No specific fixture information available; the low price likely reflects uncertainty about whether Hull City even play on that date (potential international break), so staying near market.",
       "market_price": 0.075,
       "question": "Will Hull City AFC win on 2026-09-05?",
-      "ts": "2026-09-05T18:15:38"
+      "ts": "2026-09-05T18:16:21"
     }
   },
   "llm_usage": {
     "calls": 167,
     "prompt_tokens": 27790,
-    "completion_tokens": 97046
+    "completion_tokens": 97067
   }
 }
