@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T14:55:12",
+  "saved_at": "2026-09-05T15:00:53",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T16:15:41.719608",
-        10000.0
-      ],
       [
         "2026-08-28T16:30:34.955680",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T14:55:11.665768",
         10000.0
+      ],
+      [
+        "2026-09-05T15:00:38.357677",
+        10000.0
       ]
     ]
   },
@@ -9204,11 +9204,18 @@
       "market_price": 0.055,
       "question": "Will Coventry City FC win on 2026-09-05?",
       "ts": "2026-09-05T13:28:18"
+    },
+    "3791951": {
+      "probability": 0.08,
+      "reason": "September 5, 2026 falls in an international break when Crystal Palace likely has no fixture, so a win is unlikely; staying near the low market price.",
+      "market_price": 0.095,
+      "question": "Will Crystal Palace FC win on 2026-09-05?",
+      "ts": "2026-09-05T15:00:38"
     }
   },
   "llm_usage": {
-    "calls": 157,
-    "prompt_tokens": 26136,
-    "completion_tokens": 86410
+    "calls": 158,
+    "prompt_tokens": 26302,
+    "completion_tokens": 87281
   }
 }
