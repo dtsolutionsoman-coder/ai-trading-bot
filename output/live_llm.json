@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T17:07:27",
+  "saved_at": "2026-09-05T17:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1706,13 +1706,19 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Existing short is profitable with extremely high positive funding paying shorts and a mildly bearish SMA trend, so I'll maintain exposure despite neutral RSI and low volatility."
+    },
+    {
+      "ts": "2026-09-05T17:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Extreme positive funding and perp premium signal crowded longs in a bearish SMA structure, so modestly adding to the profitable short while recent mild upward momentum cautions against full size."
     }
   ],
-  "llm_bar_index": 1135,
+  "llm_bar_index": 1136,
   "llm_usage": {
-    "calls": 284,
-    "prompt_tokens": 102090,
-    "completion_tokens": 284178
+    "calls": 285,
+    "prompt_tokens": 102449,
+    "completion_tokens": 285217
   },
   "cash": 12264.502781896752,
   "positions": {
@@ -6698,9 +6704,13 @@
     [
       "2026-09-05T16:45:00",
       9795.21
+    ],
+    [
+      "2026-09-05T17:00:00",
+      9797.51
     ]
   ],
-  "last_bar_ts": "2026-09-05T16:45:00",
-  "bars_processed": 1167,
+  "last_bar_ts": "2026-09-05T17:00:00",
+  "bars_processed": 1168,
   "starting_cash": 10000.0
 }
