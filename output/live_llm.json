@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T05:55:22",
+  "saved_at": "2026-09-05T06:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1642,7 +1642,7 @@
       "reason": "Downtrend and positive funding still favor the existing profitable short, but stalling momentum and falling OI argue against adding risk."
     }
   ],
-  "llm_bar_index": 1090,
+  "llm_bar_index": 1091,
   "llm_usage": {
     "calls": 273,
     "prompt_tokens": 98132,
@@ -6443,9 +6443,13 @@
     [
       "2026-09-05T05:30:00",
       9804.37
+    ],
+    [
+      "2026-09-05T05:45:00",
+      9800.5
     ]
   ],
-  "last_bar_ts": "2026-09-05T05:30:00",
-  "bars_processed": 1122,
+  "last_bar_ts": "2026-09-05T05:45:00",
+  "bars_processed": 1123,
   "starting_cash": 10000.0
 }
