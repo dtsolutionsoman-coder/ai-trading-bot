@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T21:44:03",
+  "saved_at": "2026-09-05T21:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1738,7 +1738,7 @@
       "reason": "Profitable short stays on: trend still bearish and extreme positive funding pays the short, but oversold RSI and stalled momentum argue against adding."
     }
   ],
-  "llm_bar_index": 1153,
+  "llm_bar_index": 1154,
   "llm_usage": {
     "calls": 289,
     "prompt_tokens": 103887,
@@ -6809,9 +6809,13 @@
     [
       "2026-09-05T21:15:00",
       9801.49
+    ],
+    [
+      "2026-09-05T21:30:00",
+      9803.05
     ]
   ],
-  "last_bar_ts": "2026-09-05T21:15:00",
-  "bars_processed": 1185,
+  "last_bar_ts": "2026-09-05T21:30:00",
+  "bars_processed": 1186,
   "starting_cash": 10000.0
 }
