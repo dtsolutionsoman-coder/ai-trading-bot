@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T15:26:37",
+  "saved_at": "2026-09-05T15:30:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T17:30:35.590863",
-        10000.0
-      ],
       [
         "2026-08-28T17:45:27.602592",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T15:26:08.344680",
         10000.0
+      ],
+      [
+        "2026-09-05T15:30:31.595903",
+        10000.0
       ]
     ]
   },
@@ -9218,11 +9218,18 @@
       "market_price": 0.0285,
       "question": "Iran leadership change by September 30?",
       "ts": "2026-09-05T15:15:43"
+    },
+    "3792023": {
+      "probability": 0.51,
+      "reason": "No reliable information on the fixture, opponent, or whether Villa even play that date; staying near the market price with slight discount for fixture uncertainty.",
+      "market_price": 0.525,
+      "question": "Will Aston Villa FC win on 2026-09-05?",
+      "ts": "2026-09-05T15:30:31"
     }
   },
   "llm_usage": {
-    "calls": 160,
-    "prompt_tokens": 26628,
-    "completion_tokens": 90138
+    "calls": 161,
+    "prompt_tokens": 26794,
+    "completion_tokens": 90563
   }
 }
