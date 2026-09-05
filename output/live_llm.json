@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T02:41:21",
+  "saved_at": "2026-09-05T02:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1624,7 +1624,7 @@
       "reason": "Short thesis intact with bearish SMA ratio and extreme positive funding paying the short, but fading short-term bounce and thin liquidity argue for defending the 2.3% profit rather than adding risk."
     }
   ],
-  "llm_bar_index": 1077,
+  "llm_bar_index": 1078,
   "llm_usage": {
     "calls": 270,
     "prompt_tokens": 97051,
@@ -6373,9 +6373,13 @@
     [
       "2026-09-05T02:15:00",
       9806.66
+    ],
+    [
+      "2026-09-05T02:30:00",
+      9802.88
     ]
   ],
-  "last_bar_ts": "2026-09-05T02:15:00",
-  "bars_processed": 1109,
+  "last_bar_ts": "2026-09-05T02:30:00",
+  "bars_processed": 1110,
   "starting_cash": 10000.0
 }
