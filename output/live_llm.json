@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T10:55:22",
+  "saved_at": "2026-09-05T11:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1672,7 +1672,7 @@
       "reason": "Downtrend, SMA ratio below 1, and steep positive funding favor keeping the profitable short, but RSI 20 oversold conditions and bounce risk argue against adding."
     }
   ],
-  "llm_bar_index": 1110,
+  "llm_bar_index": 1111,
   "llm_usage": {
     "calls": 278,
     "prompt_tokens": 99933,
@@ -6553,9 +6553,13 @@
     [
       "2026-09-05T10:30:00",
       9813.42
+    ],
+    [
+      "2026-09-05T10:45:00",
+      9811.81
     ]
   ],
-  "last_bar_ts": "2026-09-05T10:30:00",
-  "bars_processed": 1142,
+  "last_bar_ts": "2026-09-05T10:45:00",
+  "bars_processed": 1143,
   "starting_cash": 10000.0
 }
