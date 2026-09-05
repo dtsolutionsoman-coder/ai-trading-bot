@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T18:28:13",
+  "saved_at": "2026-09-05T18:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1720,7 +1720,7 @@
       "reason": "Downtrend (SMA ratio <1, 24h negative) plus extreme positive funding and perp premium signal crowded longs, supporting a modest increase to the already profitable short."
     }
   ],
-  "llm_bar_index": 1140,
+  "llm_bar_index": 1141,
   "llm_usage": {
     "calls": 286,
     "prompt_tokens": 102809,
@@ -6730,9 +6730,13 @@
     [
       "2026-09-05T18:00:00",
       9800.64
+    ],
+    [
+      "2026-09-05T18:15:00",
+      9798.83
     ]
   ],
-  "last_bar_ts": "2026-09-05T18:00:00",
-  "bars_processed": 1172,
+  "last_bar_ts": "2026-09-05T18:15:00",
+  "bars_processed": 1173,
   "starting_cash": 10000.0
 }
