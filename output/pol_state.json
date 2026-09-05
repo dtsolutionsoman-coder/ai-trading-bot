@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T12:52:09",
+  "saved_at": "2026-09-05T12:58:35",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T10:30:39.642936",
-        10000.0
-      ],
       [
         "2026-08-28T10:45:28.301856",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T12:52:08.461122",
         10000.0
+      ],
+      [
+        "2026-09-05T12:58:30.213113",
+        10000.0
       ]
     ]
   },
@@ -9190,11 +9190,18 @@
       "market_price": 0.695,
       "question": "Will Bayer 04 Leverkusen win on 2026-09-05?",
       "ts": "2026-09-05T10:26:37"
+    },
+    "3789622": {
+      "probability": 0.46,
+      "reason": "Match details for this future date are unknown, so staying calibrated near the market-implied price.",
+      "market_price": 0.465,
+      "question": "Will ACF Fiorentina win on 2026-09-05?",
+      "ts": "2026-09-05T12:58:30"
     }
   },
   "llm_usage": {
-    "calls": 155,
-    "prompt_tokens": 25801,
-    "completion_tokens": 85126
+    "calls": 156,
+    "prompt_tokens": 25969,
+    "completion_tokens": 85347
   }
 }
