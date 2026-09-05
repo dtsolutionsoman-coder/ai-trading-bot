@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T06:21:34",
+  "saved_at": "2026-09-05T06:30:53",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-27T17:45:28.973369",
-        10000.0
-      ],
       [
         "2026-08-27T18:00:42.296235",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T06:21:33.290266",
         10000.0
+      ],
+      [
+        "2026-09-05T06:30:35.671774",
+        10000.0
       ]
     ]
   },
@@ -9176,11 +9176,18 @@
       "market_price": 0.495,
       "question": "Will Brighton & Hove Albion FC win on 2026-09-05?",
       "ts": "2026-09-05T04:30:36"
+    },
+    "3792010": {
+      "probability": 0.84,
+      "reason": "Market implies Man City as heavy favorite on 2026-09-05; with no verifiable fixture details and typical draw/upset risk in football, I shade slightly below the 0.855 price.",
+      "market_price": 0.855,
+      "question": "Will Manchester City FC win on 2026-09-05?",
+      "ts": "2026-09-05T06:30:35"
     }
   },
   "llm_usage": {
-    "calls": 153,
-    "prompt_tokens": 25466,
-    "completion_tokens": 83320
+    "calls": 154,
+    "prompt_tokens": 25632,
+    "completion_tokens": 84213
   }
 }
