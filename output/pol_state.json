@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T15:45:59",
+  "saved_at": "2026-09-05T15:49:25",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T18:30:35.444345",
-        10000.0
-      ],
       [
         "2026-08-28T18:45:33.811030",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T15:45:25.447507",
         10000.0
+      ],
+      [
+        "2026-09-05T15:49:02.693543",
+        10000.0
       ]
     ]
   },
@@ -9225,11 +9225,18 @@
       "market_price": 0.525,
       "question": "Will Aston Villa FC win on 2026-09-05?",
       "ts": "2026-09-05T15:30:31"
+    },
+    "3791943": {
+      "probability": 0.04,
+      "reason": "Sept 5, 2026 likely falls in an international break (post-World Cup calendar), so Fulham probably has no match, making a win unlikely; staying near the market's low price.",
+      "market_price": 0.035,
+      "question": "Will Fulham FC win on 2026-09-05?",
+      "ts": "2026-09-05T15:49:02"
     }
   },
   "llm_usage": {
-    "calls": 162,
-    "prompt_tokens": 26960,
-    "completion_tokens": 92563
+    "calls": 163,
+    "prompt_tokens": 27126,
+    "completion_tokens": 93896
   }
 }
