@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T12:58:29",
+  "saved_at": "2026-09-05T13:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1684,7 +1684,7 @@
       "reason": "Downtrend with sma ratio below 1 and extreme positive funding (274% ann) gives shorts both momentum tailwind and carry, so add modestly to the already profitable short despite short-term stabilization"
     }
   ],
-  "llm_bar_index": 1118,
+  "llm_bar_index": 1119,
   "llm_usage": {
     "calls": 280,
     "prompt_tokens": 100655,
@@ -6606,9 +6606,13 @@
     [
       "2026-09-05T12:30:00",
       9809.23
+    ],
+    [
+      "2026-09-05T12:45:00",
+      9808.87
     ]
   ],
-  "last_bar_ts": "2026-09-05T12:30:00",
-  "bars_processed": 1150,
+  "last_bar_ts": "2026-09-05T12:45:00",
+  "bars_processed": 1151,
   "starting_cash": 10000.0
 }
