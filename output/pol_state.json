@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T15:49:25",
+  "saved_at": "2026-09-05T15:56:11",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T18:45:33.811030",
-        10000.0
-      ],
       [
         "2026-08-28T19:02:24.447953",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T15:49:02.693543",
         10000.0
+      ],
+      [
+        "2026-09-05T15:55:45.225678",
+        10000.0
       ]
     ]
   },
@@ -9232,11 +9232,18 @@
       "market_price": 0.035,
       "question": "Will Fulham FC win on 2026-09-05?",
       "ts": "2026-09-05T15:49:02"
+    },
+    "3791978": {
+      "probability": 0.11,
+      "reason": "Sept 5, 2026 likely falls in the post-World Cup international break, so Brentford probably has no match, making YES unlikely even at this low price.",
+      "market_price": 0.145,
+      "question": "Will Brentford FC win on 2026-09-05?",
+      "ts": "2026-09-05T15:55:45"
     }
   },
   "llm_usage": {
-    "calls": 163,
-    "prompt_tokens": 27126,
-    "completion_tokens": 93896
+    "calls": 164,
+    "prompt_tokens": 27291,
+    "completion_tokens": 95324
   }
 }
