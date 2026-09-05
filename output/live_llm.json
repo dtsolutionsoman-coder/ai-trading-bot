@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T03:59:18",
+  "saved_at": "2026-09-05T04:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1630,7 +1630,7 @@
       "reason": "Downtrend (negative 6h/24h, SMA ratio <1) and positive funding support the profitable short, but fading momentum (flat 1h, falling OI, neutral RSI) argues against adding."
     }
   ],
-  "llm_bar_index": 1082,
+  "llm_bar_index": 1083,
   "llm_usage": {
     "calls": 271,
     "prompt_tokens": 97412,
@@ -6399,9 +6399,13 @@
     [
       "2026-09-05T03:30:00",
       9800.23
+    ],
+    [
+      "2026-09-05T03:45:00",
+      9798.43
     ]
   ],
-  "last_bar_ts": "2026-09-05T03:30:00",
-  "bars_processed": 1114,
+  "last_bar_ts": "2026-09-05T03:45:00",
+  "bars_processed": 1115,
   "starting_cash": 10000.0
 }
