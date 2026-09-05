@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T01:44:37",
+  "saved_at": "2026-09-05T01:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1618,7 +1618,7 @@
       "reason": "Bearish momentum across all timeframes and positive funding support keeping the profitable short, but near-oversold RSI and thin volume argue against adding size."
     }
   ],
-  "llm_bar_index": 1073,
+  "llm_bar_index": 1074,
   "llm_usage": {
     "calls": 269,
     "prompt_tokens": 96692,
@@ -6351,9 +6351,13 @@
     [
       "2026-09-05T01:15:00",
       9784.23
+    ],
+    [
+      "2026-09-05T01:30:00",
+      9804.25
     ]
   ],
-  "last_bar_ts": "2026-09-05T01:15:00",
-  "bars_processed": 1105,
+  "last_bar_ts": "2026-09-05T01:30:00",
+  "bars_processed": 1106,
   "starting_cash": 10000.0
 }
