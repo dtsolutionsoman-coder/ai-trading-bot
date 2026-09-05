@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T04:22:35",
+  "saved_at": "2026-09-05T04:31:05",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-27T12:30:34.693019",
-        10000.0
-      ],
       [
         "2026-08-27T12:45:29.165643",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T04:22:35.366928",
         10000.0
+      ],
+      [
+        "2026-09-05T04:30:36.110018",
+        10000.0
       ]
     ]
   },
@@ -9169,11 +9169,18 @@
       "market_price": 0.455,
       "question": "Will Newcastle United FC win on 2026-09-05?",
       "ts": "2026-09-05T00:30:35"
+    },
+    "3791994": {
+      "probability": 0.48,
+      "reason": "Brighton's opponent and fixture details for that date are unknown to me, so I stay near the market price with a slight discount for uncertainty about the matchup.",
+      "market_price": 0.495,
+      "question": "Will Brighton & Hove Albion FC win on 2026-09-05?",
+      "ts": "2026-09-05T04:30:36"
     }
   },
   "llm_usage": {
-    "calls": 152,
-    "prompt_tokens": 25296,
-    "completion_tokens": 81529
+    "calls": 153,
+    "prompt_tokens": 25466,
+    "completion_tokens": 83320
   }
 }
