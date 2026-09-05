@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T20:40:11",
+  "saved_at": "2026-09-05T20:45:45",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T00:45:28.850238",
-        9996.657718
-      ],
       [
         "2026-08-29T00:46:47.258946",
         9996.657718
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T20:40:11.458746",
         10000.0
+      ],
+      [
+        "2026-09-05T20:45:27.630630",
+        10000.0
       ]
     ]
   },
@@ -9288,11 +9288,18 @@
       "market_price": 0.575,
       "question": "Will AS Roma win on 2026-09-05?",
       "ts": "2026-09-05T18:40:39"
+    },
+    "2243897": {
+      "probability": 0.27,
+      "reason": "Sustained diplomatic pressure and war fatigue on both sides give some chance of at least a temporary ceasefire by end-2026, but deep disagreements over territory and security guarantees keep this clos",
+      "market_price": 0.245,
+      "question": "Russia x Ukraine ceasefire agreement by December 31, 2026?",
+      "ts": "2026-09-05T20:45:27"
     }
   },
   "llm_usage": {
-    "calls": 171,
-    "prompt_tokens": 28456,
-    "completion_tokens": 98384
+    "calls": 172,
+    "prompt_tokens": 28621,
+    "completion_tokens": 99314
   }
 }
