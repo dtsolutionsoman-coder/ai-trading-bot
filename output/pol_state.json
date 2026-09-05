@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-05T15:02:59",
+  "saved_at": "2026-09-05T15:15:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-28T16:46:21.288328",
-        10000.0
-      ],
       [
         "2026-08-28T17:00:40.787281",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-05T15:02:58.852528",
         10000.0
+      ],
+      [
+        "2026-09-05T15:15:43.080825",
+        10000.0
       ]
     ]
   },
@@ -9211,11 +9211,18 @@
       "market_price": 0.095,
       "question": "Will Crystal Palace FC win on 2026-09-05?",
       "ts": "2026-09-05T15:00:38"
+    },
+    "2730675": {
+      "probability": 0.06,
+      "reason": "Khamenei's advanced age and reported health issues put actuarial risk above the market's low 2.9% price, though confirmed succession remains uncertain.",
+      "market_price": 0.0285,
+      "question": "Iran leadership change by September 30?",
+      "ts": "2026-09-05T15:15:43"
     }
   },
   "llm_usage": {
-    "calls": 158,
-    "prompt_tokens": 26302,
-    "completion_tokens": 87281
+    "calls": 159,
+    "prompt_tokens": 26462,
+    "completion_tokens": 88138
   }
 }
