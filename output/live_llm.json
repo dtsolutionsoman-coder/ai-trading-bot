@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-04T23:58:44",
+  "saved_at": "2026-09-05T00:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1606,7 +1606,7 @@
       "reason": "Profitable short intact with 24h downtrend, SMA ratio below 1, and richly positive funding favoring shorts, though flat 1h/6h momentum argues against adding risk."
     }
   ],
-  "llm_bar_index": 1066,
+  "llm_bar_index": 1067,
   "llm_usage": {
     "calls": 267,
     "prompt_tokens": 95971,
@@ -6311,9 +6311,13 @@
     [
       "2026-09-04T23:30:00",
       9792.46
+    ],
+    [
+      "2026-09-04T23:45:00",
+      9786.79
     ]
   ],
-  "last_bar_ts": "2026-09-04T23:30:00",
-  "bars_processed": 1098,
+  "last_bar_ts": "2026-09-04T23:45:00",
+  "bars_processed": 1099,
   "starting_cash": 10000.0
 }
