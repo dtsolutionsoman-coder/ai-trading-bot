@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-05T06:34:34",
+  "saved_at": "2026-09-05T06:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1648,7 +1648,7 @@
       "reason": "Bearish trend (24h -2.9%, SMA12/SMA48 <1) and high positive funding favor the profitable short, but near-oversold RSI and thin volume warrant no size increase."
     }
   ],
-  "llm_bar_index": 1093,
+  "llm_bar_index": 1094,
   "llm_usage": {
     "calls": 274,
     "prompt_tokens": 98491,
@@ -6461,9 +6461,13 @@
     [
       "2026-09-05T06:15:00",
       9800.72
+    ],
+    [
+      "2026-09-05T06:30:00",
+      9798.58
     ]
   ],
-  "last_bar_ts": "2026-09-05T06:15:00",
-  "bars_processed": 1125,
+  "last_bar_ts": "2026-09-05T06:30:00",
+  "bars_processed": 1126,
   "starting_cash": 10000.0
 }
