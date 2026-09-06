@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T22:26:34",
+  "saved_at": "2026-09-06T22:30:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1888,7 +1888,7 @@
       "reason": "Mildly bearish drift (RSI<50, SMA12/48<1, falling OI, crowded long funding) supports the small short, but flat 6h momentum and very low volume argue against adding risk to a slightly underwater positi"
     }
   ],
-  "llm_bar_index": 1252,
+  "llm_bar_index": 1253,
   "llm_usage": {
     "calls": 314,
     "prompt_tokens": 112859,
@@ -7391,9 +7391,13 @@
     [
       "2026-09-06T22:00:00",
       9801.57
+    ],
+    [
+      "2026-09-06T22:15:00",
+      9800.4
     ]
   ],
-  "last_bar_ts": "2026-09-06T22:00:00",
-  "bars_processed": 1284,
+  "last_bar_ts": "2026-09-06T22:15:00",
+  "bars_processed": 1285,
   "starting_cash": 10000.0
 }
