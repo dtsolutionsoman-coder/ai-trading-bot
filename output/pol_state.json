@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T12:49:47",
+  "saved_at": "2026-09-06T12:57:24",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T13:37:55.667813",
-        10000.0
-      ],
       [
         "2026-08-29T13:44:34.596421",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T12:49:46.583373",
         10000.0
+      ],
+      [
+        "2026-09-06T12:57:14.075119",
+        10000.0
       ]
     ]
   },
@@ -9351,11 +9351,18 @@
       "market_price": 0.555,
       "question": "Will Arsenal FC win on 2026-09-06?",
       "ts": "2026-09-06T08:30:35"
+    },
+    "3829888": {
+      "probability": 0.26,
+      "reason": "Opponent and venue for this future fixture are unknown; Everton's win probability of ~25% is plausible for an underdog, so staying close to market price.",
+      "market_price": 0.255,
+      "question": "Will Everton FC win on 2026-09-06?",
+      "ts": "2026-09-06T12:57:14"
     }
   },
   "llm_usage": {
-    "calls": 180,
-    "prompt_tokens": 29933,
-    "completion_tokens": 102151
+    "calls": 181,
+    "prompt_tokens": 30097,
+    "completion_tokens": 102612
   }
 }
