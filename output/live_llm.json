@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T17:55:40",
+  "saved_at": "2026-09-06T18:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1858,7 +1858,7 @@
       "reason": "Consistent negative momentum across timeframes with SMA ratio below 1, crowded long funding, and falling OI warrants cutting the flat long, though oversold RSI tempers conviction for aggressive shorti"
     }
   ],
-  "llm_bar_index": 1234,
+  "llm_bar_index": 1235,
   "llm_usage": {
     "calls": 309,
     "prompt_tokens": 111062,
@@ -7289,9 +7289,13 @@
     [
       "2026-09-06T17:30:00",
       9803.17
+    ],
+    [
+      "2026-09-06T17:45:00",
+      9803.94
     ]
   ],
-  "last_bar_ts": "2026-09-06T17:30:00",
-  "bars_processed": 1266,
+  "last_bar_ts": "2026-09-06T17:45:00",
+  "bars_processed": 1267,
   "starting_cash": 10000.0
 }
