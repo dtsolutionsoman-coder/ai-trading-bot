@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T00:34:51",
+  "saved_at": "2026-09-06T00:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1756,7 +1756,7 @@
       "reason": "Short is profitable with mild downtrend and extreme positive funding supporting it, but flat RSI and very low volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1165,
+  "llm_bar_index": 1166,
   "llm_usage": {
     "calls": 292,
     "prompt_tokens": 104967,
@@ -6884,9 +6884,13 @@
     [
       "2026-09-06T00:15:00",
       9803.01
+    ],
+    [
+      "2026-09-06T00:30:00",
+      9803.29
     ]
   ],
-  "last_bar_ts": "2026-09-06T00:15:00",
-  "bars_processed": 1197,
+  "last_bar_ts": "2026-09-06T00:30:00",
+  "bars_processed": 1198,
   "starting_cash": 10000.0
 }
