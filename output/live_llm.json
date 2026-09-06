@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T09:54:24",
+  "saved_at": "2026-09-06T10:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1810,7 +1810,7 @@
       "reason": "Mildly bearish structure (SMA ratio <1, RSI 39, positive funding favoring the short) supports keeping the profitable short, but flat price action and low volume argue against adding."
     }
   ],
-  "llm_bar_index": 1202,
+  "llm_bar_index": 1203,
   "llm_usage": {
     "calls": 301,
     "prompt_tokens": 108193,
@@ -7095,9 +7095,13 @@
     [
       "2026-09-06T09:30:00",
       9808.23
+    ],
+    [
+      "2026-09-06T09:45:00",
+      9806.97
     ]
   ],
-  "last_bar_ts": "2026-09-06T09:30:00",
-  "bars_processed": 1234,
+  "last_bar_ts": "2026-09-06T09:45:00",
+  "bars_processed": 1235,
   "starting_cash": 10000.0
 }
