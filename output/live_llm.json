@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T10:43:43",
+  "saved_at": "2026-09-06T10:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1816,7 +1816,7 @@
       "reason": "Profitable short with extreme positive funding (93% ann) and perp premium favoring shorts; price action is neutral, so keep the position and collect carry."
     }
   ],
-  "llm_bar_index": 1205,
+  "llm_bar_index": 1206,
   "llm_usage": {
     "calls": 302,
     "prompt_tokens": 108552,
@@ -7113,9 +7113,13 @@
     [
       "2026-09-06T10:15:00",
       9804.74
+    ],
+    [
+      "2026-09-06T10:30:00",
+      9803.69
     ]
   ],
-  "last_bar_ts": "2026-09-06T10:15:00",
-  "bars_processed": 1237,
+  "last_bar_ts": "2026-09-06T10:30:00",
+  "bars_processed": 1238,
   "starting_cash": 10000.0
 }
