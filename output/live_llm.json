@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T21:40:46",
+  "saved_at": "2026-09-06T21:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1882,7 +1882,7 @@
       "reason": "Bearish structure (24h down, SMA ratio <1, negative perp premium, falling OI) supports the tiny short, but short-term momentum and near-overbought RSI offset it, so keeping the small position."
     }
   ],
-  "llm_bar_index": 1249,
+  "llm_bar_index": 1250,
   "llm_usage": {
     "calls": 313,
     "prompt_tokens": 112500,
@@ -7373,9 +7373,13 @@
     [
       "2026-09-06T21:15:00",
       9797.68
+    ],
+    [
+      "2026-09-06T21:30:00",
+      9798.7
     ]
   ],
-  "last_bar_ts": "2026-09-06T21:15:00",
-  "bars_processed": 1281,
+  "last_bar_ts": "2026-09-06T21:30:00",
+  "bars_processed": 1282,
   "starting_cash": 10000.0
 }
