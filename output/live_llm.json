@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T06:29:39",
+  "saved_at": "2026-09-06T06:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1792,7 +1792,7 @@
       "reason": "Profitable small short benefits from extreme positive funding (201% annualized) while flat, low-volatility price action and sub-1 SMA ratio justify maintaining, not adding, exposure."
     }
   ],
-  "llm_bar_index": 1188,
+  "llm_bar_index": 1189,
   "llm_usage": {
     "calls": 298,
     "prompt_tokens": 107117,
@@ -7012,9 +7012,13 @@
     [
       "2026-09-06T06:00:00",
       9802.55
+    ],
+    [
+      "2026-09-06T06:15:00",
+      9805.85
     ]
   ],
-  "last_bar_ts": "2026-09-06T06:00:00",
-  "bars_processed": 1220,
+  "last_bar_ts": "2026-09-06T06:15:00",
+  "bars_processed": 1221,
   "starting_cash": 10000.0
 }
