@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T13:44:59",
+  "saved_at": "2026-09-06T13:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1834,7 +1834,7 @@
       "reason": "Price action is flat with neutral RSI and near-equal moving averages, but high positive funding gives the small profitable short positive carry, so keep current exposure."
     }
   ],
-  "llm_bar_index": 1217,
+  "llm_bar_index": 1218,
   "llm_usage": {
     "calls": 305,
     "prompt_tokens": 109626,
@@ -7179,9 +7179,13 @@
     [
       "2026-09-06T13:15:00",
       9811.12
+    ],
+    [
+      "2026-09-06T13:30:00",
+      9812.22
     ]
   ],
-  "last_bar_ts": "2026-09-06T13:15:00",
-  "bars_processed": 1249,
+  "last_bar_ts": "2026-09-06T13:30:00",
+  "bars_processed": 1250,
   "starting_cash": 10000.0
 }
