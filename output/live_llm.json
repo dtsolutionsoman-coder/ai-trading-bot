@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T02:03:41",
+  "saved_at": "2026-09-06T02:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1760,13 +1760,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Keeping the small profitable short as mild downtrend (SMA ratio <1, negative 24h change) and extreme positive funding favor shorts, but neutral RSI and flat 1h action argue against adding."
+    },
+    {
+      "ts": "2026-09-06T02:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme 175% annualized funding and sub-1 SMA ratio signal crowded longs in a weak structure, supporting a modest add to the profitable short while defending gains."
     }
   ],
-  "llm_bar_index": 1171,
+  "llm_bar_index": 1172,
   "llm_usage": {
-    "calls": 293,
-    "prompt_tokens": 105327,
-    "completion_tokens": 294372
+    "calls": 294,
+    "prompt_tokens": 105685,
+    "completion_tokens": 295351
   },
   "cash": 12250.360181144695,
   "positions": {
@@ -6914,9 +6920,13 @@
     [
       "2026-09-06T01:45:00",
       9801.03
+    ],
+    [
+      "2026-09-06T02:00:00",
+      9802.06
     ]
   ],
-  "last_bar_ts": "2026-09-06T01:45:00",
-  "bars_processed": 1203,
+  "last_bar_ts": "2026-09-06T02:00:00",
+  "bars_processed": 1204,
   "starting_cash": 10000.0
 }
