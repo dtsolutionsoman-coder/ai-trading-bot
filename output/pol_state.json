@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T18:04:09",
+  "saved_at": "2026-09-06T18:15:47",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T18:09:36.616509",
-        10000.0
-      ],
       [
         "2026-08-29T18:15:40.631483",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T18:04:07.380336",
         10000.0
+      ],
+      [
+        "2026-09-06T18:15:37.550723",
+        10000.0
       ]
     ]
   },
@@ -9379,11 +9379,18 @@
       "market_price": 0.05,
       "question": "Will US Sassuolo Calcio win on 2026-09-06?",
       "ts": "2026-09-06T17:55:41"
+    },
+    "3816681": {
+      "probability": 0.55,
+      "reason": "No information on opponent or context for this future match; staying close to the market-implied price.",
+      "market_price": 0.555,
+      "question": "Will Cruzeiro EC win on 2026-09-06?",
+      "ts": "2026-09-06T18:15:37"
     }
   },
   "llm_usage": {
-    "calls": 184,
-    "prompt_tokens": 30602,
-    "completion_tokens": 105313
+    "calls": 185,
+    "prompt_tokens": 30769,
+    "completion_tokens": 105577
   }
 }
