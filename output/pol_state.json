@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T20:15:49",
+  "saved_at": "2026-09-06T20:23:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T19:56:02.048476",
-        10000.0
-      ],
       [
         "2026-08-29T20:00:41.604573",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T20:15:47.311924",
         10000.0
+      ],
+      [
+        "2026-09-06T20:23:32.453528",
+        10000.0
       ]
     ]
   },
@@ -9414,11 +9414,25 @@
       "market_price": 0.185,
       "question": "Will AC Milan win on 2026-09-06?",
       "ts": "2026-09-06T19:59:35"
+    },
+    "3832941": {
+      "probability": 0.82,
+      "reason": "Insufficient match details available; staying near the market price while shading slightly down due to football's inherent draw/upset risk at high favorite prices.",
+      "market_price": 0.845,
+      "question": "Will RCD Espanyol de Barcelona win on 2026-09-06?",
+      "ts": "2026-09-06T20:23:32"
+    },
+    "1088478": {
+      "probability": 0.045,
+      "reason": "Medvedev's 2025 form decline and the rise of Sinner/Alcaraz plus a deep young field make a Slam title at age 30 unlikely, though his US Open hard-court pedigree keeps a small chance alive, roughly in ",
+      "market_price": 0.0525,
+      "question": "Will Daniil Medvedev win the 2026 Men's US Open?",
+      "ts": "2026-09-06T20:23:32"
     }
   },
   "llm_usage": {
-    "calls": 189,
-    "prompt_tokens": 31431,
-    "completion_tokens": 107878
+    "calls": 191,
+    "prompt_tokens": 31770,
+    "completion_tokens": 108941
   }
 }
