@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T20:55:25",
+  "saved_at": "2026-09-06T21:01:12",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9694.0,
+    "cash": 9592.0,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -18,6 +18,11 @@
       "pol:3654029:N": {
         "qty": 526.3157894736842,
         "avg_price": 0.1938,
+        "realized_pnl": 0.0
+      },
+      "pol:3832945:N": {
+        "qty": 1081.081081081081,
+        "avg_price": 0.09435,
         "realized_pnl": 0.0
       }
     },
@@ -51,13 +56,19 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge -0.510: LLM 0.30 vs market 0.81 \u2014 Will Leeds United FC vs. Brentford FC end in a dra"
+      },
+      {
+        "ts": "2026-09-06T21:00:39.428511",
+        "symbol": "pol:3832945:N",
+        "side": "buy",
+        "qty": 1081.081081081081,
+        "price": 0.09435,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.457: LLM 0.45 vs market 0.91 \u2014 Will Sevilla FC win on 2026-09-06?"
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T20:29:52.435621",
-        10000.0
-      ],
       [
         "2026-08-29T20:30:37.052936",
         10000.0
@@ -8053,6 +8064,10 @@
       [
         "2026-09-06T20:55:23.198984",
         10000.0
+      ],
+      [
+        "2026-09-06T21:00:39.428511",
+        9998.0
       ]
     ]
   },
@@ -9428,11 +9443,18 @@
       "market_price": 0.0525,
       "question": "Will Daniil Medvedev win the 2026 Men's US Open?",
       "ts": "2026-09-06T20:23:32"
+    },
+    "3832945": {
+      "probability": 0.45,
+      "reason": "Fixture and opponent unknown this far ahead; a mid-table La Liga side's typical win probability is far below the 0.907 market price, which looks overconfident for a football match outcome.",
+      "market_price": 0.9075,
+      "question": "Will Sevilla FC win on 2026-09-06?",
+      "ts": "2026-09-06T21:00:39"
     }
   },
   "llm_usage": {
-    "calls": 191,
-    "prompt_tokens": 31770,
-    "completion_tokens": 108941
+    "calls": 192,
+    "prompt_tokens": 31935,
+    "completion_tokens": 110422
   }
 }
