@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T18:20:08",
+  "saved_at": "2026-09-06T18:30:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T18:16:14.507197",
-        10000.0
-      ],
       [
         "2026-08-29T18:22:49.901692",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T18:20:05.210768",
         10000.0
+      ],
+      [
+        "2026-09-06T18:30:35.508440",
+        10000.0
       ]
     ]
   },
@@ -9386,11 +9386,18 @@
       "market_price": 0.555,
       "question": "Will Cruzeiro EC win on 2026-09-06?",
       "ts": "2026-09-06T18:15:37"
+    },
+    "2244513": {
+      "probability": 0.1,
+      "reason": "AfD leads Saxony-Anhalt polls (~35-38%) but an absolute seat majority requires roughly 45% of votes, a large further surge; market price is roughly fair, so staying near it.",
+      "market_price": 0.115,
+      "question": "Will AfD win an absolute majority of seats in Sachsen-Anhalt?",
+      "ts": "2026-09-06T18:30:35"
     }
   },
   "llm_usage": {
-    "calls": 185,
-    "prompt_tokens": 30769,
-    "completion_tokens": 105577
+    "calls": 186,
+    "prompt_tokens": 30935,
+    "completion_tokens": 106715
   }
 }
