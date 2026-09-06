@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T15:22:40",
+  "saved_at": "2026-09-06T15:30:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1846,7 +1846,7 @@
       "reason": "RSI at 14.2 is extremely oversold while the short is +3.31%, so partially cover to defend profit against a mean-reversion bounce in a weak, low-volume downtrend."
     }
   ],
-  "llm_bar_index": 1224,
+  "llm_bar_index": 1225,
   "llm_usage": {
     "calls": 307,
     "prompt_tokens": 110345,
@@ -7228,9 +7228,13 @@
     [
       "2026-09-06T15:00:00",
       9813.96
+    ],
+    [
+      "2026-09-06T15:15:00",
+      9817.1
     ]
   ],
-  "last_bar_ts": "2026-09-06T15:00:00",
-  "bars_processed": 1256,
+  "last_bar_ts": "2026-09-06T15:15:00",
+  "bars_processed": 1257,
   "starting_cash": 10000.0
 }
