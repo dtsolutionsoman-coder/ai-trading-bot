@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T08:57:45",
+  "saved_at": "2026-09-06T09:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1804,7 +1804,7 @@
       "reason": "Bearish alignment of negative 6h/24h momentum, SMA ratio below 1, RSI 42, declining OI, and high positive funding rewards the existing profitable short; modest size due to thin volume and low volatili"
     }
   ],
-  "llm_bar_index": 1198,
+  "llm_bar_index": 1199,
   "llm_usage": {
     "calls": 300,
     "prompt_tokens": 107835,
@@ -7073,9 +7073,13 @@
     [
       "2026-09-06T08:30:00",
       9812.59
+    ],
+    [
+      "2026-09-06T08:45:00",
+      9811.39
     ]
   ],
-  "last_bar_ts": "2026-09-06T08:30:00",
-  "bars_processed": 1230,
+  "last_bar_ts": "2026-09-06T08:45:00",
+  "bars_processed": 1231,
   "starting_cash": 10000.0
 }
