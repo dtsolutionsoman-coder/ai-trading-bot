@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T13:06:35",
+  "saved_at": "2026-09-06T13:15:58",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T13:51:30.784596",
-        10000.0
-      ],
       [
         "2026-08-29T13:57:52.966487",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T13:06:35.430638",
         10000.0
+      ],
+      [
+        "2026-09-06T13:15:42.233512",
+        10000.0
       ]
     ]
   },
@@ -9358,11 +9358,18 @@
       "market_price": 0.255,
       "question": "Will Everton FC win on 2026-09-06?",
       "ts": "2026-09-06T12:57:14"
+    },
+    "3829931": {
+      "probability": 0.19,
+      "reason": "Chelsea may not even have a fixture on that date (likely international break period), and with unknown opponent, staying near the market's low implied probability is appropriate.",
+      "market_price": 0.185,
+      "question": "Will Chelsea FC win on 2026-09-06?",
+      "ts": "2026-09-06T13:15:42"
     }
   },
   "llm_usage": {
-    "calls": 181,
-    "prompt_tokens": 30097,
-    "completion_tokens": 102612
+    "calls": 182,
+    "prompt_tokens": 30261,
+    "completion_tokens": 103362
   }
 }
