@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T18:56:28",
+  "saved_at": "2026-09-06T19:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1864,7 +1864,7 @@
       "reason": "Mildly bearish trend and negative perp premium support the small short, but RSI above 50 and positive funding keep signals mixed, so maintain minimal exposure."
     }
   ],
-  "llm_bar_index": 1238,
+  "llm_bar_index": 1239,
   "llm_usage": {
     "calls": 310,
     "prompt_tokens": 111420,
@@ -7311,9 +7311,13 @@
     [
       "2026-09-06T18:30:00",
       9797.22
+    ],
+    [
+      "2026-09-06T18:45:00",
+      9796.91
     ]
   ],
-  "last_bar_ts": "2026-09-06T18:30:00",
-  "bars_processed": 1270,
+  "last_bar_ts": "2026-09-06T18:45:00",
+  "bars_processed": 1271,
   "starting_cash": 10000.0
 }
