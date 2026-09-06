@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T07:15:44",
+  "saved_at": "2026-09-06T07:22:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T09:16:42.881354",
-        10000.0
-      ],
       [
         "2026-08-29T09:23:26.985565",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T07:15:43.957570",
         10000.0
+      ],
+      [
+        "2026-09-06T07:22:39.459619",
+        10000.0
       ]
     ]
   },
@@ -9337,11 +9337,18 @@
       "market_price": 0.465,
       "question": "Will Manchester United FC win on 2026-09-06?",
       "ts": "2026-09-06T03:45:54"
+    },
+    "3411560": {
+      "probability": 0.32,
+      "reason": "MOUZ is a consistent top-tier CS team, but winning an outright tournament against a strong BLAST field is difficult, and favorites in winner markets are often slightly overpriced; with no current form",
+      "market_price": 0.345,
+      "question": "Will MOUZ Win the BLAST Open Porto 2026?",
+      "ts": "2026-09-06T07:22:39"
     }
   },
   "llm_usage": {
-    "calls": 178,
-    "prompt_tokens": 29616,
-    "completion_tokens": 101379
+    "calls": 179,
+    "prompt_tokens": 29768,
+    "completion_tokens": 101849
   }
 }
