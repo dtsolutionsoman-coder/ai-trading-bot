@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T18:32:01",
+  "saved_at": "2026-09-06T18:42:32",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T18:29:37.759632",
-        10000.0
-      ],
       [
         "2026-08-29T18:30:36.025035",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T18:31:59.531579",
         10000.0
+      ],
+      [
+        "2026-09-06T18:42:22.251907",
+        10000.0
       ]
     ]
   },
@@ -9393,11 +9393,18 @@
       "market_price": 0.115,
       "question": "Will AfD win an absolute majority of seats in Sachsen-Anhalt?",
       "ts": "2026-09-06T18:30:35"
+    },
+    "3829950": {
+      "probability": 0.49,
+      "reason": "Unknown opponent and fixture context nearly a year out; three-outcome soccer dynamics suggest staying close to but slightly below the market price.",
+      "market_price": 0.505,
+      "question": "Will Olympique de Marseille win on 2026-09-06?",
+      "ts": "2026-09-06T18:42:22"
     }
   },
   "llm_usage": {
-    "calls": 186,
-    "prompt_tokens": 30935,
-    "completion_tokens": 106715
+    "calls": 187,
+    "prompt_tokens": 31102,
+    "completion_tokens": 107069
   }
 }
