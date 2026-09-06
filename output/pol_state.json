@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T14:46:18",
+  "saved_at": "2026-09-06T14:53:12",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T15:15:53.185729",
-        10000.0
-      ],
       [
         "2026-08-29T15:17:03.497960",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T14:46:17.976667",
         10000.0
+      ],
+      [
+        "2026-09-06T14:53:04.350079",
+        10000.0
       ]
     ]
   },
@@ -9365,11 +9365,18 @@
       "market_price": 0.185,
       "question": "Will Chelsea FC win on 2026-09-06?",
       "ts": "2026-09-06T13:15:42"
+    },
+    "3829942": {
+      "probability": 0.54,
+      "reason": "No information available about the opponent or team form for this distant future match, so staying near the market price with a slight haircut since 55.5% is high for a soccer win outcome.",
+      "market_price": 0.555,
+      "question": "Will Stade Rennais FC 1901 win on 2026-09-06?",
+      "ts": "2026-09-06T14:53:04"
     }
   },
   "llm_usage": {
-    "calls": 182,
-    "prompt_tokens": 30261,
-    "completion_tokens": 103362
+    "calls": 183,
+    "prompt_tokens": 30433,
+    "completion_tokens": 103686
   }
 }
