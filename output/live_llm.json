@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T16:57:55",
+  "saved_at": "2026-09-06T17:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1852,7 +1852,7 @@
       "reason": "Mildly bearish drift (6h/24h down, SMA ratio <1, OI falling) is offset by near-oversold RSI and very thin volume, so keep only the minimal long and don't add risk."
     }
   ],
-  "llm_bar_index": 1230,
+  "llm_bar_index": 1231,
   "llm_usage": {
     "calls": 308,
     "prompt_tokens": 110703,
@@ -7258,9 +7258,13 @@
     [
       "2026-09-06T16:30:00",
       9819.82
+    ],
+    [
+      "2026-09-06T16:45:00",
+      9815.0
     ]
   ],
-  "last_bar_ts": "2026-09-06T16:30:00",
-  "bars_processed": 1262,
+  "last_bar_ts": "2026-09-06T16:45:00",
+  "bars_processed": 1263,
   "starting_cash": 10000.0
 }
