@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T03:45:41",
+  "saved_at": "2026-09-06T03:45:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -8051,7 +8051,7 @@
         10000.0
       ],
       [
-        "2026-09-06T03:45:23.393026",
+        "2026-09-06T03:45:54.399184",
         10000.0
       ]
     ]
@@ -9333,15 +9333,15 @@
     },
     "3829899": {
       "probability": 0.46,
-      "reason": "No known fixture details for that date far in advance, so with genuine uncertainty about opponent, venue, and squad, staying close to the market-implied price is the calibrated choice.",
+      "reason": "No reliable information on the specific fixture, opponent, or team form that far ahead, so staying close to the market price.",
       "market_price": 0.465,
       "question": "Will Manchester United FC win on 2026-09-06?",
-      "ts": "2026-09-06T03:45:23"
+      "ts": "2026-09-06T03:45:54"
     }
   },
   "llm_usage": {
     "calls": 178,
     "prompt_tokens": 29616,
-    "completion_tokens": 102173
+    "completion_tokens": 101379
   }
 }
