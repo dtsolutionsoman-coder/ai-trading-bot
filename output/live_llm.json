@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T20:23:31",
+  "saved_at": "2026-09-06T20:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1876,7 +1876,7 @@
       "reason": "Low-volatility chop with mixed signals (bullish RSI and funding vs. mildly negative drift and falling OI); keeping the small short but not adding risk."
     }
   ],
-  "llm_bar_index": 1244,
+  "llm_bar_index": 1245,
   "llm_usage": {
     "calls": 312,
     "prompt_tokens": 112139,
@@ -7347,9 +7347,13 @@
     [
       "2026-09-06T20:00:00",
       9801.14
+    ],
+    [
+      "2026-09-06T20:15:00",
+      9797.41
     ]
   ],
-  "last_bar_ts": "2026-09-06T20:00:00",
-  "bars_processed": 1276,
+  "last_bar_ts": "2026-09-06T20:15:00",
+  "bars_processed": 1277,
   "starting_cash": 10000.0
 }
