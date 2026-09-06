@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T19:53:17",
+  "saved_at": "2026-09-06T19:59:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9694.0,
@@ -54,10 +54,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T19:36:07.853112",
-        10000.0
-      ],
       [
         "2026-08-29T19:42:49.141254",
         10000.0
@@ -8053,6 +8049,10 @@
       [
         "2026-09-06T19:53:15.402188",
         10000.0
+      ],
+      [
+        "2026-09-06T19:59:35.938318",
+        10000.0
       ]
     ]
   },
@@ -9407,11 +9407,18 @@
       "market_price": 0.405,
       "question": "Will Juventus FC win on 2026-09-06?",
       "ts": "2026-09-06T19:15:46"
+    },
+    "3825455": {
+      "probability": 0.19,
+      "reason": "No reliable information about the opponent or match context this far out; staying close to the market-implied price.",
+      "market_price": 0.185,
+      "question": "Will AC Milan win on 2026-09-06?",
+      "ts": "2026-09-06T19:59:35"
     }
   },
   "llm_usage": {
-    "calls": 188,
-    "prompt_tokens": 31267,
-    "completion_tokens": 107420
+    "calls": 189,
+    "prompt_tokens": 31431,
+    "completion_tokens": 107878
   }
 }
