@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-06T22:34:32",
+  "saved_at": "2026-09-06T22:42:36",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-29T21:56:43.080363",
-        10000.0
-      ],
       [
         "2026-08-29T22:00:42.219588",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-06T22:34:30.447991",
         10000.0
+      ],
+      [
+        "2026-09-06T22:42:19.328567",
+        10000.0
       ]
     ]
   },
@@ -9450,11 +9450,18 @@
       "market_price": 0.9075,
       "question": "Will Sevilla FC win on 2026-09-06?",
       "ts": "2026-09-06T21:00:39"
+    },
+    "2491342": {
+      "probability": 0.02,
+      "reason": "Base leadership has repeatedly and consistently committed to not launching a token, and Coinbase's public-company status adds regulatory friction, but the long horizon and shifting crypto-friendly reg",
+      "market_price": 0.0115,
+      "question": "Will Base launch a token by September 30, 2026?",
+      "ts": "2026-09-06T22:42:19"
     }
   },
   "llm_usage": {
-    "calls": 192,
-    "prompt_tokens": 31935,
-    "completion_tokens": 110422
+    "calls": 193,
+    "prompt_tokens": 32101,
+    "completion_tokens": 110925
   }
 }
