@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T02:54:11",
+  "saved_at": "2026-09-06T03:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1768,7 +1768,7 @@
       "reason": "Extreme 175% annualized funding and sub-1 SMA ratio signal crowded longs in a weak structure, supporting a modest add to the profitable short while defending gains."
     }
   ],
-  "llm_bar_index": 1174,
+  "llm_bar_index": 1175,
   "llm_usage": {
     "calls": 294,
     "prompt_tokens": 105685,
@@ -6932,9 +6932,13 @@
     [
       "2026-09-06T02:30:00",
       9806.16
+    ],
+    [
+      "2026-09-06T02:45:00",
+      9804.69
     ]
   ],
-  "last_bar_ts": "2026-09-06T02:30:00",
-  "bars_processed": 1206,
+  "last_bar_ts": "2026-09-06T02:45:00",
+  "bars_processed": 1207,
   "starting_cash": 10000.0
 }
