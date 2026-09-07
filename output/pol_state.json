@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T21:56:54",
+  "saved_at": "2026-09-07T22:00:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T14:37:59.700653",
-        10000.0
-      ],
       [
         "2026-08-30T14:44:31.482834",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T21:56:54.009657",
         10000.0
+      ],
+      [
+        "2026-09-07T22:00:41.018410",
+        10000.0
       ]
     ]
   },
@@ -9548,11 +9548,25 @@
       "market_price": 0.579,
       "question": "Will Elche CF vs. Real Sociedad de F\u00fatbol end in a draw?",
       "ts": "2026-09-07T21:15:41"
+    },
+    "4006138": {
+      "probability": 0.44,
+      "reason": "Match details (opponent, venue, form) far in the future are unknown; the market price of ~0.445 is plausible for a mid-table side likely at home, so staying near market.",
+      "market_price": 0.445,
+      "question": "Will AA Argentinos Juniors win on 2026-09-07?",
+      "ts": "2026-09-07T22:00:41"
+    },
+    "3977525": {
+      "probability": 0.59,
+      "reason": "Opponent and competition context for this 2026 fixture is unknown, so staying near the market price, which aligns with Real Madrid's typical win rate against average opposition.",
+      "market_price": 0.595,
+      "question": "Will Real Madrid CF win on 2026-09-08?",
+      "ts": "2026-09-07T22:00:41"
     }
   },
   "llm_usage": {
-    "calls": 207,
-    "prompt_tokens": 34447,
-    "completion_tokens": 118157
+    "calls": 209,
+    "prompt_tokens": 34781,
+    "completion_tokens": 119065
   }
 }

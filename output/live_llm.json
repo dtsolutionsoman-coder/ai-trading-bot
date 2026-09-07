@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T21:56:52",
+  "saved_at": "2026-09-07T22:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2026,7 +2026,7 @@
       "reason": "High positive funding and falling OI on a weak bounce support the small short, but rising short-term momentum (RSI 66) and mixed hourly signals warrant only minimal exposure."
     }
   ],
-  "llm_bar_index": 1346,
+  "llm_bar_index": 1347,
   "llm_usage": {
     "calls": 337,
     "prompt_tokens": 121106,
@@ -7950,9 +7950,13 @@
     [
       "2026-09-07T21:30:00",
       9789.31
+    ],
+    [
+      "2026-09-07T21:45:00",
+      9787.71
     ]
   ],
-  "last_bar_ts": "2026-09-07T21:30:00",
-  "bars_processed": 1378,
+  "last_bar_ts": "2026-09-07T21:45:00",
+  "bars_processed": 1379,
   "starting_cash": 10000.0
 }
