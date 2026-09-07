@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T17:21:13",
+  "saved_at": "2026-09-07T17:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2002,7 +2002,7 @@
       "reason": "Mildly bearish momentum is offset by deeply negative funding favoring longs, so keep the small profitable long rather than add or cut."
     }
   ],
-  "llm_bar_index": 1328,
+  "llm_bar_index": 1329,
   "llm_usage": {
     "calls": 333,
     "prompt_tokens": 119670,
@@ -7845,9 +7845,13 @@
     [
       "2026-09-07T17:00:00",
       9792.37
+    ],
+    [
+      "2026-09-07T17:15:00",
+      9791.81
     ]
   ],
-  "last_bar_ts": "2026-09-07T17:00:00",
-  "bars_processed": 1360,
+  "last_bar_ts": "2026-09-07T17:15:00",
+  "bars_processed": 1361,
   "starting_cash": 10000.0
 }
