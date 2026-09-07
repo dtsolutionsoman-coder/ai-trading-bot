@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-06T23:55:02",
+  "saved_at": "2026-09-07T00:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1894,7 +1894,7 @@
       "reason": "Short-term momentum is rising against the small losing short, so cut it toward flat while avoiding new longs with RSI near overbought."
     }
   ],
-  "llm_bar_index": 1258,
+  "llm_bar_index": 1259,
   "llm_usage": {
     "calls": 315,
     "prompt_tokens": 113220,
@@ -7430,9 +7430,13 @@
     [
       "2026-09-06T23:30:00",
       9787.41
+    ],
+    [
+      "2026-09-06T23:45:00",
+      9786.75
     ]
   ],
-  "last_bar_ts": "2026-09-06T23:30:00",
-  "bars_processed": 1290,
+  "last_bar_ts": "2026-09-06T23:45:00",
+  "bars_processed": 1291,
   "starting_cash": 10000.0
 }
