@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T05:16:32",
+  "saved_at": "2026-09-07T05:27:40",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T02:46:46.899169",
-        10000.0
-      ],
       [
         "2026-08-30T02:53:35.443050",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T05:16:25.941147",
         10000.0
+      ],
+      [
+        "2026-09-07T05:27:25.131338",
+        10000.0
       ]
     ]
   },
@@ -9492,11 +9492,18 @@
       "market_price": 0.345,
       "question": "Will Udinese Calcio win on 2026-09-07?",
       "ts": "2026-09-07T04:54:32"
+    },
+    "2696747": {
+      "probability": 0.1,
+      "reason": "A full final nuclear deal is a very high bar given deep US-Iran mistrust, advanced Iranian enrichment, and regional tensions, though the long timeframe keeps some chance alive; market price looks roug",
+      "market_price": 0.105,
+      "question": "US-Iran Final Nuclear Deal by December 31, 2026?",
+      "ts": "2026-09-07T05:27:25"
     }
   },
   "llm_usage": {
-    "calls": 198,
-    "prompt_tokens": 32933,
-    "completion_tokens": 112642
+    "calls": 199,
+    "prompt_tokens": 33099,
+    "completion_tokens": 112970
   }
 }
