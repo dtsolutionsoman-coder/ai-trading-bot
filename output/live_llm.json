@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T23:22:40",
+  "saved_at": "2026-09-07T23:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2038,7 +2038,7 @@
       "reason": "Neutral mixed signals (flat RSI, mild SMA downside, intraday bounce) with very high positive funding favoring the small short, so maintain minimal exposure rather than add."
     }
   ],
-  "llm_bar_index": 1352,
+  "llm_bar_index": 1353,
   "llm_usage": {
     "calls": 339,
     "prompt_tokens": 121823,
@@ -7986,9 +7986,13 @@
     [
       "2026-09-07T23:00:00",
       9784.55
+    ],
+    [
+      "2026-09-07T23:15:00",
+      9786.81
     ]
   ],
-  "last_bar_ts": "2026-09-07T23:00:00",
-  "bars_processed": 1384,
+  "last_bar_ts": "2026-09-07T23:15:00",
+  "bars_processed": 1385,
   "starting_cash": 10000.0
 }
