@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T13:59:37",
+  "saved_at": "2026-09-07T14:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1978,7 +1978,7 @@
       "reason": "Mixed signals (mild 24h weakness and SMA<1 support the small short, but RSI ~65 and positive funding offset) with low volatility; keeping the tiny profitable short intact."
     }
   ],
-  "llm_bar_index": 1314,
+  "llm_bar_index": 1315,
   "llm_usage": {
     "calls": 329,
     "prompt_tokens": 118236,
@@ -7756,9 +7756,13 @@
     [
       "2026-09-07T13:30:00",
       9782.72
+    ],
+    [
+      "2026-09-07T13:45:00",
+      9783.21
     ]
   ],
-  "last_bar_ts": "2026-09-07T13:30:00",
-  "bars_processed": 1346,
+  "last_bar_ts": "2026-09-07T13:45:00",
+  "bars_processed": 1347,
   "starting_cash": 10000.0
 }
