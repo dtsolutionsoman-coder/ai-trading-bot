@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T00:30:54",
+  "saved_at": "2026-09-07T00:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1900,7 +1900,7 @@
       "reason": "Overbought RSI (72.8) and elevated positive funding (10.95%) offset mild short-term upside momentum, so holding the small profitable long without adding risk."
     }
   ],
-  "llm_bar_index": 1261,
+  "llm_bar_index": 1262,
   "llm_usage": {
     "calls": 316,
     "prompt_tokens": 113578,
@@ -7448,9 +7448,13 @@
     [
       "2026-09-07T00:15:00",
       9784.42
+    ],
+    [
+      "2026-09-07T00:30:00",
+      9783.71
     ]
   ],
-  "last_bar_ts": "2026-09-07T00:15:00",
-  "bars_processed": 1293,
+  "last_bar_ts": "2026-09-07T00:30:00",
+  "bars_processed": 1294,
   "starting_cash": 10000.0
 }
