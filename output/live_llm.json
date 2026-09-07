@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T02:36:58",
+  "saved_at": "2026-09-07T02:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1912,7 +1912,7 @@
       "reason": "Low-volatility consolidation with neutral RSI and mildly soft momentum keeps the tiny long position as is; no features agree strongly enough to add or cut."
     }
   ],
-  "llm_bar_index": 1269,
+  "llm_bar_index": 1270,
   "llm_usage": {
     "calls": 318,
     "prompt_tokens": 114294,
@@ -7492,9 +7492,13 @@
     [
       "2026-09-07T02:15:00",
       9781.45
+    ],
+    [
+      "2026-09-07T02:30:00",
+      9785.47
     ]
   ],
-  "last_bar_ts": "2026-09-07T02:15:00",
-  "bars_processed": 1301,
+  "last_bar_ts": "2026-09-07T02:30:00",
+  "bars_processed": 1302,
   "starting_cash": 10000.0
 }
