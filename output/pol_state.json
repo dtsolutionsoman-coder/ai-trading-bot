@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T04:45:27",
+  "saved_at": "2026-09-07T04:54:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T02:30:39.218052",
-        10000.0
-      ],
       [
         "2026-08-30T02:33:22.389231",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T04:45:25.580677",
         10000.0
+      ],
+      [
+        "2026-09-07T04:54:32.178932",
+        10000.0
       ]
     ]
   },
@@ -9478,11 +9478,25 @@
       "market_price": 0.465,
       "question": "Will Cagliari Calcio win on 2026-09-07?",
       "ts": "2026-09-07T04:44:50"
+    },
+    "3861685": {
+      "probability": 0.34,
+      "reason": "No reliable information about the opponent or context for a match this far out; staying near the market-implied price of 0.335.",
+      "market_price": 0.335,
+      "question": "Will SS Lazio win on 2026-09-07?",
+      "ts": "2026-09-07T04:54:32"
+    },
+    "3861683": {
+      "probability": 0.34,
+      "reason": "Match is far in the future with unknown opponent and context, so staying near the market-implied price of ~0.35 for a typical Serie A win probability.",
+      "market_price": 0.345,
+      "question": "Will Udinese Calcio win on 2026-09-07?",
+      "ts": "2026-09-07T04:54:32"
     }
   },
   "llm_usage": {
-    "calls": 196,
-    "prompt_tokens": 32600,
-    "completion_tokens": 112208
+    "calls": 198,
+    "prompt_tokens": 32933,
+    "completion_tokens": 112642
   }
 }
