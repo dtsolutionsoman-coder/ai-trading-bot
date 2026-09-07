@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T16:41:28",
+  "saved_at": "2026-09-07T16:45:32",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T10:36:58.564782",
-        10000.0
-      ],
       [
         "2026-08-30T10:43:45.742061",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T16:41:28.313777",
         10000.0
+      ],
+      [
+        "2026-09-07T16:45:25.280123",
+        10000.0
       ]
     ]
   },
@@ -9506,11 +9506,18 @@
       "market_price": 0.13,
       "question": "Will Tala'ea El Gaish SC win on 2026-09-07?",
       "ts": "2026-09-07T15:15:53"
+    },
+    "3868705": {
+      "probability": 0.33,
+      "reason": "No reliable information about the future fixture or opponent; staying close to market price for a typical Getafe match outcome.",
+      "market_price": 0.335,
+      "question": "Will Getafe CF win on 2026-09-07?",
+      "ts": "2026-09-07T16:45:25"
     }
   },
   "llm_usage": {
-    "calls": 200,
-    "prompt_tokens": 33269,
-    "completion_tokens": 113348
+    "calls": 201,
+    "prompt_tokens": 33436,
+    "completion_tokens": 113576
   }
 }
