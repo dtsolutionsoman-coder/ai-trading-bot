@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T22:20:15",
+  "saved_at": "2026-09-07T22:30:22",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2032,7 +2032,7 @@
       "reason": "Mixed signals\u2014mildly bullish momentum (RSI 61, 6h up) offset by bearish sma ratio and positive funding favoring the small short\u2014so maintain minimal exposure."
     }
   ],
-  "llm_bar_index": 1348,
+  "llm_bar_index": 1349,
   "llm_usage": {
     "calls": 338,
     "prompt_tokens": 121465,
@@ -7964,9 +7964,13 @@
     [
       "2026-09-07T22:00:00",
       9789.35
+    ],
+    [
+      "2026-09-07T22:15:00",
+      9787.68
     ]
   ],
-  "last_bar_ts": "2026-09-07T22:00:00",
-  "bars_processed": 1380,
+  "last_bar_ts": "2026-09-07T22:15:00",
+  "bars_processed": 1381,
   "starting_cash": 10000.0
 }
