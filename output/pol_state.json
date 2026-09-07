@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T04:31:56",
+  "saved_at": "2026-09-07T04:45:04",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T02:19:49.618567",
-        10000.0
-      ],
       [
         "2026-08-30T02:26:34.979758",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T04:31:53.723969",
         10000.0
+      ],
+      [
+        "2026-09-07T04:44:50.561681",
+        10000.0
       ]
     ]
   },
@@ -9471,11 +9471,18 @@
       "market_price": 0.9845,
       "question": "Will Russia enter Ternuvate again by October 31?",
       "ts": "2026-09-07T03:30:34"
+    },
+    "3861679": {
+      "probability": 0.46,
+      "reason": "No specific match information available for this future fixture; staying close to the market-implied probability which reflects a roughly even home matchup.",
+      "market_price": 0.465,
+      "question": "Will Cagliari Calcio win on 2026-09-07?",
+      "ts": "2026-09-07T04:44:50"
     }
   },
   "llm_usage": {
-    "calls": 195,
-    "prompt_tokens": 32432,
-    "completion_tokens": 111967
+    "calls": 196,
+    "prompt_tokens": 32600,
+    "completion_tokens": 112208
   }
 }
