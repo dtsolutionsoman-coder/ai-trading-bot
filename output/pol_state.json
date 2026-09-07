@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T15:10:57",
+  "saved_at": "2026-09-07T15:16:15",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T09:30:42.608068",
-        10000.0
-      ],
       [
         "2026-08-30T09:37:06.216582",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T15:10:54.667227",
         10000.0
+      ],
+      [
+        "2026-09-07T15:15:53.999891",
+        10000.0
       ]
     ]
   },
@@ -9499,11 +9499,18 @@
       "market_price": 0.105,
       "question": "US-Iran Final Nuclear Deal by December 31, 2026?",
       "ts": "2026-09-07T05:27:25"
+    },
+    "3856093": {
+      "probability": 0.14,
+      "reason": "No information on opponent or context for this future Egyptian league match; the low market price suggests El Gaish is a significant underdog, so staying near the implied probability.",
+      "market_price": 0.13,
+      "question": "Will Tala'ea El Gaish SC win on 2026-09-07?",
+      "ts": "2026-09-07T15:15:53"
     }
   },
   "llm_usage": {
-    "calls": 199,
-    "prompt_tokens": 33099,
-    "completion_tokens": 112970
+    "calls": 200,
+    "prompt_tokens": 33269,
+    "completion_tokens": 113348
   }
 }
