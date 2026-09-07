@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T18:51:31",
+  "saved_at": "2026-09-07T18:58:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T12:15:50.037838",
-        10000.0
-      ],
       [
         "2026-08-30T12:18:16.070320",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T18:51:31.447305",
         10000.0
+      ],
+      [
+        "2026-09-07T18:58:44.039014",
+        10000.0
       ]
     ]
   },
@@ -9520,11 +9520,18 @@
       "market_price": 0.355,
       "question": "Will RC Celta de Vigo win on 2026-09-07?",
       "ts": "2026-09-07T18:45:26"
+    },
+    "3868713": {
+      "probability": 0.42,
+      "reason": "No reliable information about this distant future fixture beyond market pricing; staying close to implied probability.",
+      "market_price": 0.425,
+      "question": "Will Real Sociedad de F\u00fatbol win on 2026-09-07?",
+      "ts": "2026-09-07T18:58:44"
     }
   },
   "llm_usage": {
-    "calls": 202,
-    "prompt_tokens": 33605,
-    "completion_tokens": 113828
+    "calls": 203,
+    "prompt_tokens": 33776,
+    "completion_tokens": 114038
   }
 }
