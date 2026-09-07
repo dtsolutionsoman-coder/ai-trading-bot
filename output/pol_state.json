@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T18:39:39",
+  "saved_at": "2026-09-07T18:45:33",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T12:04:49.226829",
-        10000.0
-      ],
       [
         "2026-08-30T12:11:28.235638",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T18:39:38.412846",
         10000.0
+      ],
+      [
+        "2026-09-07T18:45:26.974616",
+        10000.0
       ]
     ]
   },
@@ -9513,11 +9513,18 @@
       "market_price": 0.335,
       "question": "Will Getafe CF win on 2026-09-07?",
       "ts": "2026-09-07T16:45:25"
+    },
+    "3868709": {
+      "probability": 0.35,
+      "reason": "No information available about a match this far in the future; Celta's typical win rate aligns closely with the market-implied 0.355, so I stay near the price.",
+      "market_price": 0.355,
+      "question": "Will RC Celta de Vigo win on 2026-09-07?",
+      "ts": "2026-09-07T18:45:26"
     }
   },
   "llm_usage": {
-    "calls": 201,
-    "prompt_tokens": 33436,
-    "completion_tokens": 113576
+    "calls": 202,
+    "prompt_tokens": 33605,
+    "completion_tokens": 113828
   }
 }
