@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T03:19:21",
+  "saved_at": "2026-09-07T03:31:03",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T01:33:03.705771",
-        10000.0
-      ],
       [
         "2026-08-30T01:39:43.623588",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T03:19:18.861646",
         10000.0
+      ],
+      [
+        "2026-09-07T03:30:34.456266",
+        10000.0
       ]
     ]
   },
@@ -9464,11 +9464,18 @@
       "market_price": 0.345,
       "question": "Will SE Palmeiras win on 2026-09-06?",
       "ts": "2026-09-06T23:04:04"
+    },
+    "3902497": {
+      "probability": 0.98,
+      "reason": "Market shows near-certainty, consistent with Russia's sustained offensive pressure near this frontline settlement over the long timeframe; no strong basis to deviate significantly from price.",
+      "market_price": 0.9845,
+      "question": "Will Russia enter Ternuvate again by October 31?",
+      "ts": "2026-09-07T03:30:34"
     }
   },
   "llm_usage": {
-    "calls": 194,
-    "prompt_tokens": 32268,
-    "completion_tokens": 111237
+    "calls": 195,
+    "prompt_tokens": 32432,
+    "completion_tokens": 111967
   }
 }
