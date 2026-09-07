@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T05:39:08",
+  "saved_at": "2026-09-07T05:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1930,7 +1930,7 @@
       "reason": "Mildly bearish alignment (negative 6h/24h momentum, SMA ratio below 1, RSI 43, declining OI) with a small losing long argues for trimming exposure rather than pressing."
     }
   ],
-  "llm_bar_index": 1281,
+  "llm_bar_index": 1282,
   "llm_usage": {
     "calls": 321,
     "prompt_tokens": 115370,
@@ -7567,9 +7567,13 @@
     [
       "2026-09-07T05:15:00",
       9767.39
+    ],
+    [
+      "2026-09-07T05:30:00",
+      9764.88
     ]
   ],
-  "last_bar_ts": "2026-09-07T05:15:00",
-  "bars_processed": 1313,
+  "last_bar_ts": "2026-09-07T05:30:00",
+  "bars_processed": 1314,
   "starting_cash": 10000.0
 }
