@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T21:05:32",
+  "saved_at": "2026-09-07T21:16:14",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T14:00:44.804957",
-        10000.0
-      ],
       [
         "2026-08-30T14:04:15.215383",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T21:05:31.824344",
         10000.0
+      ],
+      [
+        "2026-09-07T21:15:41.591110",
+        10000.0
       ]
     ]
   },
@@ -9534,11 +9534,25 @@
       "market_price": 0.205,
       "question": "Will Al Hilal Saudi Club win on 2026-09-07?",
       "ts": "2026-09-07T19:09:12"
+    },
+    "3868710": {
+      "probability": 0.33,
+      "reason": "No specific fixture details available this far out; staying at the market-implied price for an unknown La Liga matchup.",
+      "market_price": 0.329,
+      "question": "Will Elche CF win on 2026-09-07?",
+      "ts": "2026-09-07T21:15:41"
+    },
+    "3868712": {
+      "probability": 0.56,
+      "reason": "A draw price of 0.579 is far above typical football draw rates (~26%), suggesting unusual resolution conditions (e.g., fixture uncertainty between clubs in different divisions); staying close to marke",
+      "market_price": 0.579,
+      "question": "Will Elche CF vs. Real Sociedad de F\u00fatbol end in a draw?",
+      "ts": "2026-09-07T21:15:41"
     }
   },
   "llm_usage": {
-    "calls": 205,
-    "prompt_tokens": 34110,
-    "completion_tokens": 116501
+    "calls": 207,
+    "prompt_tokens": 34447,
+    "completion_tokens": 118157
   }
 }
