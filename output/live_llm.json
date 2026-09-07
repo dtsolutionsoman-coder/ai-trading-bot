@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T15:54:34",
+  "saved_at": "2026-09-07T16:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1990,7 +1990,7 @@
       "reason": "Mildly bearish momentum, negative perp premium, and positive funding carry support the small profitable short, but low liquidity and near-oversold RSI argue against adding risk."
     }
   ],
-  "llm_bar_index": 1322,
+  "llm_bar_index": 1323,
   "llm_usage": {
     "calls": 331,
     "prompt_tokens": 118953,
@@ -7800,9 +7800,13 @@
     [
       "2026-09-07T15:30:00",
       9799.08
+    ],
+    [
+      "2026-09-07T15:45:00",
+      9797.02
     ]
   ],
-  "last_bar_ts": "2026-09-07T15:30:00",
-  "bars_processed": 1354,
+  "last_bar_ts": "2026-09-07T15:45:00",
+  "bars_processed": 1355,
   "starting_cash": 10000.0
 }
