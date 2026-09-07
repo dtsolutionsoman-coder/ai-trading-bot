@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T10:53:38",
+  "saved_at": "2026-09-07T11:00:02",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1960,7 +1960,7 @@
       "reason": "Mildly bearish trend supports the small profitable short, but near-oversold RSI and very low volatility argue against adding exposure."
     }
   ],
-  "llm_bar_index": 1302,
+  "llm_bar_index": 1303,
   "llm_usage": {
     "calls": 326,
     "prompt_tokens": 117160,
@@ -7690,9 +7690,13 @@
     [
       "2026-09-07T10:30:00",
       9778.85
+    ],
+    [
+      "2026-09-07T10:45:00",
+      9780.89
     ]
   ],
-  "last_bar_ts": "2026-09-07T10:30:00",
-  "bars_processed": 1334,
+  "last_bar_ts": "2026-09-07T10:45:00",
+  "bars_processed": 1335,
   "starting_cash": 10000.0
 }
