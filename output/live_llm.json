@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T08:31:38",
+  "saved_at": "2026-09-07T08:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1948,7 +1948,7 @@
       "reason": "Mildly bearish drift (negative 6h/24h, SMA ratio <1, RSI 37) plus positive funding paying shorts supports slightly extending the small profitable short, but low volatility keeps sizing minimal."
     }
   ],
-  "llm_bar_index": 1293,
+  "llm_bar_index": 1294,
   "llm_usage": {
     "calls": 324,
     "prompt_tokens": 116445,
@@ -7642,9 +7642,13 @@
     [
       "2026-09-07T08:15:00",
       9777.59
+    ],
+    [
+      "2026-09-07T08:30:00",
+      9776.95
     ]
   ],
-  "last_bar_ts": "2026-09-07T08:15:00",
-  "bars_processed": 1325,
+  "last_bar_ts": "2026-09-07T08:30:00",
+  "bars_processed": 1326,
   "starting_cash": 10000.0
 }
