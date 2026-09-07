@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T22:30:27",
+  "saved_at": "2026-09-07T22:30:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -8066,7 +8066,7 @@
         10000.0
       ],
       [
-        "2026-09-07T22:30:23.382841",
+        "2026-09-07T22:30:43.420830",
         10000.0
       ]
     ]
@@ -9564,16 +9564,16 @@
       "ts": "2026-09-07T22:00:41"
     },
     "3883286": {
-      "probability": 0.455,
-      "reason": "No information available about this future match or opponent, so staying at the market-implied probability.",
+      "probability": 0.45,
+      "reason": "Match is far in the future with unknown opponent and form; no information to deviate from the market price.",
       "market_price": 0.455,
       "question": "Will EC Vit\u00f3ria win on 2026-09-07?",
-      "ts": "2026-09-07T22:30:23"
+      "ts": "2026-09-07T22:30:43"
     }
   },
   "llm_usage": {
     "calls": 210,
     "prompt_tokens": 34947,
-    "completion_tokens": 119253
+    "completion_tokens": 119398
   }
 }
