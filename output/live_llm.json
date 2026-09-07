@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-07T04:54:31",
+  "saved_at": "2026-09-07T05:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1924,7 +1924,7 @@
       "reason": "Mildly bearish drift (weak RSI, SMA ratio just under 1, soft OI) but low volatility and mixed signals don't justify adding risk; keep the tiny existing long with minimal conviction."
     }
   ],
-  "llm_bar_index": 1278,
+  "llm_bar_index": 1279,
   "llm_usage": {
     "calls": 320,
     "prompt_tokens": 115012,
@@ -7540,9 +7540,13 @@
     [
       "2026-09-07T04:30:00",
       9774.62
+    ],
+    [
+      "2026-09-07T04:45:00",
+      9776.47
     ]
   ],
-  "last_bar_ts": "2026-09-07T04:30:00",
-  "bars_processed": 1310,
+  "last_bar_ts": "2026-09-07T04:45:00",
+  "bars_processed": 1311,
   "starting_cash": 10000.0
 }
