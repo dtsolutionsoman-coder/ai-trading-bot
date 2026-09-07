@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-07T19:00:37",
+  "saved_at": "2026-09-07T19:09:22",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T12:24:57.521804",
-        10000.0
-      ],
       [
         "2026-08-30T12:30:40.384361",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-07T19:00:37.112835",
         10000.0
+      ],
+      [
+        "2026-09-07T19:09:12.029969",
+        10000.0
       ]
     ]
   },
@@ -9527,11 +9527,18 @@
       "market_price": 0.425,
       "question": "Will Real Sociedad de F\u00fatbol win on 2026-09-07?",
       "ts": "2026-09-07T18:58:44"
+    },
+    "3857261": {
+      "probability": 0.21,
+      "reason": "No reliable information about Al Hilal's specific opponent or context on this future date, so staying near the market-implied price with a slight adjustment.",
+      "market_price": 0.205,
+      "question": "Will Al Hilal Saudi Club win on 2026-09-07?",
+      "ts": "2026-09-07T19:09:12"
     }
   },
   "llm_usage": {
-    "calls": 203,
-    "prompt_tokens": 33776,
-    "completion_tokens": 114038
+    "calls": 204,
+    "prompt_tokens": 33943,
+    "completion_tokens": 114501
   }
 }
