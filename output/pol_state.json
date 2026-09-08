@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T16:21:39",
+  "saved_at": "2026-09-08T16:30:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T03:23:14.267585",
-        10000.0
-      ],
       [
         "2026-08-31T03:29:53.529270",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T16:21:38.607794",
         9998.0
+      ],
+      [
+        "2026-09-08T16:30:34.444292",
+        10000.0
       ]
     ]
   },
@@ -9597,11 +9597,25 @@
       "market_price": 0.385,
       "question": "Will Club Brugge KV win on 2026-09-08?",
       "ts": "2026-09-08T16:15:48"
+    },
+    "3977512": {
+      "probability": 0.345,
+      "reason": "No information about the specific fixture or opponent this far ahead; deferring to market price.",
+      "market_price": 0.345,
+      "question": "Will Aston Villa FC win on 2026-09-08?",
+      "ts": "2026-09-08T16:30:34"
+    },
+    "3977526": {
+      "probability": 0.24,
+      "reason": "Evenly matched elite sides typically draw slightly more often than the market implies, though unknown venue and long lead time justify staying near the price.",
+      "market_price": 0.205,
+      "question": "Will Real Madrid CF vs. FC Internazionale Milano end in a draw?",
+      "ts": "2026-09-08T16:30:34"
     }
   },
   "llm_usage": {
-    "calls": 214,
-    "prompt_tokens": 35620,
-    "completion_tokens": 121049
+    "calls": 216,
+    "prompt_tokens": 35953,
+    "completion_tokens": 121971
   }
 }
