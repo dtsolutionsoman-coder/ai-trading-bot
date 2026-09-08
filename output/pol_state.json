@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T16:05:01",
+  "saved_at": "2026-09-08T16:15:57",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T03:15:46.075820",
-        10000.0
-      ],
       [
         "2026-08-31T03:16:33.849305",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T16:05:01.277812",
         9998.0
+      ],
+      [
+        "2026-09-08T16:15:48.141143",
+        10000.0
       ]
     ]
   },
@@ -9590,11 +9590,18 @@
       "market_price": 0.9875,
       "question": "Will United Russia (ER) win the most seats in the next Russian parliamentary election?",
       "ts": "2026-09-08T13:45:28"
+    },
+    "3977510": {
+      "probability": 0.39,
+      "reason": "Opponent and context for a September 2026 Club Brugge fixture are unknown this far out, so no information justifies deviating from the market's ~38.5% estimate for a strong club's win probability.",
+      "market_price": 0.385,
+      "question": "Will Club Brugge KV win on 2026-09-08?",
+      "ts": "2026-09-08T16:15:48"
     }
   },
   "llm_usage": {
-    "calls": 213,
-    "prompt_tokens": 35452,
-    "completion_tokens": 120647
+    "calls": 214,
+    "prompt_tokens": 35620,
+    "completion_tokens": 121049
   }
 }
