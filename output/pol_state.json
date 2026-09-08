@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T21:30:52",
+  "saved_at": "2026-09-08T21:40:56",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T07:19:54.248224",
-        10000.0
-      ],
       [
         "2026-08-31T07:26:42.303206",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T21:30:51.676177",
         9996.657718
+      ],
+      [
+        "2026-09-08T21:40:49.354184",
+        9996.657718
       ]
     ]
   },
@@ -9653,11 +9653,18 @@
       "market_price": 0.395,
       "question": "US x Iran Effective Ceasefire by September 4?",
       "ts": "2026-09-08T21:21:54"
+    },
+    "3977543": {
+      "probability": 0.54,
+      "reason": "No information on the opponent or match context for this future date; staying near the market-implied price.",
+      "market_price": 0.545,
+      "question": "Will Sporting CP win on 2026-09-09?",
+      "ts": "2026-09-08T21:40:49"
     }
   },
   "llm_usage": {
-    "calls": 222,
-    "prompt_tokens": 36951,
-    "completion_tokens": 124832
+    "calls": 223,
+    "prompt_tokens": 37116,
+    "completion_tokens": 125249
   }
 }
