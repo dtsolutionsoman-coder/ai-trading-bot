@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T11:05:46",
+  "saved_at": "2026-09-08T11:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2102,19 +2102,25 @@
       "action": "sell",
       "conviction": 0.3,
       "reason": "Extreme positive funding (339% ann.) and +35bps perp premium signal crowded longs, while 24h trend and SMA ratio lean bearish; keep collecting funding on a modest short despite elevated RSI."
+    },
+    {
+      "ts": "2026-09-08T11:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Consistent mild downtrend, RSI below midline, and extreme positive funding/perp premium signaling crowded longs all favor adding modestly to the profitable short while collecting funding carry."
     }
   ],
-  "llm_bar_index": 1399,
+  "llm_bar_index": 1400,
   "llm_usage": {
-    "calls": 350,
-    "prompt_tokens": 125774,
-    "completion_tokens": 349070
+    "calls": 351,
+    "prompt_tokens": 126133,
+    "completion_tokens": 349887
   },
-  "cash": 12238.042892930356,
+  "cash": 12254.242447071721,
   "positions": {
     "BTC": {
-      "qty": -0.030917892858013947,
-      "avg_price": 79160.40000000001,
+      "qty": -0.03112392348665327,
+      "avg_price": 79157.38954843844,
       "realized_pnl": -86.07719057428248
     }
   },
@@ -2514,6 +2520,15 @@
       "fee": 3.6278476183700272,
       "realized": 4.577627413653914,
       "reason": "LLM sell conv=0.25: Overbought RSI (77) with elevated long funding and a mildly negative trend with declining OI argues for trimming the small long into strength to protect the modest profit."
+    },
+    {
+      "ts": "2026-09-08T11:00:00",
+      "side": "sell",
+      "qty": 0.00020603062863932403,
+      "price": 78705.6275,
+      "fee": 0.01621576991127747,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.35: Consistent mild downtrend, RSI below midline, and extreme positive funding/perp premium signaling crowded longs all favor adding modestly to the profitable short while collecting funding carry. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -8240,9 +8255,13 @@
     [
       "2026-09-08T10:45:00",
       9797.2
+    ],
+    [
+      "2026-09-08T11:00:00",
+      9803.39
     ]
   ],
-  "last_bar_ts": "2026-09-08T10:45:00",
-  "bars_processed": 1431,
+  "last_bar_ts": "2026-09-08T11:00:00",
+  "bars_processed": 1432,
   "starting_cash": 10000.0
 }
