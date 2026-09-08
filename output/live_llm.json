@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T16:35:51",
+  "saved_at": "2026-09-08T16:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2140,7 +2140,7 @@
       "reason": "Sub-1 SMA ratio and positive funding mildly favor the small profitable short, but flat price, neutral RSI, and falling OI argue against adding."
     }
   ],
-  "llm_bar_index": 1421,
+  "llm_bar_index": 1422,
   "llm_usage": {
     "calls": 356,
     "prompt_tokens": 127929,
@@ -8391,9 +8391,13 @@
     [
       "2026-09-08T16:15:00",
       9808.6
+    ],
+    [
+      "2026-09-08T16:30:00",
+      9803.25
     ]
   ],
-  "last_bar_ts": "2026-09-08T16:15:00",
-  "bars_processed": 1453,
+  "last_bar_ts": "2026-09-08T16:30:00",
+  "bars_processed": 1454,
   "starting_cash": 10000.0
 }
