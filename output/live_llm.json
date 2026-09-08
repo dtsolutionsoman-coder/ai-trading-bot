@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T19:42:49",
+  "saved_at": "2026-09-08T19:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2158,7 +2158,7 @@
       "reason": "Mild downtrend (SMA ratio <1, negative 24h change), weak RSI, declining OI, and elevated positive funding favor a modestly larger short, though flat short-term momentum and low volatility cap convicti"
     }
   ],
-  "llm_bar_index": 1433,
+  "llm_bar_index": 1434,
   "llm_usage": {
     "calls": 359,
     "prompt_tokens": 129008,
@@ -8457,9 +8457,13 @@
     [
       "2026-09-08T19:15:00",
       9813.6
+    ],
+    [
+      "2026-09-08T19:30:00",
+      9814.76
     ]
   ],
-  "last_bar_ts": "2026-09-08T19:15:00",
-  "bars_processed": 1465,
+  "last_bar_ts": "2026-09-08T19:30:00",
+  "bars_processed": 1466,
   "starting_cash": 10000.0
 }
