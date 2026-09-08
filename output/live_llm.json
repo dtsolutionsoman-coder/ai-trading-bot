@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T14:08:50",
+  "saved_at": "2026-09-08T14:15:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2120,19 +2120,25 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mild downtrend and positive funding support the small profitable short, but oversold RSI (29) and declining OI raise bounce risk, so keep exposure minimal."
+    },
+    {
+      "ts": "2026-09-08T14:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Declines across 1h/6h/24h with SMA ratio below 1, negative perp premium, and positive funding paid to shorts support adding to the profitable short, tempered by oversold RSI."
     }
   ],
-  "llm_bar_index": 1411,
+  "llm_bar_index": 1412,
   "llm_usage": {
-    "calls": 353,
-    "prompt_tokens": 126852,
-    "completion_tokens": 351489
+    "calls": 354,
+    "prompt_tokens": 127211,
+    "completion_tokens": 352594
   },
-  "cash": 12266.006883899496,
+  "cash": 12279.859556757441,
   "positions": {
     "BTC": {
-      "qty": -0.0312741249615374,
-      "avg_price": 79153.7653505599,
+      "qty": -0.03145179187325651,
+      "avg_price": 79147.51878615994,
       "realized_pnl": -86.07719057428248
     }
   },
@@ -2550,6 +2556,15 @@
       "fee": 0.011776213040814314,
       "realized": 0.0,
       "reason": "LLM sell conv=0.40: Multi-timeframe declines, sma12/sma48 below 1, and extreme positive funding favor the short while OI unwinds; adding modestly to the already-profitable short. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-08T14:00:00",
+      "side": "sell",
+      "qty": 0.00017766691171910987,
+      "price": 78047.9565,
+      "fee": 0.013866539397342427,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.40: Declines across 1h/6h/24h with SMA ratio below 1, negative perp premium, and positive funding paid to shorts support adding to the profitable short, tempered by oversold RSI. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -8324,9 +8339,13 @@
     [
       "2026-09-08T13:45:00",
       9831.22
+    ],
+    [
+      "2026-09-08T14:00:00",
+      9823.88
     ]
   ],
-  "last_bar_ts": "2026-09-08T13:45:00",
-  "bars_processed": 1443,
+  "last_bar_ts": "2026-09-08T14:00:00",
+  "bars_processed": 1444,
   "starting_cash": 10000.0
 }
