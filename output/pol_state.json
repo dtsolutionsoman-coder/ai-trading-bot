@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T16:47:24",
+  "saved_at": "2026-09-08T16:55:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T03:43:18.100742",
-        10000.0
-      ],
       [
         "2026-08-31T03:45:35.028314",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T16:47:23.634993",
         10000.0
+      ],
+      [
+        "2026-09-08T16:55:39.820034",
+        10000.0
       ]
     ]
   },
@@ -9611,11 +9611,18 @@
       "market_price": 0.205,
       "question": "Will Real Madrid CF vs. FC Internazionale Milano end in a draw?",
       "ts": "2026-09-08T16:30:34"
+    },
+    "3977514": {
+      "probability": 0.55,
+      "reason": "No specific information on the fixture or opponent, so staying close to the market price with slight uncertainty discount.",
+      "market_price": 0.565,
+      "question": "Will AEK win on 2026-09-08?",
+      "ts": "2026-09-08T16:55:39"
     }
   },
   "llm_usage": {
-    "calls": 216,
-    "prompt_tokens": 35953,
-    "completion_tokens": 121971
+    "calls": 217,
+    "prompt_tokens": 36118,
+    "completion_tokens": 122420
   }
 }
