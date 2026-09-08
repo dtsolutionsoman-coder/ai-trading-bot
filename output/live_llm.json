@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T17:56:01",
+  "saved_at": "2026-09-08T18:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2146,7 +2146,7 @@
       "reason": "Trend ratio below 1, negative 24h momentum, and elevated positive funding support keeping the small profitable short, but thin volume and overbought RSI caution against adding risk."
     }
   ],
-  "llm_bar_index": 1426,
+  "llm_bar_index": 1427,
   "llm_usage": {
     "calls": 357,
     "prompt_tokens": 128288,
@@ -8417,9 +8417,13 @@
     [
       "2026-09-08T17:30:00",
       9810.89
+    ],
+    [
+      "2026-09-08T17:45:00",
+      9812.94
     ]
   ],
-  "last_bar_ts": "2026-09-08T17:30:00",
-  "bars_processed": 1458,
+  "last_bar_ts": "2026-09-08T17:45:00",
+  "bars_processed": 1459,
   "starting_cash": 10000.0
 }
