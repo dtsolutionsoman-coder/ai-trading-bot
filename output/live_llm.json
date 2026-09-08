@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T00:42:07",
+  "saved_at": "2026-09-08T00:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2044,7 +2044,7 @@
       "reason": "Extreme positive funding and perp premium with declining OI justify keeping the small short despite flat trend and neutral RSI."
     }
   ],
-  "llm_bar_index": 1357,
+  "llm_bar_index": 1358,
   "llm_usage": {
     "calls": 340,
     "prompt_tokens": 122181,
@@ -8012,9 +8012,13 @@
     [
       "2026-09-08T00:15:00",
       9786.16
+    ],
+    [
+      "2026-09-08T00:30:00",
+      9780.94
     ]
   ],
-  "last_bar_ts": "2026-09-08T00:15:00",
-  "bars_processed": 1389,
+  "last_bar_ts": "2026-09-08T00:30:00",
+  "bars_processed": 1390,
   "starting_cash": 10000.0
 }
