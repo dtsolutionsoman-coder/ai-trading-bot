@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T18:24:23",
+  "saved_at": "2026-09-08T18:30:41",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T04:57:23.406822",
-        10000.0
-      ],
       [
         "2026-08-31T05:00:44.141945",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T18:24:16.331751",
         10000.0
+      ],
+      [
+        "2026-09-08T18:30:35.263750",
+        10000.0
       ]
     ]
   },
@@ -9625,11 +9625,18 @@
       "market_price": 0.275,
       "question": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
       "ts": "2026-09-08T18:24:16"
+    },
+    "3977517": {
+      "probability": 0.44,
+      "reason": "Match outcome over a year out with unknown opponent/form factors; staying near market price given genuine uncertainty.",
+      "market_price": 0.445,
+      "question": "Will Lille OSC win on 2026-09-08?",
+      "ts": "2026-09-08T18:30:35"
     }
   },
   "llm_usage": {
-    "calls": 218,
-    "prompt_tokens": 36288,
-    "completion_tokens": 122718
+    "calls": 219,
+    "prompt_tokens": 36454,
+    "completion_tokens": 122951
   }
 }
