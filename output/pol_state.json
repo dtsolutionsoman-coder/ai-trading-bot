@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T04:19:35",
+  "saved_at": "2026-09-08T04:30:53",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T19:15:37.634793",
-        10000.0
-      ],
       [
         "2026-08-30T19:19:31.704606",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T04:19:35.058905",
         10000.0
+      ],
+      [
+        "2026-09-08T04:30:34.938221",
+        10000.0
       ]
     ]
   },
@@ -9569,11 +9569,18 @@
       "market_price": 0.455,
       "question": "Will EC Vit\u00f3ria win on 2026-09-07?",
       "ts": "2026-09-07T22:30:43"
+    },
+    "560317": {
+      "probability": 0.055,
+      "reason": "Putin's grip on power remains firm with no scheduled elections until 2030, so only death, coup, or health collapse could remove him, keeping true odds slightly below the market price.",
+      "market_price": 0.075,
+      "question": "Putin out as President of Russia by December 31, 2026?",
+      "ts": "2026-09-08T04:30:34"
     }
   },
   "llm_usage": {
-    "calls": 210,
-    "prompt_tokens": 34947,
-    "completion_tokens": 119398
+    "calls": 211,
+    "prompt_tokens": 35114,
+    "completion_tokens": 120016
   }
 }
