@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T14:38:14",
+  "saved_at": "2026-09-08T14:45:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2128,7 +2128,7 @@
       "reason": "Declines across 1h/6h/24h with SMA ratio below 1, negative perp premium, and positive funding paid to shorts support adding to the profitable short, tempered by oversold RSI."
     }
   ],
-  "llm_bar_index": 1413,
+  "llm_bar_index": 1414,
   "llm_usage": {
     "calls": 354,
     "prompt_tokens": 127211,
@@ -8347,9 +8347,13 @@
     [
       "2026-09-08T14:15:00",
       9818.44
+    ],
+    [
+      "2026-09-08T14:30:00",
+      9816.62
     ]
   ],
-  "last_bar_ts": "2026-09-08T14:15:00",
-  "bars_processed": 1445,
+  "last_bar_ts": "2026-09-08T14:30:00",
+  "bars_processed": 1446,
   "starting_cash": 10000.0
 }
