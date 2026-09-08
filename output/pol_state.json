@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T04:45:26",
+  "saved_at": "2026-09-08T04:54:44",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-30T19:32:46.772133",
-        10000.0
-      ],
       [
         "2026-08-30T19:39:11.481710",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T04:45:26.642858",
         10000.0
+      ],
+      [
+        "2026-09-08T04:54:35.996957",
+        10000.0
       ]
     ]
   },
@@ -9576,11 +9576,18 @@
       "market_price": 0.075,
       "question": "Putin out as President of Russia by December 31, 2026?",
       "ts": "2026-09-08T04:30:34"
+    },
+    "3977521": {
+      "probability": 0.53,
+      "reason": "No reliable information about the opponent or match context this far out; staying close to market price.",
+      "market_price": 0.535,
+      "question": "Will BV Borussia 09 Dortmund win on 2026-09-08?",
+      "ts": "2026-09-08T04:54:35"
     }
   },
   "llm_usage": {
-    "calls": 211,
-    "prompt_tokens": 35114,
-    "completion_tokens": 120016
+    "calls": 212,
+    "prompt_tokens": 35283,
+    "completion_tokens": 120294
   }
 }
