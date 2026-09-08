@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T21:15:39",
+  "saved_at": "2026-09-08T21:22:05",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T07:06:23.478934",
-        10000.0
-      ],
       [
         "2026-08-31T07:13:09.645002",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T21:15:38.898206",
         9996.657718
+      ],
+      [
+        "2026-09-08T21:21:54.399659",
+        9996.657718
       ]
     ]
   },
@@ -9646,11 +9646,18 @@
       "market_price": 0.175,
       "question": "Will FC Internazionale Milano win on 2026-09-08?",
       "ts": "2026-09-08T18:59:56"
+    },
+    "4095052": {
+      "probability": 0.4,
+      "reason": "Genuinely uncertain given ambiguous 'effective ceasefire' criteria and evolving US-Iran tensions; staying close to the market-implied price.",
+      "market_price": 0.395,
+      "question": "US x Iran Effective Ceasefire by September 4?",
+      "ts": "2026-09-08T21:21:54"
     }
   },
   "llm_usage": {
-    "calls": 221,
-    "prompt_tokens": 36787,
-    "completion_tokens": 124263
+    "calls": 222,
+    "prompt_tokens": 36951,
+    "completion_tokens": 124832
   }
 }
