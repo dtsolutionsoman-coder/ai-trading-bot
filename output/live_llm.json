@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T01:53:18",
+  "saved_at": "2026-09-08T02:00:19",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2050,7 +2050,7 @@
       "reason": "Extreme positive funding and perp premium signal crowded longs while SMA ratio stays below 1, supporting the small short despite the short-term bounce; carry and structure favor patience over adding i"
     }
   ],
-  "llm_bar_index": 1362,
+  "llm_bar_index": 1363,
   "llm_usage": {
     "calls": 341,
     "prompt_tokens": 122540,
@@ -8038,9 +8038,13 @@
     [
       "2026-09-08T01:30:00",
       9777.07
+    ],
+    [
+      "2026-09-08T01:45:00",
+      9776.02
     ]
   ],
-  "last_bar_ts": "2026-09-08T01:30:00",
-  "bars_processed": 1394,
+  "last_bar_ts": "2026-09-08T01:45:00",
+  "bars_processed": 1395,
   "starting_cash": 10000.0
 }
