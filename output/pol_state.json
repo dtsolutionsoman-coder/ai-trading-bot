@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T18:51:41",
+  "saved_at": "2026-09-08T19:00:06",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T05:15:57.225756",
-        10000.0
-      ],
       [
         "2026-08-31T05:17:40.677061",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T18:51:41.132881",
         10000.0
+      ],
+      [
+        "2026-09-08T18:59:56.082218",
+        10000.0
       ]
     ]
   },
@@ -9639,11 +9639,18 @@
       "market_price": 0.585,
       "question": "Will Manchester City FC win on 2026-09-08?",
       "ts": "2026-09-08T18:38:27"
+    },
+    "3977527": {
+      "probability": 0.18,
+      "reason": "Early September 2026 likely falls in an international break with no scheduled Inter match, and with no fixture information available, the low market price plausibly reflects the chance of no game or a",
+      "market_price": 0.175,
+      "question": "Will FC Internazionale Milano win on 2026-09-08?",
+      "ts": "2026-09-08T18:59:56"
     }
   },
   "llm_usage": {
-    "calls": 220,
-    "prompt_tokens": 36620,
-    "completion_tokens": 123794
+    "calls": 221,
+    "prompt_tokens": 36787,
+    "completion_tokens": 124263
   }
 }
