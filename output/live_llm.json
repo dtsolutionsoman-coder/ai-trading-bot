@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T21:40:48",
+  "saved_at": "2026-09-08T21:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2170,7 +2170,7 @@
       "reason": "Mild bearish tilt (SMA ratio <1, negative perp premium, declining OI) plus favorable funding supports keeping the small profitable short, but no strong signal to add risk."
     }
   ],
-  "llm_bar_index": 1441,
+  "llm_bar_index": 1442,
   "llm_usage": {
     "calls": 361,
     "prompt_tokens": 129725,
@@ -8501,9 +8501,13 @@
     [
       "2026-09-08T21:15:00",
       9810.14
+    ],
+    [
+      "2026-09-08T21:30:00",
+      9810.71
     ]
   ],
-  "last_bar_ts": "2026-09-08T21:15:00",
-  "bars_processed": 1473,
+  "last_bar_ts": "2026-09-08T21:30:00",
+  "bars_processed": 1474,
   "starting_cash": 10000.0
 }
