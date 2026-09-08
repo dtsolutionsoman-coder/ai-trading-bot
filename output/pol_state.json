@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T18:15:40",
+  "saved_at": "2026-09-08T18:24:23",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T04:50:40.401108",
-        10000.0
-      ],
       [
         "2026-08-31T04:57:23.406822",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T18:15:40.048605",
         10000.0
+      ],
+      [
+        "2026-09-08T18:24:16.331751",
+        10000.0
       ]
     ]
   },
@@ -9618,11 +9618,18 @@
       "market_price": 0.565,
       "question": "Will AEK win on 2026-09-08?",
       "ts": "2026-09-08T16:55:39"
+    },
+    "3977519": {
+      "probability": 0.28,
+      "reason": "Unknown opponent and distant fixture; with no edge over the market, staying near the implied price of 0.275.",
+      "market_price": 0.275,
+      "question": "Will Real Betis Balompi\u00e9 win on 2026-09-08?",
+      "ts": "2026-09-08T18:24:16"
     }
   },
   "llm_usage": {
-    "calls": 217,
-    "prompt_tokens": 36118,
-    "completion_tokens": 122420
+    "calls": 218,
+    "prompt_tokens": 36288,
+    "completion_tokens": 122718
   }
 }
