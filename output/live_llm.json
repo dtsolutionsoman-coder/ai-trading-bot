@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T18:59:55",
+  "saved_at": "2026-09-08T19:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2152,7 +2152,7 @@
       "reason": "Small profitable short aligned with mild bearish drift (SMA ratio <1, OI declining, positive funding), but flat short-term momentum and low volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1430,
+  "llm_bar_index": 1431,
   "llm_usage": {
     "calls": 358,
     "prompt_tokens": 128648,
@@ -8439,9 +8439,13 @@
     [
       "2026-09-08T18:30:00",
       9809.04
+    ],
+    [
+      "2026-09-08T18:45:00",
+      9813.38
     ]
   ],
-  "last_bar_ts": "2026-09-08T18:30:00",
-  "bars_processed": 1462,
+  "last_bar_ts": "2026-09-08T18:45:00",
+  "bars_processed": 1463,
   "starting_cash": 10000.0
 }
