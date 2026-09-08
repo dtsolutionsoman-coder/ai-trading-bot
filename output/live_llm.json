@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T12:52:10",
+  "saved_at": "2026-09-08T13:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2116,7 +2116,7 @@
       "reason": "Multi-timeframe declines, sma12/sma48 below 1, and extreme positive funding favor the short while OI unwinds; adding modestly to the already-profitable short."
     }
   ],
-  "llm_bar_index": 1406,
+  "llm_bar_index": 1407,
   "llm_usage": {
     "calls": 352,
     "prompt_tokens": 126492,
@@ -8298,9 +8298,13 @@
     [
       "2026-09-08T12:30:00",
       9809.08
+    ],
+    [
+      "2026-09-08T12:45:00",
+      9809.96
     ]
   ],
-  "last_bar_ts": "2026-09-08T12:30:00",
-  "bars_processed": 1438,
+  "last_bar_ts": "2026-09-08T12:45:00",
+  "bars_processed": 1439,
   "starting_cash": 10000.0
 }
