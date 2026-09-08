@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T11:20:15",
+  "saved_at": "2026-09-08T11:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2110,7 +2110,7 @@
       "reason": "Consistent mild downtrend, RSI below midline, and extreme positive funding/perp premium signaling crowded longs all favor adding modestly to the profitable short while collecting funding carry."
     }
   ],
-  "llm_bar_index": 1400,
+  "llm_bar_index": 1401,
   "llm_usage": {
     "calls": 351,
     "prompt_tokens": 126133,
@@ -8259,9 +8259,13 @@
     [
       "2026-09-08T11:00:00",
       9803.39
+    ],
+    [
+      "2026-09-08T11:15:00",
+      9804.39
     ]
   ],
-  "last_bar_ts": "2026-09-08T11:00:00",
-  "bars_processed": 1432,
+  "last_bar_ts": "2026-09-08T11:15:00",
+  "bars_processed": 1433,
   "starting_cash": 10000.0
 }
