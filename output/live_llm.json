@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T00:00:41",
+  "saved_at": "2026-09-08T00:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2036,13 +2036,19 @@
       "action": "hold",
       "conviction": 0.03,
       "reason": "Neutral mixed signals (flat RSI, mild SMA downside, intraday bounce) with very high positive funding favoring the small short, so maintain minimal exposure rather than add."
+    },
+    {
+      "ts": "2026-09-08T00:00:00",
+      "action": "hold",
+      "conviction": 0.15,
+      "reason": "Extreme positive funding and perp premium with declining OI justify keeping the small short despite flat trend and neutral RSI."
     }
   ],
-  "llm_bar_index": 1355,
+  "llm_bar_index": 1356,
   "llm_usage": {
-    "calls": 339,
-    "prompt_tokens": 121823,
-    "completion_tokens": 337403
+    "calls": 340,
+    "prompt_tokens": 122181,
+    "completion_tokens": 338442
   },
   "cash": 12238.042892930356,
   "positions": {
@@ -7998,9 +8004,13 @@
     [
       "2026-09-07T23:45:00",
       9783.1
+    ],
+    [
+      "2026-09-08T00:00:00",
+      9785.48
     ]
   ],
-  "last_bar_ts": "2026-09-07T23:45:00",
-  "bars_processed": 1387,
+  "last_bar_ts": "2026-09-08T00:00:00",
+  "bars_processed": 1388,
   "starting_cash": 10000.0
 }
