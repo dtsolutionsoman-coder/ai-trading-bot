@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T13:33:25",
+  "saved_at": "2026-09-08T13:45:39",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T01:30:34.762682",
-        10000.0
-      ],
       [
         "2026-08-31T01:35:15.734487",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T13:33:25.525626",
         10000.0
+      ],
+      [
+        "2026-09-08T13:45:28.941574",
+        10000.0
       ]
     ]
   },
@@ -9583,11 +9583,18 @@
       "market_price": 0.535,
       "question": "Will BV Borussia 09 Dortmund win on 2026-09-08?",
       "ts": "2026-09-08T04:54:35"
+    },
+    "1129894": {
+      "probability": 0.98,
+      "reason": "United Russia dominates the tightly controlled Russian electoral system, and the 2026 Duma election aligns with the market end date; only a tiny tail risk of postponement or regime disruption exists.",
+      "market_price": 0.9875,
+      "question": "Will United Russia (ER) win the most seats in the next Russian parliamentary election?",
+      "ts": "2026-09-08T13:45:28"
     }
   },
   "llm_usage": {
-    "calls": 212,
-    "prompt_tokens": 35283,
-    "completion_tokens": 120294
+    "calls": 213,
+    "prompt_tokens": 35452,
+    "completion_tokens": 120647
   }
 }
