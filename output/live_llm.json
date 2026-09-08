@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T12:00:41",
+  "saved_at": "2026-09-08T12:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2108,19 +2108,25 @@
       "action": "sell",
       "conviction": 0.35,
       "reason": "Consistent mild downtrend, RSI below midline, and extreme positive funding/perp premium signaling crowded longs all favor adding modestly to the profitable short while collecting funding carry."
+    },
+    {
+      "ts": "2026-09-08T12:00:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Multi-timeframe declines, sma12/sma48 below 1, and extreme positive funding favor the short while OI unwinds; adding modestly to the already-profitable short."
     }
   ],
-  "llm_bar_index": 1403,
+  "llm_bar_index": 1404,
   "llm_usage": {
-    "calls": 351,
-    "prompt_tokens": 126133,
-    "completion_tokens": 349887
+    "calls": 352,
+    "prompt_tokens": 126492,
+    "completion_tokens": 350660
   },
-  "cash": 12254.242447071721,
+  "cash": 12266.006883899496,
   "positions": {
     "BTC": {
-      "qty": -0.03112392348665327,
-      "avg_price": 79157.38954843844,
+      "qty": -0.0312741249615374,
+      "avg_price": 79153.7653505599,
       "realized_pnl": -86.07719057428248
     }
   },
@@ -2529,6 +2535,15 @@
       "fee": 0.01621576991127747,
       "realized": 0.0,
       "reason": "LLM sell conv=0.35: Consistent mild downtrend, RSI below midline, and extreme positive funding/perp premium signaling crowded longs all favor adding modestly to the profitable short while collecting funding carry. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-08T12:00:00",
+      "side": "sell",
+      "qty": 0.00015020147488412766,
+      "price": 78402.77900000001,
+      "fee": 0.011776213040814314,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.40: Multi-timeframe declines, sma12/sma48 below 1, and extreme positive funding favor the short while OI unwinds; adding modestly to the already-profitable short. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -8271,9 +8286,13 @@
     [
       "2026-09-08T11:45:00",
       9802.98
+    ],
+    [
+      "2026-09-08T12:00:00",
+      9812.8
     ]
   ],
-  "last_bar_ts": "2026-09-08T11:45:00",
-  "bars_processed": 1435,
+  "last_bar_ts": "2026-09-08T12:00:00",
+  "bars_processed": 1436,
   "starting_cash": 10000.0
 }
