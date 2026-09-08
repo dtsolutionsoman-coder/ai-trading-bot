@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-08T18:30:41",
+  "saved_at": "2026-09-08T18:38:41",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T05:00:44.141945",
-        10000.0
-      ],
       [
         "2026-08-31T05:04:08.727753",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-08T18:30:35.263750",
         10000.0
+      ],
+      [
+        "2026-09-08T18:38:27.914000",
+        10000.0
       ]
     ]
   },
@@ -9632,11 +9632,18 @@
       "market_price": 0.445,
       "question": "Will Lille OSC win on 2026-09-08?",
       "ts": "2026-09-08T18:30:35"
+    },
+    "3977531": {
+      "probability": 0.58,
+      "reason": "Fixture details for that date are unknown and too far out to forecast, so staying near the market price with a slight discount for matchup uncertainty.",
+      "market_price": 0.585,
+      "question": "Will Manchester City FC win on 2026-09-08?",
+      "ts": "2026-09-08T18:38:27"
     }
   },
   "llm_usage": {
-    "calls": 219,
-    "prompt_tokens": 36454,
-    "completion_tokens": 122951
+    "calls": 220,
+    "prompt_tokens": 36620,
+    "completion_tokens": 123794
   }
 }
