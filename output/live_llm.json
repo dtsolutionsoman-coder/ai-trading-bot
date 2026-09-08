@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-08T09:26:43",
+  "saved_at": "2026-09-08T09:31:08",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2098,7 +2098,7 @@
       "reason": "Negative momentum across all timeframes, SMA ratio below 1, and RSI under 50 align bearishly while extreme positive funding pays the short, so I modestly add to the already profitable short position."
     }
   ],
-  "llm_bar_index": 1392,
+  "llm_bar_index": 1393,
   "llm_usage": {
     "calls": 349,
     "prompt_tokens": 125416,
@@ -8206,9 +8206,13 @@
     [
       "2026-09-08T09:00:00",
       9801.31
+    ],
+    [
+      "2026-09-08T09:15:00",
+      9798.31
     ]
   ],
-  "last_bar_ts": "2026-09-08T09:00:00",
-  "bars_processed": 1424,
+  "last_bar_ts": "2026-09-08T09:15:00",
+  "bars_processed": 1425,
   "starting_cash": 10000.0
 }
