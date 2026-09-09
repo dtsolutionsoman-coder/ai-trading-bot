@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T00:58:29",
+  "saved_at": "2026-09-09T01:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2188,7 +2188,7 @@
       "reason": "Overbought RSI (75.6), positive funding that pays shorts, and a sub-1 SMA ratio align bearishly, so modestly adding to the small profitable short while low volume limits size."
     }
   ],
-  "llm_bar_index": 1454,
+  "llm_bar_index": 1455,
   "llm_usage": {
     "calls": 364,
     "prompt_tokens": 130804,
@@ -8580,9 +8580,13 @@
     [
       "2026-09-09T00:30:00",
       9803.33
+    ],
+    [
+      "2026-09-09T00:45:00",
+      9801.78
     ]
   ],
-  "last_bar_ts": "2026-09-09T00:30:00",
-  "bars_processed": 1486,
+  "last_bar_ts": "2026-09-09T00:45:00",
+  "bars_processed": 1487,
   "starting_cash": 10000.0
 }
