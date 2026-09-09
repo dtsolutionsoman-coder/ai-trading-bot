@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T16:15:56",
+  "saved_at": "2026-09-09T16:26:26",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T20:38:37.368161",
-        9991.288591
-      ],
       [
         "2026-08-31T20:45:42.040135",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T16:15:55.784890",
         10000.0
+      ],
+      [
+        "2026-09-09T16:25:50.182033",
+        10000.0
       ]
     ]
   },
@@ -9724,11 +9724,18 @@
       "market_price": 0.595,
       "question": "Will Arsenal FC win on 2026-09-09?",
       "ts": "2026-09-09T15:26:46"
+    },
+    "3977536": {
+      "probability": 0.74,
+      "reason": "Staying near the market price given unknown opponent and match context, shaded slightly down for high single-match variance in football where even heavy favorites draw or lose often.",
+      "market_price": 0.795,
+      "question": "Will VfB Stuttgart win on 2026-09-09?",
+      "ts": "2026-09-09T16:25:50"
     }
   },
   "llm_usage": {
-    "calls": 230,
-    "prompt_tokens": 38275,
-    "completion_tokens": 128949
+    "calls": 231,
+    "prompt_tokens": 38442,
+    "completion_tokens": 130407
   }
 }
