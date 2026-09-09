@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T22:47:26",
+  "saved_at": "2026-09-09T22:54:03",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-01T02:21:57.714987",
-        9991.288591
-      ],
       [
         "2026-09-01T02:30:34.098276",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T22:47:25.958467",
         9996.049922
+      ],
+      [
+        "2026-09-09T22:53:56.761467",
+        10000.0
       ]
     ]
   },
@@ -9780,11 +9780,18 @@
       "market_price": 0.93,
       "question": "LAPTOP FDV above $250M one day after launch?",
       "ts": "2026-09-09T21:15:47"
+    },
+    "3954674": {
+      "probability": 0.065,
+      "reason": "No fixture-specific information available for a match over a year out; staying at market price given deep uncertainty about opponent and context.",
+      "market_price": 0.065,
+      "question": "Will CA Mineiro win on 2026-09-09?",
+      "ts": "2026-09-09T22:53:56"
     }
   },
   "llm_usage": {
-    "calls": 238,
-    "prompt_tokens": 39607,
-    "completion_tokens": 136130
+    "calls": 239,
+    "prompt_tokens": 39773,
+    "completion_tokens": 136413
   }
 }
