@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T04:45:33",
+  "saved_at": "2026-09-09T04:45:59",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -8066,7 +8066,7 @@
         9996.657718
       ],
       [
-        "2026-09-09T04:45:19.970420",
+        "2026-09-09T04:45:49.155846",
         9996.657718
       ]
     ]
@@ -9669,16 +9669,16 @@
       "ts": "2026-09-09T01:55:09"
     },
     "3977532": {
-      "probability": 0.86,
-      "reason": "No known fixture details for that date; 0.905 is high for a typical soccer win market (draw risk), so shade slightly below market while staying close.",
+      "probability": 0.87,
+      "reason": "Fixture details unknown; even dominant Barcelona favorites carry draw/upset risk, so shading slightly below the aggressive 0.905 market price.",
       "market_price": 0.905,
       "question": "Will FC Barcelona win on 2026-09-09?",
-      "ts": "2026-09-09T04:45:19"
+      "ts": "2026-09-09T04:45:49"
     }
   },
   "llm_usage": {
     "calls": 225,
     "prompt_tokens": 37448,
-    "completion_tokens": 126197
+    "completion_tokens": 125927
   }
 }
