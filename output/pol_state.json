@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T04:33:21",
+  "saved_at": "2026-09-09T04:45:33",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T12:39:25.970523",
-        9989.946309
-      ],
       [
         "2026-08-31T12:45:28.717247",
         9989.946309
@@ -8068,6 +8064,10 @@
       [
         "2026-09-09T04:33:21.267923",
         9996.657718
+      ],
+      [
+        "2026-09-09T04:45:19.970420",
+        9996.657718
       ]
     ]
   },
@@ -9667,11 +9667,18 @@
       "market_price": 0.845,
       "question": "Will CA Boca Juniors win on 2026-09-08?",
       "ts": "2026-09-09T01:55:09"
+    },
+    "3977532": {
+      "probability": 0.86,
+      "reason": "No known fixture details for that date; 0.905 is high for a typical soccer win market (draw risk), so shade slightly below market while staying close.",
+      "market_price": 0.905,
+      "question": "Will FC Barcelona win on 2026-09-09?",
+      "ts": "2026-09-09T04:45:19"
     }
   },
   "llm_usage": {
-    "calls": 224,
-    "prompt_tokens": 37283,
-    "completion_tokens": 125556
+    "calls": 225,
+    "prompt_tokens": 37448,
+    "completion_tokens": 126197
   }
 }
