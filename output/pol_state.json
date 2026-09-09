@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T14:00:44",
+  "saved_at": "2026-09-09T14:13:54",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T19:04:28.151164",
-        10000.0
-      ],
       [
         "2026-08-31T19:11:16.811691",
         10000.0
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T14:00:44.240985",
         10000.0
+      ],
+      [
+        "2026-09-09T14:13:43.460934",
+        10000.0
       ]
     ]
   },
@@ -9710,11 +9710,18 @@
       "market_price": 0.26,
       "question": "LAPTOP FDV above $1B one day after launch?",
       "ts": "2026-09-09T12:30:35"
+    },
+    "4339037": {
+      "probability": 0.38,
+      "reason": "Token launches rarely sustain $500M+ FDV on day one, and without strong specifics on LAPTOP's hype, staying near the market price is warranted.",
+      "market_price": 0.39,
+      "question": "LAPTOP FDV above $500M one day after launch?",
+      "ts": "2026-09-09T14:13:43"
     }
   },
   "llm_usage": {
-    "calls": 228,
-    "prompt_tokens": 37945,
-    "completion_tokens": 128215
+    "calls": 229,
+    "prompt_tokens": 38110,
+    "completion_tokens": 128618
   }
 }
