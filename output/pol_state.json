@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T19:07:54",
+  "saved_at": "2026-09-09T19:16:07",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T22:46:53.601012",
-        9991.288591
-      ],
       [
         "2026-08-31T22:53:30.317009",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T19:07:54.229565",
         10000.0
+      ],
+      [
+        "2026-09-09T19:15:56.236995",
+        10000.0
       ]
     ]
   },
@@ -9745,11 +9745,18 @@
       "market_price": 0.165,
       "question": "Will SSC Napoli win on 2026-09-09?",
       "ts": "2026-09-09T18:57:58"
+    },
+    "3977542": {
+      "probability": 0.02,
+      "reason": "2026-09-09 falls during a FIFA international break, so Slovan Bratislava almost certainly has no match scheduled that day, making a win extremely unlikely; staying near the market price.",
+      "market_price": 0.0115,
+      "question": "Will \u0160K Slovan Bratislava win on 2026-09-09?",
+      "ts": "2026-09-09T19:15:56"
     }
   },
   "llm_usage": {
-    "calls": 233,
-    "prompt_tokens": 38775,
-    "completion_tokens": 132050
+    "calls": 234,
+    "prompt_tokens": 38946,
+    "completion_tokens": 132570
   }
 }
