@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T23:00:38",
+  "saved_at": "2026-09-09T23:12:20",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-01T02:43:11.690711",
-        9991.288591
-      ],
       [
         "2026-09-01T02:45:27.322052",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T23:00:38.074544",
         10000.0
+      ],
+      [
+        "2026-09-09T23:12:13.751278",
+        10000.0
       ]
     ]
   },
@@ -9787,11 +9787,18 @@
       "market_price": 0.065,
       "question": "Will CA Mineiro win on 2026-09-09?",
       "ts": "2026-09-09T22:53:56"
+    },
+    "3932601": {
+      "probability": 0.58,
+      "reason": "No reliable information about the fixture details or opponent for this future MLS match, so staying close to the market-implied price.",
+      "market_price": 0.585,
+      "question": "Will Philadelphia Union win on 2026-09-09?",
+      "ts": "2026-09-09T23:12:13"
     }
   },
   "llm_usage": {
-    "calls": 239,
-    "prompt_tokens": 39773,
-    "completion_tokens": 136413
+    "calls": 240,
+    "prompt_tokens": 39938,
+    "completion_tokens": 136723
   }
 }
