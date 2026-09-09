@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T21:10:04",
+  "saved_at": "2026-09-09T21:16:23",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-01T00:40:38.718902",
-        9991.288591
-      ],
       [
         "2026-09-01T00:45:30.675800",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T21:10:03.662937",
         10000.0
+      ],
+      [
+        "2026-09-09T21:15:47.214365",
+        9995.113885
       ]
     ]
   },
@@ -9773,11 +9773,18 @@
       "market_price": 0.955,
       "question": "Will Chelsea FC win on 2026-09-09?",
       "ts": "2026-09-09T20:52:27"
+    },
+    "4339036": {
+      "probability": 0.9,
+      "reason": "No specific information on the LAPTOP token launch; staying close to the market price with a slight haircut for crypto FDV volatility around launch-day thresholds.",
+      "market_price": 0.93,
+      "question": "LAPTOP FDV above $250M one day after launch?",
+      "ts": "2026-09-09T21:15:47"
     }
   },
   "llm_usage": {
-    "calls": 237,
-    "prompt_tokens": 39442,
-    "completion_tokens": 134311
+    "calls": 238,
+    "prompt_tokens": 39607,
+    "completion_tokens": 136130
   }
 }
