@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T11:30:30",
+  "saved_at": "2026-09-09T11:31:16",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9592.0,
+    "cash": 9490.0,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -23,6 +23,11 @@
       "pol:3832945:N": {
         "qty": 1081.081081081081,
         "avg_price": 0.09435,
+        "realized_pnl": 0.0
+      },
+      "pol:1088476:N": {
+        "qty": 156.00624024961,
+        "avg_price": 0.6538200000000001,
         "realized_pnl": 0.0
       }
     },
@@ -66,6 +71,16 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge -0.457: LLM 0.45 vs market 0.91 \u2014 Will Sevilla FC win on 2026-09-06?"
+      },
+      {
+        "ts": "2026-09-09T11:30:44.140528",
+        "symbol": "pol:1088476:N",
+        "side": "buy",
+        "qty": 156.00624024961,
+        "price": 0.6538200000000001,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.229: LLM 0.13 vs market 0.36 \u2014 Will Ben Shelton win the 2026 Men's US Open?"
       }
     ],
     "equity_curve": [
@@ -8066,8 +8081,8 @@
         9998.0
       ],
       [
-        "2026-09-09T11:29:40.212968",
-        10000.0
+        "2026-09-09T11:30:44.140528",
+        9998.0
       ]
     ]
   },
@@ -9681,11 +9696,18 @@
       "market_price": 0.0265,
       "question": "Will Feyenoord Rotterdam win on 2026-09-09?",
       "ts": "2026-09-09T05:56:25"
+    },
+    "1088476": {
+      "probability": 0.13,
+      "reason": "Shelton is a top-5 hard-court player but still must get past Sinner and Alcaraz, making a 36% implied win probability far too high; a fair estimate is around 10-15%.",
+      "market_price": 0.359,
+      "question": "Will Ben Shelton win the 2026 Men's US Open?",
+      "ts": "2026-09-09T11:30:44"
     }
   },
   "llm_usage": {
     "calls": 227,
     "prompt_tokens": 37781,
-    "completion_tokens": 128483
+    "completion_tokens": 127717
   }
 }
