@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T21:21:09",
+  "saved_at": "2026-09-09T21:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2308,7 +2308,7 @@
       "reason": "Profitable small short benefits from 43.7% annualized positive funding carry, but deeply oversold RSI (20.7) and flat trend argue against adding risk."
     }
   ],
-  "llm_bar_index": 1536,
+  "llm_bar_index": 1537,
   "llm_usage": {
     "calls": 384,
     "prompt_tokens": 137965,
@@ -9037,9 +9037,13 @@
     [
       "2026-09-09T21:00:00",
       9812.87
+    ],
+    [
+      "2026-09-09T21:15:00",
+      9811.97
     ]
   ],
-  "last_bar_ts": "2026-09-09T21:00:00",
-  "bars_processed": 1568,
+  "last_bar_ts": "2026-09-09T21:15:00",
+  "bars_processed": 1569,
   "starting_cash": 10000.0
 }
