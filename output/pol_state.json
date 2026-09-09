@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T15:15:53",
+  "saved_at": "2026-09-09T15:26:57",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T19:58:09.722848",
-        9991.288591
-      ],
       [
         "2026-08-31T20:00:40.925952",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T15:15:53.032816",
         10000.0
+      ],
+      [
+        "2026-09-09T15:26:46.588908",
+        10000.0
       ]
     ]
   },
@@ -9717,11 +9717,18 @@
       "market_price": 0.39,
       "question": "LAPTOP FDV above $500M one day after launch?",
       "ts": "2026-09-09T14:13:43"
+    },
+    "3977548": {
+      "probability": 0.58,
+      "reason": "No opponent or match details known for that date; staying near the market price with a slight haircut for scheduling uncertainty.",
+      "market_price": 0.595,
+      "question": "Will Arsenal FC win on 2026-09-09?",
+      "ts": "2026-09-09T15:26:46"
     }
   },
   "llm_usage": {
-    "calls": 229,
-    "prompt_tokens": 38110,
-    "completion_tokens": 128618
+    "calls": 230,
+    "prompt_tokens": 38275,
+    "completion_tokens": 128949
   }
 }
