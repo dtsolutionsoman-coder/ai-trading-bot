@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T18:51:05",
+  "saved_at": "2026-09-09T18:58:17",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T22:33:22.642012",
-        9991.288591
-      ],
       [
         "2026-08-31T22:40:13.415893",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T18:51:05.354660",
         10000.0
+      ],
+      [
+        "2026-09-09T18:57:58.252467",
+        10000.0
       ]
     ]
   },
@@ -9738,11 +9738,18 @@
       "market_price": 0.945,
       "question": "Will Paris Saint-Germain FC win on 2026-09-09?",
       "ts": "2026-09-09T17:15:51"
+    },
+    "3977546": {
+      "probability": 0.17,
+      "reason": "No reliable fixture or opponent information available this far out for a midweek September 2026 date, so staying near the market-implied price.",
+      "market_price": 0.165,
+      "question": "Will SSC Napoli win on 2026-09-09?",
+      "ts": "2026-09-09T18:57:58"
     }
   },
   "llm_usage": {
-    "calls": 232,
-    "prompt_tokens": 38611,
-    "completion_tokens": 131015
+    "calls": 233,
+    "prompt_tokens": 38775,
+    "completion_tokens": 132050
   }
 }
