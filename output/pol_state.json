@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T20:00:42",
+  "saved_at": "2026-09-09T20:10:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T23:30:34.142860",
-        9991.288591
-      ],
       [
         "2026-08-31T23:33:05.911146",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T20:00:42.182196",
         10000.0
+      ],
+      [
+        "2026-09-09T20:10:27.862133",
+        10000.0
       ]
     ]
   },
@@ -9759,11 +9759,18 @@
       "market_price": 0.35,
       "question": "Will Liverpool FC win on 2026-09-09?",
       "ts": "2026-09-09T19:29:52"
+    },
+    "3977545": {
+      "probability": 0.24,
+      "reason": "No fixture details available this far out; the market price likely reflects opponent strength, so staying near the implied probability.",
+      "market_price": 0.235,
+      "question": "Will Galatasaray SK win on 2026-09-09?",
+      "ts": "2026-09-09T20:10:27"
     }
   },
   "llm_usage": {
-    "calls": 235,
-    "prompt_tokens": 39110,
-    "completion_tokens": 132846
+    "calls": 236,
+    "prompt_tokens": 39277,
+    "completion_tokens": 133219
   }
 }
