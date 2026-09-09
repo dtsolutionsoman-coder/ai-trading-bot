@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T12:16:16",
+  "saved_at": "2026-09-09T12:30:50",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T17:56:56.446336",
-        9989.946309
-      ],
       [
         "2026-08-31T18:00:39.957916",
         9989.946309
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T12:16:15.821629",
         9998.468019
+      ],
+      [
+        "2026-09-09T12:30:35.636679",
+        10000.0
       ]
     ]
   },
@@ -9703,11 +9703,18 @@
       "market_price": 0.359,
       "question": "Will Ben Shelton win the 2026 Men's US Open?",
       "ts": "2026-09-09T11:30:44"
+    },
+    "4339038": {
+      "probability": 0.23,
+      "reason": "Reaching $1B FDV within one day of launch is a high bar that most tokens miss, so I estimate slightly below the market price given no clear catalyst identified.",
+      "market_price": 0.26,
+      "question": "LAPTOP FDV above $1B one day after launch?",
+      "ts": "2026-09-09T12:30:35"
     }
   },
   "llm_usage": {
-    "calls": 227,
-    "prompt_tokens": 37781,
-    "completion_tokens": 127717
+    "calls": 228,
+    "prompt_tokens": 37945,
+    "completion_tokens": 128215
   }
 }

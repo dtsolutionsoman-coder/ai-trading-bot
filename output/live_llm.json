@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T12:16:14",
+  "saved_at": "2026-09-09T12:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2254,7 +2254,7 @@
       "reason": "Mixed signals\u2014weak RSI and positive funding mildly support the tiny short while slight upward drift caps conviction; keeping small exposure."
     }
   ],
-  "llm_bar_index": 1500,
+  "llm_bar_index": 1501,
   "llm_usage": {
     "calls": 375,
     "prompt_tokens": 134749,
@@ -8830,9 +8830,13 @@
     [
       "2026-09-09T12:00:00",
       9789.54
+    ],
+    [
+      "2026-09-09T12:15:00",
+      9789.41
     ]
   ],
-  "last_bar_ts": "2026-09-09T12:00:00",
-  "bars_processed": 1532,
+  "last_bar_ts": "2026-09-09T12:15:00",
+  "bars_processed": 1533,
   "starting_cash": 10000.0
 }
