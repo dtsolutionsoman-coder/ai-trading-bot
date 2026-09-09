@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T05:28:26",
+  "saved_at": "2026-09-09T05:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2218,7 +2218,7 @@
       "reason": "Tiny short is barely underwater; crowded-long funding and RSI 68 support the short while mild 1h/6h momentum argues against it, so keep the small position rather than chase noise."
     }
   ],
-  "llm_bar_index": 1472,
+  "llm_bar_index": 1473,
   "llm_usage": {
     "calls": 369,
     "prompt_tokens": 132602,
@@ -8682,9 +8682,13 @@
     [
       "2026-09-09T05:00:00",
       9791.83
+    ],
+    [
+      "2026-09-09T05:15:00",
+      9792.14
     ]
   ],
-  "last_bar_ts": "2026-09-09T05:00:00",
-  "bars_processed": 1504,
+  "last_bar_ts": "2026-09-09T05:15:00",
+  "bars_processed": 1505,
   "starting_cash": 10000.0
 }
