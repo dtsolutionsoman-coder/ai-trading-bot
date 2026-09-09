@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T06:42:45",
+  "saved_at": "2026-09-09T06:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2224,7 +2224,7 @@
       "reason": "Mixed signals\u2014positive funding carry and sub-1 SMA ratio favor the small profitable short, but RSI 66 and modest 6h/24h upside momentum argue against adding, so keep the minimal short exposure."
     }
   ],
-  "llm_bar_index": 1477,
+  "llm_bar_index": 1478,
   "llm_usage": {
     "calls": 370,
     "prompt_tokens": 132961,
@@ -8708,9 +8708,13 @@
     [
       "2026-09-09T06:15:00",
       9792.57
+    ],
+    [
+      "2026-09-09T06:30:00",
+      9793.98
     ]
   ],
-  "last_bar_ts": "2026-09-09T06:15:00",
-  "bars_processed": 1509,
+  "last_bar_ts": "2026-09-09T06:30:00",
+  "bars_processed": 1510,
   "starting_cash": 10000.0
 }
