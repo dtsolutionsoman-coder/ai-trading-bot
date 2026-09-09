@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T23:23:01",
+  "saved_at": "2026-09-09T23:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2320,7 +2320,7 @@
       "reason": "Small short is profitable and extreme positive funding pays shorts while price stalls, but flat trend and thin volume argue against adding."
     }
   ],
-  "llm_bar_index": 1544,
+  "llm_bar_index": 1545,
   "llm_usage": {
     "calls": 386,
     "prompt_tokens": 138678,
@@ -9081,9 +9081,13 @@
     [
       "2026-09-09T23:00:00",
       9813.02
+    ],
+    [
+      "2026-09-09T23:15:00",
+      9812.43
     ]
   ],
-  "last_bar_ts": "2026-09-09T23:00:00",
-  "bars_processed": 1576,
+  "last_bar_ts": "2026-09-09T23:15:00",
+  "bars_processed": 1577,
   "starting_cash": 10000.0
 }
