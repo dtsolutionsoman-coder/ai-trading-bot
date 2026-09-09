@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T10:54:52",
+  "saved_at": "2026-09-09T11:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2242,7 +2242,7 @@
       "reason": "Quiet, neutral tape with mild bearish drift and positive funding supports keeping the small profitable short, but signals are too weak to add exposure."
     }
   ],
-  "llm_bar_index": 1494,
+  "llm_bar_index": 1495,
   "llm_usage": {
     "calls": 373,
     "prompt_tokens": 134034,
@@ -8794,9 +8794,13 @@
     [
       "2026-09-09T10:30:00",
       9793.91
+    ],
+    [
+      "2026-09-09T10:45:00",
+      9797.59
     ]
   ],
-  "last_bar_ts": "2026-09-09T10:30:00",
-  "bars_processed": 1526,
+  "last_bar_ts": "2026-09-09T10:45:00",
+  "bars_processed": 1527,
   "starting_cash": 10000.0
 }
