@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T07:04:52",
+  "saved_at": "2026-09-09T07:16:10",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2222,13 +2222,19 @@
       "action": "hold",
       "conviction": 0.02,
       "reason": "Mixed signals\u2014positive funding carry and sub-1 SMA ratio favor the small profitable short, but RSI 66 and modest 6h/24h upside momentum argue against adding, so keep the minimal short exposure."
+    },
+    {
+      "ts": "2026-09-09T07:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Overbought RSI (74) and elevated positive funding support keeping the small short, though low volume and mild upward drift argue against adding."
     }
   ],
-  "llm_bar_index": 1479,
+  "llm_bar_index": 1480,
   "llm_usage": {
-    "calls": 370,
-    "prompt_tokens": 132961,
-    "completion_tokens": 367139
+    "calls": 371,
+    "prompt_tokens": 133320,
+    "completion_tokens": 368080
   },
   "cash": 11567.32545010854,
   "positions": {
@@ -8716,9 +8722,13 @@
     [
       "2026-09-09T06:45:00",
       9794.47
+    ],
+    [
+      "2026-09-09T07:00:00",
+      9790.51
     ]
   ],
-  "last_bar_ts": "2026-09-09T06:45:00",
-  "bars_processed": 1511,
+  "last_bar_ts": "2026-09-09T07:00:00",
+  "bars_processed": 1512,
   "starting_cash": 10000.0
 }
