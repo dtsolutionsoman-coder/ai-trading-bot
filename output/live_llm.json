@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T02:43:39",
+  "saved_at": "2026-09-09T02:45:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2200,7 +2200,7 @@
       "reason": "Small short is profitable with positive funding carry and a mildly bearish 24h trend, but RSI 63.6 momentum is contradictory, so keep the modest short rather than add."
     }
   ],
-  "llm_bar_index": 1461,
+  "llm_bar_index": 1462,
   "llm_usage": {
     "calls": 366,
     "prompt_tokens": 131523,
@@ -8620,9 +8620,13 @@
     [
       "2026-09-09T02:15:00",
       9801.15
+    ],
+    [
+      "2026-09-09T02:30:00",
+      9801.6
     ]
   ],
-  "last_bar_ts": "2026-09-09T02:15:00",
-  "bars_processed": 1493,
+  "last_bar_ts": "2026-09-09T02:30:00",
+  "bars_processed": 1494,
   "starting_cash": 10000.0
 }
