@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T01:45:52",
+  "saved_at": "2026-09-09T01:55:23",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9592.0,
@@ -69,10 +69,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T10:36:50.857856",
-        10000.0
-      ],
       [
         "2026-08-31T10:43:42.091978",
         10000.0
@@ -8068,6 +8064,10 @@
       [
         "2026-09-09T01:45:52.377845",
         9996.657718
+      ],
+      [
+        "2026-09-09T01:55:09.499604",
+        9996.657718
       ]
     ]
   },
@@ -9660,11 +9660,18 @@
       "market_price": 0.545,
       "question": "Will Sporting CP win on 2026-09-09?",
       "ts": "2026-09-08T21:40:49"
+    },
+    "3954668": {
+      "probability": 0.82,
+      "reason": "No specific match details available for this future fixture; heavy soccer favorites are typically slightly overpriced, so I shade the 84.5% market price down modestly.",
+      "market_price": 0.845,
+      "question": "Will CA Boca Juniors win on 2026-09-08?",
+      "ts": "2026-09-09T01:55:09"
     }
   },
   "llm_usage": {
-    "calls": 223,
-    "prompt_tokens": 37116,
-    "completion_tokens": 125249
+    "calls": 224,
+    "prompt_tokens": 37283,
+    "completion_tokens": 125556
   }
 }
