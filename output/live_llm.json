@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T09:55:50",
+  "saved_at": "2026-09-09T10:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2236,7 +2236,7 @@
       "reason": "Small short is fading an overbought RSI with positive funding, but flat trend and low volume argue against adding; keep minimal exposure."
     }
   ],
-  "llm_bar_index": 1490,
+  "llm_bar_index": 1491,
   "llm_usage": {
     "calls": 372,
     "prompt_tokens": 133677,
@@ -8772,9 +8772,13 @@
     [
       "2026-09-09T09:30:00",
       9794.5
+    ],
+    [
+      "2026-09-09T09:45:00",
+      9796.27
     ]
   ],
-  "last_bar_ts": "2026-09-09T09:30:00",
-  "bars_processed": 1522,
+  "last_bar_ts": "2026-09-09T09:45:00",
+  "bars_processed": 1523,
   "starting_cash": 10000.0
 }
