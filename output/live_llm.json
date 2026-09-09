@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T17:57:41",
+  "saved_at": "2026-09-09T18:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2284,7 +2284,7 @@
       "reason": "Price action is neutral and RSI mid-range, but rich positive funding (37% ann.) rewards keeping the small profitable short for carry without adding risk."
     }
   ],
-  "llm_bar_index": 1522,
+  "llm_bar_index": 1523,
   "llm_usage": {
     "calls": 380,
     "prompt_tokens": 136539,
@@ -8948,9 +8948,13 @@
     [
       "2026-09-09T17:30:00",
       9799.32
+    ],
+    [
+      "2026-09-09T17:45:00",
+      9796.67
     ]
   ],
-  "last_bar_ts": "2026-09-09T17:30:00",
-  "bars_processed": 1554,
+  "last_bar_ts": "2026-09-09T17:45:00",
+  "bars_processed": 1555,
   "starting_cash": 10000.0
 }
