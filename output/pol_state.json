@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-09T19:20:03",
+  "saved_at": "2026-09-09T19:30:00",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-08-31T22:59:49.860222",
-        9991.288591
-      ],
       [
         "2026-08-31T23:00:42.126327",
         9991.288591
@@ -8083,6 +8079,10 @@
       [
         "2026-09-09T19:20:02.897790",
         10000.0
+      ],
+      [
+        "2026-09-09T19:29:52.382895",
+        10000.0
       ]
     ]
   },
@@ -9752,11 +9752,18 @@
       "market_price": 0.0115,
       "question": "Will \u0160K Slovan Bratislava win on 2026-09-09?",
       "ts": "2026-09-09T19:15:56"
+    },
+    "3977549": {
+      "probability": 0.35,
+      "reason": "Match is too far in the future with unknown opponent and context, so staying close to market price.",
+      "market_price": 0.35,
+      "question": "Will Liverpool FC win on 2026-09-09?",
+      "ts": "2026-09-09T19:29:52"
     }
   },
   "llm_usage": {
-    "calls": 234,
-    "prompt_tokens": 38946,
-    "completion_tokens": 132570
+    "calls": 235,
+    "prompt_tokens": 39110,
+    "completion_tokens": 132846
   }
 }
