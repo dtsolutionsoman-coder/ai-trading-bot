@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-09T15:26:45",
+  "saved_at": "2026-09-09T15:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2272,7 +2272,7 @@
       "reason": "Profitable small short aligned with negative 1h/6h momentum and extreme 51% positive funding that pays shorts, but RSI near 34 and flat SMA ratio argue against adding; defend the small winner."
     }
   ],
-  "llm_bar_index": 1512,
+  "llm_bar_index": 1513,
   "llm_usage": {
     "calls": 378,
     "prompt_tokens": 135823,
@@ -8896,9 +8896,13 @@
     [
       "2026-09-09T15:00:00",
       9805.1
+    ],
+    [
+      "2026-09-09T15:15:00",
+      9808.37
     ]
   ],
-  "last_bar_ts": "2026-09-09T15:00:00",
-  "bars_processed": 1544,
+  "last_bar_ts": "2026-09-09T15:15:00",
+  "bars_processed": 1545,
   "starting_cash": 10000.0
 }
