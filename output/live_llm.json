@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T03:17:59",
+  "saved_at": "2026-09-10T03:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2344,7 +2344,7 @@
       "reason": "Crowded-long signals (94.7% annualized funding, positive perp premium) and a slightly weak trend support keeping the small profitable short, but flat price action and neutral RSI argue against adding."
     }
   ],
-  "llm_bar_index": 1560,
+  "llm_bar_index": 1561,
   "llm_usage": {
     "calls": 390,
     "prompt_tokens": 140109,
@@ -9178,9 +9178,13 @@
     [
       "2026-09-10T03:00:00",
       9807.56
+    ],
+    [
+      "2026-09-10T03:15:00",
+      9806.68
     ]
   ],
-  "last_bar_ts": "2026-09-10T03:00:00",
-  "bars_processed": 1592,
+  "last_bar_ts": "2026-09-10T03:15:00",
+  "bars_processed": 1593,
   "starting_cash": 10000.0
 }
