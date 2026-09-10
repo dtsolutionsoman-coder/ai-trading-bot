@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T06:16:43",
+  "saved_at": "2026-09-10T06:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2362,7 +2362,7 @@
       "reason": "Near-neutral conditions (RSI ~50, flat momentum) with a slight bearish tilt from negative 24h change and sub-1 SMA ratio support keeping the small, mildly profitable short."
     }
   ],
-  "llm_bar_index": 1572,
+  "llm_bar_index": 1573,
   "llm_usage": {
     "calls": 393,
     "prompt_tokens": 141188,
@@ -9244,9 +9244,13 @@
     [
       "2026-09-10T06:00:00",
       9806.87
+    ],
+    [
+      "2026-09-10T06:15:00",
+      9806.87
     ]
   ],
-  "last_bar_ts": "2026-09-10T06:00:00",
-  "bars_processed": 1604,
+  "last_bar_ts": "2026-09-10T06:15:00",
+  "bars_processed": 1605,
   "starting_cash": 10000.0
 }
