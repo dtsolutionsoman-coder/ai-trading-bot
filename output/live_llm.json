@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T05:59:27",
+  "saved_at": "2026-09-10T06:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2356,7 +2356,7 @@
       "reason": "Overbought RSI (72.8) with extreme 79% positive funding signals crowded longs while price trends below its 48h SMA, supporting adding to the profitable short."
     }
   ],
-  "llm_bar_index": 1570,
+  "llm_bar_index": 1571,
   "llm_usage": {
     "calls": 392,
     "prompt_tokens": 140828,
@@ -9230,9 +9230,13 @@
     [
       "2026-09-10T05:30:00",
       9804.3
+    ],
+    [
+      "2026-09-10T05:45:00",
+      9804.27
     ]
   ],
-  "last_bar_ts": "2026-09-10T05:30:00",
-  "bars_processed": 1602,
+  "last_bar_ts": "2026-09-10T05:45:00",
+  "bars_processed": 1603,
   "starting_cash": 10000.0
 }
