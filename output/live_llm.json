@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T00:53:04",
+  "saved_at": "2026-09-10T01:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2326,7 +2326,7 @@
       "reason": "Small profitable short benefits from extreme positive funding and mildly negative 6h/24h drift, but neutral RSI and rising perp premium/OI argue against adding risk."
     }
   ],
-  "llm_bar_index": 1550,
+  "llm_bar_index": 1551,
   "llm_usage": {
     "calls": 387,
     "prompt_tokens": 139035,
@@ -9111,9 +9111,13 @@
     [
       "2026-09-10T00:30:00",
       9812.74
+    ],
+    [
+      "2026-09-10T00:45:00",
+      9812.93
     ]
   ],
-  "last_bar_ts": "2026-09-10T00:30:00",
-  "bars_processed": 1582,
+  "last_bar_ts": "2026-09-10T00:45:00",
+  "bars_processed": 1583,
   "starting_cash": 10000.0
 }
