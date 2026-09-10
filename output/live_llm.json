@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T04:58:10",
+  "saved_at": "2026-09-10T05:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2350,7 +2350,7 @@
       "reason": "Extreme positive funding rates favor the existing small profitable short alongside a mildly bearish SMA ratio, but mixed short-term momentum and very thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1566,
+  "llm_bar_index": 1567,
   "llm_usage": {
     "calls": 391,
     "prompt_tokens": 140469,
@@ -9208,9 +9208,13 @@
     [
       "2026-09-10T04:30:00",
       9808.03
+    ],
+    [
+      "2026-09-10T04:45:00",
+      9806.72
     ]
   ],
-  "last_bar_ts": "2026-09-10T04:30:00",
-  "bars_processed": 1598,
+  "last_bar_ts": "2026-09-10T04:45:00",
+  "bars_processed": 1599,
   "starting_cash": 10000.0
 }
