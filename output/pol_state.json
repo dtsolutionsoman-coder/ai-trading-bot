@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-10T02:45:47",
+  "saved_at": "2026-09-10T02:46:24",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -8081,7 +8081,7 @@
         10000.0
       ],
       [
-        "2026-09-10T02:45:29.220621",
+        "2026-09-10T02:46:05.389537",
         10000.0
       ]
     ]
@@ -9811,15 +9811,15 @@
     },
     "3932693": {
       "probability": 0.58,
-      "reason": "No information on opponent or context for this future MLS fixture; soccer's high draw rate suggests shading the 60.5% market price slightly downward.",
+      "reason": "Match specifics (opponent, venue, form) unknown; staying near market price with a slight shade down since 60.5% is high for an MLS win given league parity and draw risk.",
       "market_price": 0.605,
       "question": "Will San Diego FC win on 2026-09-09?",
-      "ts": "2026-09-10T02:45:29"
+      "ts": "2026-09-10T02:46:05"
     }
   },
   "llm_usage": {
     "calls": 243,
     "prompt_tokens": 40435,
-    "completion_tokens": 137815
+    "completion_tokens": 137853
   }
 }
