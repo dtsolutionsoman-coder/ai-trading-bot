@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T10:55:11",
+  "saved_at": "2026-09-10T11:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2386,7 +2386,7 @@
       "reason": "Bearish momentum, sub-1 SMA ratio, and positive funding support the existing profitable short, but RSI near 30 and thin volume argue against adding here."
     }
   ],
-  "llm_bar_index": 1590,
+  "llm_bar_index": 1591,
   "llm_usage": {
     "calls": 397,
     "prompt_tokens": 142623,
@@ -9340,9 +9340,13 @@
     [
       "2026-09-10T10:30:00",
       9817.27
+    ],
+    [
+      "2026-09-10T10:45:00",
+      9821.22
     ]
   ],
-  "last_bar_ts": "2026-09-10T10:30:00",
-  "bars_processed": 1622,
+  "last_bar_ts": "2026-09-10T10:45:00",
+  "bars_processed": 1623,
   "starting_cash": 10000.0
 }
