@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T23:44:00",
+  "saved_at": "2026-09-10T23:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2464,7 +2464,7 @@
       "reason": "Downtrend, bearish SMA ratio, and negative perp premium support keeping the profitable short, but extreme oversold RSI (20.7) raises bounce risk, so defend gains without adding."
     }
   ],
-  "llm_bar_index": 1641,
+  "llm_bar_index": 1642,
   "llm_usage": {
     "calls": 410,
     "prompt_tokens": 147290,
@@ -9631,9 +9631,13 @@
     [
       "2026-09-10T23:15:00",
       9876.78
+    ],
+    [
+      "2026-09-10T23:30:00",
+      9873.22
     ]
   ],
-  "last_bar_ts": "2026-09-10T23:15:00",
-  "bars_processed": 1673,
+  "last_bar_ts": "2026-09-10T23:30:00",
+  "bars_processed": 1674,
   "starting_cash": 10000.0
 }
