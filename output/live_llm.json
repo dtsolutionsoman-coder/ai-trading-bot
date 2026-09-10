@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T21:23:07",
+  "saved_at": "2026-09-10T21:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2452,7 +2452,7 @@
       "reason": "Profitable short supported by bearish 24h trend, SMA ratio below 1, and positive funding, but flat short-term momentum and declining OI suggest holding current exposure rather than adding."
     }
   ],
-  "llm_bar_index": 1632,
+  "llm_bar_index": 1633,
   "llm_usage": {
     "calls": 408,
     "prompt_tokens": 146574,
@@ -9583,9 +9583,13 @@
     [
       "2026-09-10T21:00:00",
       9850.14
+    ],
+    [
+      "2026-09-10T21:15:00",
+      9851.55
     ]
   ],
-  "last_bar_ts": "2026-09-10T21:00:00",
-  "bars_processed": 1664,
+  "last_bar_ts": "2026-09-10T21:15:00",
+  "bars_processed": 1665,
   "starting_cash": 10000.0
 }
