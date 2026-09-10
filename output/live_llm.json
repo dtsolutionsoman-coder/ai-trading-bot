@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T19:25:54",
+  "saved_at": "2026-09-10T19:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2440,7 +2440,7 @@
       "reason": "Small profitable short aligns with mild downtrend (SMA ratio <1, negative 24h) but neutral RSI and slightly positive short-term momentum don't justify adding risk."
     }
   ],
-  "llm_bar_index": 1624,
+  "llm_bar_index": 1625,
   "llm_usage": {
     "calls": 406,
     "prompt_tokens": 145856,
@@ -9539,9 +9539,13 @@
     [
       "2026-09-10T19:00:00",
       9853.95
+    ],
+    [
+      "2026-09-10T19:15:00",
+      9851.62
     ]
   ],
-  "last_bar_ts": "2026-09-10T19:00:00",
-  "bars_processed": 1656,
+  "last_bar_ts": "2026-09-10T19:15:00",
+  "bars_processed": 1657,
   "starting_cash": 10000.0
 }
