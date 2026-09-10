@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-10T04:50:12",
+  "saved_at": "2026-09-10T04:58:48",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9490.0,
+    "cash": 9388.0,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -28,6 +28,11 @@
       "pol:1088476:N": {
         "qty": 156.00624024961,
         "avg_price": 0.6538200000000001,
+        "realized_pnl": 0.0
+      },
+      "pol:1088475:N": {
+        "qty": 202.42914979757086,
+        "avg_price": 0.50388,
         "realized_pnl": 0.0
       }
     },
@@ -81,13 +86,19 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge -0.229: LLM 0.13 vs market 0.36 \u2014 Will Ben Shelton win the 2026 Men's US Open?"
+      },
+      {
+        "ts": "2026-09-10T04:58:11.367977",
+        "symbol": "pol:1088475:N",
+        "side": "buy",
+        "qty": 202.42914979757086,
+        "price": 0.50388,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.396: LLM 0.11 vs market 0.51 \u2014 Will Alexander Zverev win the 2026 Men's US Open?"
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-01T08:27:15.474038",
-        9992.630872
-      ],
       [
         "2026-09-01T08:30:39.403299",
         9992.630872
@@ -8083,6 +8094,10 @@
       [
         "2026-09-10T04:50:11.965887",
         9997.609984
+      ],
+      [
+        "2026-09-10T04:58:11.367977",
+        9998.0
       ]
     ]
   },
@@ -9822,11 +9837,18 @@
       "market_price": 0.949,
       "question": "LAPTOP FDV above $100M one day after launch?",
       "ts": "2026-09-10T04:45:25"
+    },
+    "1088475": {
+      "probability": 0.11,
+      "reason": "A 50% implied price for any single player to win a Grand Slam is far above realistic baselines; Zverev has never won a Slam and faces Sinner/Alcaraz, making ~10% far more plausible.",
+      "market_price": 0.506,
+      "question": "Will Alexander Zverev win the 2026 Men's US Open?",
+      "ts": "2026-09-10T04:58:11"
     }
   },
   "llm_usage": {
-    "calls": 244,
-    "prompt_tokens": 40600,
-    "completion_tokens": 138444
+    "calls": 245,
+    "prompt_tokens": 40767,
+    "completion_tokens": 139899
   }
 }
