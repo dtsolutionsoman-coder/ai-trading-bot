@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-10T04:39:46",
+  "saved_at": "2026-09-10T04:45:42",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9490.0,
@@ -84,10 +84,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-01T08:11:52.063796",
-        9992.630872
-      ],
       [
         "2026-09-01T08:16:00.540186",
         9992.630872
@@ -8083,6 +8079,10 @@
       [
         "2026-09-10T04:39:46.165878",
         9997.297972
+      ],
+      [
+        "2026-09-10T04:45:25.555865",
+        9997.375975
       ]
     ]
   },
@@ -9815,11 +9815,18 @@
       "market_price": 0.605,
       "question": "Will San Diego FC win on 2026-09-09?",
       "ts": "2026-09-10T02:46:05"
+    },
+    "4339035": {
+      "probability": 0.94,
+      "reason": "No specific information on the LAPTOP token launch; staying near the market-implied price given high confidence already priced in, with slight discount for resolution ambiguity on new token launches.",
+      "market_price": 0.949,
+      "question": "LAPTOP FDV above $100M one day after launch?",
+      "ts": "2026-09-10T04:45:25"
     }
   },
   "llm_usage": {
-    "calls": 243,
-    "prompt_tokens": 40435,
-    "completion_tokens": 137853
+    "calls": 244,
+    "prompt_tokens": 40600,
+    "completion_tokens": 138444
   }
 }
