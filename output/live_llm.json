@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T13:33:35",
+  "saved_at": "2026-09-10T13:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2404,7 +2404,7 @@
       "reason": "Bearish trend and positive funding support the small profitable short, but RSI at 13.8 is extremely oversold so I'm keeping exposure small rather than adding or chasing."
     }
   ],
-  "llm_bar_index": 1601,
+  "llm_bar_index": 1602,
   "llm_usage": {
     "calls": 400,
     "prompt_tokens": 143702,
@@ -9402,9 +9402,13 @@
     [
       "2026-09-10T13:15:00",
       9859.35
+    ],
+    [
+      "2026-09-10T13:30:00",
+      9858.28
     ]
   ],
-  "last_bar_ts": "2026-09-10T13:15:00",
-  "bars_processed": 1633,
+  "last_bar_ts": "2026-09-10T13:30:00",
+  "bars_processed": 1634,
   "starting_cash": 10000.0
 }
