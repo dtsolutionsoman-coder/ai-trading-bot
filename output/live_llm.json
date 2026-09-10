@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T02:54:46",
+  "saved_at": "2026-09-10T03:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2338,7 +2338,7 @@
       "reason": "Mildly negative momentum across timeframes with sub-1 SMA ratio and extremely high positive funding rewards adding a modest short to the existing profitable one."
     }
   ],
-  "llm_bar_index": 1558,
+  "llm_bar_index": 1559,
   "llm_usage": {
     "calls": 389,
     "prompt_tokens": 139750,
@@ -9164,9 +9164,13 @@
     [
       "2026-09-10T02:30:00",
       9809.67
+    ],
+    [
+      "2026-09-10T02:45:00",
+      9806.9
     ]
   ],
-  "last_bar_ts": "2026-09-10T02:30:00",
-  "bars_processed": 1590,
+  "last_bar_ts": "2026-09-10T02:45:00",
+  "bars_processed": 1591,
   "starting_cash": 10000.0
 }
