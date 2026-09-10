@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T01:26:11",
+  "saved_at": "2026-09-10T01:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2332,7 +2332,7 @@
       "reason": "Mild downtrend, sub-1 SMA ratio, and extreme 79% annualized funding with positive perp premium signal overleveraged longs, supporting a modest add to the profitable short."
     }
   ],
-  "llm_bar_index": 1552,
+  "llm_bar_index": 1553,
   "llm_usage": {
     "calls": 388,
     "prompt_tokens": 139394,
@@ -9125,9 +9125,13 @@
     [
       "2026-09-10T01:00:00",
       9808.82
+    ],
+    [
+      "2026-09-10T01:15:00",
+      9813.49
     ]
   ],
-  "last_bar_ts": "2026-09-10T01:00:00",
-  "bars_processed": 1584,
+  "last_bar_ts": "2026-09-10T01:15:00",
+  "bars_processed": 1585,
   "starting_cash": 10000.0
 }
