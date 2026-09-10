@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T16:59:30",
+  "saved_at": "2026-09-10T17:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2422,7 +2422,7 @@
       "reason": "Multi-timeframe downtrend with bearish SMA ratio and positive funding rewarding shorts supports modestly adding to the already profitable short position."
     }
   ],
-  "llm_bar_index": 1614,
+  "llm_bar_index": 1615,
   "llm_usage": {
     "calls": 403,
     "prompt_tokens": 144778,
@@ -9481,9 +9481,13 @@
     [
       "2026-09-10T16:30:00",
       9857.22
+    ],
+    [
+      "2026-09-10T16:45:00",
+      9852.93
     ]
   ],
-  "last_bar_ts": "2026-09-10T16:30:00",
-  "bars_processed": 1646,
+  "last_bar_ts": "2026-09-10T16:45:00",
+  "bars_processed": 1647,
   "starting_cash": 10000.0
 }
