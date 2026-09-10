@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-10T18:57:25",
+  "saved_at": "2026-09-10T19:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2434,7 +2434,7 @@
       "reason": "Downtrend across timeframes with SMA12h below SMA48h supports the profitable short, but RSI nearing oversold and thin volume argue against adding exposure."
     }
   ],
-  "llm_bar_index": 1622,
+  "llm_bar_index": 1623,
   "llm_usage": {
     "calls": 405,
     "prompt_tokens": 145498,
@@ -9525,9 +9525,13 @@
     [
       "2026-09-10T18:30:00",
       9854.5
+    ],
+    [
+      "2026-09-10T18:45:00",
+      9851.23
     ]
   ],
-  "last_bar_ts": "2026-09-10T18:30:00",
-  "bars_processed": 1654,
+  "last_bar_ts": "2026-09-10T18:45:00",
+  "bars_processed": 1655,
   "starting_cash": 10000.0
 }
