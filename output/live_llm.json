@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T12:11:17",
+  "saved_at": "2026-09-11T12:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2534,20 +2534,26 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Mildly bearish momentum is offset by extreme negative funding (-54% annualized) that pays longs and signals crowded shorts, so maintaining a small long rather than adding or cutting."
+    },
+    {
+      "ts": "2026-09-11T12:00:00",
+      "action": "sell",
+      "conviction": 0.25,
+      "reason": "Downtrend (SMA12/48<1, negative 24h), falling OI and perp discount outweigh the near-oversold RSI, so cut the small losing long."
     }
   ],
-  "llm_bar_index": 1691,
+  "llm_bar_index": 1692,
   "llm_usage": {
-    "calls": 422,
-    "prompt_tokens": 151598,
-    "completion_tokens": 418432
+    "calls": 423,
+    "prompt_tokens": 151956,
+    "completion_tokens": 419439
   },
-  "cash": 7394.958238009798,
+  "cash": 12314.574710494475,
   "positions": {
     "BTC": {
-      "qty": 0.03204147917564934,
-      "avg_price": 77046.504,
-      "realized_pnl": 3.3033227186540097
+      "qty": -0.032064646691299034,
+      "avg_price": 76818.5715,
+      "realized_pnl": -3.9999717335495344
     }
   },
   "recent_fills": [
@@ -3036,6 +3042,15 @@
       "fee": 4.929119152912496,
       "realized": 5.616162241016149,
       "reason": "LLM buy conv=0.35: Deeply negative funding and perp discount signal crowded shorts with costly carry and squeeze risk, so cut the small profitable short despite the mild bearish trend. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-11T12:00:00",
+      "side": "sell",
+      "qty": 0.06410612586694837,
+      "price": 76818.5715,
+      "fee": 4.924541013498174,
+      "realized": -7.303294452203544,
+      "reason": "LLM sell conv=0.25: Downtrend (SMA12/48<1, negative 24h), falling OI and perp discount outweigh the near-oversold RSI, so cut the small losing long."
     }
   ],
   "equity_curve": [
@@ -9930,9 +9945,13 @@
     [
       "2026-09-11T11:45:00",
       9862.41
+    ],
+    [
+      "2026-09-11T12:00:00",
+      9850.18
     ]
   ],
-  "last_bar_ts": "2026-09-11T11:45:00",
-  "bars_processed": 1723,
+  "last_bar_ts": "2026-09-11T12:00:00",
+  "bars_processed": 1724,
   "starting_cash": 10000.0
 }
