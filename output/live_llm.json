@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T21:12:05",
+  "saved_at": "2026-09-11T21:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2588,13 +2588,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Weak 6h momentum and negative perp premium argue against adding, but deeply negative funding pays the long and the loss is small, so holding minimal exposure."
+    },
+    {
+      "ts": "2026-09-11T21:00:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Mixed signals with extreme negative funding and perp discount favoring patient small longs; keeping minimal exposure."
     }
   ],
-  "llm_bar_index": 1727,
+  "llm_bar_index": 1728,
   "llm_usage": {
-    "calls": 431,
-    "prompt_tokens": 154841,
-    "completion_tokens": 427244
+    "calls": 432,
+    "prompt_tokens": 155202,
+    "completion_tokens": 428243
   },
   "cash": 7382.292947788145,
   "positions": {
@@ -10173,9 +10179,13 @@
     [
       "2026-09-11T20:45:00",
       9831.76
+    ],
+    [
+      "2026-09-11T21:00:00",
+      9832.27
     ]
   ],
-  "last_bar_ts": "2026-09-11T20:45:00",
-  "bars_processed": 1759,
+  "last_bar_ts": "2026-09-11T21:00:00",
+  "bars_processed": 1760,
   "starting_cash": 10000.0
 }
