@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T11:08:04",
+  "saved_at": "2026-09-11T11:15:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2528,13 +2528,19 @@
       "action": "hold",
       "conviction": 0.2,
       "reason": "Mildly bearish trend (SMA ratio <1, RSI ~40) is offset by extreme negative funding and perp discount signaling crowded shorts, so keep the small long rather than add or cut."
+    },
+    {
+      "ts": "2026-09-11T11:00:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Mildly bearish momentum is offset by extreme negative funding (-54% annualized) that pays longs and signals crowded shorts, so maintaining a small long rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1687,
+  "llm_bar_index": 1688,
   "llm_usage": {
-    "calls": 421,
-    "prompt_tokens": 151238,
-    "completion_tokens": 417321
+    "calls": 422,
+    "prompt_tokens": 151598,
+    "completion_tokens": 418432
   },
   "cash": 7394.958238009798,
   "positions": {
@@ -9908,9 +9914,13 @@
     [
       "2026-09-11T10:45:00",
       9858.63
+    ],
+    [
+      "2026-09-11T11:00:00",
+      9853.18
     ]
   ],
-  "last_bar_ts": "2026-09-11T10:45:00",
-  "bars_processed": 1719,
+  "last_bar_ts": "2026-09-11T11:00:00",
+  "bars_processed": 1720,
   "starting_cash": 10000.0
 }
