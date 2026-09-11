@@ -1,13 +1,13 @@
 {
-  "saved_at": "2026-09-11T11:57:52",
+  "saved_at": "2026-09-11T12:00:39",
   "symbol": "BTC",
   "interval": "15m",
-  "cash": 7274.703618331128,
+  "cash": 9697.117413881086,
   "positions": {
     "BTC": {
-      "qty": 0.03150389128420618,
-      "avg_price": 77048.505,
-      "realized_pnl": -157.07197446427332
+      "qty": 0.0,
+      "avg_price": 0.0,
+      "realized_pnl": -159.56106541074735
     }
   },
   "recent_fills": [
@@ -559,6 +559,15 @@
       "fee": 2.4273277251306156,
       "realized": 0.0,
       "reason": "sma12/48 golden cross [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-11T11:45:00",
+      "side": "sell",
+      "qty": 0.03150389128420618,
+      "price": 76969.496,
+      "fee": 2.4248386341841424,
+      "realized": -2.489090946474022,
+      "reason": "sma12/48 death cross"
     }
   ],
   "equity_curve": [
@@ -7445,9 +7454,13 @@
     [
       "2026-09-11T11:30:00",
       9694.14
+    ],
+    [
+      "2026-09-11T11:45:00",
+      9697.12
     ]
   ],
-  "last_bar_ts": "2026-09-11T11:30:00",
-  "bars_processed": 1721,
+  "last_bar_ts": "2026-09-11T11:45:00",
+  "bars_processed": 1722,
   "starting_cash": 10000.0
 }
