@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T13:33:08",
+  "saved_at": "2026-09-11T13:45:00",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2548,7 +2548,7 @@
       "reason": "Positive momentum across 1h/6h/24h with extreme negative funding penalizing shorts makes the losing short position costly to hold; covering it rather than flipping long given near-overbought RSI."
     }
   ],
-  "llm_bar_index": 1697,
+  "llm_bar_index": 1698,
   "llm_usage": {
     "calls": 424,
     "prompt_tokens": 152316,
@@ -9984,9 +9984,13 @@
     [
       "2026-09-11T13:15:00",
       9818.75
+    ],
+    [
+      "2026-09-11T13:30:00",
+      9825.21
     ]
   ],
-  "last_bar_ts": "2026-09-11T13:15:00",
-  "bars_processed": 1729,
+  "last_bar_ts": "2026-09-11T13:30:00",
+  "bars_processed": 1730,
   "starting_cash": 10000.0
 }
