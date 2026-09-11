@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T04:22:00",
+  "saved_at": "2026-09-11T04:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2494,7 +2494,7 @@
       "reason": "Covering the profitable short: extreme negative funding (-151% ann) makes shorts expensive to hold while perp discount, falling OI, and overbought RSI signal squeeze risk despite the bearish trend."
     }
   ],
-  "llm_bar_index": 1660,
+  "llm_bar_index": 1661,
   "llm_usage": {
     "calls": 415,
     "prompt_tokens": 149084,
@@ -9746,9 +9746,13 @@
     [
       "2026-09-11T04:00:00",
       9854.6
+    ],
+    [
+      "2026-09-11T04:15:00",
+      9860.83
     ]
   ],
-  "last_bar_ts": "2026-09-11T04:00:00",
-  "bars_processed": 1692,
+  "last_bar_ts": "2026-09-11T04:15:00",
+  "bars_processed": 1693,
   "starting_cash": 10000.0
 }
