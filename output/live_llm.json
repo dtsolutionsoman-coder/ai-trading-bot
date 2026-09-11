@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T00:44:56",
+  "saved_at": "2026-09-11T00:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2470,7 +2470,7 @@
       "reason": "Bearish trend (SMA ratio <1, -2.4% on day) with crowded longs supports the small profitable short, but near-oversold RSI and a 1h bounce argue against adding risk."
     }
   ],
-  "llm_bar_index": 1645,
+  "llm_bar_index": 1646,
   "llm_usage": {
     "calls": 411,
     "prompt_tokens": 147650,
@@ -9653,9 +9653,13 @@
     [
       "2026-09-11T00:15:00",
       9869.03
+    ],
+    [
+      "2026-09-11T00:30:00",
+      9871.27
     ]
   ],
-  "last_bar_ts": "2026-09-11T00:15:00",
-  "bars_processed": 1677,
+  "last_bar_ts": "2026-09-11T00:30:00",
+  "bars_processed": 1678,
   "starting_cash": 10000.0
 }
