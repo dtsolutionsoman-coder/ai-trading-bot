@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T18:41:22",
+  "saved_at": "2026-09-11T18:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2578,7 +2578,7 @@
       "reason": "Extreme oversold RSI (18.4) and deeply negative funding/premium signal crowded shorts and squeeze potential, but momentum is still down, so maintain the small long rather than add or cut."
     }
   ],
-  "llm_bar_index": 1717,
+  "llm_bar_index": 1718,
   "llm_usage": {
     "calls": 429,
     "prompt_tokens": 154120,
@@ -10121,9 +10121,13 @@
     [
       "2026-09-11T18:15:00",
       9826.33
+    ],
+    [
+      "2026-09-11T18:30:00",
+      9823.38
     ]
   ],
-  "last_bar_ts": "2026-09-11T18:15:00",
-  "bars_processed": 1749,
+  "last_bar_ts": "2026-09-11T18:30:00",
+  "bars_processed": 1750,
   "starting_cash": 10000.0
 }
