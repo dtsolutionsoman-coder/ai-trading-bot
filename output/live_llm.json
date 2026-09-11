@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T15:53:55",
+  "saved_at": "2026-09-11T16:00:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2560,7 +2560,7 @@
       "reason": "Deeply negative funding makes the short costly while rising 6h/24h price and RSI 66.8 raise squeeze risk, so take profit and cut the short."
     }
   ],
-  "llm_bar_index": 1706,
+  "llm_bar_index": 1707,
   "llm_usage": {
     "calls": 426,
     "prompt_tokens": 153038,
@@ -10050,9 +10050,13 @@
     [
       "2026-09-11T15:30:00",
       9867.48
+    ],
+    [
+      "2026-09-11T15:45:00",
+      9840.88
     ]
   ],
-  "last_bar_ts": "2026-09-11T15:30:00",
-  "bars_processed": 1738,
+  "last_bar_ts": "2026-09-11T15:45:00",
+  "bars_processed": 1739,
   "starting_cash": 10000.0
 }
