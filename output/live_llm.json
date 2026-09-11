@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T06:35:18",
+  "saved_at": "2026-09-11T06:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2506,7 +2506,7 @@
       "reason": "Counter-trend bounce with RSI 85.4, bearish SMA ratio, negative perp premium and declining OI suggests trimming the small long to lock in profit."
     }
   ],
-  "llm_bar_index": 1669,
+  "llm_bar_index": 1670,
   "llm_usage": {
     "calls": 417,
     "prompt_tokens": 149802,
@@ -9803,9 +9803,13 @@
     [
       "2026-09-11T06:15:00",
       9866.99
+    ],
+    [
+      "2026-09-11T06:30:00",
+      9869.45
     ]
   ],
-  "last_bar_ts": "2026-09-11T06:15:00",
-  "bars_processed": 1701,
+  "last_bar_ts": "2026-09-11T06:30:00",
+  "bars_processed": 1702,
   "starting_cash": 10000.0
 }
