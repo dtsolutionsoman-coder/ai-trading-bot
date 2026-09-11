@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T01:56:30",
+  "saved_at": "2026-09-11T02:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2476,7 +2476,7 @@
       "reason": "Bearish confluence (SMA ratio <1, RSI 39.7, negative 6h/24h, declining OI) and positive funding support the profitable short, but thin volume and a mild 1h bounce argue against adding risk."
     }
   ],
-  "llm_bar_index": 1650,
+  "llm_bar_index": 1651,
   "llm_usage": {
     "calls": 412,
     "prompt_tokens": 148008,
@@ -9679,9 +9679,13 @@
     [
       "2026-09-11T01:30:00",
       9867.01
+    ],
+    [
+      "2026-09-11T01:45:00",
+      9862.66
     ]
   ],
-  "last_bar_ts": "2026-09-11T01:30:00",
-  "bars_processed": 1682,
+  "last_bar_ts": "2026-09-11T01:45:00",
+  "bars_processed": 1683,
   "starting_cash": 10000.0
 }
