@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T17:38:50",
+  "saved_at": "2026-09-11T17:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2572,7 +2572,7 @@
       "reason": "Deeply oversold RSI (22) plus extreme negative funding and perp discount with declining OI signals crowded shorts covering, supporting a contrarian bounce; sizing up modestly from the small losing lon"
     }
   ],
-  "llm_bar_index": 1713,
+  "llm_bar_index": 1714,
   "llm_usage": {
     "calls": 428,
     "prompt_tokens": 153759,
@@ -10099,9 +10099,13 @@
     [
       "2026-09-11T17:15:00",
       9847.8
+    ],
+    [
+      "2026-09-11T17:30:00",
+      9841.67
     ]
   ],
-  "last_bar_ts": "2026-09-11T17:15:00",
-  "bars_processed": 1745,
+  "last_bar_ts": "2026-09-11T17:30:00",
+  "bars_processed": 1746,
   "starting_cash": 10000.0
 }
