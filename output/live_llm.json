@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T02:20:28",
+  "saved_at": "2026-09-11T02:31:10",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2482,7 +2482,7 @@
       "reason": "Bearish trend supports the small profitable short, but deeply negative funding and crowded short positioning argue against adding exposure."
     }
   ],
-  "llm_bar_index": 1652,
+  "llm_bar_index": 1653,
   "llm_usage": {
     "calls": 413,
     "prompt_tokens": 148367,
@@ -9693,9 +9693,13 @@
     [
       "2026-09-11T02:00:00",
       9863.11
+    ],
+    [
+      "2026-09-11T02:15:00",
+      9866.44
     ]
   ],
-  "last_bar_ts": "2026-09-11T02:00:00",
-  "bars_processed": 1684,
+  "last_bar_ts": "2026-09-11T02:15:00",
+  "bars_processed": 1685,
   "starting_cash": 10000.0
 }
