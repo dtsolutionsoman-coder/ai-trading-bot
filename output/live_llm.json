@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T05:53:47",
+  "saved_at": "2026-09-11T06:00:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2500,7 +2500,7 @@
       "reason": "Downtrend and negative perp premium argue against adding, but extreme negative funding (-110% annualized) signals crowded shorts and squeeze risk, so keep the small long with minimal size."
     }
   ],
-  "llm_bar_index": 1666,
+  "llm_bar_index": 1667,
   "llm_usage": {
     "calls": 416,
     "prompt_tokens": 149444,
@@ -9776,9 +9776,13 @@
     [
       "2026-09-11T05:30:00",
       9861.08
+    ],
+    [
+      "2026-09-11T05:45:00",
+      9864.33
     ]
   ],
-  "last_bar_ts": "2026-09-11T05:30:00",
-  "bars_processed": 1698,
+  "last_bar_ts": "2026-09-11T05:45:00",
+  "bars_processed": 1699,
   "starting_cash": 10000.0
 }
