@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T09:54:09",
+  "saved_at": "2026-09-11T10:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2524,7 +2524,7 @@
       "reason": "Bearish trend and declining OI are offset by extreme negative funding suggesting crowded shorts, so keep the small long with minimal size."
     }
   ],
-  "llm_bar_index": 1682,
+  "llm_bar_index": 1683,
   "llm_usage": {
     "calls": 420,
     "prompt_tokens": 150879,
@@ -9882,9 +9882,13 @@
     [
       "2026-09-11T09:30:00",
       9857.15
+    ],
+    [
+      "2026-09-11T09:45:00",
+      9860.45
     ]
   ],
-  "last_bar_ts": "2026-09-11T09:30:00",
-  "bars_processed": 1714,
+  "last_bar_ts": "2026-09-11T09:45:00",
+  "bars_processed": 1715,
   "starting_cash": 10000.0
 }
