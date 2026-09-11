@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T07:57:01",
+  "saved_at": "2026-09-11T08:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2512,7 +2512,7 @@
       "reason": "Downtrend (SMA ratio <1, negative 24h) supports the small short, but deeply negative funding, negative perp premium, and falling OI signal crowded-shorts squeeze risk, so keep exposure minimal rather "
     }
   ],
-  "llm_bar_index": 1674,
+  "llm_bar_index": 1675,
   "llm_usage": {
     "calls": 418,
     "prompt_tokens": 150161,
@@ -9829,9 +9829,13 @@
     [
       "2026-09-11T07:30:00",
       9867.25
+    ],
+    [
+      "2026-09-11T07:45:00",
+      9870.09
     ]
   ],
-  "last_bar_ts": "2026-09-11T07:30:00",
-  "bars_processed": 1706,
+  "last_bar_ts": "2026-09-11T07:45:00",
+  "bars_processed": 1707,
   "starting_cash": 10000.0
 }
