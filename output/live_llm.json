@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T20:59:59",
+  "saved_at": "2026-09-11T21:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2590,7 +2590,7 @@
       "reason": "Weak 6h momentum and negative perp premium argue against adding, but deeply negative funding pays the long and the loss is small, so holding minimal exposure."
     }
   ],
-  "llm_bar_index": 1726,
+  "llm_bar_index": 1727,
   "llm_usage": {
     "calls": 431,
     "prompt_tokens": 154841,
@@ -10169,9 +10169,13 @@
     [
       "2026-09-11T20:30:00",
       9831.1
+    ],
+    [
+      "2026-09-11T20:45:00",
+      9831.76
     ]
   ],
-  "last_bar_ts": "2026-09-11T20:30:00",
-  "bars_processed": 1758,
+  "last_bar_ts": "2026-09-11T20:45:00",
+  "bars_processed": 1759,
   "starting_cash": 10000.0
 }
