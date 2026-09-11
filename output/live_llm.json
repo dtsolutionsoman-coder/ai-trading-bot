@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T08:35:15",
+  "saved_at": "2026-09-11T08:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2518,7 +2518,7 @@
       "reason": "Deeply negative funding and perp discount signal crowded shorts with costly carry and squeeze risk, so cut the small profitable short despite the mild bearish trend."
     }
   ],
-  "llm_bar_index": 1677,
+  "llm_bar_index": 1678,
   "llm_usage": {
     "calls": 419,
     "prompt_tokens": 150520,
@@ -9856,9 +9856,13 @@
     [
       "2026-09-11T08:15:00",
       9869.46
+    ],
+    [
+      "2026-09-11T08:30:00",
+      9871.48
     ]
   ],
-  "last_bar_ts": "2026-09-11T08:15:00",
-  "bars_processed": 1709,
+  "last_bar_ts": "2026-09-11T08:30:00",
+  "bars_processed": 1710,
   "starting_cash": 10000.0
 }
