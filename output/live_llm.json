@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T21:58:16",
+  "saved_at": "2026-09-11T22:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2596,7 +2596,7 @@
       "reason": "Mixed signals with extreme negative funding and perp discount favoring patient small longs; keeping minimal exposure."
     }
   ],
-  "llm_bar_index": 1730,
+  "llm_bar_index": 1731,
   "llm_usage": {
     "calls": 432,
     "prompt_tokens": 155202,
@@ -10191,9 +10191,13 @@
     [
       "2026-09-11T21:30:00",
       9828.87
+    ],
+    [
+      "2026-09-11T21:45:00",
+      9822.33
     ]
   ],
-  "last_bar_ts": "2026-09-11T21:30:00",
-  "bars_processed": 1762,
+  "last_bar_ts": "2026-09-11T21:45:00",
+  "bars_processed": 1763,
   "starting_cash": 10000.0
 }
