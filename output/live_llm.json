@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T03:26:25",
+  "saved_at": "2026-09-11T03:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2488,7 +2488,7 @@
       "reason": "Downtrend and deeply negative funding favor keeping the profitable short, but overbought RSI and crowded-short positioning raise squeeze risk, so defend gains rather than add."
     }
   ],
-  "llm_bar_index": 1656,
+  "llm_bar_index": 1657,
   "llm_usage": {
     "calls": 414,
     "prompt_tokens": 148727,
@@ -9715,9 +9715,13 @@
     [
       "2026-09-11T03:00:00",
       9866.15
+    ],
+    [
+      "2026-09-11T03:15:00",
+      9867.11
     ]
   ],
-  "last_bar_ts": "2026-09-11T03:00:00",
-  "bars_processed": 1688,
+  "last_bar_ts": "2026-09-11T03:15:00",
+  "bars_processed": 1689,
   "starting_cash": 10000.0
 }
