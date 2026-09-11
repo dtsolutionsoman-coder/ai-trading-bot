@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T19:28:49",
+  "saved_at": "2026-09-11T19:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2584,7 +2584,7 @@
       "reason": "Weak momentum (RSI 37, flat-to-down price) argues against adding, but deeply negative funding gives the small existing long positive carry while short crowding offers squeeze potential \u2014 not enough di"
     }
   ],
-  "llm_bar_index": 1720,
+  "llm_bar_index": 1721,
   "llm_usage": {
     "calls": 430,
     "prompt_tokens": 154480,
@@ -10139,9 +10139,13 @@
     [
       "2026-09-11T19:00:00",
       9826.08
+    ],
+    [
+      "2026-09-11T19:15:00",
+      9828.36
     ]
   ],
-  "last_bar_ts": "2026-09-11T19:00:00",
-  "bars_processed": 1752,
+  "last_bar_ts": "2026-09-11T19:15:00",
+  "bars_processed": 1753,
   "starting_cash": 10000.0
 }
