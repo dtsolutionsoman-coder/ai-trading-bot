@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T14:58:22",
+  "saved_at": "2026-09-11T15:00:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2554,7 +2554,7 @@
       "reason": "Overbought bounce (RSI 80.6) against weak trend structure (SMA ratio <1) with negative perp premium and fading OI \u2014 taking profit on the small long."
     }
   ],
-  "llm_bar_index": 1702,
+  "llm_bar_index": 1703,
   "llm_usage": {
     "calls": 425,
     "prompt_tokens": 152677,
@@ -10019,9 +10019,13 @@
     [
       "2026-09-11T14:30:00",
       9868.61
+    ],
+    [
+      "2026-09-11T14:45:00",
+      9863.88
     ]
   ],
-  "last_bar_ts": "2026-09-11T14:30:00",
-  "bars_processed": 1734,
+  "last_bar_ts": "2026-09-11T14:45:00",
+  "bars_processed": 1735,
   "starting_cash": 10000.0
 }
