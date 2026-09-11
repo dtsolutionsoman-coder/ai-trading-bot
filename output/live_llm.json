@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T12:15:51",
+  "saved_at": "2026-09-11T12:30:08",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2542,7 +2542,7 @@
       "reason": "Downtrend (SMA12/48<1, negative 24h), falling OI and perp discount outweigh the near-oversold RSI, so cut the small losing long."
     }
   ],
-  "llm_bar_index": 1692,
+  "llm_bar_index": 1693,
   "llm_usage": {
     "calls": 423,
     "prompt_tokens": 151956,
@@ -9949,9 +9949,13 @@
     [
       "2026-09-11T12:00:00",
       9850.18
+    ],
+    [
+      "2026-09-11T12:15:00",
+      9844.76
     ]
   ],
-  "last_bar_ts": "2026-09-11T12:00:00",
-  "bars_processed": 1724,
+  "last_bar_ts": "2026-09-11T12:15:00",
+  "bars_processed": 1725,
   "starting_cash": 10000.0
 }
