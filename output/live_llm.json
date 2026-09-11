@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T22:40:19",
+  "saved_at": "2026-09-11T22:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2602,7 +2602,7 @@
       "reason": "Mixed signals: extremely negative funding and perp discount argue short-term downside, but neutral RSI and flat moving averages with a tiny long position suggest holding minimal exposure rather than a"
     }
   ],
-  "llm_bar_index": 1733,
+  "llm_bar_index": 1734,
   "llm_usage": {
     "calls": 433,
     "prompt_tokens": 155562,
@@ -10209,9 +10209,13 @@
     [
       "2026-09-11T22:15:00",
       9826.21
+    ],
+    [
+      "2026-09-11T22:30:00",
+      9825.76
     ]
   ],
-  "last_bar_ts": "2026-09-11T22:15:00",
-  "bars_processed": 1765,
+  "last_bar_ts": "2026-09-11T22:30:00",
+  "bars_processed": 1766,
   "starting_cash": 10000.0
 }
