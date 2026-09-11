@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T15:09:18",
+  "saved_at": "2026-09-11T15:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2552,20 +2552,26 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Overbought bounce (RSI 80.6) against weak trend structure (SMA ratio <1) with negative perp premium and fading OI \u2014 taking profit on the small long."
+    },
+    {
+      "ts": "2026-09-11T15:00:00",
+      "action": "buy",
+      "conviction": 0.45,
+      "reason": "Deeply negative funding makes the short costly while rising 6h/24h price and RSI 66.8 raise squeeze risk, so take profit and cut the short."
     }
   ],
-  "llm_bar_index": 1703,
+  "llm_bar_index": 1704,
   "llm_usage": {
-    "calls": 425,
-    "prompt_tokens": 152677,
-    "completion_tokens": 421424
+    "calls": 426,
+    "prompt_tokens": 153038,
+    "completion_tokens": 422397
   },
-  "cash": 12319.160316064,
+  "cash": 7396.827890669078,
   "positions": {
     "BTC": {
-      "qty": -0.03129095292467375,
-      "avg_price": 78747.60650000001,
-      "realized_pnl": 9.563827565139562
+      "qty": 0.031561773892108375,
+      "avg_price": 78237.099,
+      "realized_pnl": 25.538093715332664
     }
   },
   "recent_fills": [
@@ -3081,6 +3087,15 @@
       "fee": 4.9599891331725665,
       "realized": 37.490166110239116,
       "reason": "LLM sell conv=0.45: Overbought bounce (RSI 80.6) against weak trend structure (SMA ratio <1) with negative perp premium and fading OI \u2014 taking profit on the small long. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-11T15:00:00",
+      "side": "buy",
+      "qty": 0.06285272681678213,
+      "price": 78237.099,
+      "fee": 4.917415010384538,
+      "realized": 15.974266150193102,
+      "reason": "LLM buy conv=0.45: Deeply negative funding makes the short costly while rising 6h/24h price and RSI 66.8 raise squeeze risk, so take profit and cut the short. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -10023,9 +10038,13 @@
     [
       "2026-09-11T14:45:00",
       9863.88
+    ],
+    [
+      "2026-09-11T15:00:00",
+      9864.9
     ]
   ],
-  "last_bar_ts": "2026-09-11T14:45:00",
-  "bars_processed": 1735,
+  "last_bar_ts": "2026-09-11T15:00:00",
+  "bars_processed": 1736,
   "starting_cash": 10000.0
 }
