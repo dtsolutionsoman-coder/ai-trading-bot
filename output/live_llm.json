@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T16:56:06",
+  "saved_at": "2026-09-11T17:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2566,7 +2566,7 @@
       "reason": "Neutral trend and RSI with deeply negative funding and perp discount signaling crowded shorts (squeeze risk) \u2014 maintaining the small long rather than adding or cutting a minor loss."
     }
   ],
-  "llm_bar_index": 1710,
+  "llm_bar_index": 1711,
   "llm_usage": {
     "calls": 427,
     "prompt_tokens": 153398,
@@ -10072,9 +10072,13 @@
     [
       "2026-09-11T16:30:00",
       9845.55
+    ],
+    [
+      "2026-09-11T16:45:00",
+      9845.55
     ]
   ],
-  "last_bar_ts": "2026-09-11T16:30:00",
-  "bars_processed": 1742,
+  "last_bar_ts": "2026-09-11T16:45:00",
+  "bars_processed": 1743,
   "starting_cash": 10000.0
 }
