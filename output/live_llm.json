@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T10:28:48",
+  "saved_at": "2026-09-11T10:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2530,7 +2530,7 @@
       "reason": "Mildly bearish trend (SMA ratio <1, RSI ~40) is offset by extreme negative funding and perp discount signaling crowded shorts, so keep the small long rather than add or cut."
     }
   ],
-  "llm_bar_index": 1684,
+  "llm_bar_index": 1685,
   "llm_usage": {
     "calls": 421,
     "prompt_tokens": 151238,
@@ -9896,9 +9896,13 @@
     [
       "2026-09-11T10:00:00",
       9860.45
+    ],
+    [
+      "2026-09-11T10:15:00",
+      9859.3
     ]
   ],
-  "last_bar_ts": "2026-09-11T10:00:00",
-  "bars_processed": 1716,
+  "last_bar_ts": "2026-09-11T10:15:00",
+  "bars_processed": 1717,
   "starting_cash": 10000.0
 }
