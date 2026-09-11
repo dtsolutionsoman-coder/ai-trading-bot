@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T14:13:28",
+  "saved_at": "2026-09-11T14:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2546,20 +2546,26 @@
       "action": "buy",
       "conviction": 0.5,
       "reason": "Positive momentum across 1h/6h/24h with extreme negative funding penalizing shorts makes the losing short position costly to hold; covering it rather than flipping long given near-overbought RSI."
+    },
+    {
+      "ts": "2026-09-11T14:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Overbought bounce (RSI 80.6) against weak trend structure (SMA ratio <1) with negative perp premium and fading OI \u2014 taking profit on the small long."
     }
   ],
-  "llm_bar_index": 1699,
+  "llm_bar_index": 1700,
   "llm_usage": {
-    "calls": 424,
-    "prompt_tokens": 152316,
-    "completion_tokens": 420147
+    "calls": 425,
+    "prompt_tokens": 152677,
+    "completion_tokens": 421424
   },
-  "cash": 7364.131172024608,
+  "cash": 12319.160316064,
   "positions": {
     "BTC": {
-      "qty": 0.031694950439545524,
-      "avg_price": 77564.76299999999,
-      "realized_pnl": -27.926338545099554
+      "qty": -0.03129095292467375,
+      "avg_price": 78747.60650000001,
+      "realized_pnl": 9.563827565139562
     }
   },
   "recent_fills": [
@@ -3066,6 +3072,15 @@
       "fee": 4.945498040429437,
       "realized": -23.926366811550018,
       "reason": "LLM buy conv=0.50: Positive momentum across 1h/6h/24h with extreme negative funding penalizing shorts makes the losing short position costly to hold; covering it rather than flipping long given near-overbought RSI. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-11T14:00:00",
+      "side": "sell",
+      "qty": 0.06298590336421928,
+      "price": 78747.60650000001,
+      "fee": 4.9599891331725665,
+      "realized": 37.490166110239116,
+      "reason": "LLM sell conv=0.45: Overbought bounce (RSI 80.6) against weak trend structure (SMA ratio <1) with negative perp premium and fading OI \u2014 taking profit on the small long. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -9992,9 +10007,13 @@
     [
       "2026-09-11T13:45:00",
       9860.68
+    ],
+    [
+      "2026-09-11T14:00:00",
+      9853.84
     ]
   ],
-  "last_bar_ts": "2026-09-11T13:45:00",
-  "bars_processed": 1731,
+  "last_bar_ts": "2026-09-11T14:00:00",
+  "bars_processed": 1732,
   "starting_cash": 10000.0
 }
