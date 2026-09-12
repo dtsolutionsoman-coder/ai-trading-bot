@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-11T23:58:21",
+  "saved_at": "2026-09-12T00:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2608,7 +2608,7 @@
       "reason": "Flat trend and mildly bearish momentum are offset by deeply negative funding and perp discount that pay longs, so keep the tiny exposure rather than add or cut."
     }
   ],
-  "llm_bar_index": 1738,
+  "llm_bar_index": 1739,
   "llm_usage": {
     "calls": 434,
     "prompt_tokens": 155922,
@@ -10235,9 +10235,13 @@
     [
       "2026-09-11T23:30:00",
       9825.51
+    ],
+    [
+      "2026-09-11T23:45:00",
+      9825.51
     ]
   ],
-  "last_bar_ts": "2026-09-11T23:30:00",
-  "bars_processed": 1770,
+  "last_bar_ts": "2026-09-11T23:45:00",
+  "bars_processed": 1771,
   "starting_cash": 10000.0
 }
