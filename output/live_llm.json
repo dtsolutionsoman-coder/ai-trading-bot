@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T00:15:45",
+  "saved_at": "2026-09-12T00:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2614,7 +2614,7 @@
       "reason": "Deeply negative funding and perp discount signal crowded shorts (mildly contrarian-bullish) but flat trend, neutral RSI, and low volume argue for keeping only the small existing long."
     }
   ],
-  "llm_bar_index": 1740,
+  "llm_bar_index": 1741,
   "llm_usage": {
     "calls": 435,
     "prompt_tokens": 156278,
@@ -10249,9 +10249,13 @@
     [
       "2026-09-12T00:00:00",
       9829.44
+    ],
+    [
+      "2026-09-12T00:15:00",
+      9829.57
     ]
   ],
-  "last_bar_ts": "2026-09-12T00:00:00",
-  "bars_processed": 1772,
+  "last_bar_ts": "2026-09-12T00:15:00",
+  "bars_processed": 1773,
   "starting_cash": 10000.0
 }
