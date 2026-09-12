@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T01:05:01",
+  "saved_at": "2026-09-12T01:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2612,13 +2612,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Deeply negative funding and perp discount signal crowded shorts (mildly contrarian-bullish) but flat trend, neutral RSI, and low volume argue for keeping only the small existing long."
+    },
+    {
+      "ts": "2026-09-12T01:00:00",
+      "action": "hold",
+      "conviction": 0.03,
+      "reason": "Mixed signals \u2014 overbought RSI and neutral trend offset by deeply negative funding rewarding longs; keeping the small existing long rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1743,
+  "llm_bar_index": 1744,
   "llm_usage": {
-    "calls": 435,
-    "prompt_tokens": 156278,
-    "completion_tokens": 430996
+    "calls": 436,
+    "prompt_tokens": 156638,
+    "completion_tokens": 431870
   },
   "cash": 7382.292947788145,
   "positions": {
@@ -10261,9 +10267,13 @@
     [
       "2026-09-12T00:45:00",
       9830.56
+    ],
+    [
+      "2026-09-12T01:00:00",
+      9831.48
     ]
   ],
-  "last_bar_ts": "2026-09-12T00:45:00",
-  "bars_processed": 1775,
+  "last_bar_ts": "2026-09-12T01:00:00",
+  "bars_processed": 1776,
   "starting_cash": 10000.0
 }
