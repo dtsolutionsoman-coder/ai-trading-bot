@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T08:56:57",
+  "saved_at": "2026-09-12T09:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2662,7 +2662,7 @@
       "reason": "Price action is flat and signals are mixed, but deeply negative funding pays the small long while it works off a minor drawdown; not enough agreement to add or cut."
     }
   ],
-  "llm_bar_index": 1774,
+  "llm_bar_index": 1775,
   "llm_usage": {
     "calls": 443,
     "prompt_tokens": 159162,
@@ -10433,9 +10433,13 @@
     [
       "2026-09-12T08:30:00",
       9831.57
+    ],
+    [
+      "2026-09-12T08:45:00",
+      9831.92
     ]
   ],
-  "last_bar_ts": "2026-09-12T08:30:00",
-  "bars_processed": 1806,
+  "last_bar_ts": "2026-09-12T08:45:00",
+  "bars_processed": 1807,
   "starting_cash": 10000.0
 }
