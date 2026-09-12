@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T06:18:06",
+  "saved_at": "2026-09-12T06:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2650,7 +2650,7 @@
       "reason": "Deeply negative funding actually pays the small long while flat, illiquid price action offers no signal to add or cut, so maintain the tiny position despite its minor drawdown."
     }
   ],
-  "llm_bar_index": 1764,
+  "llm_bar_index": 1765,
   "llm_usage": {
     "calls": 441,
     "prompt_tokens": 158442,
@@ -10381,9 +10381,13 @@
     [
       "2026-09-12T06:00:00",
       9825.35
+    ],
+    [
+      "2026-09-12T06:15:00",
+      9826.46
     ]
   ],
-  "last_bar_ts": "2026-09-12T06:00:00",
-  "bars_processed": 1796,
+  "last_bar_ts": "2026-09-12T06:15:00",
+  "bars_processed": 1797,
   "starting_cash": 10000.0
 }
