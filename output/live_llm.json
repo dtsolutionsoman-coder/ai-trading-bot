@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T21:44:50",
+  "saved_at": "2026-09-12T21:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2740,7 +2740,7 @@
       "reason": "Flat trend with deeply negative funding and perp discount suggests crowded shorts (squeeze/carry upside for the small long), so retaining the minor losing position rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1825,
+  "llm_bar_index": 1826,
   "llm_usage": {
     "calls": 456,
     "prompt_tokens": 163825,
@@ -10715,9 +10715,13 @@
     [
       "2026-09-12T21:15:00",
       9828.9
+    ],
+    [
+      "2026-09-12T21:30:00",
+      9829.79
     ]
   ],
-  "last_bar_ts": "2026-09-12T21:15:00",
-  "bars_processed": 1857,
+  "last_bar_ts": "2026-09-12T21:30:00",
+  "bars_processed": 1858,
   "starting_cash": 10000.0
 }
