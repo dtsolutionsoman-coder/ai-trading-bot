@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T11:41:12",
+  "saved_at": "2026-09-12T11:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2680,7 +2680,7 @@
       "reason": "Price action is flat with neutral trend signals, but deeply negative funding favors holding the small long while awaiting directional confirmation."
     }
   ],
-  "llm_bar_index": 1785,
+  "llm_bar_index": 1786,
   "llm_usage": {
     "calls": 446,
     "prompt_tokens": 160239,
@@ -10495,9 +10495,13 @@
     [
       "2026-09-12T11:15:00",
       9828.75
+    ],
+    [
+      "2026-09-12T11:30:00",
+      9829.54
     ]
   ],
-  "last_bar_ts": "2026-09-12T11:15:00",
-  "bars_processed": 1817,
+  "last_bar_ts": "2026-09-12T11:30:00",
+  "bars_processed": 1818,
   "starting_cash": 10000.0
 }
