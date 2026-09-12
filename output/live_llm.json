@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T10:41:27",
+  "saved_at": "2026-09-12T10:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2674,7 +2674,7 @@
       "reason": "Flat trend and muted volume with mixed signals, but deeply negative funding pays the small long carry while price drifts slightly up; no case to add or cut yet."
     }
   ],
-  "llm_bar_index": 1781,
+  "llm_bar_index": 1782,
   "llm_usage": {
     "calls": 445,
     "prompt_tokens": 159880,
@@ -10473,9 +10473,13 @@
     [
       "2026-09-12T10:15:00",
       9831.6
+    ],
+    [
+      "2026-09-12T10:30:00",
+      9831.06
     ]
   ],
-  "last_bar_ts": "2026-09-12T10:15:00",
-  "bars_processed": 1813,
+  "last_bar_ts": "2026-09-12T10:30:00",
+  "bars_processed": 1814,
   "starting_cash": 10000.0
 }
