@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T09:59:55",
+  "saved_at": "2026-09-12T10:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2668,7 +2668,7 @@
       "reason": "Mixed signals\u2014flat price and slightly bearish trend offset by deeply negative funding that pays longs\u2014so keeping the tiny long position rather than adding or cutting risk."
     }
   ],
-  "llm_bar_index": 1778,
+  "llm_bar_index": 1779,
   "llm_usage": {
     "calls": 444,
     "prompt_tokens": 159521,
@@ -10455,9 +10455,13 @@
     [
       "2026-09-12T09:30:00",
       9830.84
+    ],
+    [
+      "2026-09-12T09:45:00",
+      9831.86
     ]
   ],
-  "last_bar_ts": "2026-09-12T09:30:00",
-  "bars_processed": 1810,
+  "last_bar_ts": "2026-09-12T09:45:00",
+  "bars_processed": 1811,
   "starting_cash": 10000.0
 }
