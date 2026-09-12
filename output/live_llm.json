@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T23:41:08",
+  "saved_at": "2026-09-12T23:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2752,7 +2752,7 @@
       "reason": "Trendless, thin-volume market with mixed signals, but deeply negative funding gives the tiny long positive carry, so maintain minimal exposure."
     }
   ],
-  "llm_bar_index": 1833,
+  "llm_bar_index": 1834,
   "llm_usage": {
     "calls": 458,
     "prompt_tokens": 164543,
@@ -10759,9 +10759,13 @@
     [
       "2026-09-12T23:15:00",
       9830.21
+    ],
+    [
+      "2026-09-12T23:30:00",
+      9831.29
     ]
   ],
-  "last_bar_ts": "2026-09-12T23:15:00",
-  "bars_processed": 1865,
+  "last_bar_ts": "2026-09-12T23:30:00",
+  "bars_processed": 1866,
   "starting_cash": 10000.0
 }
