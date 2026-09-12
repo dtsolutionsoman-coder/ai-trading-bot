@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T15:23:14",
+  "saved_at": "2026-09-12T15:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2704,7 +2704,7 @@
       "reason": "Signals are mixed (mild short-term bounce and RSI 64 vs negative 24h trend, negative perp premium and deeply negative funding), so I'm keeping only the small losing long rather than adding or flipping"
     }
   ],
-  "llm_bar_index": 1800,
+  "llm_bar_index": 1801,
   "llm_usage": {
     "calls": 450,
     "prompt_tokens": 161673,
@@ -10579,9 +10579,13 @@
     [
       "2026-09-12T15:00:00",
       9834.52
+    ],
+    [
+      "2026-09-12T15:15:00",
+      9835.64
     ]
   ],
-  "last_bar_ts": "2026-09-12T15:00:00",
-  "bars_processed": 1832,
+  "last_bar_ts": "2026-09-12T15:15:00",
+  "bars_processed": 1833,
   "starting_cash": 10000.0
 }
