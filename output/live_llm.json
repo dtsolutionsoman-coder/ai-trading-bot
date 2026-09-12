@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T14:53:58",
+  "saved_at": "2026-09-12T15:00:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2698,7 +2698,7 @@
       "reason": "Deeply negative funding and stabilizing price offset the weak 24h trend, so keep the small long but stay minimal given low liquidity."
     }
   ],
-  "llm_bar_index": 1798,
+  "llm_bar_index": 1799,
   "llm_usage": {
     "calls": 449,
     "prompt_tokens": 161316,
@@ -10565,9 +10565,13 @@
     [
       "2026-09-12T14:30:00",
       9833.1
+    ],
+    [
+      "2026-09-12T14:45:00",
+      9836.33
     ]
   ],
-  "last_bar_ts": "2026-09-12T14:30:00",
-  "bars_processed": 1830,
+  "last_bar_ts": "2026-09-12T14:45:00",
+  "bars_processed": 1831,
   "starting_cash": 10000.0
 }
