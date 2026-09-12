@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T07:26:02",
+  "saved_at": "2026-09-12T07:31:08",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2656,7 +2656,7 @@
       "reason": "Mixed signals with flat price action \u2014 mildly bullish RSI and deeply negative funding offset by negative perp premium and sub-1 SMA ratio \u2014 so keeping the minimal existing long."
     }
   ],
-  "llm_bar_index": 1768,
+  "llm_bar_index": 1769,
   "llm_usage": {
     "calls": 442,
     "prompt_tokens": 158802,
@@ -10403,9 +10403,13 @@
     [
       "2026-09-12T07:00:00",
       9832.97
+    ],
+    [
+      "2026-09-12T07:15:00",
+      9832.62
     ]
   ],
-  "last_bar_ts": "2026-09-12T07:00:00",
-  "bars_processed": 1800,
+  "last_bar_ts": "2026-09-12T07:15:00",
+  "bars_processed": 1801,
   "starting_cash": 10000.0
 }
