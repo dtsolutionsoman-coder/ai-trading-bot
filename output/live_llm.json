@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T04:22:09",
+  "saved_at": "2026-09-12T04:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2638,7 +2638,7 @@
       "reason": "Flat low-volatility price action with extremely negative funding (longs get paid) offsets the mildly bearish trend and perp discount, so I'm keeping the small long rather than cutting it or adding ris"
     }
   ],
-  "llm_bar_index": 1756,
+  "llm_bar_index": 1757,
   "llm_usage": {
     "calls": 439,
     "prompt_tokens": 157720,
@@ -10337,9 +10337,13 @@
     [
       "2026-09-12T04:00:00",
       9828.75
+    ],
+    [
+      "2026-09-12T04:15:00",
+      9827.03
     ]
   ],
-  "last_bar_ts": "2026-09-12T04:00:00",
-  "bars_processed": 1788,
+  "last_bar_ts": "2026-09-12T04:15:00",
+  "bars_processed": 1789,
   "starting_cash": 10000.0
 }
