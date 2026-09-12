@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T03:58:23",
+  "saved_at": "2026-09-12T04:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2632,7 +2632,7 @@
       "reason": "Flat momentum and slight discount are offset by extreme negative funding that pays the small long carry, so keep minimal exposure rather than cut or add."
     }
   ],
-  "llm_bar_index": 1754,
+  "llm_bar_index": 1755,
   "llm_usage": {
     "calls": 438,
     "prompt_tokens": 157360,
@@ -10323,9 +10323,13 @@
     [
       "2026-09-12T03:30:00",
       9827.92
+    ],
+    [
+      "2026-09-12T03:45:00",
+      9828.43
     ]
   ],
-  "last_bar_ts": "2026-09-12T03:30:00",
-  "bars_processed": 1786,
+  "last_bar_ts": "2026-09-12T03:45:00",
+  "bars_processed": 1787,
   "starting_cash": 10000.0
 }
