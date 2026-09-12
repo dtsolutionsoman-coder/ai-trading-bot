@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T22:55:34",
+  "saved_at": "2026-09-12T23:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2746,7 +2746,7 @@
       "reason": "Price and momentum are flat with no directional agreement, but deeply negative funding pays the small long position carry, so the minor drawdown is not worth cutting."
     }
   ],
-  "llm_bar_index": 1830,
+  "llm_bar_index": 1831,
   "llm_usage": {
     "calls": 457,
     "prompt_tokens": 164184,
@@ -10741,9 +10741,13 @@
     [
       "2026-09-12T22:30:00",
       9826.75
+    ],
+    [
+      "2026-09-12T22:45:00",
+      9827.7
     ]
   ],
-  "last_bar_ts": "2026-09-12T22:30:00",
-  "bars_processed": 1862,
+  "last_bar_ts": "2026-09-12T22:45:00",
+  "bars_processed": 1863,
   "starting_cash": 10000.0
 }
