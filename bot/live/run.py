@@ -68,6 +68,9 @@ def main(argv: list[str] | None = None) -> int:
                              "llm_analyst decisions with funding/OI/volume")
     parser.add_argument("--every", type=int, default=6,
                         help="llm_analyst: decide every N bars (default 6)")
+    parser.add_argument("--carry-entry-ann", type=float, default=None,
+                        help="funding_carry: annualized funding %% to trigger entry "
+                             "(default 50; majors like BTC rarely reach it)")
     parser.add_argument("--state", default="output/live_state.json")
     args = parser.parse_args(argv)
 
@@ -122,7 +125,12 @@ def main(argv: list[str] | None = None) -> int:
     elif args.strategy == "funding_carry":
         from ..strategies.funding_carry import FundingCarryStrategy
 
-        strategy = FundingCarryStrategy(provider=context_provider)
+        if args.carry_entry_ann is not None:
+            strategy = FundingCarryStrategy(
+                provider=context_provider, entry_ann_pct=args.carry_entry_ann
+            )
+        else:
+            strategy = FundingCarryStrategy(provider=context_provider)
     else:
         strategy = build_strategy(args.strategy)
     runner = LiveRunner(data_client, venue, strategy, config)

@@ -56,7 +56,7 @@ jobs:
         run: python -m bot.live.run --strategy llm_analyst --symbol BTC --interval 15m --every 4 --once --context-db output/market_data.db --state output/live_llm.json
 
       - name: race - funding carry
-        run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --state output/live_carry.json
+        run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --carry-entry-ann 25 --state output/live_carry.json
 
       - name: polymarket
         env:

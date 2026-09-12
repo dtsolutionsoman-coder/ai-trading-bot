@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
 
 from ..core.net import safe_urlopen
 
@@ -85,16 +86,32 @@ class GammaClient:
             data = json.loads(resp.read().decode("utf-8"))
         return data if isinstance(data, list) else []
 
-    def top_markets(self, limit: int = 8) -> list[PolMarket]:
+    def top_markets(self, limit: int = 8, max_days: float = 30.0) -> list[PolMarket]:
+        """Active markets by 24h volume that resolve within `max_days`.
+
+        Near-dated only: a probability call can only be Brier-scored once the
+        question actually resolves, so long-dated markets (2028 elections...)
+        produce judgments that no test window can ever grade.
+        """
         rows = self._fetch(
-            f"closed=false&limit={max(limit * 3, 24)}"
+            f"closed=false&limit={max(limit * 6, 48)}"
             "&order=volume24hr&ascending=false"
         )
+        horizon = datetime.now(timezone.utc) + timedelta(days=max_days)
         out = []
         for row in rows:
             m = parse_market(row)
-            if m is not None and m.active:
-                out.append(m)
+            if m is None or not m.active:
+                continue
+            try:
+                ends = datetime.fromisoformat(m.end_date.replace("Z", "+00:00"))
+            except ValueError:
+                continue  # undated market: unscorable, skip
+            if ends.tzinfo is None:
+                ends = ends.replace(tzinfo=timezone.utc)
+            if ends > horizon:
+                continue
+            out.append(m)
             if len(out) >= limit:
                 break
         return out

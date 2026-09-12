@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -10,7 +11,7 @@ from bot.pol.runner import (
     decide_market,
     parse_probability,
 )
-from bot.venues.polymarket import PolMarket, parse_market
+from bot.venues.polymarket import GammaClient, PolMarket, parse_market
 
 
 def make_market(mid, yes, closed=False, vol=50_000.0, liq=50_000.0):
@@ -191,3 +192,38 @@ def test_illiquid_markets_skipped(tmp_path):
                           '{"probability": 0.90, "reason": "sure"}')
     summary = runner.run_cycle()
     assert summary["entries"] == []
+
+
+# ---------- near-dated market filter (round two) ----------
+
+def _row(mid, end_date):
+    return {"id": mid, "question": f"Q{mid}?", "outcomes": '["Yes","No"]',
+            "outcomePrices": '["0.30","0.70"]', "volume24hr": 1000.0,
+            "liquidity": 500.0, "endDate": end_date, "active": True}
+
+
+class FakeFetchGamma(GammaClient):
+    def __init__(self, rows):
+        super().__init__()
+        self.rows = rows
+
+    def _fetch(self, query):
+        return self.rows
+
+
+def test_top_markets_keeps_only_near_dated():
+    soon = (datetime.now(timezone.utc) + timedelta(days=10)).isoformat()
+    far = (datetime.now(timezone.utc) + timedelta(days=400)).isoformat()
+    got = FakeFetchGamma(
+        [_row("near", soon), _row("far", far), _row("undated", "")]
+    ).top_markets(limit=5, max_days=30)
+    assert [m.id for m in got] == ["near"]
+
+
+def test_top_markets_fills_limit_despite_rejections():
+    soon = (datetime.now(timezone.utc) + timedelta(days=5)).isoformat()
+    far = (datetime.now(timezone.utc) + timedelta(days=90)).isoformat()
+    got = FakeFetchGamma(
+        [_row("a", soon), _row("b", far), _row("c", soon)]
+    ).top_markets(limit=2)
+    assert [m.id for m in got] == ["a", "c"]
