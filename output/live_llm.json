@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T05:54:11",
+  "saved_at": "2026-09-12T06:00:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2644,7 +2644,7 @@
       "reason": "Flat price with deeply negative funding and perp discount favors keeping a small long for positive carry and squeeze potential despite mildly weak momentum."
     }
   ],
-  "llm_bar_index": 1762,
+  "llm_bar_index": 1763,
   "llm_usage": {
     "calls": 440,
     "prompt_tokens": 158082,
@@ -10367,9 +10367,13 @@
     [
       "2026-09-12T05:30:00",
       9826.36
+    ],
+    [
+      "2026-09-12T05:45:00",
+      9825.57
     ]
   ],
-  "last_bar_ts": "2026-09-12T05:30:00",
-  "bars_processed": 1794,
+  "last_bar_ts": "2026-09-12T05:45:00",
+  "bars_processed": 1795,
   "starting_cash": 10000.0
 }
