@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T12:55:52",
+  "saved_at": "2026-09-12T13:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2686,7 +2686,7 @@
       "reason": "Deeply negative funding and perp discount with flat price suggest crowded shorts (mild squeeze risk and positive carry for longs), but weak momentum (RSI 37.7, SMA ratio <1) and low volume argue again"
     }
   ],
-  "llm_bar_index": 1790,
+  "llm_bar_index": 1791,
   "llm_usage": {
     "calls": 447,
     "prompt_tokens": 160598,
@@ -10521,9 +10521,13 @@
     [
       "2026-09-12T12:30:00",
       9829.22
+    ],
+    [
+      "2026-09-12T12:45:00",
+      9828.75
     ]
   ],
-  "last_bar_ts": "2026-09-12T12:30:00",
-  "bars_processed": 1822,
+  "last_bar_ts": "2026-09-12T12:45:00",
+  "bars_processed": 1823,
   "starting_cash": 10000.0
 }
