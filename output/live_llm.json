@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T18:18:39",
+  "saved_at": "2026-09-12T18:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2722,7 +2722,7 @@
       "reason": "Flat trend with mixed signals (negative funding/premium vs near-neutral SMAs) doesn't justify changing the tiny long position."
     }
   ],
-  "llm_bar_index": 1812,
+  "llm_bar_index": 1813,
   "llm_usage": {
     "calls": 453,
     "prompt_tokens": 162748,
@@ -10645,9 +10645,13 @@
     [
       "2026-09-12T18:00:00",
       9828.68
+    ],
+    [
+      "2026-09-12T18:15:00",
+      9828.27
     ]
   ],
-  "last_bar_ts": "2026-09-12T18:00:00",
-  "bars_processed": 1844,
+  "last_bar_ts": "2026-09-12T18:15:00",
+  "bars_processed": 1845,
   "starting_cash": 10000.0
 }
