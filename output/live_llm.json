@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T17:41:48",
+  "saved_at": "2026-09-12T17:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2716,7 +2716,7 @@
       "reason": "Flat trend and neutral RSI with deeply negative funding paying longs; keeping the small long while watching for direction, no signal to add or cut yet."
     }
   ],
-  "llm_bar_index": 1809,
+  "llm_bar_index": 1810,
   "llm_usage": {
     "calls": 452,
     "prompt_tokens": 162389,
@@ -10627,9 +10627,13 @@
     [
       "2026-09-12T17:15:00",
       9832.49
+    ],
+    [
+      "2026-09-12T17:30:00",
+      9830.43
     ]
   ],
-  "last_bar_ts": "2026-09-12T17:15:00",
-  "bars_processed": 1841,
+  "last_bar_ts": "2026-09-12T17:30:00",
+  "bars_processed": 1842,
   "starting_cash": 10000.0
 }
