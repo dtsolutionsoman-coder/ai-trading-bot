@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T19:23:13",
+  "saved_at": "2026-09-12T19:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2728,7 +2728,7 @@
       "reason": "Oversold RSI and deeply negative funding (longs collect carry) support keeping the tiny long, but flat price action and low volume give no confirmation to add or cut."
     }
   ],
-  "llm_bar_index": 1816,
+  "llm_bar_index": 1817,
   "llm_usage": {
     "calls": 454,
     "prompt_tokens": 163107,
@@ -10667,9 +10667,13 @@
     [
       "2026-09-12T19:00:00",
       9828.36
+    ],
+    [
+      "2026-09-12T19:15:00",
+      9827.09
     ]
   ],
-  "last_bar_ts": "2026-09-12T19:00:00",
-  "bars_processed": 1848,
+  "last_bar_ts": "2026-09-12T19:15:00",
+  "bars_processed": 1849,
   "starting_cash": 10000.0
 }
