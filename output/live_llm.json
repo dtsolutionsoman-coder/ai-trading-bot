@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T13:56:09",
+  "saved_at": "2026-09-12T14:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2692,7 +2692,7 @@
       "reason": "Mild downtrend with flat moving averages, but oversold RSI and deeply negative funding/perp premium signal crowded shorts; keeping the small long rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1794,
+  "llm_bar_index": 1795,
   "llm_usage": {
     "calls": 448,
     "prompt_tokens": 160957,
@@ -10543,9 +10543,13 @@
     [
       "2026-09-12T13:30:00",
       9827.82
+    ],
+    [
+      "2026-09-12T13:45:00",
+      9829.35
     ]
   ],
-  "last_bar_ts": "2026-09-12T13:30:00",
-  "bars_processed": 1826,
+  "last_bar_ts": "2026-09-12T13:45:00",
+  "bars_processed": 1827,
   "starting_cash": 10000.0
 }
