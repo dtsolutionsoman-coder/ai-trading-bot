@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T16:44:15",
+  "saved_at": "2026-09-12T16:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2710,7 +2710,7 @@
       "reason": "Flat trend and mixed signals with a tiny long position earning negative-funding carry; no edge to size up or exit."
     }
   ],
-  "llm_bar_index": 1805,
+  "llm_bar_index": 1806,
   "llm_usage": {
     "calls": 451,
     "prompt_tokens": 162030,
@@ -10605,9 +10605,13 @@
     [
       "2026-09-12T16:15:00",
       9835.48
+    ],
+    [
+      "2026-09-12T16:30:00",
+      9832.97
     ]
   ],
-  "last_bar_ts": "2026-09-12T16:15:00",
-  "bars_processed": 1837,
+  "last_bar_ts": "2026-09-12T16:30:00",
+  "bars_processed": 1838,
   "starting_cash": 10000.0
 }
