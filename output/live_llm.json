@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-12T02:34:34",
+  "saved_at": "2026-09-12T02:45:08",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2626,7 +2626,7 @@
       "reason": "Mixed signals \u2014 overbought RSI and flat trend versus deeply negative funding and perp discount \u2014 warrant keeping only the small existing long rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1749,
+  "llm_bar_index": 1750,
   "llm_usage": {
     "calls": 437,
     "prompt_tokens": 157000,
@@ -10297,9 +10297,13 @@
     [
       "2026-09-12T02:15:00",
       9829.44
+    ],
+    [
+      "2026-09-12T02:30:00",
+      9827.86
     ]
   ],
-  "last_bar_ts": "2026-09-12T02:15:00",
-  "bars_processed": 1781,
+  "last_bar_ts": "2026-09-12T02:30:00",
+  "bars_processed": 1782,
   "starting_cash": 10000.0
 }
