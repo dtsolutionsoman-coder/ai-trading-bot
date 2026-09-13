@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T07:22:24",
+  "saved_at": "2026-09-13T07:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2800,7 +2800,7 @@
       "reason": "Price action is flat with minimal volatility and mixed signals; deeply negative funding favors the small long, so I'll maintain tiny exposure rather than cut or add."
     }
   ],
-  "llm_bar_index": 1864,
+  "llm_bar_index": 1865,
   "llm_usage": {
     "calls": 466,
     "prompt_tokens": 167410,
@@ -10931,9 +10931,13 @@
     [
       "2026-09-13T07:00:00",
       9827.25
+    ],
+    [
+      "2026-09-13T07:15:00",
+      9826.11
     ]
   ],
-  "last_bar_ts": "2026-09-13T07:00:00",
-  "bars_processed": 1896,
+  "last_bar_ts": "2026-09-13T07:15:00",
+  "bars_processed": 1897,
   "starting_cash": 10000.0
 }
