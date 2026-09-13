@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T17:21:32",
+  "saved_at": "2026-09-13T17:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2860,7 +2860,7 @@
       "reason": "Overbought RSI (74.5) with elevated funding and positive perp premium supports the existing small short into likely long-liquidation pullback, but rising 6h momentum prevents adding risk."
     }
   ],
-  "llm_bar_index": 1904,
+  "llm_bar_index": 1905,
   "llm_usage": {
     "calls": 476,
     "prompt_tokens": 170998,
@@ -11160,9 +11160,13 @@
     [
       "2026-09-13T17:00:00",
       9802.86
+    ],
+    [
+      "2026-09-13T17:15:00",
+      9804.66
     ]
   ],
-  "last_bar_ts": "2026-09-13T17:00:00",
-  "bars_processed": 1936,
+  "last_bar_ts": "2026-09-13T17:15:00",
+  "bars_processed": 1937,
   "starting_cash": 10000.0
 }
