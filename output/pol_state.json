@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T23:10:53",
+  "saved_at": "2026-09-13T23:15:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T05:25:59.100366",
-        10000.0
-      ],
       [
         "2026-09-05T05:30:33.375283",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-13T23:10:53.231061",
         9993.20452
+      ],
+      [
+        "2026-09-13T23:15:37.648944",
+        9993.20452
       ]
     ]
   },
@@ -9934,11 +9934,18 @@
       "market_price": 0.375,
       "question": "Will CR Flamengo win on 2026-09-13?",
       "ts": "2026-09-13T22:14:43"
+    },
+    "4111395": {
+      "probability": 0.76,
+      "reason": "No specific match details available for this future fixture; staying near the market price with a slight discount for draw risk in soccer.",
+      "market_price": 0.775,
+      "question": "Will Real Madrid CF win on 2026-09-15?",
+      "ts": "2026-09-13T23:15:37"
     }
   },
   "llm_usage": {
-    "calls": 258,
-    "prompt_tokens": 42929,
-    "completion_tokens": 153103
+    "calls": 259,
+    "prompt_tokens": 43095,
+    "completion_tokens": 153432
   }
 }
