@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T18:29:38",
+  "saved_at": "2026-09-13T18:31:23",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9388.0,
+    "cash": 9446.91902834008,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -31,9 +31,9 @@
         "realized_pnl": 0.0
       },
       "pol:1088475:N": {
-        "qty": 202.42914979757086,
-        "avg_price": 0.50388,
-        "realized_pnl": 0.0
+        "qty": 0.0,
+        "avg_price": 0.0,
+        "realized_pnl": -43.08097165991903
       }
     },
     "fills": [
@@ -96,13 +96,19 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge -0.396: LLM 0.11 vs market 0.51 \u2014 Will Alexander Zverev win the 2026 Men's US Open?"
+      },
+      {
+        "ts": "2026-09-13T18:30:34.088245",
+        "symbol": "pol:1088475:N",
+        "side": "sell",
+        "qty": 202.42914979757086,
+        "price": 0.29106,
+        "fee": 0.0,
+        "realized": -43.08097165991903,
+        "reason": "stop-loss on Will Alexander Zverev win the 2026 Men's US Open?"
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T00:49:29.644694",
-        10000.0
-      ],
       [
         "2026-09-05T00:57:29.814051",
         10000.0
@@ -8098,6 +8104,10 @@
       [
         "2026-09-13T18:29:37.966141",
         9971.439123
+      ],
+      [
+        "2026-09-13T18:30:34.088245",
+        9964.2014
       ]
     ]
   },
@@ -9844,11 +9854,25 @@
       "market_price": 0.506,
       "question": "Will Alexander Zverev win the 2026 Men's US Open?",
       "ts": "2026-09-10T04:58:11"
+    },
+    "4016659": {
+      "probability": 0.11,
+      "reason": "Far-future match with unknown opponent and likely illiquid pricing; the 6.5% YES price seems too low versus typical soccer win base rates, so I nudge upward while respecting the market's bearish signa",
+      "market_price": 0.065,
+      "question": "Will Stade Brestois 29 win on 2026-09-13?",
+      "ts": "2026-09-13T18:30:34"
+    },
+    "4016662": {
+      "probability": 0.78,
+      "reason": "PSG is typically a heavy Ligue 1 favorite, but with the opponent and team details unknown this far out, staying close to the market price with a slight discount.",
+      "market_price": 0.795,
+      "question": "Will Paris Saint-Germain FC win on 2026-09-13?",
+      "ts": "2026-09-13T18:30:34"
     }
   },
   "llm_usage": {
-    "calls": 245,
-    "prompt_tokens": 40767,
-    "completion_tokens": 139899
+    "calls": 248,
+    "prompt_tokens": 41273,
+    "completion_tokens": 143054
   }
 }
