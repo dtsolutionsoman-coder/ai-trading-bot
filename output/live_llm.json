@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T02:43:11",
+  "saved_at": "2026-09-13T02:45:23",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2770,7 +2770,7 @@
       "reason": "Flat trend (SMA ratio ~1.0) and tiny price moves with mixed signals \u2014 negative funding and perp discount show crowded shorts but no momentum confirmation, so maintain the small long rather than add ri"
     }
   ],
-  "llm_bar_index": 1845,
+  "llm_bar_index": 1846,
   "llm_usage": {
     "calls": 461,
     "prompt_tokens": 165619,
@@ -10825,9 +10825,13 @@
     [
       "2026-09-13T02:15:00",
       9830.62
+    ],
+    [
+      "2026-09-13T02:30:00",
+      9831.48
     ]
   ],
-  "last_bar_ts": "2026-09-13T02:15:00",
-  "bars_processed": 1877,
+  "last_bar_ts": "2026-09-13T02:30:00",
+  "bars_processed": 1878,
   "starting_cash": 10000.0
 }
