@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T06:39:29",
+  "saved_at": "2026-09-13T06:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2794,7 +2794,7 @@
       "reason": "Deeply negative funding rewards the small long and RSI is mildly constructive, but flat SMA ratio, declining OI, and thin volume argue against adding to a slightly underwater position."
     }
   ],
-  "llm_bar_index": 1861,
+  "llm_bar_index": 1862,
   "llm_usage": {
     "calls": 465,
     "prompt_tokens": 167052,
@@ -10913,9 +10913,13 @@
     [
       "2026-09-13T06:15:00",
       9830.94
+    ],
+    [
+      "2026-09-13T06:30:00",
+      9831.48
     ]
   ],
-  "last_bar_ts": "2026-09-13T06:15:00",
-  "bars_processed": 1893,
+  "last_bar_ts": "2026-09-13T06:30:00",
+  "bars_processed": 1894,
   "starting_cash": 10000.0
 }
