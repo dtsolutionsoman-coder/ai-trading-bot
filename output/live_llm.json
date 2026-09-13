@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T14:56:24",
+  "saved_at": "2026-09-13T15:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2842,7 +2842,7 @@
       "reason": "Consolidating market with mixed signals; keeping the small short as the mild downtrend (SMA ratio <1) outweighs the 1h bounce, but cutting size given rising RSI."
     }
   ],
-  "llm_bar_index": 1894,
+  "llm_bar_index": 1895,
   "llm_usage": {
     "calls": 473,
     "prompt_tokens": 169921,
@@ -11102,9 +11102,13 @@
     [
       "2026-09-13T14:30:00",
       9808.25
+    ],
+    [
+      "2026-09-13T14:45:00",
+      9805.27
     ]
   ],
-  "last_bar_ts": "2026-09-13T14:30:00",
-  "bars_processed": 1926,
+  "last_bar_ts": "2026-09-13T14:45:00",
+  "bars_processed": 1927,
   "starting_cash": 10000.0
 }
