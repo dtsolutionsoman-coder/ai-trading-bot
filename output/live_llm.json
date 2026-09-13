@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T00:24:30",
+  "saved_at": "2026-09-13T00:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2758,7 +2758,7 @@
       "reason": "Flat price action with near-overbought RSI and negative perp premium offsets the short-paying funding carry; keeping the small long as signals conflict."
     }
   ],
-  "llm_bar_index": 1836,
+  "llm_bar_index": 1837,
   "llm_usage": {
     "calls": 459,
     "prompt_tokens": 164902,
@@ -10777,9 +10777,13 @@
     [
       "2026-09-13T00:00:00",
       9831.98
+    ],
+    [
+      "2026-09-13T00:15:00",
+      9832.37
     ]
   ],
-  "last_bar_ts": "2026-09-13T00:00:00",
-  "bars_processed": 1868,
+  "last_bar_ts": "2026-09-13T00:15:00",
+  "bars_processed": 1869,
   "starting_cash": 10000.0
 }
