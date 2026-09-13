@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T01:21:17",
+  "saved_at": "2026-09-13T01:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2764,7 +2764,7 @@
       "reason": "Flat price action and negligible volume with mixed signals (deeply negative funding vs negative perp premium) give no edge; keep minimal long exposure for funding carry rather than add risk."
     }
   ],
-  "llm_bar_index": 1840,
+  "llm_bar_index": 1841,
   "llm_usage": {
     "calls": 460,
     "prompt_tokens": 165260,
@@ -10799,9 +10799,13 @@
     [
       "2026-09-13T01:00:00",
       9831.44
+    ],
+    [
+      "2026-09-13T01:15:00",
+      9830.3
     ]
   ],
-  "last_bar_ts": "2026-09-13T01:00:00",
-  "bars_processed": 1872,
+  "last_bar_ts": "2026-09-13T01:15:00",
+  "bars_processed": 1873,
   "starting_cash": 10000.0
 }
