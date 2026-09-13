@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T18:15:52",
+  "saved_at": "2026-09-13T18:16:22",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2862,20 +2862,20 @@
     {
       "ts": "2026-09-13T18:00:00",
       "action": "buy",
-      "conviction": 0.15,
-      "reason": "Multiple mild bullish signals (6h/24h momentum, positive premium, rising OI) press on a small losing short, so cover to near-flat rather than add risk."
+      "conviction": 0.3,
+      "reason": "Mild upward drift with neutral RSI and positive premium argues against the small losing short; covering toward flat."
     }
   ],
   "llm_bar_index": 1908,
   "llm_usage": {
     "calls": 477,
     "prompt_tokens": 171357,
-    "completion_tokens": 477108
+    "completion_tokens": 476204
   },
-  "cash": 8328.38599134323,
+  "cash": 7346.583141455766,
   "positions": {
     "BTC": {
-      "qty": 0.018989847007760734,
+      "qty": 0.03164974501293455,
       "avg_price": 77474.718,
       "realized_pnl": -34.0908133181202
     }
@@ -3424,11 +3424,11 @@
     {
       "ts": "2026-09-13T18:00:00",
       "side": "buy",
-      "qty": 0.03816792589540656,
+      "qty": 0.050827823900580375,
       "price": 77474.718,
-      "fee": 2.95704929539152,
+      "fee": 3.937871323251124,
       "realized": -13.388705912477086,
-      "reason": "LLM buy conv=0.15: Multiple mild bullish signals (6h/24h momentum, positive premium, rising OI) press on a small losing short, so cover to near-flat rather than add risk."
+      "reason": "LLM buy conv=0.30: Mild upward drift with neutral RSI and positive premium argues against the small losing short; covering toward flat. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -11190,7 +11190,7 @@
     ],
     [
       "2026-09-13T18:00:00",
-      9798.88
+      9797.41
     ]
   ],
   "last_bar_ts": "2026-09-13T18:00:00",
