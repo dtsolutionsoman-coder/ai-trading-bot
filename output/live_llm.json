@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T16:59:29",
+  "saved_at": "2026-09-13T17:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2854,7 +2854,7 @@
       "reason": "Small short retained: high positive funding and RSI near overbought favor mean reversion, though mild upside momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1902,
+  "llm_bar_index": 1903,
   "llm_usage": {
     "calls": 475,
     "prompt_tokens": 170639,
@@ -11146,9 +11146,13 @@
     [
       "2026-09-13T16:30:00",
       9805.06
+    ],
+    [
+      "2026-09-13T16:45:00",
+      9805.54
     ]
   ],
-  "last_bar_ts": "2026-09-13T16:30:00",
-  "bars_processed": 1934,
+  "last_bar_ts": "2026-09-13T16:45:00",
+  "bars_processed": 1935,
   "starting_cash": 10000.0
 }
