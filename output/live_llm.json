@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T19:55:23",
+  "saved_at": "2026-09-13T20:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2872,7 +2872,7 @@
       "reason": "Mild uptrend (6h/24h up, RSI 63) offset by very high funding costs, flat moving averages, and thin volume \u2014 keep the tiny long but don't add."
     }
   ],
-  "llm_bar_index": 1914,
+  "llm_bar_index": 1915,
   "llm_usage": {
     "calls": 478,
     "prompt_tokens": 171715,
@@ -11221,9 +11221,13 @@
     [
       "2026-09-13T19:30:00",
       9793.58
+    ],
+    [
+      "2026-09-13T19:45:00",
+      9795.26
     ]
   ],
-  "last_bar_ts": "2026-09-13T19:30:00",
-  "bars_processed": 1946,
+  "last_bar_ts": "2026-09-13T19:45:00",
+  "bars_processed": 1947,
   "starting_cash": 10000.0
 }
