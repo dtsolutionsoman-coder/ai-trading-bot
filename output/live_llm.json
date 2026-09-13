@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T18:41:22",
+  "saved_at": "2026-09-13T18:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2866,7 +2866,7 @@
       "reason": "Mild upward drift with neutral RSI and positive premium argues against the small losing short; covering toward flat."
     }
   ],
-  "llm_bar_index": 1909,
+  "llm_bar_index": 1910,
   "llm_usage": {
     "calls": 477,
     "prompt_tokens": 171357,
@@ -11195,9 +11195,13 @@
     [
       "2026-09-13T18:15:00",
       9796.84
+    ],
+    [
+      "2026-09-13T18:30:00",
+      9797.92
     ]
   ],
-  "last_bar_ts": "2026-09-13T18:15:00",
-  "bars_processed": 1941,
+  "last_bar_ts": "2026-09-13T18:30:00",
+  "bars_processed": 1942,
   "starting_cash": 10000.0
 }

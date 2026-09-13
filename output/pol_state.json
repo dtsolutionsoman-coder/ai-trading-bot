@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T18:41:29",
+  "saved_at": "2026-09-13T18:45:31",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9446.91902834008,
@@ -109,10 +109,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T01:00:38.905203",
-        10000.0
-      ],
       [
         "2026-09-05T01:06:44.000749",
         10000.0
@@ -8108,6 +8104,10 @@
       [
         "2026-09-13T18:41:23.759194",
         9963.031353
+      ],
+      [
+        "2026-09-13T18:45:26.744186",
+        9961.003272
       ]
     ]
   },
@@ -9875,11 +9875,18 @@
       "market_price": 0.455,
       "question": "Will Club Atl\u00e9tico de Madrid win on 2026-09-13?",
       "ts": "2026-09-13T18:41:23"
+    },
+    "4221885": {
+      "probability": 0.62,
+      "reason": "Match details and opponent unknown this far out; Sporting CP is typically favored in league matches, so staying near the market price of 0.625.",
+      "market_price": 0.625,
+      "question": "Will Sporting CP win on 2026-09-13?",
+      "ts": "2026-09-13T18:45:26"
     }
   },
   "llm_usage": {
-    "calls": 249,
-    "prompt_tokens": 41441,
-    "completion_tokens": 143336
+    "calls": 250,
+    "prompt_tokens": 41606,
+    "completion_tokens": 143583
   }
 }
