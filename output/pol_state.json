@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T21:54:27",
+  "saved_at": "2026-09-13T22:00:58",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T04:15:41.517722",
-        10000.0
-      ],
       [
         "2026-09-05T04:22:35.366928",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-13T21:54:26.501863",
         9993.20452
+      ],
+      [
+        "2026-09-13T22:00:44.628548",
+        9993.20452
       ]
     ]
   },
@@ -9920,11 +9920,18 @@
       "market_price": 0.013,
       "question": "Iran-Oman Hormuz Agreement by September 14?",
       "ts": "2026-09-13T21:40:55"
+    },
+    "4052446": {
+      "probability": 0.07,
+      "reason": "No current ETH price data available; the market's 6.4% suggests ETH is trading well below $3,200, and a single-month rally of that size is historically rare, so I stay near the market price with a sli",
+      "market_price": 0.0635,
+      "question": "Will Ethereum reach $3,200 in September?",
+      "ts": "2026-09-13T22:00:44"
     }
   },
   "llm_usage": {
-    "calls": 256,
-    "prompt_tokens": 42601,
-    "completion_tokens": 151809
+    "calls": 257,
+    "prompt_tokens": 42763,
+    "completion_tokens": 152827
   }
 }
