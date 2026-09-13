@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T03:21:38",
+  "saved_at": "2026-09-13T03:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2776,7 +2776,7 @@
       "reason": "Flat momentum, neutral RSI, and low liquidity offset the crowded-short funding signal; the tiny losing long is minimal risk so keep minimal exposure without adding."
     }
   ],
-  "llm_bar_index": 1848,
+  "llm_bar_index": 1849,
   "llm_usage": {
     "calls": 462,
     "prompt_tokens": 165978,
@@ -10843,9 +10843,13 @@
     [
       "2026-09-13T03:00:00",
       9831.22
+    ],
+    [
+      "2026-09-13T03:15:00",
+      9830.52
     ]
   ],
-  "last_bar_ts": "2026-09-13T03:00:00",
-  "bars_processed": 1880,
+  "last_bar_ts": "2026-09-13T03:15:00",
+  "bars_processed": 1881,
   "starting_cash": 10000.0
 }
