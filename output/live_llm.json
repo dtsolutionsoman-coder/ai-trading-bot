@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T10:58:21",
+  "saved_at": "2026-09-13T11:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2818,7 +2818,7 @@
       "reason": "Mildly bearish drift and positive funding justify keeping the small short, but oversold RSI and very thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1878,
+  "llm_bar_index": 1879,
   "llm_usage": {
     "calls": 469,
     "prompt_tokens": 168488,
@@ -11014,9 +11014,13 @@
     [
       "2026-09-13T10:30:00",
       9818.2
+    ],
+    [
+      "2026-09-13T10:45:00",
+      9818.66
     ]
   ],
-  "last_bar_ts": "2026-09-13T10:30:00",
-  "bars_processed": 1910,
+  "last_bar_ts": "2026-09-13T10:45:00",
+  "bars_processed": 1911,
   "starting_cash": 10000.0
 }
