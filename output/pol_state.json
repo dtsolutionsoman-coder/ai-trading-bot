@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T20:39:28",
+  "saved_at": "2026-09-13T20:45:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9446.91902834008,
@@ -109,10 +109,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T03:00:37.727688",
-        10000.0
-      ],
       [
         "2026-09-05T03:04:16.568693",
         10000.0
@@ -8108,6 +8104,10 @@
       [
         "2026-09-13T20:38:58.016784",
         9956.919028
+      ],
+      [
+        "2026-09-13T20:45:26.953587",
+        9991.346485
       ]
     ]
   },
@@ -9896,11 +9896,18 @@
       "market_price": 0.88,
       "question": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
       "ts": "2026-09-13T19:45:25"
+    },
+    "1193093": {
+      "probability": 0.26,
+      "reason": "Kristersson is already PM, so this hinges on him remaining PM after the September 2026 election, where opposition bloc polling leads make his retention roughly a 1-in-4 to 1-in-3 chance, close to the ",
+      "market_price": 0.27,
+      "question": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+      "ts": "2026-09-13T20:45:26"
     }
   },
   "llm_usage": {
-    "calls": 254,
-    "prompt_tokens": 42273,
-    "completion_tokens": 150023
+    "calls": 255,
+    "prompt_tokens": 42438,
+    "completion_tokens": 151173
   }
 }
