@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T20:28:23",
+  "saved_at": "2026-09-13T20:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2878,7 +2878,7 @@
       "reason": "Trend, RSI, and moving averages are all neutral while elevated funding and perp premium discourage adding long risk, so the tiny losing long is just held at minimal size."
     }
   ],
-  "llm_bar_index": 1916,
+  "llm_bar_index": 1917,
   "llm_usage": {
     "calls": 479,
     "prompt_tokens": 172074,
@@ -11235,9 +11235,13 @@
     [
       "2026-09-13T20:00:00",
       9795.48
+    ],
+    [
+      "2026-09-13T20:15:00",
+      9797.0
     ]
   ],
-  "last_bar_ts": "2026-09-13T20:00:00",
-  "bars_processed": 1948,
+  "last_bar_ts": "2026-09-13T20:15:00",
+  "bars_processed": 1949,
   "starting_cash": 10000.0
 }
