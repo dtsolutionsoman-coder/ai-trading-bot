@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T21:22:00",
+  "saved_at": "2026-09-13T21:30:33",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9446.91902834008,
+    "cash": 9585.204519759736,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -26,9 +26,9 @@
         "realized_pnl": 0.0
       },
       "pol:1088476:N": {
-        "qty": 156.00624024961,
-        "avg_price": 0.6538200000000001,
-        "realized_pnl": 0.0
+        "qty": 0.0,
+        "avg_price": 0.0,
+        "realized_pnl": 36.285491419656765
       },
       "pol:1088475:N": {
         "qty": 0.0,
@@ -106,13 +106,19 @@
         "fee": 0.0,
         "realized": -43.08097165991903,
         "reason": "stop-loss on Will Alexander Zverev win the 2026 Men's US Open?"
+      },
+      {
+        "ts": "2026-09-13T21:30:33.565432",
+        "symbol": "pol:1088476:N",
+        "side": "sell",
+        "qty": 156.00624024961,
+        "price": 0.8864099999999999,
+        "fee": 0.0,
+        "realized": 36.285491419656765,
+        "reason": "take-profit on Will Ben Shelton win the 2026 Men's US Open?"
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T03:45:26.867856",
-        10000.0
-      ],
       [
         "2026-09-05T03:45:59.574423",
         10000.0
@@ -8108,6 +8114,10 @@
       [
         "2026-09-13T21:21:59.763656",
         9979.021992
+      ],
+      [
+        "2026-09-13T21:30:33.565432",
+        9993.20452
       ]
     ]
   },
