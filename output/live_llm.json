@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T12:12:35",
+  "saved_at": "2026-09-13T12:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2822,13 +2822,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Mild downtrend and positive funding support the small profitable short, but RSI 23.6 is deeply oversold so I won't add exposure here."
+    },
+    {
+      "ts": "2026-09-13T12:00:00",
+      "action": "hold",
+      "conviction": 0.15,
+      "reason": "Mild bearish drift supports the small short, but negative funding and falling OI signal a crowded, costly short with squeeze risk, so no add."
     }
   ],
-  "llm_bar_index": 1883,
+  "llm_bar_index": 1884,
   "llm_usage": {
-    "calls": 470,
-    "prompt_tokens": 168847,
-    "completion_tokens": 468047
+    "calls": 471,
+    "prompt_tokens": 169204,
+    "completion_tokens": 469288
   },
   "cash": 11288.392336030141,
   "positions": {
@@ -11040,9 +11046,13 @@
     [
       "2026-09-13T11:45:00",
       9817.32
+    ],
+    [
+      "2026-09-13T12:00:00",
+      9816.86
     ]
   ],
-  "last_bar_ts": "2026-09-13T11:45:00",
-  "bars_processed": 1915,
+  "last_bar_ts": "2026-09-13T12:00:00",
+  "bars_processed": 1916,
   "starting_cash": 10000.0
 }
