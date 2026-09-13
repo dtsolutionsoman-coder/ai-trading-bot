@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T09:31:38",
+  "saved_at": "2026-09-13T09:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2812,7 +2812,7 @@
       "reason": "Weakly bearish drift (negative 6h/24h, RSI 31.6, declining OI) plus positive funding cost on a small losing long justifies flattening, though low-liquidity chop keeps conviction minimal."
     }
   ],
-  "llm_bar_index": 1873,
+  "llm_bar_index": 1874,
   "llm_usage": {
     "calls": 468,
     "prompt_tokens": 168129,
@@ -10988,9 +10988,13 @@
     [
       "2026-09-13T09:15:00",
       9818.55
+    ],
+    [
+      "2026-09-13T09:30:00",
+      9817.17
     ]
   ],
-  "last_bar_ts": "2026-09-13T09:15:00",
-  "bars_processed": 1905,
+  "last_bar_ts": "2026-09-13T09:30:00",
+  "bars_processed": 1906,
   "starting_cash": 10000.0
 }
