@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T20:45:43",
+  "saved_at": "2026-09-13T20:46:20",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9446.91902834008,
@@ -8106,7 +8106,7 @@
         9956.919028
       ],
       [
-        "2026-09-13T20:45:26.953587",
+        "2026-09-13T20:46:00.071553",
         9991.346485
       ]
     ]
@@ -9898,16 +9898,16 @@
       "ts": "2026-09-13T19:45:25"
     },
     "1193093": {
-      "probability": 0.26,
-      "reason": "Kristersson is already PM, so this hinges on him remaining PM after the September 2026 election, where opposition bloc polling leads make his retention roughly a 1-in-4 to 1-in-3 chance, close to the ",
+      "probability": 0.28,
+      "reason": "Sweden's opposition left bloc holds a solid polling lead ahead of the September 2026 election, making Kristersson's continuation as PM unlikely, though a year of campaign dynamics and complex governme",
       "market_price": 0.27,
       "question": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-      "ts": "2026-09-13T20:45:26"
+      "ts": "2026-09-13T20:46:00"
     }
   },
   "llm_usage": {
     "calls": 255,
     "prompt_tokens": 42438,
-    "completion_tokens": 151173
+    "completion_tokens": 151506
   }
 }
