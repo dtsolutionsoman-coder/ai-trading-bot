@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T13:54:07",
+  "saved_at": "2026-09-13T14:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2836,7 +2836,7 @@
       "reason": "Mildly bearish drift (soft momentum, RSI<50, negative perp premium) supports keeping the small profitable short, but very low volatility and weak signal strength argue against adding risk."
     }
   ],
-  "llm_bar_index": 1890,
+  "llm_bar_index": 1891,
   "llm_usage": {
     "calls": 472,
     "prompt_tokens": 169563,
@@ -11080,9 +11080,13 @@
     [
       "2026-09-13T13:30:00",
       9816.99
+    ],
+    [
+      "2026-09-13T13:45:00",
+      9814.79
     ]
   ],
-  "last_bar_ts": "2026-09-13T13:30:00",
-  "bars_processed": 1922,
+  "last_bar_ts": "2026-09-13T13:45:00",
+  "bars_processed": 1923,
   "starting_cash": 10000.0
 }
