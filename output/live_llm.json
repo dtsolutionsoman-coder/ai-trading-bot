@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T21:40:54",
+  "saved_at": "2026-09-13T21:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2884,7 +2884,7 @@
       "reason": "Flat trend (SMA ratio ~1.0) with extreme funding cost (~77% annualized) and thin volume means the small long bleeds carry with no momentum to offset it."
     }
   ],
-  "llm_bar_index": 1921,
+  "llm_bar_index": 1922,
   "llm_usage": {
     "calls": 480,
     "prompt_tokens": 172432,
@@ -11270,9 +11270,13 @@
     [
       "2026-09-13T21:15:00",
       9787.66
+    ],
+    [
+      "2026-09-13T21:30:00",
+      9788.39
     ]
   ],
-  "last_bar_ts": "2026-09-13T21:15:00",
-  "bars_processed": 1953,
+  "last_bar_ts": "2026-09-13T21:30:00",
+  "bars_processed": 1954,
   "starting_cash": 10000.0
 }
