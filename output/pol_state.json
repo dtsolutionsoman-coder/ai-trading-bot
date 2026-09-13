@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T18:51:14",
+  "saved_at": "2026-09-13T18:58:03",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9446.91902834008,
@@ -109,10 +109,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T01:15:42.501509",
-        10000.0
-      ],
       [
         "2026-09-05T01:18:13.368513",
         10000.0
@@ -8108,6 +8104,10 @@
       [
         "2026-09-13T18:51:13.894518",
         9964.045393
+      ],
+      [
+        "2026-09-13T18:57:51.043773",
+        9963.655378
       ]
     ]
   },
@@ -9882,11 +9882,18 @@
       "market_price": 0.625,
       "question": "Will Sporting CP win on 2026-09-13?",
       "ts": "2026-09-13T18:45:26"
+    },
+    "4221880": {
+      "probability": 0.91,
+      "reason": "Market heavily favors Benfica, but a 0.95 single-match price likely includes margin and overstates a true win probability that must account for meaningful draw/loss risk against an unknown opponent.",
+      "market_price": 0.95,
+      "question": "Will Sport Lisboa e Benfica win on 2026-09-13?",
+      "ts": "2026-09-13T18:57:51"
     }
   },
   "llm_usage": {
-    "calls": 250,
-    "prompt_tokens": 41606,
-    "completion_tokens": 143583
+    "calls": 251,
+    "prompt_tokens": 41775,
+    "completion_tokens": 144271
   }
 }
