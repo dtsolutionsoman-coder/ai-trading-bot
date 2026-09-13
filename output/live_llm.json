@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T04:43:29",
+  "saved_at": "2026-09-13T04:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2782,7 +2782,7 @@
       "reason": "Flat, low-volume drift with weak RSI is offset by deeply negative funding favoring longs; keeping the tiny long rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1853,
+  "llm_bar_index": 1854,
   "llm_usage": {
     "calls": 463,
     "prompt_tokens": 166336,
@@ -10869,9 +10869,13 @@
     [
       "2026-09-13T04:15:00",
       9829.09
+    ],
+    [
+      "2026-09-13T04:30:00",
+      9828.46
     ]
   ],
-  "last_bar_ts": "2026-09-13T04:15:00",
-  "bars_processed": 1885,
+  "last_bar_ts": "2026-09-13T04:30:00",
+  "bars_processed": 1886,
   "starting_cash": 10000.0
 }
