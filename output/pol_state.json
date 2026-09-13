@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T22:01:16",
+  "saved_at": "2026-09-13T22:14:48",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T04:30:36.110018",
-        10000.0
-      ],
       [
         "2026-09-05T04:32:23.258794",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-13T22:01:15.547909",
         9993.20452
+      ],
+      [
+        "2026-09-13T22:14:43.023033",
+        9993.20452
       ]
     ]
   },
@@ -9927,11 +9927,18 @@
       "market_price": 0.0635,
       "question": "Will Ethereum reach $3,200 in September?",
       "ts": "2026-09-13T22:00:44"
+    },
+    "4066147": {
+      "probability": 0.38,
+      "reason": "No fixture details available for this future Flamengo match, so staying near the market price which likely reflects opponent strength and draw risk.",
+      "market_price": 0.375,
+      "question": "Will CR Flamengo win on 2026-09-13?",
+      "ts": "2026-09-13T22:14:43"
     }
   },
   "llm_usage": {
-    "calls": 257,
-    "prompt_tokens": 42763,
-    "completion_tokens": 152827
+    "calls": 258,
+    "prompt_tokens": 42929,
+    "completion_tokens": 153103
   }
 }
