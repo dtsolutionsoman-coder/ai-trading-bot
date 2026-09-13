@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T15:39:39",
+  "saved_at": "2026-09-13T15:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2848,7 +2848,7 @@
       "reason": "Short-term bounce is stretching longs (RSI ~70, funding ~11%, perp premium) while the 12h/48h SMA stays bearish; keeping the small short but not adding against positive 6h momentum."
     }
   ],
-  "llm_bar_index": 1897,
+  "llm_bar_index": 1898,
   "llm_usage": {
     "calls": 474,
     "prompt_tokens": 170279,
@@ -11120,9 +11120,13 @@
     [
       "2026-09-13T15:15:00",
       9810.13
+    ],
+    [
+      "2026-09-13T15:30:00",
+      9807.4
     ]
   ],
-  "last_bar_ts": "2026-09-13T15:15:00",
-  "bars_processed": 1929,
+  "last_bar_ts": "2026-09-13T15:30:00",
+  "bars_processed": 1930,
   "starting_cash": 10000.0
 }
