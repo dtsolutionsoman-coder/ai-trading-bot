@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-13T21:31:26",
+  "saved_at": "2026-09-13T21:41:01",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T03:52:54.171199",
-        10000.0
-      ],
       [
         "2026-09-05T03:59:19.515328",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-13T21:31:26.079905",
         9993.20452
+      ],
+      [
+        "2026-09-13T21:40:55.175866",
+        9993.20452
       ]
     ]
   },
@@ -9913,11 +9913,18 @@
       "market_price": 0.27,
       "question": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
       "ts": "2026-09-13T20:46:00"
+    },
+    "3956904": {
+      "probability": 0.02,
+      "reason": "A formal Iran-Oman Hormuz agreement remains speculative amid regional tensions, so the very low market price appears roughly correct; slight upside for quiet diplomacy.",
+      "market_price": 0.013,
+      "question": "Iran-Oman Hormuz Agreement by September 14?",
+      "ts": "2026-09-13T21:40:55"
     }
   },
   "llm_usage": {
-    "calls": 255,
-    "prompt_tokens": 42438,
-    "completion_tokens": 151506
+    "calls": 256,
+    "prompt_tokens": 42601,
+    "completion_tokens": 151809
   }
 }
