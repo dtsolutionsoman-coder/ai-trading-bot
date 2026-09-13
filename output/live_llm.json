@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-13T12:29:12",
+  "saved_at": "2026-09-13T12:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2830,7 +2830,7 @@
       "reason": "Mild bearish drift supports the small short, but negative funding and falling OI signal a crowded, costly short with squeeze risk, so no add."
     }
   ],
-  "llm_bar_index": 1884,
+  "llm_bar_index": 1885,
   "llm_usage": {
     "calls": 471,
     "prompt_tokens": 169204,
@@ -11050,9 +11050,13 @@
     [
       "2026-09-13T12:00:00",
       9816.86
+    ],
+    [
+      "2026-09-13T12:15:00",
+      9815.52
     ]
   ],
-  "last_bar_ts": "2026-09-13T12:00:00",
-  "bars_processed": 1916,
+  "last_bar_ts": "2026-09-13T12:15:00",
+  "bars_processed": 1917,
   "starting_cash": 10000.0
 }
