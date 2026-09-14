@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T13:50:06",
+  "saved_at": "2026-09-14T13:58:30",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T17:07:28.538874",
-        10000.0
-      ],
       [
         "2026-09-05T17:15:47.665609",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T13:50:06.470552",
         9993.20452
+      ],
+      [
+        "2026-09-14T13:58:23.799093",
+        9993.20452
       ]
     ]
   },
@@ -9990,11 +9990,18 @@
       "market_price": 0.415,
       "question": "Will Leeds United FC win on 2026-09-14?",
       "ts": "2026-09-14T13:37:15"
+    },
+    "4053135": {
+      "probability": 0.26,
+      "reason": "Fixture details for this future date are unknown, so staying near the market price which likely reflects an away match against strong opposition or scheduling uncertainty.",
+      "market_price": 0.265,
+      "question": "Will Real Betis Balompi\u00e9 win on 2026-09-14?",
+      "ts": "2026-09-14T13:58:23"
     }
   },
   "llm_usage": {
-    "calls": 266,
-    "prompt_tokens": 44252,
-    "completion_tokens": 157571
+    "calls": 267,
+    "prompt_tokens": 44422,
+    "completion_tokens": 157903
   }
 }
