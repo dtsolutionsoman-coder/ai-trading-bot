@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T13:07:06",
+  "saved_at": "2026-09-14T13:16:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2972,13 +2972,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mild bullish drift (24h +1.4%, SMA ratio >1, RSI neutral) but weak momentum, thin volume, and elevated funding argue for keeping only the small existing long rather than adding."
+    },
+    {
+      "ts": "2026-09-14T13:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Mild uptrend (SMA ratio >1, +1.6% 24h) supports the small existing long, but falling RSI, negative 1h momentum, and extremely elevated funding rates argue against adding exposure."
     }
   ],
-  "llm_bar_index": 1983,
+  "llm_bar_index": 1984,
   "llm_usage": {
-    "calls": 495,
-    "prompt_tokens": 177807,
-    "completion_tokens": 491613
+    "calls": 496,
+    "prompt_tokens": 178167,
+    "completion_tokens": 492466
   },
   "cash": 7312.893311902891,
   "positions": {
@@ -3576,10 +3582,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-24T17:00:00",
-      10000.0
-    ],
     [
       "2026-08-24T17:15:00",
       10000.0
@@ -11575,9 +11577,13 @@
     [
       "2026-09-14T12:45:00",
       9753.06
+    ],
+    [
+      "2026-09-14T13:00:00",
+      9753.6
     ]
   ],
-  "last_bar_ts": "2026-09-14T12:45:00",
-  "bars_processed": 2015,
+  "last_bar_ts": "2026-09-14T13:00:00",
+  "bars_processed": 2016,
   "starting_cash": 10000.0
 }
