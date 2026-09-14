@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T07:36:59",
+  "saved_at": "2026-09-14T07:46:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2944,7 +2944,7 @@
       "reason": "Mild uptrend (RSI 57.8, SMA ratio >1) supports the tiny long, but high funding (10.95% ann) and thin volume argue against adding risk to a small losing position."
     }
   ],
-  "llm_bar_index": 1961,
+  "llm_bar_index": 1962,
   "llm_usage": {
     "calls": 490,
     "prompt_tokens": 176012,
@@ -11517,9 +11517,13 @@
     [
       "2026-09-14T07:15:00",
       9752.03
+    ],
+    [
+      "2026-09-14T07:30:00",
+      9755.64
     ]
   ],
-  "last_bar_ts": "2026-09-14T07:15:00",
-  "bars_processed": 1993,
+  "last_bar_ts": "2026-09-14T07:30:00",
+  "bars_processed": 1994,
   "starting_cash": 10000.0
 }
