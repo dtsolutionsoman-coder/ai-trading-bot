@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T09:45:27",
+  "saved_at": "2026-09-14T09:57:15",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T14:00:37.159473",
-        10000.0
-      ],
       [
         "2026-09-05T14:04:36.500005",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T09:45:27.132565",
         9993.20452
+      ],
+      [
+        "2026-09-14T09:57:02.915446",
+        9993.20452
       ]
     ]
   },
@@ -9969,11 +9969,18 @@
       "market_price": 0.0335,
       "question": "Will Donald Trump win the Nobel Peace Prize in 2026?",
       "ts": "2026-09-14T07:24:50"
+    },
+    "4050646": {
+      "probability": 0.29,
+      "reason": "No reliable information on this future 2026-27 fixture; staying close to market price which likely reflects a difficult away matchup or fixture uncertainty.",
+      "market_price": 0.295,
+      "question": "Will Newcastle United FC win on 2026-09-14?",
+      "ts": "2026-09-14T09:57:02"
     }
   },
   "llm_usage": {
-    "calls": 263,
-    "prompt_tokens": 43752,
-    "completion_tokens": 156042
+    "calls": 264,
+    "prompt_tokens": 43918,
+    "completion_tokens": 156438
   }
 }
