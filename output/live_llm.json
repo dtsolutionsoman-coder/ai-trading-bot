@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T20:37:42",
+  "saved_at": "2026-09-14T20:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend (6h/24h positive, SMA ratio >1, RSI neutral-bullish) supports keeping the small profitable long, but flat OI, zero perp premium, low volume, and funding costs argue against adding exposur"
     }
   ],
-  "llm_bar_index": 2013,
+  "llm_bar_index": 2014,
   "llm_usage": {
     "calls": 503,
     "prompt_tokens": 180680,
@@ -3606,10 +3606,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T00:30:00",
-      9993.61
-    ],
     [
       "2026-08-25T00:45:00",
       9970.27
@@ -11605,9 +11601,13 @@
     [
       "2026-09-14T20:15:00",
       9804.73
+    ],
+    [
+      "2026-09-14T20:30:00",
+      9802.66
     ]
   ],
-  "last_bar_ts": "2026-09-14T20:15:00",
-  "bars_processed": 2045,
+  "last_bar_ts": "2026-09-14T20:30:00",
+  "bars_processed": 2046,
   "starting_cash": 10000.0
 }
