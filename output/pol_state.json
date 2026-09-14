@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T10:32:09",
+  "saved_at": "2026-09-14T10:45:51",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T14:41:46.321599",
-        10000.0
-      ],
       [
         "2026-09-05T14:45:26.092842",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T10:32:09.482287",
         9993.20452
+      ],
+      [
+        "2026-09-14T10:45:29.673724",
+        9993.20452
       ]
     ]
   },
@@ -9976,11 +9976,18 @@
       "market_price": 0.295,
       "question": "Will Newcastle United FC win on 2026-09-14?",
       "ts": "2026-09-14T09:57:02"
+    },
+    "4338208": {
+      "probability": 0.97,
+      "reason": "Market prices imply very high confidence Bitcoin holds above $76K; I stay near the price with a slight haircut for tail-risk of a sharp drawdown.",
+      "market_price": 0.9785,
+      "question": "Will the price of Bitcoin be above $76,000 on September 14?",
+      "ts": "2026-09-14T10:45:29"
     }
   },
   "llm_usage": {
-    "calls": 264,
-    "prompt_tokens": 43918,
-    "completion_tokens": 156438
+    "calls": 265,
+    "prompt_tokens": 44086,
+    "completion_tokens": 157272
   }
 }
