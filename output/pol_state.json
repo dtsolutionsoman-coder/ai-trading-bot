@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T21:30:38",
+  "saved_at": "2026-09-14T21:31:01",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -8116,7 +8116,7 @@
         9993.889084
       ],
       [
-        "2026-09-14T21:30:33.273940",
+        "2026-09-14T21:30:52.556647",
         9993.889084
       ]
     ]
@@ -10048,16 +10048,16 @@
       "ts": "2026-09-14T21:19:09"
     },
     "4221892": {
-      "probability": 0.42,
-      "reason": "No information on Braga's opponent or form for this future match; with a draw always possible in football, staying close to the market-implied price of 42.5%.",
+      "probability": 0.43,
+      "reason": "No reliable information about this distant fixture (opponent and form unknown in September 2026), so staying near the market price with a slight adjustment for typical home-team pricing in a three-way",
       "market_price": 0.425,
       "question": "Will SC Braga win on 2026-09-14?",
-      "ts": "2026-09-14T21:30:33"
+      "ts": "2026-09-14T21:30:52"
     }
   },
   "llm_usage": {
     "calls": 279,
     "prompt_tokens": 46430,
-    "completion_tokens": 170374
+    "completion_tokens": 170667
   }
 }
