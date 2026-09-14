@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T14:17:39",
+  "saved_at": "2026-09-14T14:27:10",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T17:30:34.980096",
-        10000.0
-      ],
       [
         "2026-09-05T17:33:23.977986",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T14:17:39.601419",
         9993.20452
+      ],
+      [
+        "2026-09-14T14:27:03.549284",
+        9993.20452
       ]
     ]
   },
@@ -9997,11 +9997,18 @@
       "market_price": 0.265,
       "question": "Will Real Betis Balompi\u00e9 win on 2026-09-14?",
       "ts": "2026-09-14T13:58:23"
+    },
+    "4046408": {
+      "probability": 0.13,
+      "reason": "No specific fixture knowledge for Sept 2026; market implies Torino is a heavy underdog, so staying close to the price with a slight longshot-bias adjustment.",
+      "market_price": 0.135,
+      "question": "Will Torino FC win on 2026-09-14?",
+      "ts": "2026-09-14T14:27:03"
     }
   },
   "llm_usage": {
-    "calls": 267,
-    "prompt_tokens": 44422,
-    "completion_tokens": 157903
+    "calls": 268,
+    "prompt_tokens": 44587,
+    "completion_tokens": 158249
   }
 }
