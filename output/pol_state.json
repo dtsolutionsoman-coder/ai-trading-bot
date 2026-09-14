@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T03:00:51",
+  "saved_at": "2026-09-14T03:01:14",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -8116,7 +8116,7 @@
         9993.20452
       ],
       [
-        "2026-09-14T03:00:38.175700",
+        "2026-09-14T03:01:08.827661",
         9993.20452
       ]
     ]
@@ -9951,15 +9951,15 @@
     },
     "4471006": {
       "probability": 0.73,
-      "reason": "No strong edge over market on ETH price path; staying near the implied 74.5% with a slight discount for resolution ambiguity.",
+      "reason": "No independent data on ETH price action near September 2026; staying close to the market-implied probability which reflects current price proximity to $2,600.",
       "market_price": 0.745,
       "question": "Will Ethereum reach $2,600 in September?",
-      "ts": "2026-09-14T03:00:38"
+      "ts": "2026-09-14T03:01:08"
     }
   },
   "llm_usage": {
     "calls": 261,
     "prompt_tokens": 43422,
-    "completion_tokens": 154275
+    "completion_tokens": 154039
   }
 }
