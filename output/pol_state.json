@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T03:16:27",
+  "saved_at": "2026-09-14T03:30:45",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T08:55:47.444118",
-        10000.0
-      ],
       [
         "2026-09-05T09:00:40.505045",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T03:16:26.729935",
         9993.20452
+      ],
+      [
+        "2026-09-14T03:30:32.402938",
+        9993.20452
       ]
     ]
   },
@@ -9955,11 +9955,18 @@
       "market_price": 0.745,
       "question": "Will Ethereum reach $2,600 in September?",
       "ts": "2026-09-14T03:01:08"
+    },
+    "4472271": {
+      "probability": 0.55,
+      "reason": "No reliable information about Bitcoin's price level near September 2026, so staying close to the market-implied probability with a slight haircut for resolution uncertainty.",
+      "market_price": 0.5605,
+      "question": "Will Bitcoin reach $78,000 September 7-13?",
+      "ts": "2026-09-14T03:30:32"
     }
   },
   "llm_usage": {
-    "calls": 261,
-    "prompt_tokens": 43422,
-    "completion_tokens": 154039
+    "calls": 262,
+    "prompt_tokens": 43587,
+    "completion_tokens": 154644
   }
 }
