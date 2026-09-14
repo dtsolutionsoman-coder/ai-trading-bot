@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T03:43:37",
+  "saved_at": "2026-09-14T03:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2920,7 +2920,7 @@
       "reason": "Cutting the small losing short as rising prices across all timeframes and SMA ratio >1 invalidate the bearish thesis, but sizing light given RSI near overbought and longs paying elevated funding."
     }
   ],
-  "llm_bar_index": 1945,
+  "llm_bar_index": 1946,
   "llm_usage": {
     "calls": 486,
     "prompt_tokens": 174583,
@@ -11411,9 +11411,13 @@
     [
       "2026-09-14T03:15:00",
       9774.52
+    ],
+    [
+      "2026-09-14T03:30:00",
+      9768.71
     ]
   ],
-  "last_bar_ts": "2026-09-14T03:15:00",
-  "bars_processed": 1977,
+  "last_bar_ts": "2026-09-14T03:30:00",
+  "bars_processed": 1978,
   "starting_cash": 10000.0
 }
