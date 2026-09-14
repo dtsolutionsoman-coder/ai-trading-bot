@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T19:24:36",
+  "saved_at": "2026-09-14T19:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend and momentum align bullish (SMA ratio >1, +2.3% 24h, RSI 66) on a small profitable long, so modestly add while warm RSI and elevated funding cap sizing."
     }
   ],
-  "llm_bar_index": 2008,
+  "llm_bar_index": 2009,
   "llm_usage": {
     "calls": 502,
     "prompt_tokens": 180320,
@@ -3606,10 +3606,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-24T23:15:00",
-      9990.43
-    ],
     [
       "2026-08-24T23:30:00",
       9992.38
@@ -11605,9 +11601,13 @@
     [
       "2026-09-14T19:00:00",
       9794.88
+    ],
+    [
+      "2026-09-14T19:15:00",
+      9797.96
     ]
   ],
-  "last_bar_ts": "2026-09-14T19:00:00",
-  "bars_processed": 2040,
+  "last_bar_ts": "2026-09-14T19:15:00",
+  "bars_processed": 2041,
   "starting_cash": 10000.0
 }
