@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T13:30:37",
+  "saved_at": "2026-09-14T13:37:22",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T16:51:12.781606",
-        10000.0
-      ],
       [
         "2026-09-05T16:57:48.982991",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T13:30:37.407141",
         9993.20452
+      ],
+      [
+        "2026-09-14T13:37:15.377233",
+        9993.20452
       ]
     ]
   },
@@ -9983,11 +9983,18 @@
       "market_price": 0.9785,
       "question": "Will the price of Bitcoin be above $76,000 on September 14?",
       "ts": "2026-09-14T10:46:09"
+    },
+    "4050627": {
+      "probability": 0.41,
+      "reason": "No information available about the opponent or team state that far in the future; staying close to the market-implied price which already reflects match context.",
+      "market_price": 0.415,
+      "question": "Will Leeds United FC win on 2026-09-14?",
+      "ts": "2026-09-14T13:37:15"
     }
   },
   "llm_usage": {
-    "calls": 265,
-    "prompt_tokens": 44086,
-    "completion_tokens": 157190
+    "calls": 266,
+    "prompt_tokens": 44252,
+    "completion_tokens": 157571
   }
 }
