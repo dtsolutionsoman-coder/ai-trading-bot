@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T14:54:34",
+  "saved_at": "2026-09-14T15:02:34",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T17:54:10.431692",
-        10000.0
-      ],
       [
         "2026-09-05T18:00:41.794020",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T14:54:33.758656",
         9993.20452
+      ],
+      [
+        "2026-09-14T15:02:28.712235",
+        9993.20452
       ]
     ]
   },
@@ -10004,11 +10004,18 @@
       "market_price": 0.135,
       "question": "Will Torino FC win on 2026-09-14?",
       "ts": "2026-09-14T14:27:03"
+    },
+    "4046410": {
+      "probability": 0.63,
+      "reason": "No reliable information on the 2026-27 fixture, opponent, or squad state, so staying near the market-implied price with a slight discount for unknown matchup risk.",
+      "market_price": 0.645,
+      "question": "Will AS Roma win on 2026-09-14?",
+      "ts": "2026-09-14T15:02:28"
     }
   },
   "llm_usage": {
-    "calls": 268,
-    "prompt_tokens": 44587,
-    "completion_tokens": 158249
+    "calls": 269,
+    "prompt_tokens": 44752,
+    "completion_tokens": 158517
   }
 }
