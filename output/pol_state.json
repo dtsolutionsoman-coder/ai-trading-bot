@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T10:45:51",
+  "saved_at": "2026-09-14T10:46:22",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -8116,7 +8116,7 @@
         9993.20452
       ],
       [
-        "2026-09-14T10:45:29.673724",
+        "2026-09-14T10:46:09.299819",
         9993.20452
       ]
     ]
@@ -9978,16 +9978,16 @@
       "ts": "2026-09-14T09:57:02"
     },
     "4338208": {
-      "probability": 0.97,
-      "reason": "Market prices imply very high confidence Bitcoin holds above $76K; I stay near the price with a slight haircut for tail-risk of a sharp drawdown.",
+      "probability": 0.96,
+      "reason": "Market strongly implies BTC trades well above $76k near resolution, but crypto tail risk of a sharp drawdown justifies a slight discount to the implied price.",
       "market_price": 0.9785,
       "question": "Will the price of Bitcoin be above $76,000 on September 14?",
-      "ts": "2026-09-14T10:45:29"
+      "ts": "2026-09-14T10:46:09"
     }
   },
   "llm_usage": {
     "calls": 265,
     "prompt_tokens": 44086,
-    "completion_tokens": 157272
+    "completion_tokens": 157190
   }
 }
