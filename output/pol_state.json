@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T20:15:38",
+  "saved_at": "2026-09-14T20:30:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T22:41:19.181226",
-        10000.0
-      ],
       [
         "2026-09-05T22:45:32.012687",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T20:15:37.641612",
         9993.20452
+      ],
+      [
+        "2026-09-14T20:30:32.261448",
+        9995.231365
       ]
     ]
   },
@@ -10025,11 +10025,18 @@
       "market_price": 0.815,
       "question": "Will FC Internazionale Milano win on 2026-09-14?",
       "ts": "2026-09-14T18:30:36"
+    },
+    "4053133": {
+      "probability": 0.13,
+      "reason": "No information available about this far-future fixture's opponent or context; staying near the market price while noting Villarreal's general strength.",
+      "market_price": 0.125,
+      "question": "Will Villarreal CF win on 2026-09-14?",
+      "ts": "2026-09-14T20:30:32"
     }
   },
   "llm_usage": {
-    "calls": 271,
-    "prompt_tokens": 45087,
-    "completion_tokens": 159786
+    "calls": 272,
+    "prompt_tokens": 45253,
+    "completion_tokens": 160048
   }
 }
