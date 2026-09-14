@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T07:15:58",
+  "saved_at": "2026-09-14T07:25:21",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T11:59:21.574208",
-        10000.0
-      ],
       [
         "2026-09-05T12:00:36.733322",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T07:15:58.044143",
         9993.20452
+      ],
+      [
+        "2026-09-14T07:24:50.178152",
+        9993.20452
       ]
     ]
   },
@@ -9962,11 +9962,18 @@
       "market_price": 0.5605,
       "question": "Will Bitcoin reach $78,000 September 7-13?",
       "ts": "2026-09-14T03:31:00"
+    },
+    "637002": {
+      "probability": 0.045,
+      "reason": "The Nobel Committee has repeatedly passed over Trump even when favored (2020, 2025) and favors activists/humanitarians, but a durable Ukraine or Middle East peace deal could modestly raise his chances",
+      "market_price": 0.0335,
+      "question": "Will Donald Trump win the Nobel Peace Prize in 2026?",
+      "ts": "2026-09-14T07:24:50"
     }
   },
   "llm_usage": {
-    "calls": 262,
-    "prompt_tokens": 43587,
-    "completion_tokens": 154628
+    "calls": 263,
+    "prompt_tokens": 43752,
+    "completion_tokens": 156042
   }
 }
