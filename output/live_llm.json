@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T06:43:46",
+  "saved_at": "2026-09-14T06:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2938,7 +2938,7 @@
       "reason": "Positive momentum across 1h/6h/24h, RSI 62, and SMA ratio above 1 pressure the small losing short, so cut it and hold only a modest long given low volume and volatility."
     }
   ],
-  "llm_bar_index": 1957,
+  "llm_bar_index": 1958,
   "llm_usage": {
     "calls": 489,
     "prompt_tokens": 175655,
@@ -11495,9 +11495,13 @@
     [
       "2026-09-14T06:15:00",
       9748.01
+    ],
+    [
+      "2026-09-14T06:30:00",
+      9753.16
     ]
   ],
-  "last_bar_ts": "2026-09-14T06:15:00",
-  "bars_processed": 1989,
+  "last_bar_ts": "2026-09-14T06:30:00",
+  "bars_processed": 1990,
   "starting_cash": 10000.0
 }
