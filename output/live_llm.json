@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T15:21:34",
+  "saved_at": "2026-09-14T15:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2992,7 +2992,7 @@
       "reason": "Positive 24h momentum and mild SMA uptrend support the small long, but overbought RSI (71.4), elevated funding (~11% ann), and declining OI signal crowded-long risk, so keep the modest position withou"
     }
   ],
-  "llm_bar_index": 1992,
+  "llm_bar_index": 1993,
   "llm_usage": {
     "calls": 498,
     "prompt_tokens": 178884,
@@ -3594,10 +3594,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-24T19:15:00",
-      10000.0
-    ],
     [
       "2026-08-24T19:30:00",
       10000.0
@@ -11593,9 +11589,13 @@
     [
       "2026-09-14T15:00:00",
       9776.65
+    ],
+    [
+      "2026-09-14T15:15:00",
+      9774.15
     ]
   ],
-  "last_bar_ts": "2026-09-14T15:00:00",
-  "bars_processed": 2024,
+  "last_bar_ts": "2026-09-14T15:15:00",
+  "bars_processed": 2025,
   "starting_cash": 10000.0
 }
