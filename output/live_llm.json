@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T02:32:34",
+  "saved_at": "2026-09-14T02:45:04",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2914,7 +2914,7 @@
       "reason": "Elevated funding and positive perp premium support keeping the small short to collect funding, while modest bullish momentum (RSI 63.8, slight uptrend) argues against increasing size."
     }
   ],
-  "llm_bar_index": 1941,
+  "llm_bar_index": 1942,
   "llm_usage": {
     "calls": 485,
     "prompt_tokens": 174225,
@@ -11380,9 +11380,13 @@
     [
       "2026-09-14T02:15:00",
       9790.06
+    ],
+    [
+      "2026-09-14T02:30:00",
+      9789.97
     ]
   ],
-  "last_bar_ts": "2026-09-14T02:15:00",
-  "bars_processed": 1973,
+  "last_bar_ts": "2026-09-14T02:30:00",
+  "bars_processed": 1974,
   "starting_cash": 10000.0
 }
