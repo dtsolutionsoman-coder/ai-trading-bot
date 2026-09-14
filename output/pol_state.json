@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T03:30:45",
+  "saved_at": "2026-09-14T03:31:11",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -8116,7 +8116,7 @@
         9993.20452
       ],
       [
-        "2026-09-14T03:30:32.402938",
+        "2026-09-14T03:31:00.073076",
         9993.20452
       ]
     ]
@@ -9958,15 +9958,15 @@
     },
     "4472271": {
       "probability": 0.55,
-      "reason": "No reliable information about Bitcoin's price level near September 2026, so staying close to the market-implied probability with a slight haircut for resolution uncertainty.",
+      "reason": "Without current Bitcoin price data relative to the $78,000 threshold, staying close to the market-implied probability is the calibrated approach.",
       "market_price": 0.5605,
       "question": "Will Bitcoin reach $78,000 September 7-13?",
-      "ts": "2026-09-14T03:30:32"
+      "ts": "2026-09-14T03:31:00"
     }
   },
   "llm_usage": {
     "calls": 262,
     "prompt_tokens": 43587,
-    "completion_tokens": 154644
+    "completion_tokens": 154628
   }
 }
