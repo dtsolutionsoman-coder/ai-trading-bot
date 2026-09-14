@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T03:15:44",
+  "saved_at": "2026-09-14T03:16:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2916,20 +2916,20 @@
     {
       "ts": "2026-09-14T03:00:00",
       "action": "buy",
-      "conviction": 0.1,
-      "reason": "Mild upward momentum across all timeframes with the small short slightly underwater; closing the losing short while staying near flat given mixed signals."
+      "conviction": 0.2,
+      "reason": "Cutting the small losing short as rising prices across all timeframes and SMA ratio >1 invalidate the bearish thesis, but sizing light given RSI near overbought and longs paying elevated funding."
     }
   ],
   "llm_bar_index": 1944,
   "llm_usage": {
     "calls": 486,
     "prompt_tokens": 174583,
-    "completion_tokens": 484235
+    "completion_tokens": 484659
   },
-  "cash": 8797.560537467654,
+  "cash": 7818.013129296092,
   "positions": {
     "BTC": {
-      "qty": 0.012578348479693822,
+      "qty": 0.02515669695938766,
       "avg_price": 77797.8795,
       "realized_pnl": -48.26231055915612
     }
@@ -3496,11 +3496,11 @@
     {
       "ts": "2026-09-14T03:00:00",
       "side": "buy",
-      "qty": 0.044204433173411654,
+      "qty": 0.05678278165310549,
       "price": 77797.8795,
-      "fee": 3.4390111653908817,
+      "fee": 4.417580004723111,
       "realized": -12.195176388320938,
-      "reason": "LLM buy conv=0.10: Mild upward momentum across all timeframes with the small short slightly underwater; closing the losing short while staying near flat given mixed signals."
+      "reason": "LLM buy conv=0.20: Cutting the small losing short as rising prices across all timeframes and SMA ratio >1 invalidate the bearish thesis, but sizing light given RSI near overbought and longs paying elevated funding."
     }
   ],
   "equity_curve": [
@@ -11406,7 +11406,7 @@
     ],
     [
       "2026-09-14T03:00:00",
-      9775.64
+      9774.17
     ]
   ],
   "last_bar_ts": "2026-09-14T03:00:00",
