@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T04:53:13",
+  "saved_at": "2026-09-14T05:00:14",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2926,7 +2926,7 @@
       "reason": "Mild uptrend with positive funding is offset by overbought RSI (75.6) and thin volume, so keeping the small long unchanged rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 1950,
+  "llm_bar_index": 1951,
   "llm_usage": {
     "calls": 487,
     "prompt_tokens": 174941,
@@ -11437,9 +11437,13 @@
     [
       "2026-09-14T04:30:00",
       9771.56
+    ],
+    [
+      "2026-09-14T04:45:00",
+      9771.78
     ]
   ],
-  "last_bar_ts": "2026-09-14T04:30:00",
-  "bars_processed": 1982,
+  "last_bar_ts": "2026-09-14T04:45:00",
+  "bars_processed": 1983,
   "starting_cash": 10000.0
 }
