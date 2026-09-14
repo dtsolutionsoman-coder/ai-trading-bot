@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T16:34:26",
+  "saved_at": "2026-09-14T16:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2998,7 +2998,7 @@
       "reason": "Mild uptrend is offset by overbought RSI (74), elevated funding, and falling OI, so keep the small profitable long but add no risk."
     }
   ],
-  "llm_bar_index": 1997,
+  "llm_bar_index": 1998,
   "llm_usage": {
     "calls": 499,
     "prompt_tokens": 179243,
@@ -3600,10 +3600,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-24T20:30:00",
-      9992.66
-    ],
     [
       "2026-08-24T20:45:00",
       9992.38
@@ -11599,9 +11595,13 @@
     [
       "2026-09-14T16:15:00",
       9783.05
+    ],
+    [
+      "2026-09-14T16:30:00",
+      9782.36
     ]
   ],
-  "last_bar_ts": "2026-09-14T16:15:00",
-  "bars_processed": 2029,
+  "last_bar_ts": "2026-09-14T16:30:00",
+  "bars_processed": 2030,
   "starting_cash": 10000.0
 }

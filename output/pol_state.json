@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T16:34:28",
+  "saved_at": "2026-09-14T16:45:42",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T19:30:53.618193",
-        10000.0
-      ],
       [
         "2026-09-05T19:38:54.904782",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T16:34:28.386636",
         9993.20452
+      ],
+      [
+        "2026-09-14T16:45:28.212667",
+        9993.20452
       ]
     ]
   },
@@ -10011,11 +10011,18 @@
       "market_price": 0.645,
       "question": "Will AS Roma win on 2026-09-14?",
       "ts": "2026-09-14T15:02:28"
+    },
+    "4046412": {
+      "probability": 0.75,
+      "reason": "Unknown opponent and fixture details for this future date; 0.775 seems high for a soccer win, so shading slightly below market while staying close given uncertainty.",
+      "market_price": 0.775,
+      "question": "Will Como 1907 win on 2026-09-14?",
+      "ts": "2026-09-14T16:45:28"
     }
   },
   "llm_usage": {
-    "calls": 269,
-    "prompt_tokens": 44752,
-    "completion_tokens": 158517
+    "calls": 270,
+    "prompt_tokens": 44919,
+    "completion_tokens": 159414
   }
 }
