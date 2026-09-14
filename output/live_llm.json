@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T09:57:01",
+  "saved_at": "2026-09-14T10:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2956,7 +2956,7 @@
       "reason": "Mild bullish backdrop (24h +1.5%, SMA ratio >1, RSI 59) offset by flat short-term momentum and elevated long funding; keeping the small near-breakeven long."
     }
   ],
-  "llm_bar_index": 1970,
+  "llm_bar_index": 1971,
   "llm_usage": {
     "calls": 492,
     "prompt_tokens": 176729,
@@ -3558,10 +3558,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-24T13:45:00",
-      10000.0
-    ],
     [
       "2026-08-24T14:00:00",
       10000.0
@@ -11557,9 +11553,13 @@
     [
       "2026-09-14T09:30:00",
       9759.02
+    ],
+    [
+      "2026-09-14T09:45:00",
+      9767.09
     ]
   ],
-  "last_bar_ts": "2026-09-14T09:30:00",
-  "bars_processed": 2002,
+  "last_bar_ts": "2026-09-14T09:45:00",
+  "bars_processed": 2003,
   "starting_cash": 10000.0
 }
