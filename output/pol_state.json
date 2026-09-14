@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T21:16:08",
+  "saved_at": "2026-09-14T21:19:32",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T23:22:31.895683",
-        10000.0
-      ],
       [
         "2026-09-05T23:29:39.916842",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T21:15:38.602064",
         9993.889084
+      ],
+      [
+        "2026-09-14T21:19:09.519600",
+        9993.889084
       ]
     ]
   },
@@ -10039,11 +10039,18 @@
       "market_price": 0.707,
       "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in September?",
       "ts": "2026-09-14T20:37:43"
+    },
+    "601826": {
+      "probability": 0.48,
+      "reason": "Market prices Fl\u00e1vio as slight favorite, but his path requires surviving right-wing nomination competition and beating an incumbent Lula, so I shade slightly below price given election volatility.",
+      "market_price": 0.52,
+      "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "ts": "2026-09-14T21:19:09"
     }
   },
   "llm_usage": {
-    "calls": 277,
-    "prompt_tokens": 46097,
-    "completion_tokens": 168631
+    "calls": 278,
+    "prompt_tokens": 46264,
+    "completion_tokens": 170126
   }
 }
