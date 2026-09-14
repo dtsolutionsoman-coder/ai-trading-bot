@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T05:25:27",
+  "saved_at": "2026-09-14T05:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2932,7 +2932,7 @@
       "reason": "Overbought RSI (74.8) with costly 10.95% funding and thin volume outweighs mild gains, so trimming the small losing long."
     }
   ],
-  "llm_bar_index": 1952,
+  "llm_bar_index": 1953,
   "llm_usage": {
     "calls": 488,
     "prompt_tokens": 175298,
@@ -11460,9 +11460,13 @@
     [
       "2026-09-14T05:00:00",
       9764.61
+    ],
+    [
+      "2026-09-14T05:15:00",
+      9767.85
     ]
   ],
-  "last_bar_ts": "2026-09-14T05:00:00",
-  "bars_processed": 1984,
+  "last_bar_ts": "2026-09-14T05:15:00",
+  "bars_processed": 1985,
   "starting_cash": 10000.0
 }
