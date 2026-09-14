@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T08:50:58",
+  "saved_at": "2026-09-14T09:00:09",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2950,7 +2950,7 @@
       "reason": "Mild uptrend with neutral RSI is offset by elevated funding and thin volume, so keep the small flat long without adding risk."
     }
   ],
-  "llm_bar_index": 1966,
+  "llm_bar_index": 1967,
   "llm_usage": {
     "calls": 491,
     "prompt_tokens": 176369,
@@ -11543,9 +11543,13 @@
     [
       "2026-09-14T08:30:00",
       9753.78
+    ],
+    [
+      "2026-09-14T08:45:00",
+      9753.53
     ]
   ],
-  "last_bar_ts": "2026-09-14T08:30:00",
-  "bars_processed": 1998,
+  "last_bar_ts": "2026-09-14T08:45:00",
+  "bars_processed": 1999,
   "starting_cash": 10000.0
 }
