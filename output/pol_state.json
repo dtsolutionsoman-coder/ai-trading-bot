@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T23:17:52",
+  "saved_at": "2026-09-14T23:27:31",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T01:19:56.891216",
-        10000.0
-      ],
       [
         "2026-09-06T01:29:33.226290",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T23:17:52.014755",
         9993.889084
+      ],
+      [
+        "2026-09-14T23:27:22.215419",
+        9993.889084
       ]
     ]
   },
@@ -10053,11 +10053,18 @@
       "market_price": 0.425,
       "question": "Will SC Braga win on 2026-09-14?",
       "ts": "2026-09-14T21:30:52"
+    },
+    "4237464": {
+      "probability": 0.25,
+      "reason": "Musk's future weekly posting volume is highly uncertain and the 160-179 bin sits near the market's expected range, so staying close to the implied price is warranted.",
+      "market_price": 0.255,
+      "question": "Will Elon Musk post 160-179 tweets from September 8 to September 15, 2026?",
+      "ts": "2026-09-14T23:27:22"
     }
   },
   "llm_usage": {
-    "calls": 279,
-    "prompt_tokens": 46430,
-    "completion_tokens": 170667
+    "calls": 280,
+    "prompt_tokens": 46603,
+    "completion_tokens": 171228
   }
 }
