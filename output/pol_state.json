@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T20:30:37",
+  "saved_at": "2026-09-14T20:37:52",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T22:45:32.012687",
-        10000.0
-      ],
       [
         "2026-09-05T22:48:04.539662",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T20:30:32.261448",
         9995.231365
+      ],
+      [
+        "2026-09-14T20:37:43.609619",
+        9993.20452
       ]
     ]
   },
@@ -10032,11 +10032,18 @@
       "market_price": 0.125,
       "question": "Will Villarreal CF win on 2026-09-14?",
       "ts": "2026-09-14T20:30:32"
+    },
+    "3954346": {
+      "probability": 0.7,
+      "reason": "No current oil price data; the market's 70.7% likely reflects WTI trading near enough to $105 for a monthly high touch, so staying close to market price.",
+      "market_price": 0.707,
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in September?",
+      "ts": "2026-09-14T20:37:43"
     }
   },
   "llm_usage": {
-    "calls": 272,
-    "prompt_tokens": 45253,
-    "completion_tokens": 160048
+    "calls": 273,
+    "prompt_tokens": 45426,
+    "completion_tokens": 160631
   }
 }
