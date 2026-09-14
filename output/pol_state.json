@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T00:17:54",
+  "saved_at": "2026-09-14T00:30:37",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T06:30:35.671774",
-        10000.0
-      ],
       [
         "2026-09-05T06:34:35.149089",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T00:17:53.319812",
         9993.20452
+      ],
+      [
+        "2026-09-14T00:30:30.600290",
+        9993.20452
       ]
     ]
   },
@@ -9941,11 +9941,18 @@
       "market_price": 0.775,
       "question": "Will Real Madrid CF win on 2026-09-15?",
       "ts": "2026-09-13T23:15:37"
+    },
+    "4034684": {
+      "probability": 0.44,
+      "reason": "No information available about opponent, venue, or form for this future MLS match; staying close to the market-implied price.",
+      "market_price": 0.445,
+      "question": "Will Philadelphia Union win on 2026-09-13?",
+      "ts": "2026-09-14T00:30:30"
     }
   },
   "llm_usage": {
-    "calls": 259,
-    "prompt_tokens": 43095,
-    "completion_tokens": 153432
+    "calls": 260,
+    "prompt_tokens": 43260,
+    "completion_tokens": 153773
   }
 }
