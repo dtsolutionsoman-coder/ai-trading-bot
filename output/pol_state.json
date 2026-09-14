@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-14T21:19:32",
+  "saved_at": "2026-09-14T21:30:38",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-05T23:29:39.916842",
-        10000.0
-      ],
       [
         "2026-09-05T23:30:31.816534",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-14T21:19:09.519600",
         9993.889084
+      ],
+      [
+        "2026-09-14T21:30:33.273940",
+        9993.889084
       ]
     ]
   },
@@ -10046,11 +10046,18 @@
       "market_price": 0.52,
       "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
       "ts": "2026-09-14T21:19:09"
+    },
+    "4221892": {
+      "probability": 0.42,
+      "reason": "No information on Braga's opponent or form for this future match; with a draw always possible in football, staying close to the market-implied price of 42.5%.",
+      "market_price": 0.425,
+      "question": "Will SC Braga win on 2026-09-14?",
+      "ts": "2026-09-14T21:30:33"
     }
   },
   "llm_usage": {
-    "calls": 278,
-    "prompt_tokens": 46264,
-    "completion_tokens": 170126
+    "calls": 279,
+    "prompt_tokens": 46430,
+    "completion_tokens": 170374
   }
 }
