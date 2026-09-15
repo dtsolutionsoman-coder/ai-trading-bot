@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T05:58:24",
+  "saved_at": "2026-09-15T06:00:52",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T07:11:43.188728",
-        10000.0
-      ],
       [
         "2026-09-06T07:15:43.957570",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T05:58:23.762122",
         9995.231365
+      ],
+      [
+        "2026-09-15T06:00:39.675966",
+        9995.231365
       ]
     ]
   },
@@ -10060,11 +10060,18 @@
       "market_price": 0.255,
       "question": "Will Elon Musk post 160-179 tweets from September 8 to September 15, 2026?",
       "ts": "2026-09-14T23:27:22"
+    },
+    "4095053": {
+      "probability": 0.94,
+      "reason": "A US-Iran ceasefire has been in effect since June 2025 and largely held, but residual risk of renewed strikes or diplomatic collapse before the September 2026 resolution keeps true odds slightly below",
+      "market_price": 0.962,
+      "question": "US x Iran Effective Ceasefire by September 11?",
+      "ts": "2026-09-15T06:00:39"
     }
   },
   "llm_usage": {
-    "calls": 280,
-    "prompt_tokens": 46603,
-    "completion_tokens": 171228
+    "calls": 281,
+    "prompt_tokens": 46767,
+    "completion_tokens": 171999
   }
 }
