@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T20:05:19",
+  "saved_at": "2026-09-15T20:15:57",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9483.204519759736,
+    "cash": 9381.204519759736,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -38,6 +38,11 @@
       "pol:4111378:N": {
         "qty": 800.0,
         "avg_price": 0.1275,
+        "realized_pnl": 0.0
+      },
+      "pol:1130016:N": {
+        "qty": 125.7071024512885,
+        "avg_price": 0.81141,
         "realized_pnl": 0.0
       }
     },
@@ -131,13 +136,19 @@
         "fee": 0.0,
         "realized": 0.0,
         "reason": "edge -0.375: LLM 0.50 vs market 0.88 \u2014 Will Valencia CF win on 2026-09-15?"
+      },
+      {
+        "ts": "2026-09-15T20:15:41.063688",
+        "symbol": "pol:1130016:N",
+        "side": "buy",
+        "qty": 125.7071024512885,
+        "price": 0.81141,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.184: LLM 0.02 vs market 0.20 \u2014 Will New People (NL) gain the most seats in the ne"
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T19:16:16.096005",
-        10000.0
-      ],
       [
         "2026-09-06T19:25:05.263741",
         10000.0
@@ -8133,6 +8144,10 @@
       [
         "2026-09-15T20:05:19.295275",
         9993.889084
+      ],
+      [
+        "2026-09-15T20:15:41.063688",
+        9991.889084
       ]
     ]
   },
@@ -10166,11 +10181,18 @@
       "market_price": 0.275,
       "question": "Will West Ham United FC win on 2026-09-15?",
       "ts": "2026-09-15T20:00:39"
+    },
+    "1130016": {
+      "probability": 0.02,
+      "reason": "United Russia's entrenched dominance in Russia's managed electoral system makes a minor Kremlin-sanctioned party like New People winning the most Duma seats extremely unlikely, far below the market pr",
+      "market_price": 0.2045,
+      "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+      "ts": "2026-09-15T20:15:41"
     }
   },
   "llm_usage": {
-    "calls": 293,
-    "prompt_tokens": 48768,
-    "completion_tokens": 179545
+    "calls": 294,
+    "prompt_tokens": 48936,
+    "completion_tokens": 180554
   }
 }
