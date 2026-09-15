@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-14T23:58:28",
+  "saved_at": "2026-09-15T00:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Medium-term trend intact (24h up, SMA ratio >1) but extreme funding cost and negative 1h/6h momentum argue against adding; keeping the small profitable long."
     }
   ],
-  "llm_bar_index": 2026,
+  "llm_bar_index": 2027,
   "llm_usage": {
     "calls": 506,
     "prompt_tokens": 181757,
@@ -3606,10 +3606,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T03:45:00",
-      9930.41
-    ],
     [
       "2026-08-25T04:00:00",
       9921.09
@@ -11605,9 +11601,13 @@
     [
       "2026-09-14T23:30:00",
       9773.02
+    ],
+    [
+      "2026-09-14T23:45:00",
+      9769.41
     ]
   ],
-  "last_bar_ts": "2026-09-14T23:30:00",
-  "bars_processed": 2058,
+  "last_bar_ts": "2026-09-14T23:45:00",
+  "bars_processed": 2059,
   "starting_cash": 10000.0
 }
