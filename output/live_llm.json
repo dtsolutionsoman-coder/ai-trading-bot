@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T12:58:37",
+  "saved_at": "2026-09-15T13:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild downtrend with SMA ratio below 1 and RSI under 50, plus extreme positive funding (263% ann.) rewarding shorts \u2014 modestly extend the profitable short."
     }
   ],
-  "llm_bar_index": 2078,
+  "llm_bar_index": 2079,
   "llm_usage": {
     "calls": 519,
     "prompt_tokens": 186417,
@@ -3642,10 +3642,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T16:45:00",
-      9937.74
-    ],
     [
       "2026-08-25T17:00:00",
       9937.74
@@ -11641,9 +11637,13 @@
     [
       "2026-09-15T12:30:00",
       9795.6
+    ],
+    [
+      "2026-09-15T12:45:00",
+      9795.25
     ]
   ],
-  "last_bar_ts": "2026-09-15T12:30:00",
-  "bars_processed": 2110,
+  "last_bar_ts": "2026-09-15T12:45:00",
+  "bars_processed": 2111,
   "starting_cash": 10000.0
 }
