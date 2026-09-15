@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T17:42:51",
+  "saved_at": "2026-09-15T17:45:42",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T17:00:39.206138",
-        10000.0
-      ],
       [
         "2026-09-06T17:07:32.002171",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T17:42:50.990804",
         9992.546802
+      ],
+      [
+        "2026-09-15T17:45:26.751081",
+        9992.546802
       ]
     ]
   },
@@ -10123,11 +10123,18 @@
       "market_price": 0.2,
       "question": "Will Al Nassr Club win on 2026-09-15?",
       "ts": "2026-09-15T16:43:13"
+    },
+    "4111363": {
+      "probability": 0.025,
+      "reason": "Midweek (Tuesday) fixture with no confirmed match for Espanyol on that date, so the low price combining scheduling uncertainty with win probability appears roughly accurate.",
+      "market_price": 0.0225,
+      "question": "Will RCD Espanyol de Barcelona win on 2026-09-15?",
+      "ts": "2026-09-15T17:45:26"
     }
   },
   "llm_usage": {
-    "calls": 289,
-    "prompt_tokens": 48100,
-    "completion_tokens": 176196
+    "calls": 290,
+    "prompt_tokens": 48271,
+    "completion_tokens": 177362
   }
 }
