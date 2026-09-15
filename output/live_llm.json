@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T20:56:56",
+  "saved_at": "2026-09-15T21:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish 24h trend below falling SMA with extreme 266% annualized funding signaling crowded longs; modestly extending the small profitable short while collecting funding."
     }
   ],
-  "llm_bar_index": 2110,
+  "llm_bar_index": 2111,
   "llm_usage": {
     "calls": 527,
     "prompt_tokens": 189293,
@@ -3687,10 +3687,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T00:45:00",
-      9952.54
-    ],
     [
       "2026-08-26T01:00:00",
       9946.98
@@ -11686,9 +11682,13 @@
     [
       "2026-09-15T20:30:00",
       9854.41
+    ],
+    [
+      "2026-09-15T20:45:00",
+      9848.03
     ]
   ],
-  "last_bar_ts": "2026-09-15T20:30:00",
-  "bars_processed": 2142,
+  "last_bar_ts": "2026-09-15T20:45:00",
+  "bars_processed": 2143,
   "starting_cash": 10000.0
 }
