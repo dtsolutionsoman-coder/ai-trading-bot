@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T22:42:30",
+  "saved_at": "2026-09-15T22:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish momentum, SMA12<48, rising OI on falling price, and extreme positive funding (crowded longs) justify extending the profitable short, tempered by near-oversold RSI bounce risk."
     }
   ],
-  "llm_bar_index": 2117,
+  "llm_bar_index": 2118,
   "llm_usage": {
     "calls": 529,
     "prompt_tokens": 190015,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T02:30:00",
-      9942.66
-    ],
     [
       "2026-08-26T02:45:00",
       9947.16
@@ -11695,9 +11691,13 @@
     [
       "2026-09-15T22:15:00",
       9865.84
+    ],
+    [
+      "2026-09-15T22:30:00",
+      9861.83
     ]
   ],
-  "last_bar_ts": "2026-09-15T22:15:00",
-  "bars_processed": 2149,
+  "last_bar_ts": "2026-09-15T22:30:00",
+  "bars_processed": 2150,
   "starting_cash": 10000.0
 }
