@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T08:54:57",
+  "saved_at": "2026-09-15T09:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Negative momentum across all timeframes plus extreme positive funding (234% ann) and rising OI indicate trapped crowded longs being squeezed, supporting the profitable short; conviction tempered by de"
     }
   ],
-  "llm_bar_index": 2062,
+  "llm_bar_index": 2063,
   "llm_usage": {
     "calls": 515,
     "prompt_tokens": 184981,
@@ -3642,10 +3642,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T12:45:00",
-      9940.73
-    ],
     [
       "2026-08-25T13:00:00",
       9944.26
@@ -11641,9 +11637,13 @@
     [
       "2026-09-15T08:30:00",
       9797.35
+    ],
+    [
+      "2026-09-15T08:45:00",
+      9793.41
     ]
   ],
-  "last_bar_ts": "2026-09-15T08:30:00",
-  "bars_processed": 2094,
+  "last_bar_ts": "2026-09-15T08:45:00",
+  "bars_processed": 2095,
   "starting_cash": 10000.0
 }
