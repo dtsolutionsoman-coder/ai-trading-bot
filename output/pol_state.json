@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T08:40:44",
+  "saved_at": "2026-09-15T08:45:47",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T09:20:48.897880",
-        10000.0
-      ],
       [
         "2026-09-06T09:30:32.125104",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T08:40:43.847688",
         9993.889084
+      ],
+      [
+        "2026-09-15T08:45:27.618948",
+        9993.889084
       ]
     ]
   },
@@ -10067,11 +10067,18 @@
       "market_price": 0.962,
       "question": "US x Iran Effective Ceasefire by September 11?",
       "ts": "2026-09-15T06:00:39"
+    },
+    "4052413": {
+      "probability": 0.02,
+      "reason": "With BTC's price position relative to $100k uncertain from my knowledge cutoff and the market pricing only 1.9%, I stay near the market-implied probability.",
+      "market_price": 0.0195,
+      "question": "Will Bitcoin reach $100,000 in September?",
+      "ts": "2026-09-15T08:45:27"
     }
   },
   "llm_usage": {
-    "calls": 281,
-    "prompt_tokens": 46767,
-    "completion_tokens": 171999
+    "calls": 282,
+    "prompt_tokens": 46929,
+    "completion_tokens": 172713
   }
 }
