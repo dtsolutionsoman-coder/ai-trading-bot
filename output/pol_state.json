@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T15:07:44",
+  "saved_at": "2026-09-15T15:16:01",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T14:53:04.350079",
-        10000.0
-      ],
       [
         "2026-09-06T14:59:28.931893",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T15:07:44.193037",
         9989.862238
+      ],
+      [
+        "2026-09-15T15:15:50.401335",
+        9991.20452
       ]
     ]
   },
@@ -10102,11 +10102,18 @@
       "market_price": 0.545,
       "question": "Will Liverpool FC win on 2026-09-15?",
       "ts": "2026-09-15T14:15:51"
+    },
+    "4367130": {
+      "probability": 0.6,
+      "reason": "With Bitcoin's high volatility over this horizon and no reliable edge over current price information, I stay near the market-implied probability of ~61%.",
+      "market_price": 0.6055,
+      "question": "Will the price of Bitcoin be above $76,000 on September 15?",
+      "ts": "2026-09-15T15:15:50"
     }
   },
   "llm_usage": {
-    "calls": 286,
-    "prompt_tokens": 47597,
-    "completion_tokens": 175045
+    "calls": 287,
+    "prompt_tokens": 47765,
+    "completion_tokens": 175688
   }
 }
