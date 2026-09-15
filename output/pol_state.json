@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T11:22:39",
+  "saved_at": "2026-09-15T11:30:49",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T11:43:56.550390",
-        10000.0
-      ],
       [
         "2026-09-06T11:45:26.375205",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T11:22:39.072820",
         9995.231365
+      ],
+      [
+        "2026-09-15T11:30:35.234787",
+        9995.231365
       ]
     ]
   },
@@ -10074,11 +10074,18 @@
       "market_price": 0.0195,
       "question": "Will Bitcoin reach $100,000 in September?",
       "ts": "2026-09-15T08:45:27"
+    },
+    "4367133": {
+      "probability": 0.03,
+      "reason": "With no current price information indicating otherwise, the market's very low implied probability is likely well-informed about Bitcoin trading far below $80k; I stay close to the price with a slight ",
+      "market_price": 0.0235,
+      "question": "Will the price of Bitcoin be above $80,000 on September 15?",
+      "ts": "2026-09-15T11:30:35"
     }
   },
   "llm_usage": {
-    "calls": 282,
-    "prompt_tokens": 46929,
-    "completion_tokens": 172713
+    "calls": 283,
+    "prompt_tokens": 47097,
+    "completion_tokens": 173420
   }
 }
