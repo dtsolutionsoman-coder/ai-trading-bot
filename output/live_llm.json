@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T11:58:21",
+  "saved_at": "2026-09-15T12:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable small short supported by negative 6h/24h momentum and extreme 199% funding favoring shorts, but RSI 57, positive perp premium, and rising OI warrant keeping exposure modest."
     }
   ],
-  "llm_bar_index": 2074,
+  "llm_bar_index": 2075,
   "llm_usage": {
     "calls": 518,
     "prompt_tokens": 186057,
@@ -3642,10 +3642,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T15:45:00",
-      9942.07
-    ],
     [
       "2026-08-25T16:00:00",
       9934.81
@@ -11641,9 +11637,13 @@
     [
       "2026-09-15T11:30:00",
       9798.87
+    ],
+    [
+      "2026-09-15T11:45:00",
+      9794.97
     ]
   ],
-  "last_bar_ts": "2026-09-15T11:30:00",
-  "bars_processed": 2106,
+  "last_bar_ts": "2026-09-15T11:45:00",
+  "bars_processed": 2107,
   "starting_cash": 10000.0
 }
