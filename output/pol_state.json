@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T11:51:56",
+  "saved_at": "2026-09-15T11:58:43",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -119,10 +119,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T12:09:15.050507",
-        10000.0
-      ],
       [
         "2026-09-06T12:15:46.205464",
         10000.0
@@ -8118,6 +8114,10 @@
       [
         "2026-09-15T11:51:55.548571",
         9995.231365
+      ],
+      [
+        "2026-09-15T11:58:22.002002",
+        9995.231365
       ]
     ]
   },
@@ -10081,11 +10081,18 @@
       "market_price": 0.0235,
       "question": "Will the price of Bitcoin be above $80,000 on September 15?",
       "ts": "2026-09-15T11:30:35"
+    },
+    "4111371": {
+      "probability": 0.48,
+      "reason": "Alav\u00e9s is a mid-to-lower La Liga side whose typical win probability is well below 55%, but lacking fixture context (opponent, venue, competition) I shade only modestly below the market price.",
+      "market_price": 0.555,
+      "question": "Will Deportivo Alav\u00e9s win on 2026-09-15?",
+      "ts": "2026-09-15T11:58:22"
     }
   },
   "llm_usage": {
-    "calls": 283,
-    "prompt_tokens": 47097,
-    "completion_tokens": 173420
+    "calls": 284,
+    "prompt_tokens": 47266,
+    "completion_tokens": 174115
   }
 }
