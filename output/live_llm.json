@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T02:33:37",
+  "saved_at": "2026-09-15T02:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Deeply oversold RSI (21.8) limits further downside chase, but extreme positive funding and perp premium support keeping the small profitable short."
     }
   ],
-  "llm_bar_index": 2037,
+  "llm_bar_index": 2038,
   "llm_usage": {
     "calls": 509,
     "prompt_tokens": 182832,
@@ -3615,10 +3615,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T06:30:00",
-      9911.07
-    ],
     [
       "2026-08-25T06:45:00",
       9917.6
@@ -11614,9 +11610,13 @@
     [
       "2026-09-15T02:15:00",
       9767.18
+    ],
+    [
+      "2026-09-15T02:30:00",
+      9769.02
     ]
   ],
-  "last_bar_ts": "2026-09-15T02:15:00",
-  "bars_processed": 2069,
+  "last_bar_ts": "2026-09-15T02:30:00",
+  "bars_processed": 2070,
   "starting_cash": 10000.0
 }
