@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T16:30:40",
+  "saved_at": "2026-09-15T16:31:02",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9585.204519759736,
@@ -8116,7 +8116,7 @@
         9991.20452
       ],
       [
-        "2026-09-15T16:30:33.609664",
+        "2026-09-15T16:30:57.021647",
         9991.20452
       ]
     ]
@@ -10112,15 +10112,15 @@
     },
     "4111359": {
       "probability": 0.41,
-      "reason": "No specific information available about this future La Liga fixture, so staying close to the market price which is plausible for a mid-table side like Rayo Vallecano.",
+      "reason": "No information available about this far-future match; staying close to the market-implied price which suggests a roughly even contest.",
       "market_price": 0.415,
       "question": "Will Rayo Vallecano de Madrid win on 2026-09-15?",
-      "ts": "2026-09-15T16:30:33"
+      "ts": "2026-09-15T16:30:57"
     }
   },
   "llm_usage": {
     "calls": 288,
     "prompt_tokens": 47934,
-    "completion_tokens": 176048
+    "completion_tokens": 175949
   }
 }
