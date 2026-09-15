@@ -1,6 +1,6 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T19:56:18",
+  "saved_at": "2026-09-15T20:01:00",
   "portfolio": {
     "starting_cash": 10000.0,
     "cash": 9483.204519759736,
@@ -134,10 +134,6 @@
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T19:04:45.364382",
-        10000.0
-      ],
       [
         "2026-09-06T19:15:46.750366",
         10000.0
@@ -8133,6 +8129,10 @@
       [
         "2026-09-15T19:55:59.054047",
         9991.889084
+      ],
+      [
+        "2026-09-15T20:00:39.486510",
+        9993.889084
       ]
     ]
   },
@@ -10152,11 +10152,25 @@
       "market_price": 0.875,
       "question": "Will Valencia CF win on 2026-09-15?",
       "ts": "2026-09-15T19:55:59"
+    },
+    "4104860": {
+      "probability": 0.92,
+      "reason": "No knowledge of the opponent or fixture details for this future date; single football matches rarely exceed ~90% true win probability even for heavy favorites, so I shade down slightly from the market",
+      "market_price": 0.955,
+      "question": "Will Arsenal FC win on 2026-09-15?",
+      "ts": "2026-09-15T20:00:39"
+    },
+    "4104833": {
+      "probability": 0.27,
+      "reason": "No reliable information about West Ham's September 2026 fixture or opponent, so staying close to the market-implied price.",
+      "market_price": 0.275,
+      "question": "Will West Ham United FC win on 2026-09-15?",
+      "ts": "2026-09-15T20:00:39"
     }
   },
   "llm_usage": {
-    "calls": 291,
-    "prompt_tokens": 48436,
-    "completion_tokens": 178502
+    "calls": 293,
+    "prompt_tokens": 48768,
+    "completion_tokens": 179545
   }
 }
