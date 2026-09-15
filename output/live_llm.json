@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T19:40:59",
+  "saved_at": "2026-09-15T19:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Multi-timeframe downtrend with SMA ratio below 1 and RSI at 40, while extreme positive funding pays the short and crowded longs face squeeze risk; trim on perp premium bounce risk."
     }
   ],
-  "llm_bar_index": 2105,
+  "llm_bar_index": 2106,
   "llm_usage": {
     "calls": 526,
     "prompt_tokens": 188933,
@@ -3687,10 +3687,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T23:30:00",
-      9953.54
-    ],
     [
       "2026-08-25T23:45:00",
       9961.9
@@ -11686,9 +11682,13 @@
     [
       "2026-09-15T19:15:00",
       9849.09
+    ],
+    [
+      "2026-09-15T19:30:00",
+      9852.99
     ]
   ],
-  "last_bar_ts": "2026-09-15T19:15:00",
-  "bars_processed": 2137,
+  "last_bar_ts": "2026-09-15T19:30:00",
+  "bars_processed": 2138,
   "starting_cash": 10000.0
 }
