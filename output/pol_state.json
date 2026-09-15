@@ -1,9 +1,9 @@
 {
   "bot": "polymarket-paper",
-  "saved_at": "2026-09-15T19:49:20",
+  "saved_at": "2026-09-15T19:56:18",
   "portfolio": {
     "starting_cash": 10000.0,
-    "cash": 9585.204519759736,
+    "cash": 9483.204519759736,
     "positions": {
       "pol:3145210:Y": {
         "qty": 1492.5373134328358,
@@ -34,6 +34,11 @@
         "qty": 0.0,
         "avg_price": 0.0,
         "realized_pnl": -43.08097165991903
+      },
+      "pol:4111378:N": {
+        "qty": 800.0,
+        "avg_price": 0.1275,
+        "realized_pnl": 0.0
       }
     },
     "fills": [
@@ -116,13 +121,19 @@
         "fee": 0.0,
         "realized": 36.285491419656765,
         "reason": "take-profit on Will Ben Shelton win the 2026 Men's US Open?"
+      },
+      {
+        "ts": "2026-09-15T19:55:59.054047",
+        "symbol": "pol:4111378:N",
+        "side": "buy",
+        "qty": 800.0,
+        "price": 0.1275,
+        "fee": 0.0,
+        "realized": 0.0,
+        "reason": "edge -0.375: LLM 0.50 vs market 0.88 \u2014 Will Valencia CF win on 2026-09-15?"
       }
     ],
     "equity_curve": [
-      [
-        "2026-09-06T19:00:36.960207",
-        10000.0
-      ],
       [
         "2026-09-06T19:04:45.364382",
         10000.0
@@ -8118,6 +8129,10 @@
       [
         "2026-09-15T19:49:19.828281",
         9993.889084
+      ],
+      [
+        "2026-09-15T19:55:59.054047",
+        9991.889084
       ]
     ]
   },
@@ -10130,11 +10145,18 @@
       "market_price": 0.0225,
       "question": "Will RCD Espanyol de Barcelona win on 2026-09-15?",
       "ts": "2026-09-15T17:45:26"
+    },
+    "4111378": {
+      "probability": 0.5,
+      "reason": "No known fixture details for a midweek date over a year out, and even heavy soccer favorites rarely exceed ~75% win probability due to draw risk, so the 87.5% price looks anomalously high against a ~4",
+      "market_price": 0.875,
+      "question": "Will Valencia CF win on 2026-09-15?",
+      "ts": "2026-09-15T19:55:59"
     }
   },
   "llm_usage": {
-    "calls": 290,
-    "prompt_tokens": 48271,
-    "completion_tokens": 177362
+    "calls": 291,
+    "prompt_tokens": 48436,
+    "completion_tokens": 178502
   }
 }
