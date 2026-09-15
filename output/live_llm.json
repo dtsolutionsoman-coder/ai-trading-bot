@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-15T04:38:14",
+  "saved_at": "2026-09-15T04:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme annualized funding (120.8%) signals crowded longs while 6h momentum is negative, justifying a modestly larger short despite mildly bullish SMA structure."
     }
   ],
-  "llm_bar_index": 2045,
+  "llm_bar_index": 2046,
   "llm_usage": {
     "calls": 511,
     "prompt_tokens": 183547,
@@ -3624,10 +3624,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-25T08:30:00",
-      9920.24
-    ],
     [
       "2026-08-25T08:45:00",
       9921.12
@@ -11623,9 +11619,13 @@
     [
       "2026-09-15T04:15:00",
       9777.87
+    ],
+    [
+      "2026-09-15T04:30:00",
+      9776.42
     ]
   ],
-  "last_bar_ts": "2026-09-15T04:15:00",
-  "bars_processed": 2077,
+  "last_bar_ts": "2026-09-15T04:30:00",
+  "bars_processed": 2078,
   "starting_cash": 10000.0
 }
