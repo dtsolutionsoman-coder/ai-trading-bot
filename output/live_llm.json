@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T00:54:26",
+  "saved_at": "2026-09-16T01:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish trend, sub-1 SMA ratio, and extreme positive funding validate the profitable short, but near-oversold RSI argues against adding risk."
     }
   ],
-  "llm_bar_index": 2126,
+  "llm_bar_index": 2127,
   "llm_usage": {
     "calls": 531,
     "prompt_tokens": 190735,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T04:45:00",
-      9948.63
-    ],
     [
       "2026-08-26T05:00:00",
       9950.37
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T00:30:00",
       9855.83
+    ],
+    [
+      "2026-09-16T00:45:00",
+      9857.59
     ]
   ],
-  "last_bar_ts": "2026-09-16T00:30:00",
-  "bars_processed": 2158,
+  "last_bar_ts": "2026-09-16T00:45:00",
+  "bars_processed": 2159,
   "starting_cash": 10000.0
 }
