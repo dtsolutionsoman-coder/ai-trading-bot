@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T06:26:36",
+  "saved_at": "2026-09-16T06:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend (sma ratio <1, negative 24h) and extreme positive funding support keeping the small profitable short, but near-term bounce and thin volume argue against adding."
     }
   ],
-  "llm_bar_index": 2148,
+  "llm_bar_index": 2149,
   "llm_usage": {
     "calls": 537,
     "prompt_tokens": 192898,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T10:15:00",
-      9954.56
-    ],
     [
       "2026-08-26T10:30:00",
       9949.09
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T06:00:00",
       9846.83
+    ],
+    [
+      "2026-09-16T06:15:00",
+      9850.77
     ]
   ],
-  "last_bar_ts": "2026-09-16T06:00:00",
-  "bars_processed": 2180,
+  "last_bar_ts": "2026-09-16T06:15:00",
+  "bars_processed": 2181,
   "starting_cash": 10000.0
 }
