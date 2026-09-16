@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T05:56:00",
+  "saved_at": "2026-09-16T06:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish trend (SMA ratio <1, -2% 24h) plus extreme positive funding and perp premium indicate crowded longs vulnerable to a flush, supporting adding to the profitable short."
     }
   ],
-  "llm_bar_index": 2146,
+  "llm_bar_index": 2147,
   "llm_usage": {
     "calls": 536,
     "prompt_tokens": 192538,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T09:45:00",
-      9956.74
-    ],
     [
       "2026-08-26T10:00:00",
       9958.01
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T05:30:00",
       9852.01
+    ],
+    [
+      "2026-09-16T05:45:00",
+      9851.39
     ]
   ],
-  "last_bar_ts": "2026-09-16T05:30:00",
-  "bars_processed": 2178,
+  "last_bar_ts": "2026-09-16T05:45:00",
+  "bars_processed": 2179,
   "starting_cash": 10000.0
 }
