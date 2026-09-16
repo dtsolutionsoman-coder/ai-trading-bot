@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T19:41:18",
+  "saved_at": "2026-09-16T19:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild bearish confluence (negative multi-horizon returns, SMA12h below SMA48h, RSI<50) plus rich positive funding supports keeping the small profitable short, but low volatility and weak momentum argue"
     }
   ],
-  "llm_bar_index": 2201,
+  "llm_bar_index": 2202,
   "llm_usage": {
     "calls": 550,
     "prompt_tokens": 197573,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T23:30:00",
-      9973.79
-    ],
     [
       "2026-08-26T23:45:00",
       9975.36
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T19:15:00",
       9868.48
+    ],
+    [
+      "2026-09-16T19:30:00",
+      9853.68
     ]
   ],
-  "last_bar_ts": "2026-09-16T19:15:00",
-  "bars_processed": 2233,
+  "last_bar_ts": "2026-09-16T19:30:00",
+  "bars_processed": 2234,
   "starting_cash": 10000.0
 }
