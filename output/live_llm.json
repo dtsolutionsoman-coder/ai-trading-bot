@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T16:58:22",
+  "saved_at": "2026-09-16T17:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild bearish drift with SMA ratio below 1 and RSI under 50, while extreme positive funding (391% ann.) and perp premium pay the short; adding modestly to the profitable short position."
     }
   ],
-  "llm_bar_index": 2190,
+  "llm_bar_index": 2191,
   "llm_usage": {
     "calls": 547,
     "prompt_tokens": 196497,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T20:45:00",
-      9990.34
-    ],
     [
       "2026-08-26T21:00:00",
       9989.43
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T16:30:00",
       9854.13
+    ],
+    [
+      "2026-09-16T16:45:00",
+      9855.8
     ]
   ],
-  "last_bar_ts": "2026-09-16T16:30:00",
-  "bars_processed": 2222,
+  "last_bar_ts": "2026-09-16T16:45:00",
+  "bars_processed": 2223,
   "starting_cash": 10000.0
 }
