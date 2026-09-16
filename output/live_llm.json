@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T04:44:37",
+  "saved_at": "2026-09-16T04:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short aligns with sub-1 SMA ratio, negative 24h trend, and extremely high positive funding that pays shorts; modest add despite the minor 6h bounce."
     }
   ],
-  "llm_bar_index": 2141,
+  "llm_bar_index": 2142,
   "llm_usage": {
     "calls": 535,
     "prompt_tokens": 192177,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T08:30:00",
-      9948.63
-    ],
     [
       "2026-08-26T08:45:00",
       9950.58
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T04:15:00",
       9852.47
+    ],
+    [
+      "2026-09-16T04:30:00",
+      9851.85
     ]
   ],
-  "last_bar_ts": "2026-09-16T04:15:00",
-  "bars_processed": 2173,
+  "last_bar_ts": "2026-09-16T04:30:00",
+  "bars_processed": 2174,
   "starting_cash": 10000.0
 }
