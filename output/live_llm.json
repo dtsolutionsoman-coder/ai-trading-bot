@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T20:42:17",
+  "saved_at": "2026-09-16T20:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small short is profitable and collecting extreme positive funding (174% ann) with elevated perp premium, while mild low-volume upside drift doesn't justify adding risk; defend carry."
     }
   ],
-  "llm_bar_index": 2205,
+  "llm_bar_index": 2206,
   "llm_usage": {
     "calls": 551,
     "prompt_tokens": 197932,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T00:30:00",
-      9972.97
-    ],
     [
       "2026-08-27T00:45:00",
       9975.14
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T20:15:00",
       9846.5
+    ],
+    [
+      "2026-09-16T20:30:00",
+      9848.72
     ]
   ],
-  "last_bar_ts": "2026-09-16T20:15:00",
-  "bars_processed": 2237,
+  "last_bar_ts": "2026-09-16T20:30:00",
+  "bars_processed": 2238,
   "starting_cash": 10000.0
 }
