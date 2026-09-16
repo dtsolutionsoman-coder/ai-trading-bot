@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-16T15:21:13",
+  "saved_at": "2026-09-16T15:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend (24h negative, SMA12/48<1, RSI<40) plus extreme positive funding rewards the profitable short, but near-oversold RSI and thin volume caution against adding."
     }
   ],
-  "llm_bar_index": 2184,
+  "llm_bar_index": 2185,
   "llm_usage": {
     "calls": 546,
     "prompt_tokens": 196137,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-26T19:15:00",
-      9980.18
-    ],
     [
       "2026-08-26T19:30:00",
       9981.63
@@ -11695,9 +11691,13 @@
     [
       "2026-09-16T15:00:00",
       9851.98
+    ],
+    [
+      "2026-09-16T15:15:00",
+      9854.36
     ]
   ],
-  "last_bar_ts": "2026-09-16T15:00:00",
-  "bars_processed": 2216,
+  "last_bar_ts": "2026-09-16T15:15:00",
+  "bars_processed": 2217,
   "starting_cash": 10000.0
 }
