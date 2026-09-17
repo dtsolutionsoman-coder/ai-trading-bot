@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T21:22:45",
+  "saved_at": "2026-09-17T21:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and sub-40 RSI favor keeping the profitable short to collect carry, but mild uptrend (SMA ratio >1) and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 2304,
+  "llm_bar_index": 2305,
   "llm_usage": {
     "calls": 576,
     "prompt_tokens": 206924,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T01:15:00",
-      9898.75
-    ],
     [
       "2026-08-28T01:30:00",
       9886.77
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T21:00:00",
       9836.13
+    ],
+    [
+      "2026-09-17T21:15:00",
+      9834.34
     ]
   ],
-  "last_bar_ts": "2026-09-17T21:00:00",
-  "bars_processed": 2336,
+  "last_bar_ts": "2026-09-17T21:15:00",
+  "bars_processed": 2337,
   "starting_cash": 10000.0
 }
