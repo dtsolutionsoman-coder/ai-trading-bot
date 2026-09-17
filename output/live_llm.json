@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T23:26:34",
+  "saved_at": "2026-09-17T23:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Neutral price action (RSI 50, flat SMAs) but extreme positive funding and perp premium favor keeping the small profitable short; no signal to add or exit."
     }
   ],
-  "llm_bar_index": 2312,
+  "llm_bar_index": 2313,
   "llm_usage": {
     "calls": 578,
     "prompt_tokens": 207643,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T03:15:00",
-      9913.14
-    ],
     [
       "2026-08-28T03:30:00",
       9912.11
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T23:00:00",
       9833.85
+    ],
+    [
+      "2026-09-17T23:15:00",
+      9834.04
     ]
   ],
-  "last_bar_ts": "2026-09-17T23:00:00",
-  "bars_processed": 2344,
+  "last_bar_ts": "2026-09-17T23:15:00",
+  "bars_processed": 2345,
   "starting_cash": 10000.0
 }
