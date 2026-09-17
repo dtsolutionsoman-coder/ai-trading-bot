@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T02:53:58",
+  "saved_at": "2026-09-17T03:00:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (126% ann.) favors the existing short and momentum is flat-to-weak, but RSI 64 and perp premium warn against adding; keep small profitable short as-is."
     }
   ],
-  "llm_bar_index": 2230,
+  "llm_bar_index": 2231,
   "llm_usage": {
     "calls": 557,
     "prompt_tokens": 200083,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T06:45:00",
-      9987.43
-    ],
     [
       "2026-08-27T07:00:00",
       9989.18
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T02:30:00",
       9838.32
+    ],
+    [
+      "2026-09-17T02:45:00",
+      9837.21
     ]
   ],
-  "last_bar_ts": "2026-09-17T02:30:00",
-  "bars_processed": 2262,
+  "last_bar_ts": "2026-09-17T02:45:00",
+  "bars_processed": 2263,
   "starting_cash": 10000.0
 }
