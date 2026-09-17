@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T18:37:17",
+  "saved_at": "2026-09-17T18:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend conflicts with extreme funding and perp premium signaling crowded longs; keeping the small profitable short funded by the carry."
     }
   ],
-  "llm_bar_index": 2293,
+  "llm_bar_index": 2294,
   "llm_usage": {
     "calls": 573,
     "prompt_tokens": 205845,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T22:30:00",
-      9953.41
-    ],
     [
       "2026-08-27T22:45:00",
       9951.84
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T18:15:00",
       9829.02
+    ],
+    [
+      "2026-09-17T18:30:00",
+      9833.26
     ]
   ],
-  "last_bar_ts": "2026-09-17T18:15:00",
-  "bars_processed": 2325,
+  "last_bar_ts": "2026-09-17T18:30:00",
+  "bars_processed": 2326,
   "starting_cash": 10000.0
 }
