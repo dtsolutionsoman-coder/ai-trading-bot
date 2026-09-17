@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T22:59:11",
+  "saved_at": "2026-09-17T23:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Weak short-term momentum, RSI below 40, and extreme positive funding (crowded longs paying shorts) support keeping the existing small short, but the near-flat SMA trend and low volatility cap convicti"
     }
   ],
-  "llm_bar_index": 2310,
+  "llm_bar_index": 2311,
   "llm_usage": {
     "calls": 577,
     "prompt_tokens": 207283,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T02:45:00",
-      9920.07
-    ],
     [
       "2026-08-28T03:00:00",
       9911.23
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T22:30:00",
       9834.31
+    ],
+    [
+      "2026-09-17T22:45:00",
+      9834.79
     ]
   ],
-  "last_bar_ts": "2026-09-17T22:30:00",
-  "bars_processed": 2342,
+  "last_bar_ts": "2026-09-17T22:45:00",
+  "bars_processed": 2343,
   "starting_cash": 10000.0
 }
