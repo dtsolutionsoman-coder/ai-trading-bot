@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T06:15:49",
+  "saved_at": "2026-09-17T06:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme annualized funding (264%) and positive perp premium favor the existing small short while neutral price action (RSI 51, SMA ratio ~1.0) offers no exit signal; holding to collect funding on a pr"
     }
   ],
-  "llm_bar_index": 2244,
+  "llm_bar_index": 2245,
   "llm_usage": {
     "calls": 561,
     "prompt_tokens": 201523,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T10:15:00",
-      9976.89
-    ],
     [
       "2026-08-27T10:30:00",
       9974.07
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T06:00:00",
       9836.2
+    ],
+    [
+      "2026-09-17T06:15:00",
+      9832.84
     ]
   ],
-  "last_bar_ts": "2026-09-17T06:00:00",
-  "bars_processed": 2276,
+  "last_bar_ts": "2026-09-17T06:15:00",
+  "bars_processed": 2277,
   "starting_cash": 10000.0
 }
