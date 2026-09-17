@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T05:58:50",
+  "saved_at": "2026-09-17T06:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (~365% ann.) and elevated perp premium favor retaining the small profitable short to collect carry, but mild upward momentum and flat SMA/RSI argue against adding risk."
     }
   ],
-  "llm_bar_index": 2242,
+  "llm_bar_index": 2243,
   "llm_usage": {
     "calls": 560,
     "prompt_tokens": 201166,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T09:45:00",
-      9969.55
-    ],
     [
       "2026-08-27T10:00:00",
       9965.79
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T05:30:00",
       9835.84
+    ],
+    [
+      "2026-09-17T05:45:00",
+      9838.41
     ]
   ],
-  "last_bar_ts": "2026-09-17T05:30:00",
-  "bars_processed": 2274,
+  "last_bar_ts": "2026-09-17T05:45:00",
+  "bars_processed": 2275,
   "starting_cash": 10000.0
 }
