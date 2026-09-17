@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T20:15:42",
+  "saved_at": "2026-09-17T20:16:17",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -2999,16 +2999,16 @@
     },
     {
       "ts": "2026-09-17T20:00:00",
-      "action": "sell",
-      "conviction": 0.35,
-      "reason": "Extreme positive funding (171% ann) with perp premium and declining OI signal crowded longs; small short is profitable and earns carry, so modestly increase it."
+      "action": "hold",
+      "conviction": 0.45,
+      "reason": "Extreme positive funding (170% ann.) and perp premium favor keeping the small profitable short while price consolidates, but neutral trend warns against adding."
     }
   ],
   "llm_bar_index": 2300,
   "llm_usage": {
     "calls": 575,
     "prompt_tokens": 206564,
-    "completion_tokens": 573630
+    "completion_tokens": 573570
   },
   "cash": 12337.363365940508,
   "positions": {
