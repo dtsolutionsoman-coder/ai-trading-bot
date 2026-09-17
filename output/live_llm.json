@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T14:36:50",
+  "saved_at": "2026-09-17T14:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding pays the short and falling OI signals a weak short-covering rally, but mild upward momentum argues against adding, so maintain the small short."
     }
   ],
-  "llm_bar_index": 2277,
+  "llm_bar_index": 2278,
   "llm_usage": {
     "calls": 569,
     "prompt_tokens": 204406,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T18:30:00",
-      9965.57
-    ],
     [
       "2026-08-27T18:45:00",
       9959.3
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T14:15:00",
       9820.71
+    ],
+    [
+      "2026-09-17T14:30:00",
+      9829.02
     ]
   ],
-  "last_bar_ts": "2026-09-17T14:15:00",
-  "bars_processed": 2309,
+  "last_bar_ts": "2026-09-17T14:30:00",
+  "bars_processed": 2310,
   "starting_cash": 10000.0
 }
