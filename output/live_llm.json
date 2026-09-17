@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-17T19:40:31",
+  "saved_at": "2026-09-17T19:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (189% ann.) and fading RSI support keeping the small profitable short, but mild uptrend structure and premium caution against adding risk."
     }
   ],
-  "llm_bar_index": 2297,
+  "llm_bar_index": 2298,
   "llm_usage": {
     "calls": 574,
     "prompt_tokens": 206205,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T23:30:00",
-      9952.43
-    ],
     [
       "2026-08-27T23:45:00",
       9954.78
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T19:15:00",
       9833.39
+    ],
+    [
+      "2026-09-17T19:30:00",
+      9832.41
     ]
   ],
-  "last_bar_ts": "2026-09-17T19:15:00",
-  "bars_processed": 2329,
+  "last_bar_ts": "2026-09-17T19:30:00",
+  "bars_processed": 2330,
   "starting_cash": 10000.0
 }
