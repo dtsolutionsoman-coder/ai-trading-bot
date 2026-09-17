@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-17T06:14:23",
+  "saved_at": "2026-09-17T06:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-27T08:00:00",
-      "action": "sell",
-      "conviction": 0.3,
-      "reason": "Downtrend (SMA12/48<1, negative 6h/24h) with falling OI and rich positive funding supports adding modestly to the profitable short despite the minor 1h bounce."
-    },
     {
       "ts": "2026-08-27T09:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Extreme positive funding (~365% ann.) and elevated perp premium favor retaining the small profitable short to collect carry, but mild upward momentum and flat SMA/RSI argue against adding risk."
+    },
+    {
+      "ts": "2026-09-17T06:00:00",
+      "action": "hold",
+      "conviction": 0.4,
+      "reason": "Extreme annualized funding (264%) and positive perp premium favor the existing small short while neutral price action (RSI 51, SMA ratio ~1.0) offers no exit signal; holding to collect funding on a pr"
     }
   ],
-  "llm_bar_index": 2243,
+  "llm_bar_index": 2244,
   "llm_usage": {
-    "calls": 560,
-    "prompt_tokens": 201166,
-    "completion_tokens": 557765
+    "calls": 561,
+    "prompt_tokens": 201523,
+    "completion_tokens": 558866
   },
   "cash": 12337.363365940508,
   "positions": {
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-27T10:00:00",
-      9965.79
-    ],
     [
       "2026-08-27T10:15:00",
       9976.89
@@ -11695,9 +11691,13 @@
     [
       "2026-09-17T05:45:00",
       9838.41
+    ],
+    [
+      "2026-09-17T06:00:00",
+      9836.2
     ]
   ],
-  "last_bar_ts": "2026-09-17T05:45:00",
-  "bars_processed": 2275,
+  "last_bar_ts": "2026-09-17T06:00:00",
+  "bars_processed": 2276,
   "starting_cash": 10000.0
 }
