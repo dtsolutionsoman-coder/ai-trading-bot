@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T02:06:06",
+  "saved_at": "2026-09-18T02:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T05:00:00",
-      "action": "hold",
-      "conviction": 0.3,
-      "reason": "Extreme funding (1817% ann.) and 184bps perp premium signal crowded longs that support the small short, but positive 24h momentum and thin volume argue against adding risk."
-    },
     {
       "ts": "2026-08-28T06:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.08,
       "reason": "Flat price with extreme positive funding (~179% annualized) pays the carry to shorts, so maintaining a modest short despite mildly bullish momentum indicators."
+    },
+    {
+      "ts": "2026-09-18T02:00:00",
+      "action": "hold",
+      "conviction": 0.18,
+      "reason": "Mixed momentum with mildly bullish trend offset by crowded-long funding; the small short collects carry while profit is protected."
     }
   ],
-  "llm_bar_index": 2323,
+  "llm_bar_index": 2324,
   "llm_usage": {
-    "calls": 580,
-    "prompt_tokens": 208361,
-    "completion_tokens": 578634
+    "calls": 581,
+    "prompt_tokens": 208720,
+    "completion_tokens": 579811
   },
   "cash": 12337.363365940508,
   "positions": {
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T06:00:00",
-      9909.94
-    ],
     [
       "2026-08-28T06:15:00",
       9911.98
@@ -11695,9 +11691,13 @@
     [
       "2026-09-18T01:45:00",
       9834.21
+    ],
+    [
+      "2026-09-18T02:00:00",
+      9832.12
     ]
   ],
-  "last_bar_ts": "2026-09-18T01:45:00",
-  "bars_processed": 2355,
+  "last_bar_ts": "2026-09-18T02:00:00",
+  "bars_processed": 2356,
   "starting_cash": 10000.0
 }
