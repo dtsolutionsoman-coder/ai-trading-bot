@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T16:44:19",
+  "saved_at": "2026-09-18T16:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend and negative funding support the small long, but RSI ~88 with perp discount and fading 1h momentum makes adding or chasing too risky."
     }
   ],
-  "llm_bar_index": 2381,
+  "llm_bar_index": 2382,
   "llm_usage": {
     "calls": 595,
     "prompt_tokens": 213744,
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T20:30:00",
-      9997.87
-    ],
     [
       "2026-08-28T20:45:00",
       9995.09
@@ -11722,9 +11718,13 @@
     [
       "2026-09-18T16:15:00",
       9799.68
+    ],
+    [
+      "2026-09-18T16:30:00",
+      9797.4
     ]
   ],
-  "last_bar_ts": "2026-09-18T16:15:00",
-  "bars_processed": 2413,
+  "last_bar_ts": "2026-09-18T16:30:00",
+  "bars_processed": 2414,
   "starting_cash": 10000.0
 }
