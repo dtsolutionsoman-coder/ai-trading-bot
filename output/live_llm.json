@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T17:07:42",
+  "saved_at": "2026-09-18T17:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T20:00:00",
-      "action": "sell",
-      "conviction": 0.45,
-      "reason": "6h/24h declines, SMA ratio below 1, and rising OI into falling price signal bearish pressure, so cutting the small losing long."
-    },
     {
       "ts": "2026-08-28T21:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Trend and negative funding support the small long, but RSI ~88 with perp discount and fading 1h momentum makes adding or chasing too risky."
+    },
+    {
+      "ts": "2026-09-18T17:00:00",
+      "action": "buy",
+      "conviction": 0.5,
+      "reason": "Uptrend with SMA ratio above 1 and strongly negative funding/premium indicating crowded shorts funding a squeeze, though overbought RSI tempers sizing."
     }
   ],
-  "llm_bar_index": 2383,
+  "llm_bar_index": 2384,
   "llm_usage": {
-    "calls": 595,
-    "prompt_tokens": 213744,
-    "completion_tokens": 594623
+    "calls": 596,
+    "prompt_tokens": 214101,
+    "completion_tokens": 595453
   },
   "cash": 7330.28014720155,
   "positions": {
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T21:00:00",
-      9998.09
-    ],
     [
       "2026-08-28T21:15:00",
       9993.11
@@ -11722,9 +11718,13 @@
     [
       "2026-09-18T16:45:00",
       9793.0
+    ],
+    [
+      "2026-09-18T17:00:00",
+      9795.23
     ]
   ],
-  "last_bar_ts": "2026-09-18T16:45:00",
-  "bars_processed": 2415,
+  "last_bar_ts": "2026-09-18T17:00:00",
+  "bars_processed": 2416,
   "starting_cash": 10000.0
 }
