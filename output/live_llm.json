@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T18:21:06",
+  "saved_at": "2026-09-18T18:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "6h/24h momentum and SMA12h>SMA48h confirm uptrend while RSI neutral and slightly negative perp premium show no overheating; modestly add to the small profitable long."
     }
   ],
-  "llm_bar_index": 2388,
+  "llm_bar_index": 2389,
   "llm_usage": {
     "calls": 597,
     "prompt_tokens": 214460,
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T22:15:00",
-      9995.7
-    ],
     [
       "2026-08-28T22:30:00",
       9987.32
@@ -11722,9 +11718,13 @@
     [
       "2026-09-18T18:00:00",
       9796.05
+    ],
+    [
+      "2026-09-18T18:15:00",
+      9800.29
     ]
   ],
-  "last_bar_ts": "2026-09-18T18:00:00",
-  "bars_processed": 2420,
+  "last_bar_ts": "2026-09-18T18:15:00",
+  "bars_processed": 2421,
   "starting_cash": 10000.0
 }
