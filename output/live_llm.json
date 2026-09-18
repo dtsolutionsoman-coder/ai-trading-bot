@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T10:02:18",
+  "saved_at": "2026-09-18T10:16:06",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T13:00:00",
-      "action": "sell",
-      "conviction": 0.35,
-      "reason": "Extreme funding (2161% ann) and 218bps perp premium signal overcrowded longs while 1h/6h momentum fades, so modestly adding to the small profitable short despite the mild 24h uptrend."
-    },
     {
       "ts": "2026-08-28T14:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "RSI 85.5 with declining OI and negative perp premium signals an exhausted short-covering rally; trimming the small long to defend the 1.4% gain."
+    },
+    {
+      "ts": "2026-09-18T10:00:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 2355,
+  "llm_bar_index": 2356,
   "llm_usage": {
-    "calls": 588,
-    "prompt_tokens": 211232,
-    "completion_tokens": 586090
+    "calls": 589,
+    "prompt_tokens": 211590,
+    "completion_tokens": 588090
   },
   "cash": 12303.184332911504,
   "positions": {
@@ -3714,10 +3714,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T14:00:00",
-      9932.65
-    ],
     [
       "2026-08-28T14:15:00",
       9941.21
@@ -11713,9 +11709,13 @@
     [
       "2026-09-18T09:45:00",
       9848.26
+    ],
+    [
+      "2026-09-18T10:00:00",
+      9848.73
     ]
   ],
-  "last_bar_ts": "2026-09-18T09:45:00",
-  "bars_processed": 2387,
+  "last_bar_ts": "2026-09-18T10:00:00",
+  "bars_processed": 2388,
   "starting_cash": 10000.0
 }
