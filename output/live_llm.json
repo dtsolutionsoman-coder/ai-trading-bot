@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T19:09:21",
+  "saved_at": "2026-09-18T19:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T22:00:00",
-      "action": "hold",
-      "conviction": 0.3,
-      "reason": "Extreme 271% annualized funding signals overcrowded longs that supports the small short, but recovering 6h momentum and RI 68 warn against adding, so keep minimal exposure."
-    },
     {
       "ts": "2026-08-28T23:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "buy",
       "conviction": 0.4,
       "reason": "6h/24h momentum and SMA12h>SMA48h confirm uptrend while RSI neutral and slightly negative perp premium show no overheating; modestly add to the small profitable long."
+    },
+    {
+      "ts": "2026-09-18T19:00:00",
+      "action": "hold",
+      "conviction": 0.4,
+      "reason": "Uptrend and positive SMA ratio support the small long, but RSI near 70, elevated funding, and falling open interest signal stretched conditions, so keep current exposure without adding."
     }
   ],
-  "llm_bar_index": 2391,
+  "llm_bar_index": 2392,
   "llm_usage": {
-    "calls": 597,
-    "prompt_tokens": 214460,
-    "completion_tokens": 596007
+    "calls": 598,
+    "prompt_tokens": 214819,
+    "completion_tokens": 596979
   },
   "cash": 7330.28014720155,
   "positions": {
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T23:00:00",
-      9974.97
-    ],
     [
       "2026-08-28T23:15:00",
       9988.13
@@ -11722,9 +11718,13 @@
     [
       "2026-09-18T18:45:00",
       9800.11
+    ],
+    [
+      "2026-09-18T19:00:00",
+      9806.4
     ]
   ],
-  "last_bar_ts": "2026-09-18T18:45:00",
-  "bars_processed": 2423,
+  "last_bar_ts": "2026-09-18T19:00:00",
+  "bars_processed": 2424,
   "starting_cash": 10000.0
 }
