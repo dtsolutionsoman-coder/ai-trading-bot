@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T01:41:09",
+  "saved_at": "2026-09-18T01:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Flat price with extreme positive funding (~179% annualized) pays the carry to shorts, so maintaining a modest short despite mildly bullish momentum indicators."
     }
   ],
-  "llm_bar_index": 2321,
+  "llm_bar_index": 2322,
   "llm_usage": {
     "calls": 580,
     "prompt_tokens": 208361,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T05:30:00",
-      9917.88
-    ],
     [
       "2026-08-28T05:45:00",
       9917.16
@@ -11695,9 +11691,13 @@
     [
       "2026-09-18T01:15:00",
       9833.52
+    ],
+    [
+      "2026-09-18T01:30:00",
+      9835.97
     ]
   ],
-  "last_bar_ts": "2026-09-18T01:15:00",
-  "bars_processed": 2353,
+  "last_bar_ts": "2026-09-18T01:30:00",
+  "bars_processed": 2354,
   "starting_cash": 10000.0
 }
