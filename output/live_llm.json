@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T03:22:15",
+  "saved_at": "2026-09-18T03:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend keeps me cautious, but overbought RSI, negative perp premium, and falling OI suggest a weak rally, so I maintain the small short."
     }
   ],
-  "llm_bar_index": 2328,
+  "llm_bar_index": 2329,
   "llm_usage": {
     "calls": 582,
     "prompt_tokens": 209078,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T07:15:00",
-      9919.35
-    ],
     [
       "2026-08-28T07:30:00",
       9921.89
@@ -11695,9 +11691,13 @@
     [
       "2026-09-18T03:00:00",
       9819.99
+    ],
+    [
+      "2026-09-18T03:15:00",
+      9814.94
     ]
   ],
-  "last_bar_ts": "2026-09-18T03:00:00",
-  "bars_processed": 2360,
+  "last_bar_ts": "2026-09-18T03:15:00",
+  "bars_processed": 2361,
   "starting_cash": 10000.0
 }
