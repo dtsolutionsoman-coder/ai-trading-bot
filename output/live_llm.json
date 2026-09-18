@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T09:39:09",
+  "saved_at": "2026-09-18T09:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 85.5 with declining OI and negative perp premium signals an exhausted short-covering rally; trimming the small long to defend the 1.4% gain."
     }
   ],
-  "llm_bar_index": 2353,
+  "llm_bar_index": 2354,
   "llm_usage": {
     "calls": 588,
     "prompt_tokens": 211232,
@@ -3714,10 +3714,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T13:30:00",
-      9935.59
-    ],
     [
       "2026-08-28T13:45:00",
       9923.43
@@ -11713,9 +11709,13 @@
     [
       "2026-09-18T09:15:00",
       9847.88
+    ],
+    [
+      "2026-09-18T09:30:00",
+      9851.72
     ]
   ],
-  "last_bar_ts": "2026-09-18T09:15:00",
-  "bars_processed": 2385,
+  "last_bar_ts": "2026-09-18T09:30:00",
+  "bars_processed": 2386,
   "starting_cash": 10000.0
 }
