@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T07:56:42",
+  "saved_at": "2026-09-18T08:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild bullish momentum and deeply negative funding support the small long, but falling OI, negative perp premium, and thin volume argue against adding; keeping the modest profitable position unchanged."
     }
   ],
-  "llm_bar_index": 2346,
+  "llm_bar_index": 2347,
   "llm_usage": {
     "calls": 586,
     "prompt_tokens": 210514,
@@ -3705,10 +3705,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T11:45:00",
-      9919.7
-    ],
     [
       "2026-08-28T12:00:00",
       9923.68
@@ -11704,9 +11700,13 @@
     [
       "2026-09-18T07:30:00",
       9827.03
+    ],
+    [
+      "2026-09-18T07:45:00",
+      9826.55
     ]
   ],
-  "last_bar_ts": "2026-09-18T07:30:00",
-  "bars_processed": 2378,
+  "last_bar_ts": "2026-09-18T07:45:00",
+  "bars_processed": 2379,
   "starting_cash": 10000.0
 }
