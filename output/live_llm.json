@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T13:05:22",
+  "saved_at": "2026-09-18T13:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T16:00:00",
-      "action": "hold",
-      "conviction": 0.4,
-      "reason": "Profitable short supported by negative momentum and extreme positive funding, but RSI 19.2 bounce risk argues for defending gains rather than adding."
-    },
     {
       "ts": "2026-08-28T17:00:00",
       "action": "buy",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.08,
       "reason": "Mild uptrend lacks volume and OI support while high positive funding favors the existing small profitable short; no signal to add risk in either direction."
+    },
+    {
+      "ts": "2026-09-18T13:00:00",
+      "action": "hold",
+      "conviction": 0.03,
+      "reason": "Mixed signals \u2014 mild uptrend and positive SMA ratio offset by fading RSI, positive funding, and falling OI \u2014 so keep the small profitable short rather than add risk."
     }
   ],
-  "llm_bar_index": 2367,
+  "llm_bar_index": 2368,
   "llm_usage": {
-    "calls": 591,
-    "prompt_tokens": 212308,
-    "completion_tokens": 589791
+    "calls": 592,
+    "prompt_tokens": 212667,
+    "completion_tokens": 590537
   },
   "cash": 12303.184332911504,
   "positions": {
@@ -3714,10 +3714,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T17:00:00",
-      10026.81
-    ],
     [
       "2026-08-28T17:15:00",
       10024.39
@@ -11713,9 +11709,13 @@
     [
       "2026-09-18T12:45:00",
       9850.71
+    ],
+    [
+      "2026-09-18T13:00:00",
+      9851.43
     ]
   ],
-  "last_bar_ts": "2026-09-18T12:45:00",
-  "bars_processed": 2399,
+  "last_bar_ts": "2026-09-18T13:00:00",
+  "bars_processed": 2400,
   "starting_cash": 10000.0
 }
