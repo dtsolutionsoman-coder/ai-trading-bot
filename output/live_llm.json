@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-18T04:11:45",
+  "saved_at": "2026-09-18T04:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-28T07:00:00",
-      "action": "sell",
-      "conviction": 0.45,
-      "reason": "Extreme positive funding (1952% ann.) and +119bps perp premium signal crowded longs while 1-6h momentum fades, favoring adding the short that also collects funding."
-    },
     {
       "ts": "2026-08-28T08:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Mild uptrend keeps me cautious, but overbought RSI, negative perp premium, and falling OI suggest a weak rally, so I maintain the small short."
+    },
+    {
+      "ts": "2026-09-18T04:00:00",
+      "action": "buy",
+      "conviction": 0.35,
+      "reason": "Deeply negative funding signals crowded shorts with squeeze risk while price grinds higher; covering the small losing short despite overbought RSI."
     }
   ],
-  "llm_bar_index": 2331,
+  "llm_bar_index": 2332,
   "llm_usage": {
-    "calls": 582,
-    "prompt_tokens": 209078,
-    "completion_tokens": 580751
+    "calls": 583,
+    "prompt_tokens": 209438,
+    "completion_tokens": 581926
   },
-  "cash": 12337.363365940508,
+  "cash": 7357.409177719011,
   "positions": {
     "BTC": {
-      "qty": -0.03260930483782742,
-      "avg_price": 77013.89366563153,
-      "realized_pnl": 27.3005044282241
+      "qty": 0.03179872286227776,
+      "avg_price": 77241.60149999999,
+      "realized_pnl": 19.87511024334163
     }
   },
   "recent_fills": [
@@ -3693,13 +3693,18 @@
       "fee": 0.027346375402754045,
       "realized": 0.0,
       "reason": "LLM sell conv=0.40: Bearish momentum, SMA12<48, rising OI on falling price, and extreme positive funding (crowded longs) justify extending the profitable short, tempered by near-oversold RSI bounce risk. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-18T04:00:00",
+      "side": "buy",
+      "qty": 0.06440802770010517,
+      "price": 77241.60149999999,
+      "fee": 4.974979209012484,
+      "realized": -7.425394184882471,
+      "reason": "LLM buy conv=0.35: Deeply negative funding signals crowded shorts with squeeze risk while price grinds higher; covering the small losing short despite overbought RSI. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T08:00:00",
-      9918.79
-    ],
     [
       "2026-08-28T08:15:00",
       9918.66
@@ -11695,9 +11700,13 @@
     [
       "2026-09-18T03:45:00",
       9816.92
+    ],
+    [
+      "2026-09-18T04:00:00",
+      9812.37
     ]
   ],
-  "last_bar_ts": "2026-09-18T03:45:00",
-  "bars_processed": 2363,
+  "last_bar_ts": "2026-09-18T04:00:00",
+  "bars_processed": 2364,
   "starting_cash": 10000.0
 }
