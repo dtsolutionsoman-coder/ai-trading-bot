@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T04:24:34",
+  "saved_at": "2026-09-18T04:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Deeply negative funding signals crowded shorts with squeeze risk while price grinds higher; covering the small losing short despite overbought RSI."
     }
   ],
-  "llm_bar_index": 2332,
+  "llm_bar_index": 2333,
   "llm_usage": {
     "calls": 583,
     "prompt_tokens": 209438,
@@ -3705,10 +3705,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T08:15:00",
-      9918.66
-    ],
     [
       "2026-08-28T08:30:00",
       9919.95
@@ -11704,9 +11700,13 @@
     [
       "2026-09-18T04:00:00",
       9812.37
+    ],
+    [
+      "2026-09-18T04:15:00",
+      9811.54
     ]
   ],
-  "last_bar_ts": "2026-09-18T04:00:00",
-  "bars_processed": 2364,
+  "last_bar_ts": "2026-09-18T04:15:00",
+  "bars_processed": 2365,
   "starting_cash": 10000.0
 }
