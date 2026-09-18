@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T02:20:22",
+  "saved_at": "2026-09-18T02:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mixed momentum with mildly bullish trend offset by crowded-long funding; the small short collects carry while profit is protected."
     }
   ],
-  "llm_bar_index": 2324,
+  "llm_bar_index": 2325,
   "llm_usage": {
     "calls": 581,
     "prompt_tokens": 208720,
@@ -3696,10 +3696,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T06:15:00",
-      9911.98
-    ],
     [
       "2026-08-28T06:30:00",
       9912.55
@@ -11695,9 +11691,13 @@
     [
       "2026-09-18T02:00:00",
       9832.12
+    ],
+    [
+      "2026-09-18T02:15:00",
+      9825.08
     ]
   ],
-  "last_bar_ts": "2026-09-18T02:00:00",
-  "bars_processed": 2356,
+  "last_bar_ts": "2026-09-18T02:15:00",
+  "bars_processed": 2357,
   "starting_cash": 10000.0
 }
