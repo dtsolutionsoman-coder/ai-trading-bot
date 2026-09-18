@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-18T05:43:17",
+  "saved_at": "2026-09-18T05:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend with negative funding supports the small long, but RSI at 78 and thin, declining OI argue against adding; keep the small profitable position as-is."
     }
   ],
-  "llm_bar_index": 2337,
+  "llm_bar_index": 2338,
   "llm_usage": {
     "calls": 584,
     "prompt_tokens": 209797,
@@ -3705,10 +3705,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-28T09:30:00",
-      9927.54
-    ],
     [
       "2026-08-28T09:45:00",
       9928.07
@@ -11704,9 +11700,13 @@
     [
       "2026-09-18T05:15:00",
       9821.46
+    ],
+    [
+      "2026-09-18T05:30:00",
+      9820.63
     ]
   ],
-  "last_bar_ts": "2026-09-18T05:15:00",
-  "bars_processed": 2369,
+  "last_bar_ts": "2026-09-18T05:30:00",
+  "bars_processed": 2370,
   "starting_cash": 10000.0
 }
