@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T06:26:46",
+  "saved_at": "2026-09-19T06:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend structure still bullish but momentum stalling while extreme 78% funding pays the short; keeping the small short to collect funding without adding risk against the uptrend."
     }
   ],
-  "llm_bar_index": 2436,
+  "llm_bar_index": 2437,
   "llm_usage": {
     "calls": 609,
     "prompt_tokens": 218764,
@@ -3732,10 +3732,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T10:15:00",
-      9997.15
-    ],
     [
       "2026-08-29T10:30:00",
       9991.88
@@ -11731,9 +11727,13 @@
     [
       "2026-09-19T06:00:00",
       9801.76
+    ],
+    [
+      "2026-09-19T06:15:00",
+      9801.34
     ]
   ],
-  "last_bar_ts": "2026-09-19T06:00:00",
-  "bars_processed": 2468,
+  "last_bar_ts": "2026-09-19T06:15:00",
+  "bars_processed": 2469,
   "starting_cash": 10000.0
 }
