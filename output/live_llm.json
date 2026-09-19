@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-19T13:06:32",
+  "saved_at": "2026-09-19T13:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-29T16:00:00",
-      "action": "hold",
-      "conviction": 0.15,
-      "reason": "SMA12h below SMA48h and elevated positive funding support keeping the small short, but 24h upside and neutral RSI argue against adding, so I hold the modest position while the loss stays contained."
-    },
     {
       "ts": "2026-08-29T17:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.15,
       "reason": "Uptrend and SMA momentum conflict with extreme 46% funding suggesting crowded longs; keep the tiny short as a funding-carry hedge rather than pressing either side."
+    },
+    {
+      "ts": "2026-09-19T13:00:00",
+      "action": "hold",
+      "conviction": 0.25,
+      "reason": "Extreme positive funding and thin volume favor keeping the small profitable short despite the bullish 24h trend and perp premium."
     }
   ],
-  "llm_bar_index": 2463,
+  "llm_bar_index": 2464,
   "llm_usage": {
-    "calls": 615,
-    "prompt_tokens": 220910,
-    "completion_tokens": 612573
+    "calls": 616,
+    "prompt_tokens": 221267,
+    "completion_tokens": 613396
   },
   "cash": 12235.621174579646,
   "positions": {
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T17:00:00",
-      9982.22
-    ],
     [
       "2026-08-29T17:15:00",
       9981.44
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T12:45:00",
       9791.11
+    ],
+    [
+      "2026-09-19T13:00:00",
+      9793.96
     ]
   ],
-  "last_bar_ts": "2026-09-19T12:45:00",
-  "bars_processed": 2495,
+  "last_bar_ts": "2026-09-19T13:00:00",
+  "bars_processed": 2496,
   "starting_cash": 10000.0
 }
