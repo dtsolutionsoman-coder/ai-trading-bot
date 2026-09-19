@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T11:57:34",
+  "saved_at": "2026-09-19T12:01:15",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bullish momentum and perp premium are offset by extreme 78% annualized funding signaling crowded longs, so keep the small profitable short rather than add risk."
     }
   ],
-  "llm_bar_index": 2458,
+  "llm_bar_index": 2459,
   "llm_usage": {
     "calls": 614,
     "prompt_tokens": 220552,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T15:45:00",
-      9983.86
-    ],
     [
       "2026-08-29T16:00:00",
       9989.43
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T11:30:00",
       9792.94
+    ],
+    [
+      "2026-09-19T11:45:00",
+      9791.77
     ]
   ],
-  "last_bar_ts": "2026-09-19T11:30:00",
-  "bars_processed": 2490,
+  "last_bar_ts": "2026-09-19T11:45:00",
+  "bars_processed": 2491,
   "starting_cash": 10000.0
 }
