@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-19T15:12:04",
+  "saved_at": "2026-09-19T15:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-29T18:00:00",
-      "action": "hold",
-      "conviction": 0.25,
-      "reason": "Bearish structure (SMA ratio <1, RSI<50, positive funding) offsets positive 6-24h momentum; keeping small short in low-vol chop rather than chasing."
-    },
     {
       "ts": "2026-08-29T19:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Mildly bullish trend signals offset by neutral RSI and premium, while positive funding supports keeping the small profitable short."
+    },
+    {
+      "ts": "2026-09-19T15:00:00",
+      "action": "hold",
+      "conviction": 0.5,
+      "reason": "Uptrend pressures the small short, but extreme 117% annualized funding and perp premium pay the short to wait for overbought mean reversion; position is small and loss negligible, so hold rather than "
     }
   ],
-  "llm_bar_index": 2471,
+  "llm_bar_index": 2472,
   "llm_usage": {
-    "calls": 617,
-    "prompt_tokens": 221625,
-    "completion_tokens": 614278
+    "calls": 618,
+    "prompt_tokens": 221982,
+    "completion_tokens": 615323
   },
   "cash": 12235.621174579646,
   "positions": {
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T19:00:00",
-      9977.3
-    ],
     [
       "2026-08-29T19:15:00",
       9975.75
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T14:45:00",
       9782.43
+    ],
+    [
+      "2026-09-19T15:00:00",
+      9778.53
     ]
   ],
-  "last_bar_ts": "2026-09-19T14:45:00",
-  "bars_processed": 2503,
+  "last_bar_ts": "2026-09-19T15:00:00",
+  "bars_processed": 2504,
   "starting_cash": 10000.0
 }
