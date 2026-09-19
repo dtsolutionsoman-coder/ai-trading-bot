@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T19:15:37",
+  "saved_at": "2026-09-19T19:16:18",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3000,15 +3000,15 @@
     {
       "ts": "2026-09-19T19:00:00",
       "action": "hold",
-      "conviction": 0.35,
-      "reason": "Small profitable short collects extremely elevated funding while mild uptrend and perp premium offset, so maintaining limited short exposure."
+      "conviction": 0.15,
+      "reason": "Mild bullish momentum (SMA ratio 1.023, positive 6h/24h) is offset by extreme 266% annualized funding and elevated perp premium signaling crowded longs, so keep the small profitable short to collect f"
     }
   ],
   "llm_bar_index": 2488,
   "llm_usage": {
     "calls": 622,
     "prompt_tokens": 223418,
-    "completion_tokens": 618992
+    "completion_tokens": 619685
   },
   "cash": 12201.496639776986,
   "positions": {
