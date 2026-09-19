@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T14:40:23",
+  "saved_at": "2026-09-19T14:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bullish trend signals offset by neutral RSI and premium, while positive funding supports keeping the small profitable short."
     }
   ],
-  "llm_bar_index": 2469,
+  "llm_bar_index": 2470,
   "llm_usage": {
     "calls": 617,
     "prompt_tokens": 221625,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T18:30:00",
-      9982.51
-    ],
     [
       "2026-08-29T18:45:00",
       9977.11
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T14:15:00",
       9782.79
+    ],
+    [
+      "2026-09-19T14:30:00",
+      9781.86
     ]
   ],
-  "last_bar_ts": "2026-09-19T14:15:00",
-  "bars_processed": 2501,
+  "last_bar_ts": "2026-09-19T14:30:00",
+  "bars_processed": 2502,
   "starting_cash": 10000.0
 }
