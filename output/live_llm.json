@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-19T09:11:29",
+  "saved_at": "2026-09-19T09:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-29T12:00:00",
-      "action": "hold",
-      "conviction": 0.35,
-      "reason": "Bearish trend (24h -4.3%, SMA ratio <1, rising OI) supports the small short, but RSI near oversold and positive funding flag bounce risk, so maintain modest exposure."
-    },
     {
       "ts": "2026-08-29T13:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "buy",
       "conviction": 0.35,
       "reason": "Strong uptrend (24h +4.5%, SMA12>48, RSI 66.5, positive premium) invalidates the losing short; buying to exit it, though extreme funding caps long conviction."
+    },
+    {
+      "ts": "2026-09-19T09:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "RSI 76 and 52% annualized funding signal crowded, overextended longs in a thin-volume pump; trimming the small long to avoid funding drag and mean-reversion risk."
     }
   ],
-  "llm_bar_index": 2447,
+  "llm_bar_index": 2448,
   "llm_usage": {
-    "calls": 611,
-    "prompt_tokens": 219479,
-    "completion_tokens": 608782
+    "calls": 612,
+    "prompt_tokens": 219837,
+    "completion_tokens": 609814
   },
-  "cash": 7338.90979703337,
+  "cash": 12235.621174579646,
   "positions": {
     "BTC": {
-      "qty": 0.0301044572921228,
-      "avg_price": 81382.671,
-      "realized_pnl": 14.925351969292965
+      "qty": -0.0300201675230349,
+      "avg_price": 81524.2175,
+      "realized_pnl": 19.186532533392327
     }
   },
   "recent_fills": [
@@ -3738,13 +3738,18 @@
       "fee": 4.907816316731539,
       "realized": -7.256159278961736,
       "reason": "LLM buy conv=0.35: Strong uptrend (24h +4.5%, SMA12>48, RSI 66.5, positive premium) invalidates the losing short; buying to exit it, though extreme funding caps long conviction. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-19T09:00:00",
+      "side": "sell",
+      "qty": 0.0601246248151577,
+      "price": 81524.2175,
+      "fee": 4.9016129905368135,
+      "realized": 4.261180564099362,
+      "reason": "LLM sell conv=0.35: RSI 76 and 52% annualized funding signal crowded, overextended longs in a thin-volume pump; trimming the small long to avoid funding drag and mean-reversion risk. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T13:00:00",
-      9997.83
-    ],
     [
       "2026-08-29T13:15:00",
       9990.72
@@ -11740,9 +11745,13 @@
     [
       "2026-09-19T08:45:00",
       9790.04
+    ],
+    [
+      "2026-09-19T09:00:00",
+      9787.03
     ]
   ],
-  "last_bar_ts": "2026-09-19T08:45:00",
-  "bars_processed": 2479,
+  "last_bar_ts": "2026-09-19T09:00:00",
+  "bars_processed": 2480,
   "starting_cash": 10000.0
 }
