@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T22:40:36",
+  "saved_at": "2026-09-19T22:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and perp premium favor the existing small profitable short despite a mildly bullish SMA trend."
     }
   ],
-  "llm_bar_index": 2501,
+  "llm_bar_index": 2502,
   "llm_usage": {
     "calls": 625,
     "prompt_tokens": 224497,
@@ -3768,10 +3768,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T02:30:00",
-      9971.48
-    ],
     [
       "2026-08-30T02:45:00",
       9969.36
@@ -11767,9 +11763,13 @@
     [
       "2026-09-19T22:15:00",
       9771.14
+    ],
+    [
+      "2026-09-19T22:30:00",
+      9766.14
     ]
   ],
-  "last_bar_ts": "2026-09-19T22:15:00",
-  "bars_processed": 2533,
+  "last_bar_ts": "2026-09-19T22:30:00",
+  "bars_processed": 2534,
   "starting_cash": 10000.0
 }
