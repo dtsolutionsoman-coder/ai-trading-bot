@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T02:54:04",
+  "saved_at": "2026-09-19T03:00:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend is up (SMA ratio 1.037, RSI 59.5, +5.7% day) supporting the small profitable long, but elevated 11% funding and falling OI signal a crowded, low-conviction rally, so keep exposure as is rather t"
     }
   ],
-  "llm_bar_index": 2422,
+  "llm_bar_index": 2423,
   "llm_usage": {
     "calls": 605,
     "prompt_tokens": 217330,
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T06:45:00",
-      9986.26
-    ],
     [
       "2026-08-29T07:00:00",
       9981.89
@@ -11722,9 +11718,13 @@
     [
       "2026-09-19T02:30:00",
       9812.83
+    ],
+    [
+      "2026-09-19T02:45:00",
+      9809.57
     ]
   ],
-  "last_bar_ts": "2026-09-19T02:30:00",
-  "bars_processed": 2454,
+  "last_bar_ts": "2026-09-19T02:45:00",
+  "bars_processed": 2455,
   "starting_cash": 10000.0
 }
