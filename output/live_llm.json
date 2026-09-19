@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T07:59:34",
+  "saved_at": "2026-09-19T08:01:16",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend argues against the short, but extreme 133% funding, stretched perp premium, and stalled 6h momentum justify keeping only a small contrarian short exposure while collecting funding."
     }
   ],
-  "llm_bar_index": 2442,
+  "llm_bar_index": 2443,
   "llm_usage": {
     "calls": 610,
     "prompt_tokens": 219121,
@@ -3732,10 +3732,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T11:45:00",
-      9995.09
-    ],
     [
       "2026-08-29T12:00:00",
       9998.97
@@ -11731,9 +11727,13 @@
     [
       "2026-09-19T07:30:00",
       9800.43
+    ],
+    [
+      "2026-09-19T07:45:00",
+      9798.77
     ]
   ],
-  "last_bar_ts": "2026-09-19T07:30:00",
-  "bars_processed": 2474,
+  "last_bar_ts": "2026-09-19T07:45:00",
+  "bars_processed": 2475,
   "starting_cash": 10000.0
 }
