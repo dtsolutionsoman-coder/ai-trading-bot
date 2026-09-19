@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T08:25:33",
+  "saved_at": "2026-09-19T08:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Strong uptrend (24h +4.5%, SMA12>48, RSI 66.5, positive premium) invalidates the losing short; buying to exit it, though extreme funding caps long conviction."
     }
   ],
-  "llm_bar_index": 2444,
+  "llm_bar_index": 2445,
   "llm_usage": {
     "calls": 611,
     "prompt_tokens": 219479,
@@ -3741,10 +3741,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T12:15:00",
-      9998.0
-    ],
     [
       "2026-08-29T12:30:00",
       10000.39
@@ -11740,9 +11736,13 @@
     [
       "2026-09-19T08:00:00",
       9787.67
+    ],
+    [
+      "2026-09-19T08:15:00",
+      9789.56
     ]
   ],
-  "last_bar_ts": "2026-09-19T08:00:00",
-  "bars_processed": 2476,
+  "last_bar_ts": "2026-09-19T08:15:00",
+  "bars_processed": 2477,
   "starting_cash": 10000.0
 }
