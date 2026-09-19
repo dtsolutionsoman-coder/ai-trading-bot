@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T05:27:59",
+  "saved_at": "2026-09-19T05:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 90% funding and positive perp premium signal crowded longs while short-term momentum stalls and RSI sits below 50, so I'm exiting the small long to defend the 1.2% profit."
     }
   ],
-  "llm_bar_index": 2432,
+  "llm_bar_index": 2433,
   "llm_usage": {
     "calls": 608,
     "prompt_tokens": 218406,
@@ -3732,10 +3732,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T09:15:00",
-      9990.82
-    ],
     [
       "2026-08-29T09:30:00",
       9988.75
@@ -11731,9 +11727,13 @@
     [
       "2026-09-19T05:00:00",
       9799.83
+    ],
+    [
+      "2026-09-19T05:15:00",
+      9799.8
     ]
   ],
-  "last_bar_ts": "2026-09-19T05:00:00",
-  "bars_processed": 2464,
+  "last_bar_ts": "2026-09-19T05:15:00",
+  "bars_processed": 2465,
   "starting_cash": 10000.0
 }
