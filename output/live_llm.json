@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-19T17:06:53",
+  "saved_at": "2026-09-19T17:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-29T20:00:00",
-      "action": "hold",
-      "conviction": 0.3,
-      "reason": "Bearish SMA structure, positive funding, and falling OI support keeping the small short despite a modest bounce causing minor drawdown."
-    },
     {
       "ts": "2026-08-29T21:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "buy",
       "conviction": 0.35,
       "reason": "Rising momentum across 1h/6h/24h with bullish SMA ratio and RSI pressures the losing short, so cut it despite rich funding."
+    },
+    {
+      "ts": "2026-09-19T17:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Extreme annualized funding (~181%) and perp premium make long carry costly despite a mild uptrend; flattening the flat-PnL long avoids bleeding funding."
     }
   ],
-  "llm_bar_index": 2479,
+  "llm_bar_index": 2480,
   "llm_usage": {
-    "calls": 619,
-    "prompt_tokens": 222341,
-    "completion_tokens": 616365
+    "calls": 620,
+    "prompt_tokens": 222699,
+    "completion_tokens": 617247
   },
-  "cash": 7323.431092035058,
+  "cash": 12201.496639776986,
   "positions": {
     "BTC": {
-      "qty": 0.029805051228368587,
-      "avg_price": 82026.993,
-      "realized_pnl": 4.093127796914592
+      "qty": -0.029782336916509063,
+      "avg_price": 81946.0065,
+      "realized_pnl": 1.6793210156083473
     }
   },
   "recent_fills": [
@@ -3756,13 +3756,18 @@
       "fee": 4.907282799744843,
       "realized": -15.093404736477735,
       "reason": "LLM buy conv=0.35: Rising momentum across 1h/6h/24h with bullish SMA ratio and RSI pressures the losing short, so cut it despite rich funding. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-19T17:00:00",
+      "side": "sell",
+      "qty": 0.05958738814487765,
+      "price": 81946.0065,
+      "fee": 4.882948496238167,
+      "realized": -2.4138067813062447,
+      "reason": "LLM sell conv=0.45: Extreme annualized funding (~181%) and perp premium make long carry costly despite a mild uptrend; flattening the flat-PnL long avoids bleeding funding. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T21:00:00",
-      9981.92
-    ],
     [
       "2026-08-29T21:15:00",
       9982.6
@@ -11758,9 +11763,13 @@
     [
       "2026-09-19T16:45:00",
       9772.51
+    ],
+    [
+      "2026-09-19T17:00:00",
+      9759.73
     ]
   ],
-  "last_bar_ts": "2026-09-19T16:45:00",
-  "bars_processed": 2511,
+  "last_bar_ts": "2026-09-19T17:00:00",
+  "bars_processed": 2512,
   "starting_cash": 10000.0
 }
