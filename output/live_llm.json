@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T03:25:13",
+  "saved_at": "2026-09-19T03:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend intact with SMA ratio 1.036, RSI 62.6, +5.1% 24h and rising OI; modestly increasing the small profitable long while cautious of elevated funding and short-term consolidation."
     }
   ],
-  "llm_bar_index": 2424,
+  "llm_bar_index": 2425,
   "llm_usage": {
     "calls": 606,
     "prompt_tokens": 217688,
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T07:15:00",
-      9979.95
-    ],
     [
       "2026-08-29T07:30:00",
       9981.31
@@ -11722,9 +11718,13 @@
     [
       "2026-09-19T03:00:00",
       9810.51
+    ],
+    [
+      "2026-09-19T03:15:00",
+      9806.3
     ]
   ],
-  "last_bar_ts": "2026-09-19T03:00:00",
-  "bars_processed": 2456,
+  "last_bar_ts": "2026-09-19T03:15:00",
+  "bars_processed": 2457,
   "starting_cash": 10000.0
 }
