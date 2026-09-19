@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T15:54:02",
+  "saved_at": "2026-09-19T16:00:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend pressures the small short, but extreme 117% annualized funding and perp premium pay the short to wait for overbought mean reversion; position is small and loss negligible, so hold rather than "
     }
   ],
-  "llm_bar_index": 2474,
+  "llm_bar_index": 2475,
   "llm_usage": {
     "calls": 618,
     "prompt_tokens": 221982,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T19:45:00",
-      9977.79
-    ],
     [
       "2026-08-29T20:00:00",
       9980.02
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T15:30:00",
       9769.43
+    ],
+    [
+      "2026-09-19T15:45:00",
+      9779.97
     ]
   ],
-  "last_bar_ts": "2026-09-19T15:30:00",
-  "bars_processed": 2506,
+  "last_bar_ts": "2026-09-19T15:45:00",
+  "bars_processed": 2507,
   "starting_cash": 10000.0
 }
