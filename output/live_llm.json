@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T10:28:47",
+  "saved_at": "2026-09-19T10:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend argues against the short, but extreme 49% annualized funding and flat OI during the rally justify keeping only a tiny short for carry."
     }
   ],
-  "llm_bar_index": 2452,
+  "llm_bar_index": 2453,
   "llm_usage": {
     "calls": 613,
     "prompt_tokens": 220194,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T14:15:00",
-      9990.91
-    ],
     [
       "2026-08-29T14:30:00",
       9984.45
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T10:00:00",
       9791.89
+    ],
+    [
+      "2026-09-19T10:15:00",
+      9792.25
     ]
   ],
-  "last_bar_ts": "2026-09-19T10:00:00",
-  "bars_processed": 2484,
+  "last_bar_ts": "2026-09-19T10:15:00",
+  "bars_processed": 2485,
   "starting_cash": 10000.0
 }
