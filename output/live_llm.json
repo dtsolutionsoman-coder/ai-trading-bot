@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T19:24:21",
+  "saved_at": "2026-09-19T19:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild bullish momentum (SMA ratio 1.023, positive 6h/24h) is offset by extreme 266% annualized funding and elevated perp premium signaling crowded longs, so keep the small profitable short to collect f"
     }
   ],
-  "llm_bar_index": 2488,
+  "llm_bar_index": 2489,
   "llm_usage": {
     "calls": 622,
     "prompt_tokens": 223418,
@@ -3768,10 +3768,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T23:15:00",
-      9966.75
-    ],
     [
       "2026-08-29T23:30:00",
       9966.66
@@ -11767,9 +11763,13 @@
     [
       "2026-09-19T19:00:00",
       9767.12
+    ],
+    [
+      "2026-09-19T19:15:00",
+      9767.3
     ]
   ],
-  "last_bar_ts": "2026-09-19T19:00:00",
-  "bars_processed": 2520,
+  "last_bar_ts": "2026-09-19T19:15:00",
+  "bars_processed": 2521,
   "starting_cash": 10000.0
 }
