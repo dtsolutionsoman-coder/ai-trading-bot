@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T12:38:58",
+  "saved_at": "2026-09-19T12:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend and SMA momentum conflict with extreme 46% funding suggesting crowded longs; keep the tiny short as a funding-carry hedge rather than pressing either side."
     }
   ],
-  "llm_bar_index": 2461,
+  "llm_bar_index": 2462,
   "llm_usage": {
     "calls": 615,
     "prompt_tokens": 220910,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T16:30:00",
-      9982.83
-    ],
     [
       "2026-08-29T16:45:00",
       9977.79
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T12:15:00",
       9794.5
+    ],
+    [
+      "2026-09-19T12:30:00",
+      9792.58
     ]
   ],
-  "last_bar_ts": "2026-09-19T12:15:00",
-  "bars_processed": 2493,
+  "last_bar_ts": "2026-09-19T12:30:00",
+  "bars_processed": 2494,
   "starting_cash": 10000.0
 }
