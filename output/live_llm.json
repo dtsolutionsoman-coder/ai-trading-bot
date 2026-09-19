@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T00:35:11",
+  "saved_at": "2026-09-19T00:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Medium-term uptrend intact (SMA ratio 1.035, +5.8% 24h) but momentum has stalled, funding is elevated, and OI didn't confirm the rally, so keep the small profitable long without adding risk."
     }
   ],
-  "llm_bar_index": 2413,
+  "llm_bar_index": 2414,
   "llm_usage": {
     "calls": 603,
     "prompt_tokens": 216615,
@@ -3723,10 +3723,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T04:30:00",
-      9990.69
-    ],
     [
       "2026-08-29T04:45:00",
       9989.3
@@ -11722,9 +11718,13 @@
     [
       "2026-09-19T00:15:00",
       9805.18
+    ],
+    [
+      "2026-09-19T00:30:00",
+      9811.7
     ]
   ],
-  "last_bar_ts": "2026-09-19T00:15:00",
-  "bars_processed": 2445,
+  "last_bar_ts": "2026-09-19T00:30:00",
+  "bars_processed": 2446,
   "starting_cash": 10000.0
 }
