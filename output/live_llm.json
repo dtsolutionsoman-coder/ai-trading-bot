@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T13:38:35",
+  "saved_at": "2026-09-19T13:45:12",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and thin volume favor keeping the small profitable short despite the bullish 24h trend and perp premium."
     }
   ],
-  "llm_bar_index": 2465,
+  "llm_bar_index": 2466,
   "llm_usage": {
     "calls": 616,
     "prompt_tokens": 221267,
@@ -3750,10 +3750,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T17:30:00",
-      9988.97
-    ],
     [
       "2026-08-29T17:45:00",
       9976.78
@@ -11749,9 +11745,13 @@
     [
       "2026-09-19T13:15:00",
       9791.53
+    ],
+    [
+      "2026-09-19T13:30:00",
+      9791.17
     ]
   ],
-  "last_bar_ts": "2026-09-19T13:15:00",
-  "bars_processed": 2497,
+  "last_bar_ts": "2026-09-19T13:30:00",
+  "bars_processed": 2498,
   "starting_cash": 10000.0
 }
