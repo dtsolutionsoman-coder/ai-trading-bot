@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-19T17:41:14",
+  "saved_at": "2026-09-19T17:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme annualized funding (~181%) and perp premium make long carry costly despite a mild uptrend; flattening the flat-PnL long avoids bleeding funding."
     }
   ],
-  "llm_bar_index": 2481,
+  "llm_bar_index": 2482,
   "llm_usage": {
     "calls": 620,
     "prompt_tokens": 222699,
@@ -3768,10 +3768,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-29T21:30:00",
-      9982.89
-    ],
     [
       "2026-08-29T21:45:00",
       9978.82
@@ -11767,9 +11763,13 @@
     [
       "2026-09-19T17:15:00",
       9768.82
+    ],
+    [
+      "2026-09-19T17:30:00",
+      9769.53
     ]
   ],
-  "last_bar_ts": "2026-09-19T17:15:00",
-  "bars_processed": 2513,
+  "last_bar_ts": "2026-09-19T17:30:00",
+  "bars_processed": 2514,
   "starting_cash": 10000.0
 }
