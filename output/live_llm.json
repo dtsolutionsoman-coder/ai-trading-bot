@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T01:39:25",
+  "saved_at": "2026-09-20T01:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Short is profitable with 304% annualized funding paying the short side and soft 1h/6h momentum, but neutral RSI and a mild SMA uptrend argue against adding; keep the position."
     }
   ],
-  "llm_bar_index": 2513,
+  "llm_bar_index": 2514,
   "llm_usage": {
     "calls": 628,
     "prompt_tokens": 225578,
@@ -3768,10 +3768,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T05:30:00",
-      9970.25
-    ],
     [
       "2026-08-30T05:45:00",
       9968.53
@@ -11767,9 +11763,13 @@
     [
       "2026-09-20T01:15:00",
       9777.51
+    ],
+    [
+      "2026-09-20T01:30:00",
+      9776.92
     ]
   ],
-  "last_bar_ts": "2026-09-20T01:15:00",
-  "bars_processed": 2545,
+  "last_bar_ts": "2026-09-20T01:30:00",
+  "bars_processed": 2546,
   "starting_cash": 10000.0
 }
