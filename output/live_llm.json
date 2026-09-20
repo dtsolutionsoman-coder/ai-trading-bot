@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T11:44:53",
+  "saved_at": "2026-09-20T11:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild downtrend with extreme positive funding and perp premium favors keeping the small profitable short, but flat 1h price, low volatility, and thin volume argue against adding exposure."
     }
   ],
-  "llm_bar_index": 2553,
+  "llm_bar_index": 2554,
   "llm_usage": {
     "calls": 638,
     "prompt_tokens": 229169,
@@ -3795,10 +3795,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T15:30:00",
-      9958.98
-    ],
     [
       "2026-08-30T15:45:00",
       9961.2
@@ -11794,9 +11790,13 @@
     [
       "2026-09-20T11:15:00",
       9784.13
+    ],
+    [
+      "2026-09-20T11:30:00",
+      9779.01
     ]
   ],
-  "last_bar_ts": "2026-09-20T11:15:00",
-  "bars_processed": 2585,
+  "last_bar_ts": "2026-09-20T11:30:00",
+  "bars_processed": 2586,
   "starting_cash": 10000.0
 }
