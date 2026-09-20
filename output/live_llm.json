@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T03:41:59",
+  "saved_at": "2026-09-20T03:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Short is in profit but RSI 11.5 is extreme oversold with SMA structure still bullish; cover part of the short to defend gains ahead of a likely bounce."
     }
   ],
-  "llm_bar_index": 2521,
+  "llm_bar_index": 2522,
   "llm_usage": {
     "calls": 630,
     "prompt_tokens": 226298,
@@ -3786,10 +3786,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T07:30:00",
-      9968.98
-    ],
     [
       "2026-08-30T07:45:00",
       9968.91
@@ -11785,9 +11781,13 @@
     [
       "2026-09-20T03:15:00",
       9787.42
+    ],
+    [
+      "2026-09-20T03:30:00",
+      9784.41
     ]
   ],
-  "last_bar_ts": "2026-09-20T03:15:00",
-  "bars_processed": 2553,
+  "last_bar_ts": "2026-09-20T03:30:00",
+  "bars_processed": 2554,
   "starting_cash": 10000.0
 }
