@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T08:24:27",
+  "saved_at": "2026-09-20T08:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Consistent short-term price declines, sub-50 RSI, and extreme positive funding/perp premium indicate crowded longs, supporting a modest short add; mild medium-term uptrend caps conviction."
     }
   ],
-  "llm_bar_index": 2540,
+  "llm_bar_index": 2541,
   "llm_usage": {
     "calls": 635,
     "prompt_tokens": 228097,
@@ -3795,10 +3795,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T12:15:00",
-      9966.25
-    ],
     [
       "2026-08-30T12:30:00",
       9966.37
@@ -11794,9 +11790,13 @@
     [
       "2026-09-20T08:00:00",
       9782.86
+    ],
+    [
+      "2026-09-20T08:15:00",
+      9782.71
     ]
   ],
-  "last_bar_ts": "2026-09-20T08:00:00",
-  "bars_processed": 2572,
+  "last_bar_ts": "2026-09-20T08:15:00",
+  "bars_processed": 2573,
   "starting_cash": 10000.0
 }
