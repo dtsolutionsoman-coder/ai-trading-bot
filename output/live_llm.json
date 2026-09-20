@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-20T03:03:55",
+  "saved_at": "2026-09-20T03:16:07",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-30T06:00:00",
-      "action": "hold",
-      "conviction": 0.15,
-      "reason": "Mild bearish drift (SMA ratio <1, RSI <50, falling OI) and positive funding carry support keeping the small profitable short, but flat price action and very low volatility argue against adding risk."
-    },
     {
       "ts": "2026-08-30T07:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "sell",
       "conviction": 0.15,
       "reason": "Extreme 311% annualized funding and perp premium signal crowded longs, and with weak RSI the small profitable short earns favorable carry, justifying a modest add rather than a chase."
+    },
+    {
+      "ts": "2026-09-20T03:00:00",
+      "action": "buy",
+      "conviction": 0.35,
+      "reason": "Short is in profit but RSI 11.5 is extreme oversold with SMA structure still bullish; cover part of the short to defend gains ahead of a likely bounce."
     }
   ],
-  "llm_bar_index": 2519,
+  "llm_bar_index": 2520,
   "llm_usage": {
-    "calls": 629,
-    "prompt_tokens": 225937,
-    "completion_tokens": 626830
+    "calls": 630,
+    "prompt_tokens": 226298,
+    "completion_tokens": 627822
   },
-  "cash": 11240.575891931187,
+  "cash": 7336.594093054118,
   "positions": {
     "BTC": {
-      "qty": -0.018002625595295675,
-      "avg_price": 81946.0065,
-      "realized_pnl": 7.018834453143707
+      "qty": 0.030373307028612136,
+      "avg_price": 80620.29,
+      "realized_pnl": 30.885212248149678
     }
   },
   "recent_fills": [
@@ -3774,13 +3774,18 @@
       "fee": 0.9599607870587404,
       "realized": 5.339513437535359,
       "reason": "LLM sell conv=0.15: Extreme 311% annualized funding and perp premium signal crowded longs, and with weak RSI the small profitable short earns favorable carry, justifying a modest add rather than a chase."
+    },
+    {
+      "ts": "2026-09-20T03:00:00",
+      "side": "buy",
+      "qty": 0.04837593262390781,
+      "price": 80620.29,
+      "fee": 3.9000817171599085,
+      "realized": 23.86637779500597,
+      "reason": "LLM buy conv=0.35: Short is in profit but RSI 11.5 is extreme oversold with SMA structure still bullish; cover part of the short to defend gains ahead of a likely bounce. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T07:00:00",
-      9968.28
-    ],
     [
       "2026-08-30T07:15:00",
       9968.31
@@ -11776,9 +11781,13 @@
     [
       "2026-09-20T02:45:00",
       9789.06
+    ],
+    [
+      "2026-09-20T03:00:00",
+      9784.08
     ]
   ],
-  "last_bar_ts": "2026-09-20T02:45:00",
-  "bars_processed": 2551,
+  "last_bar_ts": "2026-09-20T03:00:00",
+  "bars_processed": 2552,
   "starting_cash": 10000.0
 }
