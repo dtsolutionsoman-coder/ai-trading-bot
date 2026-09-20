@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T21:15:55",
+  "saved_at": "2026-09-20T21:16:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3000,15 +3000,15 @@
     {
       "ts": "2026-09-20T21:00:00",
       "action": "sell",
-      "conviction": 0.28,
-      "reason": "Extreme positive funding with perp premium signals crowded longs prone to squeeze, and sub-50 RSI with weak price action supports a modest short that also collects the funding carry."
+      "conviction": 0.45,
+      "reason": "Extreme positive funding (472% ann.) and perp premium with weak RSI indicate crowded longs, favoring holding/adding the short despite the small open loss."
     }
   ],
   "llm_bar_index": 2592,
   "llm_usage": {
     "calls": 648,
     "prompt_tokens": 232764,
-    "completion_tokens": 649601
+    "completion_tokens": 649299
   },
   "cash": 12203.776897822283,
   "positions": {
@@ -3809,7 +3809,7 @@
       "price": 81171.394,
       "fee": 0.49238582772938455,
       "realized": 0.0,
-      "reason": "LLM sell conv=0.28: Extreme positive funding with perp premium signals crowded longs prone to squeeze, and sub-50 RSI with weak price action supports a modest short that also collects the funding carry. [downsized to risk cap]"
+      "reason": "LLM sell conv=0.45: Extreme positive funding (472% ann.) and perp premium with weak RSI indicate crowded longs, favoring holding/adding the short despite the small open loss. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
