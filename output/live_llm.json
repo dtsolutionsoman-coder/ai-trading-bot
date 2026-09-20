@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-20T14:55:25",
+  "saved_at": "2026-09-20T15:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 378% annualized funding, elevated perp premium, and overbought RSI 73.6 signal crowded longs vulnerable to mean reversion, supporting the short while collecting funding."
     }
   ],
-  "llm_bar_index": 2566,
+  "llm_bar_index": 2567,
   "llm_usage": {
     "calls": 641,
     "prompt_tokens": 230247,
@@ -3795,10 +3795,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-30T18:45:00",
-      9942.97
-    ],
     [
       "2026-08-30T19:00:00",
       9942.6
@@ -11794,9 +11790,13 @@
     [
       "2026-09-20T14:30:00",
       9771.73
+    ],
+    [
+      "2026-09-20T14:45:00",
+      9769.37
     ]
   ],
-  "last_bar_ts": "2026-09-20T14:30:00",
-  "bars_processed": 2598,
+  "last_bar_ts": "2026-09-20T14:45:00",
+  "bars_processed": 2599,
   "starting_cash": 10000.0
 }
