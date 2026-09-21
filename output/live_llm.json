@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T09:39:45",
+  "saved_at": "2026-09-21T09:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,18 +3004,18 @@
       "reason": "Extreme RSI 86.7, 796% annualized funding and 76bps perp premium pay the short heavily and favor mean reversion, but strong upward momentum caps conviction on the small losing short."
     }
   ],
-  "llm_bar_index": 2641,
+  "llm_bar_index": 2642,
   "llm_usage": {
     "calls": 660,
     "prompt_tokens": 237077,
     "completion_tokens": 662585
   },
-  "cash": 12203.776897822283,
+  "cash": 9643.713510631884,
   "positions": {
     "BTC": {
-      "qty": -0.030055941485794987,
-      "avg_price": 80770.1120716653,
-      "realized_pnl": 27.645015893559673
+      "qty": 0.0,
+      "avg_price": 0.0,
+      "realized_pnl": -102.23910318845543
     }
   },
   "recent_fills": [
@@ -3810,13 +3810,18 @@
       "fee": 0.49238582772938455,
       "realized": 0.0,
       "reason": "LLM sell conv=0.45: Extreme positive funding (472% ann.) and perp premium with weak RSI indicate crowded longs, favoring holding/adding the short despite the small open loss. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-21T09:30:00",
+      "side": "buy",
+      "qty": 0.030055941485794987,
+      "price": 85091.5245,
+      "fee": 2.5575058813090905,
+      "realized": -129.8841190820151,
+      "reason": "stop-loss 5% breach (entry 80770.11)"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T13:30:00",
-      9901.54
-    ],
     [
       "2026-08-31T13:45:00",
       9905.45
@@ -11812,9 +11817,13 @@
     [
       "2026-09-21T09:15:00",
       9660.14
+    ],
+    [
+      "2026-09-21T09:30:00",
+      9643.71
     ]
   ],
-  "last_bar_ts": "2026-09-21T09:15:00",
-  "bars_processed": 2673,
+  "last_bar_ts": "2026-09-21T09:30:00",
+  "bars_processed": 2674,
   "starting_cash": 10000.0
 }
