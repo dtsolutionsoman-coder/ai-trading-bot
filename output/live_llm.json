@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T05:18:37",
+  "saved_at": "2026-09-21T05:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend and bullish SMA/RSI offset by extreme 394% funding and perp premium signaling crowded longs; keeping the small short rather than adding risk against mixed signals."
     }
   ],
-  "llm_bar_index": 2624,
+  "llm_bar_index": 2625,
   "llm_usage": {
     "calls": 656,
     "prompt_tokens": 235634,
@@ -3813,10 +3813,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T09:15:00",
-      9893.44
-    ],
     [
       "2026-08-31T09:30:00",
       9893.51
@@ -11812,9 +11808,13 @@
     [
       "2026-09-21T05:00:00",
       9748.66
+    ],
+    [
+      "2026-09-21T05:15:00",
+      9741.29
     ]
   ],
-  "last_bar_ts": "2026-09-21T05:00:00",
-  "bars_processed": 2656,
+  "last_bar_ts": "2026-09-21T05:15:00",
+  "bars_processed": 2657,
   "starting_cash": 10000.0
 }
