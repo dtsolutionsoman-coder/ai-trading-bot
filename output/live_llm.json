@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-21T21:00:39",
+  "saved_at": "2026-09-21T21:15:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-01T00:00:00",
-      "action": "sell",
-      "conviction": 0.4,
-      "reason": "Extreme positive funding (346% ann) and elevated perp premium favor shorts with fading RSI momentum, outweighing the mild uptrend."
-    },
     {
       "ts": "2026-09-01T01:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "hold",
       "conviction": 0.0,
       "reason": "unparseable response"
+    },
+    {
+      "ts": "2026-09-21T21:00:00",
+      "action": "buy",
+      "conviction": 0.2,
+      "reason": "Trend, SMA ratio, RSI, and rising OI all confirm bullish momentum, so I'm cutting the losing short, but extreme funding and perp premium keep long size small."
     }
   ],
-  "llm_bar_index": 2687,
+  "llm_bar_index": 2688,
   "llm_usage": {
-    "calls": 671,
-    "prompt_tokens": 241021,
-    "completion_tokens": 679370
+    "calls": 672,
+    "prompt_tokens": 241382,
+    "completion_tokens": 680960
   },
-  "cash": 12051.026701187557,
+  "cash": 7656.2451250078,
   "positions": {
     "BTC": {
-      "qty": -0.028434782960536524,
-      "avg_price": 84745.606,
-      "realized_pnl": -102.23910318845543
+      "qty": 0.02203152741922653,
+      "avg_price": 86996.47649999999,
+      "realized_pnl": -166.24211732822948
     }
   },
   "recent_fills": [
@@ -3828,13 +3828,18 @@
       "fee": 2.409722913469142,
       "realized": 0.0,
       "reason": "LLM sell conv=0.45: RSI 85.5 with extreme 108% annualized funding and price rising on declining open interest signals an overheated, crowded long vulnerable to a sharp pullback. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-21T21:00:00",
+      "side": "buy",
+      "qty": 0.050466310379763055,
+      "price": 86996.47649999999,
+      "fee": 4.390391184994762,
+      "realized": -64.00301413977405,
+      "reason": "LLM buy conv=0.20: Trend, SMA ratio, RSI, and rising OI all confirm bullish momentum, so I'm cutting the losing short, but extreme funding and perp premium keep long size small."
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T01:00:00",
-      9888.25
-    ],
     [
       "2026-09-01T01:15:00",
       9889.69
@@ -11830,9 +11835,13 @@
     [
       "2026-09-21T20:45:00",
       9566.14
+    ],
+    [
+      "2026-09-21T21:00:00",
+      9571.95
     ]
   ],
-  "last_bar_ts": "2026-09-21T20:45:00",
-  "bars_processed": 2719,
+  "last_bar_ts": "2026-09-21T21:00:00",
+  "bars_processed": 2720,
   "starting_cash": 10000.0
 }
