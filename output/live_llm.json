@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T10:21:38",
+  "saved_at": "2026-09-21T10:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 85.5 with extreme 108% annualized funding and price rising on declining open interest signals an overheated, crowded long vulnerable to a sharp pullback."
     }
   ],
-  "llm_bar_index": 2644,
+  "llm_bar_index": 2645,
   "llm_usage": {
     "calls": 661,
     "prompt_tokens": 237412,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T14:15:00",
-      9905.76
-    ],
     [
       "2026-08-31T14:30:00",
       9899.28
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T10:00:00",
       9640.1
+    ],
+    [
+      "2026-09-21T10:15:00",
+      9646.27
     ]
   ],
-  "last_bar_ts": "2026-09-21T10:00:00",
-  "bars_processed": 2676,
+  "last_bar_ts": "2026-09-21T10:15:00",
+  "bars_processed": 2677,
   "starting_cash": 10000.0
 }
