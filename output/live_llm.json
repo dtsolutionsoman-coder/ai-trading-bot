@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T19:45:26",
+  "saved_at": "2026-09-21T20:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend is up but 366% annualized funding and +40bps perp premium signal dangerously crowded longs; keeping the small contrarian short open without adding to a loser."
     }
   ],
-  "llm_bar_index": 2682,
+  "llm_bar_index": 2683,
   "llm_usage": {
     "calls": 670,
     "prompt_tokens": 240660,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T23:45:00",
-      9890.19
-    ],
     [
       "2026-09-01T00:00:00",
       9888.69
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T19:30:00",
       9575.92
+    ],
+    [
+      "2026-09-21T19:45:00",
+      9578.22
     ]
   ],
-  "last_bar_ts": "2026-09-21T19:30:00",
-  "bars_processed": 2714,
+  "last_bar_ts": "2026-09-21T19:45:00",
+  "bars_processed": 2715,
   "starting_cash": 10000.0
 }
