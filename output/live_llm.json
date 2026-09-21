@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T13:16:01",
+  "saved_at": "2026-09-21T13:31:09",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Keeping the small short: 97% annualized funding, positive perp premium, and falling OI signal an overextended crowded-long rally, though momentum argues against adding."
     }
   ],
-  "llm_bar_index": 2656,
+  "llm_bar_index": 2657,
   "llm_usage": {
     "calls": 664,
     "prompt_tokens": 238491,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T17:15:00",
-      9904.06
-    ],
     [
       "2026-08-31T17:30:00",
       9892.57
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T13:00:00",
       9624.46
+    ],
+    [
+      "2026-09-21T13:15:00",
+      9583.48
     ]
   ],
-  "last_bar_ts": "2026-09-21T13:00:00",
-  "bars_processed": 2688,
+  "last_bar_ts": "2026-09-21T13:15:00",
+  "bars_processed": 2689,
   "starting_cash": 10000.0
 }
