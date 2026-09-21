@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T01:59:59",
+  "saved_at": "2026-09-21T02:00:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 297% annualized funding and RSI 76 signal crowded longs, so the small short is kept \u2014 funding carry offsets the minor drawdown while momentum stalls."
     }
   ],
-  "llm_bar_index": 2610,
+  "llm_bar_index": 2611,
   "llm_usage": {
     "calls": 652,
     "prompt_tokens": 234198,
@@ -3813,10 +3813,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T05:45:00",
-      9900.87
-    ],
     [
       "2026-08-31T06:00:00",
       9907.46
@@ -11812,9 +11808,13 @@
     [
       "2026-09-21T01:30:00",
       9746.91
+    ],
+    [
+      "2026-09-21T01:45:00",
+      9755.42
     ]
   ],
-  "last_bar_ts": "2026-09-21T01:30:00",
-  "bars_processed": 2642,
+  "last_bar_ts": "2026-09-21T01:45:00",
+  "bars_processed": 2643,
   "starting_cash": 10000.0
 }
