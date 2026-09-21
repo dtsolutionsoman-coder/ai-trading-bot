@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T11:53:43",
+  "saved_at": "2026-09-21T12:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme RSI (81) with 68% annualized funding and declining OI on a 5% rally signals an overheated, short-covering-driven move prone to pullback, so I add modestly to the small short."
     }
   ],
-  "llm_bar_index": 2650,
+  "llm_bar_index": 2651,
   "llm_usage": {
     "calls": 662,
     "prompt_tokens": 237770,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T15:45:00",
-      9898.55
-    ],
     [
       "2026-08-31T16:00:00",
       9899.34
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T11:30:00",
       9635.09
+    ],
+    [
+      "2026-09-21T11:45:00",
+      9636.32
     ]
   ],
-  "last_bar_ts": "2026-09-21T11:30:00",
-  "bars_processed": 2682,
+  "last_bar_ts": "2026-09-21T11:45:00",
+  "bars_processed": 2683,
   "starting_cash": 10000.0
 }
