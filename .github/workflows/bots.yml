@@ -32,15 +32,13 @@ jobs:
       - name: restore market-data history
         run: |
           python -m bot.data.transfer --restore output/market_data.jsonl output/market_data.db
-          python -m bot.data.transfer --restore output/market_data_mainnet.jsonl output/market_data_mainnet.db
 
       - name: collector
         run: |
           # testnet is periodically CDN-blocked on shared runner IPs; a soft
-          # failure here must not stop mainnet collection or the mainnet books
+          # failure here must not stop the books that don't need it
           python -m bot.data.run --coins BTC,ETH,SOL --once \
             || echo "::warning::testnet collection failed (HL testnet blocked from this runner)"
-          python -m bot.data.run --coins BTC --once --network mainnet --no-funding --db output/market_data_mainnet.db
 
       - name: race - sma control
         continue-on-error: true # testnet book: survives short HL testnet blocks; ops_health alarms past 2h
@@ -55,9 +53,6 @@ jobs:
           LLM_THINKING: ${{ secrets.LLM_THINKING }}
         run: python -m bot.live.run --strategy llm_analyst --symbol BTC --interval 15m --every 4 --once --context-db output/market_data.db --state output/live_llm.json
 
-      - name: race - funding carry
-        run: python -m bot.live.run --strategy funding_carry --symbol BTC --interval 15m --once --network mainnet --context-db output/market_data_mainnet.db --carry-entry-ann 25 --state output/live_carry.json
-
       - name: polymarket
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
@@ -70,7 +65,6 @@ jobs:
         if: always() # commit whatever state exists even if a bot step failed
         run: |
           python -m bot.data.transfer --export output/market_data.db output/market_data.jsonl
-          python -m bot.data.transfer --export output/market_data_mainnet.db output/market_data_mainnet.jsonl
 
       - name: commit state
         if: always()
