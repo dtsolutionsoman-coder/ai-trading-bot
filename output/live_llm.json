@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T21:30:36",
+  "saved_at": "2026-09-21T21:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trend, SMA ratio, RSI, and rising OI all confirm bullish momentum, so I'm cutting the losing short, but extreme funding and perp premium keep long size small."
     }
   ],
-  "llm_bar_index": 2689,
+  "llm_bar_index": 2690,
   "llm_usage": {
     "calls": 672,
     "prompt_tokens": 241382,
@@ -3840,10 +3840,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T01:30:00",
-      9888.44
-    ],
     [
       "2026-09-01T01:45:00",
       9889.25
@@ -11839,9 +11835,13 @@
     [
       "2026-09-21T21:15:00",
       9575.76
+    ],
+    [
+      "2026-09-21T21:30:00",
+      9578.89
     ]
   ],
-  "last_bar_ts": "2026-09-21T21:15:00",
-  "bars_processed": 2721,
+  "last_bar_ts": "2026-09-21T21:30:00",
+  "bars_processed": 2722,
   "starting_cash": 10000.0
 }
