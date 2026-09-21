@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-21T20:00:42",
+  "saved_at": "2026-09-21T20:16:07",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-31T23:00:00",
-      "action": "hold",
-      "conviction": 0.5,
-      "reason": "Extreme 670% annualized funding and elevated perp premium make the small profitable short attractive to keep as carry, while the mild uptrend (SMA ratio >1, positive 24h) argues against adding risk."
-    },
     {
       "ts": "2026-09-01T00:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.08,
       "reason": "Trend is up but 366% annualized funding and +40bps perp premium signal dangerously crowded longs; keeping the small contrarian short open without adding to a loser."
+    },
+    {
+      "ts": "2026-09-21T20:00:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 2683,
+  "llm_bar_index": 2684,
   "llm_usage": {
-    "calls": 670,
-    "prompt_tokens": 240660,
-    "completion_tokens": 677370
+    "calls": 671,
+    "prompt_tokens": 241021,
+    "completion_tokens": 679370
   },
   "cash": 12051.026701187557,
   "positions": {
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T00:00:00",
-      9888.69
-    ],
     [
       "2026-09-01T00:15:00",
       9886.1
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T19:45:00",
       9578.22
+    ],
+    [
+      "2026-09-21T20:00:00",
+      9571.06
     ]
   ],
-  "last_bar_ts": "2026-09-21T19:45:00",
-  "bars_processed": 2715,
+  "last_bar_ts": "2026-09-21T20:00:00",
+  "bars_processed": 2716,
   "starting_cash": 10000.0
 }
