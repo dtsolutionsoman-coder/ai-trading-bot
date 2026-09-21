@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T17:30:34",
+  "saved_at": "2026-09-21T17:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 537% annualized funding and 53bps premium heavily pay the small short and signal crowded longs, but the 6% uptrend argues against adding, so keep the position minimal rather than doubling a lo"
     }
   ],
-  "llm_bar_index": 2673,
+  "llm_bar_index": 2674,
   "llm_usage": {
     "calls": 668,
     "prompt_tokens": 239937,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T21:30:00",
-      9878.79
-    ],
     [
       "2026-08-31T21:45:00",
       9881.07
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T17:15:00",
       9593.98
+    ],
+    [
+      "2026-09-21T17:30:00",
+      9600.89
     ]
   ],
-  "last_bar_ts": "2026-09-21T17:15:00",
-  "bars_processed": 2705,
+  "last_bar_ts": "2026-09-21T17:30:00",
+  "bars_processed": 2706,
   "starting_cash": 10000.0
 }
