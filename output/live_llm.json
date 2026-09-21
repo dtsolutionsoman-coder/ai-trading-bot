@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T07:54:54",
+  "saved_at": "2026-09-21T08:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding and perp premium favor keeping the small short for funding yield, but mild uptrend (SMA ratio >1, RSI 58.5) prevents adding despite the small drawdown."
     }
   ],
-  "llm_bar_index": 2634,
+  "llm_bar_index": 2635,
   "llm_usage": {
     "calls": 658,
     "prompt_tokens": 236355,
@@ -3813,10 +3813,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T11:45:00",
-      9896.4
-    ],
     [
       "2026-08-31T12:00:00",
       9900.27
@@ -11812,9 +11808,13 @@
     [
       "2026-09-21T07:30:00",
       9742.74
+    ],
+    [
+      "2026-09-21T07:45:00",
+      9736.03
     ]
   ],
-  "last_bar_ts": "2026-09-21T07:30:00",
-  "bars_processed": 2666,
+  "last_bar_ts": "2026-09-21T07:45:00",
+  "bars_processed": 2667,
   "starting_cash": 10000.0
 }
