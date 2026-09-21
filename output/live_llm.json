@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T15:30:31",
+  "saved_at": "2026-09-21T15:46:05",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend is strong but 766% funding, 221bps perp premium, and RSI 75 signal overextended longs, so keep the small short (funded by carry) without adding to a loser."
     }
   ],
-  "llm_bar_index": 2665,
+  "llm_bar_index": 2666,
   "llm_usage": {
     "calls": 666,
     "prompt_tokens": 239216,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T19:30:00",
-      9888.71
-    ],
     [
       "2026-08-31T19:45:00",
       9890.57
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T15:15:00",
       9591.42
+    ],
+    [
+      "2026-09-21T15:30:00",
+      9584.05
     ]
   ],
-  "last_bar_ts": "2026-09-21T15:15:00",
-  "bars_processed": 2697,
+  "last_bar_ts": "2026-09-21T15:30:00",
+  "bars_processed": 2698,
   "starting_cash": 10000.0
 }
