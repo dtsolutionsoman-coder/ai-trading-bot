@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-21T10:07:00",
+  "saved_at": "2026-09-21T10:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-08-31T13:00:00",
-      "action": "sell",
-      "conviction": 0.4,
-      "reason": "Extreme positive funding and perp premium signal crowded longs while weak RSI (34) supports modestly adding to the profitable short."
-    },
     {
       "ts": "2026-08-31T14:00:00",
       "action": "hold",
@@ -3002,19 +2996,25 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Extreme RSI 86.7, 796% annualized funding and 76bps perp premium pay the short heavily and favor mean reversion, but strong upward momentum caps conviction on the small losing short."
+    },
+    {
+      "ts": "2026-09-21T10:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "RSI 85.5 with extreme 108% annualized funding and price rising on declining open interest signals an overheated, crowded long vulnerable to a sharp pullback."
     }
   ],
-  "llm_bar_index": 2643,
+  "llm_bar_index": 2644,
   "llm_usage": {
-    "calls": 660,
-    "prompt_tokens": 237077,
-    "completion_tokens": 662585
+    "calls": 661,
+    "prompt_tokens": 237412,
+    "completion_tokens": 663576
   },
-  "cash": 9643.713510631884,
+  "cash": 12051.026701187557,
   "positions": {
     "BTC": {
-      "qty": 0.0,
-      "avg_price": 0.0,
+      "qty": -0.028434782960536524,
+      "avg_price": 84745.606,
       "realized_pnl": -102.23910318845543
     }
   },
@@ -3819,13 +3819,18 @@
       "fee": 2.5575058813090905,
       "realized": -129.8841190820151,
       "reason": "stop-loss 5% breach (entry 80770.11)"
+    },
+    {
+      "ts": "2026-09-21T10:00:00",
+      "side": "sell",
+      "qty": 0.028434782960536524,
+      "price": 84745.606,
+      "fee": 2.409722913469142,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.45: RSI 85.5 with extreme 108% annualized funding and price rising on declining open interest signals an overheated, crowded long vulnerable to a sharp pullback. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-08-31T14:00:00",
-      9902.33
-    ],
     [
       "2026-08-31T14:15:00",
       9905.76
@@ -11821,9 +11826,13 @@
     [
       "2026-09-21T09:45:00",
       9643.71
+    ],
+    [
+      "2026-09-21T10:00:00",
+      9640.1
     ]
   ],
-  "last_bar_ts": "2026-09-21T09:45:00",
-  "bars_processed": 2675,
+  "last_bar_ts": "2026-09-21T10:00:00",
+  "bars_processed": 2676,
   "starting_cash": 10000.0
 }
