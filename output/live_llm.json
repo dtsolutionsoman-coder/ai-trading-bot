@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-21T20:16:07",
+  "saved_at": "2026-09-21T20:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 2684,
+  "llm_bar_index": 2685,
   "llm_usage": {
     "calls": 671,
     "prompt_tokens": 241021,
@@ -3831,10 +3831,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T00:15:00",
-      9886.1
-    ],
     [
       "2026-09-01T00:30:00",
       9890.78
@@ -11830,9 +11826,13 @@
     [
       "2026-09-21T20:00:00",
       9571.06
+    ],
+    [
+      "2026-09-21T20:15:00",
+      9557.35
     ]
   ],
-  "last_bar_ts": "2026-09-21T20:00:00",
-  "bars_processed": 2716,
+  "last_bar_ts": "2026-09-21T20:15:00",
+  "bars_processed": 2717,
   "starting_cash": 10000.0
 }
