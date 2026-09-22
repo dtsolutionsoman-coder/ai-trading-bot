@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T20:45:28",
+  "saved_at": "2026-09-22T21:00:56",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -50,13 +50,19 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Mixed signals \u2014 mild near-term weakness and neutral RSI support the tiny short, but bullish SMA structure, positive perp premium, and rising OI argue against adding; keep the small losing position onl"
+    },
+    {
+      "ts": "2026-09-22T20:45:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme positive funding (490% ann) and perp premium signal crowded longs while 6h/24h momentum and RSI 36.6 lean bearish; small existing short slightly underwater but thesis intact, so modestly add s"
     }
   ],
-  "llm_bar_index": 35,
+  "llm_bar_index": 36,
   "llm_usage": {
-    "calls": 8,
-    "prompt_tokens": 2859,
-    "completion_tokens": 9420
+    "calls": 9,
+    "prompt_tokens": 3218,
+    "completion_tokens": 10436
   },
   "cash": 12496.25125,
   "positions": {
@@ -217,9 +223,13 @@
     [
       "2026-09-22T20:30:00",
       9984.4
+    ],
+    [
+      "2026-09-22T20:45:00",
+      9988.79
     ]
   ],
-  "last_bar_ts": "2026-09-22T20:30:00",
-  "bars_processed": 35,
+  "last_bar_ts": "2026-09-22T20:45:00",
+  "bars_processed": 36,
   "starting_cash": 10000.0
 }
