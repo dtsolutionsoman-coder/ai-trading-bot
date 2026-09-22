@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T05:45:25",
+  "saved_at": "2026-09-22T06:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding and fading 6h momentum support the existing profitable short, but the persistent uptrend cautions against adding."
     }
   ],
-  "llm_bar_index": 2722,
+  "llm_bar_index": 2723,
   "llm_usage": {
     "calls": 680,
     "prompt_tokens": 244275,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T09:45:00",
-      9894.43
-    ],
     [
       "2026-09-01T10:00:00",
       9893.74
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T05:30:00",
       9599.58
+    ],
+    [
+      "2026-09-22T05:45:00",
+      9599.22
     ]
   ],
-  "last_bar_ts": "2026-09-22T05:30:00",
-  "bars_processed": 2754,
+  "last_bar_ts": "2026-09-22T05:45:00",
+  "bars_processed": 2755,
   "starting_cash": 10000.0
 }
