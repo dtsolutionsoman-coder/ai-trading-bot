@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T08:30:32",
+  "saved_at": "2026-09-22T08:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Keep the small profitable short to collect extreme 615% funding while fading 6h momentum, but the intact uptrend (SMA ratio 1.03, +4.1% day) argues against adding risk."
     }
   ],
-  "llm_bar_index": 2733,
+  "llm_bar_index": 2734,
   "llm_usage": {
     "calls": 682,
     "prompt_tokens": 244997,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T12:30:00",
-      9891.43
-    ],
     [
       "2026-09-01T12:45:00",
       9877.45
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T08:15:00",
       9599.8
+    ],
+    [
+      "2026-09-22T08:30:00",
+      9578.2
     ]
   ],
-  "last_bar_ts": "2026-09-22T08:15:00",
-  "bars_processed": 2765,
+  "last_bar_ts": "2026-09-22T08:30:00",
+  "bars_processed": 2766,
   "starting_cash": 10000.0
 }
