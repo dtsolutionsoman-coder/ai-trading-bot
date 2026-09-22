@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T22:45:26",
+  "saved_at": "2026-09-22T23:01:09",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -62,13 +62,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Extreme 605% funding and 64.5bps perp premium signal crowded longs while weak RSI (38) and negative 24h price action support adding to the small, barely-underwater short."
+    },
+    {
+      "ts": "2026-09-22T22:45:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme 965% annualized funding and 95bps perp premium signal crowded longs; modestly adding to the small short to collect rich carry while price action stays flat."
     }
   ],
-  "llm_bar_index": 43,
+  "llm_bar_index": 44,
   "llm_usage": {
-    "calls": 10,
-    "prompt_tokens": 3577,
-    "completion_tokens": 11491
+    "calls": 11,
+    "prompt_tokens": 3935,
+    "completion_tokens": 13232
   },
   "cash": 12496.25125,
   "positions": {
@@ -261,9 +267,13 @@
     [
       "2026-09-22T22:30:00",
       9985.96
+    ],
+    [
+      "2026-09-22T22:45:00",
+      9982.17
     ]
   ],
-  "last_bar_ts": "2026-09-22T22:30:00",
-  "bars_processed": 43,
+  "last_bar_ts": "2026-09-22T22:45:00",
+  "bars_processed": 44,
   "starting_cash": 10000.0
 }
