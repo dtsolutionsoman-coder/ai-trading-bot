@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T10:45:27",
+  "saved_at": "2026-09-22T11:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Short is small and slightly profitable; extreme funding (672% ann) and rising OI signal crowded longs favoring shorts, but bullish trend (SMA ratio >1, RSI 58, +2.4% 24h) argues against adding risk."
     }
   ],
-  "llm_bar_index": 2742,
+  "llm_bar_index": 2743,
   "llm_usage": {
     "calls": 683,
     "prompt_tokens": 245357,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T14:45:00",
-      9888.4
-    ],
     [
       "2026-09-01T15:00:00",
       9884.54
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T10:30:00",
       9582.97
+    ],
+    [
+      "2026-09-22T10:45:00",
+      9582.06
     ]
   ],
-  "last_bar_ts": "2026-09-22T10:30:00",
-  "bars_processed": 2774,
+  "last_bar_ts": "2026-09-22T10:45:00",
+  "bars_processed": 2775,
   "starting_cash": 10000.0
 }
