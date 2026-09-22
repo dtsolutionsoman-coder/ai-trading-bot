@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T17:45:26",
+  "saved_at": "2026-09-22T18:00:58",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -32,13 +32,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme funding (502% ann.) and elevated perp premium justify keeping the small short for carry despite a mild uptrend pressuring it."
+    },
+    {
+      "ts": "2026-09-22T17:45:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Extreme funding (691% ann) and 69bps perp premium signal crowded longs despite the uptrend, so the small short is kept for carry and mean reversion rather than adding into trend risk."
     }
   ],
-  "llm_bar_index": 23,
+  "llm_bar_index": 24,
   "llm_usage": {
-    "calls": 5,
-    "prompt_tokens": 1778,
-    "completion_tokens": 5797
+    "calls": 6,
+    "prompt_tokens": 2139,
+    "completion_tokens": 6721
   },
   "cash": 12496.25125,
   "positions": {
@@ -151,9 +157,13 @@
     [
       "2026-09-22T17:30:00",
       9978.76
+    ],
+    [
+      "2026-09-22T17:45:00",
+      9972.89
     ]
   ],
-  "last_bar_ts": "2026-09-22T17:30:00",
-  "bars_processed": 23,
+  "last_bar_ts": "2026-09-22T17:45:00",
+  "bars_processed": 24,
   "starting_cash": 10000.0
 }
