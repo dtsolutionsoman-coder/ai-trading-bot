@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T20:30:38",
+  "saved_at": "2026-09-22T20:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -52,7 +52,7 @@
       "reason": "Mixed signals \u2014 mild near-term weakness and neutral RSI support the tiny short, but bullish SMA structure, positive perp premium, and rising OI argue against adding; keep the small losing position onl"
     }
   ],
-  "llm_bar_index": 34,
+  "llm_bar_index": 35,
   "llm_usage": {
     "calls": 8,
     "prompt_tokens": 2859,
@@ -213,9 +213,13 @@
     [
       "2026-09-22T20:15:00",
       9985.35
+    ],
+    [
+      "2026-09-22T20:30:00",
+      9984.4
     ]
   ],
-  "last_bar_ts": "2026-09-22T20:15:00",
-  "bars_processed": 34,
+  "last_bar_ts": "2026-09-22T20:30:00",
+  "bars_processed": 35,
   "starting_cash": 10000.0
 }
