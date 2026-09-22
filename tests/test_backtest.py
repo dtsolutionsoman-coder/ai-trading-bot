@@ -81,3 +81,52 @@ def test_fees_and_slippage_drag_exists():
     strat = LLMAnalystStrategy(client=client, every=1, lookback=30)
     result = run_backtest(strat, bars, BacktestConfig())
     assert result.metrics["total_fees"] > 0
+
+
+def _choppy_bars(n, base=80_000.0):
+    # violent zig-zag: every bar moves 1% against the previous one
+    from bot.core.models import Bar
+    from datetime import datetime, timedelta
+
+    bars, price, t = [], base, datetime(2026, 1, 1)
+    for i in range(n):
+        price *= 1.01 if i % 2 == 0 else 0.99
+        bars.append(Bar(t + timedelta(minutes=15 * i), price, price, price, price, 1.0))
+    return bars
+
+
+def _calm_bars(n, base=80_000.0):
+    from bot.core.models import Bar
+    from datetime import datetime, timedelta
+
+    bars, price, t = [], base, datetime(2026, 1, 1)
+    for i in range(n):
+        price *= 1.0005  # gentle 5bp drift per bar
+        bars.append(Bar(t + timedelta(minutes=15 * i), price, price, price, price, 1.0))
+    return bars
+
+
+def test_churn_gate_blocks_decisions_in_chop():
+    client = FakeClient('{"action":"buy","conviction":0.9,"reason":"up"}')
+    strat = LLMAnalystStrategy(client=client, every=1, lookback=50,
+                                bars_per_hour=4.0, max_path_churn_pct=5.0)
+    result = run_backtest(strat, _choppy_bars(120), BacktestConfig())
+    assert client.calls == 0  # whipsaw regime: no LLM call at all
+    assert result.fills == []
+
+
+def test_churn_gate_allows_calm_regimes():
+    client = FakeClient('{"action":"buy","conviction":0.9,"reason":"up"}')
+    strat = LLMAnalystStrategy(client=client, every=1, lookback=50,
+                                bars_per_hour=4.0, max_path_churn_pct=5.0)
+    result = run_backtest(strat, _calm_bars(120), BacktestConfig())
+    assert client.calls > 0  # calm regime: model consulted
+    assert any(f.side is Side.BUY for f in result.fills)
+
+
+def test_churn_gate_disabled_by_default():
+    client = FakeClient('{"action":"buy","conviction":0.9,"reason":"up"}')
+    strat = LLMAnalystStrategy(client=client, every=1, lookback=50,
+                                bars_per_hour=4.0)
+    result = run_backtest(strat, _choppy_bars(120), BacktestConfig())
+    assert client.calls > 0  # original behavior preserved

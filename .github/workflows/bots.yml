@@ -53,6 +53,15 @@ jobs:
           LLM_THINKING: ${{ secrets.LLM_THINKING }}
         run: python -m bot.live.run --strategy llm_analyst --symbol BTC --interval 15m --every 4 --once --context-db output/market_data.db --state output/live_llm.json
 
+      - name: race - glm ai (chop-gated A/B variant)
+        continue-on-error: true # testnet book: see above
+        env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_THINKING: ${{ secrets.LLM_THINKING }}
+        run: python -m bot.live.run --strategy llm_analyst --symbol BTC --interval 15m --every 4 --once --context-db output/market_data.db --max-churn 10 --state output/live_llm_calm.json
+
       - name: polymarket
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}

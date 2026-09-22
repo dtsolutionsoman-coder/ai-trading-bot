@@ -68,6 +68,9 @@ def main(argv: list[str] | None = None) -> int:
                              "llm_analyst decisions with funding/OI/volume")
     parser.add_argument("--every", type=int, default=6,
                         help="llm_analyst: decide every N bars (default 6)")
+    parser.add_argument("--max-churn", type=float, default=None,
+                        help="llm_analyst: stand aside (no LLM call, no orders) when "
+                             "the trailing 12h price path churn exceeds this %%")
     parser.add_argument("--carry-entry-ann", type=float, default=None,
                         help="funding_carry: annualized funding %% to trigger entry "
                              "(default 50; majors like BTC rarely reach it)")
@@ -121,6 +124,7 @@ def main(argv: list[str] | None = None) -> int:
             context_provider=context_provider,
             every=args.every,
             bars_per_hour=_BARS_PER_HOUR.get(args.interval, 1.0),
+            max_path_churn_pct=args.max_churn,
         )
     elif args.strategy == "funding_carry":
         from ..strategies.funding_carry import FundingCarryStrategy

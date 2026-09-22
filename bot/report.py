@@ -20,6 +20,7 @@ from .core.models import Fill, Side
 BOOKS = [
     ("output/race_sma.json", "SMA control (15m)"),
     ("output/live_llm.json", "GLM AI (15m)"),
+    ("output/live_llm_calm.json", "GLM AI chop-gated (15m)"),
     ("output/pol_state.json", "Polymarket"),
 ]
 

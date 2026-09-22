@@ -106,6 +106,7 @@ class LLMAnalystStrategy(Strategy):
         position_frac: float = 1.0,
         context_provider: Callable[[str], dict] | None = None,
         bars_per_hour: float = 1.0,
+        max_path_churn_pct: float | None = None,
     ):
         if every < 1:
             raise ValueError("every must be >= 1")
@@ -114,6 +115,11 @@ class LLMAnalystStrategy(Strategy):
         self.allow_short = allow_short
         self.position_frac = position_frac
         self.context_provider = context_provider  # optional richer data feed
+        # regime gate: measured on our own 27-day history, ALL gross profit
+        # came from calmer 12h windows; chop only paid whipsaw losses+fees.
+        # None disables the gate (original behavior).
+        self.max_path_churn_pct = max_path_churn_pct
+        self._churn_bars = max(4, round(12 * max(float(bars_per_hour), 1.0 / 60.0)))
 
         # windows are expressed in HOURS and converted to bars, so feature
         # names stay truthful on any interval (1h, 15m, 5m, ...)
@@ -144,6 +150,16 @@ class LLMAnalystStrategy(Strategy):
         hist = ctx.history
         if len(hist) < self.lookback or (self._bar_index % self.every) != 0:
             return []
+
+        if self.max_path_churn_pct is not None:
+            window = [b.close for b in hist[-self._churn_bars:]]
+            churn = sum(
+                abs(window[i] / window[i - 1] - 1.0)
+                for i in range(1, len(window))
+            ) * 100.0
+            if churn > self.max_path_churn_pct:
+                # whipsaw regime: stand aside and save the API call
+                return []
 
         closes = [b.close for b in hist[-self.lookback :]]
         features = {
