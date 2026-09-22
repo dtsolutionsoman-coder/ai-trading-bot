@@ -1,17 +1,40 @@
 {
-  "saved_at": "2026-09-22T12:45:28",
+  "saved_at": "2026-09-22T13:01:23",
   "symbol": "BTC",
   "interval": "15m",
-  "decisions": [],
-  "llm_bar_index": 3,
+  "decisions": [
+    {
+      "ts": "2026-09-22T12:45:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme 560% funding and elevated perp premium with OI up 14% signal crowded, expensive longs while RSI 38.8 and stalling 1h/6h momentum point to squeeze risk."
+    }
+  ],
+  "llm_bar_index": 4,
   "llm_usage": {
-    "calls": 0,
-    "prompt_tokens": 0,
-    "completion_tokens": 0
+    "calls": 1,
+    "prompt_tokens": 336,
+    "completion_tokens": 1386
   },
-  "cash": 10000.0,
-  "positions": {},
-  "recent_fills": [],
+  "cash": 12496.25125,
+  "positions": {
+    "BTC": {
+      "qty": -0.028910089621277824,
+      "avg_price": 86431.76250000001,
+      "realized_pnl": 0.0
+    }
+  },
+  "recent_fills": [
+    {
+      "ts": "2026-09-22T12:45:00",
+      "side": "sell",
+      "qty": 0.028910089621277824,
+      "price": 86431.76250000001,
+      "fee": 2.49875,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.30: Extreme 560% funding and elevated perp premium with OI up 14% signal crowded, expensive longs while RSI 38.8 and stalling 1h/6h momentum point to squeeze risk. [downsized to risk cap]"
+    }
+  ],
   "equity_curve": [
     [
       "2026-09-22T12:00:00",
@@ -24,9 +47,13 @@
     [
       "2026-09-22T12:30:00",
       10000.0
+    ],
+    [
+      "2026-09-22T12:45:00",
+      9996.25
     ]
   ],
-  "last_bar_ts": "2026-09-22T12:30:00",
-  "bars_processed": 3,
+  "last_bar_ts": "2026-09-22T12:45:00",
+  "bars_processed": 4,
   "starting_cash": 10000.0
 }

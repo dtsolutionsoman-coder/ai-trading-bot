@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T12:45:27",
+  "saved_at": "2026-09-22T13:00:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding (613% ann.) and perp premium signal crowded longs that support keeping the small profitable short, but the mild uptrend (SMA ratio 1.024) argues against adding risk."
     }
   ],
-  "llm_bar_index": 2750,
+  "llm_bar_index": 2751,
   "llm_usage": {
     "calls": 685,
     "prompt_tokens": 246079,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T16:45:00",
-      9880.05
-    ],
     [
       "2026-09-01T17:00:00",
       9879.99
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T12:30:00",
       9582.2
+    ],
+    [
+      "2026-09-22T12:45:00",
+      9583.89
     ]
   ],
-  "last_bar_ts": "2026-09-22T12:30:00",
-  "bars_processed": 2782,
+  "last_bar_ts": "2026-09-22T12:45:00",
+  "bars_processed": 2783,
   "starting_cash": 10000.0
 }
