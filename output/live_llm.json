@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T07:30:36",
+  "saved_at": "2026-09-22T07:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding (747% ann) and perp premium with OI buildup signal crowded longs while momentum stalls (RSI<50, 6h negative), so I add modestly to the small profitable short that also collects funding"
     }
   ],
-  "llm_bar_index": 2729,
+  "llm_bar_index": 2730,
   "llm_usage": {
     "calls": 681,
     "prompt_tokens": 244636,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T11:30:00",
-      9895.06
-    ],
     [
       "2026-09-01T11:45:00",
       9899.83
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T07:15:00",
       9601.55
+    ],
+    [
+      "2026-09-22T07:30:00",
+      9604.15
     ]
   ],
-  "last_bar_ts": "2026-09-22T07:15:00",
-  "bars_processed": 2761,
+  "last_bar_ts": "2026-09-22T07:30:00",
+  "bars_processed": 2762,
   "starting_cash": 10000.0
 }
