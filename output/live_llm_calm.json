@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T14:30:32",
+  "saved_at": "2026-09-22T14:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -16,7 +16,7 @@
       "reason": "Mild uptrend is offset by extreme funding (~491% annualized) and perp premium signaling crowded longs; keeping the tiny short rather than chasing either side."
     }
   ],
-  "llm_bar_index": 10,
+  "llm_bar_index": 11,
   "llm_usage": {
     "calls": 2,
     "prompt_tokens": 696,
@@ -81,9 +81,13 @@
     [
       "2026-09-22T14:15:00",
       9990.21
+    ],
+    [
+      "2026-09-22T14:30:00",
+      9992.64
     ]
   ],
-  "last_bar_ts": "2026-09-22T14:15:00",
-  "bars_processed": 10,
+  "last_bar_ts": "2026-09-22T14:30:00",
+  "bars_processed": 11,
   "starting_cash": 10000.0
 }

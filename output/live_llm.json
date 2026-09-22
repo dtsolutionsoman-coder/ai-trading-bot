@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T14:30:32",
+  "saved_at": "2026-09-22T14:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding (557% ann.) and elevated perp premium favor keeping the small, slightly profitable short as a carry harvest despite the modest uptrend."
     }
   ],
-  "llm_bar_index": 2757,
+  "llm_bar_index": 2758,
   "llm_usage": {
     "calls": 687,
     "prompt_tokens": 246801,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T18:30:00",
-      9899.51
-    ],
     [
       "2026-09-01T18:45:00",
       9960.55
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T14:15:00",
       9578.09
+    ],
+    [
+      "2026-09-22T14:30:00",
+      9580.42
     ]
   ],
-  "last_bar_ts": "2026-09-22T14:15:00",
-  "bars_processed": 2789,
+  "last_bar_ts": "2026-09-22T14:30:00",
+  "bars_processed": 2790,
   "starting_cash": 10000.0
 }
