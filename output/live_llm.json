@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-22T11:30:33",
+  "saved_at": "2026-09-22T11:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 709% funding and rising OI signal crowded longs, supporting the small profitable short despite the uptrend and elevated premium."
     }
   ],
-  "llm_bar_index": 2745,
+  "llm_bar_index": 2746,
   "llm_usage": {
     "calls": 684,
     "prompt_tokens": 245718,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-01T15:30:00",
-      9884.54
-    ],
     [
       "2026-09-01T15:45:00",
       9894.17
@@ -11866,9 +11862,13 @@
     [
       "2026-09-22T11:15:00",
       9584.19
+    ],
+    [
+      "2026-09-22T11:30:00",
+      9579.54
     ]
   ],
-  "last_bar_ts": "2026-09-22T11:15:00",
-  "bars_processed": 2777,
+  "last_bar_ts": "2026-09-22T11:30:00",
+  "bars_processed": 2778,
   "starting_cash": 10000.0
 }
