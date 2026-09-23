@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T17:30:35",
+  "saved_at": "2026-09-23T17:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Declining momentum, rising OI, and extreme positive funding/perp premium signal crowded longs primed for flush, so I'm adding to the profitable short, though oversold RSI caps conviction."
     }
   ],
-  "llm_bar_index": 2865,
+  "llm_bar_index": 2866,
   "llm_usage": {
     "calls": 714,
     "prompt_tokens": 256523,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T21:30:00",
-      9901.84
-    ],
     [
       "2026-09-02T21:45:00",
       9899.52
@@ -11911,9 +11907,13 @@
     [
       "2026-09-23T17:15:00",
       9615.01
+    ],
+    [
+      "2026-09-23T17:30:00",
+      9609.84
     ]
   ],
-  "last_bar_ts": "2026-09-23T17:15:00",
-  "bars_processed": 2897,
+  "last_bar_ts": "2026-09-23T17:30:00",
+  "bars_processed": 2898,
   "starting_cash": 10000.0
 }
