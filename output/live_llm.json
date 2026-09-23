@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-23T19:00:37",
+  "saved_at": "2026-09-23T19:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-02T20:00:00",
-      "action": "hold",
-      "conviction": 0.1,
-      "reason": "Low-volatility neutral chop with mild bearish lean (SMA ratio <1, OI declining, elevated funding) justifies keeping only the minimal existing long exposure."
-    },
     {
       "ts": "2026-09-02T21:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "Bearish momentum with extreme positive funding and perp premium signaling crowded longs; adding to the profitable short."
+    },
+    {
+      "ts": "2026-09-23T19:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Bearish 6h/24h trend with SMA ratio below 1 plus extreme positive funding and perp premium indicate crowded longs, so I'm adding modestly to the profitable short while it collects funding."
     }
   ],
-  "llm_bar_index": 2871,
+  "llm_bar_index": 2872,
   "llm_usage": {
-    "calls": 715,
-    "prompt_tokens": 256885,
-    "completion_tokens": 726655
+    "calls": 716,
+    "prompt_tokens": 257246,
+    "completion_tokens": 727880
   },
   "cash": 12025.305386961649,
   "positions": {
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T23:00:00",
-      9889.01
-    ],
     [
       "2026-09-02T23:15:00",
       9887.52
@@ -11911,9 +11907,13 @@
     [
       "2026-09-23T18:45:00",
       9602.44
+    ],
+    [
+      "2026-09-23T19:00:00",
+      9601.81
     ]
   ],
-  "last_bar_ts": "2026-09-23T18:45:00",
-  "bars_processed": 2903,
+  "last_bar_ts": "2026-09-23T19:00:00",
+  "bars_processed": 2904,
   "starting_cash": 10000.0
 }
