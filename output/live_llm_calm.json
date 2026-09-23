@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T15:15:46",
+  "saved_at": "2026-09-23T15:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -160,7 +160,7 @@
       "reason": "Extreme positive funding and perp premium support the small short despite the 1h bounce, so hold and collect funding rather than chase noise."
     }
   ],
-  "llm_bar_index": 109,
+  "llm_bar_index": 110,
   "llm_usage": {
     "calls": 26,
     "prompt_tokens": 9320,
@@ -639,9 +639,13 @@
     [
       "2026-09-23T15:00:00",
       9999.34
+    ],
+    [
+      "2026-09-23T15:15:00",
+      9999.95
     ]
   ],
-  "last_bar_ts": "2026-09-23T15:00:00",
-  "bars_processed": 109,
+  "last_bar_ts": "2026-09-23T15:15:00",
+  "bars_processed": 110,
   "starting_cash": 10000.0
 }
