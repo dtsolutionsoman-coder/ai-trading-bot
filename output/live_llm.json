@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-23T17:00:40",
+  "saved_at": "2026-09-23T17:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-02T18:00:00",
-      "action": "hold",
-      "conviction": 0.1,
-      "reason": "24h downtrend, SMA12/48 below 1, and crowded long funding outweigh a low-volume intraday bounce, so I'm keeping the small short open despite minor drawdown."
-    },
     {
       "ts": "2026-09-02T19:00:00",
       "action": "buy",
@@ -3002,19 +2996,25 @@
       "action": "sell",
       "conviction": 0.5,
       "reason": "Negative momentum, RSI below 50, and extreme positive funding rewarding shorts all align bearish, so I'm modestly adding to the profitable short."
+    },
+    {
+      "ts": "2026-09-23T17:00:00",
+      "action": "sell",
+      "conviction": 0.6,
+      "reason": "Declining momentum, rising OI, and extreme positive funding/perp premium signal crowded longs primed for flush, so I'm adding to the profitable short, though oversold RSI caps conviction."
     }
   ],
-  "llm_bar_index": 2863,
+  "llm_bar_index": 2864,
   "llm_usage": {
-    "calls": 713,
-    "prompt_tokens": 256164,
-    "completion_tokens": 724286
+    "calls": 714,
+    "prompt_tokens": 256523,
+    "completion_tokens": 725437
   },
-  "cash": 12003.606737984006,
+  "cash": 12025.305386961649,
   "positions": {
     "BTC": {
-      "qty": -0.028001367087178795,
-      "avg_price": 86883.52107196656,
+      "qty": -0.028256683247250138,
+      "avg_price": 86867.15688574781,
       "realized_pnl": -162.12007752096213
     }
   },
@@ -3900,13 +3900,18 @@
       "fee": 0.01286781949028229,
       "realized": 0.0,
       "reason": "LLM sell conv=0.50: Negative momentum, RSI below 50, and extreme positive funding rewarding shorts all align bearish, so I'm modestly adding to the profitable short. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-23T17:00:00",
+      "side": "sell",
+      "qty": 0.00025531616007134356,
+      "price": 85072.4425,
+      "fee": 0.021720369346990172,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.60: Declining momentum, rising OI, and extreme positive funding/perp premium signal crowded longs primed for flush, so I'm adding to the profitable short, though oversold RSI caps conviction. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T21:00:00",
-      9898.8
-    ],
     [
       "2026-09-02T21:15:00",
       9898.08
@@ -11902,9 +11907,13 @@
     [
       "2026-09-23T16:45:00",
       9613.02
+    ],
+    [
+      "2026-09-23T17:00:00",
+      9620.24
     ]
   ],
-  "last_bar_ts": "2026-09-23T16:45:00",
-  "bars_processed": 2895,
+  "last_bar_ts": "2026-09-23T17:00:00",
+  "bars_processed": 2896,
   "starting_cash": 10000.0
 }
