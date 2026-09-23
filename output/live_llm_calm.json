@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T13:30:36",
+  "saved_at": "2026-09-23T13:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -154,7 +154,7 @@
       "reason": "Negative momentum across timeframes, RSI below 50, and extremely high positive funding favor adding modestly to the already profitable short despite thin volume."
     }
   ],
-  "llm_bar_index": 102,
+  "llm_bar_index": 103,
   "llm_usage": {
     "calls": 25,
     "prompt_tokens": 8960,
@@ -605,9 +605,13 @@
     [
       "2026-09-23T13:15:00",
       9992.24
+    ],
+    [
+      "2026-09-23T13:30:00",
+      9980.33
     ]
   ],
-  "last_bar_ts": "2026-09-23T13:15:00",
-  "bars_processed": 102,
+  "last_bar_ts": "2026-09-23T13:30:00",
+  "bars_processed": 103,
   "starting_cash": 10000.0
 }
