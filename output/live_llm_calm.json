@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T01:15:50",
+  "saved_at": "2026-09-23T01:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -82,7 +82,7 @@
       "reason": "Extreme 735% funding and 71bps perp premium signal crowded, overextended longs with RSI near overbought, and the small short earns heavy carry despite the modest uptrend."
     }
   ],
-  "llm_bar_index": 53,
+  "llm_bar_index": 54,
   "llm_usage": {
     "calls": 13,
     "prompt_tokens": 4654,
@@ -319,9 +319,13 @@
     [
       "2026-09-23T01:00:00",
       9965.98
+    ],
+    [
+      "2026-09-23T01:15:00",
+      9969.39
     ]
   ],
-  "last_bar_ts": "2026-09-23T01:00:00",
-  "bars_processed": 53,
+  "last_bar_ts": "2026-09-23T01:15:00",
+  "bars_processed": 54,
   "starting_cash": 10000.0
 }
