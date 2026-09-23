@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T10:30:35",
+  "saved_at": "2026-09-23T10:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -136,7 +136,7 @@
       "reason": "Extreme positive funding (770% ann.) and perp premium reward the small short carry, but deeply oversold RSI (25.3) and flat 24h price cap conviction against a bounce."
     }
   ],
-  "llm_bar_index": 90,
+  "llm_bar_index": 91,
   "llm_usage": {
     "calls": 22,
     "prompt_tokens": 7883,
@@ -521,9 +521,13 @@
     [
       "2026-09-23T10:15:00",
       9980.32
+    ],
+    [
+      "2026-09-23T10:30:00",
+      9977.72
     ]
   ],
-  "last_bar_ts": "2026-09-23T10:15:00",
-  "bars_processed": 90,
+  "last_bar_ts": "2026-09-23T10:30:00",
+  "bars_processed": 91,
   "starting_cash": 10000.0
 }
