@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T11:01:09",
+  "saved_at": "2026-09-23T11:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -142,7 +142,7 @@
       "reason": "Extreme positive funding and weak 6h momentum support the small short (with favorable carry), but bullish SMA structure and perp premium argue against adding, so hold existing exposure."
     }
   ],
-  "llm_bar_index": 92,
+  "llm_bar_index": 93,
   "llm_usage": {
     "calls": 23,
     "prompt_tokens": 8241,
@@ -535,9 +535,13 @@
     [
       "2026-09-23T10:45:00",
       9987.72
+    ],
+    [
+      "2026-09-23T11:00:00",
+      9991.31
     ]
   ],
-  "last_bar_ts": "2026-09-23T10:45:00",
-  "bars_processed": 92,
+  "last_bar_ts": "2026-09-23T11:00:00",
+  "bars_processed": 93,
   "starting_cash": 10000.0
 }
