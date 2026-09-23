@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T07:30:35",
+  "saved_at": "2026-09-23T07:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -118,7 +118,7 @@
       "reason": "Extreme funding (971% ann.) and 95bps perp premium signal crowded longs, so the small short collects outsized carry that offsets its -1.05% drawdown despite mildly bullish price action."
     }
   ],
-  "llm_bar_index": 78,
+  "llm_bar_index": 79,
   "llm_usage": {
     "calls": 19,
     "prompt_tokens": 6806,
@@ -455,9 +455,13 @@
     [
       "2026-09-23T07:15:00",
       9974.63
+    ],
+    [
+      "2026-09-23T07:30:00",
+      9985.21
     ]
   ],
-  "last_bar_ts": "2026-09-23T07:15:00",
-  "bars_processed": 78,
+  "last_bar_ts": "2026-09-23T07:30:00",
+  "bars_processed": 79,
   "starting_cash": 10000.0
 }
