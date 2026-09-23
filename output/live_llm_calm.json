@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T06:01:14",
+  "saved_at": "2026-09-23T06:15:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -112,7 +112,7 @@
       "reason": "Extreme 677% annualized funding and 69bps perp premium signal crowded over-leveraged longs, and negative 1h momentum supports holding/adding a modest short despite the mild uptrend."
     }
   ],
-  "llm_bar_index": 72,
+  "llm_bar_index": 73,
   "llm_usage": {
     "calls": 18,
     "prompt_tokens": 6449,
@@ -425,9 +425,13 @@
     [
       "2026-09-23T05:45:00",
       9978.82
+    ],
+    [
+      "2026-09-23T06:00:00",
+      9968.27
     ]
   ],
-  "last_bar_ts": "2026-09-23T05:45:00",
-  "bars_processed": 72,
+  "last_bar_ts": "2026-09-23T06:00:00",
+  "bars_processed": 73,
   "starting_cash": 10000.0
 }

@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-23T06:00:44",
+  "saved_at": "2026-09-23T06:15:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-02T07:00:00",
-      "action": "hold",
-      "conviction": 0.35,
-      "reason": "Bearish trend structure (SMA ratio <1, -2.3% 24h) and crowded long funding justify keeping the small short, but 6h bounce and OI unwinding warn against adding risk while slightly underwater."
-    },
     {
       "ts": "2026-09-02T08:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.15,
       "reason": "Extreme froth (RSI 84.5, 1343% annualized funding, 137bps premium) justifies keeping the tiny short open, but uptrend momentum argues against adding to a losing position."
+    },
+    {
+      "ts": "2026-09-23T06:00:00",
+      "action": "hold",
+      "conviction": 0.15,
+      "reason": "Extreme annualized funding (888%) and rich perp premium signal overcrowded longs, but mild uptrend (SMA ratio >1, RSI neutral) cautions against adding to a small losing short; maintain minimal short e"
     }
   ],
-  "llm_bar_index": 2819,
+  "llm_bar_index": 2820,
   "llm_usage": {
-    "calls": 702,
-    "prompt_tokens": 252209,
-    "completion_tokens": 712863
+    "calls": 703,
+    "prompt_tokens": 252568,
+    "completion_tokens": 713652
   },
   "cash": 11981.119807464669,
   "positions": {
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T10:00:00",
-      9926.66
-    ],
     [
       "2026-09-02T10:15:00",
       9927.96
@@ -11866,9 +11862,13 @@
     [
       "2026-09-23T05:45:00",
       9567.17
+    ],
+    [
+      "2026-09-23T06:00:00",
+      9557.05
     ]
   ],
-  "last_bar_ts": "2026-09-23T05:45:00",
-  "bars_processed": 2851,
+  "last_bar_ts": "2026-09-23T06:00:00",
+  "bars_processed": 2852,
   "starting_cash": 10000.0
 }
