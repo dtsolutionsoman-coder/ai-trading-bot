@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T03:16:19",
+  "saved_at": "2026-09-23T03:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -94,7 +94,7 @@
       "reason": "Trend is bullish but 1010% annualized funding and ~100bps perp premium signal severely overextended longs, so retain the small short for funding carry and squeeze potential without adding risk."
     }
   ],
-  "llm_bar_index": 61,
+  "llm_bar_index": 62,
   "llm_usage": {
     "calls": 15,
     "prompt_tokens": 5373,
@@ -363,9 +363,13 @@
     [
       "2026-09-23T03:00:00",
       9968.41
+    ],
+    [
+      "2026-09-23T03:15:00",
+      9967.17
     ]
   ],
-  "last_bar_ts": "2026-09-23T03:00:00",
-  "bars_processed": 61,
+  "last_bar_ts": "2026-09-23T03:15:00",
+  "bars_processed": 62,
   "starting_cash": 10000.0
 }
