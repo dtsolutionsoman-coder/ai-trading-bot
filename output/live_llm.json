@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T07:45:25",
+  "saved_at": "2026-09-23T08:00:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 998% annualized funding and 94bps perp premium signal dangerously crowded longs while momentum fades (RSI 42.5, negative 1h/6h), so adding moderately to the short collects carry into a likely "
     }
   ],
-  "llm_bar_index": 2826,
+  "llm_bar_index": 2827,
   "llm_usage": {
     "calls": 704,
     "prompt_tokens": 252928,
@@ -3867,10 +3867,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T11:45:00",
-      9916.43
-    ],
     [
       "2026-09-02T12:00:00",
       9916.43
@@ -11866,9 +11862,13 @@
     [
       "2026-09-23T07:30:00",
       9573.3
+    ],
+    [
+      "2026-09-23T07:45:00",
+      9568.72
     ]
   ],
-  "last_bar_ts": "2026-09-23T07:30:00",
-  "bars_processed": 2858,
+  "last_bar_ts": "2026-09-23T07:45:00",
+  "bars_processed": 2859,
   "starting_cash": 10000.0
 }
