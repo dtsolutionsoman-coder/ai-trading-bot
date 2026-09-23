@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T05:01:15",
+  "saved_at": "2026-09-23T05:15:57",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -106,7 +106,7 @@
       "reason": "Extreme funding (1179% ann.), 112bps perp premium, and RSI 82.8 signal an overheated crowded long ripe for squeeze, so I keep the small short open despite the uptrend, but won't add to a losing positi"
     }
   ],
-  "llm_bar_index": 68,
+  "llm_bar_index": 69,
   "llm_usage": {
     "calls": 17,
     "prompt_tokens": 6090,
@@ -403,9 +403,13 @@
     [
       "2026-09-23T04:45:00",
       9946.09
+    ],
+    [
+      "2026-09-23T05:00:00",
+      9947.54
     ]
   ],
-  "last_bar_ts": "2026-09-23T04:45:00",
-  "bars_processed": 68,
+  "last_bar_ts": "2026-09-23T05:00:00",
+  "bars_processed": 69,
   "starting_cash": 10000.0
 }
