@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-23T16:15:46",
+  "saved_at": "2026-09-23T16:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Negative momentum, RSI below 50, and extreme positive funding rewarding shorts all align bearish, so I'm modestly adding to the profitable short."
     }
   ],
-  "llm_bar_index": 2860,
+  "llm_bar_index": 2861,
   "llm_usage": {
     "calls": 713,
     "prompt_tokens": 256164,
@@ -3903,10 +3903,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-02T20:15:00",
-      9899.87
-    ],
     [
       "2026-09-02T20:30:00",
       9899.03
@@ -11902,9 +11898,13 @@
     [
       "2026-09-23T16:00:00",
       9602.88
+    ],
+    [
+      "2026-09-23T16:15:00",
+      9606.58
     ]
   ],
-  "last_bar_ts": "2026-09-23T16:00:00",
-  "bars_processed": 2892,
+  "last_bar_ts": "2026-09-23T16:15:00",
+  "bars_processed": 2893,
   "starting_cash": 10000.0
 }
