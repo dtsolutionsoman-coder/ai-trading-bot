@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T21:15:41",
+  "saved_at": "2026-09-24T21:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding, overbought RSI, and bearish SMA structure support extending the profitable short, though short-term upward momentum tempers size."
     }
   ],
-  "llm_bar_index": 2976,
+  "llm_bar_index": 2977,
   "llm_usage": {
     "calls": 742,
     "prompt_tokens": 266622,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T01:15:00",
-      9728.32
-    ],
     [
       "2026-09-04T01:30:00",
       9731.93
@@ -11938,9 +11934,13 @@
     [
       "2026-09-24T21:00:00",
       9625.34
+    ],
+    [
+      "2026-09-24T21:15:00",
+      9622.8
     ]
   ],
-  "last_bar_ts": "2026-09-24T21:00:00",
-  "bars_processed": 3008,
+  "last_bar_ts": "2026-09-24T21:15:00",
+  "bars_processed": 3009,
   "starting_cash": 10000.0
 }
