@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T03:45:25",
+  "saved_at": "2026-09-24T04:01:10",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -182,13 +182,19 @@
       "action": "sell",
       "conviction": 0.3,
       "reason": "Extreme funding and perp premium signal crowded overleveraged longs with SMA ratio below 1 supporting the short, though the 1-6h bounce warrants only modest added exposure."
+    },
+    {
+      "ts": "2026-09-24T03:45:00",
+      "action": "sell",
+      "conviction": 0.5,
+      "reason": "Negative momentum across timeframes with SMA ratio below 1, plus extreme positive funding and perp premium that pay shorts and signal crowded longs; modestly adding to the profitable short."
     }
   ],
-  "llm_bar_index": 159,
+  "llm_bar_index": 160,
   "llm_usage": {
-    "calls": 30,
-    "prompt_tokens": 10762,
-    "completion_tokens": 34408
+    "calls": 31,
+    "prompt_tokens": 11121,
+    "completion_tokens": 35442
   },
   "cash": 12502.816756356253,
   "positions": {
@@ -872,9 +878,13 @@
     [
       "2026-09-24T03:30:00",
       10006.38
+    ],
+    [
+      "2026-09-24T03:45:00",
+      10007.66
     ]
   ],
-  "last_bar_ts": "2026-09-24T03:30:00",
-  "bars_processed": 159,
+  "last_bar_ts": "2026-09-24T03:45:00",
+  "bars_processed": 160,
   "starting_cash": 10000.0
 }
