@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T22:00:55",
+  "saved_at": "2026-09-24T22:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -262,7 +262,7 @@
       "reason": "Bearish SMA structure, negative 24h trend, and extreme positive funding/perp premium favor adding modestly to the winning short despite the mild 6h bounce."
     }
   ],
-  "llm_bar_index": 232,
+  "llm_bar_index": 233,
   "llm_usage": {
     "calls": 43,
     "prompt_tokens": 15438,
@@ -1260,9 +1260,13 @@
     [
       "2026-09-24T21:45:00",
       10030.58
+    ],
+    [
+      "2026-09-24T22:00:00",
+      10030.52
     ]
   ],
-  "last_bar_ts": "2026-09-24T21:45:00",
-  "bars_processed": 232,
+  "last_bar_ts": "2026-09-24T22:00:00",
+  "bars_processed": 233,
   "starting_cash": 10000.0
 }
