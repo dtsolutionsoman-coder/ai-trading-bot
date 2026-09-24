@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T03:15:52",
+  "saved_at": "2026-09-24T03:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and perp premium signal crowded longs within a 24h downtrend, so I'm adding to the profitable short."
     }
   ],
-  "llm_bar_index": 2904,
+  "llm_bar_index": 2905,
   "llm_usage": {
     "calls": 724,
     "prompt_tokens": 260132,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T07:15:00",
-      9874.75
-    ],
     [
       "2026-09-03T07:30:00",
       9891.4
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T03:00:00",
       9599.92
+    ],
+    [
+      "2026-09-24T03:15:00",
+      9605.94
     ]
   ],
-  "last_bar_ts": "2026-09-24T03:00:00",
-  "bars_processed": 2936,
+  "last_bar_ts": "2026-09-24T03:15:00",
+  "bars_processed": 2937,
   "starting_cash": 10000.0
 }
