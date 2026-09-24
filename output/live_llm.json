@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T00:45:24",
+  "saved_at": "2026-09-24T01:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and perp premium signal crowded longs while price sits below its 48h SMA, and the profitable short also collects outsized funding carry."
     }
   ],
-  "llm_bar_index": 2894,
+  "llm_bar_index": 2895,
   "llm_usage": {
     "calls": 721,
     "prompt_tokens": 259051,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T04:45:00",
-      9873.19
-    ],
     [
       "2026-09-03T05:00:00",
       9871.6
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T00:30:00",
       9601.81
+    ],
+    [
+      "2026-09-24T00:45:00",
+      9599.07
     ]
   ],
-  "last_bar_ts": "2026-09-24T00:30:00",
-  "bars_processed": 2926,
+  "last_bar_ts": "2026-09-24T00:45:00",
+  "bars_processed": 2927,
   "starting_cash": 10000.0
 }
