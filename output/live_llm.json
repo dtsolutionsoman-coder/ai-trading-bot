@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-24T07:00:40",
+  "saved_at": "2026-09-24T07:16:19",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-03T08:00:00",
-      "action": "hold",
-      "conviction": 0.2,
-      "reason": "Small profitable short aligned with 1h pullback, but 24h uptrend and mildly bullish SMA ratio warrant keeping exposure minimal."
-    },
     {
       "ts": "2026-09-03T09:00:00",
       "action": "buy",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.35,
       "reason": "Mildly bearish trend (SMA ratio <1, 24h down) plus extreme perp premium/funding signaling crowded longs supports modestly adding to the profitable short."
+    },
+    {
+      "ts": "2026-09-24T07:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Multi-timeframe downtrend with SMA ratio below 1, RSI 39, and extremely rich positive funding gives shorts both momentum and carry, so I'm increasing the profitable short modestly while RSI nears over"
     }
   ],
-  "llm_bar_index": 2919,
+  "llm_bar_index": 2920,
   "llm_usage": {
-    "calls": 727,
-    "prompt_tokens": 261215,
-    "completion_tokens": 739909
+    "calls": 728,
+    "prompt_tokens": 261577,
+    "completion_tokens": 740920
   },
   "cash": 12025.305386961649,
   "positions": {
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T11:00:00",
-      9839.85
-    ],
     [
       "2026-09-03T11:15:00",
       9833.43
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T06:45:00",
       9606.39
+    ],
+    [
+      "2026-09-24T07:00:00",
+      9611.76
     ]
   ],
-  "last_bar_ts": "2026-09-24T06:45:00",
-  "bars_processed": 2951,
+  "last_bar_ts": "2026-09-24T07:00:00",
+  "bars_processed": 2952,
   "starting_cash": 10000.0
 }
