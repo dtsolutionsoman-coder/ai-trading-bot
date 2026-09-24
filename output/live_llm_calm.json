@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T12:30:45",
+  "saved_at": "2026-09-24T12:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -238,7 +238,7 @@
       "reason": "Bearish momentum across all timeframes with SMA12/48<1, RSI<50, and extreme positive funding plus perp premium signaling crowded longs \u2014 adding modestly to the profitable short."
     }
   ],
-  "llm_bar_index": 194,
+  "llm_bar_index": 195,
   "llm_usage": {
     "calls": 39,
     "prompt_tokens": 13998,
@@ -1084,9 +1084,13 @@
     [
       "2026-09-24T12:15:00",
       10043.78
+    ],
+    [
+      "2026-09-24T12:30:00",
+      10046.19
     ]
   ],
-  "last_bar_ts": "2026-09-24T12:15:00",
-  "bars_processed": 194,
+  "last_bar_ts": "2026-09-24T12:30:00",
+  "bars_processed": 195,
   "starting_cash": 10000.0
 }
