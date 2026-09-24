@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T04:45:26",
+  "saved_at": "2026-09-24T05:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish trend with extreme positive funding and perp premium indicating crowded longs in a thin market; modestly growing the profitable short while collecting funding."
     }
   ],
-  "llm_bar_index": 2910,
+  "llm_bar_index": 2911,
   "llm_usage": {
     "calls": 725,
     "prompt_tokens": 260495,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T08:45:00",
-      9879.37
-    ],
     [
       "2026-09-03T09:00:00",
       9858.63
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T04:30:00",
       9603.4
+    ],
+    [
+      "2026-09-24T04:45:00",
+      9605.97
     ]
   ],
-  "last_bar_ts": "2026-09-24T04:30:00",
-  "bars_processed": 2942,
+  "last_bar_ts": "2026-09-24T04:45:00",
+  "bars_processed": 2943,
   "starting_cash": 10000.0
 }
