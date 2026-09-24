@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T12:15:45",
+  "saved_at": "2026-09-24T12:30:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish momentum across 1h/6h/24h with SMA ratio below 1 and RSI under 50, while extreme positive funding rewards shorts; profitable existing short supports adding modestly despite thin volume."
     }
   ],
-  "llm_bar_index": 2940,
+  "llm_bar_index": 2941,
   "llm_usage": {
     "calls": 733,
     "prompt_tokens": 263382,
@@ -3921,10 +3921,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T16:15:00",
-      9768.59
-    ],
     [
       "2026-09-03T16:30:00",
       9784.92
@@ -11920,9 +11916,13 @@
     [
       "2026-09-24T12:00:00",
       9637.7
+    ],
+    [
+      "2026-09-24T12:15:00",
+      9637.9
     ]
   ],
-  "last_bar_ts": "2026-09-24T12:00:00",
-  "bars_processed": 2972,
+  "last_bar_ts": "2026-09-24T12:15:00",
+  "bars_processed": 2973,
   "starting_cash": 10000.0
 }
