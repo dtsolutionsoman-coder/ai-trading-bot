@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T05:45:25",
+  "saved_at": "2026-09-24T06:00:59",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -194,13 +194,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Downtrend with SMA ratio below 1, extreme positive funding and perp premium favor adding to the already profitable short despite thin volume."
+    },
+    {
+      "ts": "2026-09-24T05:45:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Extreme positive funding and 2% perp premium signal crowded longs while price trends mildly down, supporting a modestly larger short that also collects funding."
     }
   ],
-  "llm_bar_index": 167,
+  "llm_bar_index": 168,
   "llm_usage": {
-    "calls": 32,
-    "prompt_tokens": 11482,
-    "completion_tokens": 36571
+    "calls": 33,
+    "prompt_tokens": 11840,
+    "completion_tokens": 37335
   },
   "cash": 12513.49272588825,
   "positions": {
@@ -925,9 +931,13 @@
     [
       "2026-09-24T05:30:00",
       10001.88
+    ],
+    [
+      "2026-09-24T05:45:00",
+      10004.62
     ]
   ],
-  "last_bar_ts": "2026-09-24T05:30:00",
-  "bars_processed": 167,
+  "last_bar_ts": "2026-09-24T05:45:00",
+  "bars_processed": 168,
   "starting_cash": 10000.0
 }
