@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T14:15:56",
+  "saved_at": "2026-09-24T14:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Weak trend, RSI<50, and extreme positive funding/perp premium favor the existing profitable short, though thin volume and squeeze risk cap sizing."
     }
   ],
-  "llm_bar_index": 2948,
+  "llm_bar_index": 2949,
   "llm_usage": {
     "calls": 735,
     "prompt_tokens": 264100,
@@ -3921,10 +3921,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T18:15:00",
-      9728.24
-    ],
     [
       "2026-09-03T18:30:00",
       9728.28
@@ -11920,9 +11916,13 @@
     [
       "2026-09-24T14:00:00",
       9622.24
+    ],
+    [
+      "2026-09-24T14:15:00",
+      9617.08
     ]
   ],
-  "last_bar_ts": "2026-09-24T14:00:00",
-  "bars_processed": 2980,
+  "last_bar_ts": "2026-09-24T14:15:00",
+  "bars_processed": 2981,
   "starting_cash": 10000.0
 }
