@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T08:01:20",
+  "saved_at": "2026-09-24T08:15:56",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -214,7 +214,7 @@
       "reason": "Bearish structure (12h/48h SMA ratio <1, 24h red) plus extreme positive funding and elevated perp premium signal crowded, overpaying longs, supporting a modest short add while collecting carry."
     }
   ],
-  "llm_bar_index": 176,
+  "llm_bar_index": 177,
   "llm_usage": {
     "calls": 35,
     "prompt_tokens": 12558,
@@ -979,9 +979,13 @@
     [
       "2026-09-24T07:45:00",
       10006.46
+    ],
+    [
+      "2026-09-24T08:00:00",
+      10011.7
     ]
   ],
-  "last_bar_ts": "2026-09-24T07:45:00",
-  "bars_processed": 176,
+  "last_bar_ts": "2026-09-24T08:00:00",
+  "bars_processed": 177,
   "starting_cash": 10000.0
 }
