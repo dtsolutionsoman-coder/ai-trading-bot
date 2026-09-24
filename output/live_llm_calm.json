@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T02:45:28",
+  "saved_at": "2026-09-24T03:01:06",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -176,19 +176,25 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Downtrend, SMA ratio below 1, and heavily positive funding favor the existing small profitable short, but near-oversold RSI and very thin volume argue against adding risk here."
+    },
+    {
+      "ts": "2026-09-24T02:45:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme funding and perp premium signal crowded overleveraged longs with SMA ratio below 1 supporting the short, though the 1-6h bounce warrants only modest added exposure."
     }
   ],
-  "llm_bar_index": 155,
+  "llm_bar_index": 156,
   "llm_usage": {
-    "calls": 29,
-    "prompt_tokens": 10401,
-    "completion_tokens": 33460
+    "calls": 30,
+    "prompt_tokens": 10762,
+    "completion_tokens": 34408
   },
-  "cash": 12491.482007110095,
+  "cash": 12502.816756356253,
   "positions": {
     "BTC": {
-      "qty": -0.028973333617807667,
-      "avg_price": 86292.26535380998,
+      "qty": -0.029105463087127147,
+      "avg_price": 86290.35313939485,
       "realized_pnl": -3.187175582369284
     }
   },
@@ -219,6 +225,15 @@
       "fee": 1.5024487285033246,
       "realized": 0.0,
       "reason": "LLM sell conv=0.30: Negative momentum across timeframes, RSI below 50, and extremely high positive funding favor adding modestly to the already profitable short despite thin volume. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-24T02:45:00",
+      "side": "sell",
+      "qty": 0.00013212946931948077,
+      "price": 85871.043,
+      "fee": 0.011346095341500315,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.30: Extreme funding and perp premium signal crowded overleveraged longs with SMA ratio below 1 supporting the short, though the 1-6h bounce warrants only modest added exposure. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -841,9 +856,13 @@
     [
       "2026-09-24T02:30:00",
       10003.63
+    ],
+    [
+      "2026-09-24T02:45:00",
+      10002.25
     ]
   ],
-  "last_bar_ts": "2026-09-24T02:30:00",
-  "bars_processed": 155,
+  "last_bar_ts": "2026-09-24T02:45:00",
+  "bars_processed": 156,
   "starting_cash": 10000.0
 }
