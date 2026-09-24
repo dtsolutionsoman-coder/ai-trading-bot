@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T00:15:48",
+  "saved_at": "2026-09-24T00:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -166,7 +166,7 @@
       "reason": "Bearish 6h/24h trend, sub-1 SMA ratio, and rich perp premium with steep positive funding support keeping the small profitable short, but the 1h bounce and neutral RSI argue against adding here."
     }
   ],
-  "llm_bar_index": 145,
+  "llm_bar_index": 146,
   "llm_usage": {
     "calls": 27,
     "prompt_tokens": 9681,
@@ -789,9 +789,13 @@
     [
       "2026-09-24T00:00:00",
       10007.34
+    ],
+    [
+      "2026-09-24T00:15:00",
+      10006.12
     ]
   ],
-  "last_bar_ts": "2026-09-24T00:00:00",
-  "bars_processed": 145,
+  "last_bar_ts": "2026-09-24T00:15:00",
+  "bars_processed": 146,
   "starting_cash": 10000.0
 }
