@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T01:30:33",
+  "saved_at": "2026-09-24T01:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Existing short is profitable and supported by falling 24h trend, sub-1 SMA ratio, and extreme long-crowded funding/premium, but flat 1h-6h momentum and neutral RSI argue against adding risk."
     }
   ],
-  "llm_bar_index": 2897,
+  "llm_bar_index": 2898,
   "llm_usage": {
     "calls": 722,
     "prompt_tokens": 259411,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T05:30:00",
-      9917.95
-    ],
     [
       "2026-09-03T05:45:00",
       9887.87
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T01:15:00",
       9600.54
+    ],
+    [
+      "2026-09-24T01:30:00",
+      9602.27
     ]
   ],
-  "last_bar_ts": "2026-09-24T01:15:00",
-  "bars_processed": 2929,
+  "last_bar_ts": "2026-09-24T01:30:00",
+  "bars_processed": 2930,
   "starting_cash": 10000.0
 }

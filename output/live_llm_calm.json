@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T01:30:33",
+  "saved_at": "2026-09-24T01:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -172,7 +172,7 @@
       "reason": "Mildly bearish trend and extreme funding/perp premium signal crowded longs, supporting the existing profitable short, but neutral RSI and thin volume argue against adding."
     }
   ],
-  "llm_bar_index": 150,
+  "llm_bar_index": 151,
   "llm_usage": {
     "calls": 28,
     "prompt_tokens": 10040,
@@ -815,9 +815,13 @@
     [
       "2026-09-24T01:15:00",
       10005.22
+    ],
+    [
+      "2026-09-24T01:30:00",
+      10006.99
     ]
   ],
-  "last_bar_ts": "2026-09-24T01:15:00",
-  "bars_processed": 150,
+  "last_bar_ts": "2026-09-24T01:30:00",
+  "bars_processed": 151,
   "starting_cash": 10000.0
 }
