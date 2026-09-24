@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T11:15:52",
+  "saved_at": "2026-09-24T11:30:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish 24h trend with SMA ratio below 1 and extreme positive funding/perp premium signaling trapped longs paying carry; profitable short merits a modest add despite the minor 1h bounce."
     }
   ],
-  "llm_bar_index": 2936,
+  "llm_bar_index": 2937,
   "llm_usage": {
     "calls": 732,
     "prompt_tokens": 263023,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T15:15:00",
-      9772.4
-    ],
     [
       "2026-09-03T15:30:00",
       9769.61
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T11:00:00",
       9607.66
+    ],
+    [
+      "2026-09-24T11:15:00",
+      9614.73
     ]
   ],
-  "last_bar_ts": "2026-09-24T11:00:00",
-  "bars_processed": 2968,
+  "last_bar_ts": "2026-09-24T11:15:00",
+  "bars_processed": 2969,
   "starting_cash": 10000.0
 }
