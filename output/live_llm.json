@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-24T14:00:43",
+  "saved_at": "2026-09-24T14:15:56",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-03T15:00:00",
-      "action": "hold",
-      "conviction": 0.03,
-      "reason": "Keeping the small short: RSI 81 and 337% annualized funding signal an overleveraged long squeeze with favorable carry, though strong upward momentum argues against adding."
-    },
     {
       "ts": "2026-09-03T16:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.35,
       "reason": "Extreme positive funding and perp premium signal crowded longs while 6h/24h momentum and SMA ratio trend down, supporting the profitable short despite squeeze risk."
+    },
+    {
+      "ts": "2026-09-24T14:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Weak trend, RSI<50, and extreme positive funding/perp premium favor the existing profitable short, though thin volume and squeeze risk cap sizing."
     }
   ],
-  "llm_bar_index": 2947,
+  "llm_bar_index": 2948,
   "llm_usage": {
-    "calls": 734,
-    "prompt_tokens": 263742,
-    "completion_tokens": 747097
+    "calls": 735,
+    "prompt_tokens": 264100,
+    "completion_tokens": 748527
   },
   "cash": 12047.128076861984,
   "positions": {
@@ -3921,10 +3921,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T18:00:00",
-      9727.96
-    ],
     [
       "2026-09-03T18:15:00",
       9728.24
@@ -11920,9 +11916,13 @@
     [
       "2026-09-24T13:45:00",
       9631.05
+    ],
+    [
+      "2026-09-24T14:00:00",
+      9622.24
     ]
   ],
-  "last_bar_ts": "2026-09-24T13:45:00",
-  "bars_processed": 2979,
+  "last_bar_ts": "2026-09-24T14:00:00",
+  "bars_processed": 2980,
   "starting_cash": 10000.0
 }
