@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T10:19:44",
+  "saved_at": "2026-09-24T10:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Price below SMA trend with extreme positive funding and perp premium signaling crowded longs as OI rises, supporting a modestly larger short that also collects funding."
     }
   ],
-  "llm_bar_index": 2932,
+  "llm_bar_index": 2933,
   "llm_usage": {
     "calls": 731,
     "prompt_tokens": 262660,
@@ -3912,10 +3912,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T14:15:00",
-      9815.49
-    ],
     [
       "2026-09-03T14:30:00",
       9811.55
@@ -11911,9 +11907,13 @@
     [
       "2026-09-24T10:00:00",
       9615.69
+    ],
+    [
+      "2026-09-24T10:15:00",
+      9615.52
     ]
   ],
-  "last_bar_ts": "2026-09-24T10:00:00",
-  "bars_processed": 2964,
+  "last_bar_ts": "2026-09-24T10:15:00",
+  "bars_processed": 2965,
   "starting_cash": 10000.0
 }
