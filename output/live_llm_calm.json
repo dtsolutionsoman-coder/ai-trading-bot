@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T09:30:32",
+  "saved_at": "2026-09-24T09:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -220,7 +220,7 @@
       "reason": "Downtrend and rich funding favor the existing small profitable short, but RSI 22 oversold and extreme perp premium create squeeze risk, so keep rather than add."
     }
   ],
-  "llm_bar_index": 182,
+  "llm_bar_index": 183,
   "llm_usage": {
     "calls": 36,
     "prompt_tokens": 12916,
@@ -1009,9 +1009,13 @@
     [
       "2026-09-24T09:15:00",
       10042.89
+    ],
+    [
+      "2026-09-24T09:30:00",
+      10046.01
     ]
   ],
-  "last_bar_ts": "2026-09-24T09:15:00",
-  "bars_processed": 182,
+  "last_bar_ts": "2026-09-24T09:30:00",
+  "bars_processed": 183,
   "starting_cash": 10000.0
 }
