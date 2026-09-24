@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-24T17:00:41",
+  "saved_at": "2026-09-24T17:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-03T18:00:00",
-      "action": "buy",
-      "conviction": 0.2,
-      "reason": "Covering the losing short as momentum, SMA ratio, and RSI all align bullish, but extreme 870% funding and 102bps perp premium froth cap any new long size."
-    },
     {
       "ts": "2026-09-03T19:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.2,
       "reason": "Downtrend (SMA12h<48h, negative 6h/24h), falling OI, and extreme positive funding all favor shorts, so modestly adding to the profitable short."
+    },
+    {
+      "ts": "2026-09-24T17:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Mildly bearish momentum, SMA ratio below 1, and extreme positive funding favor the existing profitable short, but neutral RSI and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 2959,
+  "llm_bar_index": 2960,
   "llm_usage": {
-    "calls": 737,
-    "prompt_tokens": 264822,
-    "completion_tokens": 750946
+    "calls": 738,
+    "prompt_tokens": 265183,
+    "completion_tokens": 752044
   },
   "cash": 11567.836174030252,
   "positions": {
@@ -3930,10 +3930,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-03T21:00:00",
-      9703.86
-    ],
     [
       "2026-09-03T21:15:00",
       9705.12
@@ -11929,9 +11925,13 @@
     [
       "2026-09-24T16:45:00",
       9629.49
+    ],
+    [
+      "2026-09-24T17:00:00",
+      9630.31
     ]
   ],
-  "last_bar_ts": "2026-09-24T16:45:00",
-  "bars_processed": 2991,
+  "last_bar_ts": "2026-09-24T17:00:00",
+  "bars_processed": 2992,
   "starting_cash": 10000.0
 }
