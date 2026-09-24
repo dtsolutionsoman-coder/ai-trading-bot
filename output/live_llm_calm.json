@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-24T13:45:28",
+  "saved_at": "2026-09-24T14:00:58",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -242,13 +242,19 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "Downtrend intact (negative 6h/24h, SMA12<48) with rising OI and extreme funding premium signaling crowded longs; existing short is profitable, so add modestly."
+    },
+    {
+      "ts": "2026-09-24T13:45:00",
+      "action": "sell",
+      "conviction": 0.5,
+      "reason": "Bearish trend (SMA ratio 0.989, negative 6h/24h) plus extreme positive funding and perp premium favor adding to the profitable short, tempered by near-oversold RSI and a slight 1h bounce."
     }
   ],
-  "llm_bar_index": 199,
+  "llm_bar_index": 200,
   "llm_usage": {
-    "calls": 40,
-    "prompt_tokens": 14360,
-    "completion_tokens": 45089
+    "calls": 41,
+    "prompt_tokens": 14718,
+    "completion_tokens": 45879
   },
   "cash": 12555.188949299816,
   "positions": {
@@ -1110,9 +1116,13 @@
     [
       "2026-09-24T13:30:00",
       10036.02
+    ],
+    [
+      "2026-09-24T13:45:00",
+      10036.65
     ]
   ],
-  "last_bar_ts": "2026-09-24T13:30:00",
-  "bars_processed": 199,
+  "last_bar_ts": "2026-09-24T13:45:00",
+  "bars_processed": 200,
   "starting_cash": 10000.0
 }
