@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T01:30:31",
+  "saved_at": "2026-09-25T01:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend (SMA12<48, 24h negative) with extreme positive funding and perp premium signaling crowded longs while OI unwinds; modestly adding to the profitable short."
     }
   ],
-  "llm_bar_index": 2993,
+  "llm_bar_index": 2994,
   "llm_usage": {
     "calls": 746,
     "prompt_tokens": 268062,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T05:30:00",
-      9722.7
-    ],
     [
       "2026-09-04T05:45:00",
       9751.39
@@ -11938,9 +11934,13 @@
     [
       "2026-09-25T01:15:00",
       9622.57
+    ],
+    [
+      "2026-09-25T01:30:00",
+      9626.48
     ]
   ],
-  "last_bar_ts": "2026-09-25T01:15:00",
-  "bars_processed": 3025,
+  "last_bar_ts": "2026-09-25T01:30:00",
+  "bars_processed": 3026,
   "starting_cash": 10000.0
 }
