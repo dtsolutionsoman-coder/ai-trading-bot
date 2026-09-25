@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-25T07:00:38",
+  "saved_at": "2026-09-25T07:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-04T08:00:00",
-      "action": "hold",
-      "conviction": 0.0,
-      "reason": "unparseable response"
-    },
     {
       "ts": "2026-09-04T09:00:00",
       "action": "hold",
@@ -3002,19 +2996,25 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "Downside momentum, SMA ratio below 1, falling OI, and extreme positive funding squeezing crowded longs all support extending the profitable short."
+    },
+    {
+      "ts": "2026-09-25T07:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Downside momentum, bearish MA cross, and extreme positive funding with perp premium favor adding to the small profitable short while collecting funding carry."
     }
   ],
-  "llm_bar_index": 3015,
+  "llm_bar_index": 3016,
   "llm_usage": {
-    "calls": 751,
-    "prompt_tokens": 269865,
-    "completion_tokens": 767003
+    "calls": 752,
+    "prompt_tokens": 270227,
+    "completion_tokens": 768108
   },
-  "cash": 12046.362500965104,
+  "cash": 12057.145763104802,
   "positions": {
     "BTC": {
-      "qty": -0.028517176301987794,
-      "avg_price": 86368.38856393094,
+      "qty": -0.028645463298303576,
+      "avg_price": 86358.40845131657,
       "realized_pnl": -148.4881274475089
     }
   },
@@ -3936,13 +3936,18 @@
       "fee": 0.4790053322671199,
       "realized": 0.0,
       "reason": "LLM sell conv=0.45: Mild downtrend (SMA ratio <1, -1.16% 24h), falling OI, and extreme positive funding/perp premium favor the existing profitable short, though elevated RSI tempers size. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-25T07:00:00",
+      "side": "sell",
+      "qty": 0.00012828699631578164,
+      "price": 84139.909,
+      "fee": 0.010794056195893202,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.45: Downside momentum, bearish MA cross, and extreme positive funding with perp premium favor adding to the small profitable short while collecting funding carry. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T11:00:00",
-      9725.75
-    ],
     [
       "2026-09-04T11:15:00",
       9717.45
@@ -11938,9 +11943,13 @@
     [
       "2026-09-25T06:45:00",
       9634.98
+    ],
+    [
+      "2026-09-25T07:00:00",
+      9645.71
     ]
   ],
-  "last_bar_ts": "2026-09-25T06:45:00",
-  "bars_processed": 3047,
+  "last_bar_ts": "2026-09-25T07:00:00",
+  "bars_processed": 3048,
   "starting_cash": 10000.0
 }
