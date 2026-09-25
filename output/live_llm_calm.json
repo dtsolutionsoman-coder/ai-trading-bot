@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T11:00:51",
+  "saved_at": "2026-09-25T11:15:52",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -340,7 +340,7 @@
       "reason": "RSI 84 with 251% annualized funding and a premium while OI declines suggests an overextended, crowded long side; modestly adding to the small profitable short."
     }
   ],
-  "llm_bar_index": 284,
+  "llm_bar_index": 285,
   "llm_usage": {
     "calls": 56,
     "prompt_tokens": 20127,
@@ -1564,9 +1564,13 @@
     [
       "2026-09-25T10:45:00",
       10024.16
+    ],
+    [
+      "2026-09-25T11:00:00",
+      10011.19
     ]
   ],
-  "last_bar_ts": "2026-09-25T10:45:00",
-  "bars_processed": 284,
+  "last_bar_ts": "2026-09-25T11:00:00",
+  "bars_processed": 285,
   "starting_cash": 10000.0
 }
