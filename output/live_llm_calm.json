@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T06:30:38",
+  "saved_at": "2026-09-25T06:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -310,7 +310,7 @@
       "reason": "Downtrend across timeframes with SMA ratio below 1 and extreme positive funding signaling trapped longs supports the short, though near-oversold RSI and falling OI temper conviction."
     }
   ],
-  "llm_bar_index": 266,
+  "llm_bar_index": 267,
   "llm_usage": {
     "calls": 51,
     "prompt_tokens": 18324,
@@ -1462,9 +1462,13 @@
     [
       "2026-09-25T06:15:00",
       10036.86
+    ],
+    [
+      "2026-09-25T06:30:00",
+      10040.89
     ]
   ],
-  "last_bar_ts": "2026-09-25T06:15:00",
-  "bars_processed": 266,
+  "last_bar_ts": "2026-09-25T06:30:00",
+  "bars_processed": 267,
   "starting_cash": 10000.0
 }
