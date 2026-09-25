@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T18:30:35",
+  "saved_at": "2026-09-25T18:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish structure (negative premium, falling OI, overbought RSI) is offset by extreme negative funding that pays longs, so keep only the tiny existing long."
     }
   ],
-  "llm_bar_index": 3061,
+  "llm_bar_index": 3062,
   "llm_usage": {
     "calls": 763,
     "prompt_tokens": 274191,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T22:30:00",
-      9786.89
-    ],
     [
       "2026-09-04T22:45:00",
       9790.39
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T18:15:00",
       9699.43
+    ],
+    [
+      "2026-09-25T18:30:00",
+      9702.24
     ]
   ],
-  "last_bar_ts": "2026-09-25T18:15:00",
-  "bars_processed": 3093,
+  "last_bar_ts": "2026-09-25T18:30:00",
+  "bars_processed": 3094,
   "starting_cash": 10000.0
 }
