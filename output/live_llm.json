@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-25T14:00:42",
+  "saved_at": "2026-09-25T14:15:57",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-04T15:00:00",
-      "action": "hold",
-      "conviction": 0.2,
-      "reason": "Short-term momentum supports the small profitable short, but RSI 19 extreme oversold and intact medium-term uptrend (SMA ratio 1.02) argue against adding; keep current exposure."
-    },
     {
       "ts": "2026-09-04T16:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.15,
       "reason": "Profitable small short supported by sub-1 SMA ratio, RSI 42, and rich positive funding, but short-term momentum and falling OI argue against adding, so defend the win."
+    },
+    {
+      "ts": "2026-09-25T14:00:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 3043,
+  "llm_bar_index": 3044,
   "llm_usage": {
-    "calls": 758,
-    "prompt_tokens": 272386,
-    "completion_tokens": 774667
+    "calls": 759,
+    "prompt_tokens": 272745,
+    "completion_tokens": 776667
   },
   "cash": 12057.145763104802,
   "positions": {
@@ -3948,10 +3948,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T18:00:00",
-      9791.32
-    ],
     [
       "2026-09-04T18:15:00",
       9778.29
@@ -11947,9 +11943,13 @@
     [
       "2026-09-25T13:45:00",
       9661.1
+    ],
+    [
+      "2026-09-25T14:00:00",
+      9695.59
     ]
   ],
-  "last_bar_ts": "2026-09-25T13:45:00",
-  "bars_processed": 3075,
+  "last_bar_ts": "2026-09-25T14:00:00",
+  "bars_processed": 3076,
   "starting_cash": 10000.0
 }
