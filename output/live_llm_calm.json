@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T02:45:26",
+  "saved_at": "2026-09-25T03:01:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -284,20 +284,26 @@
       "action": "hold",
       "conviction": 0.55,
       "reason": "Extreme positive funding (345% ann.) with declining OI and sub-1 SMA ratio supports keeping the profitable small short, but weak price momentum and modest RSI cap conviction to hold rather than add."
+    },
+    {
+      "ts": "2026-09-25T02:45:00",
+      "action": "sell",
+      "conviction": 0.12,
+      "reason": "Bearish alignment across falling price, SMA ratio <1, RSI<50, and crowded longs paying extreme funding supports modestly adding to the profitable short despite thin-volume squeeze risk."
     }
   ],
-  "llm_bar_index": 251,
+  "llm_bar_index": 252,
   "llm_usage": {
-    "calls": 47,
-    "prompt_tokens": 16882,
-    "completion_tokens": 52146
+    "calls": 48,
+    "prompt_tokens": 17244,
+    "completion_tokens": 53653
   },
-  "cash": 12555.188949299816,
+  "cash": 11242.208019867716,
   "positions": {
     "BTC": {
-      "qty": -0.02972466249199566,
+      "qty": -0.01423445450126746,
       "avg_price": 86256.49849936472,
-      "realized_pnl": -3.187175582369284
+      "realized_pnl": 21.274666552796443
     }
   },
   "recent_fills": [
@@ -354,6 +360,15 @@
       "fee": 0.041737961372937636,
       "realized": 0.0,
       "reason": "LLM sell conv=0.50: Downtrend, SMA ratio below 1, extreme positive funding and rising OI signal crowded longs prone to further liquidation; short is profitable, but deeply oversold RSI caps added size. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-25T02:45:00",
+      "side": "buy",
+      "qty": 0.015490207990728198,
+      "price": 84677.31749999999,
+      "fee": 1.3116692601719286,
+      "realized": 24.46184213516573,
+      "reason": "LLM sell conv=0.12: Bearish alignment across falling price, SMA ratio <1, RSI<50, and crowded longs paying extreme funding supports modestly adding to the profitable short despite thin-volume squeeze risk."
     }
   ],
   "equity_curve": [
@@ -1360,9 +1375,13 @@
     [
       "2026-09-25T02:30:00",
       10034.15
+    ],
+    [
+      "2026-09-25T02:45:00",
+      10037.47
     ]
   ],
-  "last_bar_ts": "2026-09-25T02:30:00",
-  "bars_processed": 251,
+  "last_bar_ts": "2026-09-25T02:45:00",
+  "bars_processed": 252,
   "starting_cash": 10000.0
 }

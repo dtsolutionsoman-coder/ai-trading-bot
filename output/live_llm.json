@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T02:45:25",
+  "saved_at": "2026-09-25T03:01:13",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding, perp premium, and overbought RSI against a bearish MA structure support adding to the profitable short."
     }
   ],
-  "llm_bar_index": 2998,
+  "llm_bar_index": 2999,
   "llm_usage": {
     "calls": 747,
     "prompt_tokens": 268424,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T06:45:00",
-      9732.32
-    ],
     [
       "2026-09-04T07:00:00",
       9725.66
@@ -11938,9 +11934,13 @@
     [
       "2026-09-25T02:30:00",
       9627.74
+    ],
+    [
+      "2026-09-25T02:45:00",
+      9632.81
     ]
   ],
-  "last_bar_ts": "2026-09-25T02:30:00",
-  "bars_processed": 3030,
+  "last_bar_ts": "2026-09-25T02:45:00",
+  "bars_processed": 3031,
   "starting_cash": 10000.0
 }
