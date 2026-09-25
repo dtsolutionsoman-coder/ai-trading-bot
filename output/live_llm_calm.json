@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T10:45:27",
+  "saved_at": "2026-09-25T11:00:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -332,13 +332,19 @@
       "action": "sell",
       "conviction": 0.35,
       "reason": "Extreme positive funding (227% ann) signals crowded longs while price trends slightly down, SMA ratio below 1, and OI declines; short earns funding carry and is already in profit."
+    },
+    {
+      "ts": "2026-09-25T10:45:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "RSI 84 with 251% annualized funding and a premium while OI declines suggests an overextended, crowded long side; modestly adding to the small profitable short."
     }
   ],
-  "llm_bar_index": 283,
+  "llm_bar_index": 284,
   "llm_usage": {
-    "calls": 55,
-    "prompt_tokens": 19766,
-    "completion_tokens": 61206
+    "calls": 56,
+    "prompt_tokens": 20127,
+    "completion_tokens": 62068
   },
   "cash": 12546.077750690114,
   "positions": {
@@ -1554,9 +1560,13 @@
     [
       "2026-09-25T10:30:00",
       10026.83
+    ],
+    [
+      "2026-09-25T10:45:00",
+      10024.16
     ]
   ],
-  "last_bar_ts": "2026-09-25T10:30:00",
-  "bars_processed": 283,
+  "last_bar_ts": "2026-09-25T10:45:00",
+  "bars_processed": 284,
   "starting_cash": 10000.0
 }
