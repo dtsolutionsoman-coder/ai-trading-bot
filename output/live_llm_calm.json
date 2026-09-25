@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T23:00:49",
+  "saved_at": "2026-09-25T23:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -412,7 +412,7 @@
       "reason": "Bearish trend and negative perp premium offset by extreme negative funding and falling OI suggesting crowded shorts; keeping the small profitable long with minimal exposure in thin volume."
     }
   ],
-  "llm_bar_index": 332,
+  "llm_bar_index": 333,
   "llm_usage": {
     "calls": 68,
     "prompt_tokens": 24449,
@@ -1837,9 +1837,13 @@
     [
       "2026-09-25T22:45:00",
       10105.81
+    ],
+    [
+      "2026-09-25T23:00:00",
+      10103.32
     ]
   ],
-  "last_bar_ts": "2026-09-25T22:45:00",
-  "bars_processed": 332,
+  "last_bar_ts": "2026-09-25T23:00:00",
+  "bars_processed": 333,
   "starting_cash": 10000.0
 }
