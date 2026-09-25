@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T11:15:52",
+  "saved_at": "2026-09-25T11:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 87, 211% annualized funding, and perp premium with falling OI flag a crowded short-covering rally, so modestly adding to the small profitable short while collecting funding carry."
     }
   ],
-  "llm_bar_index": 3032,
+  "llm_bar_index": 3033,
   "llm_usage": {
     "calls": 756,
     "prompt_tokens": 271666,
@@ -3948,10 +3948,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T15:15:00",
-      9805.93
-    ],
     [
       "2026-09-04T15:30:00",
       9801.47
@@ -11947,9 +11943,13 @@
     [
       "2026-09-25T11:00:00",
       9610.25
+    ],
+    [
+      "2026-09-25T11:15:00",
+      9616.24
     ]
   ],
-  "last_bar_ts": "2026-09-25T11:00:00",
-  "bars_processed": 3064,
+  "last_bar_ts": "2026-09-25T11:15:00",
+  "bars_processed": 3065,
   "starting_cash": 10000.0
 }
