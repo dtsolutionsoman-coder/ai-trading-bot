@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T08:00:57",
+  "saved_at": "2026-09-25T08:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -322,7 +322,7 @@
       "reason": "Profitable short aligns with falling trend, crowded long funding, and declining OI, but near-oversold RSI and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 272,
+  "llm_bar_index": 273,
   "llm_usage": {
     "calls": 53,
     "prompt_tokens": 19044,
@@ -1498,9 +1498,13 @@
     [
       "2026-09-25T07:45:00",
       10048.28
+    ],
+    [
+      "2026-09-25T08:00:00",
+      10042.17
     ]
   ],
-  "last_bar_ts": "2026-09-25T07:45:00",
-  "bars_processed": 272,
+  "last_bar_ts": "2026-09-25T08:00:00",
+  "bars_processed": 273,
   "starting_cash": 10000.0
 }
