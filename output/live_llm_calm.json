@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T15:30:35",
+  "saved_at": "2026-09-25T15:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -364,7 +364,7 @@
       "reason": "Extreme oversold RSI (17.4), deeply negative funding and perp discount signal crowded shorts and squeeze risk; taking profit on the winning short rather than paying funding."
     }
   ],
-  "llm_bar_index": 302,
+  "llm_bar_index": 303,
   "llm_usage": {
     "calls": 60,
     "prompt_tokens": 21571,
@@ -1669,9 +1669,13 @@
     [
       "2026-09-25T15:15:00",
       10095.01
+    ],
+    [
+      "2026-09-25T15:30:00",
+      10093.57
     ]
   ],
-  "last_bar_ts": "2026-09-25T15:15:00",
-  "bars_processed": 302,
+  "last_bar_ts": "2026-09-25T15:30:00",
+  "bars_processed": 303,
   "starting_cash": 10000.0
 }
