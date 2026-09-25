@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T04:30:37",
+  "saved_at": "2026-09-25T04:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend, crowded-long funding (351% ann favors shorts), and declining OI support adding to the profitable short, though oversold RSI caps conviction."
     }
   ],
-  "llm_bar_index": 3005,
+  "llm_bar_index": 3006,
   "llm_usage": {
     "calls": 749,
     "prompt_tokens": 269145,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T08:30:00",
-      9721.14
-    ],
     [
       "2026-09-04T08:45:00",
       9727.92
@@ -11938,9 +11934,13 @@
     [
       "2026-09-25T04:15:00",
       9638.71
+    ],
+    [
+      "2026-09-25T04:30:00",
+      9633.1
     ]
   ],
-  "last_bar_ts": "2026-09-25T04:15:00",
-  "bars_processed": 3037,
+  "last_bar_ts": "2026-09-25T04:30:00",
+  "bars_processed": 3038,
   "starting_cash": 10000.0
 }
