@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T19:45:28",
+  "saved_at": "2026-09-25T20:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Weak trend and declining OI offset by extreme negative funding and short-crowding that supports the existing small profitable long; not enough agreement to add or cut."
     }
   ],
-  "llm_bar_index": 3066,
+  "llm_bar_index": 3067,
   "llm_usage": {
     "calls": 764,
     "prompt_tokens": 274552,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T23:45:00",
-      9786.79
-    ],
     [
       "2026-09-05T00:00:00",
       9790.82
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T19:30:00",
       9705.1
+    ],
+    [
+      "2026-09-25T19:45:00",
+      9703.44
     ]
   ],
-  "last_bar_ts": "2026-09-25T19:30:00",
-  "bars_processed": 3098,
+  "last_bar_ts": "2026-09-25T19:45:00",
+  "bars_processed": 3099,
   "starting_cash": 10000.0
 }
