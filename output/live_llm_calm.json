@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T14:30:34",
+  "saved_at": "2026-09-25T14:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -358,7 +358,7 @@
       "reason": "Downtrend supports the small profitable short, but RSI 25 and extreme negative funding (-202%) signal crowded-short squeeze risk, so keep the position small rather than add."
     }
   ],
-  "llm_bar_index": 298,
+  "llm_bar_index": 299,
   "llm_usage": {
     "calls": 59,
     "prompt_tokens": 21209,
@@ -1638,9 +1638,13 @@
     [
       "2026-09-25T14:15:00",
       10096.62
+    ],
+    [
+      "2026-09-25T14:30:00",
+      10099.09
     ]
   ],
-  "last_bar_ts": "2026-09-25T14:15:00",
-  "bars_processed": 298,
+  "last_bar_ts": "2026-09-25T14:30:00",
+  "bars_processed": 299,
   "starting_cash": 10000.0
 }
