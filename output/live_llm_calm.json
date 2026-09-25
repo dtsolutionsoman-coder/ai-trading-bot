@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T04:45:24",
+  "saved_at": "2026-09-25T05:00:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -296,13 +296,19 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Downtrend across timeframes with SMA ratio below 1 and extreme positive funding rewards shorts, but RSI near oversold and falling OI warrant only moderate position sizing on the profitable short."
+    },
+    {
+      "ts": "2026-09-25T04:45:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Downtrend (SMA ratio <1, negative 24h) plus extreme positive funding and perp premium signaling crowded longs justify modestly adding to the profitable short, though low RSI caps conviction."
     }
   ],
-  "llm_bar_index": 259,
+  "llm_bar_index": 260,
   "llm_usage": {
-    "calls": 49,
-    "prompt_tokens": 17604,
-    "completion_tokens": 54642
+    "calls": 50,
+    "prompt_tokens": 17964,
+    "completion_tokens": 55686
   },
   "cash": 12546.077750690114,
   "positions": {
@@ -1422,9 +1428,13 @@
     [
       "2026-09-25T04:30:00",
       10034.78
+    ],
+    [
+      "2026-09-25T04:45:00",
+      10036.95
     ]
   ],
-  "last_bar_ts": "2026-09-25T04:30:00",
-  "bars_processed": 259,
+  "last_bar_ts": "2026-09-25T04:45:00",
+  "bars_processed": 260,
   "starting_cash": 10000.0
 }
