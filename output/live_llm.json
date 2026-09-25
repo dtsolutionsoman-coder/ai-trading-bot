@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T03:30:33",
+  "saved_at": "2026-09-25T03:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Persistent downside momentum, SMA12/48 below 1, RSI 37, and extreme positive funding with falling OI signal crowded longs unwinding, supporting adding modestly to the profitable short."
     }
   ],
-  "llm_bar_index": 3001,
+  "llm_bar_index": 3002,
   "llm_usage": {
     "calls": 748,
     "prompt_tokens": 268785,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T07:30:00",
-      9728.71
-    ],
     [
       "2026-09-04T07:45:00",
       9731.85
@@ -11938,9 +11934,13 @@
     [
       "2026-09-25T03:15:00",
       9634.27
+    ],
+    [
+      "2026-09-25T03:30:00",
+      9635.15
     ]
   ],
-  "last_bar_ts": "2026-09-25T03:15:00",
-  "bars_processed": 3033,
+  "last_bar_ts": "2026-09-25T03:30:00",
+  "bars_processed": 3034,
   "starting_cash": 10000.0
 }
