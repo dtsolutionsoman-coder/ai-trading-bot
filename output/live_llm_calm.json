@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T07:30:34",
+  "saved_at": "2026-09-25T07:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -316,7 +316,7 @@
       "reason": "Mild downtrend with SMA12h below SMA48h, extreme positive funding and perp premium reward shorts, so extend the small profitable short modestly despite thin liquidity."
     }
   ],
-  "llm_bar_index": 270,
+  "llm_bar_index": 271,
   "llm_usage": {
     "calls": 52,
     "prompt_tokens": 18684,
@@ -1484,9 +1484,13 @@
     [
       "2026-09-25T07:15:00",
       10045.55
+    ],
+    [
+      "2026-09-25T07:30:00",
+      10051.43
     ]
   ],
-  "last_bar_ts": "2026-09-25T07:15:00",
-  "bars_processed": 270,
+  "last_bar_ts": "2026-09-25T07:30:00",
+  "bars_processed": 271,
   "starting_cash": 10000.0
 }
