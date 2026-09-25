@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T21:30:32",
+  "saved_at": "2026-09-25T21:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -400,7 +400,7 @@
       "reason": "Mildly bearish trend and thin volume offset by extreme negative funding and perp discount suggesting crowded shorts; keeping the small long with minimal exposure."
     }
   ],
-  "llm_bar_index": 326,
+  "llm_bar_index": 327,
   "llm_usage": {
     "calls": 66,
     "prompt_tokens": 23729,
@@ -1801,9 +1801,13 @@
     [
       "2026-09-25T21:15:00",
       10095.28
+    ],
+    [
+      "2026-09-25T21:30:00",
+      10097.41
     ]
   ],
-  "last_bar_ts": "2026-09-25T21:15:00",
-  "bars_processed": 326,
+  "last_bar_ts": "2026-09-25T21:30:00",
+  "bars_processed": 327,
   "starting_cash": 10000.0
 }
