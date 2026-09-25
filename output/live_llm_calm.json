@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T16:00:54",
+  "saved_at": "2026-09-25T16:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -370,7 +370,7 @@
       "reason": "Bearish trend signals (SMA ratio <1, negative 6h/24h, perp discount) offset by deeply negative funding that pays the small profitable long; keeping minimal exposure."
     }
   ],
-  "llm_bar_index": 304,
+  "llm_bar_index": 305,
   "llm_usage": {
     "calls": 61,
     "prompt_tokens": 21931,
@@ -1683,9 +1683,13 @@
     [
       "2026-09-25T15:45:00",
       10098.63
+    ],
+    [
+      "2026-09-25T16:00:00",
+      10107.12
     ]
   ],
-  "last_bar_ts": "2026-09-25T15:45:00",
-  "bars_processed": 304,
+  "last_bar_ts": "2026-09-25T16:00:00",
+  "bars_processed": 305,
   "starting_cash": 10000.0
 }
