@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T03:15:52",
+  "saved_at": "2026-09-25T03:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -292,7 +292,7 @@
       "reason": "Bearish alignment across falling price, SMA ratio <1, RSI<50, and crowded longs paying extreme funding supports modestly adding to the profitable short despite thin-volume squeeze risk."
     }
   ],
-  "llm_bar_index": 253,
+  "llm_bar_index": 254,
   "llm_usage": {
     "calls": 48,
     "prompt_tokens": 17244,
@@ -1383,9 +1383,13 @@
     [
       "2026-09-25T03:00:00",
       10037.49
+    ],
+    [
+      "2026-09-25T03:15:00",
+      10038.2
     ]
   ],
-  "last_bar_ts": "2026-09-25T03:00:00",
-  "bars_processed": 253,
+  "last_bar_ts": "2026-09-25T03:15:00",
+  "bars_processed": 254,
   "starting_cash": 10000.0
 }
