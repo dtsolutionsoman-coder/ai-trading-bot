@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T17:45:28",
+  "saved_at": "2026-09-25T18:00:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -374,13 +374,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Bearish price momentum is offset by deeply negative funding and crowded shorts, so keep the small profitable long earning funding rather than adding or flipping."
+    },
+    {
+      "ts": "2026-09-25T17:45:00",
+      "action": "hold",
+      "conviction": 0.4,
+      "reason": "Bearish momentum and overbought RSI are offset by extreme negative funding that pays the existing small long, which is already profitable; no edge to add or cut."
     }
   ],
-  "llm_bar_index": 311,
+  "llm_bar_index": 312,
   "llm_usage": {
-    "calls": 62,
-    "prompt_tokens": 22290,
-    "completion_tokens": 67988
+    "calls": 63,
+    "prompt_tokens": 22649,
+    "completion_tokens": 68882
   },
   "cash": 7558.6071237326205,
   "positions": {
@@ -1717,9 +1723,13 @@
     [
       "2026-09-25T17:30:00",
       10104.17
+    ],
+    [
+      "2026-09-25T17:45:00",
+      10103.53
     ]
   ],
-  "last_bar_ts": "2026-09-25T17:30:00",
-  "bars_processed": 311,
+  "last_bar_ts": "2026-09-25T17:45:00",
+  "bars_processed": 312,
   "starting_cash": 10000.0
 }
