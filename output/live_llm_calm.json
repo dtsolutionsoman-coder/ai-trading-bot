@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T20:45:25",
+  "saved_at": "2026-09-25T21:00:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -392,13 +392,19 @@
       "action": "hold",
       "conviction": 0.25,
       "reason": "Mixed signals: deeply negative funding and perp discount support the small long squeeze setup, but weak trend (SMA ratio <1, falling OI) and thin volume warrant keeping exposure minimal."
+    },
+    {
+      "ts": "2026-09-25T20:45:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Mildly bearish trend and thin volume offset by extreme negative funding and perp discount suggesting crowded shorts; keeping the small long with minimal exposure."
     }
   ],
-  "llm_bar_index": 323,
+  "llm_bar_index": 324,
   "llm_usage": {
-    "calls": 65,
-    "prompt_tokens": 23369,
-    "completion_tokens": 70360
+    "calls": 66,
+    "prompt_tokens": 23729,
+    "completion_tokens": 70959
   },
   "cash": 7558.6071237326205,
   "positions": {
@@ -1783,9 +1789,13 @@
     [
       "2026-09-25T20:30:00",
       10107.49
+    ],
+    [
+      "2026-09-25T20:45:00",
+      10100.15
     ]
   ],
-  "last_bar_ts": "2026-09-25T20:30:00",
-  "bars_processed": 323,
+  "last_bar_ts": "2026-09-25T20:45:00",
+  "bars_processed": 324,
   "starting_cash": 10000.0
 }

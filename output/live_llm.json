@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T20:45:25",
+  "saved_at": "2026-09-25T21:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Deeply negative funding and falling OI with a 6h bounce hint at short-squeeze fuel, but a mild downtrend (SMA ratio <1, negative perp premium) and thin liquidity argue for keeping the small profitable"
     }
   ],
-  "llm_bar_index": 3070,
+  "llm_bar_index": 3071,
   "llm_usage": {
     "calls": 765,
     "prompt_tokens": 274913,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T00:45:00",
-      9804.95
-    ],
     [
       "2026-09-05T01:00:00",
       9807.66
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T20:30:00",
       9703.38
+    ],
+    [
+      "2026-09-25T20:45:00",
+      9696.33
     ]
   ],
-  "last_bar_ts": "2026-09-25T20:30:00",
-  "bars_processed": 3102,
+  "last_bar_ts": "2026-09-25T20:45:00",
+  "bars_processed": 3103,
   "starting_cash": 10000.0
 }
