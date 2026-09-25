@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T02:30:33",
+  "saved_at": "2026-09-25T02:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -286,7 +286,7 @@
       "reason": "Extreme positive funding (345% ann.) with declining OI and sub-1 SMA ratio supports keeping the profitable small short, but weak price momentum and modest RSI cap conviction to hold rather than add."
     }
   ],
-  "llm_bar_index": 250,
+  "llm_bar_index": 251,
   "llm_usage": {
     "calls": 47,
     "prompt_tokens": 16882,
@@ -1356,9 +1356,13 @@
     [
       "2026-09-25T02:15:00",
       10027.17
+    ],
+    [
+      "2026-09-25T02:30:00",
+      10034.15
     ]
   ],
-  "last_bar_ts": "2026-09-25T02:15:00",
-  "bars_processed": 250,
+  "last_bar_ts": "2026-09-25T02:30:00",
+  "bars_processed": 251,
   "starting_cash": 10000.0
 }
