@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T17:15:38",
+  "saved_at": "2026-09-25T17:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish momentum offset by extreme negative funding and declining OI suggesting short exhaustion; keeping the small profitable long with minimal exposure."
     }
   ],
-  "llm_bar_index": 3056,
+  "llm_bar_index": 3057,
   "llm_usage": {
     "calls": 762,
     "prompt_tokens": 273829,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T21:15:00",
-      9780.61
-    ],
     [
       "2026-09-04T21:30:00",
       9770.8
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T17:00:00",
       9704.81
+    ],
+    [
+      "2026-09-25T17:15:00",
+      9698.29
     ]
   ],
-  "last_bar_ts": "2026-09-25T17:00:00",
-  "bars_processed": 3088,
+  "last_bar_ts": "2026-09-25T17:15:00",
+  "bars_processed": 3089,
   "starting_cash": 10000.0
 }
