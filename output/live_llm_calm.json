@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T00:15:38",
+  "saved_at": "2026-09-25T00:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -274,7 +274,7 @@
       "reason": "Profitable short supported by sub-1 SMA ratio, extreme long funding, and perp premium, but positive 1h/6h momentum and RSI 65 cap conviction, so defend the small short rather than add."
     }
   ],
-  "llm_bar_index": 241,
+  "llm_bar_index": 242,
   "llm_usage": {
     "calls": 45,
     "prompt_tokens": 16161,
@@ -1308,9 +1308,13 @@
     [
       "2026-09-25T00:00:00",
       10026.42
+    ],
+    [
+      "2026-09-25T00:15:00",
+      10030.02
     ]
   ],
-  "last_bar_ts": "2026-09-25T00:00:00",
-  "bars_processed": 241,
+  "last_bar_ts": "2026-09-25T00:15:00",
+  "bars_processed": 242,
   "starting_cash": 10000.0
 }

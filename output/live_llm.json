@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T00:15:37",
+  "saved_at": "2026-09-25T00:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish MA structure, extreme positive funding (crowded longs), and declining OI support the existing profitable short; modest add despite minor short-term bounce."
     }
   ],
-  "llm_bar_index": 2988,
+  "llm_bar_index": 2989,
   "llm_usage": {
     "calls": 745,
     "prompt_tokens": 267702,
@@ -3939,10 +3939,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T04:15:00",
-      9726.24
-    ],
     [
       "2026-09-04T04:30:00",
       9723.18
@@ -11938,9 +11934,13 @@
     [
       "2026-09-25T00:00:00",
       9620.32
+    ],
+    [
+      "2026-09-25T00:15:00",
+      9623.77
     ]
   ],
-  "last_bar_ts": "2026-09-25T00:00:00",
-  "bars_processed": 3020,
+  "last_bar_ts": "2026-09-25T00:15:00",
+  "bars_processed": 3021,
   "starting_cash": 10000.0
 }
