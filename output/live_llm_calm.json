@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T20:00:54",
+  "saved_at": "2026-09-25T20:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -394,7 +394,7 @@
       "reason": "Mixed signals: deeply negative funding and perp discount support the small long squeeze setup, but weak trend (SMA ratio <1, falling OI) and thin volume warrant keeping exposure minimal."
     }
   ],
-  "llm_bar_index": 320,
+  "llm_bar_index": 321,
   "llm_usage": {
     "calls": 65,
     "prompt_tokens": 23369,
@@ -1771,9 +1771,13 @@
     [
       "2026-09-25T19:45:00",
       10107.55
+    ],
+    [
+      "2026-09-25T20:00:00",
+      10103.38
     ]
   ],
-  "last_bar_ts": "2026-09-25T19:45:00",
-  "bars_processed": 320,
+  "last_bar_ts": "2026-09-25T20:00:00",
+  "bars_processed": 321,
   "starting_cash": 10000.0
 }
