@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T21:15:42",
+  "saved_at": "2026-09-25T21:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish trend and falling OI argue against adding, but deeply negative funding signals crowded shorts, so keep the tiny profitable long collecting funding."
     }
   ],
-  "llm_bar_index": 3072,
+  "llm_bar_index": 3073,
   "llm_usage": {
     "calls": 766,
     "prompt_tokens": 275274,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T01:15:00",
-      9784.23
-    ],
     [
       "2026-09-05T01:30:00",
       9804.25
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T21:00:00",
       9690.96
+    ],
+    [
+      "2026-09-25T21:15:00",
+      9691.66
     ]
   ],
-  "last_bar_ts": "2026-09-25T21:00:00",
-  "bars_processed": 3104,
+  "last_bar_ts": "2026-09-25T21:15:00",
+  "bars_processed": 3105,
   "starting_cash": 10000.0
 }
