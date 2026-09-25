@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T10:16:14",
+  "saved_at": "2026-09-25T10:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -334,7 +334,7 @@
       "reason": "Extreme positive funding (227% ann) signals crowded longs while price trends slightly down, SMA ratio below 1, and OI declines; short earns funding carry and is already in profit."
     }
   ],
-  "llm_bar_index": 281,
+  "llm_bar_index": 282,
   "llm_usage": {
     "calls": 55,
     "prompt_tokens": 19766,
@@ -1546,9 +1546,13 @@
     [
       "2026-09-25T10:00:00",
       10026.8
+    ],
+    [
+      "2026-09-25T10:15:00",
+      10026.83
     ]
   ],
-  "last_bar_ts": "2026-09-25T10:00:00",
-  "bars_processed": 281,
+  "last_bar_ts": "2026-09-25T10:15:00",
+  "bars_processed": 282,
   "starting_cash": 10000.0
 }
