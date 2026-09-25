@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T13:30:33",
+  "saved_at": "2026-09-25T13:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -352,7 +352,7 @@
       "reason": "Existing short is profitable with positive funding carry in a weak trend (SMA ratio <1, RSI<50, OI unwinding), but the 6h bounce and positive perp premium argue against adding, so maintain the small s"
     }
   ],
-  "llm_bar_index": 294,
+  "llm_bar_index": 295,
   "llm_usage": {
     "calls": 58,
     "prompt_tokens": 20848,
@@ -1616,9 +1616,13 @@
     [
       "2026-09-25T13:15:00",
       10046.95
+    ],
+    [
+      "2026-09-25T13:30:00",
+      10062.2
     ]
   ],
-  "last_bar_ts": "2026-09-25T13:15:00",
-  "bars_processed": 294,
+  "last_bar_ts": "2026-09-25T13:30:00",
+  "bars_processed": 295,
   "starting_cash": 10000.0
 }
