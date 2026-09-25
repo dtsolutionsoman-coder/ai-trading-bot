@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T19:00:52",
+  "saved_at": "2026-09-25T19:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -388,7 +388,7 @@
       "reason": "Mild short-term downtrend and falling OI argue caution, but deeply negative funding and perp discount suggest crowded shorts that support the existing small long; keeping minimal exposure to defend th"
     }
   ],
-  "llm_bar_index": 316,
+  "llm_bar_index": 317,
   "llm_usage": {
     "calls": 64,
     "prompt_tokens": 23010,
@@ -1749,9 +1749,13 @@
     [
       "2026-09-25T18:45:00",
       10109.86
+    ],
+    [
+      "2026-09-25T19:00:00",
+      10110.53
     ]
   ],
-  "last_bar_ts": "2026-09-25T18:45:00",
-  "bars_processed": 316,
+  "last_bar_ts": "2026-09-25T19:00:00",
+  "bars_processed": 317,
   "starting_cash": 10000.0
 }
