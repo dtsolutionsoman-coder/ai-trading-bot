@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T22:30:32",
+  "saved_at": "2026-09-25T22:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild downtrend with weak momentum argues against adding, but extreme negative funding pays longs and squeeze risk is elevated, so keep small profitable long exposure."
     }
   ],
-  "llm_bar_index": 3077,
+  "llm_bar_index": 3078,
   "llm_usage": {
     "calls": 767,
     "prompt_tokens": 275636,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T02:30:00",
-      9802.88
-    ],
     [
       "2026-09-05T02:45:00",
       9789.69
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T22:15:00",
       9698.26
+    ],
+    [
+      "2026-09-25T22:30:00",
+      9701.65
     ]
   ],
-  "last_bar_ts": "2026-09-25T22:15:00",
-  "bars_processed": 3109,
+  "last_bar_ts": "2026-09-25T22:30:00",
+  "bars_processed": 3110,
   "starting_cash": 10000.0
 }
