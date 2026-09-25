@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T17:00:57",
+  "saved_at": "2026-09-25T17:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -376,7 +376,7 @@
       "reason": "Bearish price momentum is offset by deeply negative funding and crowded shorts, so keep the small profitable long earning funding rather than adding or flipping."
     }
   ],
-  "llm_bar_index": 308,
+  "llm_bar_index": 309,
   "llm_usage": {
     "calls": 62,
     "prompt_tokens": 22290,
@@ -1705,9 +1705,13 @@
     [
       "2026-09-25T16:45:00",
       10103.53
+    ],
+    [
+      "2026-09-25T17:00:00",
+      10108.98
     ]
   ],
-  "last_bar_ts": "2026-09-25T16:45:00",
-  "bars_processed": 308,
+  "last_bar_ts": "2026-09-25T17:00:00",
+  "bars_processed": 309,
   "starting_cash": 10000.0
 }
