@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-25T16:15:42",
+  "saved_at": "2026-09-25T16:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish short-term trend and sub-1 SMA ratio offset by extreme negative funding and perp discount that pay the long and favor a squeeze, so keeping the small profitable long without adding risk."
     }
   ],
-  "llm_bar_index": 3052,
+  "llm_bar_index": 3053,
   "llm_usage": {
     "calls": 761,
     "prompt_tokens": 273468,
@@ -3957,10 +3957,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-04T20:15:00",
-      9795.84
-    ],
     [
       "2026-09-04T20:30:00",
       9789.32
@@ -11956,9 +11952,13 @@
     [
       "2026-09-25T16:00:00",
       9703.03
+    ],
+    [
+      "2026-09-25T16:15:00",
+      9705.66
     ]
   ],
-  "last_bar_ts": "2026-09-25T16:00:00",
-  "bars_processed": 3084,
+  "last_bar_ts": "2026-09-25T16:15:00",
+  "bars_processed": 3085,
   "starting_cash": 10000.0
 }
