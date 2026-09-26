@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T13:15:35",
+  "saved_at": "2026-09-26T13:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -496,7 +496,7 @@
       "reason": "Mixed signals \u2014 weak trend structure (SMA ratio <1, negative 24h) offset by crowded shorts via deeply negative funding, so keep the small profitable long but don't add."
     }
   ],
-  "llm_bar_index": 389,
+  "llm_bar_index": 390,
   "llm_usage": {
     "calls": 82,
     "prompt_tokens": 29494,
@@ -2149,9 +2149,13 @@
     [
       "2026-09-26T13:00:00",
       10110.9
+    ],
+    [
+      "2026-09-26T13:15:00",
+      10107.19
     ]
   ],
-  "last_bar_ts": "2026-09-26T13:00:00",
-  "bars_processed": 389,
+  "last_bar_ts": "2026-09-26T13:15:00",
+  "bars_processed": 390,
   "starting_cash": 10000.0
 }
