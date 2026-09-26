@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T06:45:25",
+  "saved_at": "2026-09-26T07:00:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -452,13 +452,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Neutral price action with crowded shorts (deeply negative funding/premium) offers mild squeeze upside, but weak trend and falling OI argue against adding to the small profitable long."
+    },
+    {
+      "ts": "2026-09-26T06:45:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Bearish momentum (24h down, SMA ratio <1, RSI 40) is offset by extreme negative funding that pays the small profitable long, so keep minimal exposure."
     }
   ],
-  "llm_bar_index": 363,
+  "llm_bar_index": 364,
   "llm_usage": {
-    "calls": 75,
-    "prompt_tokens": 26970,
-    "completion_tokens": 79164
+    "calls": 76,
+    "prompt_tokens": 27331,
+    "completion_tokens": 80167
   },
   "cash": 7558.6071237326205,
   "positions": {
@@ -2003,9 +2009,13 @@
     [
       "2026-09-26T06:30:00",
       10103.77
+    ],
+    [
+      "2026-09-26T06:45:00",
+      10102.95
     ]
   ],
-  "last_bar_ts": "2026-09-26T06:30:00",
-  "bars_processed": 363,
+  "last_bar_ts": "2026-09-26T06:45:00",
+  "bars_processed": 364,
   "starting_cash": 10000.0
 }
