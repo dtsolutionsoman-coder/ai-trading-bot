@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T16:00:50",
+  "saved_at": "2026-09-26T16:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -514,7 +514,7 @@
       "reason": "Mixed signals: modest 24h gains but sub-1 SMA ratio, declining OI, and elevated funding with near-overbought RSI argue against adding to the small profitable long."
     }
   ],
-  "llm_bar_index": 400,
+  "llm_bar_index": 401,
   "llm_usage": {
     "calls": 85,
     "prompt_tokens": 30573,
@@ -2211,9 +2211,13 @@
     [
       "2026-09-26T15:45:00",
       10118.69
+    ],
+    [
+      "2026-09-26T16:00:00",
+      10119.49
     ]
   ],
-  "last_bar_ts": "2026-09-26T15:45:00",
-  "bars_processed": 400,
+  "last_bar_ts": "2026-09-26T16:00:00",
+  "bars_processed": 401,
   "starting_cash": 10000.0
 }
