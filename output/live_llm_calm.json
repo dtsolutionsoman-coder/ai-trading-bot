@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T22:00:55",
+  "saved_at": "2026-09-26T22:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -550,7 +550,7 @@
       "reason": "Trendless market with neutral RSI and flat SMA ratio; positive funding gives the small profitable short a carry edge, so keep it but stay minimal."
     }
   ],
-  "llm_bar_index": 424,
+  "llm_bar_index": 425,
   "llm_usage": {
     "calls": 91,
     "prompt_tokens": 32724,
@@ -2352,9 +2352,13 @@
     [
       "2026-09-26T21:45:00",
       10135.9
+    ],
+    [
+      "2026-09-26T22:00:00",
+      10131.05
     ]
   ],
-  "last_bar_ts": "2026-09-26T21:45:00",
-  "bars_processed": 424,
+  "last_bar_ts": "2026-09-26T22:00:00",
+  "bars_processed": 425,
   "starting_cash": 10000.0
 }
