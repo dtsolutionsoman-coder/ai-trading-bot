@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T23:30:35",
+  "saved_at": "2026-09-26T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -556,7 +556,7 @@
       "reason": "Tiny short is roughly flat and collects ~70% annualized funding while price uptrend is fading (RSI 44, SMA ratio neutral), but low liquidity and mixed signals argue against adding risk."
     }
   ],
-  "llm_bar_index": 430,
+  "llm_bar_index": 431,
   "llm_usage": {
     "calls": 92,
     "prompt_tokens": 33082,
@@ -2382,9 +2382,13 @@
     [
       "2026-09-26T23:15:00",
       10126.49
+    ],
+    [
+      "2026-09-26T23:30:00",
+      10126.76
     ]
   ],
-  "last_bar_ts": "2026-09-26T23:15:00",
-  "bars_processed": 430,
+  "last_bar_ts": "2026-09-26T23:30:00",
+  "bars_processed": 431,
   "starting_cash": 10000.0
 }
