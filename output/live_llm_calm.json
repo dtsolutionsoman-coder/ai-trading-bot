@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T08:00:55",
+  "saved_at": "2026-09-26T08:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -466,7 +466,7 @@
       "reason": "Bearish short-term trend and thin liquidity are offset by oversold RSI and extreme negative funding/crowded shorts, so keeping the small profitable long unchanged."
     }
   ],
-  "llm_bar_index": 368,
+  "llm_bar_index": 369,
   "llm_usage": {
     "calls": 77,
     "prompt_tokens": 27692,
@@ -2035,9 +2035,13 @@
     [
       "2026-09-26T07:45:00",
       10095.37
+    ],
+    [
+      "2026-09-26T08:00:00",
+      10095.77
     ]
   ],
-  "last_bar_ts": "2026-09-26T07:45:00",
-  "bars_processed": 368,
+  "last_bar_ts": "2026-09-26T08:00:00",
+  "bars_processed": 369,
   "starting_cash": 10000.0
 }
