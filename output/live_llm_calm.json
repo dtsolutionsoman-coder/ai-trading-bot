@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T18:00:49",
+  "saved_at": "2026-09-26T18:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -526,7 +526,7 @@
       "reason": "Quiet, neutral tape (RSI ~51, SMA ratio ~1, low volume) with negative funding slightly paying the small profitable long; no signal to add or cut."
     }
   ],
-  "llm_bar_index": 408,
+  "llm_bar_index": 409,
   "llm_usage": {
     "calls": 87,
     "prompt_tokens": 31290,
@@ -2255,9 +2255,13 @@
     [
       "2026-09-26T17:45:00",
       10118.73
+    ],
+    [
+      "2026-09-26T18:00:00",
+      10118.09
     ]
   ],
-  "last_bar_ts": "2026-09-26T17:45:00",
-  "bars_processed": 408,
+  "last_bar_ts": "2026-09-26T18:00:00",
+  "bars_processed": 409,
   "starting_cash": 10000.0
 }
