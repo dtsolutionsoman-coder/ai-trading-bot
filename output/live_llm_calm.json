@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T17:15:43",
+  "saved_at": "2026-09-26T17:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -520,7 +520,7 @@
       "reason": "Mixed signals: near-overbought RSI, sub-1 SMA ratio and negative perp premium offset by positive 24h momentum and deeply negative funding favoring longs; keeping the small profitable long."
     }
   ],
-  "llm_bar_index": 405,
+  "llm_bar_index": 406,
   "llm_usage": {
     "calls": 86,
     "prompt_tokens": 30932,
@@ -2237,9 +2237,13 @@
     [
       "2026-09-26T17:00:00",
       10117.36
+    ],
+    [
+      "2026-09-26T17:15:00",
+      10116.41
     ]
   ],
-  "last_bar_ts": "2026-09-26T17:00:00",
-  "bars_processed": 405,
+  "last_bar_ts": "2026-09-26T17:15:00",
+  "bars_processed": 406,
   "starting_cash": 10000.0
 }
