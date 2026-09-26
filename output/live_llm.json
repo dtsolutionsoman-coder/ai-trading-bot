@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T02:15:42",
+  "saved_at": "2026-09-26T02:30:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme negative funding (-350% ann.) and perp discount signal crowded shorts while RSI at 63 and positive 1h/6h momentum suggest squeeze risk, so modestly adding to the small profitable long."
     }
   ],
-  "llm_bar_index": 3092,
+  "llm_bar_index": 3093,
   "llm_usage": {
     "calls": 771,
     "prompt_tokens": 277077,
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T06:15:00",
-      9800.72
-    ],
     [
       "2026-09-05T06:30:00",
       9798.58
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T02:00:00",
       9705.42
+    ],
+    [
+      "2026-09-26T02:15:00",
+      9702.2
     ]
   ],
-  "last_bar_ts": "2026-09-26T02:00:00",
-  "bars_processed": 3124,
+  "last_bar_ts": "2026-09-26T02:15:00",
+  "bars_processed": 3125,
   "starting_cash": 10000.0
 }
