@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T06:30:35",
+  "saved_at": "2026-09-26T06:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -454,7 +454,7 @@
       "reason": "Neutral price action with crowded shorts (deeply negative funding/premium) offers mild squeeze upside, but weak trend and falling OI argue against adding to the small profitable long."
     }
   ],
-  "llm_bar_index": 362,
+  "llm_bar_index": 363,
   "llm_usage": {
     "calls": 75,
     "prompt_tokens": 26970,
@@ -1999,9 +1999,13 @@
     [
       "2026-09-26T06:15:00",
       10104.44
+    ],
+    [
+      "2026-09-26T06:30:00",
+      10103.77
     ]
   ],
-  "last_bar_ts": "2026-09-26T06:15:00",
-  "bars_processed": 362,
+  "last_bar_ts": "2026-09-26T06:30:00",
+  "bars_processed": 363,
   "starting_cash": 10000.0
 }

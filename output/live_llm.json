@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T06:30:34",
+  "saved_at": "2026-09-26T06:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish price action is offset by deeply negative funding and perp discount favoring longs; keeping the small profitable long exposure."
     }
   ],
-  "llm_bar_index": 3109,
+  "llm_bar_index": 3110,
   "llm_usage": {
     "calls": 775,
     "prompt_tokens": 278511,
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T10:30:00",
-      9813.42
-    ],
     [
       "2026-09-05T10:45:00",
       9811.81
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T06:15:00",
       9700.88
+    ],
+    [
+      "2026-09-26T06:30:00",
+      9700.37
     ]
   ],
-  "last_bar_ts": "2026-09-26T06:15:00",
-  "bars_processed": 3141,
+  "last_bar_ts": "2026-09-26T06:30:00",
+  "bars_processed": 3142,
   "starting_cash": 10000.0
 }
