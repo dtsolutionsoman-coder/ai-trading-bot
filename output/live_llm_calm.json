@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T10:15:41",
+  "saved_at": "2026-09-26T10:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -478,7 +478,7 @@
       "reason": "Mild downtrend and fading OI argue against adding, but deeply negative funding rewards the small profitable long, so maintain current exposure."
     }
   ],
-  "llm_bar_index": 377,
+  "llm_bar_index": 378,
   "llm_usage": {
     "calls": 79,
     "prompt_tokens": 28413,
@@ -2083,9 +2083,13 @@
     [
       "2026-09-26T10:00:00",
       10110.38
+    ],
+    [
+      "2026-09-26T10:15:00",
+      10109.96
     ]
   ],
-  "last_bar_ts": "2026-09-26T10:00:00",
-  "bars_processed": 377,
+  "last_bar_ts": "2026-09-26T10:15:00",
+  "bars_processed": 378,
   "starting_cash": 10000.0
 }
