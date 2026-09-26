@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T16:30:30",
+  "saved_at": "2026-09-26T16:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild upward momentum and RSI 62.9 offset by negative perp premium, falling OI, and rich 10.95% funding that pays the short \u2014 keep the tiny short for carry but don't add into strength."
     }
   ],
-  "llm_bar_index": 3149,
+  "llm_bar_index": 3150,
   "llm_usage": {
     "calls": 785,
     "prompt_tokens": 282104,
@@ -3975,10 +3975,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T20:30:00",
-      9807.54
-    ],
     [
       "2026-09-05T20:45:00",
       9804.05
@@ -11974,9 +11970,13 @@
     [
       "2026-09-26T16:15:00",
       9701.25
+    ],
+    [
+      "2026-09-26T16:30:00",
+      9700.06
     ]
   ],
-  "last_bar_ts": "2026-09-26T16:15:00",
-  "bars_processed": 3181,
+  "last_bar_ts": "2026-09-26T16:30:00",
+  "bars_processed": 3182,
   "starting_cash": 10000.0
 }
