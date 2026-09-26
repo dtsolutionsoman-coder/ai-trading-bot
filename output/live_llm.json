@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-26T20:11:30",
+  "saved_at": "2026-09-26T20:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-05T21:00:00",
-      "action": "hold",
-      "conviction": 0.55,
-      "reason": "Profitable short stays on: trend still bearish and extreme positive funding pays the short, but oversold RSI and stalled momentum argue against adding."
-    },
     {
       "ts": "2026-09-05T22:00:00",
       "action": "sell",
@@ -3002,20 +2996,26 @@
       "action": "hold",
       "conviction": 0.1,
       "reason": "Flat, ultra-low-volume market with mixed signals; deeply negative funding mildly favors the small long via carry, but RSI weakness and no trend conviction justify keeping exposure minimal."
+    },
+    {
+      "ts": "2026-09-26T20:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Extreme positive funding (582% ann) with overbought RSI 73 and fading 1h momentum signals crowded longs vulnerable to a pullback, so I'm cutting the small long for a modest contrarian short."
     }
   ],
-  "llm_bar_index": 3163,
+  "llm_bar_index": 3164,
   "llm_usage": {
-    "calls": 788,
-    "prompt_tokens": 283182,
-    "completion_tokens": 803931
+    "calls": 789,
+    "prompt_tokens": 283540,
+    "completion_tokens": 804952
   },
-  "cash": 8920.738717326783,
+  "cash": 12122.07797791317,
   "positions": {
     "BTC": {
-      "qty": 0.009233322596953603,
-      "avg_price": 84100.029,
-      "realized_pnl": -21.713473471673147
+      "qty": -0.028682321653634043,
+      "avg_price": 84517.72,
+      "realized_pnl": -17.856797722828944
     }
   },
   "recent_fills": [
@@ -3981,13 +3981,18 @@
       "fee": 3.206892550028636,
       "realized": -4.104433777182127,
       "reason": "LLM buy conv=0.08: Mixed choppy signals (neutral RSI, flat SMAs) with a small losing short against mild upward drift; flattening the position rather than pressing either side."
+    },
+    {
+      "ts": "2026-09-26T20:00:00",
+      "side": "sell",
+      "qty": 0.037915644250587646,
+      "price": 84517.72,
+      "fee": 3.2045438043907764,
+      "realized": 3.8566757488442036,
+      "reason": "LLM sell conv=0.35: Extreme positive funding (582% ann) with overbought RSI 73 and fading 1h momentum signals crowded longs vulnerable to a pullback, so I'm cutting the small long for a modest contrarian short. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T00:00:00",
-      9802.83
-    ],
     [
       "2026-09-06T00:15:00",
       9803.01
@@ -11983,9 +11988,13 @@
     [
       "2026-09-26T19:45:00",
       9701.54
+    ],
+    [
+      "2026-09-26T20:00:00",
+      9696.7
     ]
   ],
-  "last_bar_ts": "2026-09-26T19:45:00",
-  "bars_processed": 3195,
+  "last_bar_ts": "2026-09-26T20:00:00",
+  "bars_processed": 3196,
   "starting_cash": 10000.0
 }
