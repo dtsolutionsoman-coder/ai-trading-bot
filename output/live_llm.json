@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T11:45:24",
+  "saved_at": "2026-09-26T12:01:15",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Deeply negative funding pays the long and supports a squeeze, but overbought RSI (72.7), sub-1 SMA ratio, and thin volume argue against adding; keep the small profitable long as-is."
     }
   ],
-  "llm_bar_index": 3130,
+  "llm_bar_index": 3131,
   "llm_usage": {
     "calls": 780,
     "prompt_tokens": 280307,
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T15:45:00",
-      9803.68
-    ],
     [
       "2026-09-05T16:00:00",
       9808.74
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T11:30:00",
       9708.2
+    ],
+    [
+      "2026-09-26T11:45:00",
+      9708.16
     ]
   ],
-  "last_bar_ts": "2026-09-26T11:30:00",
-  "bars_processed": 3162,
+  "last_bar_ts": "2026-09-26T11:45:00",
+  "bars_processed": 3163,
   "starting_cash": 10000.0
 }
