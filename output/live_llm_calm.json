@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T14:30:34",
+  "saved_at": "2026-09-26T14:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -502,7 +502,7 @@
       "reason": "Mild upside momentum and RSI 62 are offset by extremely high funding (55% ann.), declining OI, and SMA ratio below 1, so keep the small long with low conviction."
     }
   ],
-  "llm_bar_index": 394,
+  "llm_bar_index": 395,
   "llm_usage": {
     "calls": 83,
     "prompt_tokens": 29853,
@@ -2175,9 +2175,13 @@
     [
       "2026-09-26T14:15:00",
       10117.6
+    ],
+    [
+      "2026-09-26T14:30:00",
+      10118.51
     ]
   ],
-  "last_bar_ts": "2026-09-26T14:15:00",
-  "bars_processed": 394,
+  "last_bar_ts": "2026-09-26T14:30:00",
+  "bars_processed": 395,
   "starting_cash": 10000.0
 }
