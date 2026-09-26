@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T20:30:34",
+  "saved_at": "2026-09-26T20:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -538,7 +538,7 @@
       "reason": "Extreme funding (~603% annualized) and perp premium make long carry prohibitively expensive with RSI near overbought; taking profit on the small long rather than paying to hold it."
     }
   ],
-  "llm_bar_index": 418,
+  "llm_bar_index": 419,
   "llm_usage": {
     "calls": 89,
     "prompt_tokens": 32006,
@@ -2316,9 +2316,13 @@
     [
       "2026-09-26T20:15:00",
       10123.62
+    ],
+    [
+      "2026-09-26T20:30:00",
+      10125.68
     ]
   ],
-  "last_bar_ts": "2026-09-26T20:15:00",
-  "bars_processed": 418,
+  "last_bar_ts": "2026-09-26T20:30:00",
+  "bars_processed": 419,
   "starting_cash": 10000.0
 }
