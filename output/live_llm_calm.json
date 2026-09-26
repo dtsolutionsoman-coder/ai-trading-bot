@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T11:30:34",
+  "saved_at": "2026-09-26T11:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -484,7 +484,7 @@
       "reason": "Mild downtrend with negative premium and falling OI is offset by stabilizing short-term price, RSI 64, and extreme negative funding that favors squeeze risk, so keep the tiny profitable long unchanged"
     }
   ],
-  "llm_bar_index": 382,
+  "llm_bar_index": 383,
   "llm_usage": {
     "calls": 80,
     "prompt_tokens": 28774,
@@ -2109,9 +2109,13 @@
     [
       "2026-09-26T11:15:00",
       10111.75
+    ],
+    [
+      "2026-09-26T11:30:00",
+      10114.07
     ]
   ],
-  "last_bar_ts": "2026-09-26T11:15:00",
-  "bars_processed": 382,
+  "last_bar_ts": "2026-09-26T11:30:00",
+  "bars_processed": 383,
   "starting_cash": 10000.0
 }
