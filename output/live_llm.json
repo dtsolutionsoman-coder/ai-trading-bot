@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-26T13:00:39",
+  "saved_at": "2026-09-26T13:15:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-05T14:00:00",
-      "action": "sell",
-      "conviction": 0.3,
-      "reason": "Mild downtrend with SMA12<48 and extreme 254% annualized funding signaling overcrowded longs supports extending the small profitable short."
-    },
     {
       "ts": "2026-09-05T15:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Neutral momentum and thin volume argue against adding, while deeply negative funding supports keeping the small profitable long as a short-squeeze hedge."
+    },
+    {
+      "ts": "2026-09-26T13:00:00",
+      "action": "hold",
+      "conviction": 0.2,
+      "reason": "Deeply negative funding pays the small profitable long while trend is mildly weak and volatility is too low to act, so keep exposure and collect carry."
     }
   ],
-  "llm_bar_index": 3135,
+  "llm_bar_index": 3136,
   "llm_usage": {
-    "calls": 781,
-    "prompt_tokens": 280667,
-    "completion_tokens": 796925
+    "calls": 782,
+    "prompt_tokens": 281025,
+    "completion_tokens": 797576
   },
   "cash": 7764.185788162742,
   "positions": {
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T17:00:00",
-      9797.51
-    ],
     [
       "2026-09-05T17:15:00",
       9797.14
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T12:45:00",
       9707.3
+    ],
+    [
+      "2026-09-26T13:00:00",
+      9705.79
     ]
   ],
-  "last_bar_ts": "2026-09-26T12:45:00",
-  "bars_processed": 3167,
+  "last_bar_ts": "2026-09-26T13:00:00",
+  "bars_processed": 3168,
   "starting_cash": 10000.0
 }
