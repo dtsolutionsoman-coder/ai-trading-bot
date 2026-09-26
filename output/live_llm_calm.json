@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T19:30:34",
+  "saved_at": "2026-09-26T19:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -532,7 +532,7 @@
       "reason": "Mixed signals: crowded shorts (negative funding/premium) offset by weak trend and low volume; keeping the small profitable long with minimal exposure."
     }
   ],
-  "llm_bar_index": 414,
+  "llm_bar_index": 415,
   "llm_usage": {
     "calls": 88,
     "prompt_tokens": 31647,
@@ -2285,9 +2285,13 @@
     [
       "2026-09-26T19:15:00",
       10136.57
+    ],
+    [
+      "2026-09-26T19:30:00",
+      10133.77
     ]
   ],
-  "last_bar_ts": "2026-09-26T19:15:00",
-  "bars_processed": 414,
+  "last_bar_ts": "2026-09-26T19:30:00",
+  "bars_processed": 415,
   "starting_cash": 10000.0
 }
