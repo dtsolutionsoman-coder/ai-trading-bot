@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T05:45:26",
+  "saved_at": "2026-09-26T06:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small profitable long earns deeply negative funding carry while mildly bearish technicals (SMA ratio <1, RSI 47) and falling OI argue against adding exposure."
     }
   ],
-  "llm_bar_index": 3106,
+  "llm_bar_index": 3107,
   "llm_usage": {
     "calls": 774,
     "prompt_tokens": 278154,
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T09:45:00",
-      9812.35
-    ],
     [
       "2026-09-05T10:00:00",
       9813.21
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T05:30:00",
       9702.27
+    ],
+    [
+      "2026-09-26T05:45:00",
+      9701.3
     ]
   ],
-  "last_bar_ts": "2026-09-26T05:30:00",
-  "bars_processed": 3138,
+  "last_bar_ts": "2026-09-26T05:45:00",
+  "bars_processed": 3139,
   "starting_cash": 10000.0
 }
