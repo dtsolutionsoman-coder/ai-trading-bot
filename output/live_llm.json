@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-26T11:00:41",
+  "saved_at": "2026-09-26T11:15:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-05T12:00:00",
-      "action": "sell",
-      "conviction": 0.45,
-      "reason": "Downtrend with sma ratio below 1 and extreme positive funding (274% ann) gives shorts both momentum tailwind and carry, so add modestly to the already profitable short despite short-term stabilization"
-    },
     {
       "ts": "2026-09-05T13:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.4,
       "reason": "Extreme negative funding and perp discount signal crowded shorts (squeeze risk) but 24h downtrend and sub-1 SMA ratio argue caution; keep the small profitable long rather than add into weak trend and "
+    },
+    {
+      "ts": "2026-09-26T11:00:00",
+      "action": "hold",
+      "conviction": 0.22,
+      "reason": "Deeply negative funding pays the long and supports a squeeze, but overbought RSI (72.7), sub-1 SMA ratio, and thin volume argue against adding; keep the small profitable long as-is."
     }
   ],
-  "llm_bar_index": 3127,
+  "llm_bar_index": 3128,
   "llm_usage": {
-    "calls": 779,
-    "prompt_tokens": 279948,
-    "completion_tokens": 795243
+    "calls": 780,
+    "prompt_tokens": 280307,
+    "completion_tokens": 796285
   },
   "cash": 7764.185788162742,
   "positions": {
@@ -3966,10 +3966,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T15:00:00",
-      9809.48
-    ],
     [
       "2026-09-05T15:15:00",
       9807.24
@@ -11965,9 +11961,13 @@
     [
       "2026-09-26T10:45:00",
       9705.56
+    ],
+    [
+      "2026-09-26T11:00:00",
+      9707.74
     ]
   ],
-  "last_bar_ts": "2026-09-26T10:45:00",
-  "bars_processed": 3159,
+  "last_bar_ts": "2026-09-26T11:00:00",
+  "bars_processed": 3160,
   "starting_cash": 10000.0
 }
