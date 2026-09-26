@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T05:00:52",
+  "saved_at": "2026-09-26T05:15:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -448,7 +448,7 @@
       "reason": "Mildly bearish trend and declining OI are offset by extreme negative funding (positive carry for longs) and neutral RSI; keeping the small profitable long as-is."
     }
   ],
-  "llm_bar_index": 356,
+  "llm_bar_index": 357,
   "llm_usage": {
     "calls": 74,
     "prompt_tokens": 26609,
@@ -1969,9 +1969,13 @@
     [
       "2026-09-26T04:45:00",
       10106.85
+    ],
+    [
+      "2026-09-26T05:00:00",
+      10106.27
     ]
   ],
-  "last_bar_ts": "2026-09-26T04:45:00",
-  "bars_processed": 356,
+  "last_bar_ts": "2026-09-26T05:00:00",
+  "bars_processed": 357,
   "starting_cash": 10000.0
 }
