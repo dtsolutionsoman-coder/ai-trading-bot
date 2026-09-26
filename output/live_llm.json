@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T18:45:25",
+  "saved_at": "2026-09-26T19:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mixed choppy signals (neutral RSI, flat SMAs) with a small losing short against mild upward drift; flattening the position rather than pressing either side."
     }
   ],
-  "llm_bar_index": 3158,
+  "llm_bar_index": 3159,
   "llm_usage": {
     "calls": 787,
     "prompt_tokens": 282824,
@@ -3984,10 +3984,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-05T22:45:00",
-      9804.48
-    ],
     [
       "2026-09-05T23:00:00",
       9806.67
@@ -11983,9 +11979,13 @@
     [
       "2026-09-26T18:30:00",
       9696.37
+    ],
+    [
+      "2026-09-26T18:45:00",
+      9695.59
     ]
   ],
-  "last_bar_ts": "2026-09-26T18:30:00",
-  "bars_processed": 3190,
+  "last_bar_ts": "2026-09-26T18:45:00",
+  "bars_processed": 3191,
   "starting_cash": 10000.0
 }
