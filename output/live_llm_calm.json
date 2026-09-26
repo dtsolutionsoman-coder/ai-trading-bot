@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T15:00:52",
+  "saved_at": "2026-09-26T15:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -508,7 +508,7 @@
       "reason": "Mildly bullish price action but weak momentum (SMA ratio <1), declining open interest, and elevated funding make mixed signals; keep the small profitable long rather than add risk."
     }
   ],
-  "llm_bar_index": 396,
+  "llm_bar_index": 397,
   "llm_usage": {
     "calls": 84,
     "prompt_tokens": 30213,
@@ -2189,9 +2189,13 @@
     [
       "2026-09-26T14:45:00",
       10118.18
+    ],
+    [
+      "2026-09-26T15:00:00",
+      10117.87
     ]
   ],
-  "last_bar_ts": "2026-09-26T14:45:00",
-  "bars_processed": 396,
+  "last_bar_ts": "2026-09-26T15:00:00",
+  "bars_processed": 397,
   "starting_cash": 10000.0
 }
