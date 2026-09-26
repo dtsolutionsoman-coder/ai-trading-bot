@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T20:15:39",
+  "saved_at": "2026-09-26T20:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (582% ann) with overbought RSI 73 and fading 1h momentum signals crowded longs vulnerable to a pullback, so I'm cutting the small long for a modest contrarian short."
     }
   ],
-  "llm_bar_index": 3164,
+  "llm_bar_index": 3165,
   "llm_usage": {
     "calls": 789,
     "prompt_tokens": 283540,
@@ -3993,10 +3993,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T00:15:00",
-      9803.01
-    ],
     [
       "2026-09-06T00:30:00",
       9803.29
@@ -11992,9 +11988,13 @@
     [
       "2026-09-26T20:00:00",
       9696.7
+    ],
+    [
+      "2026-09-26T20:15:00",
+      9694.52
     ]
   ],
-  "last_bar_ts": "2026-09-26T20:00:00",
-  "bars_processed": 3196,
+  "last_bar_ts": "2026-09-26T20:15:00",
+  "bars_processed": 3197,
   "starting_cash": 10000.0
 }
