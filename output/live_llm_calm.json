@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T02:30:30",
+  "saved_at": "2026-09-26T02:45:24",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -430,7 +430,7 @@
       "reason": "Deeply negative funding and perp discount favor keeping the small profitable long (longs collect funding), but weak volume, negative 24h trend, and declining OI argue against adding risk."
     }
   ],
-  "llm_bar_index": 346,
+  "llm_bar_index": 347,
   "llm_usage": {
     "calls": 71,
     "prompt_tokens": 25529,
@@ -1911,9 +1911,13 @@
     [
       "2026-09-26T02:15:00",
       10106.18
+    ],
+    [
+      "2026-09-26T02:30:00",
+      10106.73
     ]
   ],
-  "last_bar_ts": "2026-09-26T02:15:00",
-  "bars_processed": 346,
+  "last_bar_ts": "2026-09-26T02:30:00",
+  "bars_processed": 347,
   "starting_cash": 10000.0
 }
