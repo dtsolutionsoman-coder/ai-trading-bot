@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-26T23:45:27",
+  "saved_at": "2026-09-27T00:01:00",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -554,13 +554,19 @@
       "action": "hold",
       "conviction": 0.15,
       "reason": "Tiny short is roughly flat and collects ~70% annualized funding while price uptrend is fading (RSI 44, SMA ratio neutral), but low liquidity and mixed signals argue against adding risk."
+    },
+    {
+      "ts": "2026-09-26T23:45:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Extreme funding (109.67% ann.) and perp premium indicate crowded longs while momentum is only mildly bullish on thin volume; keeping the small short to collect funding rather than chasing drift."
     }
   ],
-  "llm_bar_index": 431,
+  "llm_bar_index": 432,
   "llm_usage": {
-    "calls": 92,
-    "prompt_tokens": 33082,
-    "completion_tokens": 93271
+    "calls": 93,
+    "prompt_tokens": 33440,
+    "completion_tokens": 94269
   },
   "cash": 12659.16848234255,
   "positions": {
@@ -2386,9 +2392,13 @@
     [
       "2026-09-26T23:30:00",
       10126.76
+    ],
+    [
+      "2026-09-26T23:45:00",
+      10124.66
     ]
   ],
-  "last_bar_ts": "2026-09-26T23:30:00",
-  "bars_processed": 431,
+  "last_bar_ts": "2026-09-26T23:45:00",
+  "bars_processed": 432,
   "starting_cash": 10000.0
 }
