@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T14:45:26",
+  "saved_at": "2026-09-27T15:00:53",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -644,20 +644,26 @@
       "action": "buy",
       "conviction": 0.2,
       "reason": "Mild uptrend (SMA12/48 >1, +1.29% 24h, positive perp premium, rising OI) argues against the small losing short; closing it but staying small given elevated funding and neutral RSI."
+    },
+    {
+      "ts": "2026-09-27T14:45:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme annualized funding (187%) with rising OI and positive perp premium signals crowded leveraged longs, while fading 1h/6h momentum and sub-40 RSI justify cutting the small losing long."
     }
   ],
-  "llm_bar_index": 491,
+  "llm_bar_index": 492,
   "llm_usage": {
-    "calls": 107,
-    "prompt_tokens": 38463,
-    "completion_tokens": 109748
+    "calls": 108,
+    "prompt_tokens": 38821,
+    "completion_tokens": 110681
   },
-  "cash": 8081.296830559081,
+  "cash": 12613.30323977795,
   "positions": {
     "BTC": {
-      "qty": 0.023765207428353197,
-      "avg_price": 85126.542,
-      "realized_pnl": 127.19423728404695
+      "qty": -0.029771781193241947,
+      "avg_price": 84736.61050000001,
+      "realized_pnl": 117.92743430369825
     }
   },
   "recent_fills": [
@@ -759,6 +765,15 @@
       "fee": 4.5732983534300375,
       "realized": -18.149455980354276,
       "reason": "LLM buy conv=0.20: Mild uptrend (SMA12/48 >1, +1.29% 24h, positive perp premium, rising OI) argues against the small losing short; closing it but staying small given elevated funding and neutral RSI."
+    },
+    {
+      "ts": "2026-09-27T14:45:00",
+      "side": "sell",
+      "qty": 0.053536988621595144,
+      "price": 84736.61050000001,
+      "fee": 4.53654295217104,
+      "realized": -9.2668029803487,
+      "reason": "LLM sell conv=0.40: Extreme annualized funding (187%) with rising OI and positive perp premium signals crowded leveraged longs, while fading 1h/6h momentum and sub-40 RSI justify cutting the small losing long. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -2725,9 +2740,13 @@
     [
       "2026-09-27T14:30:00",
       10100.89
+    ],
+    [
+      "2026-09-27T14:45:00",
+      10089.28
     ]
   ],
-  "last_bar_ts": "2026-09-27T14:30:00",
-  "bars_processed": 491,
+  "last_bar_ts": "2026-09-27T14:45:00",
+  "bars_processed": 492,
   "starting_cash": 10000.0
 }

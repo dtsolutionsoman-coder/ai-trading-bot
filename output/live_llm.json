@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T14:45:26",
+  "saved_at": "2026-09-27T15:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 81% annualized funding with rising OI signals crowded longs supporting the small short, but mild bullish price momentum (RSI neutral, SMA ratio >1) doesn't justify adding to a slightly losing "
     }
   ],
-  "llm_bar_index": 3238,
+  "llm_bar_index": 3239,
   "llm_usage": {
     "calls": 807,
     "prompt_tokens": 289999,
@@ -4029,10 +4029,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T18:45:00",
-      9796.91
-    ],
     [
       "2026-09-06T19:00:00",
       9799.07
@@ -12028,9 +12024,13 @@
     [
       "2026-09-27T14:30:00",
       9676.07
+    ],
+    [
+      "2026-09-27T14:45:00",
+      9681.83
     ]
   ],
-  "last_bar_ts": "2026-09-27T14:30:00",
-  "bars_processed": 3270,
+  "last_bar_ts": "2026-09-27T14:45:00",
+  "bars_processed": 3271,
   "starting_cash": 10000.0
 }
