@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T08:15:49",
+  "saved_at": "2026-09-27T08:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -610,7 +610,7 @@
       "reason": "Uptrend momentum argues against adding to the short, but extreme funding (178% ann.) and overbought RSI 76.7 make the small underwater short worth holding for carry and mean reversion."
     }
   ],
-  "llm_bar_index": 465,
+  "llm_bar_index": 466,
   "llm_usage": {
     "calls": 101,
     "prompt_tokens": 36309,
@@ -2576,9 +2576,13 @@
     [
       "2026-09-27T08:00:00",
       10111.06
+    ],
+    [
+      "2026-09-27T08:15:00",
+      10112.92
     ]
   ],
-  "last_bar_ts": "2026-09-27T08:00:00",
-  "bars_processed": 465,
+  "last_bar_ts": "2026-09-27T08:15:00",
+  "bars_processed": 466,
   "starting_cash": 10000.0
 }
