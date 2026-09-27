@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T13:30:33",
+  "saved_at": "2026-09-27T13:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -640,7 +640,7 @@
       "reason": "Extreme positive funding (161% ann.) and elevated perp premium reward holding the small short for carry, but mild uptrend (SMA ratio >1) prevents adding; mixed signals favor keeping current exposure."
     }
   ],
-  "llm_bar_index": 486,
+  "llm_bar_index": 487,
   "llm_usage": {
     "calls": 106,
     "prompt_tokens": 38105,
@@ -2690,9 +2690,13 @@
     [
       "2026-09-27T13:15:00",
       10110.52
+    ],
+    [
+      "2026-09-27T13:30:00",
+      10115.71
     ]
   ],
-  "last_bar_ts": "2026-09-27T13:15:00",
-  "bars_processed": 486,
+  "last_bar_ts": "2026-09-27T13:30:00",
+  "bars_processed": 487,
   "starting_cash": 10000.0
 }
