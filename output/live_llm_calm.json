@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T17:45:26",
+  "saved_at": "2026-09-27T18:00:57",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -662,13 +662,19 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "Extreme positive funding (284% ann.) and perp premium with rising OI signal crowded longs, while 6h momentum and RSI weaken \u2014 modestly add to the small profitable short while trend remains only mildly"
+    },
+    {
+      "ts": "2026-09-27T17:45:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Extreme 549% annualized funding and 57bps perp premium with rising OI signal overcrowded longs, giving the short strong carry despite mild bullish momentum."
     }
   ],
-  "llm_bar_index": 503,
+  "llm_bar_index": 504,
   "llm_usage": {
-    "calls": 110,
-    "prompt_tokens": 39540,
-    "completion_tokens": 112226
+    "calls": 111,
+    "prompt_tokens": 39899,
+    "completion_tokens": 113558
   },
   "cash": 12613.30323977795,
   "positions": {
@@ -2800,9 +2806,13 @@
     [
       "2026-09-27T17:30:00",
       10079.81
+    ],
+    [
+      "2026-09-27T17:45:00",
+      10079.67
     ]
   ],
-  "last_bar_ts": "2026-09-27T17:30:00",
-  "bars_processed": 503,
+  "last_bar_ts": "2026-09-27T17:45:00",
+  "bars_processed": 504,
   "starting_cash": 10000.0
 }
