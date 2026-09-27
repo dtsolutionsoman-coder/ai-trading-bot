@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T09:30:33",
+  "saved_at": "2026-09-27T09:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -616,7 +616,7 @@
       "reason": "Mild uptrend conflicts with extreme positive funding and long-crowded premium/OI, so keep the small short to collect carry without adding risk to a slightly losing position."
     }
   ],
-  "llm_bar_index": 470,
+  "llm_bar_index": 471,
   "llm_usage": {
     "calls": 102,
     "prompt_tokens": 36669,
@@ -2602,9 +2602,13 @@
     [
       "2026-09-27T09:15:00",
       10114.33
+    ],
+    [
+      "2026-09-27T09:30:00",
+      10112.14
     ]
   ],
-  "last_bar_ts": "2026-09-27T09:15:00",
-  "bars_processed": 470,
+  "last_bar_ts": "2026-09-27T09:30:00",
+  "bars_processed": 471,
   "starting_cash": 10000.0
 }
