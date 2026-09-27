@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T22:30:32",
+  "saved_at": "2026-09-27T22:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -694,7 +694,7 @@
       "reason": "Overbought RSI (70.6), extreme long funding (621% ann), and rich perp premium justify keeping the small short; funding accrual offsets the minor -0.62% drawdown despite mild upside momentum."
     }
   ],
-  "llm_bar_index": 522,
+  "llm_bar_index": 523,
   "llm_usage": {
     "calls": 115,
     "prompt_tokens": 41337,
@@ -2906,9 +2906,13 @@
     [
       "2026-09-27T22:15:00",
       10084.22
+    ],
+    [
+      "2026-09-27T22:30:00",
+      10088.75
     ]
   ],
-  "last_bar_ts": "2026-09-27T22:15:00",
-  "bars_processed": 522,
+  "last_bar_ts": "2026-09-27T22:30:00",
+  "bars_processed": 523,
   "starting_cash": 10000.0
 }
