@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T19:00:54",
+  "saved_at": "2026-09-27T19:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -676,7 +676,7 @@
       "reason": "Mild bullish momentum conflicts with extreme 277% annualized funding and elevated perp premium signaling crowded longs, so keep the small short \u2014 funding carry offsets the minor drawdown."
     }
   ],
-  "llm_bar_index": 508,
+  "llm_bar_index": 509,
   "llm_usage": {
     "calls": 112,
     "prompt_tokens": 40259,
@@ -2832,9 +2832,13 @@
     [
       "2026-09-27T18:45:00",
       10079.75
+    ],
+    [
+      "2026-09-27T19:00:00",
+      10078.71
     ]
   ],
-  "last_bar_ts": "2026-09-27T18:45:00",
-  "bars_processed": 508,
+  "last_bar_ts": "2026-09-27T19:00:00",
+  "bars_processed": 509,
   "starting_cash": 10000.0
 }
