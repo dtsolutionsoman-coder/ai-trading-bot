@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T03:00:56",
+  "saved_at": "2026-09-27T03:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -580,7 +580,7 @@
       "reason": "Small short is nearly flat while extremely high positive funding and perp premium pay carry as short-term momentum stalls, but 24h uptrend prevents adding risk."
     }
   ],
-  "llm_bar_index": 444,
+  "llm_bar_index": 445,
   "llm_usage": {
     "calls": 96,
     "prompt_tokens": 34516,
@@ -2462,9 +2462,13 @@
     [
       "2026-09-27T02:45:00",
       10123.62
+    ],
+    [
+      "2026-09-27T03:00:00",
+      10123.2
     ]
   ],
-  "last_bar_ts": "2026-09-27T02:45:00",
-  "bars_processed": 444,
+  "last_bar_ts": "2026-09-27T03:00:00",
+  "bars_processed": 445,
   "starting_cash": 10000.0
 }
