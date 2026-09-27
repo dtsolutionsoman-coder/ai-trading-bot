@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-27T15:00:39",
+  "saved_at": "2026-09-27T15:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-06T16:00:00",
-      "action": "hold",
-      "conviction": 0.03,
-      "reason": "Mildly bearish drift (6h/24h down, SMA ratio <1, OI falling) is offset by near-oversold RSI and very thin volume, so keep only the minimal long and don't add risk."
-    },
     {
       "ts": "2026-09-06T17:00:00",
       "action": "sell",
@@ -3002,20 +2996,26 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Extreme 81% annualized funding with rising OI signals crowded longs supporting the small short, but mild bullish price momentum (RSI neutral, SMA ratio >1) doesn't justify adding to a slightly losing "
+    },
+    {
+      "ts": "2026-09-27T15:00:00",
+      "action": "sell",
+      "conviction": 0.15,
+      "reason": "Extreme positive funding (270% ann.) with perp premium and rising OI signals crowded longs while short-term momentum fades; modestly adding to the small short."
     }
   ],
-  "llm_bar_index": 3239,
+  "llm_bar_index": 3240,
   "llm_usage": {
-    "calls": 807,
-    "prompt_tokens": 289999,
-    "completion_tokens": 828239
+    "calls": 808,
+    "prompt_tokens": 290358,
+    "completion_tokens": 829672
   },
-  "cash": 12097.799482562432,
+  "cash": 11133.90055962366,
   "positions": {
     "BTC": {
-      "qty": -0.028497315677041495,
+      "qty": -0.017139711216720817,
       "avg_price": 84585.10097467524,
-      "realized_pnl": -19.865196584090715
+      "realized_pnl": -22.11706342926477
     }
   },
   "recent_fills": [
@@ -4026,13 +4026,18 @@
       "fee": 0.6804607213487763,
       "realized": 0.0,
       "reason": "LLM sell conv=0.25: Extreme 224% annualized funding with positive perp premium and rising OI signals crowded longs prone to squeeze, so I hold and modestly add to the short despite mild upward drift."
+    },
+    {
+      "ts": "2026-09-27T15:00:00",
+      "side": "buy",
+      "qty": 0.011357604460320676,
+      "price": 84783.37049999999,
+      "fee": 0.9629359869518203,
+      "realized": -2.2518668451740567,
+      "reason": "LLM sell conv=0.15: Extreme positive funding (270% ann.) with perp premium and rising OI signals crowded longs while short-term momentum fades; modestly adding to the small short."
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T19:00:00",
-      9799.07
-    ],
     [
       "2026-09-06T19:15:00",
       9799.75
@@ -12028,9 +12033,13 @@
     [
       "2026-09-27T14:45:00",
       9681.83
+    ],
+    [
+      "2026-09-27T15:00:00",
+      9681.46
     ]
   ],
-  "last_bar_ts": "2026-09-27T14:45:00",
-  "bars_processed": 3271,
+  "last_bar_ts": "2026-09-27T15:00:00",
+  "bars_processed": 3272,
   "starting_cash": 10000.0
 }

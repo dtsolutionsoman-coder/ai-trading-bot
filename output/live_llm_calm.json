@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T15:00:53",
+  "saved_at": "2026-09-27T15:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -652,7 +652,7 @@
       "reason": "Extreme annualized funding (187%) with rising OI and positive perp premium signals crowded leveraged longs, while fading 1h/6h momentum and sub-40 RSI justify cutting the small losing long."
     }
   ],
-  "llm_bar_index": 492,
+  "llm_bar_index": 493,
   "llm_usage": {
     "calls": 108,
     "prompt_tokens": 38821,
@@ -2744,9 +2744,13 @@
     [
       "2026-09-27T14:45:00",
       10089.28
+    ],
+    [
+      "2026-09-27T15:00:00",
+      10090.41
     ]
   ],
-  "last_bar_ts": "2026-09-27T14:45:00",
-  "bars_processed": 492,
+  "last_bar_ts": "2026-09-27T15:00:00",
+  "bars_processed": 493,
   "starting_cash": 10000.0
 }
