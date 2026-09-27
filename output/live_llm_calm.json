@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T04:15:37",
+  "saved_at": "2026-09-27T04:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -586,7 +586,7 @@
       "reason": "Mild bullish momentum and slightly negative PnL argue against adding, but extreme positive funding (163% ann.) and perp premium favor keeping the small short for the funding carry."
     }
   ],
-  "llm_bar_index": 449,
+  "llm_bar_index": 450,
   "llm_usage": {
     "calls": 97,
     "prompt_tokens": 34875,
@@ -2488,9 +2488,13 @@
     [
       "2026-09-27T04:00:00",
       10122.06
+    ],
+    [
+      "2026-09-27T04:15:00",
+      10123.56
     ]
   ],
-  "last_bar_ts": "2026-09-27T04:00:00",
-  "bars_processed": 449,
+  "last_bar_ts": "2026-09-27T04:15:00",
+  "bars_processed": 450,
   "starting_cash": 10000.0
 }
