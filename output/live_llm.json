@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-27T01:00:38",
+  "saved_at": "2026-09-27T01:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-06T02:00:00",
-      "action": "sell",
-      "conviction": 0.4,
-      "reason": "Extreme 175% annualized funding and sub-1 SMA ratio signal crowded longs in a weak structure, supporting a modest add to the profitable short while defending gains."
-    },
     {
       "ts": "2026-09-06T03:00:00",
       "action": "sell",
@@ -3002,20 +2996,26 @@
       "action": "hold",
       "conviction": 0.0,
       "reason": "unparseable response"
+    },
+    {
+      "ts": "2026-09-27T01:00:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Extreme funding (~95% annualized) makes the tiny long costly to hold with RSI near overbought and negative 6h momentum."
     }
   ],
-  "llm_bar_index": 3183,
+  "llm_bar_index": 3184,
   "llm_usage": {
-    "calls": 793,
-    "prompt_tokens": 284974,
-    "completion_tokens": 811526
+    "calls": 794,
+    "prompt_tokens": 285330,
+    "completion_tokens": 812621
   },
-  "cash": 8532.059359902774,
+  "cash": 12117.142747576421,
   "positions": {
     "BTC": {
-      "qty": 0.01379575420894862,
-      "avg_price": 84430.19399999999,
-      "realized_pnl": -15.34634883777261
+      "qty": -0.028686938930576094,
+      "avg_price": 84473.742,
+      "realized_pnl": -14.74557133348118
     }
   },
   "recent_fills": [
@@ -3999,13 +3999,18 @@
       "fee": 3.586432185824571,
       "realized": 2.5104488850563342,
       "reason": "LLM buy conv=0.12: Mild broad bullish drift (positive 1h/6h/24h momentum, RSI 62, rising OI, positive premium) supports covering the small counter-trend short, but low volume and elevated funding cap conviction."
+    },
+    {
+      "ts": "2026-09-27T01:00:00",
+      "side": "sell",
+      "qty": 0.04248269313952471,
+      "price": 84473.742,
+      "fee": 3.5886720597333808,
+      "realized": 0.600777504291429,
+      "reason": "LLM sell conv=0.45: Extreme funding (~95% annualized) makes the tiny long costly to hold with RSI near overbought and negative 6h momentum. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T05:00:00",
-      9807.9
-    ],
     [
       "2026-09-06T05:15:00",
       9806.31
@@ -12001,9 +12006,13 @@
     [
       "2026-09-27T00:45:00",
       9697.23
+    ],
+    [
+      "2026-09-27T01:00:00",
+      9692.64
     ]
   ],
-  "last_bar_ts": "2026-09-27T00:45:00",
-  "bars_processed": 3215,
+  "last_bar_ts": "2026-09-27T01:00:00",
+  "bars_processed": 3216,
   "starting_cash": 10000.0
 }
