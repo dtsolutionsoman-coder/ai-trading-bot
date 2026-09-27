@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T14:15:42",
+  "saved_at": "2026-09-27T14:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -646,7 +646,7 @@
       "reason": "Mild uptrend (SMA12/48 >1, +1.29% 24h, positive perp premium, rising OI) argues against the small losing short; closing it but staying small given elevated funding and neutral RSI."
     }
   ],
-  "llm_bar_index": 489,
+  "llm_bar_index": 490,
   "llm_usage": {
     "calls": 107,
     "prompt_tokens": 38463,
@@ -2717,9 +2717,13 @@
     [
       "2026-09-27T14:00:00",
       10103.91
+    ],
+    [
+      "2026-09-27T14:15:00",
+      10098.96
     ]
   ],
-  "last_bar_ts": "2026-09-27T14:00:00",
-  "bars_processed": 489,
+  "last_bar_ts": "2026-09-27T14:15:00",
+  "bars_processed": 490,
   "starting_cash": 10000.0
 }
