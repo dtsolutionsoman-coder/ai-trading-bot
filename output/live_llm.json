@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T10:15:53",
+  "saved_at": "2026-09-27T10:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend argues against adding, but extreme 182% funding, RSI 77, and perp premium pay the small short to wait for overbought mean reversion."
     }
   ],
-  "llm_bar_index": 3220,
+  "llm_bar_index": 3221,
   "llm_usage": {
     "calls": 803,
     "prompt_tokens": 288561,
@@ -4029,10 +4029,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T14:15:00",
-      9814.74
-    ],
     [
       "2026-09-06T14:30:00",
       9816.92
@@ -12028,9 +12024,13 @@
     [
       "2026-09-27T10:00:00",
       9667.95
+    ],
+    [
+      "2026-09-27T10:15:00",
+      9670.65
     ]
   ],
-  "last_bar_ts": "2026-09-27T10:00:00",
-  "bars_processed": 3252,
+  "last_bar_ts": "2026-09-27T10:15:00",
+  "bars_processed": 3253,
   "starting_cash": 10000.0
 }
