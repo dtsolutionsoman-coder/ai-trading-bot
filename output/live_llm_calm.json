@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T02:15:46",
+  "saved_at": "2026-09-27T02:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -574,7 +574,7 @@
       "reason": "Extreme 119% annualized funding and positive perp premium favor keeping the small short (funding accrual easily covers the -0.11% drawdown), though mildly bullish trend and RSI 66.5 argue against addi"
     }
   ],
-  "llm_bar_index": 441,
+  "llm_bar_index": 442,
   "llm_usage": {
     "calls": 95,
     "prompt_tokens": 34157,
@@ -2444,9 +2444,13 @@
     [
       "2026-09-27T02:00:00",
       10123.08
+    ],
+    [
+      "2026-09-27T02:15:00",
+      10122.0
     ]
   ],
-  "last_bar_ts": "2026-09-27T02:00:00",
-  "bars_processed": 441,
+  "last_bar_ts": "2026-09-27T02:15:00",
+  "bars_processed": 442,
   "starting_cash": 10000.0
 }
