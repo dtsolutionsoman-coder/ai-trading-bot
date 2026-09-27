@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T06:45:26",
+  "saved_at": "2026-09-27T07:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 227% annualized funding and perp premium signal crowded longs, so the small short collects funding and offers squeeze protection despite a mild uptrend."
     }
   ],
-  "llm_bar_index": 3206,
+  "llm_bar_index": 3207,
   "llm_usage": {
     "calls": 799,
     "prompt_tokens": 287127,
@@ -4011,10 +4011,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T10:45:00",
-      9803.81
-    ],
     [
       "2026-09-06T11:00:00",
       9806.91
@@ -12010,9 +12006,13 @@
     [
       "2026-09-27T06:30:00",
       9685.7
+    ],
+    [
+      "2026-09-27T06:45:00",
+      9687.1
     ]
   ],
-  "last_bar_ts": "2026-09-27T06:30:00",
-  "bars_processed": 3238,
+  "last_bar_ts": "2026-09-27T06:45:00",
+  "bars_processed": 3239,
   "starting_cash": 10000.0
 }
