@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T07:15:57",
+  "saved_at": "2026-09-27T07:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 263% annualized funding rewards the small short and signals crowded longs, while the mildly bullish drift on thin volume is too weak to justify covering the position."
     }
   ],
-  "llm_bar_index": 3208,
+  "llm_bar_index": 3209,
   "llm_usage": {
     "calls": 800,
     "prompt_tokens": 287487,
@@ -4011,10 +4011,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-06T11:15:00",
-      9807.9
-    ],
     [
       "2026-09-06T11:30:00",
       9806.79
@@ -12010,9 +12006,13 @@
     [
       "2026-09-27T07:00:00",
       9684.52
+    ],
+    [
+      "2026-09-27T07:15:00",
+      9684.98
     ]
   ],
-  "last_bar_ts": "2026-09-27T07:00:00",
-  "bars_processed": 3240,
+  "last_bar_ts": "2026-09-27T07:15:00",
+  "bars_processed": 3241,
   "starting_cash": 10000.0
 }

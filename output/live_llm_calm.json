@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T07:15:58",
+  "saved_at": "2026-09-27T07:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -604,7 +604,7 @@
       "reason": "Mildly bullish trend keeps me from adding, but extreme 188% funding pays my small short well, so I hold it and wait for long-crowding to unwind."
     }
   ],
-  "llm_bar_index": 461,
+  "llm_bar_index": 462,
   "llm_usage": {
     "calls": 100,
     "prompt_tokens": 35951,
@@ -2554,9 +2554,13 @@
     [
       "2026-09-27T07:00:00",
       10118.73
+    ],
+    [
+      "2026-09-27T07:15:00",
+      10119.21
     ]
   ],
-  "last_bar_ts": "2026-09-27T07:00:00",
-  "bars_processed": 461,
+  "last_bar_ts": "2026-09-27T07:15:00",
+  "bars_processed": 462,
   "starting_cash": 10000.0
 }
