@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T19:45:26",
+  "saved_at": "2026-09-27T20:00:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -674,13 +674,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mild bullish momentum conflicts with extreme 277% annualized funding and elevated perp premium signaling crowded longs, so keep the small short \u2014 funding carry offsets the minor drawdown."
+    },
+    {
+      "ts": "2026-09-27T19:45:00",
+      "action": "hold",
+      "conviction": 0.5,
+      "reason": "Extreme funding (339% ann.) and elevated perp premium signal crowded longs near overbought RSI with fading short-term momentum, supporting the small short despite a mild uptrend."
     }
   ],
-  "llm_bar_index": 511,
+  "llm_bar_index": 512,
   "llm_usage": {
-    "calls": 112,
-    "prompt_tokens": 40259,
-    "completion_tokens": 114551
+    "calls": 113,
+    "prompt_tokens": 40619,
+    "completion_tokens": 115617
   },
   "cash": 12613.30323977795,
   "positions": {
@@ -2844,9 +2850,13 @@
     [
       "2026-09-27T19:30:00",
       10079.93
+    ],
+    [
+      "2026-09-27T19:45:00",
+      10080.59
     ]
   ],
-  "last_bar_ts": "2026-09-27T19:30:00",
-  "bars_processed": 511,
+  "last_bar_ts": "2026-09-27T19:45:00",
+  "bars_processed": 512,
   "starting_cash": 10000.0
 }
