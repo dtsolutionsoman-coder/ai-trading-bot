@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-27T06:01:49",
+  "saved_at": "2026-09-27T06:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -598,7 +598,7 @@
       "reason": "Mild uptrend (RSI 55.6, SMA ratio >1) argues against the short, but extreme 221% annualized funding gives the small short strong positive carry, so maintain reduced exposure."
     }
   ],
-  "llm_bar_index": 456,
+  "llm_bar_index": 457,
   "llm_usage": {
     "calls": 99,
     "prompt_tokens": 35593,
@@ -2528,9 +2528,13 @@
     [
       "2026-09-27T05:45:00",
       10120.83
+    ],
+    [
+      "2026-09-27T06:00:00",
+      10117.62
     ]
   ],
-  "last_bar_ts": "2026-09-27T05:45:00",
-  "bars_processed": 456,
+  "last_bar_ts": "2026-09-27T06:00:00",
+  "bars_processed": 457,
   "starting_cash": 10000.0
 }
