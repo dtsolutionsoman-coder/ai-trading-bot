@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T09:45:32",
+  "saved_at": "2026-09-28T10:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish 6h/24h momentum, SMA ratio below 1, and extreme positive funding favor extending the small profitable short, though thin liquidity and a possible oversold bounce cap sizing."
     }
   ],
-  "llm_bar_index": 3314,
+  "llm_bar_index": 3315,
   "llm_usage": {
     "calls": 826,
     "prompt_tokens": 296829,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T13:45:00",
-      9783.21
-    ],
     [
       "2026-09-07T14:00:00",
       9788.26
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T09:30:00",
       9726.38
+    ],
+    [
+      "2026-09-28T09:45:00",
+      9745.26
     ]
   ],
-  "last_bar_ts": "2026-09-28T09:30:00",
-  "bars_processed": 3346,
+  "last_bar_ts": "2026-09-28T09:45:00",
+  "bars_processed": 3347,
   "starting_cash": 10000.0
 }
