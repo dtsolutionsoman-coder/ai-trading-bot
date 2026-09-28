@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T10:45:26",
+  "saved_at": "2026-09-28T11:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend and negative premium support the small profitable short, but oversold RSI 25.7 with deeply negative funding and rising OI signals squeeze risk, so maintain modest exposure rather than add."
     }
   ],
-  "llm_bar_index": 3318,
+  "llm_bar_index": 3319,
   "llm_usage": {
     "calls": 827,
     "prompt_tokens": 297188,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T14:45:00",
-      9786.62
-    ],
     [
       "2026-09-07T15:00:00",
       9790.16
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T10:30:00",
       9727.08
+    ],
+    [
+      "2026-09-28T10:45:00",
+      9726.29
     ]
   ],
-  "last_bar_ts": "2026-09-28T10:30:00",
-  "bars_processed": 3350,
+  "last_bar_ts": "2026-09-28T10:45:00",
+  "bars_processed": 3351,
   "starting_cash": 10000.0
 }
