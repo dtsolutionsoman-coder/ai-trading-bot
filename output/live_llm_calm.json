@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T14:01:01",
+  "saved_at": "2026-09-28T14:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -790,7 +790,7 @@
       "reason": "Extreme funding (396% ann) and overbought RSI 76 with positive perp premium keep the small short thesis alive despite adverse short-term momentum; not adding to a losing position."
     }
   ],
-  "llm_bar_index": 584,
+  "llm_bar_index": 585,
   "llm_usage": {
     "calls": 131,
     "prompt_tokens": 47091,
@@ -3286,9 +3286,13 @@
     [
       "2026-09-28T13:45:00",
       10133.8
+    ],
+    [
+      "2026-09-28T14:00:00",
+      10138.84
     ]
   ],
-  "last_bar_ts": "2026-09-28T13:45:00",
-  "bars_processed": 584,
+  "last_bar_ts": "2026-09-28T14:00:00",
+  "bars_processed": 585,
   "starting_cash": 10000.0
 }
