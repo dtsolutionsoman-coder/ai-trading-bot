@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T22:30:33",
+  "saved_at": "2026-09-28T22:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -838,7 +838,7 @@
       "reason": "Price trending down below SMA ratio with RSI weak while extreme positive funding and perp premium signal crowded longs, so I add modestly to the short despite its small drawdown."
     }
   ],
-  "llm_bar_index": 618,
+  "llm_bar_index": 619,
   "llm_usage": {
     "calls": 139,
     "prompt_tokens": 49963,
@@ -3470,9 +3470,13 @@
     [
       "2026-09-28T22:15:00",
       10137.56
+    ],
+    [
+      "2026-09-28T22:30:00",
+      10133.95
     ]
   ],
-  "last_bar_ts": "2026-09-28T22:15:00",
-  "bars_processed": 618,
+  "last_bar_ts": "2026-09-28T22:30:00",
+  "bars_processed": 619,
   "starting_cash": 10000.0
 }
