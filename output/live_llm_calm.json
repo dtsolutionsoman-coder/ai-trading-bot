@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T17:00:59",
+  "saved_at": "2026-09-28T17:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -808,7 +808,7 @@
       "reason": "Extreme positive funding and perp premium plus weak SMA trend support keeping the small short despite the minor bounce; low volume suggests the 1h/6h gains are noise."
     }
   ],
-  "llm_bar_index": 596,
+  "llm_bar_index": 597,
   "llm_usage": {
     "calls": 134,
     "prompt_tokens": 48167,
@@ -3352,9 +3352,13 @@
     [
       "2026-09-28T16:45:00",
       10133.16
+    ],
+    [
+      "2026-09-28T17:00:00",
+      10116.95
     ]
   ],
-  "last_bar_ts": "2026-09-28T16:45:00",
-  "bars_processed": 596,
+  "last_bar_ts": "2026-09-28T17:00:00",
+  "bars_processed": 597,
   "starting_cash": 10000.0
 }
