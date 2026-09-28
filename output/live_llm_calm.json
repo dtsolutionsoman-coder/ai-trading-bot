@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T03:15:43",
+  "saved_at": "2026-09-28T03:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -724,7 +724,7 @@
       "reason": "Multi-timeframe price weakness, extreme positive funding that pays shorts, and rising OI support modestly extending the profitable short, though near-oversold RSI caps conviction."
     }
   ],
-  "llm_bar_index": 541,
+  "llm_bar_index": 542,
   "llm_usage": {
     "calls": 120,
     "prompt_tokens": 43135,
@@ -3021,9 +3021,13 @@
     [
       "2026-09-28T03:00:00",
       10102.65
+    ],
+    [
+      "2026-09-28T03:15:00",
+      10106.89
     ]
   ],
-  "last_bar_ts": "2026-09-28T03:00:00",
-  "bars_processed": 541,
+  "last_bar_ts": "2026-09-28T03:15:00",
+  "bars_processed": 542,
   "starting_cash": 10000.0
 }
