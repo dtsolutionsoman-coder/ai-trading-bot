@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T10:15:52",
+  "saved_at": "2026-09-28T10:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -766,7 +766,7 @@
       "reason": "RSI 15.8 with deeply negative funding and rising OI signals a crowded-short squeeze setup, so I'm closing the profitable short and defending gains."
     }
   ],
-  "llm_bar_index": 569,
+  "llm_bar_index": 570,
   "llm_usage": {
     "calls": 127,
     "prompt_tokens": 45656,
@@ -3193,9 +3193,13 @@
     [
       "2026-09-28T10:00:00",
       10156.01
+    ],
+    [
+      "2026-09-28T10:15:00",
+      10159.43
     ]
   ],
-  "last_bar_ts": "2026-09-28T10:00:00",
-  "bars_processed": 569,
+  "last_bar_ts": "2026-09-28T10:15:00",
+  "bars_processed": 570,
   "starting_cash": 10000.0
 }
