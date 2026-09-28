@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T16:30:36",
+  "saved_at": "2026-09-28T16:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bearish trend (SMA ratio <1, RSI 39.5, negative 24h) and extreme positive funding support keeping the small profitable short, though the 6h bounce cautions against adding."
     }
   ],
-  "llm_bar_index": 3341,
+  "llm_bar_index": 3342,
   "llm_usage": {
     "calls": 833,
     "prompt_tokens": 299343,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T20:30:00",
-      9789.35
-    ],
     [
       "2026-09-07T20:45:00",
       9786.72
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T16:15:00",
       9691.23
+    ],
+    [
+      "2026-09-28T16:30:00",
+      9699.93
     ]
   ],
-  "last_bar_ts": "2026-09-28T16:15:00",
-  "bars_processed": 3373,
+  "last_bar_ts": "2026-09-28T16:30:00",
+  "bars_processed": 3374,
   "starting_cash": 10000.0
 }
