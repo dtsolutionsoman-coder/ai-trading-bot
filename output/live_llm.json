@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T18:15:46",
+  "saved_at": "2026-09-28T18:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding, overbought RSI, and perp premium justify keeping the small profitable short, but positive 1h/6h momentum and thin liquidity argue against adding here."
     }
   ],
-  "llm_bar_index": 3348,
+  "llm_bar_index": 3349,
   "llm_usage": {
     "calls": 835,
     "prompt_tokens": 300061,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T22:15:00",
-      9787.68
-    ],
     [
       "2026-09-07T22:30:00",
       9792.19
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T18:00:00",
       9687.08
+    ],
+    [
+      "2026-09-28T18:15:00",
+      9687.28
     ]
   ],
-  "last_bar_ts": "2026-09-28T18:00:00",
-  "bars_processed": 3380,
+  "last_bar_ts": "2026-09-28T18:15:00",
+  "bars_processed": 3381,
   "starting_cash": 10000.0
 }
