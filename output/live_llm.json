@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T03:45:29",
+  "saved_at": "2026-09-28T04:00:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Short position is profitable with negative momentum and extreme positive funding supporting downside, but near-oversold RSI caps conviction."
     }
   ],
-  "llm_bar_index": 3290,
+  "llm_bar_index": 3291,
   "llm_usage": {
     "calls": 820,
     "prompt_tokens": 294671,
@@ -4056,10 +4056,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T07:45:00",
-      9780.44
-    ],
     [
       "2026-09-07T08:00:00",
       9777.59
@@ -12055,9 +12051,13 @@
     [
       "2026-09-28T03:30:00",
       9694.29
+    ],
+    [
+      "2026-09-28T03:45:00",
+      9697.82
     ]
   ],
-  "last_bar_ts": "2026-09-28T03:30:00",
-  "bars_processed": 3322,
+  "last_bar_ts": "2026-09-28T03:45:00",
+  "bars_processed": 3323,
   "starting_cash": 10000.0
 }
