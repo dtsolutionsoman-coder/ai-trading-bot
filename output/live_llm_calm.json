@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T11:00:53",
+  "saved_at": "2026-09-28T11:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -772,7 +772,7 @@
       "reason": "Price in mild downtrend (24h -2.4%, SMA ratio <1) while 87% annualized funding, perp premium, and rising OI signal crowded, costly longs \u2014 trimming the small long into the 1h bounce."
     }
   ],
-  "llm_bar_index": 572,
+  "llm_bar_index": 573,
   "llm_usage": {
     "calls": 128,
     "prompt_tokens": 46015,
@@ -3220,9 +3220,13 @@
     [
       "2026-09-28T10:45:00",
       10160.09
+    ],
+    [
+      "2026-09-28T11:00:00",
+      10158.44
     ]
   ],
-  "last_bar_ts": "2026-09-28T10:45:00",
-  "bars_processed": 572,
+  "last_bar_ts": "2026-09-28T11:00:00",
+  "bars_processed": 573,
   "starting_cash": 10000.0
 }
