@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T20:01:04",
+  "saved_at": "2026-09-28T20:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -826,7 +826,7 @@
       "reason": "Extreme 607% annualized funding plus 65bps perp premium signals crowded longs while price trends mildly lower (SMA ratio <1), favoring a modestly larger short to capture carry and squeeze risk."
     }
   ],
-  "llm_bar_index": 608,
+  "llm_bar_index": 609,
   "llm_usage": {
     "calls": 137,
     "prompt_tokens": 49244,
@@ -3418,9 +3418,13 @@
     [
       "2026-09-28T19:45:00",
       10133.0
+    ],
+    [
+      "2026-09-28T20:00:00",
+      10132.76
     ]
   ],
-  "last_bar_ts": "2026-09-28T19:45:00",
-  "bars_processed": 608,
+  "last_bar_ts": "2026-09-28T20:00:00",
+  "bars_processed": 609,
   "starting_cash": 10000.0
 }
