@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T04:15:47",
+  "saved_at": "2026-09-28T04:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -730,7 +730,7 @@
       "reason": "Downtrend, extreme positive funding, and perp premium support the small profitable short, but RSI ~20 and thin liquidity raise squeeze risk, so defend gains rather than add."
     }
   ],
-  "llm_bar_index": 545,
+  "llm_bar_index": 546,
   "llm_usage": {
     "calls": 121,
     "prompt_tokens": 43496,
@@ -3043,9 +3043,13 @@
     [
       "2026-09-28T04:00:00",
       10107.64
+    ],
+    [
+      "2026-09-28T04:15:00",
+      10104.86
     ]
   ],
-  "last_bar_ts": "2026-09-28T04:00:00",
-  "bars_processed": 545,
+  "last_bar_ts": "2026-09-28T04:15:00",
+  "bars_processed": 546,
   "starting_cash": 10000.0
 }
