@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-28T09:00:39",
+  "saved_at": "2026-09-28T09:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-07T10:00:00",
-      "action": "hold",
-      "conviction": 0.22,
-      "reason": "Mildly bearish trend supports the small profitable short, but near-oversold RSI and very low volatility argue against adding exposure."
-    },
     {
       "ts": "2026-09-07T11:00:00",
       "action": "hold",
@@ -3002,19 +2996,25 @@
       "action": "hold",
       "conviction": 0.4,
       "reason": "Downtrend and extreme positive funding reward holding the small profitable short, but deeply oversold RSI (16.9) and thin liquidity argue against adding."
+    },
+    {
+      "ts": "2026-09-28T09:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Bearish 6h/24h momentum, SMA ratio below 1, and extreme positive funding favor extending the small profitable short, though thin liquidity and a possible oversold bounce cap sizing."
     }
   ],
-  "llm_bar_index": 3311,
+  "llm_bar_index": 3312,
   "llm_usage": {
-    "calls": 825,
-    "prompt_tokens": 296470,
-    "completion_tokens": 846454
+    "calls": 826,
+    "prompt_tokens": 296829,
+    "completion_tokens": 847358
   },
-  "cash": 12121.253225803424,
+  "cash": 12155.94206887002,
   "positions": {
     "BTC": {
-      "qty": -0.028804272884916243,
-      "avg_price": 84643.87283342263,
+      "qty": -0.029221842262807288,
+      "avg_price": 84622.61740802793,
       "realized_pnl": -22.11706342926477
     }
   },
@@ -4062,13 +4062,18 @@
       "fee": 0.011243633526665815,
       "realized": 0.0,
       "reason": "LLM sell conv=0.50: Extreme positive funding (824% ann.) with perp premium and rising OI signals crowded longs vulnerable to a squeeze, supporting the profitable short despite oversold RSI. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-28T09:00:00",
+      "side": "sell",
+      "qty": 0.0004175693778910444,
+      "price": 83156.401,
+      "fee": 0.034723566633228224,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.35: Bearish 6h/24h momentum, SMA ratio below 1, and extreme positive funding favor extending the small profitable short, though thin liquidity and a possible oversold bounce cap sizing. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T13:00:00",
-      9776.9
-    ],
     [
       "2026-09-07T13:15:00",
       9776.68
@@ -12064,9 +12069,13 @@
     [
       "2026-09-28T08:45:00",
       9724.54
+    ],
+    [
+      "2026-09-28T09:00:00",
+      9724.74
     ]
   ],
-  "last_bar_ts": "2026-09-28T08:45:00",
-  "bars_processed": 3343,
+  "last_bar_ts": "2026-09-28T09:00:00",
+  "bars_processed": 3344,
   "starting_cash": 10000.0
 }
