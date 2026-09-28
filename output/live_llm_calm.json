@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T13:01:06",
+  "saved_at": "2026-09-28T13:16:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -784,7 +784,7 @@
       "reason": "Maintaining the small short: 581% annualized funding and 59bps perp premium signal dangerously crowded longs into near-overbought RSI, but positive short-term momentum and SMA ratio near 1 argue again"
     }
   ],
-  "llm_bar_index": 580,
+  "llm_bar_index": 581,
   "llm_usage": {
     "calls": 130,
     "prompt_tokens": 46732,
@@ -3264,9 +3264,13 @@
     [
       "2026-09-28T12:45:00",
       10132.18
+    ],
+    [
+      "2026-09-28T13:00:00",
+      10136.98
     ]
   ],
-  "last_bar_ts": "2026-09-28T12:45:00",
-  "bars_processed": 580,
+  "last_bar_ts": "2026-09-28T13:00:00",
+  "bars_processed": 581,
   "starting_cash": 10000.0
 }
