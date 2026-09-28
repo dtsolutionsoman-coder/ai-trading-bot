@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T05:30:30",
+  "saved_at": "2026-09-28T05:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -736,7 +736,7 @@
       "reason": "Small short is in profit with mildly bearish drift and unsustainable 933% long funding, but bullish premium and rising OI argue against adding, so maintain the position."
     }
   ],
-  "llm_bar_index": 550,
+  "llm_bar_index": 551,
   "llm_usage": {
     "calls": 122,
     "prompt_tokens": 43856,
@@ -3069,9 +3069,13 @@
     [
       "2026-09-28T05:15:00",
       10115.35
+    ],
+    [
+      "2026-09-28T05:30:00",
+      10122.26
     ]
   ],
-  "last_bar_ts": "2026-09-28T05:15:00",
-  "bars_processed": 550,
+  "last_bar_ts": "2026-09-28T05:30:00",
+  "bars_processed": 551,
   "starting_cash": 10000.0
 }
