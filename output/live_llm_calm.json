@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T01:46:01",
+  "saved_at": "2026-09-28T02:00:59",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -710,19 +710,25 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "Extreme positive funding and perp premium signal crowded longs while short-term momentum turns negative, supporting adding to the profitable short despite flat 24h price."
+    },
+    {
+      "ts": "2026-09-28T01:45:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme positive funding (821% ann.) plus perp premium and rising OI signal crowded longs, supporting the profitable short while RSI below 50 confirms weak momentum."
     }
   ],
-  "llm_bar_index": 535,
+  "llm_bar_index": 536,
   "llm_usage": {
-    "calls": 118,
-    "prompt_tokens": 42415,
-    "completion_tokens": 121967
+    "calls": 119,
+    "prompt_tokens": 42775,
+    "completion_tokens": 122863
   },
-  "cash": 12613.30323977795,
+  "cash": 12623.755271699296,
   "positions": {
     "BTC": {
-      "qty": -0.029771781193241947,
-      "avg_price": 84736.61050000001,
+      "qty": -0.02989573004323841,
+      "avg_price": 84735.25542326318,
       "realized_pnl": 117.92743430369825
     }
   },
@@ -834,6 +840,15 @@
       "fee": 4.53654295217104,
       "realized": -9.2668029803487,
       "reason": "LLM sell conv=0.40: Extreme annualized funding (187%) with rising OI and positive perp premium signals crowded leveraged longs, while fading 1h/6h momentum and sub-40 RSI justify cutting the small losing long. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-09-28T01:45:00",
+      "side": "sell",
+      "qty": 0.0001239488499964643,
+      "price": 84409.774,
+      "fee": 0.010462494415761454,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.40: Extreme positive funding (821% ann.) plus perp premium and rising OI signal crowded longs, supporting the profitable short while RSI below 50 confirms weak momentum. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -2976,9 +2991,13 @@
     [
       "2026-09-28T01:30:00",
       10099.08
+    ],
+    [
+      "2026-09-28T01:45:00",
+      10099.0
     ]
   ],
-  "last_bar_ts": "2026-09-28T01:30:00",
-  "bars_processed": 535,
+  "last_bar_ts": "2026-09-28T01:45:00",
+  "bars_processed": 536,
   "starting_cash": 10000.0
 }
