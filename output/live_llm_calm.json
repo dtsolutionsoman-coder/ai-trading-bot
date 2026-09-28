@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T06:15:54",
+  "saved_at": "2026-09-28T06:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -742,7 +742,7 @@
       "reason": "Short is profitable with 1h/6h/24h momentum still negative, but RSI 24.4 and positive perp premium raise bounce risk, so keep the small short without adding."
     }
   ],
-  "llm_bar_index": 553,
+  "llm_bar_index": 554,
   "llm_usage": {
     "calls": 123,
     "prompt_tokens": 44216,
@@ -3087,9 +3087,13 @@
     [
       "2026-09-28T06:00:00",
       10124.35
+    ],
+    [
+      "2026-09-28T06:15:00",
+      10129.73
     ]
   ],
-  "last_bar_ts": "2026-09-28T06:00:00",
-  "bars_processed": 553,
+  "last_bar_ts": "2026-09-28T06:15:00",
+  "bars_processed": 554,
   "starting_cash": 10000.0
 }
