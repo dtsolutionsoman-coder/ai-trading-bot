@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T15:30:34",
+  "saved_at": "2026-09-28T15:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -796,7 +796,7 @@
       "reason": "Negative 24h/1h momentum, SMA ratio below 1, and extreme positive funding (shorts collect carry) justify modestly adding to the small short despite its minor loss."
     }
   ],
-  "llm_bar_index": 590,
+  "llm_bar_index": 591,
   "llm_usage": {
     "calls": 132,
     "prompt_tokens": 47450,
@@ -3316,9 +3316,13 @@
     [
       "2026-09-28T15:15:00",
       10152.2
+    ],
+    [
+      "2026-09-28T15:30:00",
+      10146.45
     ]
   ],
-  "last_bar_ts": "2026-09-28T15:15:00",
-  "bars_processed": 590,
+  "last_bar_ts": "2026-09-28T15:30:00",
+  "bars_processed": 591,
   "starting_cash": 10000.0
 }
