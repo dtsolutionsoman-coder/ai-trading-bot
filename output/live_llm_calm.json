@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T00:30:35",
+  "saved_at": "2026-09-28T00:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -706,7 +706,7 @@
       "reason": "Extreme positive funding and perp premium with weak bullish momentum justify keeping the small short open, but mixed price signals prevent adding risk."
     }
   ],
-  "llm_bar_index": 530,
+  "llm_bar_index": 531,
   "llm_usage": {
     "calls": 117,
     "prompt_tokens": 42056,
@@ -2950,9 +2950,13 @@
     [
       "2026-09-28T00:15:00",
       10075.85
+    ],
+    [
+      "2026-09-28T00:30:00",
+      10083.8
     ]
   ],
-  "last_bar_ts": "2026-09-28T00:15:00",
-  "bars_processed": 530,
+  "last_bar_ts": "2026-09-28T00:30:00",
+  "bars_processed": 531,
   "starting_cash": 10000.0
 }
