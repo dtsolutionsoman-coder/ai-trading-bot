@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T07:30:36",
+  "saved_at": "2026-09-28T07:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -748,7 +748,7 @@
       "reason": "Falling price with crowded longs (extreme positive funding, rising OI) supports holding the small profitable short, but RSI 25 oversold cautions against adding."
     }
   ],
-  "llm_bar_index": 558,
+  "llm_bar_index": 559,
   "llm_usage": {
     "calls": 124,
     "prompt_tokens": 44576,
@@ -3113,9 +3113,13 @@
     [
       "2026-09-28T07:15:00",
       10131.71
+    ],
+    [
+      "2026-09-28T07:30:00",
+      10132.66
     ]
   ],
-  "last_bar_ts": "2026-09-28T07:15:00",
-  "bars_processed": 558,
+  "last_bar_ts": "2026-09-28T07:30:00",
+  "bars_processed": 559,
   "starting_cash": 10000.0
 }
