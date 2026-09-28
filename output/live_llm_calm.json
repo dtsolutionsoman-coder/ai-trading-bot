@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T08:30:33",
+  "saved_at": "2026-09-28T08:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -754,7 +754,7 @@
       "reason": "Downtrend and rich positive funding support the existing small short, but RSI 18 signals oversold bounce risk, so defend the 1.6% profit rather than add."
     }
   ],
-  "llm_bar_index": 562,
+  "llm_bar_index": 563,
   "llm_usage": {
     "calls": 125,
     "prompt_tokens": 44936,
@@ -3135,9 +3135,13 @@
     [
       "2026-09-28T08:15:00",
       10139.39
+    ],
+    [
+      "2026-09-28T08:30:00",
+      10138.49
     ]
   ],
-  "last_bar_ts": "2026-09-28T08:15:00",
-  "bars_processed": 562,
+  "last_bar_ts": "2026-09-28T08:30:00",
+  "bars_processed": 563,
   "starting_cash": 10000.0
 }
