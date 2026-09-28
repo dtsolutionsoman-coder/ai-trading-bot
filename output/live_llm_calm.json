@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T21:30:34",
+  "saved_at": "2026-09-28T21:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -832,7 +832,7 @@
       "reason": "Extreme funding rate and perp premium signal crowded longs in a weak trend (SMA ratio <1, RSI 42), so I keep the small short and let funding carry offset the minor bounce-driven drawdown."
     }
   ],
-  "llm_bar_index": 614,
+  "llm_bar_index": 615,
   "llm_usage": {
     "calls": 138,
     "prompt_tokens": 49603,
@@ -3448,9 +3448,13 @@
     [
       "2026-09-28T21:15:00",
       10128.39
+    ],
+    [
+      "2026-09-28T21:30:00",
+      10130.92
     ]
   ],
-  "last_bar_ts": "2026-09-28T21:15:00",
-  "bars_processed": 614,
+  "last_bar_ts": "2026-09-28T21:30:00",
+  "bars_processed": 615,
   "starting_cash": 10000.0
 }
