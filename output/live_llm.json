@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T22:15:45",
+  "saved_at": "2026-09-28T22:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Declining momentum, SMA ratio below 1, and extreme positive funding with perp premium signal trapped longs, supporting the profitable short, though near-oversold RSI limits conviction."
     }
   ],
-  "llm_bar_index": 3364,
+  "llm_bar_index": 3365,
   "llm_usage": {
     "calls": 839,
     "prompt_tokens": 301496,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T02:15:00",
-      9772.34
-    ],
     [
       "2026-09-08T02:30:00",
       9779.73
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T22:00:00",
       9706.57
+    ],
+    [
+      "2026-09-28T22:15:00",
+      9704.76
     ]
   ],
-  "last_bar_ts": "2026-09-28T22:00:00",
-  "bars_processed": 3396,
+  "last_bar_ts": "2026-09-28T22:15:00",
+  "bars_processed": 3397,
   "starting_cash": 10000.0
 }
