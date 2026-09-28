@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T11:15:46",
+  "saved_at": "2026-09-28T11:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend, SMA ratio below 1, and sub-50 RSI support the profitable short, but the 1h bounce and low volatility argue against adding here."
     }
   ],
-  "llm_bar_index": 3320,
+  "llm_bar_index": 3321,
   "llm_usage": {
     "calls": 828,
     "prompt_tokens": 297546,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T15:15:00",
-      9790.49
-    ],
     [
       "2026-09-07T15:30:00",
       9799.08
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T11:00:00",
       9724.71
+    ],
+    [
+      "2026-09-28T11:15:00",
+      9725.24
     ]
   ],
-  "last_bar_ts": "2026-09-28T11:00:00",
-  "bars_processed": 3352,
+  "last_bar_ts": "2026-09-28T11:15:00",
+  "bars_processed": 3353,
   "starting_cash": 10000.0
 }
