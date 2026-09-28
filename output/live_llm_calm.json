@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T12:30:33",
+  "saved_at": "2026-09-28T12:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -778,7 +778,7 @@
       "reason": "Negative 24h momentum, SMA12/48 below 1, and extreme positive funding favor keeping the small short (which earns carry), but neutral RSI and a slight 1h bounce argue against adding risk."
     }
   ],
-  "llm_bar_index": 578,
+  "llm_bar_index": 579,
   "llm_usage": {
     "calls": 129,
     "prompt_tokens": 46373,
@@ -3250,9 +3250,13 @@
     [
       "2026-09-28T12:15:00",
       10136.3
+    ],
+    [
+      "2026-09-28T12:30:00",
+      10139.54
     ]
   ],
-  "last_bar_ts": "2026-09-28T12:15:00",
-  "bars_processed": 578,
+  "last_bar_ts": "2026-09-28T12:30:00",
+  "bars_processed": 579,
   "starting_cash": 10000.0
 }
