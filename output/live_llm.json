@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T04:46:02",
+  "saved_at": "2026-09-28T05:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (824% ann.) with perp premium and rising OI signals crowded longs vulnerable to a squeeze, supporting the profitable short despite oversold RSI."
     }
   ],
-  "llm_bar_index": 3294,
+  "llm_bar_index": 3295,
   "llm_usage": {
     "calls": 821,
     "prompt_tokens": 295031,
@@ -4065,10 +4065,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T08:45:00",
-      9778.12
-    ],
     [
       "2026-09-07T09:00:00",
       9775.73
@@ -12064,9 +12060,13 @@
     [
       "2026-09-28T04:30:00",
       9693.46
+    ],
+    [
+      "2026-09-28T04:45:00",
+      9693.08
     ]
   ],
-  "last_bar_ts": "2026-09-28T04:30:00",
-  "bars_processed": 3326,
+  "last_bar_ts": "2026-09-28T04:45:00",
+  "bars_processed": 3327,
   "starting_cash": 10000.0
 }
