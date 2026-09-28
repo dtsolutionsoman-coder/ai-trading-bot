@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T17:30:33",
+  "saved_at": "2026-09-28T17:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (301% ann.) plus perp premium signal crowded longs in a weak SMA structure; short earns funding while momentum risk caps size."
     }
   ],
-  "llm_bar_index": 3345,
+  "llm_bar_index": 3346,
   "llm_usage": {
     "calls": 834,
     "prompt_tokens": 299702,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-07T21:30:00",
-      9789.31
-    ],
     [
       "2026-09-07T21:45:00",
       9787.71
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T17:15:00",
       9694.53
+    ],
+    [
+      "2026-09-28T17:30:00",
+      9691.66
     ]
   ],
-  "last_bar_ts": "2026-09-28T17:15:00",
-  "bars_processed": 3377,
+  "last_bar_ts": "2026-09-28T17:30:00",
+  "bars_processed": 3378,
   "starting_cash": 10000.0
 }
