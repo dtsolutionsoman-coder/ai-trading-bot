@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T15:30:36",
+  "saved_at": "2026-09-29T15:45:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -940,7 +940,7 @@
       "reason": "Extreme 664% funding and elevated perp premium signal overcrowded longs that support the small short (which also earns funding), but the mild uptrend caps conviction."
     }
   ],
-  "llm_bar_index": 686,
+  "llm_bar_index": 687,
   "llm_usage": {
     "calls": 156,
     "prompt_tokens": 56071,
@@ -3844,9 +3844,13 @@
     [
       "2026-09-29T15:15:00",
       10165.07
+    ],
+    [
+      "2026-09-29T15:30:00",
+      10154.92
     ]
   ],
-  "last_bar_ts": "2026-09-29T15:15:00",
-  "bars_processed": 686,
+  "last_bar_ts": "2026-09-29T15:30:00",
+  "bars_processed": 687,
   "starting_cash": 10000.0
 }
