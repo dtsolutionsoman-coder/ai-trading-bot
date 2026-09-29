@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T04:30:34",
+  "saved_at": "2026-09-29T04:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -874,7 +874,7 @@
       "reason": "Bearish trend and extreme positive funding/perp premium support the small short, but oversold RSI and a 1h bounce argue against adding; maintain reduced short exposure."
     }
   ],
-  "llm_bar_index": 642,
+  "llm_bar_index": 643,
   "llm_usage": {
     "calls": 145,
     "prompt_tokens": 52121,
@@ -3602,9 +3602,13 @@
     [
       "2026-09-29T04:15:00",
       10145.66
+    ],
+    [
+      "2026-09-29T04:30:00",
+      10146.06
     ]
   ],
-  "last_bar_ts": "2026-09-29T04:15:00",
-  "bars_processed": 642,
+  "last_bar_ts": "2026-09-29T04:30:00",
+  "bars_processed": 643,
   "starting_cash": 10000.0
 }
