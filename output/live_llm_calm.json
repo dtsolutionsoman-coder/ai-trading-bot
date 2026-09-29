@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T01:30:36",
+  "saved_at": "2026-09-29T01:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -856,7 +856,7 @@
       "reason": "Bearish confluence: negative momentum across all horizons, SMA12/48 below 1, weak RSI, and extreme positive funding with elevated perp premium signals crowded longs primed to flush, while the short co"
     }
   ],
-  "llm_bar_index": 630,
+  "llm_bar_index": 631,
   "llm_usage": {
     "calls": 142,
     "prompt_tokens": 51043,
@@ -3536,9 +3536,13 @@
     [
       "2026-09-29T01:15:00",
       10152.05
+    ],
+    [
+      "2026-09-29T01:30:00",
+      10151.16
     ]
   ],
-  "last_bar_ts": "2026-09-29T01:15:00",
-  "bars_processed": 630,
+  "last_bar_ts": "2026-09-29T01:30:00",
+  "bars_processed": 631,
   "starting_cash": 10000.0
 }
