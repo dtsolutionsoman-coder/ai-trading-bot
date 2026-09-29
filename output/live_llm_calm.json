@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T22:15:48",
+  "saved_at": "2026-09-29T22:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -982,7 +982,7 @@
       "reason": "Extreme funding and perp premium support the small short, but neutral RSI, flat SMAs, and low volatility give no confirmation to add, so maintain current exposure and collect funding."
     }
   ],
-  "llm_bar_index": 713,
+  "llm_bar_index": 714,
   "llm_usage": {
     "calls": 163,
     "prompt_tokens": 58579,
@@ -3994,9 +3994,13 @@
     [
       "2026-09-29T22:00:00",
       10134.13
+    ],
+    [
+      "2026-09-29T22:15:00",
+      10137.1
     ]
   ],
-  "last_bar_ts": "2026-09-29T22:00:00",
-  "bars_processed": 713,
+  "last_bar_ts": "2026-09-29T22:15:00",
+  "bars_processed": 714,
   "starting_cash": 10000.0
 }
