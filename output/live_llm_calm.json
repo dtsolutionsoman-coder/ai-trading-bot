@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T06:01:06",
+  "saved_at": "2026-09-29T06:15:53",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -886,7 +886,7 @@
       "reason": "Extreme funding, elevated perp premium, and RSI 80 signal crowded longs supporting the existing short, but mild upward price drift argues against adding, so maintain current short exposure."
     }
   ],
-  "llm_bar_index": 648,
+  "llm_bar_index": 649,
   "llm_usage": {
     "calls": 147,
     "prompt_tokens": 52840,
@@ -3638,9 +3638,13 @@
     [
       "2026-09-29T05:45:00",
       10136.67
+    ],
+    [
+      "2026-09-29T06:00:00",
+      10122.46
     ]
   ],
-  "last_bar_ts": "2026-09-29T05:45:00",
-  "bars_processed": 648,
+  "last_bar_ts": "2026-09-29T06:00:00",
+  "bars_processed": 649,
   "starting_cash": 10000.0
 }
