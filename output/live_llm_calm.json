@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T16:15:47",
+  "saved_at": "2026-09-29T16:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -946,7 +946,7 @@
       "reason": "Bearish momentum and rich positive funding favor the small short, but RSI at 22 signals bounce risk, so keep exposure minimal rather than adding."
     }
   ],
-  "llm_bar_index": 689,
+  "llm_bar_index": 690,
   "llm_usage": {
     "calls": 157,
     "prompt_tokens": 56429,
@@ -3862,9 +3862,13 @@
     [
       "2026-09-29T16:00:00",
       10157.15
+    ],
+    [
+      "2026-09-29T16:15:00",
+      10150.06
     ]
   ],
-  "last_bar_ts": "2026-09-29T16:00:00",
-  "bars_processed": 689,
+  "last_bar_ts": "2026-09-29T16:15:00",
+  "bars_processed": 690,
   "starting_cash": 10000.0
 }
