@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T06:45:26",
+  "saved_at": "2026-09-29T07:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 87 with 601% annualized funding and positive perp premium signals extreme crowded longs primed for mean reversion, so add modestly to the small profitable short despite mild upward momentum."
     }
   ],
-  "llm_bar_index": 3398,
+  "llm_bar_index": 3399,
   "llm_usage": {
     "calls": 847,
     "prompt_tokens": 304372,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T10:45:00",
-      9797.2
-    ],
     [
       "2026-09-08T11:00:00",
       9803.39
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T06:30:00",
       9688.98
+    ],
+    [
+      "2026-09-29T06:45:00",
+      9686.67
     ]
   ],
-  "last_bar_ts": "2026-09-29T06:30:00",
-  "bars_processed": 3430,
+  "last_bar_ts": "2026-09-29T06:45:00",
+  "bars_processed": 3431,
   "starting_cash": 10000.0
 }
