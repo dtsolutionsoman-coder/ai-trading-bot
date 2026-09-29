@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-28T23:58:40",
+  "saved_at": "2026-09-29T00:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding pays the short, SMA12/48 ratio below 1 and negative 24h momentum support adding modestly to the already profitable short."
     }
   ],
-  "llm_bar_index": 3370,
+  "llm_bar_index": 3371,
   "llm_usage": {
     "calls": 840,
     "prompt_tokens": 301855,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T03:45:00",
-      9787.15
-    ],
     [
       "2026-09-08T04:00:00",
       9787.92
@@ -12073,9 +12069,13 @@
     [
       "2026-09-28T23:30:00",
       9696.14
+    ],
+    [
+      "2026-09-28T23:45:00",
+      9699.79
     ]
   ],
-  "last_bar_ts": "2026-09-28T23:30:00",
-  "bars_processed": 3402,
+  "last_bar_ts": "2026-09-28T23:45:00",
+  "bars_processed": 3403,
   "starting_cash": 10000.0
 }
