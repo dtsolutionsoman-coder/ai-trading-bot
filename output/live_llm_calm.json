@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T00:01:01",
+  "saved_at": "2026-09-29T00:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -850,7 +850,7 @@
       "reason": "Mild downtrend and extreme positive funding support keeping the small short, but the 1h bounce and small unrealized loss argue against adding risk."
     }
   ],
-  "llm_bar_index": 624,
+  "llm_bar_index": 625,
   "llm_usage": {
     "calls": 141,
     "prompt_tokens": 50683,
@@ -3506,9 +3506,13 @@
     [
       "2026-09-28T23:45:00",
       10132.36
+    ],
+    [
+      "2026-09-29T00:00:00",
+      10132.18
     ]
   ],
-  "last_bar_ts": "2026-09-28T23:45:00",
-  "bars_processed": 624,
+  "last_bar_ts": "2026-09-29T00:00:00",
+  "bars_processed": 625,
   "starting_cash": 10000.0
 }
