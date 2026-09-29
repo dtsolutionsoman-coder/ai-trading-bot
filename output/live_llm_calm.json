@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T07:30:36",
+  "saved_at": "2026-09-29T07:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -892,7 +892,7 @@
       "reason": "Extreme 538% annualized funding, RSI 88, and elevated perp premium signal a dangerously crowded long due for a flush, so I keep the small short open but won't add to a losing position against rising m"
     }
   ],
-  "llm_bar_index": 654,
+  "llm_bar_index": 655,
   "llm_usage": {
     "calls": 148,
     "prompt_tokens": 53199,
@@ -3668,9 +3668,13 @@
     [
       "2026-09-29T07:15:00",
       10118.94
+    ],
+    [
+      "2026-09-29T07:30:00",
+      10116.4
     ]
   ],
-  "last_bar_ts": "2026-09-29T07:15:00",
-  "bars_processed": 654,
+  "last_bar_ts": "2026-09-29T07:30:00",
+  "bars_processed": 655,
   "starting_cash": 10000.0
 }
