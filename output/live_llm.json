@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-09-29T03:00:37",
+  "saved_at": "2026-09-29T03:16:08",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-08T04:00:00",
-      "action": "sell",
-      "conviction": 0.3,
-      "reason": "Mildly bearish structure (SMA ratio <1, negative 24h, weak RSI) plus extreme positive funding rewarding shorts supports holding short exposure despite flat price action."
-    },
     {
       "ts": "2026-09-08T05:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.5,
       "reason": "Downtrend, sub-1 SMA ratio, and extreme positive funding (shorts collect carry) support keeping the profitable short, but oversold RSI and a stabilizing 1h print argue against adding here."
+    },
+    {
+      "ts": "2026-09-29T03:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Mild downtrend and rich positive funding reward the small profitable short, but extremely oversold RSI (15.5) and thin liquidity argue against adding risk, so maintain the reduced short."
     }
   ],
-  "llm_bar_index": 3383,
+  "llm_bar_index": 3384,
   "llm_usage": {
-    "calls": 843,
-    "prompt_tokens": 302933,
-    "completion_tokens": 865624
+    "calls": 844,
+    "prompt_tokens": 303292,
+    "completion_tokens": 866695
   },
   "cash": 12155.94206887002,
   "positions": {
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T07:00:00",
-      9801.28
-    ],
     [
       "2026-09-08T07:15:00",
       9798.1
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T02:45:00",
       9719.25
+    ],
+    [
+      "2026-09-29T03:00:00",
+      9720.33
     ]
   ],
-  "last_bar_ts": "2026-09-29T02:45:00",
-  "bars_processed": 3415,
+  "last_bar_ts": "2026-09-29T03:00:00",
+  "bars_processed": 3416,
   "starting_cash": 10000.0
 }
