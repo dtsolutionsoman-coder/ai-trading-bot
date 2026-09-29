@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T18:30:35",
+  "saved_at": "2026-09-29T18:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short stays on: 6h/24h momentum negative and extreme positive funding signals crowded longs, but near-oversold RSI and a 1h uptick warn against adding here."
     }
   ],
-  "llm_bar_index": 3445,
+  "llm_bar_index": 3446,
   "llm_usage": {
     "calls": 859,
     "prompt_tokens": 308677,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T22:30:00",
-      9809.89
-    ],
     [
       "2026-09-08T22:45:00",
       9808.47
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T18:15:00",
       9708.9
+    ],
+    [
+      "2026-09-29T18:30:00",
+      9706.45
     ]
   ],
-  "last_bar_ts": "2026-09-29T18:15:00",
-  "bars_processed": 3477,
+  "last_bar_ts": "2026-09-29T18:30:00",
+  "bars_processed": 3478,
   "starting_cash": 10000.0
 }
