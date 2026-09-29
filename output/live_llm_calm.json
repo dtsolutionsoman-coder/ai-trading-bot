@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T09:45:28",
+  "saved_at": "2026-09-29T10:01:05",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -902,13 +902,19 @@
       "action": "hold",
       "conviction": 0.03,
       "reason": "Extreme 313% annualized funding and declining OI signal crowded, overextended longs, so the tiny short is kept despite modest upward momentum and small drawdown."
+    },
+    {
+      "ts": "2026-09-29T09:45:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Small short is slightly underwater as short-term momentum turns up, but extreme positive funding (+405% annualized) and elevated perp premium favor keeping the modest short for carry rather than addin"
     }
   ],
-  "llm_bar_index": 663,
+  "llm_bar_index": 664,
   "llm_usage": {
-    "calls": 150,
-    "prompt_tokens": 53920,
-    "completion_tokens": 158464
+    "calls": 151,
+    "prompt_tokens": 54280,
+    "completion_tokens": 159366
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -3716,9 +3722,13 @@
     [
       "2026-09-29T09:30:00",
       10121.57
+    ],
+    [
+      "2026-09-29T09:45:00",
+      10114.81
     ]
   ],
-  "last_bar_ts": "2026-09-29T09:30:00",
-  "bars_processed": 663,
+  "last_bar_ts": "2026-09-29T09:45:00",
+  "bars_processed": 664,
   "starting_cash": 10000.0
 }
