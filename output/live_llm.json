@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T07:45:29",
+  "saved_at": "2026-09-29T08:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme RSI 94.7 with 565% annualized funding and perp premium signals overcrowded longs ripe for mean reversion, and the short earns funding while momentum risk stays elevated."
     }
   ],
-  "llm_bar_index": 3402,
+  "llm_bar_index": 3403,
   "llm_usage": {
     "calls": 848,
     "prompt_tokens": 304733,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T11:45:00",
-      9802.98
-    ],
     [
       "2026-09-08T12:00:00",
       9812.8
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T07:30:00",
       9684.53
+    ],
+    [
+      "2026-09-29T07:45:00",
+      9685.38
     ]
   ],
-  "last_bar_ts": "2026-09-29T07:30:00",
-  "bars_processed": 3434,
+  "last_bar_ts": "2026-09-29T07:45:00",
+  "bars_processed": 3435,
   "starting_cash": 10000.0
 }

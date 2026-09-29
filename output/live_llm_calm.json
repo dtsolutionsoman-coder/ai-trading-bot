@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T07:45:30",
+  "saved_at": "2026-09-29T08:01:14",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -890,13 +890,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme 538% annualized funding, RSI 88, and elevated perp premium signal a dangerously crowded long due for a flush, so I keep the small short open but won't add to a losing position against rising m"
+    },
+    {
+      "ts": "2026-09-29T07:45:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "RSI 93.4 with 570% annualized funding and elevated perp premium signals severely crowded longs ripe for mean reversion, so add modestly to the short while momentum remains upward."
     }
   ],
-  "llm_bar_index": 655,
+  "llm_bar_index": 656,
   "llm_usage": {
-    "calls": 148,
-    "prompt_tokens": 53199,
-    "completion_tokens": 156065
+    "calls": 149,
+    "prompt_tokens": 53559,
+    "completion_tokens": 157100
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -3672,9 +3678,13 @@
     [
       "2026-09-29T07:30:00",
       10116.4
+    ],
+    [
+      "2026-09-29T07:45:00",
+      10117.29
     ]
   ],
-  "last_bar_ts": "2026-09-29T07:30:00",
-  "bars_processed": 655,
+  "last_bar_ts": "2026-09-29T07:45:00",
+  "bars_processed": 656,
   "starting_cash": 10000.0
 }
