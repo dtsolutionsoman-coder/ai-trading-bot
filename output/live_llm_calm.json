@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T10:01:05",
+  "saved_at": "2026-09-29T10:16:11",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -910,7 +910,7 @@
       "reason": "Small short is slightly underwater as short-term momentum turns up, but extreme positive funding (+405% annualized) and elevated perp premium favor keeping the modest short for carry rather than addin"
     }
   ],
-  "llm_bar_index": 664,
+  "llm_bar_index": 665,
   "llm_usage": {
     "calls": 151,
     "prompt_tokens": 54280,
@@ -3726,9 +3726,13 @@
     [
       "2026-09-29T09:45:00",
       10114.81
+    ],
+    [
+      "2026-09-29T10:00:00",
+      10115.03
     ]
   ],
-  "last_bar_ts": "2026-09-29T09:45:00",
-  "bars_processed": 664,
+  "last_bar_ts": "2026-09-29T10:00:00",
+  "bars_processed": 665,
   "starting_cash": 10000.0
 }
