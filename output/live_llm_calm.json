@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T13:45:32",
+  "saved_at": "2026-09-29T14:01:10",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -926,13 +926,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Extreme positive funding (413% ann.) and perp premium favor keeping the small short to collect funding, offsetting its modest loss despite mild bullish momentum."
+    },
+    {
+      "ts": "2026-09-29T13:45:00",
+      "action": "hold",
+      "conviction": 0.45,
+      "reason": "Small short is bleeding mildly against a weak uptrend, but extreme positive funding (~466% ann.) heavily rewards shorts and suggests crowded longs, so maintain the position."
     }
   ],
-  "llm_bar_index": 679,
+  "llm_bar_index": 680,
   "llm_usage": {
-    "calls": 154,
-    "prompt_tokens": 55357,
-    "completion_tokens": 162842
+    "calls": 155,
+    "prompt_tokens": 55713,
+    "completion_tokens": 164050
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -3804,9 +3810,13 @@
     [
       "2026-09-29T13:30:00",
       10113.35
+    ],
+    [
+      "2026-09-29T13:45:00",
+      10113.47
     ]
   ],
-  "last_bar_ts": "2026-09-29T13:30:00",
-  "bars_processed": 679,
+  "last_bar_ts": "2026-09-29T13:45:00",
+  "bars_processed": 680,
   "starting_cash": 10000.0
 }
