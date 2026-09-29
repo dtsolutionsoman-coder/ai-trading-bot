@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T23:30:31",
+  "saved_at": "2026-09-29T23:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (128% ann.) plus declining OI and crowded long premium justify holding the small profitable short, while flat trend and neutral RSI argue against adding."
     }
   ],
-  "llm_bar_index": 3465,
+  "llm_bar_index": 3466,
   "llm_usage": {
     "calls": 864,
     "prompt_tokens": 310469,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T03:30:00",
-      9806.29
-    ],
     [
       "2026-09-09T03:45:00",
       9804.27
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T23:15:00",
       9703.38
+    ],
+    [
+      "2026-09-29T23:30:00",
+      9706.54
     ]
   ],
-  "last_bar_ts": "2026-09-29T23:15:00",
-  "bars_processed": 3497,
+  "last_bar_ts": "2026-09-29T23:30:00",
+  "bars_processed": 3498,
   "starting_cash": 10000.0
 }

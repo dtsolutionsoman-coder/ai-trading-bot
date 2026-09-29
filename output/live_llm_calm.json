@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T23:30:32",
+  "saved_at": "2026-09-29T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -988,7 +988,7 @@
       "reason": "Trendless price action (RSI ~50, SMA ratio ~1.0) but extreme positive funding and declining OI mildly support keeping the small short, which also collects funding while losing little."
     }
   ],
-  "llm_bar_index": 718,
+  "llm_bar_index": 719,
   "llm_usage": {
     "calls": 164,
     "prompt_tokens": 58938,
@@ -4020,9 +4020,13 @@
     [
       "2026-09-29T23:15:00",
       10136.12
+    ],
+    [
+      "2026-09-29T23:30:00",
+      10139.42
     ]
   ],
-  "last_bar_ts": "2026-09-29T23:15:00",
-  "bars_processed": 718,
+  "last_bar_ts": "2026-09-29T23:30:00",
+  "bars_processed": 719,
   "starting_cash": 10000.0
 }
