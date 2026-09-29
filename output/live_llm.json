@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T01:45:25",
+  "saved_at": "2026-09-29T02:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend across timeframes with extreme positive funding and perp premium favors adding to the profitable short, though near-oversold RSI and thin volume temper sizing."
     }
   ],
-  "llm_bar_index": 3378,
+  "llm_bar_index": 3379,
   "llm_usage": {
     "calls": 842,
     "prompt_tokens": 302574,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T05:45:00",
-      9797.51
-    ],
     [
       "2026-09-08T06:00:00",
       9798.25
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T01:30:00",
       9717.76
+    ],
+    [
+      "2026-09-29T01:45:00",
+      9715.95
     ]
   ],
-  "last_bar_ts": "2026-09-29T01:30:00",
-  "bars_processed": 3410,
+  "last_bar_ts": "2026-09-29T01:45:00",
+  "bars_processed": 3411,
   "starting_cash": 10000.0
 }
