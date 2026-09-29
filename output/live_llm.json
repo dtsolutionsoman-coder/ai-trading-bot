@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T02:45:26",
+  "saved_at": "2026-09-29T03:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Downtrend, sub-1 SMA ratio, and extreme positive funding (shorts collect carry) support keeping the profitable short, but oversold RSI and a stabilizing 1h print argue against adding here."
     }
   ],
-  "llm_bar_index": 3382,
+  "llm_bar_index": 3383,
   "llm_usage": {
     "calls": 843,
     "prompt_tokens": 302933,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T06:45:00",
-      9802.67
-    ],
     [
       "2026-09-08T07:00:00",
       9801.28
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T02:30:00",
       9719.13
+    ],
+    [
+      "2026-09-29T02:45:00",
+      9719.25
     ]
   ],
-  "last_bar_ts": "2026-09-29T02:30:00",
-  "bars_processed": 3414,
+  "last_bar_ts": "2026-09-29T02:45:00",
+  "bars_processed": 3415,
   "starting_cash": 10000.0
 }
