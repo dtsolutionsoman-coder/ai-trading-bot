@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T14:30:40",
+  "saved_at": "2026-09-29T14:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -934,7 +934,7 @@
       "reason": "Small short is bleeding mildly against a weak uptrend, but extreme positive funding (~466% ann.) heavily rewards shorts and suggests crowded longs, so maintain the position."
     }
   ],
-  "llm_bar_index": 682,
+  "llm_bar_index": 683,
   "llm_usage": {
     "calls": 155,
     "prompt_tokens": 55713,
@@ -3822,9 +3822,13 @@
     [
       "2026-09-29T14:15:00",
       10118.24
+    ],
+    [
+      "2026-09-29T14:30:00",
+      10121.54
     ]
   ],
-  "last_bar_ts": "2026-09-29T14:15:00",
-  "bars_processed": 682,
+  "last_bar_ts": "2026-09-29T14:30:00",
+  "bars_processed": 683,
   "starting_cash": 10000.0
 }
