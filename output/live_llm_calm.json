@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T08:45:28",
+  "saved_at": "2026-09-29T09:01:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -896,13 +896,19 @@
       "action": "sell",
       "conviction": 0.4,
       "reason": "RSI 93.4 with 570% annualized funding and elevated perp premium signals severely crowded longs ripe for mean reversion, so add modestly to the short while momentum remains upward."
+    },
+    {
+      "ts": "2026-09-29T08:45:00",
+      "action": "hold",
+      "conviction": 0.03,
+      "reason": "Extreme 313% annualized funding and declining OI signal crowded, overextended longs, so the tiny short is kept despite modest upward momentum and small drawdown."
     }
   ],
-  "llm_bar_index": 659,
+  "llm_bar_index": 660,
   "llm_usage": {
-    "calls": 149,
-    "prompt_tokens": 53559,
-    "completion_tokens": 157100
+    "calls": 150,
+    "prompt_tokens": 53920,
+    "completion_tokens": 158464
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -3694,9 +3700,13 @@
     [
       "2026-09-29T08:30:00",
       10128.2
+    ],
+    [
+      "2026-09-29T08:45:00",
+      10126.7
     ]
   ],
-  "last_bar_ts": "2026-09-29T08:30:00",
-  "bars_processed": 659,
+  "last_bar_ts": "2026-09-29T08:45:00",
+  "bars_processed": 660,
   "starting_cash": 10000.0
 }
