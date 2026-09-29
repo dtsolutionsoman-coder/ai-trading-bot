@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T17:01:03",
+  "saved_at": "2026-09-29T17:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -952,7 +952,7 @@
       "reason": "Falling 6h/24h momentum and positive funding favor the tiny short, but deeply oversold RSI (24.9) and a flat 1h print signal bounce risk, so keep the small position rather than add."
     }
   ],
-  "llm_bar_index": 692,
+  "llm_bar_index": 693,
   "llm_usage": {
     "calls": 158,
     "prompt_tokens": 56787,
@@ -3880,9 +3880,13 @@
     [
       "2026-09-29T16:45:00",
       10155.26
+    ],
+    [
+      "2026-09-29T17:00:00",
+      10153.91
     ]
   ],
-  "last_bar_ts": "2026-09-29T16:45:00",
-  "bars_processed": 692,
+  "last_bar_ts": "2026-09-29T17:00:00",
+  "bars_processed": 693,
   "starting_cash": 10000.0
 }
