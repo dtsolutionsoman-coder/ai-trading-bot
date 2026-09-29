@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T10:16:10",
+  "saved_at": "2026-09-29T10:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding and perp premium signal crowded longs favoring the small short, but positive multi-timeframe momentum and thin liquidity warrant keeping size minimal."
     }
   ],
-  "llm_bar_index": 3412,
+  "llm_bar_index": 3413,
   "llm_usage": {
     "calls": 851,
     "prompt_tokens": 305813,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-08T14:15:00",
-      9818.44
-    ],
     [
       "2026-09-08T14:30:00",
       9816.62
@@ -12073,9 +12069,13 @@
     [
       "2026-09-29T10:00:00",
       9683.22
+    ],
+    [
+      "2026-09-29T10:15:00",
+      9686.11
     ]
   ],
-  "last_bar_ts": "2026-09-29T10:00:00",
-  "bars_processed": 3444,
+  "last_bar_ts": "2026-09-29T10:15:00",
+  "bars_processed": 3445,
   "starting_cash": 10000.0
 }
