@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-29T09:30:31",
+  "saved_at": "2026-09-29T09:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -904,7 +904,7 @@
       "reason": "Extreme 313% annualized funding and declining OI signal crowded, overextended longs, so the tiny short is kept despite modest upward momentum and small drawdown."
     }
   ],
-  "llm_bar_index": 662,
+  "llm_bar_index": 663,
   "llm_usage": {
     "calls": 150,
     "prompt_tokens": 53920,
@@ -3712,9 +3712,13 @@
     [
       "2026-09-29T09:15:00",
       10127.32
+    ],
+    [
+      "2026-09-29T09:30:00",
+      10121.57
     ]
   ],
-  "last_bar_ts": "2026-09-29T09:15:00",
-  "bars_processed": 662,
+  "last_bar_ts": "2026-09-29T09:30:00",
+  "bars_processed": 663,
   "starting_cash": 10000.0
 }
