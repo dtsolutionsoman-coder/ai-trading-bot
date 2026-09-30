@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T07:30:35",
+  "saved_at": "2026-09-30T07:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1036,7 +1036,7 @@
       "reason": "Downtrend with extremely crowded long funding supports keeping the short, but near-oversold RSI and a slightly losing position argue against adding risk."
     }
   ],
-  "llm_bar_index": 750,
+  "llm_bar_index": 751,
   "llm_usage": {
     "calls": 172,
     "prompt_tokens": 61800,
@@ -4196,9 +4196,13 @@
     [
       "2026-09-30T07:15:00",
       10149.69
+    ],
+    [
+      "2026-09-30T07:30:00",
+      10148.13
     ]
   ],
-  "last_bar_ts": "2026-09-30T07:15:00",
-  "bars_processed": 750,
+  "last_bar_ts": "2026-09-30T07:30:00",
+  "bars_processed": 751,
   "starting_cash": 10000.0
 }
