@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T23:30:34",
+  "saved_at": "2026-09-30T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish drift and 37% annualized positive funding support the small profitable short, but flat RSI and neutral trend signals argue against adding risk."
     }
   ],
-  "llm_bar_index": 3561,
+  "llm_bar_index": 3562,
   "llm_usage": {
     "calls": 888,
     "prompt_tokens": 319051,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T03:30:00",
-      9806.97
-    ],
     [
       "2026-09-10T03:45:00",
       9809.67
@@ -12091,9 +12087,13 @@
     [
       "2026-09-30T23:15:00",
       9703.0
+    ],
+    [
+      "2026-09-30T23:30:00",
+      9703.21
     ]
   ],
-  "last_bar_ts": "2026-09-30T23:15:00",
-  "bars_processed": 3593,
+  "last_bar_ts": "2026-09-30T23:30:00",
+  "bars_processed": 3594,
   "starting_cash": 10000.0
 }
