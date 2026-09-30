@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T10:30:33",
+  "saved_at": "2026-09-30T10:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1054,7 +1054,7 @@
       "reason": "Extreme 110% funding with RSI near 70 and falling OI suggests crowded-long exhaustion, so I keep the small short open despite minor drawdown from short-covering momentum."
     }
   ],
-  "llm_bar_index": 762,
+  "llm_bar_index": 763,
   "llm_usage": {
     "calls": 175,
     "prompt_tokens": 62873,
@@ -4262,9 +4262,13 @@
     [
       "2026-09-30T10:15:00",
       10135.72
+    ],
+    [
+      "2026-09-30T10:30:00",
+      10133.22
     ]
   ],
-  "last_bar_ts": "2026-09-30T10:15:00",
-  "bars_processed": 762,
+  "last_bar_ts": "2026-09-30T10:30:00",
+  "bars_processed": 763,
   "starting_cash": 10000.0
 }
