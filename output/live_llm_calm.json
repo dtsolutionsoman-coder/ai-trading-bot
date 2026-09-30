@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T22:15:38",
+  "saved_at": "2026-09-30T22:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1126,7 +1126,7 @@
       "reason": "Flat price action with extremely expensive funding (114.8% annualized), positive perp premium, and sub-50 RSI make the small long a funding-cost drag; trimming exposure to defend the marginal profit."
     }
   ],
-  "llm_bar_index": 809,
+  "llm_bar_index": 810,
   "llm_usage": {
     "calls": 187,
     "prompt_tokens": 67171,
@@ -4540,9 +4540,13 @@
     [
       "2026-09-30T22:00:00",
       10134.2
+    ],
+    [
+      "2026-09-30T22:15:00",
+      10130.27
     ]
   ],
-  "last_bar_ts": "2026-09-30T22:00:00",
-  "bars_processed": 809,
+  "last_bar_ts": "2026-09-30T22:15:00",
+  "bars_processed": 810,
   "starting_cash": 10000.0
 }

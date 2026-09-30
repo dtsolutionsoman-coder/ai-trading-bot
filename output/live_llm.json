@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T22:15:37",
+  "saved_at": "2026-09-30T22:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and soft 6h momentum support the existing small short, but flat 24h action and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 3556,
+  "llm_bar_index": 3557,
   "llm_usage": {
     "calls": 887,
     "prompt_tokens": 318695,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T02:15:00",
-      9820.06
-    ],
     [
       "2026-09-10T02:30:00",
       9809.67
@@ -12091,9 +12087,13 @@
     [
       "2026-09-30T22:00:00",
       9702.25
+    ],
+    [
+      "2026-09-30T22:15:00",
+      9698.49
     ]
   ],
-  "last_bar_ts": "2026-09-30T22:00:00",
-  "bars_processed": 3588,
+  "last_bar_ts": "2026-09-30T22:15:00",
+  "bars_processed": 3589,
   "starting_cash": 10000.0
 }
