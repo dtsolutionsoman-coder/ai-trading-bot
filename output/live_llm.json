@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T17:15:47",
+  "saved_at": "2026-09-30T17:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (58.7% ann.) and fading momentum justify keeping the small profitable short to collect carry, but the mild 24h uptrend and neutral SMA ratio argue against adding."
     }
   ],
-  "llm_bar_index": 3536,
+  "llm_bar_index": 3537,
   "llm_usage": {
     "calls": 882,
     "prompt_tokens": 316912,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T21:15:00",
-      9811.97
-    ],
     [
       "2026-09-09T21:30:00",
       9810.44
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T17:00:00",
       9689.91
+    ],
+    [
+      "2026-09-30T17:15:00",
+      9693.42
     ]
   ],
-  "last_bar_ts": "2026-09-30T17:00:00",
-  "bars_processed": 3568,
+  "last_bar_ts": "2026-09-30T17:15:00",
+  "bars_processed": 3569,
   "starting_cash": 10000.0
 }
