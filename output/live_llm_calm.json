@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T19:01:20",
+  "saved_at": "2026-09-30T19:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1108,7 +1108,7 @@
       "reason": "Extremely high positive funding (84% ann.) and perp premium give shorts strong carry while 6h momentum is negative, so the small underwater short is worth maintaining despite mildly bullish 24h struct"
     }
   ],
-  "llm_bar_index": 796,
+  "llm_bar_index": 797,
   "llm_usage": {
     "calls": 184,
     "prompt_tokens": 66096,
@@ -4452,9 +4452,13 @@
     [
       "2026-09-30T18:45:00",
       10131.78
+    ],
+    [
+      "2026-09-30T19:00:00",
+      10135.69
     ]
   ],
-  "last_bar_ts": "2026-09-30T18:45:00",
-  "bars_processed": 796,
+  "last_bar_ts": "2026-09-30T19:00:00",
+  "bars_processed": 797,
   "starting_cash": 10000.0
 }
