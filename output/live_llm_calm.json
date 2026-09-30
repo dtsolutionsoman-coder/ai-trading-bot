@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T20:45:31",
+  "saved_at": "2026-09-30T21:00:56",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1112,13 +1112,19 @@
       "action": "buy",
       "conviction": 0.3,
       "reason": "Extreme oversold RSI (13.7) with mildly bullish SMA structure signals bounce risk, so cover the losing short despite favorable funding carry."
+    },
+    {
+      "ts": "2026-09-30T20:45:00",
+      "action": "hold",
+      "conviction": 0.05,
+      "reason": "Mixed signals \u2014 oversold RSI and mild SMA uptrend offset by extreme 122% funding and crowded long premium; keep only minimal long exposure."
     }
   ],
-  "llm_bar_index": 803,
+  "llm_bar_index": 804,
   "llm_usage": {
-    "calls": 185,
-    "prompt_tokens": 66453,
-    "completion_tokens": 194825
+    "calls": 186,
+    "prompt_tokens": 66812,
+    "completion_tokens": 195875
   },
   "cash": 7598.272891776946,
   "positions": {
@@ -4495,9 +4501,13 @@
     [
       "2026-09-30T20:30:00",
       10136.76
+    ],
+    [
+      "2026-09-30T20:45:00",
+      10135.73
     ]
   ],
-  "last_bar_ts": "2026-09-30T20:30:00",
-  "bars_processed": 803,
+  "last_bar_ts": "2026-09-30T20:45:00",
+  "bars_processed": 804,
   "starting_cash": 10000.0
 }
