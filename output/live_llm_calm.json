@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T13:01:01",
+  "saved_at": "2026-09-30T13:15:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1072,7 +1072,7 @@
       "reason": "RSI 93.4 with declining OI and negative perp premium suggests this low-volume rally is short-covering and near exhaustion, so I'll keep the small short rather than add to the loser or chase the squeez"
     }
   ],
-  "llm_bar_index": 772,
+  "llm_bar_index": 773,
   "llm_usage": {
     "calls": 178,
     "prompt_tokens": 63948,
@@ -4320,9 +4320,13 @@
     [
       "2026-09-30T12:45:00",
       10095.71
+    ],
+    [
+      "2026-09-30T13:00:00",
+      10091.67
     ]
   ],
-  "last_bar_ts": "2026-09-30T12:45:00",
-  "bars_processed": 772,
+  "last_bar_ts": "2026-09-30T13:00:00",
+  "bars_processed": 773,
   "starting_cash": 10000.0
 }
