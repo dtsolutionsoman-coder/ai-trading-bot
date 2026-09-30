@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T04:30:35",
+  "saved_at": "2026-09-30T04:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1018,7 +1018,7 @@
       "reason": "Weak momentum (RSI 36, SMA ratio <1) and extremely crowded-long funding support keeping the small short, but flat price action and low volatility cap conviction."
     }
   ],
-  "llm_bar_index": 738,
+  "llm_bar_index": 739,
   "llm_usage": {
     "calls": 169,
     "prompt_tokens": 60727,
@@ -4130,9 +4130,13 @@
     [
       "2026-09-30T04:15:00",
       10149.2
+    ],
+    [
+      "2026-09-30T04:30:00",
+      10150.31
     ]
   ],
-  "last_bar_ts": "2026-09-30T04:15:00",
-  "bars_processed": 738,
+  "last_bar_ts": "2026-09-30T04:30:00",
+  "bars_processed": 739,
   "starting_cash": 10000.0
 }
