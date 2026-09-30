@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T00:30:35",
+  "saved_at": "2026-09-30T00:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -994,7 +994,7 @@
       "reason": "Flat price action with neutral RSI, but extreme positive funding and perp premium favor keeping the small short while collecting funding; no signal strong enough to add risk."
     }
   ],
-  "llm_bar_index": 722,
+  "llm_bar_index": 723,
   "llm_usage": {
     "calls": 165,
     "prompt_tokens": 59295,
@@ -4042,9 +4042,13 @@
     [
       "2026-09-30T00:15:00",
       10143.15
+    ],
+    [
+      "2026-09-30T00:30:00",
+      10145.26
     ]
   ],
-  "last_bar_ts": "2026-09-30T00:15:00",
-  "bars_processed": 722,
+  "last_bar_ts": "2026-09-30T00:30:00",
+  "bars_processed": 723,
   "starting_cash": 10000.0
 }
