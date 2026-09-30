@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T11:45:27",
+  "saved_at": "2026-09-30T12:00:58",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1058,13 +1058,19 @@
       "action": "hold",
       "conviction": 0.5,
       "reason": "Overbought RSI (70.9), extreme positive funding (112% ann.) and perp premium favor keeping the short for carry, though near-term upward momentum and the small loss cap conviction."
+    },
+    {
+      "ts": "2026-09-30T11:45:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "RSI 90 with 59% annualized funding and perp premium signals crowded, overheated longs ripe for a squeeze lower; adding modestly to the small short despite minor drawdown."
     }
   ],
-  "llm_bar_index": 767,
+  "llm_bar_index": 768,
   "llm_usage": {
-    "calls": 176,
-    "prompt_tokens": 63230,
-    "completion_tokens": 185842
+    "calls": 177,
+    "prompt_tokens": 63589,
+    "completion_tokens": 186825
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -4288,9 +4294,13 @@
     [
       "2026-09-30T11:30:00",
       10133.16
+    ],
+    [
+      "2026-09-30T11:45:00",
+      10133.95
     ]
   ],
-  "last_bar_ts": "2026-09-30T11:30:00",
-  "bars_processed": 767,
+  "last_bar_ts": "2026-09-30T11:45:00",
+  "bars_processed": 768,
   "starting_cash": 10000.0
 }

@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T11:45:26",
+  "saved_at": "2026-09-30T12:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme funding and overbought RSI support the small existing short, but rising 6h momentum on falling OI suggests short-covering squeeze risk, so defend the +0.75% profit without adding risk."
     }
   ],
-  "llm_bar_index": 3514,
+  "llm_bar_index": 3515,
   "llm_usage": {
     "calls": 876,
     "prompt_tokens": 314766,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T15:45:00",
-      9802.32
-    ],
     [
       "2026-09-09T16:00:00",
       9802.16
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T11:30:00",
       9700.55
+    ],
+    [
+      "2026-09-30T11:45:00",
+      9701.31
     ]
   ],
-  "last_bar_ts": "2026-09-30T11:30:00",
-  "bars_processed": 3546,
+  "last_bar_ts": "2026-09-30T11:45:00",
+  "bars_processed": 3547,
   "starting_cash": 10000.0
 }
