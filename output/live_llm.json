@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T09:30:36",
+  "saved_at": "2026-09-30T09:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish trend, RSI<50, and very high positive funding support holding the profitable short, but low volume and flat short-term price action limit conviction to add."
     }
   ],
-  "llm_bar_index": 3505,
+  "llm_bar_index": 3506,
   "llm_usage": {
     "calls": 874,
     "prompt_tokens": 314048,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T13:30:00",
-      9790.62
-    ],
     [
       "2026-09-09T13:45:00",
       9792.61
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T09:15:00",
       9713.52
+    ],
+    [
+      "2026-09-30T09:30:00",
+      9711.51
     ]
   ],
-  "last_bar_ts": "2026-09-30T09:15:00",
-  "bars_processed": 3537,
+  "last_bar_ts": "2026-09-30T09:30:00",
+  "bars_processed": 3538,
   "starting_cash": 10000.0
 }
