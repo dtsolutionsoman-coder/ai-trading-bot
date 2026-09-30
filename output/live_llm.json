@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T13:30:34",
+  "saved_at": "2026-09-30T13:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI at 93 with declining OI suggests short-squeeze exhaustion and positive funding rewards holding the small short, though momentum is against it."
     }
   ],
-  "llm_bar_index": 3521,
+  "llm_bar_index": 3522,
   "llm_usage": {
     "calls": 878,
     "prompt_tokens": 315482,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T17:30:00",
-      9799.32
-    ],
     [
       "2026-09-09T17:45:00",
       9796.67
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T13:15:00",
       9663.32
+    ],
+    [
+      "2026-09-30T13:30:00",
+      9683.01
     ]
   ],
-  "last_bar_ts": "2026-09-30T13:15:00",
-  "bars_processed": 3553,
+  "last_bar_ts": "2026-09-30T13:30:00",
+  "bars_processed": 3554,
   "starting_cash": 10000.0
 }
