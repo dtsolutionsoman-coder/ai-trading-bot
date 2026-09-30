@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T02:30:34",
+  "saved_at": "2026-09-30T02:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small profitable short collects ~99% annualized funding while neutral momentum (RSI 42, SMA ratio ~1) and falling OI support keeping, not extending, the position."
     }
   ],
-  "llm_bar_index": 3477,
+  "llm_bar_index": 3478,
   "llm_usage": {
     "calls": 867,
     "prompt_tokens": 311541,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T06:30:00",
-      9793.98
-    ],
     [
       "2026-09-09T06:45:00",
       9794.47
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T02:15:00",
       9714.14
+    ],
+    [
+      "2026-09-30T02:30:00",
+      9715.07
     ]
   ],
-  "last_bar_ts": "2026-09-30T02:15:00",
-  "bars_processed": 3509,
+  "last_bar_ts": "2026-09-30T02:30:00",
+  "bars_processed": 3510,
   "starting_cash": 10000.0
 }
