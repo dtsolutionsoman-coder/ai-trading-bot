@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T18:15:44",
+  "saved_at": "2026-09-30T18:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1102,7 +1102,7 @@
       "reason": "Extreme positive funding (109% ann.) rewards the small short carry while flat momentum and elevated RSI limit upside risk; keeping the position rather than adding against a mildly positive trend."
     }
   ],
-  "llm_bar_index": 793,
+  "llm_bar_index": 794,
   "llm_usage": {
     "calls": 183,
     "prompt_tokens": 65739,
@@ -4434,9 +4434,13 @@
     [
       "2026-09-30T18:00:00",
       10129.88
+    ],
+    [
+      "2026-09-30T18:15:00",
+      10132.64
     ]
   ],
-  "last_bar_ts": "2026-09-30T18:00:00",
-  "bars_processed": 793,
+  "last_bar_ts": "2026-09-30T18:15:00",
+  "bars_processed": 794,
   "starting_cash": 10000.0
 }
