@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T06:45:28",
+  "saved_at": "2026-09-30T07:00:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild downtrend with positive funding and declining OI supports keeping the small profitable short, but low volatility and volume offer no signal to add."
     }
   ],
-  "llm_bar_index": 3494,
+  "llm_bar_index": 3495,
   "llm_usage": {
     "calls": 871,
     "prompt_tokens": 312972,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T10:45:00",
-      9797.59
-    ],
     [
       "2026-09-09T11:00:00",
       9798.4
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T06:30:00",
       9720.74
+    ],
+    [
+      "2026-09-30T06:45:00",
+      9722.73
     ]
   ],
-  "last_bar_ts": "2026-09-30T06:30:00",
-  "bars_processed": 3526,
+  "last_bar_ts": "2026-09-30T06:45:00",
+  "bars_processed": 3527,
   "starting_cash": 10000.0
 }
