@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T21:02:28",
+  "saved_at": "2026-09-30T21:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1120,7 +1120,7 @@
       "reason": "Mixed signals \u2014 oversold RSI and mild SMA uptrend offset by extreme 122% funding and crowded long premium; keep only minimal long exposure."
     }
   ],
-  "llm_bar_index": 804,
+  "llm_bar_index": 805,
   "llm_usage": {
     "calls": 186,
     "prompt_tokens": 66812,
@@ -4505,9 +4505,13 @@
     [
       "2026-09-30T20:45:00",
       10135.73
+    ],
+    [
+      "2026-09-30T21:00:00",
+      10138.51
     ]
   ],
-  "last_bar_ts": "2026-09-30T20:45:00",
-  "bars_processed": 804,
+  "last_bar_ts": "2026-09-30T21:00:00",
+  "bars_processed": 805,
   "starting_cash": 10000.0
 }
