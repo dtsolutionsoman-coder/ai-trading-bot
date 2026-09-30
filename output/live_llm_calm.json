@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T03:16:08",
+  "saved_at": "2026-09-30T03:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1012,7 +1012,7 @@
       "reason": "Bearish funding and soft price action support the small short, but RSI 26 oversold with mixed OI signals warrants keeping exposure minimal."
     }
   ],
-  "llm_bar_index": 733,
+  "llm_bar_index": 734,
   "llm_usage": {
     "calls": 168,
     "prompt_tokens": 60369,
@@ -4104,9 +4104,13 @@
     [
       "2026-09-30T03:00:00",
       10150.37
+    ],
+    [
+      "2026-09-30T03:15:00",
+      10150.64
     ]
   ],
-  "last_bar_ts": "2026-09-30T03:00:00",
-  "bars_processed": 733,
+  "last_bar_ts": "2026-09-30T03:15:00",
+  "bars_processed": 734,
   "starting_cash": 10000.0
 }
