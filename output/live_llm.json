@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T14:30:41",
+  "saved_at": "2026-09-30T14:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Existing small short is profitable with high positive funding and perp premium favoring shorts, but mixed price action (6h up, 24h flat) argues against adding risk."
     }
   ],
-  "llm_bar_index": 3525,
+  "llm_bar_index": 3526,
   "llm_usage": {
     "calls": 879,
     "prompt_tokens": 315840,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T18:30:00",
-      9802.45
-    ],
     [
       "2026-09-09T18:45:00",
       9804.56
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T14:15:00",
       9700.64
+    ],
+    [
+      "2026-09-30T14:30:00",
+      9706.01
     ]
   ],
-  "last_bar_ts": "2026-09-30T14:15:00",
-  "bars_processed": 3557,
+  "last_bar_ts": "2026-09-30T14:30:00",
+  "bars_processed": 3558,
   "starting_cash": 10000.0
 }
