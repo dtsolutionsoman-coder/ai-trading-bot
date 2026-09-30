@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T12:30:34",
+  "saved_at": "2026-09-30T12:45:30",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 88 and 54% annualized funding flag crowded longs primed to flush, while declining OI confirms de-risking; modestly adding to the profitable short."
     }
   ],
-  "llm_bar_index": 3517,
+  "llm_bar_index": 3518,
   "llm_usage": {
     "calls": 877,
     "prompt_tokens": 315123,
@@ -4074,10 +4074,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-09T16:30:00",
-      9799.23
-    ],
     [
       "2026-09-09T16:45:00",
       9796.54
@@ -12073,9 +12069,13 @@
     [
       "2026-09-30T12:15:00",
       9700.55
+    ],
+    [
+      "2026-09-30T12:30:00",
+      9676.7
     ]
   ],
-  "last_bar_ts": "2026-09-30T12:15:00",
-  "bars_processed": 3549,
+  "last_bar_ts": "2026-09-30T12:30:00",
+  "bars_processed": 3550,
   "starting_cash": 10000.0
 }

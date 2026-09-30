@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T12:30:35",
+  "saved_at": "2026-09-30T12:45:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1066,7 +1066,7 @@
       "reason": "RSI 90 with 59% annualized funding and perp premium signals crowded, overheated longs ripe for a squeeze lower; adding modestly to the small short despite minor drawdown."
     }
   ],
-  "llm_bar_index": 770,
+  "llm_bar_index": 771,
   "llm_usage": {
     "calls": 177,
     "prompt_tokens": 63589,
@@ -4306,9 +4306,13 @@
     [
       "2026-09-30T12:15:00",
       10133.16
+    ],
+    [
+      "2026-09-30T12:30:00",
+      10108.21
     ]
   ],
-  "last_bar_ts": "2026-09-30T12:15:00",
-  "bars_processed": 770,
+  "last_bar_ts": "2026-09-30T12:30:00",
+  "bars_processed": 771,
   "starting_cash": 10000.0
 }
