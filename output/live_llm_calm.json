@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T14:16:18",
+  "saved_at": "2026-09-30T14:30:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1078,7 +1078,7 @@
       "reason": "Small short retains positive carry from extreme 30% funding while rising RSI and 6h momentum argue against adding; mixed signals, keep minimal exposure."
     }
   ],
-  "llm_bar_index": 777,
+  "llm_bar_index": 778,
   "llm_usage": {
     "calls": 179,
     "prompt_tokens": 64306,
@@ -4346,9 +4346,13 @@
     [
       "2026-09-30T14:00:00",
       10119.03
+    ],
+    [
+      "2026-09-30T14:15:00",
+      10133.25
     ]
   ],
-  "last_bar_ts": "2026-09-30T14:00:00",
-  "bars_processed": 777,
+  "last_bar_ts": "2026-09-30T14:15:00",
+  "bars_processed": 778,
   "starting_cash": 10000.0
 }
