@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T20:15:48",
+  "saved_at": "2026-09-30T20:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Deeply oversold RSI (17.3) with flat trend and thin volume raises bounce risk, so I'm covering the short to defend the +0.97% gain despite favorable funding."
     }
   ],
-  "llm_bar_index": 3548,
+  "llm_bar_index": 3549,
   "llm_usage": {
     "calls": 885,
     "prompt_tokens": 317980,
@@ -4083,10 +4083,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T00:15:00",
-      9808.76
-    ],
     [
       "2026-09-10T00:30:00",
       9812.74
@@ -12082,9 +12078,13 @@
     [
       "2026-09-30T20:00:00",
       9701.96
+    ],
+    [
+      "2026-09-30T20:15:00",
+      9703.18
     ]
   ],
-  "last_bar_ts": "2026-09-30T20:00:00",
-  "bars_processed": 3580,
+  "last_bar_ts": "2026-09-30T20:15:00",
+  "bars_processed": 3581,
   "starting_cash": 10000.0
 }
