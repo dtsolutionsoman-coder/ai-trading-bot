@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T04:45:27",
+  "saved_at": "2026-09-30T05:01:21",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1016,13 +1016,19 @@
       "action": "hold",
       "conviction": 0.2,
       "reason": "Weak momentum (RSI 36, SMA ratio <1) and extremely crowded-long funding support keeping the small short, but flat price action and low volatility cap conviction."
+    },
+    {
+      "ts": "2026-09-30T04:45:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 739,
+  "llm_bar_index": 740,
   "llm_usage": {
-    "calls": 169,
-    "prompt_tokens": 60727,
-    "completion_tokens": 177433
+    "calls": 170,
+    "prompt_tokens": 61084,
+    "completion_tokens": 179433
   },
   "cash": 12701.829692905478,
   "positions": {
@@ -4134,9 +4140,13 @@
     [
       "2026-09-30T04:30:00",
       10150.31
+    ],
+    [
+      "2026-09-30T04:45:00",
+      10153.61
     ]
   ],
-  "last_bar_ts": "2026-09-30T04:30:00",
-  "bars_processed": 739,
+  "last_bar_ts": "2026-09-30T04:45:00",
+  "bars_processed": 740,
   "starting_cash": 10000.0
 }
