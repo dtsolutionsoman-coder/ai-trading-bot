@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T16:00:57",
+  "saved_at": "2026-09-30T16:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1090,7 +1090,7 @@
       "reason": "Elevated positive funding and perp premium favor the small short as carry, while mild upward price drift and RSI 40 give mixed signals, so maintain current exposure without adding risk."
     }
   ],
-  "llm_bar_index": 784,
+  "llm_bar_index": 785,
   "llm_usage": {
     "calls": 181,
     "prompt_tokens": 65023,
@@ -4386,9 +4386,13 @@
     [
       "2026-09-30T15:45:00",
       10124.99
+    ],
+    [
+      "2026-09-30T16:00:00",
+      10120.65
     ]
   ],
-  "last_bar_ts": "2026-09-30T15:45:00",
-  "bars_processed": 784,
+  "last_bar_ts": "2026-09-30T16:00:00",
+  "bars_processed": 785,
   "starting_cash": 10000.0
 }
