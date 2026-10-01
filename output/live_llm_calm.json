@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T08:30:39",
+  "saved_at": "2026-10-01T08:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1186,7 +1186,7 @@
       "reason": "Extreme funding (92% ann) and elevated perp premium signal crowded longs while price action is flat-to-weak; the tiny long position is bleeding carry for no momentum."
     }
   ],
-  "llm_bar_index": 850,
+  "llm_bar_index": 851,
   "llm_usage": {
     "calls": 197,
     "prompt_tokens": 70739,
@@ -4782,9 +4782,13 @@
     [
       "2026-10-01T08:15:00",
       10099.86
+    ],
+    [
+      "2026-10-01T08:30:00",
+      10094.21
     ]
   ],
-  "last_bar_ts": "2026-10-01T08:15:00",
-  "bars_processed": 850,
+  "last_bar_ts": "2026-10-01T08:30:00",
+  "bars_processed": 851,
   "starting_cash": 10000.0
 }
