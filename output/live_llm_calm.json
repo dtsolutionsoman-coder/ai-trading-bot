@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T12:45:30",
+  "saved_at": "2026-10-01T13:00:58",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1208,13 +1208,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Flat trend and rich positive funding (18% ann.) justify keeping the small short for carry despite mild RSI strength and a small drawdown."
+    },
+    {
+      "ts": "2026-10-01T12:45:00",
+      "action": "sell",
+      "conviction": 0.4,
+      "reason": "Extreme positive funding (143% ann) with falling 24h price and rising OI signals crowded longs unwinding, favoring a modestly larger short despite thin liquidity."
     }
   ],
-  "llm_bar_index": 867,
+  "llm_bar_index": 868,
   "llm_usage": {
-    "calls": 201,
-    "prompt_tokens": 72173,
-    "completion_tokens": 209578
+    "calls": 202,
+    "prompt_tokens": 72530,
+    "completion_tokens": 210661
   },
   "cash": 12622.297843702208,
   "positions": {
@@ -4874,9 +4880,13 @@
     [
       "2026-10-01T12:30:00",
       10087.45
+    ],
+    [
+      "2026-10-01T12:45:00",
+      10088.41
     ]
   ],
-  "last_bar_ts": "2026-10-01T12:30:00",
-  "bars_processed": 867,
+  "last_bar_ts": "2026-10-01T12:45:00",
+  "bars_processed": 868,
   "starting_cash": 10000.0
 }
