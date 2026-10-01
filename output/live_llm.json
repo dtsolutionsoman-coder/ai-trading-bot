@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T15:30:42",
+  "saved_at": "2026-10-01T15:45:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Price action is flat with neutral RSI and SMA ratio, but elevated positive funding (19% ann.) gives the small short positive carry, so no change warranted."
     }
   ],
-  "llm_bar_index": 3625,
+  "llm_bar_index": 3626,
   "llm_usage": {
     "calls": 904,
     "prompt_tokens": 324774,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T19:30:00",
-      9849.76
-    ],
     [
       "2026-09-10T19:45:00",
       9853.82
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T15:15:00",
       9692.57
+    ],
+    [
+      "2026-10-01T15:30:00",
+      9697.11
     ]
   ],
-  "last_bar_ts": "2026-10-01T15:15:00",
-  "bars_processed": 3657,
+  "last_bar_ts": "2026-10-01T15:30:00",
+  "bars_processed": 3658,
   "starting_cash": 10000.0
 }
