@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T11:45:29",
+  "saved_at": "2026-10-01T12:00:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Trendless price with elevated funding favoring the small existing short, but mildly bullish RSI and premium offset; no edge to add or exit."
     }
   ],
-  "llm_bar_index": 3610,
+  "llm_bar_index": 3611,
   "llm_usage": {
     "calls": 900,
     "prompt_tokens": 323344,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T15:45:00",
-      9851.28
-    ],
     [
       "2026-09-10T16:00:00",
       9856.55
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T11:30:00",
       9695.95
+    ],
+    [
+      "2026-10-01T11:45:00",
+      9696.82
     ]
   ],
-  "last_bar_ts": "2026-10-01T11:30:00",
-  "bars_processed": 3642,
+  "last_bar_ts": "2026-10-01T11:45:00",
+  "bars_processed": 3643,
   "starting_cash": 10000.0
 }
