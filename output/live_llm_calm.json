@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T00:30:33",
+  "saved_at": "2026-10-01T00:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1138,7 +1138,7 @@
       "reason": "Small profitable short aligns with extreme positive funding and crowded long premium, but flat price, weak volume, and neutral trend argue against adding risk."
     }
   ],
-  "llm_bar_index": 818,
+  "llm_bar_index": 819,
   "llm_usage": {
     "calls": 189,
     "prompt_tokens": 67884,
@@ -4588,9 +4588,13 @@
     [
       "2026-10-01T00:15:00",
       10139.69
+    ],
+    [
+      "2026-10-01T00:30:00",
+      10135.74
     ]
   ],
-  "last_bar_ts": "2026-10-01T00:15:00",
-  "bars_processed": 818,
+  "last_bar_ts": "2026-10-01T00:30:00",
+  "bars_processed": 819,
   "starting_cash": 10000.0
 }
