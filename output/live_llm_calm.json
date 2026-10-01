@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T13:00:58",
+  "saved_at": "2026-10-01T13:15:45",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1216,7 +1216,7 @@
       "reason": "Extreme positive funding (143% ann) with falling 24h price and rising OI signals crowded longs unwinding, favoring a modestly larger short despite thin liquidity."
     }
   ],
-  "llm_bar_index": 868,
+  "llm_bar_index": 869,
   "llm_usage": {
     "calls": 202,
     "prompt_tokens": 72530,
@@ -4884,9 +4884,13 @@
     [
       "2026-10-01T12:45:00",
       10088.41
+    ],
+    [
+      "2026-10-01T13:00:00",
+      10095.09
     ]
   ],
-  "last_bar_ts": "2026-10-01T12:45:00",
-  "bars_processed": 868,
+  "last_bar_ts": "2026-10-01T13:00:00",
+  "bars_processed": 869,
   "starting_cash": 10000.0
 }
