@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T10:45:26",
+  "saved_at": "2026-10-01T11:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish momentum (RSI 41, slight downtrend) plus extreme positive funding and perp premium that pays shorts justify modestly adding to the small profitable short."
     }
   ],
-  "llm_bar_index": 3606,
+  "llm_bar_index": 3607,
   "llm_usage": {
     "calls": 899,
     "prompt_tokens": 322986,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T14:45:00",
-      9847.04
-    ],
     [
       "2026-09-10T15:00:00",
       9847.35
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T10:30:00",
       9694.48
+    ],
+    [
+      "2026-10-01T10:45:00",
+      9695.83
     ]
   ],
-  "last_bar_ts": "2026-10-01T10:30:00",
-  "bars_processed": 3638,
+  "last_bar_ts": "2026-10-01T10:45:00",
+  "bars_processed": 3639,
   "starting_cash": 10000.0
 }
