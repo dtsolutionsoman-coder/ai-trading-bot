@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-01T23:01:11",
+  "saved_at": "2026-10-01T23:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-11T01:00:00",
-      "action": "hold",
-      "conviction": 0.35,
-      "reason": "Bearish confluence (SMA ratio <1, RSI 39.7, negative 6h/24h, declining OI) and positive funding support the profitable short, but thin volume and a mild 1h bounce argue against adding risk."
-    },
     {
       "ts": "2026-09-11T02:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Small short is slightly profitable with elevated positive funding accruing in its favor, while the weak low-volume bounce and neutral RSI don't justify changing exposure."
+    },
+    {
+      "ts": "2026-10-01T23:00:00",
+      "action": "sell",
+      "conviction": 0.3,
+      "reason": "Extreme positive funding (60% ann.) and flat momentum with neutral RSI favor holding/adding a small short that collects carry, though mildly positive trend keeps conviction low."
     }
   ],
-  "llm_bar_index": 3655,
+  "llm_bar_index": 3656,
   "llm_usage": {
-    "calls": 911,
-    "prompt_tokens": 327279,
-    "completion_tokens": 937066
+    "calls": 912,
+    "prompt_tokens": 327638,
+    "completion_tokens": 938018
   },
   "cash": 12103.726774267963,
   "positions": {
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T03:00:00",
-      9866.15
-    ],
     [
       "2026-09-11T03:15:00",
       9867.11
@@ -12109,9 +12105,13 @@
     [
       "2026-10-01T22:45:00",
       9686.17
+    ],
+    [
+      "2026-10-01T23:00:00",
+      9688.08
     ]
   ],
-  "last_bar_ts": "2026-10-01T22:45:00",
-  "bars_processed": 3687,
+  "last_bar_ts": "2026-10-01T23:00:00",
+  "bars_processed": 3688,
   "starting_cash": 10000.0
 }
