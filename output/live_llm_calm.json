@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T15:00:56",
+  "saved_at": "2026-10-01T15:15:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1228,7 +1228,7 @@
       "reason": "Mild upward drift slightly pressures the small short, but neutral RSI, low volatility, and positive funding carry (~11% ann.) justify maintaining the modest position rather than chasing noise."
     }
   ],
-  "llm_bar_index": 876,
+  "llm_bar_index": 877,
   "llm_usage": {
     "calls": 204,
     "prompt_tokens": 73248,
@@ -4928,9 +4928,13 @@
     [
       "2026-10-01T14:45:00",
       10082.38
+    ],
+    [
+      "2026-10-01T15:00:00",
+      10082.35
     ]
   ],
-  "last_bar_ts": "2026-10-01T14:45:00",
-  "bars_processed": 876,
+  "last_bar_ts": "2026-10-01T15:00:00",
+  "bars_processed": 877,
   "starting_cash": 10000.0
 }
