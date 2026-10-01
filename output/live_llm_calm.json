@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T04:00:53",
+  "saved_at": "2026-10-01T04:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1162,7 +1162,7 @@
       "reason": "Extreme funding and perp premium signal crowded longs that support the small short (which also earns funding), but flat trend ratio and mildly positive momentum argue against adding risk."
     }
   ],
-  "llm_bar_index": 832,
+  "llm_bar_index": 833,
   "llm_usage": {
     "calls": 193,
     "prompt_tokens": 69310,
@@ -4668,9 +4668,13 @@
     [
       "2026-10-01T03:45:00",
       10131.75
+    ],
+    [
+      "2026-10-01T04:00:00",
+      10127.85
     ]
   ],
-  "last_bar_ts": "2026-10-01T03:45:00",
-  "bars_processed": 832,
+  "last_bar_ts": "2026-10-01T04:00:00",
+  "bars_processed": 833,
   "starting_cash": 10000.0
 }
