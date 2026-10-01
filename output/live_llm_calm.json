@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T01:01:11",
+  "saved_at": "2026-10-01T01:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1144,7 +1144,7 @@
       "reason": "Extreme 90.9% annualized funding signals crowded longs in an illiquid market, and with weak RSI (36) and soft 6h momentum, extending the small profitable short earns carry while positioning for a long"
     }
   ],
-  "llm_bar_index": 820,
+  "llm_bar_index": 821,
   "llm_usage": {
     "calls": 190,
     "prompt_tokens": 68241,
@@ -4602,9 +4602,13 @@
     [
       "2026-10-01T00:45:00",
       10137.73
+    ],
+    [
+      "2026-10-01T01:00:00",
+      10135.01
     ]
   ],
-  "last_bar_ts": "2026-10-01T00:45:00",
-  "bars_processed": 820,
+  "last_bar_ts": "2026-10-01T01:00:00",
+  "bars_processed": 821,
   "starting_cash": 10000.0
 }
