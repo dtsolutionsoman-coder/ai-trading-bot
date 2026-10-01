@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T09:15:51",
+  "saved_at": "2026-10-01T09:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1192,7 +1192,7 @@
       "reason": "Small short is roughly flat; extreme funding and perp premium signal crowded longs while price drifts up weakly on thin volume, so keep the modest short exposure without adding risk."
     }
   ],
-  "llm_bar_index": 853,
+  "llm_bar_index": 854,
   "llm_usage": {
     "calls": 198,
     "prompt_tokens": 71097,
@@ -4800,9 +4800,13 @@
     [
       "2026-10-01T09:00:00",
       10090.59
+    ],
+    [
+      "2026-10-01T09:15:00",
+      10088.51
     ]
   ],
-  "last_bar_ts": "2026-10-01T09:00:00",
-  "bars_processed": 853,
+  "last_bar_ts": "2026-10-01T09:15:00",
+  "bars_processed": 854,
   "starting_cash": 10000.0
 }
