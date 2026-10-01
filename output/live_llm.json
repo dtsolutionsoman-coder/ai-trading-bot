@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T18:59:32",
+  "saved_at": "2026-10-01T19:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 77 overbought with 21.8% annualized long funding and stalling 1h momentum; lock in the small long profit before mean reversion."
     }
   ],
-  "llm_bar_index": 3638,
+  "llm_bar_index": 3639,
   "llm_usage": {
     "calls": 907,
     "prompt_tokens": 325844,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T22:45:00",
-      9870.76
-    ],
     [
       "2026-09-10T23:00:00",
       9876.23
@@ -12109,9 +12105,13 @@
     [
       "2026-10-01T18:30:00",
       9678.68
+    ],
+    [
+      "2026-10-01T18:45:00",
+      9683.97
     ]
   ],
-  "last_bar_ts": "2026-10-01T18:30:00",
-  "bars_processed": 3670,
+  "last_bar_ts": "2026-10-01T18:45:00",
+  "bars_processed": 3671,
   "starting_cash": 10000.0
 }
