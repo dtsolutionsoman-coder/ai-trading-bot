@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T23:30:34",
+  "saved_at": "2026-10-01T23:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1276,7 +1276,7 @@
       "reason": "Extreme ~50% annualized funding makes the small short attractive carry despite mild bullish drift; mixed signals favor maintaining, not adding."
     }
   ],
-  "llm_bar_index": 910,
+  "llm_bar_index": 911,
   "llm_usage": {
     "calls": 212,
     "prompt_tokens": 76114,
@@ -5130,9 +5130,13 @@
     [
       "2026-10-01T23:15:00",
       10053.71
+    ],
+    [
+      "2026-10-01T23:30:00",
+      10049.91
     ]
   ],
-  "last_bar_ts": "2026-10-01T23:15:00",
-  "bars_processed": 910,
+  "last_bar_ts": "2026-10-01T23:30:00",
+  "bars_processed": 911,
   "starting_cash": 10000.0
 }
