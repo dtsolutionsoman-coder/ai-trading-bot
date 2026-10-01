@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T12:00:57",
+  "saved_at": "2026-10-01T12:15:52",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1210,7 +1210,7 @@
       "reason": "Flat trend and rich positive funding (18% ann.) justify keeping the small short for carry despite mild RSI strength and a small drawdown."
     }
   ],
-  "llm_bar_index": 864,
+  "llm_bar_index": 865,
   "llm_usage": {
     "calls": 201,
     "prompt_tokens": 72173,
@@ -4862,9 +4862,13 @@
     [
       "2026-10-01T11:45:00",
       10086.75
+    ],
+    [
+      "2026-10-01T12:00:00",
+      10083.43
     ]
   ],
-  "last_bar_ts": "2026-10-01T11:45:00",
-  "bars_processed": 864,
+  "last_bar_ts": "2026-10-01T12:00:00",
+  "bars_processed": 865,
   "starting_cash": 10000.0
 }

@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-01T12:00:43",
+  "saved_at": "2026-10-01T12:15:51",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-10T14:00:00",
-      "action": "hold",
-      "conviction": 0.45,
-      "reason": "Bearish trend and positive funding support the existing small short, but oversold RSI (25.6) warns against adding exposure here."
-    },
     {
       "ts": "2026-09-10T15:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Trendless price with elevated funding favoring the small existing short, but mildly bullish RSI and premium offset; no edge to add or exit."
+    },
+    {
+      "ts": "2026-10-01T12:00:00",
+      "action": "hold",
+      "conviction": 0.03,
+      "reason": "Flat price and neutral trend argue for keeping the small short; elevated funding favors shorts but low volume and mixed momentum prevent adding."
     }
   ],
-  "llm_bar_index": 3611,
+  "llm_bar_index": 3612,
   "llm_usage": {
-    "calls": 900,
-    "prompt_tokens": 323344,
-    "completion_tokens": 925495
+    "calls": 901,
+    "prompt_tokens": 323702,
+    "completion_tokens": 926942
   },
   "cash": 12124.138416146276,
   "positions": {
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T16:00:00",
-      9856.55
-    ],
     [
       "2026-09-10T16:15:00",
       9859.49
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T11:45:00",
       9696.82
+    ],
+    [
+      "2026-10-01T12:00:00",
+      9693.64
     ]
   ],
-  "last_bar_ts": "2026-10-01T11:45:00",
-  "bars_processed": 3643,
+  "last_bar_ts": "2026-10-01T12:00:00",
+  "bars_processed": 3644,
   "starting_cash": 10000.0
 }
