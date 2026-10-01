@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T16:01:01",
+  "saved_at": "2026-10-01T16:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1234,7 +1234,7 @@
       "reason": "Cutting the small losing short as multiple mild signals (positive 6h momentum, SMA ratio >1, RSI>50, perp premium, rising OI) lean bullish, though low volatility and thin volume warrant only modest lo"
     }
   ],
-  "llm_bar_index": 880,
+  "llm_bar_index": 881,
   "llm_usage": {
     "calls": 205,
     "prompt_tokens": 73606,
@@ -4959,9 +4959,13 @@
     [
       "2026-10-01T15:45:00",
       10073.51
+    ],
+    [
+      "2026-10-01T16:00:00",
+      10078.75
     ]
   ],
-  "last_bar_ts": "2026-10-01T15:45:00",
-  "bars_processed": 880,
+  "last_bar_ts": "2026-10-01T16:00:00",
+  "bars_processed": 881,
   "starting_cash": 10000.0
 }
