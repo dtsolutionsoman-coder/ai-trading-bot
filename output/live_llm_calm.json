@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T14:30:58",
+  "saved_at": "2026-10-01T14:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1222,7 +1222,7 @@
       "reason": "Small short is only modestly underwater while extreme positive funding (167% ann.) pays the carry and momentum signals are mixed, so no adjustment warranted."
     }
   ],
-  "llm_bar_index": 874,
+  "llm_bar_index": 875,
   "llm_usage": {
     "calls": 203,
     "prompt_tokens": 72889,
@@ -4914,9 +4914,13 @@
     [
       "2026-10-01T14:15:00",
       10079.6
+    ],
+    [
+      "2026-10-01T14:30:00",
+      10082.23
     ]
   ],
-  "last_bar_ts": "2026-10-01T14:15:00",
-  "bars_processed": 874,
+  "last_bar_ts": "2026-10-01T14:30:00",
+  "bars_processed": 875,
   "starting_cash": 10000.0
 }
