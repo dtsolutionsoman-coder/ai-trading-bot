@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T06:45:27",
+  "saved_at": "2026-10-01T07:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme RSI 83.7 and elevated positive funding support keeping the tiny short as a pullback hedge, but upward price momentum and a small unrealized loss argue against adding risk."
     }
   ],
-  "llm_bar_index": 3590,
+  "llm_bar_index": 3591,
   "llm_usage": {
     "calls": 895,
     "prompt_tokens": 321554,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T10:45:00",
-      9821.22
-    ],
     [
       "2026-09-10T11:00:00",
       9829.58
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T06:30:00",
       9693.23
+    ],
+    [
+      "2026-10-01T06:45:00",
+      9693.23
     ]
   ],
-  "last_bar_ts": "2026-10-01T06:30:00",
-  "bars_processed": 3622,
+  "last_bar_ts": "2026-10-01T06:45:00",
+  "bars_processed": 3623,
   "starting_cash": 10000.0
 }
