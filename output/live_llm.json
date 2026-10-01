@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T19:45:25",
+  "saved_at": "2026-10-01T20:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 55.8% funding and overbought RSI justify keeping the small profitable short to collect carry, but positive 6h/24h momentum prevents adding risk."
     }
   ],
-  "llm_bar_index": 3642,
+  "llm_bar_index": 3643,
   "llm_usage": {
     "calls": 908,
     "prompt_tokens": 326202,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T23:45:00",
-      9880.87
-    ],
     [
       "2026-09-11T00:00:00",
       9868.74
@@ -12109,9 +12105,13 @@
     [
       "2026-10-01T19:30:00",
       9688.39
+    ],
+    [
+      "2026-10-01T19:45:00",
+      9687.96
     ]
   ],
-  "last_bar_ts": "2026-10-01T19:30:00",
-  "bars_processed": 3674,
+  "last_bar_ts": "2026-10-01T19:45:00",
+  "bars_processed": 3675,
   "starting_cash": 10000.0
 }
