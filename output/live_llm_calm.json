@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T06:00:59",
+  "saved_at": "2026-10-01T06:15:54",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1174,7 +1174,7 @@
       "reason": "Extreme RSI 83, elevated positive funding carry, and price grinding higher on declining OI favor retaining the small short despite the minor 0.45% drawdown."
     }
   ],
-  "llm_bar_index": 840,
+  "llm_bar_index": 841,
   "llm_usage": {
     "calls": 195,
     "prompt_tokens": 70021,
@@ -4712,9 +4712,13 @@
     [
       "2026-10-01T05:45:00",
       10120.24
+    ],
+    [
+      "2026-10-01T06:00:00",
+      10117.46
     ]
   ],
-  "last_bar_ts": "2026-10-01T05:45:00",
-  "bars_processed": 840,
+  "last_bar_ts": "2026-10-01T06:00:00",
+  "bars_processed": 841,
   "starting_cash": 10000.0
 }
