@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T17:15:43",
+  "saved_at": "2026-10-01T17:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Momentum, SMA ratio, and RSI all point mildly higher while the short bleeds; cutting the loser rather than fighting the drift."
     }
   ],
-  "llm_bar_index": 3632,
+  "llm_bar_index": 3633,
   "llm_usage": {
     "calls": 906,
     "prompt_tokens": 325489,
@@ -4101,10 +4101,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T21:15:00",
-      9851.55
-    ],
     [
       "2026-09-10T21:30:00",
       9854.43
@@ -12100,9 +12096,13 @@
     [
       "2026-10-01T17:00:00",
       9674.2
+    ],
+    [
+      "2026-10-01T17:15:00",
+      9686.75
     ]
   ],
-  "last_bar_ts": "2026-10-01T17:00:00",
-  "bars_processed": 3664,
+  "last_bar_ts": "2026-10-01T17:15:00",
+  "bars_processed": 3665,
   "starting_cash": 10000.0
 }
