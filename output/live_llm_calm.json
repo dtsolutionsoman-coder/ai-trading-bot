@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T11:00:54",
+  "saved_at": "2026-10-01T11:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1204,7 +1204,7 @@
       "reason": "Low-volatility chop with mixed momentum, but elevated 10.95% funding favors maintaining the small short despite minor drawdown."
     }
   ],
-  "llm_bar_index": 860,
+  "llm_bar_index": 861,
   "llm_usage": {
     "calls": 200,
     "prompt_tokens": 71814,
@@ -4840,9 +4840,13 @@
     [
       "2026-10-01T10:45:00",
       10085.73
+    ],
+    [
+      "2026-10-01T11:00:00",
+      10088.23
     ]
   ],
-  "last_bar_ts": "2026-10-01T10:45:00",
-  "bars_processed": 860,
+  "last_bar_ts": "2026-10-01T11:00:00",
+  "bars_processed": 861,
   "starting_cash": 10000.0
 }
