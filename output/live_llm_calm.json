@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T20:00:55",
+  "saved_at": "2026-10-01T20:15:55",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1258,7 +1258,7 @@
       "reason": "Mild uptrend pressures the small short, but extreme 60% funding and perp premium pay shorts to wait; keeping minimal exposure."
     }
   ],
-  "llm_bar_index": 896,
+  "llm_bar_index": 897,
   "llm_usage": {
     "calls": 209,
     "prompt_tokens": 75037,
@@ -5056,9 +5056,13 @@
     [
       "2026-10-01T19:45:00",
       10055.47
+    ],
+    [
+      "2026-10-01T20:00:00",
+      10053.94
     ]
   ],
-  "last_bar_ts": "2026-10-01T19:45:00",
-  "bars_processed": 896,
+  "last_bar_ts": "2026-10-01T20:00:00",
+  "bars_processed": 897,
   "starting_cash": 10000.0
 }
