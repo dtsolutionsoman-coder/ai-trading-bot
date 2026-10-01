@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-09-30T23:45:28",
+  "saved_at": "2026-10-01T00:01:00",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1130,13 +1130,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Small profitable short stays on: high 47% funding signals crowded longs and sub-50 RSI with negative 6h drift lean bearish, but flat price action and low volatility argue against adding risk."
+    },
+    {
+      "ts": "2026-09-30T23:45:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Small profitable short aligns with extreme positive funding and crowded long premium, but flat price, weak volume, and neutral trend argue against adding risk."
     }
   ],
-  "llm_bar_index": 815,
+  "llm_bar_index": 816,
   "llm_usage": {
-    "calls": 188,
-    "prompt_tokens": 67528,
-    "completion_tokens": 197971
+    "calls": 189,
+    "prompt_tokens": 67884,
+    "completion_tokens": 198892
   },
   "cash": 12665.00259879443,
   "positions": {
@@ -4570,9 +4576,13 @@
     [
       "2026-09-30T23:30:00",
       10135.19
+    ],
+    [
+      "2026-09-30T23:45:00",
+      10135.4
     ]
   ],
-  "last_bar_ts": "2026-09-30T23:30:00",
-  "bars_processed": 815,
+  "last_bar_ts": "2026-09-30T23:45:00",
+  "bars_processed": 816,
   "starting_cash": 10000.0
 }
