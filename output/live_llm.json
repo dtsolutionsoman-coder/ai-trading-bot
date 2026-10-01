@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T12:30:36",
+  "saved_at": "2026-10-01T12:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Flat price and neutral trend argue for keeping the small short; elevated funding favors shorts but low volume and mixed momentum prevent adding."
     }
   ],
-  "llm_bar_index": 3613,
+  "llm_bar_index": 3614,
   "llm_usage": {
     "calls": 901,
     "prompt_tokens": 323702,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T16:30:00",
-      9857.22
-    ],
     [
       "2026-09-10T16:45:00",
       9852.93
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T12:15:00",
       9695.05
+    ],
+    [
+      "2026-10-01T12:30:00",
+      9697.48
     ]
   ],
-  "last_bar_ts": "2026-10-01T12:15:00",
-  "bars_processed": 3645,
+  "last_bar_ts": "2026-10-01T12:30:00",
+  "bars_processed": 3646,
   "starting_cash": 10000.0
 }
