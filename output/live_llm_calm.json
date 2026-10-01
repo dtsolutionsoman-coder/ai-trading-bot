@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T07:15:51",
+  "saved_at": "2026-10-01T07:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1180,7 +1180,7 @@
       "reason": "Mild bullish momentum (24h +1.0%, RSI 61.6) is pressuring the small losing short; closing it rather than fighting the trend despite elevated funding."
     }
   ],
-  "llm_bar_index": 845,
+  "llm_bar_index": 846,
   "llm_usage": {
     "calls": 196,
     "prompt_tokens": 70379,
@@ -4747,9 +4747,13 @@
     [
       "2026-10-01T07:00:00",
       10115.69
+    ],
+    [
+      "2026-10-01T07:15:00",
+      10103.08
     ]
   ],
-  "last_bar_ts": "2026-10-01T07:00:00",
-  "bars_processed": 845,
+  "last_bar_ts": "2026-10-01T07:15:00",
+  "bars_processed": 846,
   "starting_cash": 10000.0
 }
