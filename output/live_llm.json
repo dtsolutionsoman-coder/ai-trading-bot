@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-01T18:00:42",
+  "saved_at": "2026-10-01T18:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-10T20:00:00",
-      "action": "hold",
-      "conviction": 0.35,
-      "reason": "Profitable short aligns with bearish 24h trend and SMA ratio below 1, but stalling 1h/6h momentum and falling OI argue against adding; maintain the small short."
-    },
     {
       "ts": "2026-09-10T21:00:00",
       "action": "hold",
@@ -3002,20 +2996,26 @@
       "action": "buy",
       "conviction": 0.25,
       "reason": "Momentum, SMA ratio, and RSI all point mildly higher while the short bleeds; cutting the loser rather than fighting the drift."
+    },
+    {
+      "ts": "2026-10-01T18:00:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "RSI 77 overbought with 21.8% annualized long funding and stalling 1h momentum; lock in the small long profit before mean reversion."
     }
   ],
-  "llm_bar_index": 3635,
+  "llm_bar_index": 3636,
   "llm_usage": {
-    "calls": 906,
-    "prompt_tokens": 325489,
-    "completion_tokens": 931846
+    "calls": 907,
+    "prompt_tokens": 325844,
+    "completion_tokens": 933178
   },
-  "cash": 7253.826479092306,
+  "cash": 12103.726774267963,
   "positions": {
     "BTC": {
-      "qty": 0.028641451230580886,
-      "avg_price": 84548.253,
-      "realized_pnl": -18.136214268309786
+      "qty": -0.02849113136618804,
+      "avg_price": 84973.492,
+      "realized_pnl": -5.95675218846876
     }
   },
   "recent_fills": [
@@ -4098,13 +4098,18 @@
       "fee": 4.865446490563407,
       "realized": -19.228011325904145,
       "reason": "LLM buy conv=0.25: Momentum, SMA ratio, and RSI all point mildly higher while the short bleeds; cutting the loser rather than fighting the drift. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-10-01T18:00:00",
+      "side": "sell",
+      "qty": 0.05713258259676893,
+      "price": 84973.492,
+      "fee": 4.854755050225883,
+      "realized": 12.179462079841025,
+      "reason": "LLM sell conv=0.35: RSI 77 overbought with 21.8% annualized long funding and stalling 1h momentum; lock in the small long profit before mean reversion. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T22:00:00",
-      9856.87
-    ],
     [
       "2026-09-10T22:15:00",
       9858.98
@@ -12100,9 +12105,13 @@
     [
       "2026-10-01T17:45:00",
       9687.55
+    ],
+    [
+      "2026-10-01T18:00:00",
+      9681.52
     ]
   ],
-  "last_bar_ts": "2026-10-01T17:45:00",
-  "bars_processed": 3667,
+  "last_bar_ts": "2026-10-01T18:00:00",
+  "bars_processed": 3668,
   "starting_cash": 10000.0
 }

@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T18:01:02",
+  "saved_at": "2026-10-01T18:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1246,7 +1246,7 @@
       "reason": "Extreme 54% funding, perp premium, and RSI 76 signal crowded longs vulnerable to a pullback, so keep the small short despite mild upward momentum and a -0.85% drawdown."
     }
   ],
-  "llm_bar_index": 888,
+  "llm_bar_index": 889,
   "llm_usage": {
     "calls": 207,
     "prompt_tokens": 74323,
@@ -5012,9 +5012,13 @@
     [
       "2026-10-01T17:45:00",
       10050.03
+    ],
+    [
+      "2026-10-01T18:00:00",
+      10048.71
     ]
   ],
-  "last_bar_ts": "2026-10-01T17:45:00",
-  "bars_processed": 888,
+  "last_bar_ts": "2026-10-01T18:00:00",
+  "bars_processed": 889,
   "starting_cash": 10000.0
 }
