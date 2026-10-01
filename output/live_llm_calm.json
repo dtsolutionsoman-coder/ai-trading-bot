@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T05:15:43",
+  "saved_at": "2026-10-01T05:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1168,7 +1168,7 @@
       "reason": "Flat trend (SMA ratio ~1.0) with very low volatility; positive funding and slight perp discount support keeping the small short, but rising RSI and mild upside drift argue against adding."
     }
   ],
-  "llm_bar_index": 837,
+  "llm_bar_index": 838,
   "llm_usage": {
     "calls": 194,
     "prompt_tokens": 69666,
@@ -4694,9 +4694,13 @@
     [
       "2026-10-01T05:00:00",
       10121.27
+    ],
+    [
+      "2026-10-01T05:15:00",
+      10120.45
     ]
   ],
-  "last_bar_ts": "2026-10-01T05:00:00",
-  "bars_processed": 837,
+  "last_bar_ts": "2026-10-01T05:15:00",
+  "bars_processed": 838,
   "starting_cash": 10000.0
 }
