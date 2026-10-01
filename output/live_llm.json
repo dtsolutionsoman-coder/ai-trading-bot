@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T05:45:28",
+  "saved_at": "2026-10-01T06:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Overbought RSI 76.5, elevated positive funding, and declining OI signal a crowded, overextended long tape despite mild upside momentum; modestly add short."
     }
   ],
-  "llm_bar_index": 3586,
+  "llm_bar_index": 3587,
   "llm_usage": {
     "calls": 894,
     "prompt_tokens": 321198,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T09:45:00",
-      9818.71
-    ],
     [
       "2026-09-10T10:00:00",
       9820.41
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T05:30:00",
       9691.24
+    ],
+    [
+      "2026-10-01T05:45:00",
+      9688.9
     ]
   ],
-  "last_bar_ts": "2026-10-01T05:30:00",
-  "bars_processed": 3618,
+  "last_bar_ts": "2026-10-01T05:45:00",
+  "bars_processed": 3619,
   "starting_cash": 10000.0
 }
