@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T23:15:39",
+  "saved_at": "2026-10-01T23:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (60% ann.) and flat momentum with neutral RSI favor holding/adding a small short that collects carry, though mildly positive trend keeps conviction low."
     }
   ],
-  "llm_bar_index": 3656,
+  "llm_bar_index": 3657,
   "llm_usage": {
     "calls": 912,
     "prompt_tokens": 327638,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T03:15:00",
-      9867.11
-    ],
     [
       "2026-09-11T03:30:00",
       9866.53
@@ -12109,9 +12105,13 @@
     [
       "2026-10-01T23:00:00",
       9688.08
+    ],
+    [
+      "2026-10-01T23:15:00",
+      9686.28
     ]
   ],
-  "last_bar_ts": "2026-10-01T23:00:00",
-  "bars_processed": 3688,
+  "last_bar_ts": "2026-10-01T23:15:00",
+  "bars_processed": 3689,
   "starting_cash": 10000.0
 }
