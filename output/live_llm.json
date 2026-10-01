@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T07:45:27",
+  "saved_at": "2026-10-01T08:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Flat range-bound market (SMA ratio ~1.0, low volatility, zero perp premium) with mixed signals; the tiny short earns positive funding and its -0.2% drawdown is negligible, so no edge justifies changin"
     }
   ],
-  "llm_bar_index": 3594,
+  "llm_bar_index": 3595,
   "llm_usage": {
     "calls": 896,
     "prompt_tokens": 321913,
@@ -4092,10 +4092,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-10T11:45:00",
-      9827.94
-    ],
     [
       "2026-09-10T12:00:00",
       9831.09
@@ -12091,9 +12087,13 @@
     [
       "2026-10-01T07:30:00",
       9703.61
+    ],
+    [
+      "2026-10-01T07:45:00",
+      9705.98
     ]
   ],
-  "last_bar_ts": "2026-10-01T07:30:00",
-  "bars_processed": 3626,
+  "last_bar_ts": "2026-10-01T07:45:00",
+  "bars_processed": 3627,
   "starting_cash": 10000.0
 }
