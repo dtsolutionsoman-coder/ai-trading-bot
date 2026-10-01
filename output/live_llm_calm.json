@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T10:30:34",
+  "saved_at": "2026-10-01T10:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1198,7 +1198,7 @@
       "reason": "Flat, low-volatility market with mildly bearish momentum and rich positive funding supports keeping the small short, but no strong directional signal to add."
     }
   ],
-  "llm_bar_index": 858,
+  "llm_bar_index": 859,
   "llm_usage": {
     "calls": 199,
     "prompt_tokens": 71456,
@@ -4826,9 +4826,13 @@
     [
       "2026-10-01T10:15:00",
       10090.86
+    ],
+    [
+      "2026-10-01T10:30:00",
+      10084.31
     ]
   ],
-  "last_bar_ts": "2026-10-01T10:15:00",
-  "bars_processed": 858,
+  "last_bar_ts": "2026-10-01T10:30:00",
+  "bars_processed": 859,
   "starting_cash": 10000.0
 }
