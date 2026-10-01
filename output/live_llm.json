@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-01T22:15:37",
+  "saved_at": "2026-10-01T22:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small short is slightly profitable with elevated positive funding accruing in its favor, while the weak low-volume bounce and neutral RSI don't justify changing exposure."
     }
   ],
-  "llm_bar_index": 3652,
+  "llm_bar_index": 3653,
   "llm_usage": {
     "calls": 911,
     "prompt_tokens": 327279,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T02:15:00",
-      9866.44
-    ],
     [
       "2026-09-11T02:30:00",
       9865.35
@@ -12109,9 +12105,13 @@
     [
       "2026-10-01T22:00:00",
       9687.59
+    ],
+    [
+      "2026-10-01T22:15:00",
+      9688.22
     ]
   ],
-  "last_bar_ts": "2026-10-01T22:00:00",
-  "bars_processed": 3684,
+  "last_bar_ts": "2026-10-01T22:15:00",
+  "bars_processed": 3685,
   "starting_cash": 10000.0
 }
