@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T12:00:56",
+  "saved_at": "2026-10-02T12:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1354,7 +1354,7 @@
       "reason": "Uptrend and bullish SMA ratio argue against the short, but 92% annualized funding is extremely stretched and pays the small short position carry; with only -0.29% unrealized loss, keeping the modest s"
     }
   ],
-  "llm_bar_index": 960,
+  "llm_bar_index": 961,
   "llm_usage": {
     "calls": 225,
     "prompt_tokens": 80773,
@@ -5426,9 +5426,13 @@
     [
       "2026-10-02T11:45:00",
       10000.07
+    ],
+    [
+      "2026-10-02T12:00:00",
+      10001.26
     ]
   ],
-  "last_bar_ts": "2026-10-02T11:45:00",
-  "bars_processed": 960,
+  "last_bar_ts": "2026-10-02T12:00:00",
+  "bars_processed": 961,
   "starting_cash": 10000.0
 }
