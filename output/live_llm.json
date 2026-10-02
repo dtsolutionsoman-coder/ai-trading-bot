@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T10:30:33",
+  "saved_at": "2026-10-02T10:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Cutting the losing short as trend signals (SMA ratio 1.014, RSI 64, +3.2% 24h) align against it, while extreme 154% funding argues against a large long."
     }
   ],
-  "llm_bar_index": 3701,
+  "llm_bar_index": 3702,
   "llm_usage": {
     "calls": 923,
     "prompt_tokens": 331583,
@@ -4119,10 +4119,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T14:30:00",
-      9868.61
-    ],
     [
       "2026-09-11T14:45:00",
       9863.88
@@ -12118,9 +12114,13 @@
     [
       "2026-10-02T10:15:00",
       9633.88
+    ],
+    [
+      "2026-10-02T10:30:00",
+      9634.34
     ]
   ],
-  "last_bar_ts": "2026-10-02T10:15:00",
-  "bars_processed": 3733,
+  "last_bar_ts": "2026-10-02T10:30:00",
+  "bars_processed": 3734,
   "starting_cash": 10000.0
 }
