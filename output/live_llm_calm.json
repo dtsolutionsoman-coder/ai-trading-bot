@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T10:15:55",
+  "saved_at": "2026-10-02T10:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1342,7 +1342,7 @@
       "reason": "Extreme 152% funding pays the short and signals crowded longs, but broad uptrend momentum argues against adding; keep small short for carry."
     }
   ],
-  "llm_bar_index": 953,
+  "llm_bar_index": 954,
   "llm_usage": {
     "calls": 223,
     "prompt_tokens": 80056,
@@ -5386,9 +5386,13 @@
     [
       "2026-10-02T10:00:00",
       10002.16
+    ],
+    [
+      "2026-10-02T10:15:00",
+      10000.74
     ]
   ],
-  "last_bar_ts": "2026-10-02T10:00:00",
-  "bars_processed": 953,
+  "last_bar_ts": "2026-10-02T10:15:00",
+  "bars_processed": 954,
   "starting_cash": 10000.0
 }
