@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T14:15:43",
+  "saved_at": "2026-10-02T14:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1366,7 +1366,7 @@
       "reason": "Extreme 227% annualized funding and 36bps perp premium make the long costly after a 3.5% run on thin volume with fading 1h momentum; trimming the underwater position."
     }
   ],
-  "llm_bar_index": 969,
+  "llm_bar_index": 970,
   "llm_usage": {
     "calls": 227,
     "prompt_tokens": 81489,
@@ -5492,9 +5492,13 @@
     [
       "2026-10-02T14:00:00",
       9980.92
+    ],
+    [
+      "2026-10-02T14:15:00",
+      9989.99
     ]
   ],
-  "last_bar_ts": "2026-10-02T14:00:00",
-  "bars_processed": 969,
+  "last_bar_ts": "2026-10-02T14:15:00",
+  "bars_processed": 970,
   "starting_cash": 10000.0
 }
