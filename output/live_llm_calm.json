@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T01:00:54",
+  "saved_at": "2026-10-02T01:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1288,7 +1288,7 @@
       "reason": "Extreme positive funding (84% ann.) rewards holding the small short and near-overbought RSI limits upside, but the mild uptrend argues against adding risk to a losing position."
     }
   ],
-  "llm_bar_index": 916,
+  "llm_bar_index": 917,
   "llm_usage": {
     "calls": 214,
     "prompt_tokens": 76832,
@@ -5166,9 +5166,13 @@
     [
       "2026-10-02T00:45:00",
       10051.76
+    ],
+    [
+      "2026-10-02T01:00:00",
+      10055.86
     ]
   ],
-  "last_bar_ts": "2026-10-02T00:45:00",
-  "bars_processed": 916,
+  "last_bar_ts": "2026-10-02T01:00:00",
+  "bars_processed": 917,
   "starting_cash": 10000.0
 }
