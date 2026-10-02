@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-02T09:00:41",
+  "saved_at": "2026-10-02T09:16:04",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-11T11:00:00",
-      "action": "hold",
-      "conviction": 0.05,
-      "reason": "Mildly bearish momentum is offset by extreme negative funding (-54% annualized) that pays longs and signals crowded shorts, so maintaining a small long rather than adding or cutting."
-    },
     {
       "ts": "2026-09-11T12:00:00",
       "action": "sell",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Short-term momentum is up but 96% annualized funding and premium signal overcrowded longs, so the tiny short (-1.76%) earns strong carry; keep size minimal rather than chase."
+    },
+    {
+      "ts": "2026-10-02T09:00:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 3695,
+  "llm_bar_index": 3696,
   "llm_usage": {
-    "calls": 921,
-    "prompt_tokens": 330866,
-    "completion_tokens": 949348
+    "calls": 922,
+    "prompt_tokens": 331224,
+    "completion_tokens": 951348
   },
   "cash": 12103.726774267963,
   "positions": {
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T13:00:00",
-      9821.31
-    ],
     [
       "2026-09-11T13:15:00",
       9818.75
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T08:45:00",
       9642.41
+    ],
+    [
+      "2026-10-02T09:00:00",
+      9642.61
     ]
   ],
-  "last_bar_ts": "2026-10-02T08:45:00",
-  "bars_processed": 3727,
+  "last_bar_ts": "2026-10-02T09:00:00",
+  "bars_processed": 3728,
   "starting_cash": 10000.0
 }
