@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T00:30:33",
+  "saved_at": "2026-10-02T00:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1282,7 +1282,7 @@
       "reason": "Mild uptrend and near-overbought RSI are offset by extreme 45.85% funding and crowded long premium, so keep the small short to collect funding while awaiting mean reversion."
     }
   ],
-  "llm_bar_index": 914,
+  "llm_bar_index": 915,
   "llm_usage": {
     "calls": 213,
     "prompt_tokens": 76472,
@@ -5152,9 +5152,13 @@
     [
       "2026-10-02T00:15:00",
       10051.34
+    ],
+    [
+      "2026-10-02T00:30:00",
+      10049.7
     ]
   ],
-  "last_bar_ts": "2026-10-02T00:15:00",
-  "bars_processed": 914,
+  "last_bar_ts": "2026-10-02T00:30:00",
+  "bars_processed": 915,
   "starting_cash": 10000.0
 }
