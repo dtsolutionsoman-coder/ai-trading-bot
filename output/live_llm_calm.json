@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T08:23:29",
+  "saved_at": "2026-10-02T08:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1330,7 +1330,7 @@
       "reason": "Price trend is up but extreme funding (110% ann) and weak RSI 37 signal crowded longs and fading momentum, so keep only the tiny existing long."
     }
   ],
-  "llm_bar_index": 945,
+  "llm_bar_index": 946,
   "llm_usage": {
     "calls": 221,
     "prompt_tokens": 79340,
@@ -5333,9 +5333,13 @@
     [
       "2026-10-02T08:00:00",
       10015.94
+    ],
+    [
+      "2026-10-02T08:15:00",
+      10017.63
     ]
   ],
-  "last_bar_ts": "2026-10-02T08:00:00",
-  "bars_processed": 945,
+  "last_bar_ts": "2026-10-02T08:15:00",
+  "bars_processed": 946,
   "starting_cash": 10000.0
 }
