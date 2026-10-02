@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T06:45:28",
+  "saved_at": "2026-10-02T07:00:42",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bullish momentum conflicts with extreme 108% funding and perp premium signaling overcrowded longs; keeping the tiny short as a funded hedge rather than chasing either side."
     }
   ],
-  "llm_bar_index": 3686,
+  "llm_bar_index": 3687,
   "llm_usage": {
     "calls": 919,
     "prompt_tokens": 330148,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T10:45:00",
-      9858.63
-    ],
     [
       "2026-09-11T11:00:00",
       9853.18
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T06:30:00",
       9649.13
+    ],
+    [
+      "2026-10-02T06:45:00",
+      9648.99
     ]
   ],
-  "last_bar_ts": "2026-10-02T06:30:00",
-  "bars_processed": 3718,
+  "last_bar_ts": "2026-10-02T06:45:00",
+  "bars_processed": 3719,
   "starting_cash": 10000.0
 }
