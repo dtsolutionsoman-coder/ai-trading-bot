@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-02T02:04:29",
+  "saved_at": "2026-10-02T02:16:04",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-11T04:00:00",
-      "action": "buy",
-      "conviction": 0.25,
-      "reason": "Covering the profitable short: extreme negative funding (-151% ann) makes shorts expensive to hold while perp discount, falling OI, and overbought RSI signal squeeze risk despite the bearish trend."
-    },
     {
       "ts": "2026-09-11T05:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme funding and positive perp premium support keeping the small profitable short (which collects carry), but the mildly bullish trend and neutral RSI argue against adding, so hold current exposure"
+    },
+    {
+      "ts": "2026-10-02T02:00:00",
+      "action": "hold",
+      "conviction": 0.0,
+      "reason": "unparseable response"
     }
   ],
-  "llm_bar_index": 3667,
+  "llm_bar_index": 3668,
   "llm_usage": {
-    "calls": 914,
-    "prompt_tokens": 328353,
-    "completion_tokens": 939986
+    "calls": 915,
+    "prompt_tokens": 328711,
+    "completion_tokens": 941986
   },
   "cash": 12103.726774267963,
   "positions": {
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T06:00:00",
-      9861.72
-    ],
     [
       "2026-09-11T06:15:00",
       9866.99
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T01:45:00",
       9679.82
+    ],
+    [
+      "2026-10-02T02:00:00",
+      9676.42
     ]
   ],
-  "last_bar_ts": "2026-10-02T01:45:00",
-  "bars_processed": 3699,
+  "last_bar_ts": "2026-10-02T02:00:00",
+  "bars_processed": 3700,
   "starting_cash": 10000.0
 }
