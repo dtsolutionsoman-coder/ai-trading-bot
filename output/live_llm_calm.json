@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T11:15:45",
+  "saved_at": "2026-10-02T11:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1348,7 +1348,7 @@
       "reason": "Uptrend argues against shorting more, but extreme 141% annualized funding, overbought RSI-70, and elevated perp premium favor keeping the tiny short for carry; no size change warranted."
     }
   ],
-  "llm_bar_index": 957,
+  "llm_bar_index": 958,
   "llm_usage": {
     "calls": 224,
     "prompt_tokens": 80414,
@@ -5408,9 +5408,13 @@
     [
       "2026-10-02T11:00:00",
       9999.96
+    ],
+    [
+      "2026-10-02T11:15:00",
+      10000.59
     ]
   ],
-  "last_bar_ts": "2026-10-02T11:00:00",
-  "bars_processed": 957,
+  "last_bar_ts": "2026-10-02T11:15:00",
+  "bars_processed": 958,
   "starting_cash": 10000.0
 }

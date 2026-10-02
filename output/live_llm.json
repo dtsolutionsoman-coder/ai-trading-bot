@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T11:15:44",
+  "saved_at": "2026-10-02T11:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 117% annualized funding and elevated perp premium make the small long costly to carry while 1h/6h momentum stalls near overbought RSI."
     }
   ],
-  "llm_bar_index": 3704,
+  "llm_bar_index": 3705,
   "llm_usage": {
     "calls": 924,
     "prompt_tokens": 331941,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T15:15:00",
-      9870.01
-    ],
     [
       "2026-09-11T15:30:00",
       9867.48
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T11:00:00",
       9629.12
+    ],
+    [
+      "2026-10-02T11:15:00",
+      9629.73
     ]
   ],
-  "last_bar_ts": "2026-10-02T11:00:00",
-  "bars_processed": 3736,
+  "last_bar_ts": "2026-10-02T11:15:00",
+  "bars_processed": 3737,
   "starting_cash": 10000.0
 }
