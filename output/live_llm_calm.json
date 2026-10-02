@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T14:48:16",
+  "saved_at": "2026-10-02T15:00:58",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1364,19 +1364,25 @@
       "action": "sell",
       "conviction": 0.45,
       "reason": "Extreme 227% annualized funding and 36bps perp premium make the long costly after a 3.5% run on thin volume with fading 1h momentum; trimming the underwater position."
+    },
+    {
+      "ts": "2026-10-02T14:45:00",
+      "action": "sell",
+      "conviction": 0.35,
+      "reason": "Extreme positive funding and perp premium signal overcrowded longs while 1h/6h momentum fades, supporting the profitable short, though the intact medium-term uptrend (SMA ratio >1) keeps size modest."
     }
   ],
-  "llm_bar_index": 971,
+  "llm_bar_index": 972,
   "llm_usage": {
-    "calls": 227,
-    "prompt_tokens": 81489,
-    "completion_tokens": 238762
+    "calls": 228,
+    "prompt_tokens": 81851,
+    "completion_tokens": 240038
   },
-  "cash": 12468.294213319836,
+  "cash": 12494.84835125716,
   "positions": {
     "BTC": {
-      "qty": -0.028720927827014832,
-      "avg_price": 86811.57250000001,
+      "qty": -0.029029862409496992,
+      "avg_price": 86803.361016061,
       "realized_pnl": 58.05932597392538
     }
   },
@@ -1614,6 +1620,15 @@
       "fee": 2.9906471474835326,
       "realized": -2.1311511391228635,
       "reason": "LLM sell conv=0.45: Extreme 227% annualized funding and 36bps perp premium make the long costly after a 3.5% run on thin volume with fading 1h momentum; trimming the underwater position. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-10-02T14:45:00",
+      "side": "sell",
+      "qty": 0.00030893458248216,
+      "price": 86039.95850000001,
+      "fee": 0.026580718655979878,
+      "realized": 0.0,
+      "reason": "LLM sell conv=0.35: Extreme positive funding and perp premium signal overcrowded longs while 1h/6h momentum fades, supporting the profitable short, though the intact medium-term uptrend (SMA ratio >1) keeps size modest. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -5500,9 +5515,13 @@
     [
       "2026-10-02T14:30:00",
       9985.48
+    ],
+    [
+      "2026-10-02T14:45:00",
+      9995.87
     ]
   ],
-  "last_bar_ts": "2026-10-02T14:30:00",
-  "bars_processed": 971,
+  "last_bar_ts": "2026-10-02T14:45:00",
+  "bars_processed": 972,
   "starting_cash": 10000.0
 }
