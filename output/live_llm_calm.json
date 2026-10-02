@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T07:01:01",
+  "saved_at": "2026-10-02T07:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1324,7 +1324,7 @@
       "reason": "Uptrend across 6h/24h with SMA ratio >1 and RSI 60 invalidates the small losing short, but extreme positive funding and perp premium cap long size."
     }
   ],
-  "llm_bar_index": 940,
+  "llm_bar_index": 941,
   "llm_usage": {
     "calls": 220,
     "prompt_tokens": 78982,
@@ -5307,9 +5307,13 @@
     [
       "2026-10-02T06:45:00",
       10006.96
+    ],
+    [
+      "2026-10-02T07:00:00",
+      10006.7
     ]
   ],
-  "last_bar_ts": "2026-10-02T06:45:00",
-  "bars_processed": 940,
+  "last_bar_ts": "2026-10-02T07:00:00",
+  "bars_processed": 941,
   "starting_cash": 10000.0
 }
