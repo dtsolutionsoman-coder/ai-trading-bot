@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T17:01:06",
+  "saved_at": "2026-10-02T17:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1384,7 +1384,7 @@
       "reason": "Extreme positive funding and perp premium support the small profitable short (rich carry), but RSI 11.4 and intact SMA trend signal bounce risk, so avoid adding after the 6h drop and just defend the e"
     }
   ],
-  "llm_bar_index": 980,
+  "llm_bar_index": 981,
   "llm_usage": {
     "calls": 230,
     "prompt_tokens": 82570,
@@ -5563,9 +5563,13 @@
     [
       "2026-10-02T16:45:00",
       10016.54
+    ],
+    [
+      "2026-10-02T17:00:00",
+      10021.62
     ]
   ],
-  "last_bar_ts": "2026-10-02T16:45:00",
-  "bars_processed": 980,
+  "last_bar_ts": "2026-10-02T17:00:00",
+  "bars_processed": 981,
   "starting_cash": 10000.0
 }
