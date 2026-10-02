@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T05:45:25",
+  "saved_at": "2026-10-02T06:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend argues against adding to the losing small short, but extreme RSI 80.6 and 71% annualized funding favor keeping minimal short exposure for a mean-reversion pullback."
     }
   ],
-  "llm_bar_index": 3682,
+  "llm_bar_index": 3683,
   "llm_usage": {
     "calls": 918,
     "prompt_tokens": 329788,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T09:45:00",
-      9860.45
-    ],
     [
       "2026-09-11T10:00:00",
       9860.45
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T05:30:00",
       9646.48
+    ],
+    [
+      "2026-10-02T05:45:00",
+      9649.61
     ]
   ],
-  "last_bar_ts": "2026-10-02T05:30:00",
-  "bars_processed": 3714,
+  "last_bar_ts": "2026-10-02T05:45:00",
+  "bars_processed": 3715,
   "starting_cash": 10000.0
 }
