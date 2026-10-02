@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T05:00:59",
+  "saved_at": "2026-10-02T05:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1312,7 +1312,7 @@
       "reason": "Small short is losing against strong multi-timeframe uptrend, but RSI 84.6 and 23% annual funding signal extreme long crowding likely to mean-revert, so keep the modest hedge without adding risk."
     }
   ],
-  "llm_bar_index": 932,
+  "llm_bar_index": 933,
   "llm_usage": {
     "calls": 218,
     "prompt_tokens": 78265,
@@ -5254,9 +5254,13 @@
     [
       "2026-10-02T04:45:00",
       9996.38
+    ],
+    [
+      "2026-10-02T05:00:00",
+      9998.48
     ]
   ],
-  "last_bar_ts": "2026-10-02T04:45:00",
-  "bars_processed": 932,
+  "last_bar_ts": "2026-10-02T05:00:00",
+  "bars_processed": 933,
   "starting_cash": 10000.0
 }
