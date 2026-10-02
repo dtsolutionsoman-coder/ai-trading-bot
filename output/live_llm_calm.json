@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T20:15:49",
+  "saved_at": "2026-10-02T20:30:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1402,7 +1402,7 @@
       "reason": "Profitable small short retains favorable funding carry and bearish 6h momentum, but deeply oversold RSI and a 1h bounce argue against adding; defend the 2.5% gain."
     }
   ],
-  "llm_bar_index": 993,
+  "llm_bar_index": 994,
   "llm_usage": {
     "calls": 233,
     "prompt_tokens": 83650,
@@ -5633,9 +5633,13 @@
     [
       "2026-10-02T20:00:00",
       10036.28
+    ],
+    [
+      "2026-10-02T20:15:00",
+      10037.5
     ]
   ],
-  "last_bar_ts": "2026-10-02T20:00:00",
-  "bars_processed": 993,
+  "last_bar_ts": "2026-10-02T20:15:00",
+  "bars_processed": 994,
   "starting_cash": 10000.0
 }
