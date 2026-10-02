@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T18:00:58",
+  "saved_at": "2026-10-02T18:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1390,7 +1390,7 @@
       "reason": "Extreme positive funding (403% ann.) and perp premium support the profitable small short, but deeply oversold RSI (16.4) warns of a bounce, so maintain reduced exposure."
     }
   ],
-  "llm_bar_index": 984,
+  "llm_bar_index": 985,
   "llm_usage": {
     "calls": 231,
     "prompt_tokens": 82930,
@@ -5585,9 +5585,13 @@
     [
       "2026-10-02T17:45:00",
       10021.18
+    ],
+    [
+      "2026-10-02T18:00:00",
+      10022.67
     ]
   ],
-  "last_bar_ts": "2026-10-02T17:45:00",
-  "bars_processed": 984,
+  "last_bar_ts": "2026-10-02T18:00:00",
+  "bars_processed": 985,
   "starting_cash": 10000.0
 }
