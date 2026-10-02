@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T04:15:39",
+  "saved_at": "2026-10-02T04:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1306,7 +1306,7 @@
       "reason": "Uptrend hurts the small short, but extreme 132.9% funding (paid to shorts), overbought RSI 73, and rich perp premium justify holding the modest position rather than adding or cutting."
     }
   ],
-  "llm_bar_index": 929,
+  "llm_bar_index": 930,
   "llm_usage": {
     "calls": 217,
     "prompt_tokens": 77906,
@@ -5236,9 +5236,13 @@
     [
       "2026-10-02T04:00:00",
       10029.71
+    ],
+    [
+      "2026-10-02T04:15:00",
+      9993.48
     ]
   ],
-  "last_bar_ts": "2026-10-02T04:00:00",
-  "bars_processed": 929,
+  "last_bar_ts": "2026-10-02T04:15:00",
+  "bars_processed": 930,
   "starting_cash": 10000.0
 }
