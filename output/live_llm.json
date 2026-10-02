@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T12:15:39",
+  "saved_at": "2026-10-02T12:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Bullish trend signals (SMA ratio, +3% 24h, RSI 59) conflict with extreme 115% funding and positive perp premium signaling crowded longs, so keep the near-flat short exposure minimal."
     }
   ],
-  "llm_bar_index": 3708,
+  "llm_bar_index": 3709,
   "llm_usage": {
     "calls": 925,
     "prompt_tokens": 332300,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T16:15:00",
-      9841.92
-    ],
     [
       "2026-09-11T16:30:00",
       9845.55
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T12:00:00",
       9630.37
+    ],
+    [
+      "2026-10-02T12:15:00",
+      9623.28
     ]
   ],
-  "last_bar_ts": "2026-10-02T12:00:00",
-  "bars_processed": 3740,
+  "last_bar_ts": "2026-10-02T12:15:00",
+  "bars_processed": 3741,
   "starting_cash": 10000.0
 }
