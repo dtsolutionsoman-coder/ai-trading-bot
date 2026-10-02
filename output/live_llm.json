@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-02T06:00:40",
+  "saved_at": "2026-10-02T06:15:46",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-11T08:00:00",
-      "action": "buy",
-      "conviction": 0.35,
-      "reason": "Deeply negative funding and perp discount signal crowded shorts with costly carry and squeeze risk, so cut the small profitable short despite the mild bearish trend."
-    },
     {
       "ts": "2026-09-11T09:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Uptrend argues against adding to the losing small short, but extreme RSI 80.6 and 71% annualized funding favor keeping minimal short exposure for a mean-reversion pullback."
+    },
+    {
+      "ts": "2026-10-02T06:00:00",
+      "action": "hold",
+      "conviction": 0.12,
+      "reason": "Bullish momentum conflicts with extreme 108% funding and perp premium signaling overcrowded longs; keeping the tiny short as a funded hedge rather than chasing either side."
     }
   ],
-  "llm_bar_index": 3683,
+  "llm_bar_index": 3684,
   "llm_usage": {
-    "calls": 918,
-    "prompt_tokens": 329788,
-    "completion_tokens": 945699
+    "calls": 919,
+    "prompt_tokens": 330148,
+    "completion_tokens": 946744
   },
   "cash": 12103.726774267963,
   "positions": {
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T10:00:00",
-      9860.45
-    ],
     [
       "2026-09-11T10:15:00",
       9859.3
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T05:45:00",
       9649.61
+    ],
+    [
+      "2026-10-02T06:00:00",
+      9652.01
     ]
   ],
-  "last_bar_ts": "2026-10-02T05:45:00",
-  "bars_processed": 3715,
+  "last_bar_ts": "2026-10-02T06:00:00",
+  "bars_processed": 3716,
   "starting_cash": 10000.0
 }
