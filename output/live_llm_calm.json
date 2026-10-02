@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T19:15:41",
+  "saved_at": "2026-10-02T19:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1396,7 +1396,7 @@
       "reason": "Keeping the small profitable short for its positive funding carry, but extreme oversold RSI (12.4) flags bounce risk so no adds."
     }
   ],
-  "llm_bar_index": 989,
+  "llm_bar_index": 990,
   "llm_usage": {
     "calls": 232,
     "prompt_tokens": 83290,
@@ -5611,9 +5611,13 @@
     [
       "2026-10-02T19:00:00",
       10042.87
+    ],
+    [
+      "2026-10-02T19:15:00",
+      10043.33
     ]
   ],
-  "last_bar_ts": "2026-10-02T19:00:00",
-  "bars_processed": 989,
+  "last_bar_ts": "2026-10-02T19:15:00",
+  "bars_processed": 990,
   "starting_cash": 10000.0
 }
