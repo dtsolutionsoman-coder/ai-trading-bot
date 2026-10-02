@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-02T16:00:40",
+  "saved_at": "2026-10-02T16:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-11T18:00:00",
-      "action": "hold",
-      "conviction": 0.3,
-      "reason": "Extreme oversold RSI (18.4) and deeply negative funding/premium signal crowded shorts and squeeze potential, but momentum is still down, so maintain the small long rather than add or cut."
-    },
     {
       "ts": "2026-09-11T19:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.35,
       "reason": "Extreme positive funding (515% ann) and elevated perp premium validate holding the small profitable short, but the intact 24h uptrend (SMA ratio >1) cautions against adding."
+    },
+    {
+      "ts": "2026-10-02T16:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Extreme positive funding and rising OI favor keeping the profitable short for squeeze carry, but deeply oversold RSI (17.2) warns against adding exposure."
     }
   ],
-  "llm_bar_index": 3723,
+  "llm_bar_index": 3724,
   "llm_usage": {
-    "calls": 928,
-    "prompt_tokens": 333379,
-    "completion_tokens": 957480
+    "calls": 929,
+    "prompt_tokens": 333738,
+    "completion_tokens": 958758
   },
   "cash": 12037.661668344337,
   "positions": {
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T20:00:00",
-      9833.29
-    ],
     [
       "2026-09-11T20:15:00",
       9826.87
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T15:45:00",
       9655.79
+    ],
+    [
+      "2026-10-02T16:00:00",
+      9662.21
     ]
   ],
-  "last_bar_ts": "2026-10-02T15:45:00",
-  "bars_processed": 3755,
+  "last_bar_ts": "2026-10-02T16:00:00",
+  "bars_processed": 3756,
   "starting_cash": 10000.0
 }
