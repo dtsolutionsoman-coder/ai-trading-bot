@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T08:45:26",
+  "saved_at": "2026-10-02T09:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Short-term momentum is up but 96% annualized funding and premium signal overcrowded longs, so the tiny short (-1.76%) earns strong carry; keep size minimal rather than chase."
     }
   ],
-  "llm_bar_index": 3694,
+  "llm_bar_index": 3695,
   "llm_usage": {
     "calls": 921,
     "prompt_tokens": 330866,
@@ -4110,10 +4110,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T12:45:00",
-      9822.29
-    ],
     [
       "2026-09-11T13:00:00",
       9821.31
@@ -12109,9 +12105,13 @@
     [
       "2026-10-02T08:30:00",
       9640.55
+    ],
+    [
+      "2026-10-02T08:45:00",
+      9642.41
     ]
   ],
-  "last_bar_ts": "2026-10-02T08:30:00",
-  "bars_processed": 3726,
+  "last_bar_ts": "2026-10-02T08:45:00",
+  "bars_processed": 3727,
   "starting_cash": 10000.0
 }

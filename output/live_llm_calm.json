@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T08:45:26",
+  "saved_at": "2026-10-02T09:01:04",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1328,20 +1328,26 @@
       "action": "hold",
       "conviction": 0.05,
       "reason": "Price trend is up but extreme funding (110% ann) and weak RSI 37 signal crowded longs and fading momentum, so keep only the tiny existing long."
+    },
+    {
+      "ts": "2026-10-02T08:45:00",
+      "action": "sell",
+      "conviction": 0.45,
+      "reason": "Uptrend is real but 100% annualized funding makes holding longs prohibitively expensive and signals crowded leverage; taking the small profit off."
     }
   ],
-  "llm_bar_index": 947,
+  "llm_bar_index": 948,
   "llm_usage": {
-    "calls": 221,
-    "prompt_tokens": 79340,
-    "completion_tokens": 231531
+    "calls": 222,
+    "prompt_tokens": 79698,
+    "completion_tokens": 232908
   },
-  "cash": 7503.3179106057105,
+  "cash": 12509.57756829116,
   "positions": {
     "BTC": {
-      "qty": 0.029058776833822804,
-      "avg_price": 86201.079,
-      "realized_pnl": 80.26201706023127
+      "qty": -0.028978448015669907,
+      "avg_price": 86345.8055,
+      "realized_pnl": 84.46759212567166
     }
   },
   "recent_fills": [
@@ -1551,6 +1557,15 @@
       "fee": 5.081094919144955,
       "realized": -58.04528055170448,
       "reason": "LLM buy conv=0.30: Uptrend across 6h/24h with SMA ratio >1 and RSI 60 invalidates the small losing short, but extreme positive funding and perp premium cap long size. [downsized to risk cap]"
+    },
+    {
+      "ts": "2026-10-02T08:45:00",
+      "side": "sell",
+      "qty": 0.05803722484949271,
+      "price": 86345.8055,
+      "fee": 5.011270928614064,
+      "realized": 4.205575065440385,
+      "reason": "LLM sell conv=0.45: Uptrend is real but 100% annualized funding makes holding longs prohibitively expensive and signals crowded leverage; taking the small profit off. [downsized to risk cap]"
     }
   ],
   "equity_curve": [
@@ -5341,9 +5356,13 @@
     [
       "2026-10-02T08:30:00",
       10015.57
+    ],
+    [
+      "2026-10-02T08:45:00",
+      10006.16
     ]
   ],
-  "last_bar_ts": "2026-10-02T08:30:00",
-  "bars_processed": 947,
+  "last_bar_ts": "2026-10-02T08:45:00",
+  "bars_processed": 948,
   "starting_cash": 10000.0
 }
