@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T21:15:43",
+  "saved_at": "2026-10-02T21:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Existing short is profitable with 6h downtrend and crowded longs (high funding, perp premium) supporting it, but RSI near oversold and mild bullish MA structure argue against adding risk."
     }
   ],
-  "llm_bar_index": 3744,
+  "llm_bar_index": 3745,
   "llm_usage": {
     "calls": 934,
     "prompt_tokens": 335538,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T01:15:00",
-      9831.35
-    ],
     [
       "2026-09-12T01:30:00",
       9829.06
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T21:00:00",
       9679.51
+    ],
+    [
+      "2026-10-02T21:15:00",
+      9680.46
     ]
   ],
-  "last_bar_ts": "2026-10-02T21:00:00",
-  "bars_processed": 3776,
+  "last_bar_ts": "2026-10-02T21:15:00",
+  "bars_processed": 3777,
   "starting_cash": 10000.0
 }
