@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T14:30:32",
+  "saved_at": "2026-10-02T14:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Uptrend (SMA ratio 1.019, +2.84% 24h) conflicts with extreme 239.7% annualized funding signaling crowded longs; keep the tiny short as a funding-squeeze hedge."
     }
   ],
-  "llm_bar_index": 3717,
+  "llm_bar_index": 3718,
   "llm_usage": {
     "calls": 927,
     "prompt_tokens": 333019,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T18:30:00",
-      9823.38
-    ],
     [
       "2026-09-11T18:45:00",
       9820.59
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T14:15:00",
       9637.85
+    ],
+    [
+      "2026-10-02T14:30:00",
+      9633.48
     ]
   ],
-  "last_bar_ts": "2026-10-02T14:15:00",
-  "bars_processed": 3749,
+  "last_bar_ts": "2026-10-02T14:30:00",
+  "bars_processed": 3750,
   "starting_cash": 10000.0
 }
