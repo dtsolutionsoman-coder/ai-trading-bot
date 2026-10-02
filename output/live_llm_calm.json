@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T21:00:57",
+  "saved_at": "2026-10-02T21:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1408,7 +1408,7 @@
       "reason": "Profitable small short supported by extreme 317% funding and negative 6h momentum, but bullish SMA structure and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 996,
+  "llm_bar_index": 997,
   "llm_usage": {
     "calls": 234,
     "prompt_tokens": 84008,
@@ -5651,9 +5651,13 @@
     [
       "2026-10-02T20:45:00",
       10033.52
+    ],
+    [
+      "2026-10-02T21:00:00",
+      10033.38
     ]
   ],
-  "last_bar_ts": "2026-10-02T20:45:00",
-  "bars_processed": 996,
+  "last_bar_ts": "2026-10-02T21:00:00",
+  "bars_processed": 997,
   "starting_cash": 10000.0
 }
