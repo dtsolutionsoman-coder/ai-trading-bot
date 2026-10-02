@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T13:00:58",
+  "saved_at": "2026-10-02T13:16:09",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1360,7 +1360,7 @@
       "reason": "Cutting the losing short against a strong uptrend, but extreme 280% funding and RSI 76 say stay near flat rather than chase longs."
     }
   ],
-  "llm_bar_index": 964,
+  "llm_bar_index": 965,
   "llm_usage": {
     "calls": 226,
     "prompt_tokens": 81130,
@@ -5457,9 +5457,13 @@
     [
       "2026-10-02T12:45:00",
       9979.86
+    ],
+    [
+      "2026-10-02T13:00:00",
+      9978.87
     ]
   ],
-  "last_bar_ts": "2026-10-02T12:45:00",
-  "bars_processed": 964,
+  "last_bar_ts": "2026-10-02T13:00:00",
+  "bars_processed": 965,
   "starting_cash": 10000.0
 }
