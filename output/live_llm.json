@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T16:15:49",
+  "saved_at": "2026-10-02T16:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding and rising OI favor keeping the profitable short for squeeze carry, but deeply oversold RSI (17.2) warns against adding exposure."
     }
   ],
-  "llm_bar_index": 3724,
+  "llm_bar_index": 3725,
   "llm_usage": {
     "calls": 929,
     "prompt_tokens": 333738,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T20:15:00",
-      9826.87
-    ],
     [
       "2026-09-11T20:30:00",
       9831.1
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T16:00:00",
       9662.21
+    ],
+    [
+      "2026-10-02T16:15:00",
+      9661.6
     ]
   ],
-  "last_bar_ts": "2026-10-02T16:00:00",
-  "bars_processed": 3756,
+  "last_bar_ts": "2026-10-02T16:15:00",
+  "bars_processed": 3757,
   "starting_cash": 10000.0
 }
