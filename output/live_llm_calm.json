@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T15:00:58",
+  "saved_at": "2026-10-02T15:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1372,7 +1372,7 @@
       "reason": "Extreme positive funding and perp premium signal overcrowded longs while 1h/6h momentum fades, supporting the profitable short, though the intact medium-term uptrend (SMA ratio >1) keeps size modest."
     }
   ],
-  "llm_bar_index": 972,
+  "llm_bar_index": 973,
   "llm_usage": {
     "calls": 228,
     "prompt_tokens": 81851,
@@ -5519,9 +5519,13 @@
     [
       "2026-10-02T14:45:00",
       9995.87
+    ],
+    [
+      "2026-10-02T15:00:00",
+      9993.81
     ]
   ],
-  "last_bar_ts": "2026-10-02T14:45:00",
-  "bars_processed": 972,
+  "last_bar_ts": "2026-10-02T15:00:00",
+  "bars_processed": 973,
   "starting_cash": 10000.0
 }
