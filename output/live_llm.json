@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T17:15:49",
+  "saved_at": "2026-10-02T17:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Momentum and crowded-long funding support the small profitable short, but RSI at 11.7 is extremely oversold so keep exposure minimal to protect gains."
     }
   ],
-  "llm_bar_index": 3728,
+  "llm_bar_index": 3729,
   "llm_usage": {
     "calls": 930,
     "prompt_tokens": 334097,
@@ -4128,10 +4128,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-11T21:15:00",
-      9829.83
-    ],
     [
       "2026-09-11T21:30:00",
       9828.87
@@ -12127,9 +12123,13 @@
     [
       "2026-10-02T17:00:00",
       9668.25
+    ],
+    [
+      "2026-10-02T17:15:00",
+      9672.34
     ]
   ],
-  "last_bar_ts": "2026-10-02T17:00:00",
-  "bars_processed": 3760,
+  "last_bar_ts": "2026-10-02T17:15:00",
+  "bars_processed": 3761,
   "starting_cash": 10000.0
 }
