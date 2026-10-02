@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-02T09:30:35",
+  "saved_at": "2026-10-02T09:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1336,7 +1336,7 @@
       "reason": "Uptrend is real but 100% annualized funding makes holding longs prohibitively expensive and signals crowded leverage; taking the small profit off."
     }
   ],
-  "llm_bar_index": 950,
+  "llm_bar_index": 951,
   "llm_usage": {
     "calls": 222,
     "prompt_tokens": 79698,
@@ -5368,9 +5368,13 @@
     [
       "2026-10-02T09:15:00",
       10008.8
+    ],
+    [
+      "2026-10-02T09:30:00",
+      10002.65
     ]
   ],
-  "last_bar_ts": "2026-10-02T09:15:00",
-  "bars_processed": 950,
+  "last_bar_ts": "2026-10-02T09:30:00",
+  "bars_processed": 951,
   "starting_cash": 10000.0
 }
