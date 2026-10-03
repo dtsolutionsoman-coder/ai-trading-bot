@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T04:00:53",
+  "saved_at": "2026-10-03T04:15:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1450,7 +1450,7 @@
       "reason": "Profitable short retains strong tailwind from extreme positive funding and perp premium, but 1h/6h momentum turning up argues against adding risk."
     }
   ],
-  "llm_bar_index": 1024,
+  "llm_bar_index": 1025,
   "llm_usage": {
     "calls": 241,
     "prompt_tokens": 86521,
@@ -5823,9 +5823,13 @@
     [
       "2026-10-03T03:45:00",
       10026.84
+    ],
+    [
+      "2026-10-03T04:00:00",
+      10026.48
     ]
   ],
-  "last_bar_ts": "2026-10-03T03:45:00",
-  "bars_processed": 1024,
+  "last_bar_ts": "2026-10-03T04:00:00",
+  "bars_processed": 1025,
   "starting_cash": 10000.0
 }
