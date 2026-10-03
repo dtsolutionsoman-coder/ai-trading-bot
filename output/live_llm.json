@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T20:15:36",
+  "saved_at": "2026-10-03T20:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extremely high funding and positive perp premium signal crowded longs while the 12h/48h SMA ratio stays below 1, supporting the existing profitable short despite mildly positive 24h price action."
     }
   ],
-  "llm_bar_index": 3836,
+  "llm_bar_index": 3837,
   "llm_usage": {
     "calls": 957,
     "prompt_tokens": 343809,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T00:15:00",
-      9832.37
-    ],
     [
       "2026-09-13T00:30:00",
       9827.57
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T20:00:00",
       9669.51
+    ],
+    [
+      "2026-10-03T20:15:00",
+      9669.37
     ]
   ],
-  "last_bar_ts": "2026-10-03T20:00:00",
-  "bars_processed": 3868,
+  "last_bar_ts": "2026-10-03T20:15:00",
+  "bars_processed": 3869,
   "starting_cash": 10000.0
 }
