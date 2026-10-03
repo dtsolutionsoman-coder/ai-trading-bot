@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T06:00:59",
+  "saved_at": "2026-10-03T06:15:50",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1462,7 +1462,7 @@
       "reason": "Downtrend with extremely crowded longs (349% funding, positive perp premium) supports the profitable short; modest size due to neutral RSI and minor short-term bounce."
     }
   ],
-  "llm_bar_index": 1032,
+  "llm_bar_index": 1033,
   "llm_usage": {
     "calls": 243,
     "prompt_tokens": 87240,
@@ -5876,9 +5876,13 @@
     [
       "2026-10-03T05:45:00",
       10024.82
+    ],
+    [
+      "2026-10-03T06:00:00",
+      10025.23
     ]
   ],
-  "last_bar_ts": "2026-10-03T05:45:00",
-  "bars_processed": 1032,
+  "last_bar_ts": "2026-10-03T06:00:00",
+  "bars_processed": 1033,
   "starting_cash": 10000.0
 }
