@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T15:00:56",
+  "saved_at": "2026-10-03T15:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1516,7 +1516,7 @@
       "reason": "Maintain small profitable short \u2014 extreme positive funding pays shorts and 24h trend is soft, but the 6h bounce and RSI ~61 argue against adding here."
     }
   ],
-  "llm_bar_index": 1068,
+  "llm_bar_index": 1069,
   "llm_usage": {
     "calls": 252,
     "prompt_tokens": 90475,
@@ -6074,9 +6074,13 @@
     [
       "2026-10-03T14:45:00",
       10019.09
+    ],
+    [
+      "2026-10-03T15:00:00",
+      10018.62
     ]
   ],
-  "last_bar_ts": "2026-10-03T14:45:00",
-  "bars_processed": 1068,
+  "last_bar_ts": "2026-10-03T15:00:00",
+  "bars_processed": 1069,
   "starting_cash": 10000.0
 }
