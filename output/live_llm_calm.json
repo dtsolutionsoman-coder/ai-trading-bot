@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T00:16:13",
+  "saved_at": "2026-10-03T00:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1426,7 +1426,7 @@
       "reason": "Extreme 349% annualized funding and perp premium signal dangerously crowded longs with RSI overbought, supporting adding to the already profitable short."
     }
   ],
-  "llm_bar_index": 1009,
+  "llm_bar_index": 1010,
   "llm_usage": {
     "calls": 237,
     "prompt_tokens": 85088,
@@ -5730,9 +5730,13 @@
     [
       "2026-10-03T00:00:00",
       10033.49
+    ],
+    [
+      "2026-10-03T00:15:00",
+      10030.53
     ]
   ],
-  "last_bar_ts": "2026-10-03T00:00:00",
-  "bars_processed": 1009,
+  "last_bar_ts": "2026-10-03T00:15:00",
+  "bars_processed": 1010,
   "starting_cash": 10000.0
 }
