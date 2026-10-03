@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T00:45:25",
+  "saved_at": "2026-10-03T01:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Existing short is profitable and extreme positive funding favors shorts, but neutral RSI and flat moving averages argue against adding risk."
     }
   ],
-  "llm_bar_index": 3758,
+  "llm_bar_index": 3759,
   "llm_usage": {
     "calls": 937,
     "prompt_tokens": 336617,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T04:45:00",
-      9826.75
-    ],
     [
       "2026-09-12T05:00:00",
       9825.67
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T00:30:00",
       9674.67
+    ],
+    [
+      "2026-10-03T00:45:00",
+      9674.64
     ]
   ],
-  "last_bar_ts": "2026-10-03T00:30:00",
-  "bars_processed": 3790,
+  "last_bar_ts": "2026-10-03T00:45:00",
+  "bars_processed": 3791,
   "starting_cash": 10000.0
 }
