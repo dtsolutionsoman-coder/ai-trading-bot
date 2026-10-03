@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T12:15:48",
+  "saved_at": "2026-10-03T12:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1498,7 +1498,7 @@
       "reason": "Extreme RSI 82.7 and 265% annualized funding signal crowded longs, aligning with the mild downtrend; modestly extend the profitable short while low volume tempers conviction."
     }
   ],
-  "llm_bar_index": 1057,
+  "llm_bar_index": 1058,
   "llm_usage": {
     "calls": 249,
     "prompt_tokens": 89394,
@@ -6012,9 +6012,13 @@
     [
       "2026-10-03T12:00:00",
       10019.21
+    ],
+    [
+      "2026-10-03T12:15:00",
+      10012.42
     ]
   ],
-  "last_bar_ts": "2026-10-03T12:00:00",
-  "bars_processed": 1057,
+  "last_bar_ts": "2026-10-03T12:15:00",
+  "bars_processed": 1058,
   "starting_cash": 10000.0
 }
