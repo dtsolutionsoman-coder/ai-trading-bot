@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T21:15:40",
+  "saved_at": "2026-10-03T21:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1552,7 +1552,7 @@
       "reason": "Extreme 271% funding and 31bps perp premium signal crowded longs while short-term momentum and SMA structure lean bearish, so I'll add modestly to the profitable short."
     }
   ],
-  "llm_bar_index": 1093,
+  "llm_bar_index": 1094,
   "llm_usage": {
     "calls": 258,
     "prompt_tokens": 92633,
@@ -6210,9 +6210,13 @@
     [
       "2026-10-03T21:00:00",
       10023.34
+    ],
+    [
+      "2026-10-03T21:15:00",
+      10025.56
     ]
   ],
-  "last_bar_ts": "2026-10-03T21:00:00",
-  "bars_processed": 1093,
+  "last_bar_ts": "2026-10-03T21:15:00",
+  "bars_processed": 1094,
   "starting_cash": 10000.0
 }

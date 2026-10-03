@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T21:15:39",
+  "saved_at": "2026-10-03T21:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short benefits from extreme positive funding and perp premium, but deeply oversold RSI and thin volume argue against adding \u2014 maintain current exposure."
     }
   ],
-  "llm_bar_index": 3840,
+  "llm_bar_index": 3841,
   "llm_usage": {
     "calls": 958,
     "prompt_tokens": 344167,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T01:15:00",
-      9830.3
-    ],
     [
       "2026-09-13T01:30:00",
       9831.48
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T21:00:00",
       9672.73
+    ],
+    [
+      "2026-10-03T21:15:00",
+      9674.87
     ]
   ],
-  "last_bar_ts": "2026-10-03T21:00:00",
-  "bars_processed": 3872,
+  "last_bar_ts": "2026-10-03T21:15:00",
+  "bars_processed": 3873,
   "starting_cash": 10000.0
 }
