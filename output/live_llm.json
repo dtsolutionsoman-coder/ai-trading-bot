@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T16:45:27",
+  "saved_at": "2026-10-03T17:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "SMA ratio below 1, weak RSI, and extreme positive funding (carry favors shorts) support adding modestly to the already profitable short despite low volatility."
     }
   ],
-  "llm_bar_index": 3822,
+  "llm_bar_index": 3823,
   "llm_usage": {
     "calls": 953,
     "prompt_tokens": 342371,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T20:45:00",
-      9827.19
-    ],
     [
       "2026-09-12T21:00:00",
       9827.06
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T16:30:00",
       9671.59
+    ],
+    [
+      "2026-10-03T16:45:00",
+      9671.14
     ]
   ],
-  "last_bar_ts": "2026-10-03T16:30:00",
-  "bars_processed": 3854,
+  "last_bar_ts": "2026-10-03T16:45:00",
+  "bars_processed": 3855,
   "starting_cash": 10000.0
 }
