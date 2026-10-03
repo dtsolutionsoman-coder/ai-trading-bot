@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T01:15:42",
+  "saved_at": "2026-10-03T01:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1432,7 +1432,7 @@
       "reason": "Extreme positive funding (265% ann) rewards the existing profitable short, but mildly bullish momentum and low volatility argue against adding risk."
     }
   ],
-  "llm_bar_index": 1013,
+  "llm_bar_index": 1014,
   "llm_usage": {
     "calls": 238,
     "prompt_tokens": 85447,
@@ -5752,9 +5752,13 @@
     [
       "2026-10-03T01:00:00",
       10027.72
+    ],
+    [
+      "2026-10-03T01:15:00",
+      10030.06
     ]
   ],
-  "last_bar_ts": "2026-10-03T01:00:00",
-  "bars_processed": 1013,
+  "last_bar_ts": "2026-10-03T01:15:00",
+  "bars_processed": 1014,
   "starting_cash": 10000.0
 }
