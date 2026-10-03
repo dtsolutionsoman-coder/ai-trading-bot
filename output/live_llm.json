@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T22:45:26",
+  "saved_at": "2026-10-03T23:00:39",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small short is profitable and extreme positive funding (241% ann.) plus weak momentum (RSI 37, SMA12/48 < 1) support keeping it, but flat low-volume price action argues against adding risk."
     }
   ],
-  "llm_bar_index": 3846,
+  "llm_bar_index": 3847,
   "llm_usage": {
     "calls": 959,
     "prompt_tokens": 344526,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T02:45:00",
-      9831.13
-    ],
     [
       "2026-09-13T03:00:00",
       9831.22
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T22:30:00",
       9671.42
+    ],
+    [
+      "2026-10-03T22:45:00",
+      9671.45
     ]
   ],
-  "last_bar_ts": "2026-10-03T22:30:00",
-  "bars_processed": 3878,
+  "last_bar_ts": "2026-10-03T22:45:00",
+  "bars_processed": 3879,
   "starting_cash": 10000.0
 }
