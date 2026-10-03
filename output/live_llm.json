@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-03T08:00:40",
+  "saved_at": "2026-10-03T08:15:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-12T10:00:00",
-      "action": "hold",
-      "conviction": 0.35,
-      "reason": "Flat trend and muted volume with mixed signals, but deeply negative funding pays the small long carry while price drifts slightly up; no case to add or cut yet."
-    },
     {
       "ts": "2026-09-12T11:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.45,
       "reason": "Profitable small short supported by 24h downtrend and crowded-long funding squeeze risk, but flat 1h/6h momentum and near-oversold RSI argue against adding."
+    },
+    {
+      "ts": "2026-10-03T08:00:00",
+      "action": "hold",
+      "conviction": 0.4,
+      "reason": "Profitable short thesis intact with weak momentum, sma12h below sma48h, and crowded-long funding, but near-oversold RSI argues against adding."
     }
   ],
-  "llm_bar_index": 3787,
+  "llm_bar_index": 3788,
   "llm_usage": {
-    "calls": 944,
-    "prompt_tokens": 339132,
-    "completion_tokens": 974430
+    "calls": 945,
+    "prompt_tokens": 339491,
+    "completion_tokens": 975142
   },
   "cash": 12097.283912640354,
   "positions": {
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T12:00:00",
-      9829.76
-    ],
     [
       "2026-09-12T12:15:00",
       9829.22
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T07:45:00",
       9678.35
+    ],
+    [
+      "2026-10-03T08:00:00",
+      9678.78
     ]
   ],
-  "last_bar_ts": "2026-10-03T07:45:00",
-  "bars_processed": 3819,
+  "last_bar_ts": "2026-10-03T08:00:00",
+  "bars_processed": 3820,
   "starting_cash": 10000.0
 }
