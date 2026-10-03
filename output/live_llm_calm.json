@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T07:30:34",
+  "saved_at": "2026-10-03T07:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1468,7 +1468,7 @@
       "reason": "Persistent mild downtrend (SMA ratio <1, RSI 39, negative 1h/6h/24h) plus extreme positive funding that pays shorts justifies modestly extending the profitable short while avoiding over-sizing near po"
     }
   ],
-  "llm_bar_index": 1038,
+  "llm_bar_index": 1039,
   "llm_usage": {
     "calls": 244,
     "prompt_tokens": 87598,
@@ -5906,9 +5906,13 @@
     [
       "2026-10-03T07:15:00",
       10027.18
+    ],
+    [
+      "2026-10-03T07:30:00",
+      10029.16
     ]
   ],
-  "last_bar_ts": "2026-10-03T07:15:00",
-  "bars_processed": 1038,
+  "last_bar_ts": "2026-10-03T07:30:00",
+  "bars_processed": 1039,
   "starting_cash": 10000.0
 }
