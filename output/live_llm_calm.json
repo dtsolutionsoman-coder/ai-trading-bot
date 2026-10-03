@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T17:15:45",
+  "saved_at": "2026-10-03T17:30:35",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1528,7 +1528,7 @@
       "reason": "Mild downtrend (SMA ratio <1, RSI 35.9) and extremely rich funding favor keeping the small profitable short, but flat price action and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1077,
+  "llm_bar_index": 1078,
   "llm_usage": {
     "calls": 254,
     "prompt_tokens": 91192,
@@ -6122,9 +6122,13 @@
     [
       "2026-10-03T17:00:00",
       10021.6
+    ],
+    [
+      "2026-10-03T17:15:00",
+      10021.01
     ]
   ],
-  "last_bar_ts": "2026-10-03T17:00:00",
-  "bars_processed": 1077,
+  "last_bar_ts": "2026-10-03T17:15:00",
+  "bars_processed": 1078,
   "starting_cash": 10000.0
 }
