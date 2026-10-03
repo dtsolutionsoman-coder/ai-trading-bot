@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T07:17:26",
+  "saved_at": "2026-10-03T07:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable small short supported by 24h downtrend and crowded-long funding squeeze risk, but flat 1h/6h momentum and near-oversold RSI argue against adding."
     }
   ],
-  "llm_bar_index": 3784,
+  "llm_bar_index": 3785,
   "llm_usage": {
     "calls": 944,
     "prompt_tokens": 339132,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T11:15:00",
-      9828.75
-    ],
     [
       "2026-09-12T11:30:00",
       9829.54
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T07:00:00",
       9677.38
+    ],
+    [
+      "2026-10-03T07:15:00",
+      9676.44
     ]
   ],
-  "last_bar_ts": "2026-10-03T07:00:00",
-  "bars_processed": 3816,
+  "last_bar_ts": "2026-10-03T07:15:00",
+  "bars_processed": 3817,
   "starting_cash": 10000.0
 }
