@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T02:00:57",
+  "saved_at": "2026-10-03T02:16:14",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1438,7 +1438,7 @@
       "reason": "Flat, low-volatility price action with extreme positive funding accrues to the existing profitable short, but no directional momentum justifies adding risk."
     }
   ],
-  "llm_bar_index": 1016,
+  "llm_bar_index": 1017,
   "llm_usage": {
     "calls": 239,
     "prompt_tokens": 85807,
@@ -5770,9 +5770,13 @@
     [
       "2026-10-03T01:45:00",
       10030.15
+    ],
+    [
+      "2026-10-03T02:00:00",
+      10030.29
     ]
   ],
-  "last_bar_ts": "2026-10-03T01:45:00",
-  "bars_processed": 1016,
+  "last_bar_ts": "2026-10-03T02:00:00",
+  "bars_processed": 1017,
   "starting_cash": 10000.0
 }
