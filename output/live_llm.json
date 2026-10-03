@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T04:15:38",
+  "saved_at": "2026-10-03T04:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short aligns with negative 24h trend and extreme positive funding that squeezes crowded longs, but mildly positive 1h/6h momentum argues against adding risk here."
     }
   ],
-  "llm_bar_index": 3772,
+  "llm_bar_index": 3773,
   "llm_usage": {
     "calls": 941,
     "prompt_tokens": 338051,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T08:15:00",
-      9829.48
-    ],
     [
       "2026-09-12T08:30:00",
       9831.57
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T04:00:00",
       9673.39
+    ],
+    [
+      "2026-10-03T04:15:00",
+      9676.01
     ]
   ],
-  "last_bar_ts": "2026-10-03T04:00:00",
-  "bars_processed": 3804,
+  "last_bar_ts": "2026-10-03T04:15:00",
+  "bars_processed": 3805,
   "starting_cash": 10000.0
 }
