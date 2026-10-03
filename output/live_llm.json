@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T08:45:28",
+  "saved_at": "2026-10-03T09:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short thesis intact with weak momentum, sma12h below sma48h, and crowded-long funding, but near-oversold RSI argues against adding."
     }
   ],
-  "llm_bar_index": 3790,
+  "llm_bar_index": 3791,
   "llm_usage": {
     "calls": 945,
     "prompt_tokens": 339491,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T12:45:00",
-      9828.75
-    ],
     [
       "2026-09-12T13:00:00",
       9828.21
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T08:30:00",
       9678.24
+    ],
+    [
+      "2026-10-03T08:45:00",
+      9678.18
     ]
   ],
-  "last_bar_ts": "2026-10-03T08:30:00",
-  "bars_processed": 3822,
+  "last_bar_ts": "2026-10-03T08:45:00",
+  "bars_processed": 3823,
   "starting_cash": 10000.0
 }
