@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T18:00:59",
+  "saved_at": "2026-10-03T18:15:47",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1534,7 +1534,7 @@
       "reason": "Extreme annualized funding signals crowded longs and near-overbought RSI supports keeping the small profitable short, but thin volume and flat price action argue against adding risk."
     }
   ],
-  "llm_bar_index": 1080,
+  "llm_bar_index": 1081,
   "llm_usage": {
     "calls": 255,
     "prompt_tokens": 91552,
@@ -6140,9 +6140,13 @@
     [
       "2026-10-03T17:45:00",
       10016.73
+    ],
+    [
+      "2026-10-03T18:00:00",
+      10017.26
     ]
   ],
-  "last_bar_ts": "2026-10-03T17:45:00",
-  "bars_processed": 1080,
+  "last_bar_ts": "2026-10-03T18:00:00",
+  "bars_processed": 1081,
   "starting_cash": 10000.0
 }
