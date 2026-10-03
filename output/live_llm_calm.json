@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T16:40:29",
+  "saved_at": "2026-10-03T16:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1522,7 +1522,7 @@
       "reason": "Extreme positive funding and perp premium signal overcrowded longs while trend and RSI lean bearish, so I add modestly to the profitable short to harvest funding carry."
     }
   ],
-  "llm_bar_index": 1074,
+  "llm_bar_index": 1075,
   "llm_usage": {
     "calls": 253,
     "prompt_tokens": 90835,
@@ -6104,9 +6104,13 @@
     [
       "2026-10-03T16:15:00",
       10022.87
+    ],
+    [
+      "2026-10-03T16:30:00",
+      10022.16
     ]
   ],
-  "last_bar_ts": "2026-10-03T16:15:00",
-  "bars_processed": 1074,
+  "last_bar_ts": "2026-10-03T16:30:00",
+  "bars_processed": 1075,
   "starting_cash": 10000.0
 }
