@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T01:30:33",
+  "saved_at": "2026-10-03T01:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Small profitable short benefits from extreme 314% annualized funding carry, while mild bullish momentum and low liquidity argue against adding risk."
     }
   ],
-  "llm_bar_index": 3761,
+  "llm_bar_index": 3762,
   "llm_usage": {
     "calls": 938,
     "prompt_tokens": 336976,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-12T05:30:00",
-      9826.36
-    ],
     [
       "2026-09-12T05:45:00",
       9825.57
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T01:15:00",
       9676.3
+    ],
+    [
+      "2026-10-03T01:30:00",
+      9675.93
     ]
   ],
-  "last_bar_ts": "2026-10-03T01:15:00",
-  "bars_processed": 3793,
+  "last_bar_ts": "2026-10-03T01:30:00",
+  "bars_processed": 3794,
   "starting_cash": 10000.0
 }
