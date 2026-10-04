@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T07:30:33",
+  "saved_at": "2026-10-04T07:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1612,7 +1612,7 @@
       "reason": "Short is profitable and high positive funding/perp premium favor keeping it, but mildly bullish momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1134,
+  "llm_bar_index": 1135,
   "llm_usage": {
     "calls": 268,
     "prompt_tokens": 96229,
@@ -6434,9 +6434,13 @@
     [
       "2026-10-04T07:15:00",
       10022.43
+    ],
+    [
+      "2026-10-04T07:30:00",
+      10020.86
     ]
   ],
-  "last_bar_ts": "2026-10-04T07:15:00",
-  "bars_processed": 1134,
+  "last_bar_ts": "2026-10-04T07:30:00",
+  "bars_processed": 1135,
   "starting_cash": 10000.0
 }
