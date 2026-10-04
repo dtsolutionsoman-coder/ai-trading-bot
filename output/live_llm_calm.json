@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T15:16:09",
+  "saved_at": "2026-10-04T15:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1654,7 +1654,7 @@
       "reason": "Small profitable short collects rich positive funding carry while crowded-long signals (241% funding, +30bps premium) offset the mild uptrend and neutral RSI, so maintain the modest short without addi"
     }
   ],
-  "llm_bar_index": 1165,
+  "llm_bar_index": 1166,
   "llm_usage": {
     "calls": 275,
     "prompt_tokens": 98749,
@@ -6600,9 +6600,13 @@
     [
       "2026-10-04T15:00:00",
       10005.25
+    ],
+    [
+      "2026-10-04T15:15:00",
+      10004.18
     ]
   ],
-  "last_bar_ts": "2026-10-04T15:00:00",
-  "bars_processed": 1165,
+  "last_bar_ts": "2026-10-04T15:15:00",
+  "bars_processed": 1166,
   "starting_cash": 10000.0
 }
