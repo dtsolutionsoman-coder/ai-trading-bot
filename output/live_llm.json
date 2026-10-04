@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-03T23:45:27",
+  "saved_at": "2026-10-04T00:00:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bearish drift (SMA ratio <1, RSI 42) plus rich positive funding rewards holding the small profitable short, but low volatility and mixed momentum argue against adding."
     }
   ],
-  "llm_bar_index": 3850,
+  "llm_bar_index": 3851,
   "llm_usage": {
     "calls": 960,
     "prompt_tokens": 344886,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T03:45:00",
-      9829.19
-    ],
     [
       "2026-09-13T04:00:00",
       9827.29
@@ -12136,9 +12132,13 @@
     [
       "2026-10-03T23:30:00",
       9671.65
+    ],
+    [
+      "2026-10-03T23:45:00",
+      9670.79
     ]
   ],
-  "last_bar_ts": "2026-10-03T23:30:00",
-  "bars_processed": 3882,
+  "last_bar_ts": "2026-10-03T23:45:00",
+  "bars_processed": 3883,
   "starting_cash": 10000.0
 }
