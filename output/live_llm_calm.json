@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T03:30:34",
+  "saved_at": "2026-10-04T03:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1588,7 +1588,7 @@
       "reason": "Extreme 82% annualized funding and positive perp premium flag crowded longs, and with SMA ratio below 1 and negative 6h drift, extending the small profitable short is justified, though near-oversold R"
     }
   ],
-  "llm_bar_index": 1118,
+  "llm_bar_index": 1119,
   "llm_usage": {
     "calls": 264,
     "prompt_tokens": 94789,
@@ -6346,9 +6346,13 @@
     [
       "2026-10-04T03:15:00",
       10026.41
+    ],
+    [
+      "2026-10-04T03:30:00",
+      10024.2
     ]
   ],
-  "last_bar_ts": "2026-10-04T03:15:00",
-  "bars_processed": 1118,
+  "last_bar_ts": "2026-10-04T03:30:00",
+  "bars_processed": 1119,
   "starting_cash": 10000.0
 }
