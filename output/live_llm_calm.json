@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T14:31:16",
+  "saved_at": "2026-10-04T14:45:25",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1648,7 +1648,7 @@
       "reason": "Neutral momentum (RSI 46.9, flat SMA ratio) with extreme positive funding and perp premium favoring the existing small profitable short, but no strong signal to add."
     }
   ],
-  "llm_bar_index": 1162,
+  "llm_bar_index": 1163,
   "llm_usage": {
     "calls": 274,
     "prompt_tokens": 98389,
@@ -6582,9 +6582,13 @@
     [
       "2026-10-04T14:15:00",
       10011.24
+    ],
+    [
+      "2026-10-04T14:30:00",
+      10011.45
     ]
   ],
-  "last_bar_ts": "2026-10-04T14:15:00",
-  "bars_processed": 1162,
+  "last_bar_ts": "2026-10-04T14:30:00",
+  "bars_processed": 1163,
   "starting_cash": 10000.0
 }
