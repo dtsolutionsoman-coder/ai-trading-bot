@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T19:30:35",
+  "saved_at": "2026-10-04T19:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1678,7 +1678,7 @@
       "reason": "Extreme positive funding (231% ann.) and elevated perp premium favor the existing profitable short, but mild upward price drift and neutral RSI argue against adding risk."
     }
   ],
-  "llm_bar_index": 1182,
+  "llm_bar_index": 1183,
   "llm_usage": {
     "calls": 279,
     "prompt_tokens": 100190,
@@ -6692,9 +6692,13 @@
     [
       "2026-10-04T19:15:00",
       10003.98
+    ],
+    [
+      "2026-10-04T19:30:00",
+      10004.3
     ]
   ],
-  "last_bar_ts": "2026-10-04T19:15:00",
-  "bars_processed": 1182,
+  "last_bar_ts": "2026-10-04T19:30:00",
+  "bars_processed": 1183,
   "starting_cash": 10000.0
 }
