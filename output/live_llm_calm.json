@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T22:15:46",
+  "saved_at": "2026-10-04T22:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1696,7 +1696,7 @@
       "reason": "Extreme 302% annualized funding, overbought RSI 75.6, and elevated perp premium signal crowded longs ripe for a pullback, making a modest short add attractive for carry despite the mild uptrend."
     }
   ],
-  "llm_bar_index": 1193,
+  "llm_bar_index": 1194,
   "llm_usage": {
     "calls": 282,
     "prompt_tokens": 101271,
@@ -6754,9 +6754,13 @@
     [
       "2026-10-04T22:00:00",
       9984.11
+    ],
+    [
+      "2026-10-04T22:15:00",
+      9986.0
     ]
   ],
-  "last_bar_ts": "2026-10-04T22:00:00",
-  "bars_processed": 1193,
+  "last_bar_ts": "2026-10-04T22:15:00",
+  "bars_processed": 1194,
   "starting_cash": 10000.0
 }

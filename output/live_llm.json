@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T22:15:45",
+  "saved_at": "2026-10-04T22:30:31",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 70% funding and RSI 79 support keeping the small short for carry, but positive momentum across timeframes argues against adding to a slightly losing position."
     }
   ],
-  "llm_bar_index": 3940,
+  "llm_bar_index": 3941,
   "llm_usage": {
     "calls": 983,
     "prompt_tokens": 353155,
@@ -4173,10 +4173,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T02:15:00",
-      9790.06
-    ],
     [
       "2026-09-14T02:30:00",
       9789.97
@@ -12172,9 +12168,13 @@
     [
       "2026-10-04T22:00:00",
       9632.72
+    ],
+    [
+      "2026-10-04T22:15:00",
+      9634.53
     ]
   ],
-  "last_bar_ts": "2026-10-04T22:00:00",
-  "bars_processed": 3972,
+  "last_bar_ts": "2026-10-04T22:15:00",
+  "bars_processed": 3973,
   "starting_cash": 10000.0
 }
