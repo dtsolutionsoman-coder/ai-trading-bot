@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T19:16:12",
+  "saved_at": "2026-10-04T19:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme 237% annualized funding and positive perp premium signal overcrowded longs, rewarding the existing profitable short with funding income despite mild upward drift."
     }
   ],
-  "llm_bar_index": 3928,
+  "llm_bar_index": 3929,
   "llm_usage": {
     "calls": 980,
     "prompt_tokens": 352075,
@@ -4173,10 +4173,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T23:15:00",
-      9809.07
-    ],
     [
       "2026-09-13T23:30:00",
       9806.13
@@ -12172,9 +12168,13 @@
     [
       "2026-10-04T19:00:00",
       9653.02
+    ],
+    [
+      "2026-10-04T19:15:00",
+      9651.72
     ]
   ],
-  "last_bar_ts": "2026-10-04T19:00:00",
-  "bars_processed": 3960,
+  "last_bar_ts": "2026-10-04T19:15:00",
+  "bars_processed": 3961,
   "starting_cash": 10000.0
 }
