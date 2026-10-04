@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T04:15:38",
+  "saved_at": "2026-10-04T04:30:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "High positive funding (73% ann) plus sub-1 SMA ratio and weak RSI support the profitable short, so adding modestly while avoiding overextension in flat, low-volume conditions."
     }
   ],
-  "llm_bar_index": 3868,
+  "llm_bar_index": 3869,
   "llm_usage": {
     "calls": 965,
     "prompt_tokens": 346685,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T08:15:00",
-      9825.03
-    ],
     [
       "2026-09-13T08:30:00",
       9819.6
@@ -12136,9 +12132,13 @@
     [
       "2026-10-04T04:00:00",
       9675.5
+    ],
+    [
+      "2026-10-04T04:15:00",
+      9674.99
     ]
   ],
-  "last_bar_ts": "2026-10-04T04:00:00",
-  "bars_processed": 3900,
+  "last_bar_ts": "2026-10-04T04:15:00",
+  "bars_processed": 3901,
   "starting_cash": 10000.0
 }
