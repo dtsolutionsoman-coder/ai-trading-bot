@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T08:01:08",
+  "saved_at": "2026-10-04T08:15:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1618,7 +1618,7 @@
       "reason": "RSI ~80, extreme 102% annualized funding, and perp premium signal over-crowded longs, so modestly add to the small profitable short while it earns funding."
     }
   ],
-  "llm_bar_index": 1136,
+  "llm_bar_index": 1137,
   "llm_usage": {
     "calls": 269,
     "prompt_tokens": 96589,
@@ -6448,9 +6448,13 @@
     [
       "2026-10-04T07:45:00",
       10017.03
+    ],
+    [
+      "2026-10-04T08:00:00",
+      10014.49
     ]
   ],
-  "last_bar_ts": "2026-10-04T07:45:00",
-  "bars_processed": 1136,
+  "last_bar_ts": "2026-10-04T08:00:00",
+  "bars_processed": 1137,
   "starting_cash": 10000.0
 }
