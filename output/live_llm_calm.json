@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T23:30:33",
+  "saved_at": "2026-10-04T23:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1702,7 +1702,7 @@
       "reason": "Overbought RSI and elevated funding justify keeping the small short open, but positive price momentum and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 1198,
+  "llm_bar_index": 1199,
   "llm_usage": {
     "calls": 283,
     "prompt_tokens": 101632,
@@ -6780,9 +6780,13 @@
     [
       "2026-10-04T23:15:00",
       9974.99
+    ],
+    [
+      "2026-10-04T23:30:00",
+      9980.6
     ]
   ],
-  "last_bar_ts": "2026-10-04T23:15:00",
-  "bars_processed": 1198,
+  "last_bar_ts": "2026-10-04T23:30:00",
+  "bars_processed": 1199,
   "starting_cash": 10000.0
 }
