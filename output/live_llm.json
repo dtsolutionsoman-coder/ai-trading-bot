@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T06:45:27",
+  "saved_at": "2026-10-04T07:00:41",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Overbought RSI (78) with extreme positive funding (198% ann.) and perp premium signals crowded longs, supporting the already profitable short, though thin volume and mildly rising price cap conviction"
     }
   ],
-  "llm_bar_index": 3878,
+  "llm_bar_index": 3879,
   "llm_usage": {
     "calls": 967,
     "prompt_tokens": 347403,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T10:45:00",
-      9818.66
-    ],
     [
       "2026-09-13T11:00:00",
       9820.81
@@ -12136,9 +12132,13 @@
     [
       "2026-10-04T06:30:00",
       9671.39
+    ],
+    [
+      "2026-10-04T06:45:00",
+      9670.77
     ]
   ],
-  "last_bar_ts": "2026-10-04T06:30:00",
-  "bars_processed": 3910,
+  "last_bar_ts": "2026-10-04T06:45:00",
+  "bars_processed": 3911,
   "starting_cash": 10000.0
 }
