@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T16:55:41",
+  "saved_at": "2026-10-04T17:00:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable small short benefits from extreme 249% annualized funding and crowded-long premium/OI, but mild uptrend (SMA ratio >1, RSI ~60) argues against adding; keep short to collect carry."
     }
   ],
-  "llm_bar_index": 3918,
+  "llm_bar_index": 3919,
   "llm_usage": {
     "calls": 977,
     "prompt_tokens": 350995,
@@ -4164,10 +4164,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T20:45:00",
-      9798.9
-    ],
     [
       "2026-09-13T21:00:00",
       9790.54
@@ -12163,9 +12159,13 @@
     [
       "2026-10-04T16:30:00",
       9654.69
+    ],
+    [
+      "2026-10-04T16:45:00",
+      9654.84
     ]
   ],
-  "last_bar_ts": "2026-10-04T16:30:00",
-  "bars_processed": 3950,
+  "last_bar_ts": "2026-10-04T16:45:00",
+  "bars_processed": 3951,
   "starting_cash": 10000.0
 }
