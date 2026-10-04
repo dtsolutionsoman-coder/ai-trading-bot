@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T00:15:44",
+  "saved_at": "2026-10-04T00:30:33",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Profitable short earns extreme positive funding (280% ann.) and premium, but flat price action, neutral RSI, and thin volume argue against adding risk."
     }
   ],
-  "llm_bar_index": 3852,
+  "llm_bar_index": 3853,
   "llm_usage": {
     "calls": 961,
     "prompt_tokens": 345245,
@@ -4137,10 +4137,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T04:15:00",
-      9829.09
-    ],
     [
       "2026-09-13T04:30:00",
       9828.46
@@ -12136,9 +12132,13 @@
     [
       "2026-10-04T00:00:00",
       9671.11
+    ],
+    [
+      "2026-10-04T00:15:00",
+      9672.73
     ]
   ],
-  "last_bar_ts": "2026-10-04T00:00:00",
-  "bars_processed": 3884,
+  "last_bar_ts": "2026-10-04T00:15:00",
+  "bars_processed": 3885,
   "starting_cash": 10000.0
 }
