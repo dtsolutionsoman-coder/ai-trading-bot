@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T18:45:26",
+  "saved_at": "2026-10-04T19:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Extreme positive funding (222% ann) and perp premium signal crowded longs while price action is flat, so the small profitable short collecting funding is worth keeping."
     }
   ],
-  "llm_bar_index": 3926,
+  "llm_bar_index": 3927,
   "llm_usage": {
     "calls": 979,
     "prompt_tokens": 351715,
@@ -4173,10 +4173,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-13T22:45:00",
-      9808.53
-    ],
     [
       "2026-09-13T23:00:00",
       9808.69
@@ -12172,9 +12168,13 @@
     [
       "2026-10-04T18:30:00",
       9654.4
+    ],
+    [
+      "2026-10-04T18:45:00",
+      9654.06
     ]
   ],
-  "last_bar_ts": "2026-10-04T18:30:00",
-  "bars_processed": 3958,
+  "last_bar_ts": "2026-10-04T18:45:00",
+  "bars_processed": 3959,
   "starting_cash": 10000.0
 }
