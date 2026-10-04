@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T00:37:38",
+  "saved_at": "2026-10-04T00:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1570,7 +1570,7 @@
       "reason": "Profitable short supported by extreme positive funding, elevated perp premium, and sub-1 SMA ratio signaling crowded longs in a weak tape; keep the short but low volatility argues against adding."
     }
   ],
-  "llm_bar_index": 1106,
+  "llm_bar_index": 1107,
   "llm_usage": {
     "calls": 261,
     "prompt_tokens": 93712,
@@ -6280,9 +6280,13 @@
     [
       "2026-10-04T00:15:00",
       10023.34
+    ],
+    [
+      "2026-10-04T00:30:00",
+      10022.19
     ]
   ],
-  "last_bar_ts": "2026-10-04T00:15:00",
-  "bars_processed": 1106,
+  "last_bar_ts": "2026-10-04T00:30:00",
+  "bars_processed": 1107,
   "starting_cash": 10000.0
 }
