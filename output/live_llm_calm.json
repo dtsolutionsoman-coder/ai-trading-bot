@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T07:30:36",
+  "saved_at": "2026-10-05T07:45:29",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1750,7 +1750,7 @@
       "reason": "Mixed signals (mild bullish trend vs positive funding and low-vol chop) justify keeping the tiny short carry position at reduced size rather than adding risk."
     }
   ],
-  "llm_bar_index": 1230,
+  "llm_bar_index": 1231,
   "llm_usage": {
     "calls": 291,
     "prompt_tokens": 104502,
@@ -6974,9 +6974,13 @@
     [
       "2026-10-05T07:15:00",
       9959.26
+    ],
+    [
+      "2026-10-05T07:30:00",
+      9957.83
     ]
   ],
-  "last_bar_ts": "2026-10-05T07:15:00",
-  "bars_processed": 1230,
+  "last_bar_ts": "2026-10-05T07:30:00",
+  "bars_processed": 1231,
   "starting_cash": 10000.0
 }

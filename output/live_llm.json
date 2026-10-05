@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T07:30:36",
+  "saved_at": "2026-10-05T07:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mildly bullish trend (SMA ratio >1, RSI 54.7, 24h up) argues against the small losing short, but elevated funding and thin volume cap conviction."
     }
   ],
-  "llm_bar_index": 3977,
+  "llm_bar_index": 3978,
   "llm_usage": {
     "calls": 992,
     "prompt_tokens": 356382,
@@ -4200,10 +4200,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T11:30:00",
-      9756.48
-    ],
     [
       "2026-09-14T11:45:00",
       9755.26
@@ -12199,9 +12195,13 @@
     [
       "2026-10-05T07:15:00",
       9594.84
+    ],
+    [
+      "2026-10-05T07:30:00",
+      9596.67
     ]
   ],
-  "last_bar_ts": "2026-10-05T07:15:00",
-  "bars_processed": 4009,
+  "last_bar_ts": "2026-10-05T07:30:00",
+  "bars_processed": 4010,
   "starting_cash": 10000.0
 }
