@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T09:01:26",
+  "saved_at": "2026-10-05T09:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1762,7 +1762,7 @@
       "reason": "Extreme positive funding and fading short-term momentum support the small short's carry, but the mild uptrend (SMA ratio >1, positive 24h) argues against adding."
     }
   ],
-  "llm_bar_index": 1236,
+  "llm_bar_index": 1237,
   "llm_usage": {
     "calls": 293,
     "prompt_tokens": 105220,
@@ -7019,9 +7019,13 @@
     [
       "2026-10-05T08:45:00",
       9957.43
+    ],
+    [
+      "2026-10-05T09:00:00",
+      9959.71
     ]
   ],
-  "last_bar_ts": "2026-10-05T08:45:00",
-  "bars_processed": 1236,
+  "last_bar_ts": "2026-10-05T09:00:00",
+  "bars_processed": 1237,
   "starting_cash": 10000.0
 }
