@@ -1,5 +1,22 @@
 # AI Trading Bot — four bots, one engine, all paper-first
 
+> **🫀 EXPERIMENT CONCLUDED 2026-10-05 — 41 days, $0 infrastructure cost, $0 lost.**
+>
+> Findings in three lines: (1) four strategies were built, raced on paper, and
+> three were retired on measured evidence (hot-funding carry, Solana sniping,
+> carry-on-BTC — funding measured at 11% ann, too tame to pay); (2) the LLM
+> analyst beat the dumb control on every metric but its raw signal (+$0.45 per
+> trade) never exceeded costs (fees ~10 bps) — the best variant, chop-gated
+> GLM, reached profit factor 1.27 out-of-sample and was still underwater net
+> of fees; (3) Polymarket's first resolvable judgments were days from scoring.
+>
+> Everything is preserved: 41 days of state, decisions (with the model's
+> written reasons), fills, and market data in `output/` and git history.
+>
+> **To resume:** GitHub → Actions → `bots` → ⋯ → "Enable workflow", and
+> re-create the 15-min heartbeat in cron-job.org (`GH_ACTIONS.md`). The books
+> continue from their saved state exactly where they stopped.
+
 A modular, stdlib-only Python trading system inspired by the "AI builds a
 trading bot" genre. Four bots share one core (portfolio, risk, strategies,
 fills), differ only by venue:
