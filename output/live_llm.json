@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-04T23:45:27",
+  "saved_at": "2026-10-05T00:00:40",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Cutting the small losing short as momentum and SMA trend drift mildly bullish, but keeping exposure minimal given extreme RSI 77 overbought and elevated funding."
     }
   ],
-  "llm_bar_index": 3946,
+  "llm_bar_index": 3947,
   "llm_usage": {
     "calls": 984,
     "prompt_tokens": 353512,
@@ -4182,10 +4182,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T03:45:00",
-      9768.79
-    ],
     [
       "2026-09-14T04:00:00",
       9769.29
@@ -12181,9 +12177,13 @@
     [
       "2026-10-04T23:30:00",
       9618.86
+    ],
+    [
+      "2026-10-04T23:45:00",
+      9618.93
     ]
   ],
-  "last_bar_ts": "2026-10-04T23:30:00",
-  "bars_processed": 3978,
+  "last_bar_ts": "2026-10-04T23:45:00",
+  "bars_processed": 3979,
   "starting_cash": 10000.0
 }
