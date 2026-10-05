@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-05T01:10:45",
+  "saved_at": "2026-10-05T01:15:43",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-14T03:00:00",
-      "action": "buy",
-      "conviction": 0.2,
-      "reason": "Cutting the small losing short as rising prices across all timeframes and SMA ratio >1 invalidate the bearish thesis, but sizing light given RSI near overbought and longs paying elevated funding."
-    },
     {
       "ts": "2026-09-14T04:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "hold",
       "conviction": 0.3,
       "reason": "Mild uptrend (positive 6h/24h, SMA ratio >1, RSI ~60) supports the small long, but elevated funding costs and low liquidity argue against adding, so maintain current reduced exposure."
+    },
+    {
+      "ts": "2026-10-05T01:00:00",
+      "action": "hold",
+      "conviction": 0.15,
+      "reason": "Mild uptrend supports the small long, but RSI near 70 and 20% annualized funding signal crowded longs, so no adding here."
     }
   ],
-  "llm_bar_index": 3951,
+  "llm_bar_index": 3952,
   "llm_usage": {
-    "calls": 985,
-    "prompt_tokens": 353872,
-    "completion_tokens": 1017350
+    "calls": 986,
+    "prompt_tokens": 354231,
+    "completion_tokens": 1017966
   },
   "cash": 8176.634353431229,
   "positions": {
@@ -4182,10 +4182,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T05:00:00",
-      9764.61
-    ],
     [
       "2026-09-14T05:15:00",
       9767.85
@@ -12181,9 +12177,13 @@
     [
       "2026-10-05T00:45:00",
       9622.88
+    ],
+    [
+      "2026-10-05T01:00:00",
+      9623.85
     ]
   ],
-  "last_bar_ts": "2026-10-05T00:45:00",
-  "bars_processed": 3983,
+  "last_bar_ts": "2026-10-05T01:00:00",
+  "bars_processed": 3984,
   "starting_cash": 10000.0
 }
