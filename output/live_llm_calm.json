@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T05:01:25",
+  "saved_at": "2026-10-05T05:15:38",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1738,7 +1738,7 @@
       "reason": "Small profitable short aligns with negative 1h/6h momentum and 88% annualized funding paid to shorts, but RSI 14.3 is deeply oversold so I'll defend the position rather than add."
     }
   ],
-  "llm_bar_index": 1220,
+  "llm_bar_index": 1221,
   "llm_usage": {
     "calls": 289,
     "prompt_tokens": 103783,
@@ -6922,9 +6922,13 @@
     [
       "2026-10-05T04:45:00",
       9969.5
+    ],
+    [
+      "2026-10-05T05:00:00",
+      9969.66
     ]
   ],
-  "last_bar_ts": "2026-10-05T04:45:00",
-  "bars_processed": 1220,
+  "last_bar_ts": "2026-10-05T05:00:00",
+  "bars_processed": 1221,
   "starting_cash": 10000.0
 }
