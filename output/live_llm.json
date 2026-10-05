@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-05T03:00:38",
+  "saved_at": "2026-10-05T03:15:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-14T05:00:00",
-      "action": "sell",
-      "conviction": 0.45,
-      "reason": "Overbought RSI (74.8) with costly 10.95% funding and thin volume outweighs mild gains, so trimming the small losing long."
-    },
     {
       "ts": "2026-09-14T06:00:00",
       "action": "buy",
@@ -3002,13 +2996,19 @@
       "action": "buy",
       "conviction": 0.15,
       "reason": "Mild uptrend (6h/24h positive, SMA ratio >1, RSI 60) supports a small long add, but elevated funding and thin volume cap conviction."
+    },
+    {
+      "ts": "2026-10-05T03:00:00",
+      "action": "hold",
+      "conviction": 0.3,
+      "reason": "Mild uptrend (SMA ratio >1, +1.9% 24h, RSI ~52) supports keeping the small long, but flat OI, low volume, and costly funding argue against adding to a barely-profitable setup."
     }
   ],
-  "llm_bar_index": 3959,
+  "llm_bar_index": 3960,
   "llm_usage": {
-    "calls": 987,
-    "prompt_tokens": 354589,
-    "completion_tokens": 1018952
+    "calls": 988,
+    "prompt_tokens": 354948,
+    "completion_tokens": 1019589
   },
   "cash": 8176.634353431229,
   "positions": {
@@ -4182,10 +4182,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T07:00:00",
-      9750.49
-    ],
     [
       "2026-09-14T07:15:00",
       9752.03
@@ -12181,9 +12177,13 @@
     [
       "2026-10-05T02:45:00",
       9620.52
+    ],
+    [
+      "2026-10-05T03:00:00",
+      9619.83
     ]
   ],
-  "last_bar_ts": "2026-10-05T02:45:00",
-  "bars_processed": 3991,
+  "last_bar_ts": "2026-10-05T03:00:00",
+  "bars_processed": 3992,
   "starting_cash": 10000.0
 }
