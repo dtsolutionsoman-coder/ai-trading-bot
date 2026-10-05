@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T00:00:53",
+  "saved_at": "2026-10-05T00:15:34",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1708,7 +1708,7 @@
       "reason": "Mild uptrend (positive 6h/24h, SMA ratio >1, bullish RSI) invalidates the small losing short; covering it while avoiding aggressive longs near overbought RSI."
     }
   ],
-  "llm_bar_index": 1200,
+  "llm_bar_index": 1201,
   "llm_usage": {
     "calls": 284,
     "prompt_tokens": 101991,
@@ -6803,9 +6803,13 @@
     [
       "2026-10-04T23:45:00",
       9972.9
+    ],
+    [
+      "2026-10-05T00:00:00",
+      9969.64
     ]
   ],
-  "last_bar_ts": "2026-10-04T23:45:00",
-  "bars_processed": 1200,
+  "last_bar_ts": "2026-10-05T00:00:00",
+  "bars_processed": 1201,
   "starting_cash": 10000.0
 }
