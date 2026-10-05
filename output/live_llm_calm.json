@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T08:15:38",
+  "saved_at": "2026-10-05T08:30:36",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1756,7 +1756,7 @@
       "reason": "Extreme 131% annualized funding, RSI near 70 overbought, and rich perp premium signal crowded longs worth fading while 6h momentum turns negative, so I modestly add to the small short and collect fund"
     }
   ],
-  "llm_bar_index": 1233,
+  "llm_bar_index": 1234,
   "llm_usage": {
     "calls": 292,
     "prompt_tokens": 104862,
@@ -7001,9 +7001,13 @@
     [
       "2026-10-05T08:00:00",
       9949.94
+    ],
+    [
+      "2026-10-05T08:15:00",
+      9951.64
     ]
   ],
-  "last_bar_ts": "2026-10-05T08:00:00",
-  "bars_processed": 1233,
+  "last_bar_ts": "2026-10-05T08:15:00",
+  "bars_processed": 1234,
   "starting_cash": 10000.0
 }
