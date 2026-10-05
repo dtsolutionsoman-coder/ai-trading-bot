@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T08:30:35",
+  "saved_at": "2026-10-05T08:45:26",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "RSI 81 and ~96% annualized funding show crowded overextended longs, so trimming the small long to protect its minor profit and avoid funding drag."
     }
   ],
-  "llm_bar_index": 3981,
+  "llm_bar_index": 3982,
   "llm_usage": {
     "calls": 993,
     "prompt_tokens": 356742,
@@ -4209,10 +4209,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T12:30:00",
-      9759.15
-    ],
     [
       "2026-09-14T12:45:00",
       9753.06
@@ -12208,9 +12204,13 @@
     [
       "2026-10-05T08:15:00",
       9597.24
+    ],
+    [
+      "2026-10-05T08:30:00",
+      9600.9
     ]
   ],
-  "last_bar_ts": "2026-10-05T08:15:00",
-  "bars_processed": 4013,
+  "last_bar_ts": "2026-10-05T08:30:00",
+  "bars_processed": 4014,
   "starting_cash": 10000.0
 }
