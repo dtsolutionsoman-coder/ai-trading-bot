@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T04:15:43",
+  "saved_at": "2026-10-05T04:30:37",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Fading short-term momentum (negative 1h/6h, RSI 33) and extremely costly long funding outweigh the mild 24h uptrend, so I'm cutting the small losing long."
     }
   ],
-  "llm_bar_index": 3964,
+  "llm_bar_index": 3965,
   "llm_usage": {
     "calls": 989,
     "prompt_tokens": 355308,
@@ -4191,10 +4191,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T08:15:00",
-      9754.19
-    ],
     [
       "2026-09-14T08:30:00",
       9753.78
@@ -12190,9 +12186,13 @@
     [
       "2026-10-05T04:00:00",
       9608.72
+    ],
+    [
+      "2026-10-05T04:15:00",
+      9614.1
     ]
   ],
-  "last_bar_ts": "2026-10-05T04:00:00",
-  "bars_processed": 3996,
+  "last_bar_ts": "2026-10-05T04:15:00",
+  "bars_processed": 3997,
   "starting_cash": 10000.0
 }
