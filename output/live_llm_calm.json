@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T10:01:00",
+  "saved_at": "2026-10-05T10:15:49",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1768,7 +1768,7 @@
       "reason": "Extreme positive funding and perp premium reward keeping the small profitable short, but mildly bullish trend and neutral RSI prevent adding risk."
     }
   ],
-  "llm_bar_index": 1240,
+  "llm_bar_index": 1241,
   "llm_usage": {
     "calls": 294,
     "prompt_tokens": 105579,
@@ -7041,9 +7041,13 @@
     [
       "2026-10-05T09:45:00",
       9962.27
+    ],
+    [
+      "2026-10-05T10:00:00",
+      9957.11
     ]
   ],
-  "last_bar_ts": "2026-10-05T09:45:00",
-  "bars_processed": 1240,
+  "last_bar_ts": "2026-10-05T10:00:00",
+  "bars_processed": 1241,
   "starting_cash": 10000.0
 }

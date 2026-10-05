@@ -1,14 +1,8 @@
 {
-  "saved_at": "2026-10-05T10:00:39",
+  "saved_at": "2026-10-05T10:15:48",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
-    {
-      "ts": "2026-09-14T12:00:00",
-      "action": "hold",
-      "conviction": 0.3,
-      "reason": "Mild bullish drift (24h +1.4%, SMA ratio >1, RSI neutral) but weak momentum, thin volume, and elevated funding argue for keeping only the small existing long rather than adding."
-    },
     {
       "ts": "2026-09-14T13:00:00",
       "action": "hold",
@@ -3002,13 +2996,19 @@
       "action": "sell",
       "conviction": 0.3,
       "reason": "Extreme 92% annualized funding and elevated perp premium signal crowded longs while 1h/6h momentum fades, so adding modestly to the small profitable short to collect funding."
+    },
+    {
+      "ts": "2026-10-05T10:00:00",
+      "action": "hold",
+      "conviction": 0.35,
+      "reason": "Mild uptrend and neutral RSI argue against the short, but extreme 222% annualized funding and perp premium favor keeping the small, slightly profitable short to harvest funding."
     }
   ],
-  "llm_bar_index": 3987,
+  "llm_bar_index": 3988,
   "llm_usage": {
-    "calls": 994,
-    "prompt_tokens": 357101,
-    "completion_tokens": 1025381
+    "calls": 995,
+    "prompt_tokens": 357461,
+    "completion_tokens": 1026317
   },
   "cash": 12006.238288627803,
   "positions": {
@@ -4218,10 +4218,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T14:00:00",
-      9776.53
-    ],
     [
       "2026-09-14T14:15:00",
       9773.3
@@ -12217,9 +12213,13 @@
     [
       "2026-10-05T09:45:00",
       9607.47
+    ],
+    [
+      "2026-10-05T10:00:00",
+      9602.48
     ]
   ],
-  "last_bar_ts": "2026-10-05T09:45:00",
-  "bars_processed": 4019,
+  "last_bar_ts": "2026-10-05T10:00:00",
+  "bars_processed": 4020,
   "starting_cash": 10000.0
 }
