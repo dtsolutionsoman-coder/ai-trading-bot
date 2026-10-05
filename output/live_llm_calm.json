@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T03:15:38",
+  "saved_at": "2026-10-05T03:30:32",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1726,7 +1726,7 @@
       "reason": "Mild uptrend (24h +1.9%, SMA ratio >1) but neutral RSI, elevated 10.95% funding, and thin volume argue against adding to the small existing long."
     }
   ],
-  "llm_bar_index": 1213,
+  "llm_bar_index": 1214,
   "llm_usage": {
     "calls": 287,
     "prompt_tokens": 103067,
@@ -6873,9 +6873,13 @@
     [
       "2026-10-05T03:00:00",
       9974.46
+    ],
+    [
+      "2026-10-05T03:15:00",
+      9974.23
     ]
   ],
-  "last_bar_ts": "2026-10-05T03:00:00",
-  "bars_processed": 1213,
+  "last_bar_ts": "2026-10-05T03:15:00",
+  "bars_processed": 1214,
   "starting_cash": 10000.0
 }
