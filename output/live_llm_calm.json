@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T01:30:37",
+  "saved_at": "2026-10-05T01:45:28",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1714,7 +1714,7 @@
       "reason": "Momentum, SMA ratio and RSI lean bullish but 23% annualized funding and thin volume make adding longs expensive, so keep the small profitable position."
     }
   ],
-  "llm_bar_index": 1206,
+  "llm_bar_index": 1207,
   "llm_usage": {
     "calls": 285,
     "prompt_tokens": 102350,
@@ -6833,9 +6833,13 @@
     [
       "2026-10-05T01:15:00",
       9987.91
+    ],
+    [
+      "2026-10-05T01:30:00",
+      9981.76
     ]
   ],
-  "last_bar_ts": "2026-10-05T01:15:00",
-  "bars_processed": 1206,
+  "last_bar_ts": "2026-10-05T01:30:00",
+  "bars_processed": 1207,
   "starting_cash": 10000.0
 }

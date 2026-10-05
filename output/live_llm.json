@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T01:30:36",
+  "saved_at": "2026-10-05T01:45:27",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -3004,7 +3004,7 @@
       "reason": "Mild uptrend supports the small long, but RSI near 70 and 20% annualized funding signal crowded longs, so no adding here."
     }
   ],
-  "llm_bar_index": 3953,
+  "llm_bar_index": 3954,
   "llm_usage": {
     "calls": 986,
     "prompt_tokens": 354231,
@@ -4182,10 +4182,6 @@
     }
   ],
   "equity_curve": [
-    [
-      "2026-09-14T05:30:00",
-      9765.9
-    ],
     [
       "2026-09-14T05:45:00",
       9765.4
@@ -12181,9 +12177,13 @@
     [
       "2026-10-05T01:15:00",
       9627.6
+    ],
+    [
+      "2026-10-05T01:30:00",
+      9624.05
     ]
   ],
-  "last_bar_ts": "2026-10-05T01:15:00",
-  "bars_processed": 3985,
+  "last_bar_ts": "2026-10-05T01:30:00",
+  "bars_processed": 3986,
   "starting_cash": 10000.0
 }
