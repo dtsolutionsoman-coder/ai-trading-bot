@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-05T04:01:02",
+  "saved_at": "2026-10-05T04:15:44",
   "symbol": "BTC",
   "interval": "15m",
   "decisions": [
@@ -1732,7 +1732,7 @@
       "reason": "Negative short-term momentum, RSI 36 weakening, and punishing 90% annualized funding make the small losing long uneconomical to hold; trimming toward flat with a token short bias."
     }
   ],
-  "llm_bar_index": 1216,
+  "llm_bar_index": 1217,
   "llm_usage": {
     "calls": 288,
     "prompt_tokens": 103425,
@@ -6900,9 +6900,13 @@
     [
       "2026-10-05T03:45:00",
       9959.78
+    ],
+    [
+      "2026-10-05T04:00:00",
+      9960.11
     ]
   ],
-  "last_bar_ts": "2026-10-05T03:45:00",
-  "bars_processed": 1216,
+  "last_bar_ts": "2026-10-05T04:00:00",
+  "bars_processed": 1217,
   "starting_cash": 10000.0
 }
